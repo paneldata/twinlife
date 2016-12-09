@@ -17,7 +17,7 @@ config:
     Prof. Dr. Frank M. Spinath (f.spinath@mx.uni- saarland.de)
 * **URL:** http://www.twin-life.de/
 
-## Study info
+## Study info edit
 
 TwinLife is a 12-year representative behavior genetic study investigating the emergence and development of social inequalities over the life course.
 The long-term project began in 2014 and surveys more than 4,000 pairs of twins and their families in different stages of life on a yearly basis. All of the subjects reside in Germany. Not only social, but also genetic mechanisms as well as covariations and interactions between these two factors can be examined with the help of identical and fraternal same-sex twins.
