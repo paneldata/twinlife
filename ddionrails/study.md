@@ -51,20 +51,23 @@ Germany
  
 Universe:
 Twins and their families (Extended Twin Family Design, ETFD): Monozygotic and dizygotic same-sex twin pairs born in the following years: 1.) 1990 and 1991, 2.) 1997, 3.) 2003 and 4.) 2009 (4 birth cohorts)
-+ at least one biological parent
+plus at least one biological parent
 (+ if possible the other biological parent, step-parent(-s), one sibling and the twins' partners)
  
 Selection Method:
 Twin families are drawn from local resident registers in communities with at least 5,000 inhabitants in Germany. The twin families are recognized as such if two same-sex people with the same date of birth lived in the same household. Then, it was checked whether the selected persons were twins indeed.
  
 Mode of Data Collection:
-Household interviews with the family via three different interview modes (CAPI, CASI, Paper-and-Pencil) plus cognitive tests, scans/photos of certificates and children's health record books; interviews with family members living outside the interviewed households by two modes (CAWI, Paper-and-pencil).
+Face-to-Face interviews: Household interviews with the family via three different interview modes (CAPI, CASI, Paper-and-Pencil) plus cognitive tests, scans/photos of certificates and children's health record books; interviews with family members living outside the interviewed households by two modes (CAWI, Paper-and-pencil).
+CATI interviews: Telephone interview with one family member (from second CATI wave onwards; before: telephone interview with each family member above the age of 10 that participated in the preceding Face-to-Face wave)
  
 Data Collector:
-First wave (first Face-to-Face interview): TNS Infratest
+First wave (first Face-to-Face interview + half of first CATI wave): Kantar TNS (TNS Infratest)
+From second wave onwards: infas Institut für angewandte Sozialwissenschaft
  
 Date of Collection:
 10/01/2014 to 05/31/2015 (Face-to-Face 1a)
+10/01/2015 to 04/30/2016 (Face-to-Face 1b)
 
 ## Data access 
 
@@ -75,10 +78,10 @@ GESIS Data Catalogue: https://dbk.gesis.org/dbksearch/index.asp
 ## Study units
 
 Number of Units:
-F2F 1a: 10510 individuals, 2009 families
+19163 individuals, 4097 families
  
 Number of Variables:
-F2F 1a: 2568 (individual format), 8895 (family format)
+F2F 1: 2576 (individual format), 9037 (family format)
 
 ## Other material and Notes
 
