@@ -15,10 +15,9 @@ config:
 * **Principle Investigators:** Prof. Dr. Martin Diewald (martin.diewald[at]uni-bielefeld.de);    
     Prof. Dr. Rainer Riemann (rainer.riemann[at]uni-bielefeld.de);    
     Prof. Dr. Frank M. Spinath (f.spinath[at]mx.uni-saarland.de)
-* **URL:** [http://www.twin-life.de/](http://www.twin-life.de/)
+* **URL:** [https://www.twin-life.de/documentation/](https://www.twin-life.de/documentation/)
 
-Please cite both the dataset (Diewald et al., 2019: [http://doi.org/doi:10.4232/1.13208](http://doi.org/doi:10.4232/1.13208)) and the reference paper (Hahn et al., 2016: 
-[https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
+Please cite both the dataset (Diewald et al., 2019: [https://doi.org/10.4232/1.13539](https://doi.org/10.4232/1.13539)) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
 
 ## Study info
 
@@ -43,7 +42,7 @@ In the following, the contents of the TwinLife Data are described in more detail
 
 1.1 Educational success
 
-- School report; if not available: supplementary questions
+- [School report](https://paneldata.org/concept/cer00); if not available: supplementary questions
 - Current school marks or rather marks of highest graduation 
           
 1.2 Intelligence
@@ -232,21 +231,6 @@ In the following, the contents of the TwinLife Data are described in more detail
 - E.g., same or different clothing, confusion of the twins, undertakings with twins
 
 
-The data delivery consists of a certain number of data files in different data formats:
-
-- One master data set (ZA6701_master_v$): Includes information on the gross sample, such as consistency checked, time stable variables (sex, year of birth, relation to twins, zygosity) 
-and wave-specific variables (person type, response status, family composition) about all individuals included in TwinLife in each wave
-- One data file in person-wave-format (‘long format’; ZA6701_person_v$): Each surveyed person has one data row for each survey wave. The data set includes data of the personal interviews 
-as well as information about the household. Wave identifier is the variable wid.
-- One data set for each survey wave in family format (‘wide format’; ZA6701_family_wave_x_v$), in which each family has one data row (information of each participating person in the family 
-is stored in separate variables/columns). These data sets are restructured from the person-wave-format and therefore include the same data.
-- One data set (ZA6701_zygosity_v$) that includes the information of the twin zygosity assessment
-- Two data sets (one in family and person format, respectively; e.g. ZA6701_person_add_scales_v$ in the person-wave-format) containing additionally generated scales, as well as age- and 
-sex-corrected residuals of these scales (e.g. personality and parenting style)
-- One data set in which the survey mode for each variable on the individual level (ZA6701_mode_v$) is documented
-
-The data are adjusted for filter errors, i.e. data that was collected due to wrong filter conditions has been overwritten.
-
 ## Method
 
 The TwinLife panel combines a sequential cohort-design with an extended twin family-design (ETFD). The related surveys are conducted yearly, whereat the mode alternates between face-to-face at 
@@ -273,48 +257,65 @@ plus at least one biological parent
 **Selection Method:** Twin families are drawn from local resident registers in communities with at least 5,000 inhabitants in Germany. The twin families are recognized as such if two same-sex 
 people with the same date of birth lived in the same household. Then, it was checked whether the selected persons were twins indeed.
  
-**Mode of Data Collection:** Face-to-Face interviews: Household interviews with the family via three different interview modes (CAPI, CASI, Paper-and-Pencil) plus cognitive tests, scans/photos 
-of certificates and children's health record books; interviews with family members living outside the interviewed households by two modes (CAWI, Paper-and-pencil).
-CATI interviews: Telephone interview with one family member (from second CATI wave onwards; before: telephone interview with each family member above the age of 10 that participated in the 
+**Mode of Data Collection:** 
+*Face-to-Face data collection:* Household interviews with the family via three different interview modes (CAPI, CASI, Paper-and-Pencil) plus cognitive tests, scans/photos of certificates and children's health record books.
+*CATI data collection:* Telephone interview with one family member (from second CATI wave onwards; before: telephone interview with each family member above the age of 10 that participated in the 
 preceding Face-to-Face wave)
  
 **Survey institute:** TNS Infratest / Kantar TNS (first Face-to-Face household survey, parts of the first telephone survey); infas Institut für angewandte Sozialwissenschaft 
-(parts of the first telephone survey) 
+(parts of the first telephone survey, second Face-to-Face household survey) 
  
-**Date of Collection:**
+**Dates of Data Collections:**
 
 10/01/2014 to 05/31/2015 (Face-to-Face 1a)
 
 10/01/2015 to 04/30/2016 (Face-to-Face 1b, CATI 1a)
 
-10/01/2016 to 04/30/2017 (CATI 1b)
+10/01/2016 to 04/30/2017 (Face-to-Face 2a, CATI 1b)
 
-## Data access 
+10/01/2017 to 06/30/2018 (Face-to-Face 2b, CATI 2a)
 
-GESIS Data Catalogue: [https://dbk.gesis.org/dbksearch/index.asp](https://dbk.gesis.org/dbksearch/index.asp)
 
-## Data description
+
+
+## Scientific use files (current version: v4-0-0)
+
+### Data description
 
 For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method report of the first wave see the TwinLife Technical Report 05 at 
 [https://www.twin-life.de/en/twinlife-technical-report-series](https://www.twin-life.de/en/twinlife-technical-report-series).
 
-## Study units
+
+### Data files
+
+- **Master data**: includes information on the gross sample, such as time stable variables (sex, year of birth, relation to twins, zygotie, migration background) and wave-specific variables (person type, response status) about all individuals included in TwinLife in each data collection. 
+- **Survey data in person-format**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2). Each surveyed person has one data row. These datasets are documented on paneldata.org.
+- **Survey data in family-format**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2).  Each family has one data row. 
+- **Twin zygosity assessment**:  a data file with the information of the twin zygosity assessment in F2F 1.
+- **Generated scales in person-format**: One data set containing  a selection of generated scales, e.g. on personality and parenting style for F2F 1. 
+ 
+In addition, the data release contains a data file documenting the survey mode for each variable on the individual level in F2F 1. 
+
+The data are adjusted for filter errors, i.e. data that was collected due to wrong filter conditions has been overwritten. Variables and instruments are documented at http://www.paneldata.org. Detailed information on the study and special features can be found at https://www.twin-life.de/documentation/. For questions regarding the content of the data, please contact data(at)twin-life.de. 
+
+
+### Study units
 
 Number of Units:
+
 19163 individuals, 4097 families
  
 Number of Variables:
 
-3046 (person format), 87 (zygosity data set) 
+2504 (F2F 1 [wid1] person-format)
+610 (CATI 1 [wid2] person-format)
+2254 (F2F 2 [wid3] person-format)
 
-8178 (family format wave F2F1; not documented at paneldata.org), 3026 (family format wave CATI1; not documented at paneldata.org)
+### Data access 
 
-## Other material and Notes
+Data can accessed via the GESIS Data Catalogue: [https://dbk.gesis.org/dbksearch/index.asp](https://dbk.gesis.org/dbksearch/index.asp) 
 
-Availability Class:
-C (Data and documents are only released for academic research and teaching after the data depositor’s written authorization. For this purpose the Data Archive obtains a written permission 
-with specification of the user and the analysis intention.)
- 
-Further Remarks:
+Charges for downloading this data will be paid by the TwinLife project, so the use of the data is **free of charge**!
 
-TwinLife website: [http://www.twin-life.de/en](http://www.twin-life.de/en)
+Note on availability: Data and documents are only released for academic research and teaching after the data depositor’s written authorization. For this purpose the Gesis Data Archive obtains a written permission 
+with specification of the user and the analysis intention.
