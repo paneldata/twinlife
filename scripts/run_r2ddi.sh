@@ -5,7 +5,7 @@ STATA_BIN=/usr/local/stata/stata-se
 
 TEMP_DIR="./temp"
 
-DATA_VERSION="v2-1-0"
+DATA_VERSION="v3-0-0"
 
 TMP_DATA_DIR="${TEMP_DIR}/${DATA_VERSION}/en"
 
