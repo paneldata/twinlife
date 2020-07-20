@@ -1,4 +1,10 @@
 {
+  "study": "twinlife",
+  "name": "wid1_F2F1_module3",
+  "label": "F2F 1: zygosity questionnaire for cohorts 1 & 2 (CAPI)",
+  "description": "This questionnaire module contains questions on: zygosity.",
+  "analysis_unit": "individual",
+  "period": 1,
   "instrument": "wid1_F2F1_module3",
   "questions": {
     "sex": {
@@ -7,11 +13,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "sex",
+          "item": "1",
           "number": "1",
           "concept": "sex00",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "sex",
           "scale": "cat",
           "filter": "sdc0100 != 2",
           "answers": [
@@ -26,8 +33,7 @@
               "label_de": "2: weiblich"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 0,
@@ -40,11 +46,12 @@
       "label": "How tall is the older twin [name] currently in cm?",
       "items": [
         {
+          "name": "zyg0200t",
+          "item": "1",
           "number": "2",
           "concept": "zyg00",
           "text": "How tall is the older twin [name] currently in cm?",
           "text_de": "Wie gross ist der aeltere Zwilling [Name] gegenwaertig in cm?",
-          "answer_list": "mis",
           "scale": "int",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -60,8 +67,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 1,
@@ -74,11 +80,12 @@
       "label": "How tall is the younger twin [name] currently in cm?",
       "items": [
         {
+          "name": "zyg0200u",
+          "item": "1",
           "number": "3",
           "concept": "zyg00",
           "text": "How tall is the younger twin [name] currently in cm?",
           "text_de": "Wie gross ist der juengere Zwilling [Name] gegenwaertig?",
-          "answer_list": "mis",
           "scale": "int",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -94,8 +101,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 2,
@@ -108,11 +114,12 @@
       "label": "Are there differences in the colors of the twins' hair?",
       "items": [
         {
+          "name": "zyg0300",
+          "item": "1",
           "number": "4",
           "concept": "zyg00",
           "text": "Are there differences in the colors of the twins' hair?",
           "text_de": "Gibt es Unterschiede bei der farblichen Schattierung der Haare der Zwillinge?",
-          "answer_list": "zyg0300",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -133,8 +140,7 @@
               "label_de": "3: nein, es gibt keinen Unterschied"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 3,
@@ -147,11 +153,12 @@
       "label": "Are there differences in the texture of the twins' hair (e.g., fine or thick, straight or curly)?",
       "items": [
         {
+          "name": "zyg0301",
+          "item": "1",
           "number": "5",
           "concept": "zyg00",
           "text": "Are there differences in the texture of the twins' hair (e.g., fine or thick, straight or curly)?",
           "text_de": "Gibt es Unterschiede in der Beschaffenheit der Haare der Zwillinge (z.B. fein oder dick, glatt oder gelockt)?",
-          "answer_list": "zyg0300",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -172,8 +179,7 @@
               "label_de": "3: nein, es gibt keinen Unterschied"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 4,
@@ -186,11 +192,12 @@
       "label": "Are there differences in the colors of the twins' eyes?",
       "items": [
         {
+          "name": "zyg0302",
+          "item": "1",
           "number": "6",
           "concept": "zyg00",
           "text": "Are there differences in the colors of the twins' eyes?",
           "text_de": "Gibt es Unterschiede in den Augenfarben der Zwillinge?",
-          "answer_list": "zyg0300",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -211,8 +218,7 @@
               "label_de": "3: nein, es gibt keinen Unterschied"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 5,
@@ -225,11 +231,12 @@
       "label": "Are there differences in the shape of the twins' earlobes?",
       "items": [
         {
+          "name": "zyg0303",
+          "item": "1",
           "number": "7",
           "concept": "zyg00",
           "text": "Are there differences in the shape of the twins' earlobes?",
           "text_de": "Gibt es Unterscheide in der Form der Ohrlaeppchen der Zwillinge?",
-          "answer_list": "zyg0300",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -250,8 +257,7 @@
               "label_de": "3: nein, es gibt keinen Unterschied"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 6,
@@ -264,11 +270,12 @@
       "label": "Did both twins get their first teeth at the same time?",
       "items": [
         {
+          "name": "zyg0400",
+          "item": "1",
           "number": "8",
           "concept": "zyg00",
           "text": "Did both twins get their first teeth at the same time?",
           "text_de": "Haben die Zwillinge in etwa zur gleichen Zeit Zaehne bekommen?",
-          "answer_list": "zyg0400",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -294,8 +301,7 @@
               "label_de": "4: Nein, die ersten Zaehne der Zwillinge kamen deutlich zeitversetzt."
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 7,
@@ -308,11 +314,12 @@
       "label": "Do you know the blood groups (A,B,AB,0) and/or the Rhesus factors (RH+/RH-) of your twins?",
       "items": [
         {
+          "name": "zyg0500",
+          "item": "1",
           "number": "9",
           "concept": "zyg00",
           "text": "Do you know the blood groups (A,B,AB,0) and/or the Rhesus factors (RH+/RH-) of your twins?",
           "text_de": "Kennen Sie die Blutgruppen (A, B, AB, 0) und / oder den Rhesusfaktoren (Rh+, Rh-) Ihrer Zwillinge?",
-          "answer_list": "yn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -338,8 +345,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 8,
@@ -352,11 +358,12 @@
       "label": "Please tick the respective blood group and the respective Rhesus factor of the twin.",
       "items": [
         {
+          "name": "zyg0501",
+          "item": "1",
           "number": "10",
           "concept": "zyg00",
           "text": "Please tick the respective blood group and the respective Rhesus factor of the twin.",
           "text_de": "Kreuzen Sie bitte die jeweilige Blutgruppe und den jeweiligen Rhesusfaktor des Zwillings an.",
-          "answer_list": "zyg0501",
           "scale": "cat",
           "filter": "zyg0500 == 1",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
@@ -383,8 +390,7 @@
               "label_de": "4: 0"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 9,
@@ -397,11 +403,12 @@
       "label": "Please tick the respective blood group and the respective Rhesus factor of the twin.",
       "items": [
         {
+          "name": "zyg0502",
+          "item": "1",
           "number": "11",
           "concept": "zyg00",
           "text": "Please tick the respective blood group and the respective Rhesus factor of the twin.",
           "text_de": "Kreuzen Sie bitte die jeweilige Blutgruppe und den jeweiligen Rhesusfaktor des Zwillings an.",
-          "answer_list": "zyg0502",
           "scale": "cat",
           "filter": "zyg0500 == 1",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
@@ -418,8 +425,7 @@
               "label_de": "2: Rh-"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 10,
@@ -432,11 +438,12 @@
       "label": "Please tick the respective blood group and the respective Rhesus factor of the twin.",
       "items": [
         {
+          "name": "zyg0503",
+          "item": "1",
           "number": "12",
           "concept": "zyg00",
           "text": "Please tick the respective blood group and the respective Rhesus factor of the twin.",
           "text_de": "Kreuzen Sie bitte die jeweilige Blutgruppe und den jeweiligen Rhesusfaktor des Zwillings an.",
-          "answer_list": "zyg0501",
           "scale": "cat",
           "filter": "zyg0500 == 1",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
@@ -463,8 +470,7 @@
               "label_de": "4: 0"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 11,
@@ -477,11 +483,12 @@
       "label": "Please tick the respective blood group and the respective Rhesus factor of the twin.",
       "items": [
         {
+          "name": "zyg0504",
+          "item": "1",
           "number": "13",
           "concept": "zyg00",
           "text": "Please tick the respective blood group and the respective Rhesus factor of the twin.",
           "text_de": "Kreuzen Sie bitte die jeweilige Blutgruppe und den jeweiligen Rhesusfaktor des Zwillings an.",
-          "answer_list": "zyg0502",
           "scale": "cat",
           "filter": "zyg0500 == 1",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
@@ -498,8 +505,7 @@
               "label_de": "2: Rh-"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 12,
@@ -512,11 +518,12 @@
       "label": "Are there any differences between the twins caused by problems in childbirth, by an accident or an illness?",
       "items": [
         {
+          "name": "zyg0600",
+          "item": "1",
           "number": "14",
           "concept": "zyg00",
           "text": "Are there any differences between the twins caused by problems in childbirth, by an accident or an illness?",
           "text_de": "Gibt es Unterschiede zwischen den Zwillingen, die durch Probleme bei der Geburt, durch einen Unfall oder Krankheit verursacht sind?",
-          "answer_list": "yn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -542,8 +549,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 13,
@@ -556,11 +562,12 @@
       "label": "What about the similarities between the twins as they are getting older? As they are getting older, the similarities:",
       "items": [
         {
+          "name": "zyg0602",
+          "item": "1",
           "number": "15",
           "concept": "zyg00",
           "text": "What about the similarities between the twins as they are getting older? As they are getting older, the similarities:",
           "text_de": "Wie verhaelt es sich mit der Aehnlichkeit der Zwillinge mit zunehmendem Alter? Die Aehnlichkeit der Zwillinge mit zunehmendem Alter:",
-          "answer_list": "zyg0602",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -581,8 +588,7 @@
               "label_de": "3: nahm zu"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 14,
@@ -595,11 +601,12 @@
       "label": "What do you think: Are your twins monozygotic (identical) or dizygotic (non-identical)?",
       "items": [
         {
+          "name": "zyg0700",
+          "item": "1",
           "number": "16",
           "concept": "zyg00",
           "text": "What do you think: Are your twins monozygotic (identical) or dizygotic (non-identical)?",
           "text_de": "Was glauben Sie persoenlich? Sind Ihre Zwillinge eineiig oder zweieiig?",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -630,8 +637,7 @@
               "label_de": "4: (ziemlich) sicher zweieiig"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 15,
@@ -644,11 +650,12 @@
       "label": "Did a medical professional (e.g., family doctor, nurse, physician) ever tell you your twins' zygosity?",
       "items": [
         {
+          "name": "zyg0702",
+          "item": "1",
           "number": "17",
           "concept": "zyg00",
           "text": "Did a medical professional (e.g., family doctor, nurse, physician) ever tell you your twins' zygosity?",
           "text_de": "Wurde Ihnen jemals von medizinischem Personal (z.B. Hausarzt, Krankenschwester, Facharzt) die Eiigkeit Ihrer Zwillinge mitgeteilt?",
-          "answer_list": "zyg0702",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -669,8 +676,7 @@
               "label_de": "3: Nein, darueber wurde uns nichts mitgeteilt."
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 16,
@@ -683,11 +689,12 @@
       "label": "When you look at early photographs of the twins when they were between 2 and 4, can you tell them apart without hints from clothing or other clues?",
       "items": [
         {
+          "name": "zyg0800",
+          "item": "1",
           "number": "18",
           "concept": "zyg00",
           "text": "When you look at early photographs of the twins when they were between 2 and 4, can you tell them apart without hints from clothing or other clues?",
           "text_de": "Wenn Sie sich fruehe Fotos Ihrer Zwillinge im Alter von 2-4 Jahren anschauen, koennen Sie die beiden auseinanderhalten, ohne Merkmale der Kleidung oder andere Hinweise heranzuziehen?",
-          "answer_list": "zyg0800",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -708,8 +715,7 @@
               "label_de": "3: nein, ich verwechsele sie sehr oft auf Fotos"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 17,
@@ -722,11 +728,12 @@
       "label": "Did people confuse the twins when they were very young?",
       "items": [
         {
+          "name": "zyg0801",
+          "item": "0",
           "number": "19",
           "concept": "zyg00",
           "text": "Did people confuse the twins when they were very young?",
           "text_de": "Haben folgende Personen die Zwillinge im fruehen Kindesalter verwechselt?",
-          "answer_list": "zyg0801",
           "scale": "txt",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -752,16 +759,15 @@
               "label_de": "4: gab/gibt es nicht"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         },
         {
-          "item": "1.0",
+          "name": "zyg0801",
+          "item": "1",
           "number": "20",
           "concept": "zyg00",
           "text": "the other parent of the twins",
           "text_de": "Anderer Elternteil der Zwillinge",
-          "answer_list": "zyg0801",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -790,12 +796,12 @@
           "sn": 1
         },
         {
-          "item": "2.0",
+          "name": "zyg0801",
+          "item": "2",
           "number": "21",
           "concept": "zyg00",
           "text": "(the)older sibling(s)",
           "text_de": "Aeltere/s Geschwister",
-          "answer_list": "zyg0801",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -824,12 +830,12 @@
           "sn": 2
         },
         {
-          "item": "3.0",
+          "name": "zyg0801",
+          "item": "3",
           "number": "22",
           "concept": "zyg00",
           "text": "other relatives",
           "text_de": "Andere Verwandte",
-          "answer_list": "zyg0801",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -858,12 +864,12 @@
           "sn": 3
         },
         {
-          "item": "4.0",
+          "name": "zyg0801",
+          "item": "4",
           "number": "23",
           "concept": "zyg00",
           "text": "babysitter/child minder",
           "text_de": "Babysitter/Tagesmutter",
-          "answer_list": "zyg0801",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -892,12 +898,12 @@
           "sn": 4
         },
         {
-          "item": "5.0",
+          "name": "zyg0801",
+          "item": "5",
           "number": "24",
           "concept": "zyg00",
           "text": "close friends",
           "text_de": "Nahe Freunde von Ihnen",
-          "answer_list": "zyg0801",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -926,12 +932,12 @@
           "sn": 5
         },
         {
-          "item": "6.0",
+          "name": "zyg0801",
+          "item": "6",
           "number": "25",
           "concept": "zyg00",
           "text": "remote friends",
           "text_de": "Entferntere Freunde von Ihnen",
-          "answer_list": "zyg0801",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -960,12 +966,12 @@
           "sn": 6
         },
         {
-          "item": "7.0",
+          "name": "zyg0801",
+          "item": "7",
           "number": "26",
           "concept": "zyg00",
           "text": "people who see the twins for the first time",
           "text_de": "Menschen, die die Zwillinge zum ersten Mal sehen",
-          "answer_list": "zyg0801",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1004,11 +1010,12 @@
       "label": "Did people confuse the twins when they were together?",
       "items": [
         {
+          "name": "zyg0808",
+          "item": "1",
           "number": "27",
           "concept": "zyg00",
           "text": "Did people confuse the twins when they were together?",
           "text_de": "Wurden die Zwillinge verwechselt, wenn sie zusammen waren?",
-          "answer_list": "zyg0808",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1034,8 +1041,7 @@
               "label_de": "4: nein, sie wurden nicht verwechselt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 19,
@@ -1048,11 +1054,12 @@
       "label": "Would you say that when the twins were very young, they...",
       "items": [
         {
+          "name": "zyg0809",
+          "item": "1",
           "number": "28",
           "concept": "zyg00",
           "text": "Would you say that when the twins were very young, they...",
           "text_de": "Wuerden Sie sagen, dass Ihre Zwillinge im fruehen Kindesalter. . .",
-          "answer_list": "zyg0809",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1073,8 +1080,7 @@
               "label_de": "3: sich aeusserlich ueberhaupt nicht aehnlich waren"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 20,
@@ -1084,16 +1090,16 @@
     "zyg0900": {
       "question": "zyg0900",
       "name": "zyg0900",
-      "label": "In the generation of your children (e.g. cousins/cousins of your children) (mother's side)",
+      "label": "We are also interested in knowing if there are other twins in your family. Which generation and which side of your family are they on (mother's side/father's side)? Multiple answers are possible.",
       "items": [
         {
-          "item": "1.0",
-          "number": "30",
+          "name": "zyg0900",
+          "item": "0",
+          "number": "29",
           "concept": "zyg00",
-          "text": "In the generation of your children (e.g. cousins/cousins of your children) (mother's side)",
-          "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), muetterlicherseits",
-          "answer_list": "mn",
-          "scale": "cat",
+          "text": "We are also interested in knowing if there are other twins in your family. Which generation and which side of your family are they on (mother's side/father's side)? Multiple answers are possible.",
+          "text_de": "Wir sind auch daran interessiert, ob es in Ihrer Familie weitere Zwillingspaare gibt. In welcher Generation und in welchem Teil Ihrer Familie (muetterlicherseits/vaeterlicherseits) gab oder gibt es Zwillinge? Sie koennen mehrere Angaben machen.",
+          "scale": "txt",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
           "answers": [
@@ -1111,12 +1117,13 @@
           "sn": 0
         },
         {
-          "number": "29",
+          "name": "zyg0900",
+          "item": "1",
+          "number": "30",
           "concept": "zyg00",
-          "text": "We are also interested in knowing if there are other twins in your family. Which generation and which side of your family are they on (mother's side/father's side)? Multiple answers are possible.",
-          "text_de": "Wir sind auch daran interessiert, ob es in Ihrer Familie weitere Zwillingspaare gibt. In welcher Generation und in welchem Teil Ihrer Familie (muetterlicherseits/vaeterlicherseits) gab oder gibt es Zwillinge? Sie koennen mehrere Angaben machen.",
-          "answer_list": "mn",
-          "scale": "txt",
+          "text": "In the generation of your children (e.g. cousins/cousins of your children) (mother's side)",
+          "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), muetterlicherseits",
+          "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
           "answers": [
@@ -1131,16 +1138,15 @@
               "label_de": "1: genannt"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 1
         },
         {
-          "item": "2.0",
+          "name": "zyg0900",
+          "item": "2",
           "number": "31",
           "concept": "zyg00",
           "text": "In the generation of your children (e.g. cousins/cousins of your children) (father's side)",
           "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), vaeterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1159,12 +1165,12 @@
           "sn": 2
         },
         {
-          "item": "3.0",
+          "name": "zyg0900",
+          "item": "3",
           "number": "32",
           "concept": "zyg00",
           "text": "In your generation (e.g. your cousins) (mother's side)",
           "text_de": "In Ihrer Generation (z.B. Ihre Cousins/Cousinen), muetterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1183,12 +1189,12 @@
           "sn": 3
         },
         {
-          "item": "4.0",
+          "name": "zyg0900",
+          "item": "4",
           "number": "33",
           "concept": "zyg00",
           "text": "In your generation (e.g. your cousins) (father's side)",
           "text_de": "In Ihrer Generation (z.B. Ihre Cousins/Cousinen), vaeterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1207,12 +1213,12 @@
           "sn": 4
         },
         {
-          "item": "5.0",
+          "name": "zyg0900",
+          "item": "5",
           "number": "34",
           "concept": "zyg00",
           "text": "In the generation of your parents (mother's side)",
           "text_de": "In der Generation Ihrer Eltern, muetterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1231,12 +1237,12 @@
           "sn": 5
         },
         {
-          "item": "6.0",
+          "name": "zyg0900",
+          "item": "6",
           "number": "35",
           "concept": "zyg00",
           "text": "In the generation of your parents (father's side)",
           "text_de": "In der Generation Ihrer Eltern, vaeterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1255,12 +1261,12 @@
           "sn": 6
         },
         {
-          "item": "7.0",
+          "name": "zyg0900",
+          "item": "7",
           "number": "36",
           "concept": "zyg00",
           "text": "No other sets of twins in the family",
           "text_de": "Keine anderen Zwillingspaare in der Familie",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1286,53 +1292,15 @@
     "zyg0920": {
       "question": "zyg0920",
       "name": "zyg0920",
-      "label": "In the generation of your children (e.g. cousins/cousins of your children) (mother's side)",
+      "label": "For each set of twins in your family, please state whether they are identical/monozygotic or non-identical/dizygotic.",
       "items": [
         {
-          "item": "1.0",
-          "number": "38",
-          "concept": "zyg00",
-          "text": "In the generation of your children (e.g. cousins/cousins of your children) (mother's side)",
-          "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), muetterlicherseits",
-          "answer_list": "zyg0700",
-          "scale": "cat",
-          "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
-          "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: contradictory assessments within the family",
-              "label_de": "-89: widerspruechliche Einschaetzungen innerhalb der Familie"
-            },
-            {
-              "value": 1,
-              "label": "1: (pretty) sure monozygotic",
-              "label_de": "1: (ziemlich) sicher eineiig"
-            },
-            {
-              "value": 2,
-              "label": "2: presumably monozygotic",
-              "label_de": "2: vermutlich eineiig"
-            },
-            {
-              "value": 3,
-              "label": "3: presumably dizygotic",
-              "label_de": "3: vermutlich zweieiig"
-            },
-            {
-              "value": 4,
-              "label": "4: (pretty) sure dizygotic",
-              "label_de": "4: (ziemlich) sicher zweieiig"
-            }
-          ],
-          "sn": 0
-        },
-        {
+          "name": "zyg0920",
+          "item": "0",
           "number": "37",
           "concept": "zyg00",
           "text": "For each set of twins in your family, please state whether they are identical/monozygotic or non-identical/dizygotic.",
           "text_de": "Geben Sie bitte fuer jedes angegebene Zwillingspaar in Ihrer Familie an, ob diese eineiig oder zweieiig sind.",
-          "answer_list": "zyg0700",
           "scale": "txt",
           "filter": "zyg0900 == 1",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
@@ -1364,16 +1332,54 @@
               "label_de": "4: (ziemlich) sicher zweieiig"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         },
         {
-          "item": "2.0",
+          "name": "zyg0920",
+          "item": "1",
+          "number": "38",
+          "concept": "zyg00",
+          "text": "In the generation of your children (e.g. cousins/cousins of your children) (mother's side)",
+          "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), muetterlicherseits",
+          "scale": "cat",
+          "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
+          "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: contradictory assessments within the family",
+              "label_de": "-89: widerspruechliche Einschaetzungen innerhalb der Familie"
+            },
+            {
+              "value": 1,
+              "label": "1: (pretty) sure monozygotic",
+              "label_de": "1: (ziemlich) sicher eineiig"
+            },
+            {
+              "value": 2,
+              "label": "2: presumably monozygotic",
+              "label_de": "2: vermutlich eineiig"
+            },
+            {
+              "value": 3,
+              "label": "3: presumably dizygotic",
+              "label_de": "3: vermutlich zweieiig"
+            },
+            {
+              "value": 4,
+              "label": "4: (pretty) sure dizygotic",
+              "label_de": "4: (ziemlich) sicher zweieiig"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "name": "zyg0920",
+          "item": "2",
           "number": "39",
           "concept": "zyg00",
           "text": "In the generation of your children (e.g. cousins/cousins of your children) (father's side)",
           "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), vaeterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1407,12 +1413,12 @@
           "sn": 2
         },
         {
-          "item": "3.0",
+          "name": "zyg0920",
+          "item": "3",
           "number": "40",
           "concept": "zyg00",
           "text": "In your generation (e.g. your cousins) (mother's side)",
           "text_de": "In Ihrer Generation (z.B. Ihre Cousins/Cousinen), muetterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1446,12 +1452,12 @@
           "sn": 3
         },
         {
-          "item": "4.0",
+          "name": "zyg0920",
+          "item": "4",
           "number": "41",
           "concept": "zyg00",
           "text": "In your generation (e.g. your cousins) (father's side)",
           "text_de": "In Ihrer Generation (z.B. Ihre Cousins/Cousinen), vaeterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1485,12 +1491,12 @@
           "sn": 4
         },
         {
-          "item": "5.0",
+          "name": "zyg0920",
+          "item": "5",
           "number": "42",
           "concept": "zyg00",
           "text": "In the generation of your parents (mother's side)",
           "text_de": "In der Generation Ihrer Eltern, muetterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -1524,12 +1530,12 @@
           "sn": 5
         },
         {
-          "item": "6.0",
+          "name": "zyg0920",
+          "item": "6",
           "number": "43",
           "concept": "zyg00",
           "text": "In the generation of your parents (father's side)",
           "text_de": "In der Generation Ihrer Eltern, vaeterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",

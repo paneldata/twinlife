@@ -1,332 +1,96 @@
 {
+  "study": "twinlife",
+  "name": "wid3_F2F2_module9",
+  "label": "F2F 2: interviewer (CAPI)",
+  "description": "This questionnaire module contains questions on: interviewer assessment on attractiveness; interviewer ratings on the home environment (household).",
+  "analysis_unit": "individual",
+  "period": 3,
   "instrument": "wid3_F2F2_module9",
   "questions": {
     "att0300": {
       "question": "att0300",
       "name": "att0300",
+      "label": "[IF Zwilling1 age >= 16] How do you rate the physical attractiveness of <NAME ZWILLING1> compared to other people of the same age and gender? [IF Zwilling1 age >= 12 and Zwilling1 age <16] How do you rate the physical attractiveness of <NAME ZWILLING1> compared to other young people of the same age and gender? [IF Zwilling1 age <12] How do you rate the physical attractiveness of <NAME ZWILLING1> compared to other children of the same age and gender?",
       "items": [
         {
-          "item": "1.0",
-          "number": "8",
-          "concept": "att10",
-          "answer_list": "att",
-          "scale": "cat",
-          "sn": 2
-        },
-        {
-          "number": "9",
+          "name": "att0300",
+          "item": "0",
+          "number": "5",
           "concept": "att10",
           "text": "How do you rate the physical attractiveness of <NAME VATER> compared to other men of his age?",
           "text_de": "Wie beurteilen Sie die physische Attraktivitaet von <NAME VATER> im Vergleich zu anderen Maennern seines Alters?",
-          "answer_list": "att",
           "scale": "txt",
           "filter": "hlf==1 & fpr0107==22",
-          "sn": 2,
-          "item": "root"
+          "sn": 1
         }
       ],
       "sn": 0,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
-    "iva0100": {
-      "question": "iva0100",
-      "name": "iva0100",
-      "label": "tidy - untidy",
+    "iva1000": {
+      "question": "iva1000",
+      "name": "iva1000",
+      "label": "Have you interviewed at least one person in this household in the previous TwinLife survey wave?",
       "items": [
         {
-          "item": "1.0",
-          "number": "24",
+          "name": "iva1000",
+          "item": "1",
+          "number": "6",
           "concept": "iva00",
-          "text": "tidy - untidy",
-          "text_de": "aufgeraeumt / unaufgeraeumt",
-          "answer_list": "iva0100",
+          "text": "Have you interviewed at least one person in this household in the previous TwinLife survey wave?",
+          "text_de": "Haben Sie mindestens eine Person in diesem Haushalt bereits in der vorherigen Befragungswelle von TwinLife befragt?",
           "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "sn": 0
-        },
-        {
-          "number": "23",
-          "concept": "iva00",
-          "text": "What is your general impression of the home?",
-          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
-          "answer_list": "iva0100",
-          "scale": "txt",
-          "filter": "iva0900!=-81",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "sn": 1,
-          "item": "root"
         }
       ],
       "sn": 1,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
-    "iva0101": {
-      "question": "iva0101",
-      "name": "iva0101",
-      "label": "What is your general impression of the home?",
+    "iva0901": {
+      "question": "iva0901",
+      "name": "iva0901",
+      "label": "In what type of building does the participant live?",
       "items": [
         {
-          "number": "25",
+          "name": "iva0901",
+          "item": "1",
+          "number": "7",
           "concept": "iva00",
-          "text": "What is your general impression of the home?",
-          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
-          "answer_list": "iva0101",
-          "scale": "txt",
-          "filter": "iva0900!=-81",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "26",
-          "concept": "iva00",
-          "text": "cheap furnishings - expensive furnishings",
-          "text_de": "billige Ausstattung / teure Ausstattung",
-          "answer_list": "iva0101",
+          "text": "In what type of building does the participant live?",
+          "text_de": "In welcher Art von Gebaeude wohnt die Befragungsperson?",
           "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "sn": 1
+          "filter": "iva0900!=-81",
+          "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
+          "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
+          "sn": 0
         }
       ],
       "sn": 2,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
-    "iva0102": {
-      "question": "iva0102",
-      "name": "iva0102",
-      "label": "What is your general impression of the home?",
-      "items": [
-        {
-          "number": "27",
-          "concept": "iva00",
-          "text": "What is your general impression of the home?",
-          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
-          "answer_list": "iva0102",
-          "scale": "txt",
-          "filter": "iva0900!=-81",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "28",
-          "concept": "iva00",
-          "text": "tidy - neglected",
-          "text_de": "gepflegt / vernachlaessigt",
-          "answer_list": "iva0102",
-          "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "sn": 1
-        }
-      ],
-      "sn": 3,
-      "instrument": "wid3_F2F2_module9",
-      "study": "twinlife"
-    },
-    "iva0103": {
-      "question": "iva0103",
-      "name": "iva0103",
-      "label": "restricted - roomy",
-      "items": [
-        {
-          "item": "1.0",
-          "number": "30",
-          "concept": "iva00",
-          "text": "restricted - roomy",
-          "text_de": "beengt / geraeumig",
-          "answer_list": "iva0103",
-          "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "sn": 0
-        },
-        {
-          "number": "29",
-          "concept": "iva00",
-          "text": "What is your general impression of the home?",
-          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
-          "answer_list": "iva0103",
-          "scale": "txt",
-          "filter": "iva0900!=-81",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "sn": 1,
-          "item": "root"
-        }
-      ],
-      "sn": 4,
-      "instrument": "wid3_F2F2_module9",
-      "study": "twinlife"
-    },
-    "iva0104": {
-      "question": "iva0104",
-      "name": "iva0104",
-      "label": "How many books would you estimate are in the house?",
-      "items": [
-        {
-          "number": "31",
-          "concept": "iva00",
-          "text": "How many books would you estimate are in the house?",
-          "text_de": "Wie viele Buecher befinden sich wohl in dem Haushalt?",
-          "answer_list": "iva0104",
-          "scale": "txt",
-          "filter": "iva0900!=-81",
-          "description": "Source: Adapted from: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
-          "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "32",
-          "concept": "iva00",
-          "answer_list": "iva0104",
-          "scale": "cat",
-          "description": "Source: Adapted from: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
-          "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
-          "sn": 1
-        }
-      ],
-      "sn": 5,
-      "instrument": "wid3_F2F2_module9",
-      "study": "twinlife"
-    },
-    "iva0404": {
-      "question": "iva0404",
-      "name": "iva0404",
-      "label": "By the children among each other",
-      "items": [
-        {
-          "item": "3.0",
-          "number": "36",
-          "concept": "iva00",
-          "text": "By the children among each other",
-          "text_de": "Von den Kindern untereinander",
-          "answer_list": "iva0400",
-          "scale": "cat",
-          "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
-          "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
-          "sn": 0
-        },
-        {
-          "item": "4.0",
-          "number": "37",
-          "concept": "iva00",
-          "text": "By the parents among each other",
-          "text_de": "Von den Eltern untereinander",
-          "answer_list": "iva0400",
-          "scale": "cat",
-          "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
-          "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
-          "sn": 1
-        },
-        {
-          "item": "1.0",
-          "number": "34",
-          "concept": "iva..",
-          "text": "By the parents in the interview of the twins",
-          "text_de": "Von den Eltern bei der Befragung der Zwillinge",
-          "answer_list": "iva0400",
-          "scale": "cat",
-          "sn": 2
-        },
-        {
-          "number": "33",
-          "concept": "iva..",
-          "text": "Did other persons interfere in the interview?",
-          "text_de": "[ITEMBAT] [NCS] Wurde von anderen anwesenden Personen in die Befragung eingegriffen?",
-          "answer_list": "iva0400",
-          "scale": "txt",
-          "sn": 3,
-          "item": "root"
-        },
-        {
-          "item": "2.0",
-          "number": "35",
-          "concept": "iva..",
-          "text": "By the parents in the interview of the sibling",
-          "text_de": "Von den Eltern bei der Befragung des Geschwisterkindes",
-          "answer_list": "iva0400",
-          "scale": "cat",
-          "sn": 4
-        }
-      ],
-      "sn": 6,
-      "instrument": "wid3_F2F2_module9",
-      "study": "twinlife"
-    },
-    "iva0901": {
-      "question": "iva0901",
-      "name": "iva0901",
-      "items": [
-        {
-          "item": "1.0",
-          "number": "14",
-          "concept": "iva00",
-          "answer_list": "iva0901",
-          "scale": "cat",
-          "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
-          "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
-          "sn": 0
-        },
-        {
-          "number": "13",
-          "concept": "iva00",
-          "text": "In what type of building does the participant live?",
-          "text_de": "In welcher Art von Gebaeude wohnt die Befragungsperson?",
-          "answer_list": "iva0901",
-          "scale": "txt",
-          "filter": "iva0900!=-81",
-          "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
-          "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
-          "sn": 1,
-          "item": "root"
-        }
-      ],
-      "sn": 7,
-      "instrument": "wid3_F2F2_module9",
-      "study": "twinlife"
-    },
     "iva0902": {
       "question": "iva0902",
       "name": "iva0902",
+      "label": "How would you describe the condition of the house in which the participant lives?The house is ...",
       "items": [
         {
-          "item": "1.0",
-          "number": "16",
-          "concept": "iva00",
-          "answer_list": "iva0902",
-          "scale": "cat",
-          "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
-          "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
-          "sn": 0
-        },
-        {
-          "number": "15",
+          "name": "iva0902",
+          "item": "1",
+          "number": "8",
           "concept": "iva00",
           "text": "How would you describe the condition of the house in which the participant lives?The house is ...",
           "text_de": "Wie beurteilen Sie den Zustand des Hauses, in dem die Befragungsperson wohnt? Das Haus ist in ...",
-          "answer_list": "iva0902",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "iva0900!=-81",
           "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
           "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 8,
+      "sn": 3,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
@@ -336,62 +100,43 @@
       "label": "How did you feel here in the street or in the residential complex? How did you feel here?",
       "items": [
         {
-          "number": "17",
+          "name": "iva0903",
+          "item": "1",
+          "number": "9",
           "concept": "iva00",
           "text": "How did you feel here in the street or in the residential complex? How did you feel here?",
           "text_de": "Welches Gefuehl hatten Sie hier in der Strasse oder der Wohnanlage? Wie empfanden Sie es hier?",
-          "answer_list": "iva0903",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "iva0900!=-81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "18",
-          "concept": "iva00",
-          "answer_list": "iva0903",
-          "scale": "cat",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 1
+          "sn": 0
         }
       ],
-      "sn": 9,
+      "sn": 4,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
     "iva0904": {
       "question": "iva0904",
       "name": "iva0904",
+      "label": "How would you describe the neighborhood around here?",
       "items": [
         {
-          "item": "1.0",
-          "number": "20",
-          "concept": "iva00",
-          "answer_list": "iva0904",
-          "scale": "cat",
-          "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
-          "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
-          "sn": 0
-        },
-        {
-          "number": "19",
+          "name": "iva0904",
+          "item": "1",
+          "number": "10",
           "concept": "iva00",
           "text": "How would you describe the neighborhood around here?",
           "text_de": "Wie wuerden Sie die Wohngegend hier beschreiben?",
-          "answer_list": "iva0904",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "iva0900!=-81",
           "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
           "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 10,
+      "sn": 5,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
@@ -401,54 +146,196 @@
       "label": "How much pollution is there, for example from traffic, industry, etc.?",
       "items": [
         {
-          "number": "21",
+          "name": "iva0905",
+          "item": "1",
+          "number": "11",
           "concept": "iva00",
           "text": "How much pollution is there, for example from traffic, industry, etc.?",
           "text_de": "Wie stark liegen Umweltbelastungen z.B. durch Verkehr, Industrie etc. vor?",
-          "answer_list": "iva0905",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "iva0900!=-81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0,
-          "item": "root"
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid3_F2F2_module9",
+      "study": "twinlife"
+    },
+    "iva0100": {
+      "question": "iva0100",
+      "name": "iva0100",
+      "label": "What is your general impression of the home?",
+      "items": [
+        {
+          "name": "iva0100",
+          "item": "1",
+          "number": "12",
+          "concept": "iva00",
+          "text": "What is your general impression of the home?",
+          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
+          "scale": "cat",
+          "filter": "iva0900!=-81",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid3_F2F2_module9",
+      "study": "twinlife"
+    },
+    "iva0101": {
+      "question": "iva0101",
+      "name": "iva0101",
+      "label": "What is your general impression of the home?",
+      "items": [
+        {
+          "name": "iva0101",
+          "item": "1",
+          "number": "13",
+          "concept": "iva00",
+          "text": "What is your general impression of the home?",
+          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
+          "scale": "cat",
+          "filter": "iva0900!=-81",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid3_F2F2_module9",
+      "study": "twinlife"
+    },
+    "iva0102": {
+      "question": "iva0102",
+      "name": "iva0102",
+      "label": "What is your general impression of the home?",
+      "items": [
+        {
+          "name": "iva0102",
+          "item": "1",
+          "number": "14",
+          "concept": "iva00",
+          "text": "What is your general impression of the home?",
+          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
+          "scale": "cat",
+          "filter": "iva0900!=-81",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid3_F2F2_module9",
+      "study": "twinlife"
+    },
+    "iva0103": {
+      "question": "iva0103",
+      "name": "iva0103",
+      "label": "What is your general impression of the home?",
+      "items": [
+        {
+          "name": "iva0103",
+          "item": "1",
+          "number": "15",
+          "concept": "iva00",
+          "text": "What is your general impression of the home?",
+          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
+          "scale": "cat",
+          "filter": "iva0900!=-81",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid3_F2F2_module9",
+      "study": "twinlife"
+    },
+    "iva0104": {
+      "question": "iva0104",
+      "name": "iva0104",
+      "label": "How many books would you estimate are in the house?",
+      "items": [
+        {
+          "name": "iva0104",
+          "item": "0",
+          "number": "16",
+          "concept": "iva00",
+          "text": "How many books would you estimate are in the house?",
+          "text_de": "Wie viele Buecher befinden sich wohl in dem Haushalt?",
+          "scale": "txt",
+          "filter": "iva0900!=-81",
+          "description": "Source: Adapted from: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
+          "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "sn": 0
         },
         {
-          "item": "1.0",
-          "number": "22",
+          "name": "iva0104",
+          "item": "3",
+          "number": "17",
           "concept": "iva00",
-          "answer_list": "iva0905",
+          "text": "By the children among each other",
+          "text_de": "Von den Kindern untereinander",
           "scale": "cat",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
+          "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
           "sn": 1
+        },
+        {
+          "name": "iva0104",
+          "item": "4",
+          "number": "18",
+          "concept": "iva00",
+          "text": "By the parents among each other",
+          "text_de": "Von den Eltern untereinander",
+          "scale": "cat",
+          "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
+          "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
+          "sn": 2
         }
       ],
       "sn": 11,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
-    "iva1000": {
-      "question": "iva1000",
-      "name": "iva1000",
+    "iva0404": {
+      "question": "iva0404",
+      "name": "iva0404",
+      "label": "Did other persons interfere in the interview?",
       "items": [
         {
-          "item": "1.0",
-          "number": "12",
-          "concept": "iva00",
-          "answer_list": "yn",
-          "scale": "cat",
+          "name": "iva0404",
+          "item": "0",
+          "number": "19",
+          "concept": "iva..",
+          "text": "Did other persons interfere in the interview?",
+          "text_de": "[ITEMBAT] [NCS] Wurde von anderen anwesenden Personen in die Befragung eingegriffen?",
+          "scale": "txt",
           "sn": 0
         },
         {
-          "number": "11",
-          "concept": "iva00",
-          "text": "Have you interviewed at least one person in this household in the previous TwinLife survey wave?",
-          "text_de": "Haben Sie mindestens eine Person in diesem Haushalt bereits in der vorherigen Befragungswelle von TwinLife befragt?",
-          "answer_list": "yn",
-          "scale": "txt",
-          "sn": 1,
-          "item": "root"
+          "name": "iva0404",
+          "item": "1",
+          "number": "20",
+          "concept": "iva..",
+          "text": "By the parents in the interview of the twins",
+          "text_de": "Von den Eltern bei der Befragung der Zwillinge",
+          "scale": "cat",
+          "sn": 1
+        },
+        {
+          "name": "iva0404",
+          "item": "2",
+          "number": "21",
+          "concept": "iva..",
+          "text": "By the parents in the interview of the sibling",
+          "text_de": "Von den Eltern bei der Befragung des Geschwisterkindes",
+          "scale": "cat",
+          "sn": 2
         }
       ],
       "sn": 12,
@@ -458,24 +345,17 @@
     "iva1100": {
       "question": "iva1100",
       "name": "iva1100",
+      "label": "How easy was it for you to conduct the various survey modules with the participants?",
       "items": [
         {
-          "item": "1.0",
-          "number": "39",
-          "concept": "iva00",
-          "answer_list": "iva1100",
-          "scale": "cat",
-          "sn": 0
-        },
-        {
-          "number": "38",
+          "name": "iva1100",
+          "item": "1",
+          "number": "22",
           "concept": "iva00",
           "text": "How easy was it for you to conduct the various survey modules with the participants?",
           "text_de": "Wie leicht ist es Ihnen gefallen, die verschiedenen Befragungsmodule mit den Befragungspersonen durchzufuehren?",
-          "answer_list": "iva1100",
-          "scale": "txt",
-          "sn": 1,
-          "item": "root"
+          "scale": "cat",
+          "sn": 0
         }
       ],
       "sn": 13,

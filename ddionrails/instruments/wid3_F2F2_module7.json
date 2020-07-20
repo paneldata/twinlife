@@ -1,4 +1,10 @@
 {
+  "study": "twinlife",
+  "name": "wid3_F2F2_module7",
+  "label": "F2F 2: gummy bear (CAPI)",
+  "description": "This questionnaire module contains questions on: self-control: gummy bear test.",
+  "analysis_unit": "individual",
+  "period": 3,
   "instrument": "wid3_F2F2_module7",
   "questions": {
     "gex0102": {
@@ -7,42 +13,12 @@
       "label": "Parents' consent Participation in gummy bear test (generated)",
       "items": [
         {
+          "name": "gex0102",
+          "item": "1",
           "number": "1",
           "concept": "gex..",
           "text": "Parents' consent Participation in gummy bear test (generated)",
           "text_de": "Zustimmung der Eltern Teilnahme Gummibaerchentest (generiert)",
-          "answer_list": "gex",
-          "scale": "txt",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: both twins are allowed to participate",
-              "label_de": "1: Beide Zwillinge duerfen teilnehmen"
-            },
-            {
-              "value": 2,
-              "label": "2: only twin 1 is allowed to participate",
-              "label_de": "2: Nur Zwilling 1 darf teilnehmen"
-            },
-            {
-              "value": 3,
-              "label": "3: only twin 2 is allowed to participate",
-              "label_de": "3: Nur Zwilling 2 darf teilnehmen"
-            },
-            {
-              "value": 4,
-              "label": "4: neither twin is allowed to participate",
-              "label_de": "4: Kein Zwilling darf teilnehmen"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "2",
-          "concept": "gex..",
-          "answer_list": "gex",
           "scale": "cat",
           "answers": [
             {
@@ -66,7 +42,7 @@
               "label_de": "4: Kein Zwilling darf teilnehmen"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 0,
@@ -79,12 +55,13 @@
       "label": "How much does <NAME TWIN1> like to eat gummy bears?",
       "items": [
         {
-          "number": "3",
+          "name": "gex0200t",
+          "item": "1",
+          "number": "2",
           "concept": "gex00",
           "text": "How much does <NAME TWIN1> like to eat gummy bears?",
           "text_de": "Wie gerne isst < NAME ZWILLING1> Gummibaerchen?",
-          "answer_list": "gex0200t",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(euek==1) & age0110t>5 & age0110t<=8 & gex0100t==1",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -120,50 +97,7 @@
               "label_de": "6: Zwilling 1 darf keine Gummibaerchen essen"
             }
           ],
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "4",
-          "concept": "gex00",
-          "answer_list": "gex0200t",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: very much",
-              "label_de": "1: sehr gerne"
-            },
-            {
-              "value": 2,
-              "label": "2: quite likes them",
-              "label_de": "2: eher gerne"
-            },
-            {
-              "value": 3,
-              "label": "3: does not like them very much",
-              "label_de": "3: eher nicht so gerne"
-            },
-            {
-              "value": 4,
-              "label": "4: does not like them at all",
-              "label_de": "4: ueberhaupt nicht gerne"
-            },
-            {
-              "value": 5,
-              "label": "5: Twin 1 does not eat gummy bears",
-              "label_de": "5: Zwilling 1 isst nicht Gummibaerchen"
-            },
-            {
-              "value": 6,
-              "label": "6: Twin 1 is not allowed to eat gummy bears",
-              "label_de": "6: Zwilling 1 darf keine Gummibaerchen essen"
-            }
-          ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 1,
@@ -176,12 +110,13 @@
       "label": "How much does <NAME TWIN2> like to eat gummy bears?",
       "items": [
         {
-          "number": "5",
+          "name": "gex0200u",
+          "item": "1",
+          "number": "3",
           "concept": "gex00",
           "text": "How much does <NAME TWIN2> like to eat gummy bears?",
           "text_de": "Wie gerne isst < NAME ZWILLING2> Gummibaerchen?",
-          "answer_list": "gex0200u",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(euek==1) & age0110t>5 & age0110t<=8 & gex0100u==1",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -217,50 +152,7 @@
               "label_de": "6: Zwilling 2 darf keine Gummibaerchen essen"
             }
           ],
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "6",
-          "concept": "gex00",
-          "answer_list": "gex0200u",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: very much",
-              "label_de": "1: sehr gerne"
-            },
-            {
-              "value": 2,
-              "label": "2: quite likes them",
-              "label_de": "2: eher gerne"
-            },
-            {
-              "value": 3,
-              "label": "3: does not like them very much",
-              "label_de": "3: eher nicht so gerne"
-            },
-            {
-              "value": 4,
-              "label": "4: does not like them at all",
-              "label_de": "4: ueberhaupt nicht gerne"
-            },
-            {
-              "value": 5,
-              "label": "5: Twin 2 does not eat gummy bears",
-              "label_de": "5: Zwilling 2 isst nicht Gummibaerchen"
-            },
-            {
-              "value": 6,
-              "label": "6: Twin 2 is not allowed to eat gummy bears",
-              "label_de": "6: Zwilling 2 darf keine Gummibaerchen essen"
-            }
-          ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 2,
@@ -270,41 +162,16 @@
     "gex0300t": {
       "question": "gex0300t",
       "name": "gex0300t",
+      "label": "How long has it been since <NAME TWIN1> ate a larger meal?",
       "items": [
         {
-          "item": "1.0",
-          "number": "8",
-          "concept": "gex00",
-          "answer_list": "gex0300t",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: less than one hour",
-              "label_de": "1: weniger als eine Stunde"
-            },
-            {
-              "value": 2,
-              "label": "2: between one and three hours",
-              "label_de": "2: zwischen einer und drei Stunden"
-            },
-            {
-              "value": 3,
-              "label": "3: more than three hours",
-              "label_de": "3: mehr als drei Stunden"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "7",
+          "name": "gex0300t",
+          "item": "1",
+          "number": "4",
           "concept": "gex00",
           "text": "How long has it been since <NAME TWIN1> ate a larger meal?",
           "text_de": "Wie lange ist es her, dass < NAME ZWILLING1> eine groessere Mahlzeit zu sich genommen hat?",
-          "answer_list": "gex0300t",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(euek==1) & age0110t>5 & age0110t<=8 & gex0100t==1 & gex0200t<4",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -325,8 +192,7 @@
               "label_de": "3: mehr als drei Stunden"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 3,
@@ -336,41 +202,16 @@
     "gex0300u": {
       "question": "gex0300u",
       "name": "gex0300u",
+      "label": "How long has it been since <NAME TWIN2> ate a larger meal?",
       "items": [
         {
-          "item": "1.0",
-          "number": "10",
-          "concept": "gex00",
-          "answer_list": "gex0300t",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: less than one hour",
-              "label_de": "1: weniger als eine Stunde"
-            },
-            {
-              "value": 2,
-              "label": "2: between one and three hours",
-              "label_de": "2: zwischen einer und drei Stunden"
-            },
-            {
-              "value": 3,
-              "label": "3: more than three hours",
-              "label_de": "3: mehr als drei Stunden"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "9",
+          "name": "gex0300u",
+          "item": "1",
+          "number": "5",
           "concept": "gex00",
           "text": "How long has it been since <NAME TWIN2> ate a larger meal?",
           "text_de": "Wie lange ist es her, dass < NAME ZWILLING2> eine groessere Mahlzeit zu sich genommen hat?",
-          "answer_list": "gex0300t",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(euek==1) & age0110t>5 & age0110t<=8 & gex0100u==1 & gex0200u<4",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -391,8 +232,7 @@
               "label_de": "3: mehr als drei Stunden"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 4,
@@ -405,12 +245,13 @@
       "label": "I would now like to play a game with you. [IF gex = 1] I will play the game later with [IF: ptyp = 001: <NAME TWIN 2>] [IF: ptyp = 002: <NAME TWIN 1]. But now we start with you. I will take you [IF: ptyp = 001: <NAME TWIN 1> or IF: ptyp = 002: <NAME TWIN 2] to another room and explain the rules there. << To the parent: >> Please accompany me and [IF: ptyp = 001: <NAME TWIN 1> or IF: ptyp = 002: <NAME TWIN 2] briefly to the other room we talked about earlier. Please get a plate now.",
       "items": [
         {
-          "number": "11",
+          "name": "gex0500",
+          "item": "1",
+          "number": "6",
           "concept": "gex..",
           "text": "I would now like to play a game with you. [IF gex = 1] I will play the game later with [IF: ptyp = 001: <NAME TWIN 2>] [IF: ptyp = 002: <NAME TWIN 1]. But now we start with you. I will take you [IF: ptyp = 001: <NAME TWIN 1> or IF: ptyp = 002: <NAME TWIN 2] to another room and explain the rules there. << To the parent: >> Please accompany me and [IF: ptyp = 001: <NAME TWIN 1> or IF: ptyp = 002: <NAME TWIN 2] briefly to the other room we talked about earlier. Please get a plate now.",
           "text_de": "Ich moechte nun gerne ein Spiel mit Dir spielen. [IF gex=1]Ich werde das Spiel spaeter auch noch mit [IF: ptyp=001: <NAME ZWILLING 2>][IF: ptyp=002: <NAME ZWILLING 1] spielen. Nun beginnen wir aber mit Dir. Ich bringe Dich [IF: ptyp=001: <NAME ZWILLING 1> or IF: ptyp=002: <NAME ZWILLING 2] nun in ein anderes Zimmer und erklaere dir dort die Regeln. <<An das Elternteil gerichtet:>> Bitte begleiten Sie mich und [IF: ptyp=001: <NAME ZWILLING 1> or IF: ptyp=002: <NAME ZWILLING 2] kurz in den anderen Raum, ueber den wir vorhin gesprochen haben. Bitte holen Sie nun auch einen Teller.",
-          "answer_list": "gex0500",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(ptyp==001 & (age0110>5 & age0110<=8) & (gex0102==1 | gex0102==2)) | (ptyp==002 & (age0110>5 & age0110<=8) & (gex0102==1 | gex0102==3))",
           "answers": [
             {
@@ -424,28 +265,7 @@
               "label_de": "1: weiter"
             }
           ],
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "12",
-          "concept": "gex..",
-          "answer_list": "gex0500",
-          "scale": "cat",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: the child does not want to play the game",
-              "label_de": "-81: das Kind moechte das Spiel nicht spielen"
-            },
-            {
-              "value": 1,
-              "label": "1: continue",
-              "label_de": "1: weiter"
-            }
-          ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 5,
@@ -455,31 +275,16 @@
     "gex0600": {
       "question": "gex0600",
       "name": "gex0600",
+      "label": "Please sit down at a table. If you still have to go to the toilet, then you have the opportunity now. After that I would like to play a game with you. Look, I brought along gummy bears and would like to play a game with you. If you stay here for so long and wait for me to pick you up again and you don't take any gummy bears off your plate, you will get !!! to this bag a second !!! Bag of gummy bears. If it takes too long for you, you can also eat gummy bears from your plate while you wait for me. However, afterwards you only get the gummy bears that are already on the plate. In our game you can think about whether you want to wait and then get two bags of gummy bears, or whether you prefer to eat from the gummy bears beforehand and then only get this one bag. Now let me briefly count how many gummy bears are currently on the plate.",
       "items": [
         {
-          "item": "1.0",
-          "number": "14",
-          "concept": "gex00",
-          "answer_list": "gex0600",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: the child does not want to play the game",
-              "label_de": "-81: das Kind moechte das Spiel nicht spielen"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "13",
+          "name": "gex0600",
+          "item": "1",
+          "number": "7",
           "concept": "gex00",
           "text": "Please sit down at a table. If you still have to go to the toilet, then you have the opportunity now. After that I would like to play a game with you. Look, I brought along gummy bears and would like to play a game with you. If you stay here for so long and wait for me to pick you up again and you don't take any gummy bears off your plate, you will get !!! to this bag a second !!! Bag of gummy bears. If it takes too long for you, you can also eat gummy bears from your plate while you wait for me. However, afterwards you only get the gummy bears that are already on the plate. In our game you can think about whether you want to wait and then get two bags of gummy bears, or whether you prefer to eat from the gummy bears beforehand and then only get this one bag. Now let me briefly count how many gummy bears are currently on the plate.",
           "text_de": "Setz Dich bitte an einen Tisch. Falls Du noch auf die Toilette musst, dann hast du jetzt nochmal die Gelegenheit dazu. Danach wuerde ich gerne ein Spiel mit Dir spielen. Schau mal, ich habe Gummibaerchen mitgebracht und wuerde gerne ein Spiel mit Dir spielen. Wenn Du so lange hier sitzen bleibst und wartest, bis ich dich hier wieder abhole, und du waehrenddessen keine Gummibaerchen vom Teller nimmst, dann bekommst Du !!!zusaetzlich!!! zu dieser Tuete noch eine !!!zweite!!! Tuete Gummibaerchen. Wenn es Dir zu lange dauert, kannst du aber auch, waehrend du auf mich wartest, Gummibaerchen vom Teller essen. Allerdings bekommst Du dann nachher nur die Gummibaerchen, die bereits auf dem Teller liegen. Du kannst dir bei unserem Spiel also ueberlegen, ob du warten magst und dann zwei Tueten Gummibaerchen bekommst, oder ob du lieber vorher von den Gummibaerchen isst und dann nur diese eine Tuete bekommst. Nun lass mich noch kurz zaehlen, wie viele Gummibaerchen im Moment auf dem Teller liegen.",
-          "answer_list": "gex0600",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(inlist(ptyp,1,2)) & gex0500==1",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -490,8 +295,7 @@
               "label_de": "-81: das Kind moechte das Spiel nicht spielen"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 6,
@@ -501,36 +305,16 @@
     "gex0602": {
       "question": "gex0602",
       "name": "gex0602",
+      "label": "[Interviewer instructions] <Interviewer leaves test room> Please check whether the stopwatch has started. Then please take the laptop, including the mouse, and, with the parent, leave the room in which the child is waiting. Together with the parent, return to the room where the other respondents are.",
       "items": [
         {
-          "item": "1.0",
-          "number": "16",
-          "concept": "gex00",
-          "answer_list": "gex0602",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: the child does not want to play the game",
-              "label_de": "-81: das Kind moechte das Spiel nicht spielen"
-            },
-            {
-              "value": 1,
-              "label": "1: I (interviewer) left the waiting room",
-              "label_de": "1: ich (Interviewer) habe Warteraum verlassen"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "15",
+          "name": "gex0602",
+          "item": "1",
+          "number": "8",
           "concept": "gex00",
           "text": "[Interviewer instructions] <Interviewer leaves test room> Please check whether the stopwatch has started. Then please take the laptop, including the mouse, and, with the parent, leave the room in which the child is waiting. Together with the parent, return to the room where the other respondents are.",
           "text_de": "[Intervieweranweisung] <Interviewer verlaesst Testraum> Ueberpruefen Sie bitte, ob die Stoppuhr gestartet ist. Nehmen Sie dann bitte den Laptop inkl. Maus und verlassen Sie mit dem Elternteil den Raum, in dem das Kind wartet. Gehen Sie, zusammen mit dem Elternteil, wieder in den Raum zurueck, in dem sich die anderen Befragungspersonen aufhalten.",
-          "answer_list": "gex0602",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(inlist(ptyp,1,2) & gex0601!=-81 & gex0601!=-95)",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -546,8 +330,7 @@
               "label_de": "1: ich (Interviewer) habe Warteraum verlassen"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 7,
@@ -560,12 +343,13 @@
       "label": "[Interviewer instructions] <Interviewer comes back to the test room> Please wait until the stopwatch has run out! When the timer has expired, please go back to the room in which the child is waiting with the laptop including the mouse (make sure that the battery is charged) and the bag of gummy bears - together with a parent - and end the puzzle.",
       "items": [
         {
-          "number": "17",
+          "name": "gex0603",
+          "item": "1",
+          "number": "9",
           "concept": "gex00",
           "text": "[Interviewer instructions] <Interviewer comes back to the test room> Please wait until the stopwatch has run out! When the timer has expired, please go back to the room in which the child is waiting with the laptop including the mouse (make sure that the battery is charged) and the bag of gummy bears - together with a parent - and end the puzzle.",
           "text_de": "[Intervieweranweisung] <Interviewer kommt zurueck in Testraum> Bitte warten Sie, bis die Stoppuhr abgelaufen ist! Wenn der Timer abgelaufen ist, gehen Sie bitte jetzt mit dem Laptop inkl. Maus (stellen Sie sicher, dass der Akku aufgeladen ist) und der Gummibaerchentuete - gemeinsam mit einem Elternteil - zurueck in den Raum, in dem das Kind wartet und beenden Sie das Geduldsspiel.",
-          "answer_list": "gex0603",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(inlist(ptyp,1,2)) & gex0602!=-81 & gex0602!=-95",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -581,30 +365,7 @@
               "label_de": "1: wieder in dem Raum, in dem das Kind gewartet hat"
             }
           ],
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "18",
-          "concept": "gex00",
-          "answer_list": "gex0603",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: the child does not want to play the game",
-              "label_de": "-81: das Kind moechte das Spiel nicht spielen"
-            },
-            {
-              "value": 1,
-              "label": "1: back in the room where the child was waiting",
-              "label_de": "1: wieder in dem Raum, in dem das Kind gewartet hat"
-            }
-          ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 8,
@@ -614,36 +375,16 @@
     "gex0604": {
       "question": "gex0604",
       "name": "gex0604",
+      "label": "Thank you for playing in the game. We are done with the game now. Let me take a quick look at how many gummy bears are on the plate.",
       "items": [
         {
-          "item": "1.0",
-          "number": "20",
-          "concept": "gex00",
-          "answer_list": "mis",
-          "scale": "int",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "19",
+          "name": "gex0604",
+          "item": "1",
+          "number": "10",
           "concept": "gex00",
           "text": "Thank you for playing in the game. We are done with the game now. Let me take a quick look at how many gummy bears are on the plate.",
           "text_de": "Vielen Dank, dass du bei dem Spiel mitgespielt hast. Wir sind jetzt fertig mit dem Spiel. Lass mich noch kurz nachschauen, wie viele Gummibaerchen auf dem Teller sind.",
-          "answer_list": "mis",
-          "scale": "txt",
+          "scale": "int",
           "filter": "(inlist(ptyp,1,2)) & gex0603!=-81 & gex0602!=-81 & gex0602!=-95",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -659,8 +400,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 9,
@@ -670,46 +410,16 @@
     "gex0800": {
       "question": "gex0800",
       "name": "gex0800",
+      "label": "Interviewer information: Did the child leave the 'waiting room' during the ten minutes?",
       "items": [
         {
-          "item": "1.0",
-          "number": "22",
-          "concept": "gex..",
-          "answer_list": "yn",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "21",
+          "name": "gex0800",
+          "item": "1",
+          "number": "11",
           "concept": "gex..",
           "text": "Interviewer information: Did the child leave the 'waiting room' during the ten minutes?",
           "text_de": "Interviewerangabe: Hat das Kind das Wartezimmer waehrend der 10 Minuten verlassen?",
-          "answer_list": "yn",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(inlist(ptyp,1,2)) & gex0602!=-81 & gex0600!=-81 & gex0500!=-81 & gex0500==1",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -735,8 +445,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 10,
@@ -746,36 +455,16 @@
     "gex0801": {
       "question": "gex0801",
       "name": "gex0801",
+      "label": "Interviewer: After how many minutes and seconds did the child leave the 'waiting room'?",
       "items": [
         {
-          "item": "1.0",
-          "number": "24",
-          "concept": "gex..",
-          "answer_list": "mis",
-          "scale": "int",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "23",
+          "name": "gex0801",
+          "item": "1",
+          "number": "12",
           "concept": "gex..",
           "text": "Interviewer: After how many minutes and seconds did the child leave the 'waiting room'?",
           "text_de": "Interviewerangabe: Nach wie vielen Minuten und Sekunden hat das Kind das 'Wartezimmer' verlassen?",
-          "answer_list": "mis",
-          "scale": "txt",
+          "scale": "int",
           "filter": "(inlist(ptyp,1,2)) & gex0800==1",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -791,8 +480,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 11,
@@ -805,12 +493,13 @@
       "label": "Interviewer information: What did the table at which the child was waiting look like \u00e2\u0080\u0093 before the puzzle?",
       "items": [
         {
-          "number": "25",
+          "name": "gex0802",
+          "item": "1",
+          "number": "13",
           "concept": "gex..",
           "text": "Interviewer information: What did the table at which the child was waiting look like \u00e2\u0080\u0093 before the puzzle?",
           "text_de": "Interviewerangabe: Wie sah der Tisch aus, an dem das Kind gewartet hat - Vor dem Geduldspiel?",
-          "answer_list": "srg1000",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(inlist(ptyp,1,2)) & gex0602!=-81 & gex0600!=-81 & gex0500!=-81 & gex0500==1",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -831,35 +520,7 @@
               "label_de": "2: es lagen sehr viele Dinge auf dem Tisch"
             }
           ],
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "26",
-          "concept": "gex..",
-          "answer_list": "srg1000",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: there was no table",
-              "label_de": "-81: es gab keinen Tisch"
-            },
-            {
-              "value": 1,
-              "label": "1: there were only a few things on the table",
-              "label_de": "1: es lagen nur wenige Dinge auf dem Tisch"
-            },
-            {
-              "value": 2,
-              "label": "2: there were a lot of things on the table",
-              "label_de": "2: es lagen sehr viele Dinge auf dem Tisch"
-            }
-          ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 12,
@@ -872,12 +533,13 @@
       "label": "Interviewer information: What did the table at which the child was waiting look like \u00e2\u0080\u0093 after the waiting period was over?",
       "items": [
         {
-          "number": "27",
+          "name": "gex0803",
+          "item": "1",
+          "number": "14",
           "concept": "gex..",
           "text": "Interviewer information: What did the table at which the child was waiting look like \u00e2\u0080\u0093 after the waiting period was over?",
           "text_de": "Interviewerangabe: Wie sah der Tisch aus, an dem das Kind gewartet hat - nachdem die Wartezeit abgelaufen war?",
-          "answer_list": "srg1001",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(inlist(ptyp,1,2)) & gex0802!=-81 & gex0802!=-95",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -893,30 +555,7 @@
               "label_de": "2: der Tisch sah deutlich veraendert aus"
             }
           ],
-          "sn": 0,
-          "item": "root"
-        },
-        {
-          "item": "1.0",
-          "number": "28",
-          "concept": "gex..",
-          "answer_list": "srg1001",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: nothing/hardly anything visibly changed on the table",
-              "label_de": "1: auf dem Tisch hat sich nichts/kaum etwas sichtbar veraendert"
-            },
-            {
-              "value": 2,
-              "label": "2: the table looked very different",
-              "label_de": "2: der Tisch sah deutlich veraendert aus"
-            }
-          ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 13,
@@ -926,36 +565,16 @@
     "gex0804": {
       "question": "gex0804",
       "name": "gex0804",
+      "label": "Interviewer information: Was there anything unusual during the experiment? For example, were there any disturbances: Did the phone or doorbell ring or anything similar?",
       "items": [
         {
-          "item": "1.0",
-          "number": "30",
-          "concept": "gex..",
-          "answer_list": "srg1100",
-          "scale": "cat",
-          "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: yes, namely: (open statement)",
-              "label_de": "1: ja, und zwar: (offene Angabe)"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "29",
+          "name": "gex0804",
+          "item": "1",
+          "number": "15",
           "concept": "gex..",
           "text": "Interviewer information: Was there anything unusual during the experiment? For example, were there any disturbances: Did the phone or doorbell ring or anything similar?",
           "text_de": "Interviewerangabe: Gab es Auffaelligkeiten waehrend des Experiments? Gab es z.B. irgendwelche Stoerungen: Hat das Telefon geklingelt oder wurde an der Tuer gelaeutet oder aehnliches?",
-          "answer_list": "srg1100",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "(ptyp==001 & (age0110>5 & age0110<=8) & (gex0102==1 | gex0102==2)) | (ptyp==002 & (age0110>5 & age0110<=8) & (gex0102==1 | gex0102==3))",
           "description": "Source: Experiment adapted from: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
           "description_de": "Source: Experiment adaptiert von: Bartling, B., Fehr, E., Fischer, B., Kosse, F., & Marechal, M. A. (2009). Geduld von Vorschulkindern: Ergebnisse einer Experimentalstudie im Haushaltskontext von Kindern (No. 09-069). ZEW Discussion Papers. ",
@@ -971,8 +590,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 14,

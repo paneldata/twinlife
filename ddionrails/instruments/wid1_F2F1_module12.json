@@ -1,17 +1,56 @@
 {
+  "study": "twinlife",
+  "name": "wid1_F2F1_module12",
+  "label": "F2F 1: certificate questionnaire (CAPI)",
+  "description": "This questionnaire module contains questions on: photos of school reports, self-report on school grades (current school marks, marks of highest graduation).",
+  "analysis_unit": "individual",
+  "period": 1,
   "instrument": "wid1_F2F1_module12",
   "questions": {
+    "sex": {
+      "question": "sex",
+      "name": "sex",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "sex",
+          "item": "1",
+          "number": "1",
+          "concept": "sex00",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: male",
+              "label_de": "1: maennlich"
+            },
+            {
+              "value": 2,
+              "label": "2: female",
+              "label_de": "2: weiblich"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid1_F2F1_module12",
+      "study": "twinlife"
+    },
     "cer1000": {
       "question": "cer1000",
       "name": "cer1000",
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "cer1000",
+          "item": "1",
           "number": "2",
           "concept": "cer00",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "cer1000",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
@@ -32,11 +71,10 @@
               "label_de": "3: geht noch nicht in die Schule - kein Zeugnis vorhanden"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 0,
+      "sn": 1,
       "instrument": "wid1_F2F1_module12",
       "study": "twinlife"
     },
@@ -46,11 +84,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "cer1001",
+          "item": "1",
           "number": "3",
           "concept": "cer00",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "ptyp == 1 | ptyp == 2 | ptyp == 200",
           "description": "Source: Item developed for TwinLife",
@@ -77,11 +116,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 1,
+      "sn": 2,
       "instrument": "wid1_F2F1_module12",
       "study": "twinlife"
     },
@@ -91,11 +129,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "cer1100",
+          "item": "1",
           "number": "4",
           "concept": "cer00",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "cer1000 == 2",
           "description": "Source: Item developed for TwinLife",
@@ -112,216 +151,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 2,
-      "instrument": "wid1_F2F1_module12",
-      "study": "twinlife"
-    },
-    "cer1300": {
-      "question": "cer1300",
-      "name": "cer1300",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "6",
-          "concept": "cer00",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "cer13",
-          "scale": "int",
-          "filter": "cer1000 == 2",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 3,
-      "instrument": "wid1_F2F1_module12",
-      "study": "twinlife"
-    },
-    "cer1400": {
-      "question": "cer1400",
-      "name": "cer1400",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "7",
-          "concept": "cer00",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "cer13",
-          "scale": "dec",
-          "filter": "cer1000 == 1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 4,
-      "instrument": "wid1_F2F1_module12",
-      "study": "twinlife"
-    },
-    "cer1500": {
-      "question": "cer1500",
-      "name": "cer1500",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "8",
-          "concept": "cer00",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "cer13",
-          "scale": "dec",
-          "filter": "cer1000 == 1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 5,
-      "instrument": "wid1_F2F1_module12",
-      "study": "twinlife"
-    },
-    "cer1600": {
-      "question": "cer1600",
-      "name": "cer1600",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "9",
-          "concept": "cer00",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "cer13",
-          "scale": "dec",
-          "filter": "cer1000 == 1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 6,
-      "instrument": "wid1_F2F1_module12",
-      "study": "twinlife"
-    },
-    "cer1700": {
-      "question": "cer1700",
-      "name": "cer1700",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "10",
-          "concept": "cer00",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "cer1700",
-          "scale": "cat",
-          "filter": "cer1000 == 1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: primary school",
-              "label_de": "1: Grundschule"
-            },
-            {
-              "value": 2,
-              "label": "2: lower secondary school",
-              "label_de": "2: Hauptschule"
-            },
-            {
-              "value": 3,
-              "label": "3: intermediate level secondary school",
-              "label_de": "3: Realschule"
-            },
-            {
-              "value": 4,
-              "label": "4: integrated lower and intermediate level secondary school",
-              "label_de": "4: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
-            },
-            {
-              "value": 5,
-              "label": "5: higher secondary school",
-              "label_de": "5: Gymnasium (auch Kolleg)"
-            },
-            {
-              "value": 6,
-              "label": "6: comprehensive secondary school",
-              "label_de": "6: Gesamtschule (auch integrierte Schule)"
-            },
-            {
-              "value": 7,
-              "label": "7: school for handicaped children",
-              "label_de": "7: Sonderschule/Foerderschule"
-            },
-            {
-              "value": 8,
-              "label": "8: other school, such as",
-              "label_de": "8: andere Schule, und zwar"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 7,
       "instrument": "wid1_F2F1_module12",
       "study": "twinlife"
     },
@@ -331,11 +164,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "cer9000",
+          "item": "1",
           "number": "5",
           "concept": "cer00",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "cer9000",
           "scale": "cat",
           "filter": "cer1000 == 2",
           "description": "Source: Item developed for TwinLife",
@@ -397,40 +231,212 @@
               "label_de": "11: Fachoberschule (ab F2F2)"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid1_F2F1_module12",
+      "study": "twinlife"
+    },
+    "cer1300": {
+      "question": "cer1300",
+      "name": "cer1300",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "cer1300",
+          "item": "1",
+          "number": "6",
+          "concept": "cer00",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "int",
+          "filter": "cer1000 == 2",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: don't know/not specified",
+              "label_de": "-96: weiss nicht/keine Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid1_F2F1_module12",
+      "study": "twinlife"
+    },
+    "cer1400": {
+      "question": "cer1400",
+      "name": "cer1400",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "cer1400",
+          "item": "1",
+          "number": "7",
+          "concept": "cer00",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "dec",
+          "filter": "cer1000 == 1",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: don't know/not specified",
+              "label_de": "-96: weiss nicht/keine Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid1_F2F1_module12",
+      "study": "twinlife"
+    },
+    "cer1500": {
+      "question": "cer1500",
+      "name": "cer1500",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "cer1500",
+          "item": "1",
+          "number": "8",
+          "concept": "cer00",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "dec",
+          "filter": "cer1000 == 1",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: don't know/not specified",
+              "label_de": "-96: weiss nicht/keine Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid1_F2F1_module12",
+      "study": "twinlife"
+    },
+    "cer1600": {
+      "question": "cer1600",
+      "name": "cer1600",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "cer1600",
+          "item": "1",
+          "number": "9",
+          "concept": "cer00",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "dec",
+          "filter": "cer1000 == 1",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: don't know/not specified",
+              "label_de": "-96: weiss nicht/keine Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
         }
       ],
       "sn": 8,
       "instrument": "wid1_F2F1_module12",
       "study": "twinlife"
     },
-    "sex": {
-      "question": "sex",
-      "name": "sex",
+    "cer1700": {
+      "question": "cer1700",
+      "name": "cer1700",
       "label": "Interviewer: Please record:",
       "items": [
         {
-          "number": "1",
-          "concept": "sex00",
+          "name": "cer1700",
+          "item": "1",
+          "number": "10",
+          "concept": "cer00",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "sex",
           "scale": "cat",
+          "filter": "cer1000 == 1",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "answers": [
             {
               "value": 1,
-              "label": "1: male",
-              "label_de": "1: maennlich"
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
             },
             {
               "value": 2,
-              "label": "2: female",
-              "label_de": "2: weiblich"
+              "label": "2: lower secondary school",
+              "label_de": "2: Hauptschule"
+            },
+            {
+              "value": 3,
+              "label": "3: intermediate level secondary school",
+              "label_de": "3: Realschule"
+            },
+            {
+              "value": 4,
+              "label": "4: integrated lower and intermediate level secondary school",
+              "label_de": "4: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 5,
+              "label": "5: higher secondary school",
+              "label_de": "5: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive secondary school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: school for handicaped children",
+              "label_de": "7: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 8,
+              "label": "8: other school, such as",
+              "label_de": "8: andere Schule, und zwar"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 9,

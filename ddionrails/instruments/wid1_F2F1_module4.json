@@ -1,4 +1,10 @@
 {
+  "study": "twinlife",
+  "name": "wid1_F2F1_module4",
+  "label": "F2F 1: zygosity questionnaire for cohorts 3 & 4 (CAPI)",
+  "description": "This questionnaire module contains questions on: zygosity.",
+  "analysis_unit": "individual",
+  "period": 1,
   "instrument": "wid1_F2F1_module4",
   "questions": {
     "sex": {
@@ -7,11 +13,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "sex",
+          "item": "1",
           "number": "1",
           "concept": "sex00",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "sex",
           "scale": "cat",
           "filter": "sdc0100 != 2",
           "answers": [
@@ -26,11 +33,42 @@
               "label_de": "2: weiblich"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 0,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1000": {
+      "question": "zyg1000",
+      "name": "zyg1000",
+      "label": "Who was born first?",
+      "items": [
+        {
+          "name": "zyg1000",
+          "item": "1",
+          "number": "2",
+          "concept": "zyg00",
+          "text": "Who was born first?",
+          "text_de": "Wer wurde als erstes geboren?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: me",
+              "label_de": "1: ich"
+            },
+            {
+              "value": 2,
+              "label": "2: my twin brother/my twin sister",
+              "label_de": "2: mein Zwillingsbruder/meine Zwillingsschwester"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
       "instrument": "wid1_F2F1_module4",
       "study": "twinlife"
     },
@@ -40,11 +78,12 @@
       "label": "How tall are you currently in cm?",
       "items": [
         {
+          "name": "zyg0200",
+          "item": "1",
           "number": "3",
           "concept": "zyg00",
           "text": "How tall are you currently in cm?",
           "text_de": "Wie gross sind Sie gegenwaertig in cm?",
-          "answer_list": "mis",
           "scale": "int",
           "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
           "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
@@ -60,11 +99,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 1,
+      "sn": 2,
       "instrument": "wid1_F2F1_module4",
       "study": "twinlife"
     },
@@ -74,11 +112,12 @@
       "label": "How tall is your twin brother/twin sister currently?",
       "items": [
         {
+          "name": "zyg0201",
+          "item": "1",
           "number": "4",
           "concept": "zyg00",
           "text": "How tall is your twin brother/twin sister currently?",
           "text_de": "Wie gross ist Ihr Zwillingsbruder/Ihre Zwillingsschwester gegenwaertig?",
-          "answer_list": "mis",
           "scale": "int",
           "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
           "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
@@ -94,11 +133,728 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 2,
+      "sn": 3,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1100": {
+      "question": "zyg1100",
+      "name": "zyg1100",
+      "label": "Is your hair texture different from your twin brother's/sister's hair texture (e.g., fine or thick, straight or curly)?",
+      "items": [
+        {
+          "name": "zyg1100",
+          "item": "1",
+          "number": "5",
+          "concept": "zyg00",
+          "text": "Is your hair texture different from your twin brother's/sister's hair texture (e.g., fine or thick, straight or curly)?",
+          "text_de": "Besteht ein Unterschied in der Haargestalt (z. B. feines, starkes, glattes, krauses Haar) zwischen Ihnen und Ihrem Zwillingsbruder/Ihrer Zwillingsschwester?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no, there are no differences.",
+              "label_de": "1: Nein, es gibt keinen Unterschied."
+            },
+            {
+              "value": 2,
+              "label": "2: yes, there is a slight difference.",
+              "label_de": "2: Ja, es gibt einen leichten Unterschied."
+            },
+            {
+              "value": 3,
+              "label": "3: yes, there is a clear difference.",
+              "label_de": "3: Ja, es gibt einen deutlichen Unterschied."
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1101": {
+      "question": "zyg1101",
+      "name": "zyg1101",
+      "label": "Do you have additional hair, e.g., on your legs, upper body, hands, or face?",
+      "items": [
+        {
+          "name": "zyg1101",
+          "item": "1",
+          "number": "6",
+          "concept": "zyg00",
+          "text": "Do you have additional hair, e.g., on your legs, upper body, hands, or face?",
+          "text_de": "Haben Sie zusaetzliche Behaarung z.B. der Beine, des Oberkoerpers, der Haende, des Gesichts?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1102": {
+      "question": "zyg1102",
+      "name": "zyg1102",
+      "label": "Does your twin brother/your twin sister have additional hair, e.g., on his/her legs, upper body, hands, or face?",
+      "items": [
+        {
+          "name": "zyg1102",
+          "item": "1",
+          "number": "7",
+          "concept": "zyg00",
+          "text": "Does your twin brother/your twin sister have additional hair, e.g., on his/her legs, upper body, hands, or face?",
+          "text_de": "Hat Ihr Zwillingsbruder/Ihre Zwillingsschwester zusaetzliche Behaarung z.B. der Beine, des Oberkoerpers, der Haende, des Gesichts?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1200": {
+      "question": "zyg1200",
+      "name": "zyg1200",
+      "label": "What color are your eyes?",
+      "items": [
+        {
+          "name": "zyg1200",
+          "item": "1",
+          "number": "8",
+          "concept": "zyg00",
+          "text": "What color are your eyes?",
+          "text_de": "Welche Augenfarbe haben Sie?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: blue",
+              "label_de": "1: blau"
+            },
+            {
+              "value": 2,
+              "label": "2: grey",
+              "label_de": "2: grau"
+            },
+            {
+              "value": 3,
+              "label": "3: light brown",
+              "label_de": "3: hellbraun"
+            },
+            {
+              "value": 4,
+              "label": "4: dark brown",
+              "label_de": "4: dunkelbraun"
+            },
+            {
+              "value": 5,
+              "label": "5: green",
+              "label_de": "5: gruen"
+            },
+            {
+              "value": 6,
+              "label": "6: other (please specify):",
+              "label_de": "6: andere, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1202": {
+      "question": "zyg1202",
+      "name": "zyg1202",
+      "label": "What color are your twin brother's/twin sister's eyes?",
+      "items": [
+        {
+          "name": "zyg1202",
+          "item": "1",
+          "number": "9",
+          "concept": "zyg00",
+          "text": "What color are your twin brother's/twin sister's eyes?",
+          "text_de": "Welche Augenfarbe hat Ihr Zwillingsbruder/Ihre Zwillingsschwester?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: blue",
+              "label_de": "1: blau"
+            },
+            {
+              "value": 2,
+              "label": "2: grey",
+              "label_de": "2: grau"
+            },
+            {
+              "value": 3,
+              "label": "3: light brown",
+              "label_de": "3: hellbraun"
+            },
+            {
+              "value": 4,
+              "label": "4: dark brown",
+              "label_de": "4: dunkelbraun"
+            },
+            {
+              "value": 5,
+              "label": "5: green",
+              "label_de": "5: gruen"
+            },
+            {
+              "value": 6,
+              "label": "6: other (please specify):",
+              "label_de": "6: andere, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1204": {
+      "question": "zyg1204",
+      "name": "zyg1204",
+      "label": "Is the color of your eyes different from the color of your twin brother's/sister's eyes?",
+      "items": [
+        {
+          "name": "zyg1204",
+          "item": "1",
+          "number": "10",
+          "concept": "zyg00",
+          "text": "Is the color of your eyes different from the color of your twin brother's/sister's eyes?",
+          "text_de": "Besteht zwischen Ihnen und Ihrem Zwillingsbruder/Ihrer Zwillingsschwester ein Unterschied in der Augenfarbe?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no, there are no differences.",
+              "label_de": "1: Nein, es gibt keinen Unterschied."
+            },
+            {
+              "value": 2,
+              "label": "2: yes, there is a slight difference.",
+              "label_de": "2: Ja, es besteht ein geringfuegiger Unterschied."
+            },
+            {
+              "value": 3,
+              "label": "3: yes, there is a clear difference.",
+              "label_de": "3: Ja, es besteht ein deutlicher Unterschied."
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1300": {
+      "question": "zyg1300",
+      "name": "zyg1300",
+      "label": "Is there any kind of difference between your earlobes your twin brother's/twin sister's earlobes?",
+      "items": [
+        {
+          "name": "zyg1300",
+          "item": "1",
+          "number": "11",
+          "concept": "zyg00",
+          "text": "Is there any kind of difference between your earlobes your twin brother's/twin sister's earlobes?",
+          "text_de": "Bestehen zwischen Ihnen und Ihrem Zwillingsbruder/Ihrer Zwillingsschwester irgendwelche Unterschiede in der Gestalt der Ohrlaeppchen?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no, there are no differences.",
+              "label_de": "1: Nein, es gibt keinen Unterschied."
+            },
+            {
+              "value": 2,
+              "label": "2: yes, there is a slight difference.",
+              "label_de": "2: Ja, es besteht ein geringfuegiger Unterschied."
+            },
+            {
+              "value": 3,
+              "label": "3: yes, there is a clear difference.",
+              "label_de": "3: Ja, es besteht ein deutlicher Unterschied."
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1400": {
+      "question": "zyg1400",
+      "name": "zyg1400",
+      "label": "What color is your skin?",
+      "items": [
+        {
+          "name": "zyg1400",
+          "item": "1",
+          "number": "12",
+          "concept": "zyg00",
+          "text": "What color is your skin?",
+          "text_de": "Welche Hautfarbe haben Sie?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: light",
+              "label_de": "1: hell"
+            },
+            {
+              "value": 2,
+              "label": "2: dark",
+              "label_de": "2: dunkel"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1401": {
+      "question": "zyg1401",
+      "name": "zyg1401",
+      "label": "What color is your twin brother's/sister's skin?",
+      "items": [
+        {
+          "name": "zyg1401",
+          "item": "1",
+          "number": "13",
+          "concept": "zyg00",
+          "text": "What color is your twin brother's/sister's skin?",
+          "text_de": "Welche Hautfarbe hat Ihr Zwillingsbruder/Ihre Zwillingsschwester?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: light",
+              "label_de": "1: hell"
+            },
+            {
+              "value": 2,
+              "label": "2: dark",
+              "label_de": "2: dunkel"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1500": {
+      "question": "zyg1500",
+      "name": "zyg1500",
+      "label": "When you were children, did people confuse you with your twin?",
+      "items": [
+        {
+          "name": "zyg1500",
+          "item": "1",
+          "number": "14",
+          "concept": "zyg00",
+          "text": "When you were children, did people confuse you with your twin?",
+          "text_de": "Wurden Sie in Ihrer Kindheit von anderen Leuten miteinander verwechselt?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1501": {
+      "question": "zyg1501",
+      "name": "zyg1501",
+      "label": "Which of the following people confused you with your twin? Please consider all groups of people and tick the appropriate answer:",
+      "items": [
+        {
+          "name": "zyg1501",
+          "item": "0",
+          "number": "15",
+          "concept": "zyg00",
+          "text": "Which of the following people confused you with your twin? Please consider all groups of people and tick the appropriate answer:",
+          "text_de": "Welche von den nachstehend genannten Personen verwechselte Sie? Bitte ziehen Sie alle Personengruppen in Betracht und kreuzen Sie die jeweils gewaehlte Antwort an:",
+          "scale": "txt",
+          "filter": "zyg1500 == 1",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: often",
+              "label_de": "1: oft"
+            },
+            {
+              "value": 2,
+              "label": "2: sometimes",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: rarely",
+              "label_de": "3: selten"
+            },
+            {
+              "value": 4,
+              "label": "4: never",
+              "label_de": "4: nie"
+            }
+          ],
+          "sn": 0
+        },
+        {
+          "name": "zyg1501",
+          "item": "1",
+          "number": "16",
+          "concept": "zyg00",
+          "text": "parents",
+          "text_de": "Eltern",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: often",
+              "label_de": "1: oft"
+            },
+            {
+              "value": 2,
+              "label": "2: sometimes",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: rarely",
+              "label_de": "3: selten"
+            },
+            {
+              "value": 4,
+              "label": "4: never",
+              "label_de": "4: nie"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "name": "zyg1501",
+          "item": "2",
+          "number": "17",
+          "concept": "zyg00",
+          "text": "friends",
+          "text_de": "Freunde",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: often",
+              "label_de": "1: oft"
+            },
+            {
+              "value": 2,
+              "label": "2: sometimes",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: rarely",
+              "label_de": "3: selten"
+            },
+            {
+              "value": 4,
+              "label": "4: never",
+              "label_de": "4: nie"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "name": "zyg1501",
+          "item": "3",
+          "number": "18",
+          "concept": "zyg00",
+          "text": "people that I/we met for the first time",
+          "text_de": "Personen, denen ich/wir zum ersten Mal begegnete/n",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: often",
+              "label_de": "1: oft"
+            },
+            {
+              "value": 2,
+              "label": "2: sometimes",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: rarely",
+              "label_de": "3: selten"
+            },
+            {
+              "value": 4,
+              "label": "4: never",
+              "label_de": "4: nie"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "name": "zyg1501",
+          "item": "4",
+          "number": "19",
+          "concept": "zyg00",
+          "text": "sibling(s)",
+          "text_de": "Geschwister",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: often",
+              "label_de": "1: oft"
+            },
+            {
+              "value": 2,
+              "label": "2: sometimes",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: rarely",
+              "label_de": "3: selten"
+            },
+            {
+              "value": 4,
+              "label": "4: never",
+              "label_de": "4: nie"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "name": "zyg1501",
+          "item": "5",
+          "number": "20",
+          "concept": "zyg00",
+          "text": "teachers",
+          "text_de": "Lehrer",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: often",
+              "label_de": "1: oft"
+            },
+            {
+              "value": 2,
+              "label": "2: sometimes",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: rarely",
+              "label_de": "3: selten"
+            },
+            {
+              "value": 4,
+              "label": "4: never",
+              "label_de": "4: nie"
+            }
+          ],
+          "sn": 5
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1506": {
+      "question": "zyg1506",
+      "name": "zyg1506",
+      "label": "Did your parents or childcare providers make any special efforts to be able to tell you apart (e.g., different color hair ribbons for girls, different clothing, etc.)?",
+      "items": [
+        {
+          "name": "zyg1506",
+          "item": "1",
+          "number": "21",
+          "concept": "zyg00",
+          "text": "Did your parents or childcare providers make any special efforts to be able to tell you apart (e.g., different color hair ribbons for girls, different clothing, etc.)?",
+          "text_de": "Haben Ihre Eltern oder Betreuer sich besondere Muehe geben muessen, um Sie voneinander unterscheiden zu koennen (z. B. verschieden gefaerbte Schleifen bei Maedchen, unterschiedliche Kleidung)?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: I can't remember",
+              "label_de": "-96: ich kann mich nicht erinnern"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1507": {
+      "question": "zyg1507",
+      "name": "zyg1507",
+      "label": "Are people able to clearly tell you apart from your twin when looking at a recent photograph of the two of you together?",
+      "items": [
+        {
+          "name": "zyg1507",
+          "item": "1",
+          "number": "22",
+          "concept": "zyg00",
+          "text": "Are people able to clearly tell you apart from your twin when looking at a recent photograph of the two of you together?",
+          "text_de": "Gelingt es anderen bei der Betrachtung eines neuen gemeinsamen Lichtbildes von Ihnen und Ihrem Zwillingsbruder/Ihrer Zwillingsschwester leicht, Sie einwandfrei voneinander zu unterscheiden?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, without any problems.",
+              "label_de": "1: Ja, ohne weiteres."
+            },
+            {
+              "value": 2,
+              "label": "2: yes, but with some difficulty.",
+              "label_de": "2: Ja, aber mit Schwierigkeiten."
+            },
+            {
+              "value": 3,
+              "label": "3: yo, we often get mistaken for one another in photographs.",
+              "label_de": "3: Nein, wir werden auf Lichtbildern oft verwechselt."
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
       "instrument": "wid1_F2F1_module4",
       "study": "twinlife"
     },
@@ -108,11 +864,12 @@
       "label": "Please enter your blood group and the blood group of your twin brother/your twin sister.",
       "items": [
         {
+          "name": "zyg0501",
+          "item": "1",
           "number": "23",
           "concept": "zyg00",
           "text": "Please enter your blood group and the blood group of your twin brother/your twin sister.",
           "text_de": "Tragen Sie bitte Ihre Blutgruppe und die Blutgruppe Ihres Zwillingsbruders/Ihrer Zwillingsschwester ein",
-          "answer_list": "zyg0501",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -138,11 +895,10 @@
               "label_de": "4: 0"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 3,
+      "sn": 17,
       "instrument": "wid1_F2F1_module4",
       "study": "twinlife"
     },
@@ -152,11 +908,12 @@
       "label": "Please enter your blood group and the blood group of your twin brother/your twin sister.",
       "items": [
         {
+          "name": "zyg0502",
+          "item": "1",
           "number": "24",
           "concept": "zyg00",
           "text": "Please enter your blood group and the blood group of your twin brother/your twin sister.",
           "text_de": "Tragen Sie bitte Ihre Blutgruppe und die Blutgruppe Ihres Zwillingsbruders/Ihrer Zwillingsschwester ein",
-          "answer_list": "zyg0502",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -172,11 +929,10 @@
               "label_de": "2: Rh-"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 4,
+      "sn": 18,
       "instrument": "wid1_F2F1_module4",
       "study": "twinlife"
     },
@@ -186,11 +942,12 @@
       "label": "Please enter your blood group and the blood group of your twin brother/your twin sister.",
       "items": [
         {
+          "name": "zyg0503",
+          "item": "1",
           "number": "25",
           "concept": "zyg00",
           "text": "Please enter your blood group and the blood group of your twin brother/your twin sister.",
           "text_de": "Tragen Sie bitte Ihre Blutgruppe und die Blutgruppe Ihres Zwillingsbruders/Ihrer Zwillingsschwester ein",
-          "answer_list": "zyg0501",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -216,11 +973,10 @@
               "label_de": "4: 0"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 5,
+      "sn": 19,
       "instrument": "wid1_F2F1_module4",
       "study": "twinlife"
     },
@@ -230,11 +986,12 @@
       "label": "Please enter your blood group and the blood group of your twin brother/your twin sister.",
       "items": [
         {
+          "name": "zyg0504",
+          "item": "1",
           "number": "26",
           "concept": "zyg00",
           "text": "Please enter your blood group and the blood group of your twin brother/your twin sister.",
           "text_de": "Tragen Sie bitte Ihre Blutgruppe und die Blutgruppe Ihres Zwillingsbruders/Ihrer Zwillingsschwester ein",
-          "answer_list": "zyg0502",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -250,11 +1007,230 @@
               "label_de": "2: Rh-"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 6,
+      "sn": 20,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1600": {
+      "question": "zyg1600",
+      "name": "zyg1600",
+      "label": "Do you tend to sweat quickly?",
+      "items": [
+        {
+          "name": "zyg1600",
+          "item": "1",
+          "number": "27",
+          "concept": "zyg00",
+          "text": "Do you tend to sweat quickly?",
+          "text_de": "Neigen Sie dazu, leicht zu schwitzen?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 21,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1601": {
+      "question": "zyg1601",
+      "name": "zyg1601",
+      "label": "Does your twin brother/twin sister tend to sweat quickly?",
+      "items": [
+        {
+          "name": "zyg1601",
+          "item": "1",
+          "number": "28",
+          "concept": "zyg00",
+          "text": "Does your twin brother/twin sister tend to sweat quickly?",
+          "text_de": "Neigt Ihr Zwillingsbruder/Ihre Zwillingsschwester dazu, leicht zu schwitzen?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 22,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1700": {
+      "question": "zyg1700",
+      "name": "zyg1700",
+      "label": "As a child were you ill as often as your twin brother/twin sister?",
+      "items": [
+        {
+          "name": "zyg1700",
+          "item": "1",
+          "number": "29",
+          "concept": "zyg00",
+          "text": "As a child were you ill as often as your twin brother/twin sister?",
+          "text_de": "Waren Sie als Kind ebenso oft krank wie Ihr Zwillingsbruder/Ihre Zwillingsschwester?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 23,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1800": {
+      "question": "zyg1800",
+      "name": "zyg1800",
+      "label": "What do you think: Are you identical twins or non-identical twins (monozygotic or dizygotic)?",
+      "items": [
+        {
+          "name": "zyg1800",
+          "item": "1",
+          "number": "30",
+          "concept": "zyg00",
+          "text": "What do you think: Are you identical twins or non-identical twins (monozygotic or dizygotic)?",
+          "text_de": "Was glauben Sie persoenlich: Sind Sie eineiige oder zweieiige Zwillinge?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: contradictory assessments within the family",
+              "label_de": "-89: widerspruechliche Einschaetzungen innerhalb der Familie"
+            },
+            {
+              "value": 1,
+              "label": "1: (pretty) sure monozygotic",
+              "label_de": "1: (ziemlich) sicher eineiig"
+            },
+            {
+              "value": 2,
+              "label": "2: presumably monozygotic",
+              "label_de": "2: vermutlich eineiig"
+            },
+            {
+              "value": 3,
+              "label": "3: presumably dizygotic",
+              "label_de": "3: vermutlich zweieiig"
+            },
+            {
+              "value": 4,
+              "label": "4: (pretty) sure dizygotic",
+              "label_de": "4: (ziemlich) sicher zweieiig"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 24,
+      "instrument": "wid1_F2F1_module4",
+      "study": "twinlife"
+    },
+    "zyg1801": {
+      "question": "zyg1801",
+      "name": "zyg1801",
+      "label": "Has a medical professional (e.g., your family doctor, a nurse, a physician) ever told you your zygosity?",
+      "items": [
+        {
+          "name": "zyg1801",
+          "item": "1",
+          "number": "31",
+          "concept": "zyg00",
+          "text": "Has a medical professional (e.g., your family doctor, a nurse, a physician) ever told you your zygosity?",
+          "text_de": "Wurde Ihnen jemals von medizinischem Personal (z.B. Hausarzt, Krankenschwester, Facharzt) Ihre Eiigkeit mitgeteilt?",
+          "scale": "cat",
+          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, we were told that they are identical.",
+              "label_de": "1: Ja, uns wurde mitgeteilt, dass sie eineiig sind."
+            },
+            {
+              "value": 2,
+              "label": "2: yes, we were told that they are non-identical.",
+              "label_de": "2: Ja, uns wurde mitgeteilt, dass sie zweieiig sind."
+            },
+            {
+              "value": 3,
+              "label": "3: no, we were never given any such information.",
+              "label_de": "3: Nein, darueber wurde uns nichts mitgeteilt."
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 25,
       "instrument": "wid1_F2F1_module4",
       "study": "twinlife"
     },
@@ -264,11 +1240,12 @@
       "label": "In which generation and on which side of your family (mother's/father's) were there or are there other twins? Multiple answers possible.",
       "items": [
         {
+          "name": "zyg0900",
+          "item": "0",
           "number": "32",
           "concept": "zyg00",
           "text": "In which generation and on which side of your family (mother's/father's) were there or are there other twins? Multiple answers possible.",
           "text_de": "In welcher Generation und in welchem Teil Ihrer Familie (muetterlicherseits/vaeterlicherseits) gab oder gibt es Zwillinge? Sie koennen mehrere Angaben machen.",
-          "answer_list": "mn",
           "scale": "txt",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -284,16 +1261,15 @@
               "label_de": "1: genannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         },
         {
-          "item": "1.0",
+          "name": "zyg0900",
+          "item": "1",
           "number": "33",
           "concept": "zyg00",
           "text": "In your generation (e.g. your cousins), on mother's side",
           "text_de": "In Ihrer Generation (z.B. Ihre Cousins/Cousinen), muetterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -312,12 +1288,12 @@
           "sn": 1
         },
         {
-          "item": "2.0",
+          "name": "zyg0900",
+          "item": "2",
           "number": "34",
           "concept": "zyg00",
           "text": "In your generation (e.g. your cousins), on father's side",
           "text_de": "In Ihrer Generation (z.B. Ihre Cousins/Cousinen), vaeterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -336,12 +1312,12 @@
           "sn": 2
         },
         {
-          "item": "3.0",
+          "name": "zyg0900",
+          "item": "3",
           "number": "35",
           "concept": "zyg00",
           "text": "In the generation of your children (e.g. cousins of your children), mother's side",
           "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), muetterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
           "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
@@ -360,12 +1336,12 @@
           "sn": 3
         },
         {
-          "item": "4.0",
+          "name": "zyg0900",
+          "item": "4",
           "number": "36",
           "concept": "zyg00",
           "text": "In the generation of your children (e.g. cousins of your children), father's side",
           "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), vaeterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
           "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
@@ -384,12 +1360,12 @@
           "sn": 4
         },
         {
-          "item": "5.0",
+          "name": "zyg0900",
+          "item": "5",
           "number": "37",
           "concept": "zyg00",
           "text": "In the generation of your parents, on mother's side",
           "text_de": "In der Generation Ihrer Eltern, muetterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -408,12 +1384,12 @@
           "sn": 5
         },
         {
-          "item": "6.0",
+          "name": "zyg0900",
+          "item": "6",
           "number": "38",
           "concept": "zyg00",
           "text": "In the generation of your parents, on fathers's side",
           "text_de": "In der Generation Ihrer Eltern, vaeterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -432,12 +1408,12 @@
           "sn": 6
         },
         {
-          "item": "7.0",
+          "name": "zyg0900",
+          "item": "7",
           "number": "39",
           "concept": "zyg00",
           "text": "In the generation of your grandparents, mother's side",
           "text_de": "In der Generation Ihrer Grosseltern, muetterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -456,12 +1432,12 @@
           "sn": 7
         },
         {
-          "item": "8.0",
+          "name": "zyg0900",
+          "item": "8",
           "number": "40",
           "concept": "zyg00",
           "text": "In the generation of your grandparents, father's side",
           "text_de": "In der Generation Ihrer Grosseltern, vaeterlicherseits",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -480,12 +1456,12 @@
           "sn": 8
         },
         {
-          "item": "9.0",
+          "name": "zyg0900",
+          "item": "9",
           "number": "41",
           "concept": "zyg00",
           "text": "No other sets of twins in the family",
           "text_de": "Es gibt keine anderen Zwillingspaare in der Familie",
-          "answer_list": "mn",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -504,7 +1480,7 @@
           "sn": 9
         }
       ],
-      "sn": 7,
+      "sn": 26,
       "instrument": "wid1_F2F1_module4",
       "study": "twinlife"
     },
@@ -514,11 +1490,12 @@
       "label": "For each set of twins in your family, please state whether they are identical/monozygotic or non-identical/dizygotic.",
       "items": [
         {
+          "name": "zyg0920",
+          "item": "0",
           "number": "42",
           "concept": "zyg00",
           "text": "For each set of twins in your family, please state whether they are identical/monozygotic or non-identical/dizygotic.",
           "text_de": "Geben Sie bitte fuer jedes angegebene Zwillingspaar in Ihrer Familie an, ob diese eineiig oder zweieiig sind.",
-          "answer_list": "zyg0700",
           "scale": "txt",
           "filter": "zyg0900 == 1",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
@@ -550,16 +1527,15 @@
               "label_de": "4: (ziemlich) sicher zweieiig"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         },
         {
-          "item": "1.0",
+          "name": "zyg0920",
+          "item": "1",
           "number": "43",
           "concept": "zyg00",
           "text": "In your generation (e.g. your cousins), on mother's side",
           "text_de": "In Ihrer Generation (z.B. Ihre Cousins/Cousinen), muetterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -593,12 +1569,12 @@
           "sn": 1
         },
         {
-          "item": "2.0",
+          "name": "zyg0920",
+          "item": "2",
           "number": "44",
           "concept": "zyg00",
           "text": "In your generation (e.g. your cousins), on father's side",
           "text_de": "In Ihrer Generation (z.B. Ihre Cousins/Cousinen), vaeterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -632,12 +1608,12 @@
           "sn": 2
         },
         {
-          "item": "3.0",
+          "name": "zyg0920",
+          "item": "3",
           "number": "45",
           "concept": "zyg00",
           "text": "In the generation of your children (e.g. cousins of your children), mother's side",
           "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), muetterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
           "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
@@ -671,12 +1647,12 @@
           "sn": 3
         },
         {
-          "item": "4.0",
+          "name": "zyg0920",
+          "item": "4",
           "number": "46",
           "concept": "zyg00",
           "text": "In the generation of your children (e.g. cousins of your children), father's side",
           "text_de": "In der Generation Ihrer Kinder (z.B. Cousins/Cousinen Ihrer Kinder), vaeterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
           "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
@@ -710,12 +1686,12 @@
           "sn": 4
         },
         {
-          "item": "5.0",
+          "name": "zyg0920",
+          "item": "5",
           "number": "47",
           "concept": "zyg00",
           "text": "In the generation of your parents, on mother's side",
           "text_de": "In der Generation Ihrer Eltern, muetterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -749,12 +1725,12 @@
           "sn": 5
         },
         {
-          "item": "6.0",
+          "name": "zyg0920",
+          "item": "6",
           "number": "48",
           "concept": "zyg00",
           "text": "In the generation of your parents, on fathers's side",
           "text_de": "In der Generation Ihrer Eltern, vaeterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -788,12 +1764,12 @@
           "sn": 6
         },
         {
-          "item": "7.0",
+          "name": "zyg0920",
+          "item": "7",
           "number": "49",
           "concept": "zyg00",
           "text": "In the generation of your grandparents, mother's side",
           "text_de": "In der Generation Ihrer Grosseltern, muetterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -827,12 +1803,12 @@
           "sn": 7
         },
         {
-          "item": "8.0",
+          "name": "zyg0920",
+          "item": "8",
           "number": "50",
           "concept": "zyg00",
           "text": "In the generation of your grandparents, father's side",
           "text_de": "In der Generation Ihrer Grosseltern, vaeterlicherseits",
-          "answer_list": "zyg0700",
           "scale": "cat",
           "description": "Source: Adapted from: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (for K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (for K3/K4)",
           "description_de": "Source: Adaptiert von: Goldsmith, H. H. (1991). A Zygosity Questionnaire for Young Twins: A Research Note. Behavior Genetics, 21 (3), 257-269 (fuer K1/K2); Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany (fuer K3/K4)",
@@ -864,976 +1840,6 @@
             }
           ],
           "sn": 8
-        }
-      ],
-      "sn": 8,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1000": {
-      "question": "zyg1000",
-      "name": "zyg1000",
-      "label": "Who was born first?",
-      "items": [
-        {
-          "number": "2",
-          "concept": "zyg00",
-          "text": "Who was born first?",
-          "text_de": "Wer wurde als erstes geboren?",
-          "answer_list": "zyg1000",
-          "scale": "cat",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: me",
-              "label_de": "1: ich"
-            },
-            {
-              "value": 2,
-              "label": "2: my twin brother/my twin sister",
-              "label_de": "2: mein Zwillingsbruder/meine Zwillingsschwester"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 9,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1100": {
-      "question": "zyg1100",
-      "name": "zyg1100",
-      "label": "Is your hair texture different from your twin brother's/sister's hair texture (e.g., fine or thick, straight or curly)?",
-      "items": [
-        {
-          "number": "5",
-          "concept": "zyg00",
-          "text": "Is your hair texture different from your twin brother's/sister's hair texture (e.g., fine or thick, straight or curly)?",
-          "text_de": "Besteht ein Unterschied in der Haargestalt (z. B. feines, starkes, glattes, krauses Haar) zwischen Ihnen und Ihrem Zwillingsbruder/Ihrer Zwillingsschwester?",
-          "answer_list": "zyg1100",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: no, there are no differences.",
-              "label_de": "1: Nein, es gibt keinen Unterschied."
-            },
-            {
-              "value": 2,
-              "label": "2: yes, there is a slight difference.",
-              "label_de": "2: Ja, es gibt einen leichten Unterschied."
-            },
-            {
-              "value": 3,
-              "label": "3: yes, there is a clear difference.",
-              "label_de": "3: Ja, es gibt einen deutlichen Unterschied."
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 10,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1101": {
-      "question": "zyg1101",
-      "name": "zyg1101",
-      "label": "Do you have additional hair, e.g., on your legs, upper body, hands, or face?",
-      "items": [
-        {
-          "number": "6",
-          "concept": "zyg00",
-          "text": "Do you have additional hair, e.g., on your legs, upper body, hands, or face?",
-          "text_de": "Haben Sie zusaetzliche Behaarung z.B. der Beine, des Oberkoerpers, der Haende, des Gesichts?",
-          "answer_list": "yn",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 11,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1102": {
-      "question": "zyg1102",
-      "name": "zyg1102",
-      "label": "Does your twin brother/your twin sister have additional hair, e.g., on his/her legs, upper body, hands, or face?",
-      "items": [
-        {
-          "number": "7",
-          "concept": "zyg00",
-          "text": "Does your twin brother/your twin sister have additional hair, e.g., on his/her legs, upper body, hands, or face?",
-          "text_de": "Hat Ihr Zwillingsbruder/Ihre Zwillingsschwester zusaetzliche Behaarung z.B. der Beine, des Oberkoerpers, der Haende, des Gesichts?",
-          "answer_list": "yn",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 12,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1200": {
-      "question": "zyg1200",
-      "name": "zyg1200",
-      "label": "What color are your eyes?",
-      "items": [
-        {
-          "number": "8",
-          "concept": "zyg00",
-          "text": "What color are your eyes?",
-          "text_de": "Welche Augenfarbe haben Sie?",
-          "answer_list": "zyg1200",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: blue",
-              "label_de": "1: blau"
-            },
-            {
-              "value": 2,
-              "label": "2: grey",
-              "label_de": "2: grau"
-            },
-            {
-              "value": 3,
-              "label": "3: light brown",
-              "label_de": "3: hellbraun"
-            },
-            {
-              "value": 4,
-              "label": "4: dark brown",
-              "label_de": "4: dunkelbraun"
-            },
-            {
-              "value": 5,
-              "label": "5: green",
-              "label_de": "5: gruen"
-            },
-            {
-              "value": 6,
-              "label": "6: other (please specify):",
-              "label_de": "6: andere, und zwar"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 13,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1202": {
-      "question": "zyg1202",
-      "name": "zyg1202",
-      "label": "What color are your twin brother's/twin sister's eyes?",
-      "items": [
-        {
-          "number": "9",
-          "concept": "zyg00",
-          "text": "What color are your twin brother's/twin sister's eyes?",
-          "text_de": "Welche Augenfarbe hat Ihr Zwillingsbruder/Ihre Zwillingsschwester?",
-          "answer_list": "zyg1200",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: blue",
-              "label_de": "1: blau"
-            },
-            {
-              "value": 2,
-              "label": "2: grey",
-              "label_de": "2: grau"
-            },
-            {
-              "value": 3,
-              "label": "3: light brown",
-              "label_de": "3: hellbraun"
-            },
-            {
-              "value": 4,
-              "label": "4: dark brown",
-              "label_de": "4: dunkelbraun"
-            },
-            {
-              "value": 5,
-              "label": "5: green",
-              "label_de": "5: gruen"
-            },
-            {
-              "value": 6,
-              "label": "6: other (please specify):",
-              "label_de": "6: andere, und zwar"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 14,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1204": {
-      "question": "zyg1204",
-      "name": "zyg1204",
-      "label": "Is the color of your eyes different from the color of your twin brother's/sister's eyes?",
-      "items": [
-        {
-          "number": "10",
-          "concept": "zyg00",
-          "text": "Is the color of your eyes different from the color of your twin brother's/sister's eyes?",
-          "text_de": "Besteht zwischen Ihnen und Ihrem Zwillingsbruder/Ihrer Zwillingsschwester ein Unterschied in der Augenfarbe?",
-          "answer_list": "zyg1204",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: no, there are no differences.",
-              "label_de": "1: Nein, es gibt keinen Unterschied."
-            },
-            {
-              "value": 2,
-              "label": "2: yes, there is a slight difference.",
-              "label_de": "2: Ja, es besteht ein geringfuegiger Unterschied."
-            },
-            {
-              "value": 3,
-              "label": "3: yes, there is a clear difference.",
-              "label_de": "3: Ja, es besteht ein deutlicher Unterschied."
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 15,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1300": {
-      "question": "zyg1300",
-      "name": "zyg1300",
-      "label": "Is there any kind of difference between your earlobes your twin brother's/twin sister's earlobes?",
-      "items": [
-        {
-          "number": "11",
-          "concept": "zyg00",
-          "text": "Is there any kind of difference between your earlobes your twin brother's/twin sister's earlobes?",
-          "text_de": "Bestehen zwischen Ihnen und Ihrem Zwillingsbruder/Ihrer Zwillingsschwester irgendwelche Unterschiede in der Gestalt der Ohrlaeppchen?",
-          "answer_list": "zyg1204",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: no, there are no differences.",
-              "label_de": "1: Nein, es gibt keinen Unterschied."
-            },
-            {
-              "value": 2,
-              "label": "2: yes, there is a slight difference.",
-              "label_de": "2: Ja, es besteht ein geringfuegiger Unterschied."
-            },
-            {
-              "value": 3,
-              "label": "3: yes, there is a clear difference.",
-              "label_de": "3: Ja, es besteht ein deutlicher Unterschied."
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 16,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1400": {
-      "question": "zyg1400",
-      "name": "zyg1400",
-      "label": "What color is your skin?",
-      "items": [
-        {
-          "number": "12",
-          "concept": "zyg00",
-          "text": "What color is your skin?",
-          "text_de": "Welche Hautfarbe haben Sie?",
-          "answer_list": "zyg1400",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: light",
-              "label_de": "1: hell"
-            },
-            {
-              "value": 2,
-              "label": "2: dark",
-              "label_de": "2: dunkel"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 17,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1401": {
-      "question": "zyg1401",
-      "name": "zyg1401",
-      "label": "What color is your twin brother's/sister's skin?",
-      "items": [
-        {
-          "number": "13",
-          "concept": "zyg00",
-          "text": "What color is your twin brother's/sister's skin?",
-          "text_de": "Welche Hautfarbe hat Ihr Zwillingsbruder/Ihre Zwillingsschwester?",
-          "answer_list": "zyg1400",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: light",
-              "label_de": "1: hell"
-            },
-            {
-              "value": 2,
-              "label": "2: dark",
-              "label_de": "2: dunkel"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 18,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1500": {
-      "question": "zyg1500",
-      "name": "zyg1500",
-      "label": "When you were children, did people confuse you with your twin?",
-      "items": [
-        {
-          "number": "14",
-          "concept": "zyg00",
-          "text": "When you were children, did people confuse you with your twin?",
-          "text_de": "Wurden Sie in Ihrer Kindheit von anderen Leuten miteinander verwechselt?",
-          "answer_list": "yn",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 19,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1501": {
-      "question": "zyg1501",
-      "name": "zyg1501",
-      "label": "parents",
-      "items": [
-        {
-          "item": "1.0",
-          "number": "16",
-          "concept": "zyg00",
-          "text": "parents",
-          "text_de": "Eltern",
-          "answer_list": "zyg1501",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: often",
-              "label_de": "1: oft"
-            },
-            {
-              "value": 2,
-              "label": "2: sometimes",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: rarely",
-              "label_de": "3: selten"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "15",
-          "concept": "zyg00",
-          "text": "Which of the following people confused you with your twin? Please consider all groups of people and tick the appropriate answer:",
-          "text_de": "Welche von den nachstehend genannten Personen verwechselte Sie? Bitte ziehen Sie alle Personengruppen in Betracht und kreuzen Sie die jeweils gewaehlte Antwort an:",
-          "answer_list": "zyg1501",
-          "scale": "txt",
-          "filter": "zyg1500 == 1",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: often",
-              "label_de": "1: oft"
-            },
-            {
-              "value": 2,
-              "label": "2: sometimes",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: rarely",
-              "label_de": "3: selten"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
-          "sn": 1,
-          "item": "root"
-        },
-        {
-          "item": "4.0",
-          "number": "19",
-          "concept": "zyg00",
-          "text": "sibling(s)",
-          "text_de": "Geschwister",
-          "answer_list": "zyg1501",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: often",
-              "label_de": "1: oft"
-            },
-            {
-              "value": 2,
-              "label": "2: sometimes",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: rarely",
-              "label_de": "3: selten"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "2.0",
-          "number": "17",
-          "concept": "zyg00",
-          "text": "friends",
-          "text_de": "Freunde",
-          "answer_list": "zyg1501",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: often",
-              "label_de": "1: oft"
-            },
-            {
-              "value": 2,
-              "label": "2: sometimes",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: rarely",
-              "label_de": "3: selten"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "5.0",
-          "number": "20",
-          "concept": "zyg00",
-          "text": "teachers",
-          "text_de": "Lehrer",
-          "answer_list": "zyg1501",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: often",
-              "label_de": "1: oft"
-            },
-            {
-              "value": 2,
-              "label": "2: sometimes",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: rarely",
-              "label_de": "3: selten"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
-          "sn": 4
-        },
-        {
-          "item": "3.0",
-          "number": "18",
-          "concept": "zyg00",
-          "text": "people that I/we met for the first time",
-          "text_de": "Personen, denen ich/wir zum ersten Mal begegnete/n",
-          "answer_list": "zyg1501",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: often",
-              "label_de": "1: oft"
-            },
-            {
-              "value": 2,
-              "label": "2: sometimes",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: rarely",
-              "label_de": "3: selten"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
-          "sn": 5
-        }
-      ],
-      "sn": 20,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1506": {
-      "question": "zyg1506",
-      "name": "zyg1506",
-      "label": "Did your parents or childcare providers make any special efforts to be able to tell you apart (e.g., different color hair ribbons for girls, different clothing, etc.)?",
-      "items": [
-        {
-          "number": "21",
-          "concept": "zyg00",
-          "text": "Did your parents or childcare providers make any special efforts to be able to tell you apart (e.g., different color hair ribbons for girls, different clothing, etc.)?",
-          "text_de": "Haben Ihre Eltern oder Betreuer sich besondere Muehe geben muessen, um Sie voneinander unterscheiden zu koennen (z. B. verschieden gefaerbte Schleifen bei Maedchen, unterschiedliche Kleidung)?",
-          "answer_list": "zyg1506",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: I can't remember",
-              "label_de": "-96: ich kann mich nicht erinnern"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 21,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1507": {
-      "question": "zyg1507",
-      "name": "zyg1507",
-      "label": "Are people able to clearly tell you apart from your twin when looking at a recent photograph of the two of you together?",
-      "items": [
-        {
-          "number": "22",
-          "concept": "zyg00",
-          "text": "Are people able to clearly tell you apart from your twin when looking at a recent photograph of the two of you together?",
-          "text_de": "Gelingt es anderen bei der Betrachtung eines neuen gemeinsamen Lichtbildes von Ihnen und Ihrem Zwillingsbruder/Ihrer Zwillingsschwester leicht, Sie einwandfrei voneinander zu unterscheiden?",
-          "answer_list": "zyg1507",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: yes, without any problems.",
-              "label_de": "1: Ja, ohne weiteres."
-            },
-            {
-              "value": 2,
-              "label": "2: yes, but with some difficulty.",
-              "label_de": "2: Ja, aber mit Schwierigkeiten."
-            },
-            {
-              "value": 3,
-              "label": "3: yo, we often get mistaken for one another in photographs.",
-              "label_de": "3: Nein, wir werden auf Lichtbildern oft verwechselt."
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 22,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1600": {
-      "question": "zyg1600",
-      "name": "zyg1600",
-      "label": "Do you tend to sweat quickly?",
-      "items": [
-        {
-          "number": "27",
-          "concept": "zyg00",
-          "text": "Do you tend to sweat quickly?",
-          "text_de": "Neigen Sie dazu, leicht zu schwitzen?",
-          "answer_list": "yn",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 23,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1601": {
-      "question": "zyg1601",
-      "name": "zyg1601",
-      "label": "Does your twin brother/twin sister tend to sweat quickly?",
-      "items": [
-        {
-          "number": "28",
-          "concept": "zyg00",
-          "text": "Does your twin brother/twin sister tend to sweat quickly?",
-          "text_de": "Neigt Ihr Zwillingsbruder/Ihre Zwillingsschwester dazu, leicht zu schwitzen?",
-          "answer_list": "yn",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 24,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1700": {
-      "question": "zyg1700",
-      "name": "zyg1700",
-      "label": "As a child were you ill as often as your twin brother/twin sister?",
-      "items": [
-        {
-          "number": "29",
-          "concept": "zyg00",
-          "text": "As a child were you ill as often as your twin brother/twin sister?",
-          "text_de": "Waren Sie als Kind ebenso oft krank wie Ihr Zwillingsbruder/Ihre Zwillingsschwester?",
-          "answer_list": "yn",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 25,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1800": {
-      "question": "zyg1800",
-      "name": "zyg1800",
-      "label": "What do you think: Are you identical twins or non-identical twins (monozygotic or dizygotic)?",
-      "items": [
-        {
-          "number": "30",
-          "concept": "zyg00",
-          "text": "What do you think: Are you identical twins or non-identical twins (monozygotic or dizygotic)?",
-          "text_de": "Was glauben Sie persoenlich: Sind Sie eineiige oder zweieiige Zwillinge?",
-          "answer_list": "zyg0700",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: contradictory assessments within the family",
-              "label_de": "-89: widerspruechliche Einschaetzungen innerhalb der Familie"
-            },
-            {
-              "value": 1,
-              "label": "1: (pretty) sure monozygotic",
-              "label_de": "1: (ziemlich) sicher eineiig"
-            },
-            {
-              "value": 2,
-              "label": "2: presumably monozygotic",
-              "label_de": "2: vermutlich eineiig"
-            },
-            {
-              "value": 3,
-              "label": "3: presumably dizygotic",
-              "label_de": "3: vermutlich zweieiig"
-            },
-            {
-              "value": 4,
-              "label": "4: (pretty) sure dizygotic",
-              "label_de": "4: (ziemlich) sicher zweieiig"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 26,
-      "instrument": "wid1_F2F1_module4",
-      "study": "twinlife"
-    },
-    "zyg1801": {
-      "question": "zyg1801",
-      "name": "zyg1801",
-      "label": "Has a medical professional (e.g., your family doctor, a nurse, a physician) ever told you your zygosity?",
-      "items": [
-        {
-          "number": "31",
-          "concept": "zyg00",
-          "text": "Has a medical professional (e.g., your family doctor, a nurse, a physician) ever told you your zygosity?",
-          "text_de": "Wurde Ihnen jemals von medizinischem Personal (z.B. Hausarzt, Krankenschwester, Facharzt) Ihre Eiigkeit mitgeteilt?",
-          "answer_list": "zyg0702",
-          "scale": "cat",
-          "description": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "description_de": "Source: Adapted from: Onisczenko, W., Angleitner, A., Strelau, J., & Angert, T. (1993). The questionnaire of twins' physical resemblance. Unpublished Manuscript. University of Warsaw, Poland and University of Bielefeld, Germany",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: yes, we were told that they are identical.",
-              "label_de": "1: Ja, uns wurde mitgeteilt, dass sie eineiig sind."
-            },
-            {
-              "value": 2,
-              "label": "2: yes, we were told that they are non-identical.",
-              "label_de": "2: Ja, uns wurde mitgeteilt, dass sie zweieiig sind."
-            },
-            {
-              "value": 3,
-              "label": "3: no, we were never given any such information.",
-              "label_de": "3: Nein, darueber wurde uns nichts mitgeteilt."
-            }
-          ],
-          "sn": 0,
-          "item": "root"
         }
       ],
       "sn": 27,

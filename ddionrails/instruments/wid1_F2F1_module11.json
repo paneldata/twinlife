@@ -1,17 +1,251 @@
 {
+  "study": "twinlife",
+  "name": "wid1_F2F1_module11",
+  "label": "F2F 1: child's medical records (CAPI)",
+  "description": "This questionnaire module contains questions on: child's medical records U-Heft (photo or questionnaire): selected parameters from examination U1 to U9.",
+  "analysis_unit": "individual",
+  "period": 1,
   "instrument": "wid1_F2F1_module11",
   "questions": {
+    "sex": {
+      "question": "sex",
+      "name": "sex",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "sex",
+          "item": "1",
+          "number": "1",
+          "concept": "sex00",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: male",
+              "label_de": "1: maennlich"
+            },
+            {
+              "value": 2,
+              "label": "2: female",
+              "label_de": "2: weiblich"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid1_F2F1_module11",
+      "study": "twinlife"
+    },
+    "nbi1000": {
+      "question": "nbi1000",
+      "name": "nbi1000",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "nbi1000",
+          "item": "1",
+          "number": "2",
+          "concept": "nbi10",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "int",
+          "filter": "nbi1301 == 1",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: don't know/not specified",
+              "label_de": "-96: weiss nicht/keine Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid1_F2F1_module11",
+      "study": "twinlife"
+    },
+    "nbi1100": {
+      "question": "nbi1100",
+      "name": "nbi1100",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "nbi1100",
+          "item": "1",
+          "number": "3",
+          "concept": "nbi10",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "int",
+          "filter": "nbi1301 == 1",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: don't know/not specified",
+              "label_de": "-96: weiss nicht/keine Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid1_F2F1_module11",
+      "study": "twinlife"
+    },
+    "nbi1200": {
+      "question": "nbi1200",
+      "name": "nbi1200",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "nbi1200",
+          "item": "1",
+          "number": "4",
+          "concept": "nbi10",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "int",
+          "filter": "nbi1301 == 1",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: don't know/not specified",
+              "label_de": "-96: weiss nicht/keine Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid1_F2F1_module11",
+      "study": "twinlife"
+    },
+    "nbi1300": {
+      "question": "nbi1300",
+      "name": "nbi1300",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "nbi1300",
+          "item": "1",
+          "number": "5",
+          "concept": "nbi10",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "cat",
+          "filter": "inlist(ptyp,1,2,200)",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid1_F2F1_module11",
+      "study": "twinlife"
+    },
+    "nbi1301": {
+      "question": "nbi1301",
+      "name": "nbi1301",
+      "label": "Interviewer: Please record:",
+      "items": [
+        {
+          "name": "nbi1301",
+          "item": "1",
+          "number": "6",
+          "concept": "nbi10",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "cat",
+          "filter": "inlist(ptyp,1,2,200)",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid1_F2F1_module11",
+      "study": "twinlife"
+    },
     "nbi0100": {
       "question": "nbi0100",
       "name": "nbi0100",
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0100",
+          "item": "1",
           "number": "7",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -43,11 +277,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 0,
+      "sn": 6,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -57,11 +290,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0103",
+          "item": "1",
           "number": "8",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -83,11 +317,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 1,
+      "sn": 7,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -97,11 +330,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0104",
+          "item": "1",
           "number": "9",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -123,11 +357,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 2,
+      "sn": 8,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -137,11 +370,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0105",
+          "item": "1",
           "number": "10",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -163,11 +397,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 3,
+      "sn": 9,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -177,11 +410,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0106",
+          "item": "1",
           "number": "11",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -208,11 +442,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 4,
+      "sn": 10,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -222,11 +455,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0107",
+          "item": "1",
           "number": "12",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -248,27 +482,27 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 5,
+      "sn": 11,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
     "nbi0108": {
       "question": "nbi0108",
       "name": "nbi0108",
-      "label": "U1: risk number 1",
+      "label": "Interviewer: Please record:",
       "items": [
         {
-          "item": "1.0",
-          "number": "14",
+          "name": "nbi0108",
+          "item": "0",
+          "number": "13",
           "concept": "nbi10",
-          "text": "U1: risk number 1",
-          "text_de": "U1: Risikonummer 1",
-          "answer_list": "frisk",
-          "scale": "cat",
+          "text": "Interviewer: Please record:",
+          "text_de": "Interviewer: Bitte eintragen:",
+          "scale": "txt",
+          "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -571,13 +805,13 @@
           "sn": 0
         },
         {
-          "number": "13",
+          "name": "nbi0108",
+          "item": "1",
+          "number": "14",
           "concept": "nbi10",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "frisk",
-          "scale": "txt",
-          "filter": "nbi1300 == 1",
+          "text": "U1: risk number 1",
+          "text_de": "U1: Risikonummer 1",
+          "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -877,16 +1111,15 @@
               "label_de": "56: Z. n. Hypertonie"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 1
         },
         {
-          "item": "2.0",
+          "name": "nbi0108",
+          "item": "2",
           "number": "15",
           "concept": "nbi10",
           "text": "U1: risk number 2",
           "text_de": "U1: Risikonummer 2",
-          "answer_list": "frisk",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -1190,12 +1423,12 @@
           "sn": 2
         },
         {
-          "item": "3.0",
+          "name": "nbi0108",
+          "item": "3",
           "number": "16",
           "concept": "nbi10",
           "text": "U1: risk number 3",
           "text_de": "U1: Risikonummer 3",
-          "answer_list": "frisk",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -1499,12 +1732,12 @@
           "sn": 3
         },
         {
-          "item": "4.0",
+          "name": "nbi0108",
+          "item": "4",
           "number": "17",
           "concept": "nbi10",
           "text": "U1: risk number 4",
           "text_de": "U1: Risikonummer 4",
-          "answer_list": "frisk",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -1808,12 +2041,12 @@
           "sn": 4
         },
         {
-          "item": "5.0",
+          "name": "nbi0108",
+          "item": "5",
           "number": "18",
           "concept": "nbi10",
           "text": "U1: risk number 5",
           "text_de": "U1: Risikonummer 5",
-          "answer_list": "frisk",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -2117,12 +2350,12 @@
           "sn": 5
         },
         {
-          "item": "6.0",
+          "name": "nbi0108",
+          "item": "6",
           "number": "19",
           "concept": "nbi10",
           "text": "U1: risk number 6",
           "text_de": "U1: Risikonummer 6",
-          "answer_list": "frisk",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -2426,7 +2659,7 @@
           "sn": 6
         }
       ],
-      "sn": 6,
+      "sn": 12,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2436,11 +2669,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0114",
+          "item": "1",
           "number": "20",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2462,11 +2696,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 7,
+      "sn": 13,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2476,11 +2709,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0115",
+          "item": "1",
           "number": "21",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2502,11 +2736,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 8,
+      "sn": 14,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2516,11 +2749,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0116",
+          "item": "1",
           "number": "22",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2542,11 +2776,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 9,
+      "sn": 15,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2556,11 +2789,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0117",
+          "item": "1",
           "number": "23",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2582,11 +2816,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 10,
+      "sn": 16,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2596,11 +2829,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0200",
+          "item": "1",
           "number": "24",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2632,11 +2866,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 11,
+      "sn": 17,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2646,11 +2879,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0201",
+          "item": "1",
           "number": "25",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2672,11 +2906,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 12,
+      "sn": 18,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2686,11 +2919,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0202",
+          "item": "1",
           "number": "26",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2707,11 +2941,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 13,
+      "sn": 19,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2721,11 +2954,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0203",
+          "item": "1",
           "number": "27",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2742,11 +2976,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 14,
+      "sn": 20,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2756,11 +2989,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0207",
+          "item": "1",
           "number": "28",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2777,11 +3011,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 15,
+      "sn": 21,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2791,11 +3024,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0208",
+          "item": "1",
           "number": "29",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2812,11 +3046,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 16,
+      "sn": 22,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2826,11 +3059,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0211",
+          "item": "1",
           "number": "30",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2857,11 +3091,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 17,
+      "sn": 23,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2871,11 +3104,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0300",
+          "item": "1",
           "number": "31",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2907,11 +3141,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 18,
+      "sn": 24,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2921,11 +3154,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0301",
+          "item": "1",
           "number": "32",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2947,11 +3181,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 19,
+      "sn": 25,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2961,11 +3194,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0302",
+          "item": "1",
           "number": "33",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -2982,11 +3216,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 20,
+      "sn": 26,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -2996,11 +3229,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0303",
+          "item": "1",
           "number": "34",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3017,11 +3251,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 21,
+      "sn": 27,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3031,11 +3264,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0307",
+          "item": "1",
           "number": "35",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3052,11 +3286,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 22,
+      "sn": 28,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3066,11 +3299,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0308",
+          "item": "1",
           "number": "36",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3087,11 +3321,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 23,
+      "sn": 29,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3101,11 +3334,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0311",
+          "item": "1",
           "number": "37",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3132,11 +3366,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 24,
+      "sn": 30,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3146,11 +3379,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0400",
+          "item": "1",
           "number": "38",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3182,11 +3416,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 25,
+      "sn": 31,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3196,11 +3429,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0401",
+          "item": "1",
           "number": "39",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3222,11 +3456,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 26,
+      "sn": 32,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3236,11 +3469,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0402",
+          "item": "1",
           "number": "40",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3257,11 +3491,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 27,
+      "sn": 33,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3271,11 +3504,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0403",
+          "item": "1",
           "number": "41",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3292,11 +3526,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 28,
+      "sn": 34,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3306,11 +3539,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0407",
+          "item": "1",
           "number": "42",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3327,11 +3561,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 29,
+      "sn": 35,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3341,11 +3574,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0408",
+          "item": "1",
           "number": "43",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3362,11 +3596,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 30,
+      "sn": 36,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3376,11 +3609,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0411",
+          "item": "1",
           "number": "44",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3407,11 +3641,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 31,
+      "sn": 37,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3421,11 +3654,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0500",
+          "item": "1",
           "number": "45",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3457,11 +3691,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 32,
+      "sn": 38,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3471,11 +3704,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0501",
+          "item": "1",
           "number": "46",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3497,11 +3731,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 33,
+      "sn": 39,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3511,11 +3744,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0502",
+          "item": "1",
           "number": "47",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3532,11 +3766,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 34,
+      "sn": 40,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3546,11 +3779,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0503",
+          "item": "1",
           "number": "48",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3567,11 +3801,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 35,
+      "sn": 41,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3581,11 +3814,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0507",
+          "item": "1",
           "number": "49",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3602,11 +3836,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 36,
+      "sn": 42,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3616,11 +3849,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0508",
+          "item": "1",
           "number": "50",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3637,11 +3871,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 37,
+      "sn": 43,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3651,11 +3884,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0511",
+          "item": "1",
           "number": "51",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3682,11 +3916,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 38,
+      "sn": 44,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3696,11 +3929,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0600",
+          "item": "1",
           "number": "52",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3732,11 +3966,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 39,
+      "sn": 45,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3746,11 +3979,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0601",
+          "item": "1",
           "number": "53",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3772,11 +4006,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 40,
+      "sn": 46,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3786,11 +4019,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0602",
+          "item": "1",
           "number": "54",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3807,11 +4041,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 41,
+      "sn": 47,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3821,11 +4054,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0603",
+          "item": "1",
           "number": "55",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3842,11 +4076,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 42,
+      "sn": 48,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3856,11 +4089,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0607",
+          "item": "1",
           "number": "56",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3877,11 +4111,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 43,
+      "sn": 49,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3891,11 +4124,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0608",
+          "item": "1",
           "number": "57",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3912,11 +4146,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 44,
+      "sn": 50,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3926,11 +4159,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0611",
+          "item": "1",
           "number": "58",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -3957,11 +4191,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 45,
+      "sn": 51,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -3971,11 +4204,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0700",
+          "item": "1",
           "number": "59",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4007,11 +4241,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 46,
+      "sn": 52,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4021,11 +4254,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0701",
+          "item": "1",
           "number": "60",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4047,11 +4281,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 47,
+      "sn": 53,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4061,11 +4294,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0702",
+          "item": "1",
           "number": "61",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4082,11 +4316,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 48,
+      "sn": 54,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4096,11 +4329,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0703",
+          "item": "1",
           "number": "62",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4117,11 +4351,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 49,
+      "sn": 55,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4131,11 +4364,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0707",
+          "item": "1",
           "number": "63",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4152,11 +4386,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 50,
+      "sn": 56,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4166,11 +4399,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0708",
+          "item": "1",
           "number": "64",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4187,11 +4421,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 51,
+      "sn": 57,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4201,11 +4434,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0711",
+          "item": "1",
           "number": "65",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4232,11 +4466,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 52,
+      "sn": 58,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4246,11 +4479,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0800",
+          "item": "1",
           "number": "66",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4282,11 +4516,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 53,
+      "sn": 59,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4296,11 +4529,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0801",
+          "item": "1",
           "number": "67",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4322,11 +4556,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 54,
+      "sn": 60,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4336,11 +4569,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0802",
+          "item": "1",
           "number": "68",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4357,11 +4591,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 55,
+      "sn": 61,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4371,11 +4604,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0803",
+          "item": "1",
           "number": "69",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4392,11 +4626,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 56,
+      "sn": 62,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4406,11 +4639,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0807",
+          "item": "1",
           "number": "70",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4427,11 +4661,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 57,
+      "sn": 63,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4441,11 +4674,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0808",
+          "item": "1",
           "number": "71",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4462,11 +4696,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 58,
+      "sn": 64,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4476,11 +4709,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0811",
+          "item": "1",
           "number": "72",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4507,11 +4741,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 59,
+      "sn": 65,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4521,11 +4754,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0900",
+          "item": "1",
           "number": "73",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi3",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4557,11 +4791,10 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 60,
+      "sn": 66,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4571,11 +4804,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0901",
+          "item": "1",
           "number": "74",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4597,11 +4831,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 61,
+      "sn": 67,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4611,11 +4844,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0902",
+          "item": "1",
           "number": "75",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4632,11 +4866,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 62,
+      "sn": 68,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4646,11 +4879,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0903",
+          "item": "1",
           "number": "76",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4667,11 +4901,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 63,
+      "sn": 69,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4681,11 +4914,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0907",
+          "item": "1",
           "number": "77",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4702,11 +4936,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 64,
+      "sn": 70,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4716,11 +4949,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0908",
+          "item": "1",
           "number": "78",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "mis",
           "scale": "int",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4737,11 +4971,10 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
-      "sn": 65,
+      "sn": 71,
       "instrument": "wid1_F2F1_module11",
       "study": "twinlife"
     },
@@ -4751,11 +4984,12 @@
       "label": "Interviewer: Please record:",
       "items": [
         {
+          "name": "nbi0911",
+          "item": "1",
           "number": "79",
           "concept": "nbi10",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
           "scale": "cat",
           "filter": "nbi1300 == 1",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
@@ -4782,235 +5016,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 66,
-      "instrument": "wid1_F2F1_module11",
-      "study": "twinlife"
-    },
-    "nbi1000": {
-      "question": "nbi1000",
-      "name": "nbi1000",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "2",
-          "concept": "nbi10",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi10",
-          "scale": "int",
-          "filter": "nbi1301 == 1",
-          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 67,
-      "instrument": "wid1_F2F1_module11",
-      "study": "twinlife"
-    },
-    "nbi1100": {
-      "question": "nbi1100",
-      "name": "nbi1100",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "3",
-          "concept": "nbi10",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi10",
-          "scale": "int",
-          "filter": "nbi1301 == 1",
-          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 68,
-      "instrument": "wid1_F2F1_module11",
-      "study": "twinlife"
-    },
-    "nbi1200": {
-      "question": "nbi1200",
-      "name": "nbi1200",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "4",
-          "concept": "nbi10",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "nbi10",
-          "scale": "int",
-          "filter": "nbi1301 == 1",
-          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 69,
-      "instrument": "wid1_F2F1_module11",
-      "study": "twinlife"
-    },
-    "nbi1300": {
-      "question": "nbi1300",
-      "name": "nbi1300",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "5",
-          "concept": "nbi10",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
-          "scale": "cat",
-          "filter": "inlist(ptyp,1,2,200)",
-          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 70,
-      "instrument": "wid1_F2F1_module11",
-      "study": "twinlife"
-    },
-    "nbi1301": {
-      "question": "nbi1301",
-      "name": "nbi1301",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "6",
-          "concept": "nbi10",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "yn",
-          "scale": "cat",
-          "filter": "inlist(ptyp,1,2,200)",
-          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
-        }
-      ],
-      "sn": 71,
-      "instrument": "wid1_F2F1_module11",
-      "study": "twinlife"
-    },
-    "sex": {
-      "question": "sex",
-      "name": "sex",
-      "label": "Interviewer: Please record:",
-      "items": [
-        {
-          "number": "1",
-          "concept": "sex00",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "answer_list": "sex",
-          "scale": "cat",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: male",
-              "label_de": "1: maennlich"
-            },
-            {
-              "value": 2,
-              "label": "2: female",
-              "label_de": "2: weiblich"
-            }
-          ],
-          "sn": 0,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 72,

@@ -1,15 +1,24 @@
 {
+  "study": "twinlife",
+  "name": "wid3_F2F2_module1",
+  "label": "F2F 2: family protocol (CAPI)",
+  "description": "This questionnaire module contains questions on: characteristics of family members (name, age, gender of twins; name, age, gender and relation to twins of siblings and parents who don't live in household; partners of twins); partnership and marital status.",
+  "analysis_unit": "family",
+  "period": 3,
   "instrument": "wid3_F2F2_module1",
   "questions": {
     "fpr0107": {
       "question": "fpr0107",
       "name": "fpr0107",
+      "label": "[1. Loop] I would now like to go through all the people with you who have not yet been recorded. Let's start with the oldest person. What is the relationship between this person and [IF fpr0002! = 5 & fpr0002! = 6: the twins] [IF fpr0002 = 5 OR fpr0002 = 6: you]? [2. And subsequent loops] And the next oldest person? What is the relationship between this person and [IF fpr0002! = 5 & fpr0002! = 6: the twins] [IF fpr0002 = 5 OR fpr0002 = 6: you]?",
       "items": [
         {
-          "item": "1.0",
-          "number": "2",
+          "name": "fpr0107",
+          "item": "1",
+          "number": "1",
           "concept": "fpr00",
-          "answer_list": "ptyp2",
+          "text": "[1. Loop] I would now like to go through all the people with you who have not yet been recorded. Let's start with the oldest person. What is the relationship between this person and [IF fpr0002! = 5 & fpr0002! = 6: the twins] [IF fpr0002 = 5 OR fpr0002 = 6: you]? [2. And subsequent loops] And the next oldest person? What is the relationship between this person and [IF fpr0002! = 5 & fpr0002! = 6: the twins] [IF fpr0002 = 5 OR fpr0002 = 6: you]?",
+          "text_de": "[1. Schleife] Ich wuerde nun gerne alle Personen mit Ihnen durchgehen, die wir bisher noch nicht aufgenommen haben. Beginnen wir mit der aeltesten Person. In welcher verwandtschaftlichen Beziehung steht diese Person zu [IF fpr0002!=5 & fpr0002 !=6: den Zwillingen] [IF fpr0002=5 OR fpr0002 =6: Ihnen]? [2. Und nachfolgende Schleifen] Und die naechstaelteste Person? In welcher verwandtschaftlichen Beziehung steht diese Person zu [IF fpr0002!=5 & fpr0002 !=6: den Zwillingen] [IF fpr0002 =5 OR fpr0002 =6: Ihnen]?",
           "scale": "cat",
           "answers": [
             {
@@ -144,148 +153,6 @@
             }
           ],
           "sn": 0
-        },
-        {
-          "number": "1",
-          "concept": "fpr00",
-          "text": "[1. Loop] I would now like to go through all the people with you who have not yet been recorded. Let's start with the oldest person. What is the relationship between this person and [IF fpr0002! = 5 & fpr0002! = 6: the twins] [IF fpr0002 = 5 OR fpr0002 = 6: you]? [2. And subsequent loops] And the next oldest person? What is the relationship between this person and [IF fpr0002! = 5 & fpr0002! = 6: the twins] [IF fpr0002 = 5 OR fpr0002 = 6: you]?",
-          "text_de": "[1. Schleife] Ich wuerde nun gerne alle Personen mit Ihnen durchgehen, die wir bisher noch nicht aufgenommen haben. Beginnen wir mit der aeltesten Person. In welcher verwandtschaftlichen Beziehung steht diese Person zu [IF fpr0002!=5 & fpr0002 !=6: den Zwillingen] [IF fpr0002=5 OR fpr0002 =6: Ihnen]? [2. Und nachfolgende Schleifen] Und die naechstaelteste Person? In welcher verwandtschaftlichen Beziehung steht diese Person zu [IF fpr0002!=5 & fpr0002 !=6: den Zwillingen] [IF fpr0002 =5 OR fpr0002 =6: Ihnen]?",
-          "answer_list": "ptyp2",
-          "scale": "txt",
-          "answers": [
-            {
-              "value": 11,
-              "label": "11: firstborn twin",
-              "label_de": "11: erstgeborener Zwilling"
-            },
-            {
-              "value": 12,
-              "label": "12: secondborn twin",
-              "label_de": "12: zweitgeborener Zwilling"
-            },
-            {
-              "value": 21,
-              "label": "21: biological mother",
-              "label_de": "21: leibliche Mutter"
-            },
-            {
-              "value": 22,
-              "label": "22: biological father",
-              "label_de": "22: leiblicher Vater"
-            },
-            {
-              "value": 23,
-              "label": "23: adoptive mother",
-              "label_de": "23: Adoptivmutter"
-            },
-            {
-              "value": 24,
-              "label": "24: adoptive father",
-              "label_de": "24: Adoptivvater"
-            },
-            {
-              "value": 25,
-              "label": "25: foster mother",
-              "label_de": "25: Pflegemutter"
-            },
-            {
-              "value": 26,
-              "label": "26: foster father",
-              "label_de": "26: Pflegevater"
-            },
-            {
-              "value": 28,
-              "label": "28: non-biological father, pregnancy by semen donor",
-              "label_de": "28: nicht-biologischer Vater, Schwangerschaft durch Samenspende"
-            },
-            {
-              "value": 31,
-              "label": "31: partner of mother",
-              "label_de": "31: Partner/in der Mutter"
-            },
-            {
-              "value": 32,
-              "label": "32: partner of father",
-              "label_de": "32: Partner/in des Vaters"
-            },
-            {
-              "value": 41,
-              "label": "41: full biological sibling (both parents are the same as twins)",
-              "label_de": "41: Vollgeschwister (beide Elternteile sind dieselben wie bei Zwillingen)"
-            },
-            {
-              "value": 42,
-              "label": "42: half sibling (mother is the same as twins)",
-              "label_de": "42: Halbgeschwister (Mutter ist gleich wie bei den Zwillingen)"
-            },
-            {
-              "value": 43,
-              "label": "43: half sibling (father is the same as twins)",
-              "label_de": "43: Halbgeschwister (Vater ist gleich wie bei den Zwillingen)"
-            },
-            {
-              "value": 44,
-              "label": "44: half sibling (one of the parents is the same as twins, which one is unknown)",
-              "label_de": "44: Halbgeschwister (ein Elternteil ist gleich wie bei den Zwillingen, welcher ist unbekannt)"
-            },
-            {
-              "value": 45,
-              "label": "45: stepsibling (no parent is the same as twins)",
-              "label_de": "45: Stiefgeschwister (kein Elternteil ist gleich wie bei den Zwillingen)"
-            },
-            {
-              "value": 46,
-              "label": "46: adoptive sibling (no parent is the same as twins)",
-              "label_de": "46: Adoptivgeschwister (kein Elternteil ist gleich wie bei den Zwillingen)"
-            },
-            {
-              "value": 51,
-              "label": "51: grandmother / grandfather",
-              "label_de": "51: Grossmutter / Grossvater"
-            },
-            {
-              "value": 52,
-              "label": "52: aunt / uncle",
-              "label_de": "52: Tante / Onkel"
-            },
-            {
-              "value": 61,
-              "label": "61: partner of firstborn twin",
-              "label_de": "61: Partner/in von Zwilling 1"
-            },
-            {
-              "value": 62,
-              "label": "62: partner of secondborn twin",
-              "label_de": "62: Partner/in von Zwilling 2"
-            },
-            {
-              "value": 71,
-              "label": "71: other relative",
-              "label_de": "71: andere verwandte Person"
-            },
-            {
-              "value": 72,
-              "label": "72: other non-relative",
-              "label_de": "72: andere nicht-verwandte Person"
-            },
-            {
-              "value": 81,
-              "label": "81: child of firstborn twin",
-              "label_de": "81: Kind von erstgeborenem Zwilling"
-            },
-            {
-              "value": 82,
-              "label": "82: child of secondborn twin",
-              "label_de": "82: Kind von zweitgeborenem Zwilling"
-            },
-            {
-              "value": 90,
-              "label": "90: unknown relationship to twins",
-              "label_de": "90: Beziehung zu Zwillingen unbekannt"
-            }
-          ],
-          "sn": 1,
-          "item": "root"
         }
       ],
       "sn": 0,
@@ -295,34 +162,16 @@
     "sex": {
       "question": "sex",
       "name": "sex",
+      "label": "Interviewer: Please record:",
       "items": [
         {
-          "item": "1.0",
-          "number": "4",
-          "concept": "sex00",
-          "answer_list": "sex",
-          "scale": "cat",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: male",
-              "label_de": "1: maennlich"
-            },
-            {
-              "value": 2,
-              "label": "2: female",
-              "label_de": "2: weiblich"
-            }
-          ],
-          "sn": 0
-        },
-        {
-          "number": "3",
+          "name": "sex",
+          "item": "1",
+          "number": "2",
           "concept": "sex00",
           "text": "Interviewer: Please record:",
           "text_de": "Und ist <Name der Person> ...",
-          "answer_list": "sex",
-          "scale": "txt",
+          "scale": "cat",
           "filter": "fpr0107!=-99",
           "answers": [
             {
@@ -336,8 +185,7 @@
               "label_de": "2: weiblich"
             }
           ],
-          "sn": 1,
-          "item": "root"
+          "sn": 0
         }
       ],
       "sn": 1,
