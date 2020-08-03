@@ -43,7 +43,9 @@ In the following, the contents of the TwinLife Data are described in more detail
 1.1 Educational success
 
 - [School report](https://paneldata.org/concept/cer00); if not available: supplementary questions
-- Current school marks or rather marks of highest graduation 
+- Current school marks or rather marks of highest graduation
+- School climate/student-teacher-interaction
+- Pressure and stress at school  
           
 1.2 Intelligence
 
@@ -84,6 +86,7 @@ In the following, the contents of the TwinLife Data are described in more detail
 1.9	Self-regulation
 
 - Consistency of interest, self-control
+- Gummy bear test 
 
 1.10 Personality
 
@@ -106,10 +109,13 @@ In the following, the contents of the TwinLife Data are described in more detail
 
 - Perceived job security and satisfaction
 - Wages/income/welfare dependency
+- Job-related burden (i.e. shiftwork)
 
 2.4 Economic preferences
 
 - Risk aversion
+
+2.5 Job autonomy
 
 
 **3. Integration and participation in social, cultural, and political life**
@@ -140,6 +146,12 @@ In the following, the contents of the TwinLife Data are described in more detail
 
 - Religious affiliation, church attendance, religiosity/spirituality
 
+3.7 Cultural capital
+
+- Cultural participation, reading, classical music
+- Availability of cultural property
+- Music lessons
+
 
 **4.	Subjective perceptions of quality of life**
 
@@ -148,19 +160,38 @@ In the following, the contents of the TwinLife Data are described in more detail
 - Global life satisfaction 
 - Domain satisfaction (health, work life, family life, leisure time, school, romantic relationship, friendships, income)
 - Satisfaction with sibling relationship
+- Optimism
+
+4.2 Burden and stress
+
+- frequency of arguments with partner or parents
+- Stress regulation and coping
+- interfamiliar and extrafamiliar: subjective evaluation
+
+4.3 Life Goals: importance and progress
+
+4.4 Sensory-processing sensitivity
+
+4.5 Bullying
+
+- in the childhood and adolescence
 
 
 **5. Physical and psychological health**
 
-5.1 Health
+5.1 Subjective health
 
-- Current subjective health
-- Current subjective health
-- Health behavior 
+5.2 Objective health and diagnosis
 
-5.2 Measures of height and weight
+- Measures of height and weight child´s medical records
+- Depression
+- Pregnancy
+- Puberty
 
-- Measure of actual height and/or weight, if not remembered, scale measure during INTH
+5.3 Health-related behavior
+
+- alcohol consumption, smoking, medication, medical checkups
+- sexual behavior
 
 
 **6. Deviant behavior and behavioral problems**
@@ -219,6 +250,16 @@ In the following, the contents of the TwinLife Data are described in more detail
 - Warmth, conflict, rivalry of sibling relationship
 - Affection, hostility, rivalry of sibling relationship
 
+8.8 Family stresses
+
+- Care burden on household level
+
+8.9 Intentional level to achieve certain life events
+
+8.10 Stays abroad
+
+8.11 Information on twins' children
+
 
 **9. Zygosity and twin specific items**
 
@@ -259,8 +300,7 @@ people with the same date of birth lived in the same household. Then, it was che
  
 **Mode of Data Collection:** 
 *Face-to-Face data collection:* Household interviews with the family via three different interview modes (CAPI, CASI, Paper-and-Pencil) plus cognitive tests, scans/photos of certificates and children's health record books.
-*CATI data collection:* Telephone interview with one family member (from second CATI wave onwards; before: telephone interview with each family member above the age of 10 that participated in the 
-preceding Face-to-Face wave)
+*CATI data collection:* Telephone interview with one family member (from second CATI wave onwards; before: telephone interview with each family member above the age of 10 that participated in the preceding Face-to-Face wave)
  
 **Survey institute:** TNS Infratest / Kantar TNS (first Face-to-Face household survey, parts of the first telephone survey); infas Institut für angewandte Sozialwissenschaft 
 (parts of the first telephone survey, second Face-to-Face household survey) 
@@ -273,7 +313,7 @@ preceding Face-to-Face wave)
 
 10/01/2016 to 04/30/2017 (Face-to-Face 2a, CATI 1b)
 
-10/01/2017 to 06/30/2018 (Face-to-Face 2b, CATI 2a)
+10/01/2017 to 06/30/2018 (Face-to-Face 2b)
 
 
 
@@ -282,16 +322,16 @@ preceding Face-to-Face wave)
 
 ### Data description
 
-For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method report of the first wave see the TwinLife Technical Report 05 at 
-[https://www.twin-life.de/en/twinlife-technical-report-series](https://www.twin-life.de/en/twinlife-technical-report-series).
+For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method reports of the first three data collections see the TwinLife Technical Reports 05, 09, and 10 at 
+[https://www.twin-life.de/twinlife-series](https://www.twin-life.de/twinlife-series).
 
 
 ### Data files
 
 - **Master data**: includes information on the gross sample, such as time stable variables (sex, year of birth, relation to twins, zygotie, migration background) and wave-specific variables (person type, response status) about all individuals included in TwinLife in each data collection. 
 - **Survey data in person-format**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2). Each surveyed person has one data row. These datasets are documented on paneldata.org.
-- **Survey data in family-format**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2).  Each family has one data row. 
-- **Twin zygosity assessment**:  a data file with the information of the twin zygosity assessment in F2F 1.
+- **Survey data in family-format**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2). Each family has one data row. 
+- **Twin zygosity assessment**: a data file with the information of the twin zygosity assessment in F2F 1.
 - **Generated scales in person-format**: One data set containing  a selection of generated scales, e.g. on personality and parenting style for F2F 1. 
  
 In addition, the data release contains a data file documenting the survey mode for each variable on the individual level in F2F 1. 
@@ -303,7 +343,7 @@ The data are adjusted for filter errors, i.e. data that was collected due to wro
 
 Number of Units:
 
-19163 individuals, 4097 families
+21262 individuals, 4097 families
  
 Number of Variables:
 
@@ -313,9 +353,9 @@ Number of Variables:
 
 ### Data access 
 
-Data can accessed via the GESIS Data Catalogue: [https://dbk.gesis.org/dbksearch/index.asp](https://dbk.gesis.org/dbksearch/index.asp) 
+Data can be accessed via the GESIS Data Catalogue: [https://dbk.gesis.org/dbksearch/index.asp](https://dbk.gesis.org/dbksearch/index.asp) 
 
 Charges for downloading this data will be paid by the TwinLife project, so the use of the data is **free of charge**!
 
-Note on availability: Data and documents are only released for academic research and teaching after the data depositor’s written authorization. For this purpose the Gesis Data Archive obtains a written permission 
+Note on availability: Data and documents are only released for academic research and teaching after the data depositor's written authorization. For this purpose the Gesis Data Archive obtains a written permission 
 with specification of the user and the analysis intention.
