@@ -42,7 +42,7 @@ In the following, the contents of the TwinLife Data are described in more detail
 
 1.1 Educational success
 
-- [School report](https://paneldata.org/concept/cer00); if not available: supplementary questions
+- School report; if not available: supplementary questions
 - Current school marks or rather marks of highest graduation
 - School climate/student-teacher-interaction
 - Pressure and stress at school  
