@@ -14,13 +14,13 @@
       "items": [
         {
           "name": "nbi1300",
-          "item": "0",
-          "number": "3",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "1",
+          "concept": "nbi1300",
           "text": "We would like to ask you to provide us with the child health record of <NAME DES KINDES> so that we can record the information. Do you consent to that?",
           "text_de": "Wir moechten Sie bitten, uns das Untersuchungsheft von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses erfassen koennen. Sind Sie damit einverstanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & ((nbi1300t_1!=1 & nbi1300t_1 != -99) | (nbi0900t_1!=1))",
+          "scale": "cat",
+          "filter": "((euek==1) & ((nbi1300s_1!=1 & nbi1300s_1 != -99) | (nbi0900s_1!=1) | (news==1)) & fls==1) | ((euek==1) & ((nbi1300t_1!=1 & nbi1300t_1 != -99) | (nbi0900t_1!=1))) | ((euek==1) & ((nbi1300u_1!=1 & nbi1300u_1 != -99) | (nbi0900u_1!=1)))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -45,7 +45,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 0,
@@ -59,13 +59,13 @@
       "items": [
         {
           "name": "nbi0100",
-          "item": "0",
-          "number": "6",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "2",
+          "concept": "nbi0100",
           "text": "U1: carried out",
           "text_de": "U1 (Neugeborenenuntersuchung) Wurde die Untersuchung durchgefuehrt?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi1300u_1!=1) & nbi1300u==1",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi1300s_1!=1 | (news==1)) & nbi1300s==1) | ((euek==1) & (nbi1300t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi1300u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -95,7 +95,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 1,
@@ -109,13 +109,13 @@
       "items": [
         {
           "name": "nbi0103",
-          "item": "0",
-          "number": "9",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "3",
+          "concept": "nbi0103",
           "text": "U1: number of pregnancies",
           "text_de": "U1 (Neugeborenenuntersuchung) Anzahl Schwangerschaften",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100s==1 & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -135,7 +135,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 2,
@@ -149,13 +149,13 @@
       "items": [
         {
           "name": "nbi0104",
-          "item": "0",
-          "number": "12",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "4",
+          "concept": "nbi0104",
           "text": "U1: number of births",
           "text_de": "U1 (Neugeborenenuntersuchung) Anzahl Geburten",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100u==1 & nbi1300u==1",
+          "scale": "int",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -175,7 +175,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 3,
@@ -189,13 +189,13 @@
       "items": [
         {
           "name": "nbi0105",
-          "item": "0",
-          "number": "15",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "5",
+          "concept": "nbi0105",
           "text": "U1: initial examination in pregnancy week",
           "text_de": "U1 (Neugeborenenuntersuchung) Erstuntersuchung in Schwangerschaftswoche",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100s==1 & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -215,7 +215,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 4,
@@ -229,13 +229,13 @@
       "items": [
         {
           "name": "nbi0106",
-          "item": "0",
-          "number": "18",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "6",
+          "concept": "nbi0106",
           "text": "U1: visited hospital before giving birth",
           "text_de": "U1 (Neugeborenenuntersuchung) Vor Entbindung in Klinik vorgestellt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100u==1 & nbi1300u==1",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -260,7 +260,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 5,
@@ -274,13 +274,13 @@
       "items": [
         {
           "name": "nbi0107",
-          "item": "0",
-          "number": "21",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "7",
+          "concept": "nbi0107",
           "text": "U1: number of preventive examinations",
           "text_de": "U1 (Neugeborenenuntersuchung) Anzahl Vorsorgeuntersuchungen",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100s==1 & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -300,7 +300,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 6,
@@ -315,12 +315,12 @@
         {
           "name": "nbi0108",
           "item": "0",
-          "number": "26",
-          "concept": "nbi10",
+          "number": "8",
+          "concept": "nbi0108",
           "text": "U1: risk number:",
           "text_de": "[ITEMBAT] U1 (Neugeborenenuntersuchung) Risikonummern:",
           "scale": "txt",
-          "filter": "(euek==1) & nbi0100t==1 & nbi1300t==1",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -620,15 +620,324 @@
               "label_de": "56: Z. n. Hypertonie"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0108",
           "item": "1",
-          "number": "27",
-          "concept": "nbi10",
+          "number": "9",
+          "concept": "nbi0108",
           "text": "U1: [Open] risk number 1",
           "text_de": "U1: [Open] Risikonummer 1",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: not specified / no (further) risk numbers",
+              "label_de": "-85: keine Angabe / keine (weiteren) Risikonummern vorhanden"
+            },
+            {
+              "value": 1,
+              "label": "1: family history (e.g. of diabetes, hypertension, congenital anomalies, genetic disorders, mental illnesses)",
+              "label_de": "1: Familiaere Belastung (Diabetes, Hypertonie, Fehl-/Missbildungen, gen. Krankheiten, psych. Krankheiten)"
+            },
+            {
+              "value": 2,
+              "label": "2: prior severe illnesses, (e.g. heart, lung, liver, kidneys, central nervous system, mental)",
+              "label_de": "2: fruehere eigene schwere Erkrankungen (z.B. Herz, Lunge, Leber, Nieren, ZNS, Psyche)"
+            },
+            {
+              "value": 3,
+              "label": "3: susceptible to bleeding/thrombotic events",
+              "label_de": "3: Blutungs-/Thromboseneigung"
+            },
+            {
+              "value": 4,
+              "label": "4: allergies, including to medications",
+              "label_de": "4: Allergie, z.B. gg. Medikamente"
+            },
+            {
+              "value": 5,
+              "label": "5: prior blood transfusions",
+              "label_de": "5: fruehere Bluttransfusionen"
+            },
+            {
+              "value": 6,
+              "label": "6: special mental stress (e.g. family- or work-related)",
+              "label_de": "6: besondere psychische Belastung (z.B. familiaere oder berufliche)"
+            },
+            {
+              "value": 7,
+              "label": "7: special social stress (e.g. integration or financial issues)",
+              "label_de": "7: besondere soziale Belastung (Integrationsprobleme, wirtschaftliche Probleme)"
+            },
+            {
+              "value": 8,
+              "label": "8: rhesus incompatibility (in prior pregnancies)",
+              "label_de": "8: Rhesus-Inkompatibilitaet (bei vorangeg. Schwangersch.)"
+            },
+            {
+              "value": 9,
+              "label": "9: diabetes mellitus",
+              "label_de": "9: Diabetes mellitus"
+            },
+            {
+              "value": 10,
+              "label": "10: obesity",
+              "label_de": "10: Adipositas"
+            },
+            {
+              "value": 11,
+              "label": "11: microsomia / small stature",
+              "label_de": "11: Kleinwuchs"
+            },
+            {
+              "value": 12,
+              "label": "12: skeletal abnormalities",
+              "label_de": "12: Skelettanomalien"
+            },
+            {
+              "value": 13,
+              "label": "13: under 18 years of age",
+              "label_de": "13: Schwangere unter 18 Jahren"
+            },
+            {
+              "value": 14,
+              "label": "14: over 35 years of age",
+              "label_de": "14: Schwangere ueber 35 Jahren"
+            },
+            {
+              "value": 15,
+              "label": "15: multipara (more than 4 children)",
+              "label_de": "15: Vielgebaerende (mehr als 4 Kinder)"
+            },
+            {
+              "value": 16,
+              "label": "16: history of fertility treatment",
+              "label_de": "16: Z. n. Sterilitaetsbehandlung"
+            },
+            {
+              "value": 17,
+              "label": "17: history of preterm birth (before the end of week 37)",
+              "label_de": "17: Z. n. Fruehgeburt (vor Ende der 37. SSW)"
+            },
+            {
+              "value": 18,
+              "label": "18: history of low-birth-weight infant",
+              "label_de": "18: Z. n. Mangelgeburt"
+            },
+            {
+              "value": 19,
+              "label": "19: history of 2 or more miscarriages/abortions",
+              "label_de": "19: Z. n. 2 oder mehr Fehlgeburten/Aborten/Abbruechen"
+            },
+            {
+              "value": 20,
+              "label": "20: history of previous stillbirth or neonatal death or baby with serious medical problems/impairment",
+              "label_de": "20: Totes/geschaedigtes Kind in der Anamnese"
+            },
+            {
+              "value": 21,
+              "label": "21: complications during prior births",
+              "label_de": "21: Komplikationen bei vorausgegangenen Entbindungen"
+            },
+            {
+              "value": 22,
+              "label": "22: complications post partum/in puerperium",
+              "label_de": "22: Komplikationen post partum"
+            },
+            {
+              "value": 23,
+              "label": "23: history of Caesarian section",
+              "label_de": "23: Z. n. Sectio"
+            },
+            {
+              "value": 24,
+              "label": "24: history of other uterine surgery",
+              "label_de": "24: Z. n. anderen Uterusoperationen"
+            },
+            {
+              "value": 25,
+              "label": "25: pregnancies in quick succession (less than 1 year)",
+              "label_de": "25: rasche Schwangerschaftsfolge (weniger als 1 Jahr)"
+            },
+            {
+              "value": 26,
+              "label": "26: other special circumstances",
+              "label_de": "26: andere Besonderheiten"
+            },
+            {
+              "value": 27,
+              "label": "27: general illnesses requiring treatment",
+              "label_de": "27: behandlungsbeduerftige Allgemeinerkrankungen"
+            },
+            {
+              "value": 28,
+              "label": "28: long-term medication",
+              "label_de": "28: Dauermedikation"
+            },
+            {
+              "value": 29,
+              "label": "29: substance abuse",
+              "label_de": "29: Abusus"
+            },
+            {
+              "value": 30,
+              "label": "30: exceptional mental stress",
+              "label_de": "30: besondere psychische Belastung"
+            },
+            {
+              "value": 31,
+              "label": "31: exceptional social stress",
+              "label_de": "31: besondere soziale Belastung"
+            },
+            {
+              "value": 32,
+              "label": "32: bleeding before 28th week",
+              "label_de": "32: Blutungen vor der 28. SSW"
+            },
+            {
+              "value": 33,
+              "label": "33: bleeding after 28th Week",
+              "label_de": "33: Blutungen nach der 28. SSW"
+            },
+            {
+              "value": 34,
+              "label": "34: placenta praevia",
+              "label_de": "34: Placenta praevia"
+            },
+            {
+              "value": 35,
+              "label": "35: multiple pregnancy",
+              "label_de": "35: Mehrlingsschwangerschaft"
+            },
+            {
+              "value": 36,
+              "label": "36: polyhydramnios",
+              "label_de": "36: Hydramnion"
+            },
+            {
+              "value": 37,
+              "label": "37: oligohydramnios",
+              "label_de": "37: Oligohydramnie"
+            },
+            {
+              "value": 38,
+              "label": "38: uncertain expected date of delivery",
+              "label_de": "38: Terminunklarheit"
+            },
+            {
+              "value": 39,
+              "label": "39: placental insufficiency",
+              "label_de": "39: Placentainsuffizienz"
+            },
+            {
+              "value": 40,
+              "label": "40: cervical insufficiency",
+              "label_de": "40: Isthmozervikale Insuffizienz"
+            },
+            {
+              "value": 41,
+              "label": "41: preterm labor",
+              "label_de": "41: vorzeitige Wehentaetigkeit"
+            },
+            {
+              "value": 42,
+              "label": "42: anaemia",
+              "label_de": "42: Anaemie"
+            },
+            {
+              "value": 43,
+              "label": "43: urinary tract infection",
+              "label_de": "43: Harnwegsinfektion"
+            },
+            {
+              "value": 44,
+              "label": "44: antenatal antibody screening positive",
+              "label_de": "44: indirekter Coombstest positiv"
+            },
+            {
+              "value": 45,
+              "label": "45: risk due to other serological findings",
+              "label_de": "45: Risiko aus anderen serologischen Befunden"
+            },
+            {
+              "value": 46,
+              "label": "46: hypertension (blood pressure over 140/90)",
+              "label_de": "46: Hypertonie (Blutdruck ueber 140/90)"
+            },
+            {
+              "value": 47,
+              "label": "47: urinalysis for protein 1% (1000mg/l) or more",
+              "label_de": "47: Eiweissausscheidung 1 Promille (entspr. 1000 mg/l) o. mehr"
+            },
+            {
+              "value": 48,
+              "label": "48: moderate - severe oedema",
+              "label_de": "48: Mittelgradige - schwere Oedeme"
+            },
+            {
+              "value": 49,
+              "label": "49: hypotension",
+              "label_de": "49: Hypotonie"
+            },
+            {
+              "value": 50,
+              "label": "50: gestational diabetes",
+              "label_de": "50: Gestationsdiabetes"
+            },
+            {
+              "value": 51,
+              "label": "51: abnormal engagement of fetal head",
+              "label_de": "51: Einstellungs-/Lageanomalie"
+            },
+            {
+              "value": 52,
+              "label": "52: other special findings",
+              "label_de": "52: andere Besonderheiten"
+            },
+            {
+              "value": 53,
+              "label": "53: hyperemesis",
+              "label_de": "53: Hyperemesis"
+            },
+            {
+              "value": 54,
+              "label": "54: history of HELLP-syndrome",
+              "label_de": "54: Z. n. HELLP-Syndrom"
+            },
+            {
+              "value": 55,
+              "label": "55: history of eclampsia",
+              "label_de": "55: Z. n. Eklampsie"
+            },
+            {
+              "value": 56,
+              "label": "56: history of hypertension",
+              "label_de": "56: Z. n. Hypertonie"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "name": "nbi0108",
+          "item": "2",
+          "number": "10",
+          "concept": "nbi0108",
+          "text": "U1: [Open] risk number 2",
+          "text_de": "U1: [Open] Risikonummer 2",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -933,11 +1242,11 @@
         },
         {
           "name": "nbi0108",
-          "item": "2",
-          "number": "30",
-          "concept": "nbi10",
-          "text": "U1: [Open] risk number 2",
-          "text_de": "U1: [Open] Risikonummer 2",
+          "item": "3",
+          "number": "11",
+          "concept": "nbi0108",
+          "text": "U1: [Open] risk number 3",
+          "text_de": "U1: [Open] Risikonummer 3",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -1242,11 +1551,11 @@
         },
         {
           "name": "nbi0108",
-          "item": "3",
-          "number": "33",
-          "concept": "nbi10",
-          "text": "U1: [Open] risk number 3",
-          "text_de": "U1: [Open] Risikonummer 3",
+          "item": "4",
+          "number": "12",
+          "concept": "nbi0108",
+          "text": "U1: [Open] risk number 4",
+          "text_de": "U1: [Open] Risikonummer 4",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -1551,11 +1860,11 @@
         },
         {
           "name": "nbi0108",
-          "item": "4",
-          "number": "36",
-          "concept": "nbi10",
-          "text": "U1: [Open] risk number 4",
-          "text_de": "U1: [Open] Risikonummer 4",
+          "item": "5",
+          "number": "13",
+          "concept": "nbi0108",
+          "text": "U1: [Open] risk number 5",
+          "text_de": "U1: [Open] Risikonummer 5",
           "scale": "cat",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
@@ -1860,318 +2169,9 @@
         },
         {
           "name": "nbi0108",
-          "item": "5",
-          "number": "39",
-          "concept": "nbi10",
-          "text": "U1: [Open] risk number 5",
-          "text_de": "U1: [Open] Risikonummer 5",
-          "scale": "cat",
-          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: not specified / no (further) risk numbers",
-              "label_de": "-85: keine Angabe / keine (weiteren) Risikonummern vorhanden"
-            },
-            {
-              "value": 1,
-              "label": "1: family history (e.g. of diabetes, hypertension, congenital anomalies, genetic disorders, mental illnesses)",
-              "label_de": "1: Familiaere Belastung (Diabetes, Hypertonie, Fehl-/Missbildungen, gen. Krankheiten, psych. Krankheiten)"
-            },
-            {
-              "value": 2,
-              "label": "2: prior severe illnesses, (e.g. heart, lung, liver, kidneys, central nervous system, mental)",
-              "label_de": "2: fruehere eigene schwere Erkrankungen (z.B. Herz, Lunge, Leber, Nieren, ZNS, Psyche)"
-            },
-            {
-              "value": 3,
-              "label": "3: susceptible to bleeding/thrombotic events",
-              "label_de": "3: Blutungs-/Thromboseneigung"
-            },
-            {
-              "value": 4,
-              "label": "4: allergies, including to medications",
-              "label_de": "4: Allergie, z.B. gg. Medikamente"
-            },
-            {
-              "value": 5,
-              "label": "5: prior blood transfusions",
-              "label_de": "5: fruehere Bluttransfusionen"
-            },
-            {
-              "value": 6,
-              "label": "6: special mental stress (e.g. family- or work-related)",
-              "label_de": "6: besondere psychische Belastung (z.B. familiaere oder berufliche)"
-            },
-            {
-              "value": 7,
-              "label": "7: special social stress (e.g. integration or financial issues)",
-              "label_de": "7: besondere soziale Belastung (Integrationsprobleme, wirtschaftliche Probleme)"
-            },
-            {
-              "value": 8,
-              "label": "8: rhesus incompatibility (in prior pregnancies)",
-              "label_de": "8: Rhesus-Inkompatibilitaet (bei vorangeg. Schwangersch.)"
-            },
-            {
-              "value": 9,
-              "label": "9: diabetes mellitus",
-              "label_de": "9: Diabetes mellitus"
-            },
-            {
-              "value": 10,
-              "label": "10: obesity",
-              "label_de": "10: Adipositas"
-            },
-            {
-              "value": 11,
-              "label": "11: microsomia / small stature",
-              "label_de": "11: Kleinwuchs"
-            },
-            {
-              "value": 12,
-              "label": "12: skeletal abnormalities",
-              "label_de": "12: Skelettanomalien"
-            },
-            {
-              "value": 13,
-              "label": "13: under 18 years of age",
-              "label_de": "13: Schwangere unter 18 Jahren"
-            },
-            {
-              "value": 14,
-              "label": "14: over 35 years of age",
-              "label_de": "14: Schwangere ueber 35 Jahren"
-            },
-            {
-              "value": 15,
-              "label": "15: multipara (more than 4 children)",
-              "label_de": "15: Vielgebaerende (mehr als 4 Kinder)"
-            },
-            {
-              "value": 16,
-              "label": "16: history of fertility treatment",
-              "label_de": "16: Z. n. Sterilitaetsbehandlung"
-            },
-            {
-              "value": 17,
-              "label": "17: history of preterm birth (before the end of week 37)",
-              "label_de": "17: Z. n. Fruehgeburt (vor Ende der 37. SSW)"
-            },
-            {
-              "value": 18,
-              "label": "18: history of low-birth-weight infant",
-              "label_de": "18: Z. n. Mangelgeburt"
-            },
-            {
-              "value": 19,
-              "label": "19: history of 2 or more miscarriages/abortions",
-              "label_de": "19: Z. n. 2 oder mehr Fehlgeburten/Aborten/Abbruechen"
-            },
-            {
-              "value": 20,
-              "label": "20: history of previous stillbirth or neonatal death or baby with serious medical problems/impairment",
-              "label_de": "20: Totes/geschaedigtes Kind in der Anamnese"
-            },
-            {
-              "value": 21,
-              "label": "21: complications during prior births",
-              "label_de": "21: Komplikationen bei vorausgegangenen Entbindungen"
-            },
-            {
-              "value": 22,
-              "label": "22: complications post partum/in puerperium",
-              "label_de": "22: Komplikationen post partum"
-            },
-            {
-              "value": 23,
-              "label": "23: history of Caesarian section",
-              "label_de": "23: Z. n. Sectio"
-            },
-            {
-              "value": 24,
-              "label": "24: history of other uterine surgery",
-              "label_de": "24: Z. n. anderen Uterusoperationen"
-            },
-            {
-              "value": 25,
-              "label": "25: pregnancies in quick succession (less than 1 year)",
-              "label_de": "25: rasche Schwangerschaftsfolge (weniger als 1 Jahr)"
-            },
-            {
-              "value": 26,
-              "label": "26: other special circumstances",
-              "label_de": "26: andere Besonderheiten"
-            },
-            {
-              "value": 27,
-              "label": "27: general illnesses requiring treatment",
-              "label_de": "27: behandlungsbeduerftige Allgemeinerkrankungen"
-            },
-            {
-              "value": 28,
-              "label": "28: long-term medication",
-              "label_de": "28: Dauermedikation"
-            },
-            {
-              "value": 29,
-              "label": "29: substance abuse",
-              "label_de": "29: Abusus"
-            },
-            {
-              "value": 30,
-              "label": "30: exceptional mental stress",
-              "label_de": "30: besondere psychische Belastung"
-            },
-            {
-              "value": 31,
-              "label": "31: exceptional social stress",
-              "label_de": "31: besondere soziale Belastung"
-            },
-            {
-              "value": 32,
-              "label": "32: bleeding before 28th week",
-              "label_de": "32: Blutungen vor der 28. SSW"
-            },
-            {
-              "value": 33,
-              "label": "33: bleeding after 28th Week",
-              "label_de": "33: Blutungen nach der 28. SSW"
-            },
-            {
-              "value": 34,
-              "label": "34: placenta praevia",
-              "label_de": "34: Placenta praevia"
-            },
-            {
-              "value": 35,
-              "label": "35: multiple pregnancy",
-              "label_de": "35: Mehrlingsschwangerschaft"
-            },
-            {
-              "value": 36,
-              "label": "36: polyhydramnios",
-              "label_de": "36: Hydramnion"
-            },
-            {
-              "value": 37,
-              "label": "37: oligohydramnios",
-              "label_de": "37: Oligohydramnie"
-            },
-            {
-              "value": 38,
-              "label": "38: uncertain expected date of delivery",
-              "label_de": "38: Terminunklarheit"
-            },
-            {
-              "value": 39,
-              "label": "39: placental insufficiency",
-              "label_de": "39: Placentainsuffizienz"
-            },
-            {
-              "value": 40,
-              "label": "40: cervical insufficiency",
-              "label_de": "40: Isthmozervikale Insuffizienz"
-            },
-            {
-              "value": 41,
-              "label": "41: preterm labor",
-              "label_de": "41: vorzeitige Wehentaetigkeit"
-            },
-            {
-              "value": 42,
-              "label": "42: anaemia",
-              "label_de": "42: Anaemie"
-            },
-            {
-              "value": 43,
-              "label": "43: urinary tract infection",
-              "label_de": "43: Harnwegsinfektion"
-            },
-            {
-              "value": 44,
-              "label": "44: antenatal antibody screening positive",
-              "label_de": "44: indirekter Coombstest positiv"
-            },
-            {
-              "value": 45,
-              "label": "45: risk due to other serological findings",
-              "label_de": "45: Risiko aus anderen serologischen Befunden"
-            },
-            {
-              "value": 46,
-              "label": "46: hypertension (blood pressure over 140/90)",
-              "label_de": "46: Hypertonie (Blutdruck ueber 140/90)"
-            },
-            {
-              "value": 47,
-              "label": "47: urinalysis for protein 1% (1000mg/l) or more",
-              "label_de": "47: Eiweissausscheidung 1 Promille (entspr. 1000 mg/l) o. mehr"
-            },
-            {
-              "value": 48,
-              "label": "48: moderate - severe oedema",
-              "label_de": "48: Mittelgradige - schwere Oedeme"
-            },
-            {
-              "value": 49,
-              "label": "49: hypotension",
-              "label_de": "49: Hypotonie"
-            },
-            {
-              "value": 50,
-              "label": "50: gestational diabetes",
-              "label_de": "50: Gestationsdiabetes"
-            },
-            {
-              "value": 51,
-              "label": "51: abnormal engagement of fetal head",
-              "label_de": "51: Einstellungs-/Lageanomalie"
-            },
-            {
-              "value": 52,
-              "label": "52: other special findings",
-              "label_de": "52: andere Besonderheiten"
-            },
-            {
-              "value": 53,
-              "label": "53: hyperemesis",
-              "label_de": "53: Hyperemesis"
-            },
-            {
-              "value": 54,
-              "label": "54: history of HELLP-syndrome",
-              "label_de": "54: Z. n. HELLP-Syndrom"
-            },
-            {
-              "value": 55,
-              "label": "55: history of eclampsia",
-              "label_de": "55: Z. n. Eklampsie"
-            },
-            {
-              "value": 56,
-              "label": "56: history of hypertension",
-              "label_de": "56: Z. n. Hypertonie"
-            }
-          ],
-          "sn": 6
-        },
-        {
-          "name": "nbi0108",
           "item": "6",
-          "number": "42",
-          "concept": "nbi10",
+          "number": "14",
+          "concept": "nbi0108",
           "text": "U1: [Open] risk number 6",
           "text_de": "U1: [Open] Risikonummer 6",
           "scale": "cat",
@@ -2474,7 +2474,7 @@
               "label_de": "56: Z. n. Hypertonie"
             }
           ],
-          "sn": 7
+          "sn": 6
         }
       ],
       "sn": 7,
@@ -2488,13 +2488,13 @@
       "items": [
         {
           "name": "nbi0114",
-          "item": "0",
-          "number": "45",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "15",
+          "concept": "nbi0114",
           "text": "U1: gestational age at birth",
           "text_de": "U1 (Neugeborenenuntersuchung) Geburt in Schwangerschaftswoche",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100s==1 & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2514,7 +2514,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 8,
@@ -2528,13 +2528,13 @@
       "items": [
         {
           "name": "nbi0115",
-          "item": "0",
-          "number": "48",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "16",
+          "concept": "nbi0115",
           "text": "U1: weight in grams",
           "text_de": "U1 (Neugeborenenuntersuchung) Geburtsgewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100t==1 & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2554,7 +2554,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 9,
@@ -2568,13 +2568,13 @@
       "items": [
         {
           "name": "nbi0116",
-          "item": "0",
-          "number": "51",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "17",
+          "concept": "nbi0116",
           "text": "U1: height in centimeters",
           "text_de": "U1 (Neugeborenenuntersuchung) Geburtslaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100t==1 & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2594,7 +2594,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 10,
@@ -2608,13 +2608,13 @@
       "items": [
         {
           "name": "nbi0117",
-          "item": "0",
-          "number": "54",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "18",
+          "concept": "nbi0117",
           "text": "U1: head circumference in centimeters",
           "text_de": "U1 (Neugeborenenuntersuchung) Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi0100t==1 & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & nbi0100s==1 & nbi1300s==1) | ((euek==1) & nbi0100t==1 & nbi1300t==1) | ((euek==1) & nbi0100u==1 & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2634,7 +2634,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 11,
@@ -2648,13 +2648,13 @@
       "items": [
         {
           "name": "nbi0200",
-          "item": "0",
-          "number": "57",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "19",
+          "concept": "nbi0200",
           "text": "U2: carried out",
           "text_de": "U2: durchgefuehrt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)) | ((euek==1) & nbi1300t==1 & nbi1300t_1!=1) | ((euek==1) & nbi1300u==1 & nbi1300u_1!=1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2684,7 +2684,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 12,
@@ -2698,13 +2698,13 @@
       "items": [
         {
           "name": "nbi0300",
-          "item": "0",
-          "number": "60",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "20",
+          "concept": "nbi0300",
           "text": "U3: carried out",
           "text_de": "U3: durchgefuehrt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)) | ((euek==1) & nbi1300t==1 & nbi1300t_1!=1) | ((euek==1) & nbi1300u==1 & nbi1300u_1!=1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2734,7 +2734,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 13,
@@ -2748,13 +2748,13 @@
       "items": [
         {
           "name": "nbi0400",
-          "item": "0",
-          "number": "63",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "21",
+          "concept": "nbi0400",
           "text": "U4: carried out",
           "text_de": "U4: durchgefuehrt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi1300u==1 & nbi1300u_1!=1",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)) | ((euek==1) & nbi1300t==1 & nbi1300t_1!=1) | ((euek==1) & nbi1300u==1 & nbi1300u_1!=1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2784,7 +2784,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 14,
@@ -2798,13 +2798,13 @@
       "items": [
         {
           "name": "nbi0500",
-          "item": "0",
-          "number": "66",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "22",
+          "concept": "nbi0500",
           "text": "U5: carried out",
           "text_de": "U5: durchgefuehrt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi1300u==1 & nbi1300u_1!=1",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)) | ((euek==1) & nbi1300t==1 & nbi1300t_1!=1) | ((euek==1) & nbi1300u==1 & nbi1300u_1!=1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2834,7 +2834,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 15,
@@ -2848,13 +2848,13 @@
       "items": [
         {
           "name": "nbi0600",
-          "item": "0",
-          "number": "69",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "23",
+          "concept": "nbi0600",
           "text": "U6: carried out",
           "text_de": "U6: durchgefuehrt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)) | ((euek==1) & nbi1300t==1 & nbi1300t_1!=1) | ((euek==1) & nbi1300u==1 & nbi1300u_1!=1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2884,7 +2884,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 16,
@@ -2898,13 +2898,13 @@
       "items": [
         {
           "name": "nbi0700",
-          "item": "0",
-          "number": "72",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "24",
+          "concept": "nbi0700",
           "text": "U7: carried out",
           "text_de": "U7: durchgefuehrt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)) | ((euek==1) & nbi1300t==1 & nbi1300t_1!=1) | ((euek==1) & nbi1300u==1 & nbi1300u_1!=1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2934,7 +2934,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 17,
@@ -2948,13 +2948,13 @@
       "items": [
         {
           "name": "nbi0800",
-          "item": "0",
-          "number": "75",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "25",
+          "concept": "nbi0800",
           "text": "U8: carried out",
           "text_de": "U8: durchgefuehrt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi1300t==1 & nbi1300t_1!=1",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi1300s==1 & (nbi1300s_1!=1 | news==1)) | ((euek==1) & nbi1300t==1 & nbi1300t_1!=1) | ((euek==1) & nbi1300u==1 & nbi1300u_1!=1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -2984,7 +2984,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 18,
@@ -2998,13 +2998,13 @@
       "items": [
         {
           "name": "nbi0900",
-          "item": "0",
-          "number": "78",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "26",
+          "concept": "nbi0900",
           "text": "U9: carried out",
           "text_de": "U9: durchgefuehrt",
-          "scale": "txt",
-          "filter": "(euek==1) & nbi1300s==1 & (nbi0900s_1!=1 | nbi1300s_1!=1 | news==1)",
+          "scale": "cat",
+          "filter": "((euek==1) & nbi1300s==1 & (nbi0900s_1!=1 | nbi1300s_1!=1 | news==1)) | ((euek==1) & nbi1300t==1 & (nbi0900t_1!=1 | nbi1300t_1!=1)) | ((euek==1) & nbi1300u==1 & (nbi0900t_1!=1 | nbi1300u_1!=1))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3034,7 +3034,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 19,
@@ -3048,13 +3048,13 @@
       "items": [
         {
           "name": "nbi0201",
-          "item": "0",
-          "number": "81",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "27",
+          "concept": "nbi0201",
           "text": "U2: weight in grams",
           "text_de": "U2: Gewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0200u==1)",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0200s==1)) | ((euek==1) & (nbi0200t==1)) | ((euek==1) & (nbi0200u==1))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3074,7 +3074,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 20,
@@ -3088,13 +3088,13 @@
       "items": [
         {
           "name": "nbi0301",
-          "item": "0",
-          "number": "84",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "28",
+          "concept": "nbi0301",
           "text": "U3: weight in grams",
           "text_de": "U3: Gewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0300s==1 & nbi0300s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0300t==1 & nbi0300t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3114,7 +3114,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 21,
@@ -3128,13 +3128,13 @@
       "items": [
         {
           "name": "nbi0401",
-          "item": "0",
-          "number": "87",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "29",
+          "concept": "nbi0401",
           "text": "U4: weight in grams",
           "text_de": "U4: Gewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0400u==1 & nbi0400u_1!=1) & nbi1300u==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0400s==1 & nbi0400s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0400t==1 & nbi0400t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0400u==1 & nbi0400u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3154,7 +3154,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 22,
@@ -3168,13 +3168,13 @@
       "items": [
         {
           "name": "nbi0501",
-          "item": "0",
-          "number": "90",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "30",
+          "concept": "nbi0501",
           "text": "U5: weight in grams",
           "text_de": "U5: Gewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0500t==1 & nbi0500t_1!=1) & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0500s==1 & nbi0500s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0500t==1 & nbi0500t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0500u==1 & nbi0500u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3194,7 +3194,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 23,
@@ -3208,13 +3208,13 @@
       "items": [
         {
           "name": "nbi0601",
-          "item": "0",
-          "number": "93",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "31",
+          "concept": "nbi0601",
           "text": "U6: weight in grams",
           "text_de": "U6: Gewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0600s==1 & nbi0600s_1!=1) & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0600s==1 & nbi0600s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0600t==1 & nbi0600t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0600u==1 & nbi0600u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3234,7 +3234,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 24,
@@ -3248,13 +3248,13 @@
       "items": [
         {
           "name": "nbi0701",
-          "item": "0",
-          "number": "96",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "32",
+          "concept": "nbi0701",
           "text": "U7: weight in grams",
           "text_de": "U7: Gewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0700s==1 & nbi0700s_1!=1) & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0700s==1 & nbi0700s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0700t==1 & nbi0700t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0700u==1 & nbi0700u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3274,7 +3274,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 25,
@@ -3288,13 +3288,13 @@
       "items": [
         {
           "name": "nbi0801",
-          "item": "0",
-          "number": "99",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "33",
+          "concept": "nbi0801",
           "text": "U8: weight in grams",
           "text_de": "U8: Gewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0800s==1 & nbi0800s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0800u==1 & nbi0800u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3314,7 +3314,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 26,
@@ -3328,13 +3328,13 @@
       "items": [
         {
           "name": "nbi0901",
-          "item": "0",
-          "number": "102",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "34",
+          "concept": "nbi0901",
           "text": "U9: weight in grams",
           "text_de": "U9: Gewicht in g",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0900u==1 & nbi0900u_1!=1) & nbi1300u==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0900s==1 & nbi0900s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0900t==1 & nbi0900t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0900u==1 & nbi0900u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3354,7 +3354,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 27,
@@ -3368,13 +3368,13 @@
       "items": [
         {
           "name": "nbi0202",
-          "item": "0",
-          "number": "105",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "35",
+          "concept": "nbi0202",
           "text": "U2: height in centimeters",
           "text_de": "U2: Koerperlaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0200t==1)",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0200s==1)) | ((euek==1) & (nbi0200t==1)) | ((euek==1) & (nbi0200u==1))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3389,7 +3389,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 28,
@@ -3403,13 +3403,13 @@
       "items": [
         {
           "name": "nbi0302",
-          "item": "0",
-          "number": "108",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "36",
+          "concept": "nbi0302",
           "text": "U3: height in centimeters",
           "text_de": "U3: Koerperlaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0300t==1 & nbi0300t_1!=1) & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0300s==1 & nbi0300s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0300t==1 & nbi0300t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3424,7 +3424,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 29,
@@ -3438,13 +3438,13 @@
       "items": [
         {
           "name": "nbi0402",
-          "item": "0",
-          "number": "111",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "37",
+          "concept": "nbi0402",
           "text": "U4: height in centimeters",
           "text_de": "U4: Koerperlaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0400t==1 & nbi0400t_1!=1) & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0400s==1 & nbi0400s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0400t==1 & nbi0400t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0400u==1 & nbi0400u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3459,7 +3459,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 30,
@@ -3473,13 +3473,13 @@
       "items": [
         {
           "name": "nbi0502",
-          "item": "0",
-          "number": "114",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "38",
+          "concept": "nbi0502",
           "text": "U5: height in centimeters",
           "text_de": "U5: Koerperlaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0500t==1 & nbi0500t_1!=1) & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0500s==1 & nbi0500s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0500t==1 & nbi0500t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0500u==1 & nbi0500u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3494,7 +3494,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 31,
@@ -3508,13 +3508,13 @@
       "items": [
         {
           "name": "nbi0602",
-          "item": "0",
-          "number": "117",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "39",
+          "concept": "nbi0602",
           "text": "U6: height in centimeters",
           "text_de": "U6: Koerperlaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0600t==1 & nbi0600t_1!=1) & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0600s==1 & nbi0600s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0600t==1 & nbi0600t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0600u==1 & nbi0600u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3529,7 +3529,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 32,
@@ -3543,13 +3543,13 @@
       "items": [
         {
           "name": "nbi0702",
-          "item": "0",
-          "number": "120",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "40",
+          "concept": "nbi0702",
           "text": "U7: height in centimeters",
           "text_de": "U7: Koerperlaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0700u==1 & nbi0700u_1!=1) & nbi1300u==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0700s==1 & nbi0700s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0700t==1 & nbi0700t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0700u==1 & nbi0700u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3564,7 +3564,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 33,
@@ -3578,13 +3578,13 @@
       "items": [
         {
           "name": "nbi0802",
-          "item": "0",
-          "number": "123",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "41",
+          "concept": "nbi0802",
           "text": "U8: height in centimeters",
           "text_de": "U8: Koerperlaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0800s==1 & nbi0800s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0800u==1 & nbi0800u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3599,7 +3599,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 34,
@@ -3613,13 +3613,13 @@
       "items": [
         {
           "name": "nbi0902",
-          "item": "0",
-          "number": "126",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "42",
+          "concept": "nbi0902",
           "text": "U9: height in centimeters",
           "text_de": "U9: Koerperlaenge in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0900s==1 & nbi0900s_1!=1) & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0900s==1 & nbi0900s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0900t==1 & nbi0900t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0900u==1 & nbi0900u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3634,7 +3634,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 35,
@@ -3648,13 +3648,13 @@
       "items": [
         {
           "name": "nbi0203",
-          "item": "0",
-          "number": "129",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "43",
+          "concept": "nbi0203",
           "text": "U2: head circumference in centimeters",
           "text_de": "U2: Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0200t==1)",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0200s==1)) | ((euek==1) & (nbi0200t==1)) | ((euek==1) & (nbi0200u==1))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3669,7 +3669,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 36,
@@ -3683,13 +3683,13 @@
       "items": [
         {
           "name": "nbi0303",
-          "item": "0",
-          "number": "132",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "44",
+          "concept": "nbi0303",
           "text": "U3: head circumference in centimeters",
           "text_de": "U3: Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0300s==1 & nbi0300s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0300t==1 & nbi0300t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3704,7 +3704,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 37,
@@ -3718,13 +3718,13 @@
       "items": [
         {
           "name": "nbi0403",
-          "item": "0",
-          "number": "135",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "45",
+          "concept": "nbi0403",
           "text": "U4: head circumference in centimeters",
           "text_de": "U4: Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0400t==1 & nbi0400t_1!=1) & nbi1300t==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0400s==1 & nbi0400s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0400t==1 & nbi0400t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0400u==1 & nbi0400u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3739,7 +3739,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 38,
@@ -3753,13 +3753,13 @@
       "items": [
         {
           "name": "nbi0503",
-          "item": "0",
-          "number": "138",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "46",
+          "concept": "nbi0503",
           "text": "U5: head circumference in centimeters",
           "text_de": "U5: Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0500s==1 & nbi0500s_1!=1) & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0500s==1 & nbi0500s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0500t==1 & nbi0500t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0500u==1 & nbi0500u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3774,7 +3774,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 39,
@@ -3788,13 +3788,13 @@
       "items": [
         {
           "name": "nbi0603",
-          "item": "0",
-          "number": "141",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "47",
+          "concept": "nbi0603",
           "text": "U6: head circumference in centimeters",
           "text_de": "U6: Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0600u==1 & nbi0600u_1!=1) & nbi1300u==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0600s==1 & nbi0600s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0600t==1 & nbi0600t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0600u==1 & nbi0600u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3809,7 +3809,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 40,
@@ -3823,13 +3823,13 @@
       "items": [
         {
           "name": "nbi0703",
-          "item": "0",
-          "number": "144",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "48",
+          "concept": "nbi0703",
           "text": "U7: head circumference in centimeters",
           "text_de": "U7: Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0700s==1 & nbi0700s_1!=1) & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0700s==1 & nbi0700s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0700t==1 & nbi0700t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0700u==1 & nbi0700u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3844,7 +3844,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 41,
@@ -3858,13 +3858,13 @@
       "items": [
         {
           "name": "nbi0803",
-          "item": "0",
-          "number": "147",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "49",
+          "concept": "nbi0803",
           "text": "U8: head circumference in centimeters",
           "text_de": "U8: Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0800s==1 & nbi0800s_1!=1) & nbi1300s==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0800s==1 & nbi0800s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0800u==1 & nbi0800u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3879,7 +3879,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 42,
@@ -3893,13 +3893,13 @@
       "items": [
         {
           "name": "nbi0903",
-          "item": "0",
-          "number": "150",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "50",
+          "concept": "nbi0903",
           "text": "U9: head circumference in centimeters",
           "text_de": "U9: Kopfumfang in cm",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0900u==1 & nbi0900u_1!=1) & nbi1300u==1",
+          "scale": "int",
+          "filter": "((euek==1) & (nbi0900s==1 & nbi0900s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0900t==1 & nbi0900t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0900u==1 & nbi0900u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3914,7 +3914,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 43,
@@ -3929,12 +3929,12 @@
         {
           "name": "nbi0207",
           "item": "0",
-          "number": "155",
-          "concept": "nbi10",
+          "number": "51",
+          "concept": "nbi0207",
           "text": "U2: date of examination",
           "text_de": "U2: Untersuchungsdatum",
           "scale": "txt",
-          "filter": "(euek==1) & (nbi0200u==1)",
+          "filter": "((euek==1) & (nbi0200s==1)) | ((euek==1) & (nbi0200t==1)) | ((euek==1) & (nbi0200u==1))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -3949,13 +3949,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0207",
           "item": "1",
-          "number": "156",
-          "concept": "nbi10",
+          "number": "52",
+          "concept": "nbi0207",
           "text": "month: [OPEN]",
           "text_de": "Monat: [Offene Angabe, Format: 2, numerisch]",
           "scale": "int",
@@ -3973,13 +3973,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 1
         },
         {
           "name": "nbi0207",
           "item": "2",
-          "number": "159",
-          "concept": "nbi10",
+          "number": "53",
+          "concept": "nbi0207",
           "text": "year: [OPEN]",
           "text_de": "Jahr: [Offene Angabe, Format: 4, numerisch]",
           "scale": "int",
@@ -3997,7 +3997,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 3
+          "sn": 2
         }
       ],
       "sn": 44,
@@ -4012,12 +4012,12 @@
         {
           "name": "nbi0307",
           "item": "0",
-          "number": "164",
-          "concept": "nbi10",
+          "number": "54",
+          "concept": "nbi0307",
           "text": "U3: date of examination",
           "text_de": "U3: Untersuchungsdatum",
           "scale": "txt",
-          "filter": "(euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1",
+          "filter": "((euek==1) & (nbi0300s==1 & nbi0300s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0300t==1 & nbi0300t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4032,13 +4032,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0307",
           "item": "1",
-          "number": "165",
-          "concept": "nbi10",
+          "number": "55",
+          "concept": "nbi0307",
           "text": "month: [OPEN]",
           "text_de": "Monat: [Offene Angabe, Format: 2, numerisch]",
           "scale": "int",
@@ -4056,13 +4056,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 1
         },
         {
           "name": "nbi0307",
           "item": "2",
-          "number": "168",
-          "concept": "nbi10",
+          "number": "56",
+          "concept": "nbi0307",
           "text": "year: [OPEN]",
           "text_de": "Jahr: [Offene Angabe, Format: 4, numerisch]",
           "scale": "int",
@@ -4080,7 +4080,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 3
+          "sn": 2
         }
       ],
       "sn": 45,
@@ -4095,12 +4095,12 @@
         {
           "name": "nbi0407",
           "item": "0",
-          "number": "173",
-          "concept": "nbi10",
+          "number": "57",
+          "concept": "nbi0407",
           "text": "U4: date of examination",
           "text_de": "U4: Untersuchungsdatum",
           "scale": "txt",
-          "filter": "(euek==1) & (nbi0400u==1 & nbi0400u_1!=1) & nbi1300u==1",
+          "filter": "((euek==1) & (nbi0400s==1 & nbi0400s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0400t==1 & nbi0400t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0400u==1 & nbi0400u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4115,13 +4115,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0407",
           "item": "1",
-          "number": "174",
-          "concept": "nbi10",
+          "number": "58",
+          "concept": "nbi0407",
           "text": "month: [OPEN]",
           "text_de": "Monat: [Offene Angabe, Format: 2, numerisch]",
           "scale": "int",
@@ -4139,13 +4139,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 1
         },
         {
           "name": "nbi0407",
           "item": "2",
-          "number": "177",
-          "concept": "nbi10",
+          "number": "59",
+          "concept": "nbi0407",
           "text": "year: [OPEN]",
           "text_de": "Jahr: [Offene Angabe, Format: 4, numerisch]",
           "scale": "int",
@@ -4163,7 +4163,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 3
+          "sn": 2
         }
       ],
       "sn": 46,
@@ -4178,12 +4178,12 @@
         {
           "name": "nbi0507",
           "item": "0",
-          "number": "182",
-          "concept": "nbi10",
+          "number": "60",
+          "concept": "nbi0507",
           "text": "U5: date of examination",
           "text_de": "U5: Untersuchungsdatum",
           "scale": "txt",
-          "filter": "(euek==1) & (nbi0500s==1 & nbi0500s_1!=1) & nbi1300s==1",
+          "filter": "((euek==1) & (nbi0500s==1 & nbi0500s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0500t==1 & nbi0500t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0500u==1 & nbi0500u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4198,13 +4198,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0507",
           "item": "1",
-          "number": "183",
-          "concept": "nbi10",
+          "number": "61",
+          "concept": "nbi0507",
           "text": "month: [OPEN]",
           "text_de": "Monat: [Offene Angabe, Format: 2, numerisch]",
           "scale": "int",
@@ -4222,13 +4222,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 1
         },
         {
           "name": "nbi0507",
           "item": "2",
-          "number": "186",
-          "concept": "nbi10",
+          "number": "62",
+          "concept": "nbi0507",
           "text": "year: [OPEN]",
           "text_de": "Jahr: [Offene Angabe, Format: 4, numerisch]",
           "scale": "int",
@@ -4246,7 +4246,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 3
+          "sn": 2
         }
       ],
       "sn": 47,
@@ -4261,12 +4261,12 @@
         {
           "name": "nbi0607",
           "item": "0",
-          "number": "191",
-          "concept": "nbi10",
+          "number": "63",
+          "concept": "nbi0607",
           "text": "U6: date of examination",
           "text_de": "U6: Untersuchungsdatum",
           "scale": "txt",
-          "filter": "(euek==1) & (nbi0600t==1 & nbi0600t_1!=1) & nbi1300t==1",
+          "filter": "((euek==1) & (nbi0600s==1 & nbi0600s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0600t==1 & nbi0600t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0600u==1 & nbi0600u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4281,13 +4281,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0607",
           "item": "1",
-          "number": "192",
-          "concept": "nbi10",
+          "number": "64",
+          "concept": "nbi0607",
           "text": "month: [OPEN]",
           "text_de": "Monat: [Offene Angabe, Format: 2, numerisch]",
           "scale": "int",
@@ -4305,13 +4305,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 1
         },
         {
           "name": "nbi0607",
           "item": "2",
-          "number": "195",
-          "concept": "nbi10",
+          "number": "65",
+          "concept": "nbi0607",
           "text": "year: [OPEN]",
           "text_de": "Jahr: [Offene Angabe, Format: 4, numerisch]",
           "scale": "int",
@@ -4329,7 +4329,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 3
+          "sn": 2
         }
       ],
       "sn": 48,
@@ -4344,12 +4344,12 @@
         {
           "name": "nbi0707",
           "item": "0",
-          "number": "200",
-          "concept": "nbi10",
+          "number": "66",
+          "concept": "nbi0707",
           "text": "U7: date of examination",
           "text_de": "U7: Untersuchungsdatum",
           "scale": "txt",
-          "filter": "(euek==1) & (nbi0700s==1 & nbi0700s_1!=1) & nbi1300s==1",
+          "filter": "((euek==1) & (nbi0700s==1 & nbi0700s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0700t==1 & nbi0700t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0700u==1 & nbi0700u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4364,13 +4364,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0707",
           "item": "1",
-          "number": "201",
-          "concept": "nbi10",
+          "number": "67",
+          "concept": "nbi0707",
           "text": "month: [OPEN]",
           "text_de": "Monat: [Offene Angabe, Format: 2, numerisch]",
           "scale": "int",
@@ -4388,13 +4388,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 1
         },
         {
           "name": "nbi0707",
           "item": "2",
-          "number": "204",
-          "concept": "nbi10",
+          "number": "68",
+          "concept": "nbi0707",
           "text": "year: [OPEN]",
           "text_de": "Jahr: [Offene Angabe, Format: 4, numerisch]",
           "scale": "int",
@@ -4412,7 +4412,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 3
+          "sn": 2
         }
       ],
       "sn": 49,
@@ -4427,12 +4427,12 @@
         {
           "name": "nbi0807",
           "item": "0",
-          "number": "209",
-          "concept": "nbi10",
+          "number": "69",
+          "concept": "nbi0807",
           "text": "U8: date of examination",
           "text_de": "U8: Untersuchungsdatum",
           "scale": "txt",
-          "filter": "(euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1",
+          "filter": "((euek==1) & (nbi0800s==1 & nbi0800s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0800u==1 & nbi0800u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4447,13 +4447,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0807",
           "item": "1",
-          "number": "210",
-          "concept": "nbi10",
+          "number": "70",
+          "concept": "nbi0807",
           "text": "month: [OPEN]",
           "text_de": "Monat: [Offene Angabe, Format: 2, numerisch]",
           "scale": "int",
@@ -4471,13 +4471,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 1
         },
         {
           "name": "nbi0807",
           "item": "2",
-          "number": "213",
-          "concept": "nbi10",
+          "number": "71",
+          "concept": "nbi0807",
           "text": "year: [OPEN]",
           "text_de": "Jahr: [Offene Angabe, Format: 4, numerisch]",
           "scale": "int",
@@ -4495,7 +4495,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 3
+          "sn": 2
         }
       ],
       "sn": 50,
@@ -4510,12 +4510,12 @@
         {
           "name": "nbi0907",
           "item": "0",
-          "number": "218",
-          "concept": "nbi10",
+          "number": "72",
+          "concept": "nbi0907",
           "text": "U9: date of examination",
           "text_de": "U9: Untersuchungsdatum",
           "scale": "txt",
-          "filter": "(euek==1) & (nbi0900s==1 & nbi0900s_1!=1) & nbi1300s==1",
+          "filter": "((euek==1) & (nbi0900s==1 & nbi0900s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0900t==1 & nbi0900t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0900u==1 & nbi0900u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4530,13 +4530,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 0
         },
         {
           "name": "nbi0907",
           "item": "1",
-          "number": "219",
-          "concept": "nbi10",
+          "number": "73",
+          "concept": "nbi0907",
           "text": "month: [OPEN]",
           "text_de": "Monat: [Offene Angabe, Format: 2, numerisch]",
           "scale": "int",
@@ -4554,13 +4554,13 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 2
+          "sn": 1
         },
         {
           "name": "nbi0907",
           "item": "2",
-          "number": "222",
-          "concept": "nbi10",
+          "number": "74",
+          "concept": "nbi0907",
           "text": "year: [OPEN]",
           "text_de": "Jahr: [Offene Angabe, Format: 4, numerisch]",
           "scale": "int",
@@ -4578,7 +4578,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 3
+          "sn": 2
         }
       ],
       "sn": 51,
@@ -4592,13 +4592,13 @@
       "items": [
         {
           "name": "nbi0211",
-          "item": "0",
-          "number": "225",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "75",
+          "concept": "nbi0211",
           "text": "U2: Are there entries on the left-hand page present?",
           "text_de": "U2: Sind auf der linken Seite Eintragungen vorhanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0200s==1)",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi0200s==1)) | ((euek==1) & (nbi0200t==1)) | ((euek==1) & (nbi0200u==1))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4623,7 +4623,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 52,
@@ -4637,13 +4637,13 @@
       "items": [
         {
           "name": "nbi0311",
-          "item": "0",
-          "number": "228",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "76",
+          "concept": "nbi0311",
           "text": "U3: Are there entries on the left-hand page present?",
           "text_de": "U3: Sind auf der linken Seite Eintragungen vorhanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi0300s==1 & nbi0300s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0300t==1 & nbi0300t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0300u==1 & nbi0300u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4668,7 +4668,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 53,
@@ -4682,13 +4682,13 @@
       "items": [
         {
           "name": "nbi0411",
-          "item": "0",
-          "number": "231",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "77",
+          "concept": "nbi0411",
           "text": "U4: Are there entries on the left-hand page present?",
           "text_de": "U4: Sind auf der linken Seite Eintragungen vorhanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0400s==1 & nbi0400s_1!=1) & nbi1300s==1",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi0400s==1 & nbi0400s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0400t==1 & nbi0400t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0400u==1 & nbi0400u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4713,7 +4713,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 54,
@@ -4727,13 +4727,13 @@
       "items": [
         {
           "name": "nbi0511",
-          "item": "0",
-          "number": "234",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "78",
+          "concept": "nbi0511",
           "text": "U5: Are there entries on the left-hand page present?",
           "text_de": "U5: Sind auf der linken Seite Eintragungen vorhanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0500u==1 & nbi0500u_1!=1) & nbi1300u==1",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi0500s==1 & nbi0500s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0500t==1 & nbi0500t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0500u==1 & nbi0500u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4758,7 +4758,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 55,
@@ -4772,13 +4772,13 @@
       "items": [
         {
           "name": "nbi0611",
-          "item": "0",
-          "number": "237",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "79",
+          "concept": "nbi0611",
           "text": "U6: Are there entries on the left-hand page present?",
           "text_de": "U6: Sind auf der linken Seite Eintragungen vorhanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0600t==1 & nbi0600t_1!=1) & nbi1300t==1",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi0600s==1 & nbi0600s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0600t==1 & nbi0600t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0600u==1 & nbi0600u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4803,7 +4803,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 56,
@@ -4817,13 +4817,13 @@
       "items": [
         {
           "name": "nbi0711",
-          "item": "0",
-          "number": "240",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "80",
+          "concept": "nbi0711",
           "text": "U7: Are there entries on the left-hand page present?",
           "text_de": "U7: Sind auf der linken Seite Eintragungen vorhanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0700u==1 & nbi0700u_1!=1) & nbi1300u==1",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi0700s==1 & nbi0700s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0700t==1 & nbi0700t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0700u==1 & nbi0700u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4848,7 +4848,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 57,
@@ -4862,13 +4862,13 @@
       "items": [
         {
           "name": "nbi0811",
-          "item": "0",
-          "number": "243",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "81",
+          "concept": "nbi0811",
           "text": "U8: Are there entries on the left-hand page present?",
           "text_de": "U8: Sind auf der linken Seite Eintragungen vorhanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi0800s==1 & nbi0800s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0800t==1 & nbi0800t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0800u==1 & nbi0800u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4893,7 +4893,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 58,
@@ -4907,13 +4907,13 @@
       "items": [
         {
           "name": "nbi0911",
-          "item": "0",
-          "number": "246",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "82",
+          "concept": "nbi0911",
           "text": "U9: Are there entries on the left-hand page present?",
           "text_de": "U9: Sind auf der linken Seite Eintragungen vorhanden?",
-          "scale": "txt",
-          "filter": "(euek==1) & (nbi0900t==1 & nbi0900t_1!=1) & nbi1300t==1",
+          "scale": "cat",
+          "filter": "((euek==1) & (nbi0900s==1 & nbi0900s_1!=1) & nbi1300s==1) | ((euek==1) & (nbi0900t==1 & nbi0900t_1!=1) & nbi1300t==1) | ((euek==1) & (nbi0900u==1 & nbi0900u_1!=1) & nbi1300u==1)",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4938,7 +4938,7 @@
               "label_de": "2: nein"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 59,
@@ -4952,13 +4952,13 @@
       "items": [
         {
           "name": "nbi1000",
-          "item": "0",
-          "number": "249",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "83",
+          "concept": "nbi1000",
           "text": "Which height had <name child> at birth?",
           "text_de": "Wie gross war <NAME DES KINDES> bei der Geburt?",
-          "scale": "txt",
-          "filter": "(euek==1) & ((nbi1300u_1!=1) & (nbi1300u==2) & (nbi1000u_1<0 & nbi1000u_1 !=-99))",
+          "scale": "int",
+          "filter": "((euek==1) & ((nbi1300s_1!=1) & (nbi1300s==2) & (nbi1000s_1<0 & nbi1000s_1 !=-99))) | ((euek==1) & ((nbi1300t_1!=1) & (nbi1300t==2) & (nbi1000t_1<0 & nbi1000t_1 !=-99))) | ((euek==1) & ((nbi1300u_1!=1) & (nbi1300u==2) & (nbi1000u_1<0 & nbi1000u_1 !=-99)))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -4973,7 +4973,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 60,
@@ -4987,13 +4987,13 @@
       "items": [
         {
           "name": "nbi1100",
-          "item": "0",
-          "number": "252",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "84",
+          "concept": "nbi1100",
           "text": "Which weight had <name child> at birth?",
           "text_de": "Wie schwer war <NAME DES KINDES> bei Geburt?",
-          "scale": "txt",
-          "filter": "(euek==1) & ((nbi1300u_1!=1) & (nbi1300u==2) & (nbi1100u_1<0 & nbi1100u_1 !=-99))",
+          "scale": "int",
+          "filter": "((euek==1) & ((nbi1300s_1!=1) & (nbi1300s==2) & (nbi1100s_1<0 & nbi1100s_1 !=-99))) | ((euek==1) & ((nbi1300t_1!=1) & (nbi1300t==2) & (nbi1100t_1<0 & nbi1100t_1 !=-99))) | ((euek==1) & ((nbi1300u_1!=1) & (nbi1300u==2) & (nbi1100u_1<0 & nbi1100u_1 !=-99)))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -5008,7 +5008,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 61,
@@ -5022,13 +5022,13 @@
       "items": [
         {
           "name": "nbi1200",
-          "item": "0",
-          "number": "255",
-          "concept": "nbi10",
+          "item": "1",
+          "number": "85",
+          "concept": "nbi1200",
           "text": "What week of pregnancy did you give birth to <name child>?",
           "text_de": "In welcher Schwangerschaftswoche wurde <NAME DES KINDES> geboren?",
-          "scale": "txt",
-          "filter": "(euek==1) & ((nbi1300u_1!=1) & (nbi1300u==2) & nbi1200u_1<0 & nbi1200u_1 !=-99)",
+          "scale": "int",
+          "filter": "((euek==1) & ((nbi1300s_1!=1) & (nbi1300s==2) & nbi1200s_1<0  & nbi1200s_1 !=-99)) | ((euek==1) & ((nbi1300t_1!=1) & (nbi1300t==2) & nbi1200t_1<0 & nbi1200t_1 !=-99)) | ((euek==1) & ((nbi1300u_1!=1) & (nbi1300u==2) & nbi1200u_1<0 & nbi1200u_1 !=-99))",
           "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
           "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
           "answers": [
@@ -5043,7 +5043,7 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 1
+          "sn": 0
         }
       ],
       "sn": 62,
