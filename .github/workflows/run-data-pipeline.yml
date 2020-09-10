@@ -1,0 +1,30 @@
+name: Run-Data-Pipeline
+
+on:
+    push:
+        branches-ignore:
+            - "master"
+    pull_request:
+
+jobs:
+    run-pipeline:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+            - name: Install
+              run: |
+                sudo apt install python3.8
+                python3.8 -m pip install setuptools
+                python3.8 -m pip install git+https://github.com/ddionrails/paneldata_pipeline@master#egg=paneldata_pipeline
+            - name: Process Data
+              run: |
+                python3.8 -m paneldata_pipeline -i metadata/ -o ddionrails/ -s twinlife -w ${{ secrets.study_version }} -g -u
+            - name: update file and push to remote
+              run: |
+                git config --global user.name "GitHub Action"
+                git config --global user.email "github-actions@users.noreply.github.com"
+
+                git add -A
+                git commit -m "Update generated data with data-pipeline"
+                git push
