@@ -307,18 +307,28 @@ people with the same date of birth lived in the same household. Then, it was che
  
 **Dates of Data Collections:**
 
-10/01/2014 to 05/31/2015 (Face-to-Face 1a)
+data collection 1 (F2F 1a)		Sep 28, 2014 to May 28, 2015	
+	
+data collection 1 (F2F 1b)		Sep 16, 2015 to Apr 18, 2016
 
-10/01/2015 to 04/30/2016 (Face-to-Face 1b, CATI 1a)
+data collection 2 (CATI 1a)		Nov 23, 2015 to Apr 18, 2016	
+	
+data collection 2 (CATI 1b)		Dec 05, 2016 to Apr 30, 2017
 
-10/01/2016 to 04/30/2017 (Face-to-Face 2a, CATI 1b)
+data collection 3 (F2F 2a)		Nov 07, 2016 to Sep 29, 2017		
 
-10/01/2017 to 06/30/2018 (Face-to-Face 2b)
+data collection 3 (F2F 2b)		Sep 04, 2017 to May 27, 2018
+
+data collection 4 (CATI 2a)		Oct 11, 2017 to May 12, 2018	
+	
+data collection 4 (CATI 2b)		Nov 06, 2018 to Apr 16, 2019
+
+COVID-19 Supplementary Survey (Cov 1)		Jul 24, 2020 to Nov 15, 2020
 
 
 
 
-## Scientific use files (current version: v4-0-0)
+## Scientific use files (current version: v5-0-0)
 
 ### Data description
 
@@ -328,28 +338,35 @@ For a description of the structure of the TwinLife sample see the TwinLife Techn
 
 ### Data files
 
-- **Master data**: includes information on the gross sample, such as time stable variables (sex, year of birth, relation to twins, zygotie, migration background) and wave-specific variables (person type, response status) about all individuals included in TwinLife in each data collection. 
-- **Survey data in person-format**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2). Each surveyed person has one data row. These datasets are documented on paneldata.org.
-- **Survey data in family-format**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2). Each family has one data row. 
-- **Twin zygosity assessment**: a data file with the information of the twin zygosity assessment in F2F 1.
-- **Generated scales in person-format**: One data set containing  a selection of generated scales, e.g. on personality and parenting style for F2F 1. 
- 
-In addition, the data release contains a data file documenting the survey mode for each variable on the individual level in F2F 1. 
+- **Master data (ZA6701_master_v$)**: Includes information on the gross sample, such as consistency checked variables that are stable over time (sex, year of birth, relation to the twins, zygosity, migration background) and wave-specific variables (person type, response status) about all individuals included in TwinLife in each wave.
 
-The data are adjusted for filter errors, i.e. data that was collected due to wrong filter conditions has been overwritten. Variables and instruments are documented at http://www.paneldata.org. Detailed information on the study and special features can be found at https://www.twin-life.de/documentation/. For questions regarding the content of the data, please contact data(at)twin-life.de. 
+- **Survey data in person format with filter error adjustment (ZA6701_person_wid$_v$)**: There is one data set for each regular data collection (F2F 1, CATI 1, F2F 2, CATI 2) and the supplementary COVID-19 survey (CoV1). The data collection identifier is the variable wid. The additional survey identifier for the supplementary COVID-19 survey is cov. Each surveyed person has one data row (pid). The data were filter-cleaned, i.e. data were deleted if the question was not intended for a person according to the filter instructions. These datasets are documented on paneldata.org.
+
+- **Survey data in person format without filter error adjustment (ZA6701_person_unadj_wid$_v$.dta)**: There is one data file for each F2F data collection including all variables that were at least partially collected in PAPI mode (self-administered) *without filter error adjustment*. It is up to the users to decide how to handle the information provided by the respondents.
+
+- **Survey data in family format (ZA6701_family_wide_wid$_v$.dta)**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2, CATI 2). Each family has one data row with information of each participating person in the family being stored in separate variables/columns). Person format and family format data sets contain the same data using different structures.
+
+- **Twin zygosity assessment (ZA6701_zygosity_v$)**: A data file with the information of the twin zygosity assessment in F2F 1.
+
+- **Survey mode (ZA6701_mode_wid1_v$.dta)**: Contains information on survey mode for each variable in F2F 1.
+
+
+All data is provided with English and German variable descriptions. In Stata, these languages are included in one data set while in SPSS, these are separate data files. Variables and instruments are documented at http://www.paneldata.org. Detailed information on the study and special features can be found at https://www.twin-life.de/documentation/. For questions regarding the content of the data, please contact data(at)twin-life.de. 
 
 
 ### Study units
 
 Number of Units:
 
-21262 individuals, 4097 families
+21262 individuals, 4096 families
  
 Number of Variables:
 
-2504 (F2F 1 [wid1] person-format)
-610 (CATI 1 [wid2] person-format)
-2254 (F2F 2 [wid3] person-format)
+2,509 (F2F 1 [wid1] person-format)
+611 (CATI 1 [wid2] person-format)
+2,320 (F2F 2 [wid3] person-format)
+120 (CATI 2 [wid4] person-format)
+119 (CoV 1 [cov1/wid10] person-format)
 
 ### Data access 
 
