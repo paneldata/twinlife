@@ -1,0 +1,4202 @@
+{
+  "study": "twinlife",
+  "name": "wid4_CATI2_module4",
+  "label": "CATI 2: life events (CATI)",
+  "description": "This questionnaire module contains questions on: occurence and subjective evaluation of different life events (e.g., marriage, death, unemployment).",
+  "analysis_unit": "individual",
+  "period": 4,
+  "instrument": "wid4_CATI2_module4",
+  "questions": {
+    "lev0100": {
+      "question": "lev0100",
+      "name": "lev0100",
+      "label": "In the past 12 months, have you or any of the other named people in your family separated or divorced from your partner? [PROG: fade in family members over 10 years; [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600]",
+      "label_de": "Haben Sie sich oder hat sich eine andere der genannten Personen in Ihrer Familie in den letzten 12 Monaten von ihrem Partner bzw. Partnerin getrennt oder scheiden lassen? [PROG: Einblendung Familienmitglieder ueber 10 Jahren; [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600]",
+      "items": [
+        {
+          "item": "0",
+          "number": "13",
+          "concept": "lev0100",
+          "text": "You have indicated that <NAME named person / type of person> has separated or divorced from a partner. [IF respondent = named person: you yourself have separated or divorced from a partner]What exactly was the case?",
+          "text_de": "Sie haben angegeben, dass <NAME genannte Person / Personentyp>  sich von einem Partner bzw. einer Partnerin getrennt oder geschieden hat. [IF Befragungsperson = genannte Person: Sie selbst sich von einem Partner bzw. einer Partnerin getrennt oder geschieden haben]\nUm was handelte es sich dabei genau?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (version_fq==2 & version_ptyp == 1 & ptyp == 110 & flp == 1) | (version_fq==2 & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "3",
+          "concept": "lev0100",
+          "text": "[IF ptyp = 001] 1: Myself [IF ptyp != 001]1: <NAME_ZWILLING1> (first born twin)",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst [IF ptyp != 001]1: <NAME_ZWILLING1> (Erstgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "4",
+          "concept": "lev0100",
+          "text": "[IF ptyp = 002] 2: Myself [IF ptyp != 002] 2: <NAME_ZWILLING2> (second born twin)",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst [IF ptyp != 002] 2: <NAME_ZWILLING2>  (Zweitgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "5",
+          "concept": "lev0100",
+          "text": "[(IF sibling_present) AND (sex[200]=2) AND (ptyp = 001 OR 002)] 200: My sister <NAME_sibling> [(IF sibling_present) AND (sex[200]=1) AND (ptyp = 001 OR 002)] 200: My brother <NAME_sibling> [(IF sibling_present) AND (sex[200]=2) AND (ptyp >=300)] 200: My (step)daughter <NAME_sibling> [(IF sibling_present) AND (sex[200]=1) AND (ptyp >=300)] 200: My (step)son <NAME_sibling> [(IF sibling_present) AND (IF sex[200]!=1,2)] 200: <NAME_sibling> (sibling of the twins)",
+          "text_de": "[(IF Geschwister_vorhanden) AND (sex[200]=2) AND (ptyp = 001 OR 002)] 200: Meine Schwester  <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=1) AND (ptyp = 001 OR 002)] 200: Mein Bruder <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=2) AND (ptyp >=300)] 200: Meine (Stief-)Tochter <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=1) AND (ptyp >=300)] 200: Mein (Stief-)Sohn <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF sex[200]!=1,2)] 200: <NAME_Geschwisterkind>  (Geschwisterkind der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "6",
+          "concept": "lev0100",
+          "text": "[IF ptyp = 300] 300: Myself [IF ptyp != 300] 300: <NAME_Mother> (mother of the twins)",
+          "text_de": "[IF ptyp = 300] 300: Ich selbst [IF ptyp != 300] 300: <NAME_Mutter> (Mutter der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "7",
+          "concept": "lev0100",
+          "text": "[IF ptyp = 400] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "8",
+          "concept": "lev0100",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "9",
+          "concept": "lev0100",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "10",
+          "concept": "lev0100",
+          "text": "[(IF partner1_exists) AND (ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "11",
+          "concept": "lev0100",
+          "text": "[(IF partner2_present) AND (ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>",
+          "text_de": "[(IF Partner2_vorhanden) AND (ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (# unhide for>= 16 years old)",
+              "label_de": "2: ja, scheiden lassen (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (# unhide for>= 16 years old)",
+              "label_de": "3: ja, getrennt (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev0500": {
+      "question": "lev0500",
+      "name": "lev0500",
+      "label": "Have you yourself or any of the named people in your family entered into a new relationship or gotten married in the last 12 months?",
+      "label_de": "Sind Sie selbst oder ist eine der genannten Personen in Ihrer Familie in den letzten 12 Monaten eine neue Beziehung eingegangen oder hat geheiratet?",
+      "items": [
+        {
+          "item": "0",
+          "number": "26",
+          "concept": "lev0500",
+          "text": "You indicated that <NAME named person / type of person> [IF respondent = named person: yourself] entered into a new relationship or got married [IF respondent = named person: entered into a new relationship or got married]. What exactly was the relationship about?",
+          "text_de": "Sie haben angegeben, dass <NAME genannte Person / Personentyp> [IF Befragungsperson = genannte Person: Sie selbst] eine neue Beziehung eingegangen ist oder geheiratet hat [IF Befragungsperson = genannte Person: eine neue Beziehung eingegangen sind oder geheiratet haben].\nUm was handelte es sich dabei genau?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (version_fq==2 & version_ptyp == 1 & ptyp == 110 & flp == 1) | (version_fq==2 & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "16",
+          "concept": "lev0500",
+          "text": "[IF ptyp = 001] 1: Myself [IF ptyp != 001]1: <NAME_ZWILLING1> (first born twin)",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst [IF ptyp != 001]1: <NAME_ZWILLING1> (Erstgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "17",
+          "concept": "lev0500",
+          "text": "[IF ptyp = 002] 2: Myself [IF ptyp != 002] 2: <NAME_ZWILLING2> (second born twin)",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst [IF ptyp != 002] 2: <NAME_ZWILLING2>  (Zweitgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "18",
+          "concept": "lev0500",
+          "text": "[(IF sibling_present) AND (sex[200]=2) AND (ptyp = 001 OR 002)] 200: My sister <NAME_sibling> [(IF sibling_present) AND (sex[200]=1) AND (ptyp = 001 OR 002)] 200: My brother <NAME_sibling> [(IF sibling_present) AND (sex[200]=2) AND (ptyp >=300)] 200: My (step)daughter <NAME_sibling> [(IF sibling_present) AND (sex[200]=1) AND (ptyp >=300)] 200: My (step)son <NAME_sibling> [(IF sibling_present) AND (IF sex[200]!=1,2)] 200: <NAME_sibling> (sibling of the twins)",
+          "text_de": "[(IF Geschwister_vorhanden) AND (sex[200]=2) AND (ptyp = 001 OR 002)] 200: Meine Schwester  <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=1) AND (ptyp = 001 OR 002)] 200: Mein Bruder <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=2) AND (ptyp >=300)] 200: Meine (Stief-)Tochter <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=1) AND (ptyp >=300)] 200: Mein (Stief-)Sohn <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF sex[200]!=1,2)] 200: <NAME_Geschwisterkind>  (Geschwisterkind der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "19",
+          "concept": "lev0500",
+          "text": "[IF ptyp = 300] 300: Myself [IF ptyp != 300] 300: <NAME_Mother> (mother of the twins)",
+          "text_de": "[IF ptyp = 300] 300: Ich selbst [IF ptyp != 300] 300: <NAME_Mutter> (Mutter der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "20",
+          "concept": "lev0500",
+          "text": "[IF ptyp = 400] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "21",
+          "concept": "lev0500",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "22",
+          "concept": "lev0500",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "23",
+          "concept": "lev0500",
+          "text": "[(IF partner1_exists) AND (ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "24",
+          "concept": "lev0500",
+          "text": "[(IF partner2_present) AND (ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>",
+          "text_de": "[(IF Partner2_vorhanden) AND (ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (# unhide for>= 16 years old)",
+              "label_de": "2: ja, neue Beziehung (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (# unhide for>= 16 years old)",
+              "label_de": "3. ja, geheiratet (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (# unhide for>= 16 years old)",
+              "label_de": "4: ja, sowohl als auch (# ab 16 Jahren einblenden)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev1100": {
+      "question": "lev1100",
+      "name": "lev1100",
+      "label": "[IF sex[respondent]= 2]: Have you yourself or any of the named persons in your family had a child in the last 12 months, or have you been or are you or any of the named persons in your family pregnant? [IF sex[respondent]= 1]: In the last 12 months, have any of the named persons in your family had a child, or have any of the named persons in your family been or are pregnant? [PROG: insert family members female over 16 ] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600]",
+      "label_de": "[IF sex[Befragungsperson]= 2]: Haben Sie selbst oder eine der genannten Personen Ihrer Familie in den letzten 12 Monaten ein Kind bekommen bzw. waren oder sind Sie oder eine der genannten Personen Ihrer Familie schwanger? [IF sex[Befragungsperson]= 1] Hat eine der genannten Personen in Ihrer Familie in den letzten 12 Monaten ein Kind bekommen bzw. war oder ist eine Person in Ihrer Familie schwanger? [PROG: Einblendung Familienmitglieder weiblich  ueber 16 Jahren ] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600]",
+      "items": [
+        {
+          "item": "0",
+          "number": "44",
+          "concept": "lev1100",
+          "text": "You indicated that <NAME named person / type of person> [IF respondent = named person: <yourself>] had a child or was/is pregnant in the last 12 months [IF respondent = named person: <had a child or was/is pregnant in the last 12 months>].What was it exactly?",
+          "text_de": "Sie haben angegeben, dass <NAME genannte Person / Personentyp> [IF Befragungsperson = genannte Person: <Sie selbst>] in den letzten 12 Monaten ein Kind bekommen hat oder schwanger war bzw. ist [IF Befragungsperson = genannte Person: <in den letzten 12 Monaten ein Kind bekommen haben oder schwanger waren bzw. sind>].Um was handelte es sich dabei  genau?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "40",
+          "concept": "lev1100",
+          "text": "[IF ptyp = 001] 1: Myself",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "2",
+          "number": "41",
+          "concept": "lev1100",
+          "text": "[IF ptyp = 002] 2: Myself",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "3",
+          "number": "42",
+          "concept": "lev1100",
+          "text": "[IF ptyp = 001 and Partner1_present=1]: 110: My partner",
+          "text_de": "[IF ptyp = 001 and Partner1_vorhanden=1]: 110: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "4",
+          "number": "43",
+          "concept": "lev1100",
+          "text": "[IF ptyp = 002 and Partner2_present=1]: 120: My partner",
+          "text_de": "[IF ptyp = 002 and Partner2_vorhanden=1]: 120: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "5",
+          "number": "33",
+          "concept": "lev1100",
+          "text": "[IF ptyp = 400] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "34",
+          "concept": "lev1100",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "35",
+          "concept": "lev1100",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "36",
+          "concept": "lev1100",
+          "text": "[(IF partner1_exists) AND (ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "37",
+          "concept": "lev1100",
+          "text": "[(IF partner2_present) AND (ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>",
+          "text_de": "[(IF Partner2_vorhanden) AND (ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev0900": {
+      "question": "lev0900",
+      "name": "lev0900",
+      "label": "In the past 12 months, have you or any of the named people in your family had major money worries or severe financial problems? [PROG: insert family members] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600]",
+      "label_de": "Hatten oder haben Sie selbst oder eine der genannten Personen in Ihrer Familie in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? [PROG: Einblendung Familienmitglieder] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600]",
+      "items": [
+        {
+          "item": "0",
+          "number": "57",
+          "concept": "lev0900",
+          "text": "Who was that?",
+          "text_de": "Wer war das?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "58",
+          "concept": "lev0900",
+          "text": "[IF ptyp = 001] 1: Myself",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "2",
+          "number": "59",
+          "concept": "lev0900",
+          "text": "[IF ptyp = 002] 2: Myself",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "3",
+          "number": "60",
+          "concept": "lev0900",
+          "text": "[IF ptyp = 001 and Partner1_present=1]: 110: My partner",
+          "text_de": "[IF ptyp = 001 and Partner1_vorhanden=1]: 110: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "4",
+          "number": "61",
+          "concept": "lev0900",
+          "text": "[IF ptyp = 002 and Partner2_present=1]: 120: My partner",
+          "text_de": "[IF ptyp = 002 and Partner2_vorhanden=1]: 120: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "5",
+          "number": "51",
+          "concept": "lev0900",
+          "text": "[IF ptyp = 400] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "52",
+          "concept": "lev0900",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "53",
+          "concept": "lev0900",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "54",
+          "concept": "lev0900",
+          "text": "[(IF partner1_exists) AND (ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "55",
+          "concept": "lev0900",
+          "text": "[(IF partner2_present) AND (ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>",
+          "text_de": "[(IF Partner2_vorhanden) AND (ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev1800": {
+      "question": "lev1800",
+      "name": "lev1800",
+      "label": "Have you yourself or any of the other named people in your family lost their jobs in the last 12 months? [PROG: insert family members] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600]",
+      "label_de": "Haben Sie selbst oder eine andere der genannten Personen in Ihrer Familie in den letzten 12 Monaten ihre Arbeit verloren?\n[PROG: Einblendung Familienmitglieder]\n[If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600\n[If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600\n[If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600]",
+      "items": [
+        {
+          "item": "0",
+          "number": "74",
+          "concept": "lev1800",
+          "text": "Who was that?",
+          "text_de": "Wer war das?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "75",
+          "concept": "lev1800",
+          "text": "[IF ptyp = 001] 1: Myself",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "2",
+          "number": "76",
+          "concept": "lev1800",
+          "text": "[IF ptyp = 002] 2: Myself",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "3",
+          "number": "77",
+          "concept": "lev1800",
+          "text": "[IF ptyp = 001 and Partner1_present=1]: 110: My partner",
+          "text_de": "[IF ptyp = 001 and Partner1_vorhanden=1]: 110: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "4",
+          "number": "78",
+          "concept": "lev1800",
+          "text": "[IF ptyp = 002 and Partner2_present=1]: 120: My partner",
+          "text_de": "[IF ptyp = 002 and Partner2_vorhanden=1]: 120: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "5",
+          "number": "68",
+          "concept": "lev1800",
+          "text": "[IF ptyp = 400] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "69",
+          "concept": "lev1800",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "70",
+          "concept": "lev1800",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "71",
+          "concept": "lev1800",
+          "text": "[(IF partner1_exists) AND (ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "72",
+          "concept": "lev1800",
+          "text": "[(IF partner2_present) AND (ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>",
+          "text_de": "[(IF Partner2_vorhanden) AND (ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev2710": {
+      "question": "lev2710",
+      "name": "lev2710",
+      "label": "[(ptyp=1 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (sibling_present!=1 OR edu0100[200]_2(Preload)!=2)] Have you yourself or <NAME TWITTER 2> repeated or skipped a grade in the last 12 months? [(ptyp=1 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (sibling_present=1 and edu0100[200]_2(Preload)=2)] Did yourself, <NAME TWIN 2>, or <NAME SIBLING CHILD> repeat or skip a grade in the last 12 months? [(ptyp=2 AND (edu0100[001]_2(preload)=2) OR (edu0100[002]_2(preload)=2)) AND (sibling_present!=1 OR edu0100[200]_2(preload)!=2)] In the last 12 months, have you or <NAME Sibling 1> repeated or skipped a grade? [(ptyp=2 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (sibling_present=1 and edu0100[200]_2(Preload)=2)] Have you yourself, <NAME TWIN 1>, or <NAME SIBLING CHILD> repeated or skipped a grade in the last 12 months? [ptyp!=1 AND ptyp!=2 AND ((edu0100[001]_2(preload)=2) OR (edu0100[002]_2(preload)=2)) AND (sibling_present!=1 OR edu0100[200]_2(preload)!=2)] Did <NAME Sibling 1> or <NAME Sibling 2> repeat or skip a grade in the last 12 months? [ptyp!=1 AND ptyp!=2 AND ((edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2) OR (sibling_present=1 AND edu0100[200]_2(Preload)=2))] Did <NAME SIBLING 1>, <NAME SIBLING 2>, or <NAME SIBLING CHILD> repeat or skip a grade in the last 12 months?",
+      "label_de": "[(ptyp=1 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (Geschwisterkind_vorhanden!=1 OR edu0100[200]_2(Preload)!=2)] Haben Sie selbst oder <NAME ZWILLING 2> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen?\n[(ptyp=1 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (Geschwisterkind_vorhanden=1 and edu0100[200]_2(Preload)=2)]  Haben Sie selbst,  <NAME ZWILLING 2> oder <NAME GESCHWISTERKIND> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen?\n[(ptyp=2 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2))  AND (Geschwisterkind_vorhanden!=1 OR edu0100[200]_2(Preload)!=2)] Haben Sie selbst oder <NAME ZWILLING 1> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen?\n[(ptyp=2 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (Geschwisterkind_vorhanden=1 and edu0100[200]_2(Preload)=2)] Haben Sie selbst,  <NAME ZWILLING 1> oder <NAME GESCHWISTERKIND> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen?\n[ptyp!=1 AND ptyp!=2 AND ((edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (Geschwisterkind_vorhanden!=1 OR edu0100[200]_2(Preload)!=2)] Haben <NAME ZWILLING 1> oder <NAME ZWILLING 2> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen?\n[ptyp!=1 AND ptyp!=2 AND ((edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2) OR (Geschwisterkind_vorhanden=1 AND edu0100[200]_2(Preload)=2))] Haben <NAME ZWILLING 1>, <NAME ZWILLING 2> oder <NAME GESCHWISTERKIND> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen?",
+      "items": [
+        {
+          "item": "0",
+          "number": "85",
+          "concept": "lev2710",
+          "text": "Who was that?",
+          "text_de": "Wer war das?",
+          "scale": "txt",
+          "filter": "age0110 < 25 & ((ptyp==1 & (edu0100t_3==2 | edu0301t_3==1)) | (ptyp==2 & (edu0100u_3==2 | edu0301u_3==1)) | (ptyp==200 & (edu0100s_3==2 | edu0301s_3==1)))",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 4
+        },
+        {
+          "item": "1",
+          "number": "86",
+          "concept": "lev2710",
+          "text": "[IF ptyp = 001] 1: Myself",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "2",
+          "number": "87",
+          "concept": "lev2710",
+          "text": "[IF ptyp = 002] 2: Myself",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "3",
+          "number": "88",
+          "concept": "lev2710",
+          "text": "[IF ptyp = 001 and Partner1_present=1]: 110: My partner",
+          "text_de": "[IF ptyp = 001 and Partner1_vorhanden=1]: 110: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "4",
+          "number": "89",
+          "concept": "lev2710",
+          "text": "[IF ptyp = 002 and Partner2_present=1]: 120: My partner",
+          "text_de": "[IF ptyp = 002 and Partner2_vorhanden=1]: 120: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 4
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev1700": {
+      "question": "lev1700",
+      "name": "lev1700",
+      "label": "In the past 12 months, is any of the above people in your family or you yourself affected by a permanent severe disability, physical impairment or mental disorder? [PROG: insert family members] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600]",
+      "label_de": "Ist oder war jemand von den genannten Personen in Ihrer Familie oder Sie selbst in den letzten 12 Monaten von einer dauerhaften schweren Behinderung, koerperlichen Beeintraechtigung oder psychischen Stoerung betroffen? [PROG: Einblendung Familienmitglieder] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600]",
+      "items": [
+        {
+          "item": "0",
+          "number": "102",
+          "concept": "lev1700",
+          "text": "Who was that?",
+          "text_de": "Wer war das?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "103",
+          "concept": "lev1700",
+          "text": "[IF ptyp = 001] 1: Myself",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "2",
+          "number": "104",
+          "concept": "lev1700",
+          "text": "[IF ptyp = 002] 2: Myself",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "3",
+          "number": "105",
+          "concept": "lev1700",
+          "text": "[IF ptyp = 001 and Partner1_present=1]: 110: My partner",
+          "text_de": "[IF ptyp = 001 and Partner1_vorhanden=1]: 110: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "4",
+          "number": "106",
+          "concept": "lev1700",
+          "text": "[IF ptyp = 002 and Partner2_present=1]: 120: My partner",
+          "text_de": "[IF ptyp = 002 and Partner2_vorhanden=1]: 120: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "5",
+          "number": "96",
+          "concept": "lev1700",
+          "text": "[IF ptyp = 400] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "97",
+          "concept": "lev1700",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "98",
+          "concept": "lev1700",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "99",
+          "concept": "lev1700",
+          "text": "[(IF partner1_exists) AND (ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "100",
+          "concept": "lev1700",
+          "text": "[(IF partner2_present) AND (ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>",
+          "text_de": "[(IF Partner2_vorhanden) AND (ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev1400": {
+      "question": "lev1400",
+      "name": "lev1400",
+      "label": "Have any of the above people in your family or yourself had a serious accident, serious injury, or sudden serious illness in the past 12 months? [PROG: Insert family members.]",
+      "label_de": "Hatte jemand von den genannten Personen in Ihrer Familie oder Sie selbst in den letzten 12 Monaten einen schweren Unfall, eine schwere Verletzung oder eine ploetzliche schwere Erkrankung? [PROG: Einblendung Familienmitglieder]",
+      "items": [
+        {
+          "item": "0",
+          "number": "119",
+          "concept": "lev1400",
+          "text": "Who was that?",
+          "text_de": "Wer war das?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "120",
+          "concept": "lev1400",
+          "text": "[IF ptyp = 001] 1: Myself",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "2",
+          "number": "121",
+          "concept": "lev1400",
+          "text": "[IF ptyp = 002] 2: Myself",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "3",
+          "number": "122",
+          "concept": "lev1400",
+          "text": "[IF ptyp = 001 and Partner1_present=1]: 110: My partner",
+          "text_de": "[IF ptyp = 001 and Partner1_vorhanden=1]: 110: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "4",
+          "number": "123",
+          "concept": "lev1400",
+          "text": "[IF ptyp = 002 and Partner2_present=1]: 120: My partner",
+          "text_de": "[IF ptyp = 002 and Partner2_vorhanden=1]: 120: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "5",
+          "number": "113",
+          "concept": "lev1400",
+          "text": "[IF ptyp = 400] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "114",
+          "concept": "lev1400",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "115",
+          "concept": "lev1400",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "116",
+          "concept": "lev1400",
+          "text": "[(IF partner1_exists) AND (ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "117",
+          "concept": "lev1400",
+          "text": "[(IF partner2_present) AND (ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>",
+          "text_de": "[(IF Partner2_vorhanden) AND (ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev3400": {
+      "question": "lev3400",
+      "name": "lev3400",
+      "label": "Have any of the above people in your family or yourself been in trouble at home, with school, with your employer, or with the police because of their behavior in the past 12 months? [PROG: Family member insertion] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600[ If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600]",
+      "label_de": "Hatte eine der genannten Personen in Ihrer Familie oder Sie selbst in den letzten 12 Monaten durch ihr Verhalten Aerger Zuhause, mit der Schule, dem Arbeitgeber oder mit der Polizei? [PROG: Einblendung Familienmitglieder] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600]",
+      "items": [
+        {
+          "item": "0",
+          "number": "136",
+          "concept": "lev3400",
+          "text": "Who was that?",
+          "text_de": "Wer war das?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "137",
+          "concept": "lev3400",
+          "text": "[IF ptyp = 001] 1: Myself",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "2",
+          "number": "138",
+          "concept": "lev3400",
+          "text": "[IF ptyp = 002] 2: Myself",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "3",
+          "number": "139",
+          "concept": "lev3400",
+          "text": "[IF ptyp = 001 and Partner1_present=1]: 110: My partner",
+          "text_de": "[IF ptyp = 001 and Partner1_vorhanden=1]: 110: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "4",
+          "number": "140",
+          "concept": "lev3400",
+          "text": "[IF ptyp = 002 and Partner2_present=1]: 120: My partner",
+          "text_de": "[IF ptyp = 002 and Partner2_vorhanden=1]: 120: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "5",
+          "number": "130",
+          "concept": "lev3400",
+          "text": "[IF ptyp = 400] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "131",
+          "concept": "lev3400",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "132",
+          "concept": "lev3400",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "133",
+          "concept": "lev3400",
+          "text": "[(IF partner1_exists) AND (ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "134",
+          "concept": "lev3400",
+          "text": "[(IF partner2_present) AND (ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>",
+          "text_de": "[(IF Partner2_vorhanden) AND (ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev2100": {
+      "question": "lev2100",
+      "name": "lev2100",
+      "label": "[If no deceased persons were indicated in the family record] Has someone in your family or another person important to you or your family died in the last 12 months? PROG: [If deceased persons are already indicated in the family record]: Automatically log yes and jump directly to the next question.",
+      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden] Ist jemand aus Ihrer Familie oder eine andere fuer Sie oder Ihre Familie wichtige Person in den letzten 12 Monaten gestorben? PROG: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Automatisch ja einloggen und direkt zur naechsten Frage springen.",
+      "items": [
+        {
+          "item": "0",
+          "number": "142",
+          "concept": "lev2100",
+          "text": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 1
+        },
+        {
+          "item": "1",
+          "number": "143",
+          "concept": "lev2100",
+          "text": "[IF ptyp != 001]1: <NAME_ZWILLING1> (first born twin)",
+          "text_de": "[IF ptyp != 001]1: <NAME_ZWILLING1> (Erstgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "144",
+          "concept": "lev2100",
+          "text": "[IF ptyp != 002] 2: <NAME_ZWILLING2> (second born twin)",
+          "text_de": "[IF ptyp != 002] 2: <NAME_ZWILLING2>  (Zweitgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "145",
+          "concept": "lev2100",
+          "text": "[(IF sibling_present) AND (sex[200]=2) AND (ptyp = 001 OR 002)] 200: My sister <NAME_sibling> [(IF sibling_present) AND (sex[200]=1) AND (ptyp = 001 OR 002)] 200: My brother <NAME_sibling> [(IF sibling_present) AND (sex[200]=2) AND (ptyp >=300)] 200: My (step)daughter <NAME_sibling> [(IF sibling_present) AND (sex[200]=1) AND (ptyp >=300)] 200: My (step)son <NAME_sibling> [(IF sibling_present) AND (IF sex[200]!=1,2)] 200: <NAME_sibling> (sibling of the twins)",
+          "text_de": "[(IF Geschwister_vorhanden) AND (sex[200]=2) AND (ptyp = 001 OR 002)] 200: Meine Schwester  <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=1) AND (ptyp = 001 OR 002)] 200: Mein Bruder <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=2) AND (ptyp >=300)] 200: Meine (Stief-)Tochter <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (sex[200]=1) AND (ptyp >=300)] 200: Mein (Stief-)Sohn <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF sex[200]!=1,2)] 200: <NAME_Geschwisterkind>  (Geschwisterkind der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "146",
+          "concept": "lev2100",
+          "text": "[IF ptyp != 300] 300: <NAME_Mother> (mother of the twins)",
+          "text_de": "[IF ptyp != 300] 300: <NAME_Mutter> (Mutter der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "147",
+          "concept": "lev2100",
+          "text": "[IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "148",
+          "concept": "lev2100",
+          "text": "[IF ptyp = 600] 600: Myself [(IF stepmother_present=1) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepfather / stepmother of the twins) [(IF stepmother_present=1) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600] 600: Ich selbst [(IF Stiefmutter_vorhanden=1) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner/in des Vaters / Stiefvater  / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden=1) AND (IF ptyp = 400)] 600: Meine Partnerin / Mein Partner <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "149",
+          "concept": "lev2100",
+          "text": "[IF ptyp = 500] 500: Myself [(IF stepfather_present=1) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / stepfather / stepmother of the twins) [(IF stepfather_present=1) AND (IF ptyp = 300)] 500: My partner / partner <NAME_stepfather>",
+          "text_de": "[IF ptyp = 500] 500: Ich selbst [(IF Stiefvater_vorhanden=1) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner/in der Mutter / Stiefvater / Stiefmutter der Zwillinge) [(IF Stiefvater_vorhanden=1) AND (IF ptyp = 300)] 500: Mein Partner / Meine Partnerin <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "150",
+          "concept": "lev2100",
+          "text": "[(IF partner1_present) AND (IF ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (IF ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "151",
+          "concept": "lev2100",
+          "text": "[(IF partner2_exists) AND (IF ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>.",
+          "text_de": "[(IF Partner2_vorhanden) AND (IF ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "number": "176",
+          "concept": "lev2100",
+          "text": "11: Other person inside or outside the family and namely [open_].",
+          "text_de": "11: Andere Person innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "11",
+          "number": "177",
+          "concept": "lev2100",
+          "text": "12: Other other person inside or outside the family and namely [open_].",
+          "text_de": "12: Weitere andere Person innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "12",
+          "number": "178",
+          "concept": "lev2100",
+          "text": "13: Other other person inside or outside the family and namely [open_].",
+          "text_de": "13: Weitere andere Person  innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "13",
+          "number": "179",
+          "concept": "lev2100",
+          "text": "14: Other other person inside or outside the family and namely [open_].",
+          "text_de": "14: Weitere andere Person  innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev9000": {
+      "question": "lev9000",
+      "name": "lev9000",
+      "label": "In the past 12 months, has there been another positive or negative event that is or has been significant to you or someone else in your family?",
+      "label_de": "Gab es in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie oder eine andere Person in Ihrer Familie von grosser Bedeutung ist oder war?",
+      "items": [
+        {
+          "item": "0",
+          "number": "196",
+          "concept": "lev9000",
+          "text": "For whom was there such an event?",
+          "text_de": "Fuer wen gab es ein solches Ereignis?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 14
+        },
+        {
+          "item": "1",
+          "number": "197",
+          "concept": "lev9000",
+          "text": "[IF ptyp = 001] 1: Myself",
+          "text_de": "[IF ptyp = 001] 1: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "2",
+          "number": "198",
+          "concept": "lev9000",
+          "text": "[IF ptyp = 002] 2: Myself",
+          "text_de": "[IF ptyp = 002] 2: Ich selbst",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "3",
+          "number": "199",
+          "concept": "lev9000",
+          "text": "[IF ptyp = 001 and Partner1_present=1]: 110: My partner",
+          "text_de": "[IF ptyp = 001 and Partner1_vorhanden=1]: 110: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "4",
+          "number": "200",
+          "concept": "lev9000",
+          "text": "[IF ptyp = 002 and Partner2_present=1]: 120: My partner",
+          "text_de": "[IF ptyp = 002 and Partner2_vorhanden=1]: 120: Mein Partner/ Meine Partnerin",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "5",
+          "number": "201",
+          "concept": "lev9000",
+          "text": "11: Other person inside or outside the family and namely [open_].",
+          "text_de": "11: Andere Person innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "6",
+          "number": "202",
+          "concept": "lev9000",
+          "text": "12: Other other person inside or outside the family and namely [open_].",
+          "text_de": "12: Weitere andere Person innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "7",
+          "number": "203",
+          "concept": "lev9000",
+          "text": "13: Other other person inside or outside the family and namely [open_].",
+          "text_de": "13: Weitere andere Person  innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "8",
+          "number": "204",
+          "concept": "lev9000",
+          "text": "14: Other other person inside or outside the family and namely [open_].",
+          "text_de": "14: Weitere andere Person  innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "9",
+          "number": "190",
+          "concept": "lev9000",
+          "text": "[(IF partner2_exists) AND (IF ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>.",
+          "text_de": "[(IF Partner2_vorhanden) AND (IF ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "number": "191",
+          "concept": "lev9000",
+          "text": "11: Other person inside or outside the family and namely [open_].",
+          "text_de": "11: Andere Person innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "number": "192",
+          "concept": "lev9000",
+          "text": "12: Other other person inside or outside the family and namely [open_].",
+          "text_de": "12: Weitere andere Person innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "number": "193",
+          "concept": "lev9000",
+          "text": "13: Other other person inside or outside the family and namely [open_].",
+          "text_de": "13: Weitere andere Person  innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "number": "194",
+          "concept": "lev9000",
+          "text": "14: Other other person inside or outside the family and namely [open_].",
+          "text_de": "14: Weitere andere Person  innerhalb oder ausserhalb der Familie und zwar ______ [open]",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 13
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev9021": {
+      "question": "lev9021",
+      "name": "lev9021",
+      "label": "What was the most beautiful event for you in the last 12 months?",
+      "label_de": "Welches war das fuer Sie schoenste Ereignis in den letzten 12 Monaten?",
+      "items": [
+        {
+          "item": "1",
+          "number": "205",
+          "concept": "lev9021",
+          "text": "What was the most beautiful event for you in the last 12 months?",
+          "text_de": "Welches war das fuer Sie schoenste Ereignis in den letzten 12 Monaten?",
+          "scale": "cat",
+          "filter": "ptyp == version_ptyp",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: there was no beautiful event",
+              "label_de": "-81: es gab kein schoenes Ereignis"
+            },
+            {
+              "value": 1,
+              "label": "1: most beautiful event mentioned (open specification in lev9020)",
+              "label_de": "1: schoenstes Ereignis genannt (offene Angabe in lev9020)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev9025": {
+      "question": "lev9025",
+      "name": "lev9025",
+      "label": "[IF ptyp = 001] Did you experience this event together with <NAME_ZWILLING2>? [IF ptyp = 002] Did you experience this event together with <NAME_ZWILLING1>?",
+      "label_de": "[IF ptyp = 001] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING2> erlebt? [IF ptyp = 002] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING1> erlebt?",
+      "items": [
+        {
+          "item": "1",
+          "number": "206",
+          "concept": "lev9025",
+          "text": "[IF ptyp = 001] Did you experience this event together with <NAME_ZWILLING2>? [IF ptyp = 002] Did you experience this event together with <NAME_ZWILLING1>?",
+          "text_de": "[IF ptyp = 001] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING2> erlebt? [IF ptyp = 002] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING1> erlebt?",
+          "scale": "cat",
+          "filter": "(ptyp==1 | ptyp==2) & lev9021==1",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    }
+  }
+}

@@ -11,6 +11,7 @@
       "question": "sex",
       "name": "sex",
       "label": "Interviewer: Please record:",
+      "label_de": "Interviewer: Bitte eintragen:",
       "items": [
         {
           "item": "1",
@@ -42,6 +43,7 @@
       "question": "mig0200t",
       "name": "mig0200t",
       "label": "Since when has [name of the child] lived in Germany?",
+      "label_de": "Seit wann lebt [Name des Kindes] in Deutschland?",
       "items": [
         {
           "item": "1",
@@ -56,7 +58,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -76,6 +78,7 @@
       "question": "mig0200u",
       "name": "mig0200u",
       "label": "Since when has [name of the child] lived in Germany?",
+      "label_de": "Seit wann lebt [Name des Kindes] in Deutschland?",
       "items": [
         {
           "item": "1",
@@ -90,7 +93,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -110,6 +113,7 @@
       "question": "mig0200s",
       "name": "mig0200s",
       "label": "Since when has [name of the child] lived in Germany?",
+      "label_de": "Seit wann lebt [Name des Kindes] in Deutschland?",
       "items": [
         {
           "item": "1",
@@ -124,7 +128,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -143,14 +147,15 @@
     "mig0700t": {
       "question": "mig0700t",
       "name": "mig0700t",
-      "label": "Residence status: Does [name child] have ...",
+      "label": "Residence status: Does [name child] have . . .",
+      "label_de": "Hat [Name des Kindes] eine . . .",
       "items": [
         {
           "item": "1",
           "number": "5",
           "concept": "mig0700t",
-          "text": "Residence status: Does [name child] have ...",
-          "text_de": "Hat [Name des Kindes] eine ...",
+          "text": "Residence status: Does [name child] have . . .",
+          "text_de": "Hat [Name des Kindes] eine . . .",
           "scale": "cat",
           "filter": "mig0500t == 0",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
@@ -187,14 +192,15 @@
     "mig0700u": {
       "question": "mig0700u",
       "name": "mig0700u",
-      "label": "Residence status: Does [name child] have ...",
+      "label": "Residence status: Does [name child] have . . .",
+      "label_de": "Hat [Name des Kindes] eine . . .",
       "items": [
         {
           "item": "1",
           "number": "6",
           "concept": "mig0700u",
-          "text": "Residence status: Does [name child] have ...",
-          "text_de": "Hat [Name des Kindes] eine ...",
+          "text": "Residence status: Does [name child] have . . .",
+          "text_de": "Hat [Name des Kindes] eine . . .",
           "scale": "cat",
           "filter": "mig0500u == 0",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
@@ -231,14 +237,15 @@
     "mig0700s": {
       "question": "mig0700s",
       "name": "mig0700s",
-      "label": "Residence status: Does [name child] have ...",
+      "label": "Residence status: Does [name child] have . . .",
+      "label_de": "Hat [Name des Kindes] eine . . .",
       "items": [
         {
           "item": "1",
           "number": "7",
           "concept": "mig0700s",
-          "text": "Residence status: Does [name child] have ...",
-          "text_de": "Hat [Name des Kindes] eine ...",
+          "text": "Residence status: Does [name child] have . . .",
+          "text_de": "Hat [Name des Kindes] eine . . .",
           "scale": "cat",
           "filter": "mig0500s == 0",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
@@ -276,6 +283,7 @@
       "question": "mig0800t",
       "name": "mig0800t",
       "label": "Does [name] speak mostly German with you at home or another language?",
+      "label_de": "Spricht [Name] zuhause mit Ihnen eher Deutsch oder eine andere Sprache?",
       "items": [
         {
           "item": "1",
@@ -325,6 +333,7 @@
       "question": "mig0800u",
       "name": "mig0800u",
       "label": "Does [name] speak mostly German with you at home or another language?",
+      "label_de": "Spricht [Name] zuhause mit Ihnen eher Deutsch oder eine andere Sprache?",
       "items": [
         {
           "item": "1",
@@ -374,6 +383,7 @@
       "question": "mig0800s",
       "name": "mig0800s",
       "label": "Does [name] speak mostly German with you at home or another language?",
+      "label_de": "Spricht [Name] zuhause mit Ihnen eher Deutsch oder eine andere Sprache?",
       "items": [
         {
           "item": "1",
@@ -423,6 +433,7 @@
       "question": "gre0100t",
       "name": "gre0100t",
       "label": "Are the following persons still alive?",
+      "label_de": "Sind folgende Personen noch am Leben?",
       "items": [
         {
           "item": "0",
@@ -434,23 +445,6 @@
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: is still alive",
-              "label_de": "1: lebt noch"
-            },
-            {
-              "value": 2,
-              "label": "2: deceased",
-              "label_de": "2: ist bereits verstorben"
-            }
-          ],
           "sn": 0
         },
         {
@@ -630,6 +624,7 @@
       "question": "gre0100u",
       "name": "gre0100u",
       "label": "Are the following persons still alive?",
+      "label_de": "Sind folgende Personen noch am Leben?",
       "items": [
         {
           "item": "0",
@@ -641,23 +636,6 @@
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: is still alive",
-              "label_de": "1: lebt noch"
-            },
-            {
-              "value": 2,
-              "label": "2: deceased",
-              "label_de": "2: ist bereits verstorben"
-            }
-          ],
           "sn": 0
         },
         {
@@ -837,6 +815,7 @@
       "question": "gre0100s",
       "name": "gre0100s",
       "label": "Are the following persons still alive?",
+      "label_de": "Sind folgende Personen noch am Leben?",
       "items": [
         {
           "item": "0",
@@ -848,23 +827,6 @@
           "filter": "age0110s >= 4 & age0110s <= 9",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: is still alive",
-              "label_de": "1: lebt noch"
-            },
-            {
-              "value": 2,
-              "label": "2: deceased",
-              "label_de": "2: ist bereits verstorben"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1044,44 +1006,18 @@
       "question": "gre0300t",
       "name": "gre0300t",
       "label": "How often does [name of child] see . . . ?",
+      "label_de": "Wie oft sieht [Name des Kindes] . . .",
       "items": [
         {
           "item": "0",
           "number": "32",
           "concept": "gre0300t",
           "text": "How often does [name of child] see . . . ?",
-          "text_de": "Wie oft sieht [Name des Kindes] ...",
+          "text_de": "Wie oft sieht [Name des Kindes] . . .",
           "scale": "txt",
           "filter": "gre0100t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: always",
-              "label_de": "1: immer"
-            },
-            {
-              "value": 2,
-              "label": "2: often",
-              "label_de": "2: oft"
-            },
-            {
-              "value": 3,
-              "label": "3: sometimes",
-              "label_de": "3: manchmal"
-            },
-            {
-              "value": 4,
-              "label": "4: almost never",
-              "label_de": "4: fast nie"
-            },
-            {
-              "value": 5,
-              "label": "5: never",
-              "label_de": "5: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1321,44 +1257,18 @@
       "question": "gre0300u",
       "name": "gre0300u",
       "label": "How often does [name of child] see . . . ?",
+      "label_de": "Wie oft sieht [Name des Kindes] . . .",
       "items": [
         {
           "item": "0",
           "number": "39",
           "concept": "gre0300u",
           "text": "How often does [name of child] see . . . ?",
-          "text_de": "Wie oft sieht [Name des Kindes] ...",
+          "text_de": "Wie oft sieht [Name des Kindes] . . .",
           "scale": "txt",
           "filter": "gre0100u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: always",
-              "label_de": "1: immer"
-            },
-            {
-              "value": 2,
-              "label": "2: often",
-              "label_de": "2: oft"
-            },
-            {
-              "value": 3,
-              "label": "3: sometimes",
-              "label_de": "3: manchmal"
-            },
-            {
-              "value": 4,
-              "label": "4: almost never",
-              "label_de": "4: fast nie"
-            },
-            {
-              "value": 5,
-              "label": "5: never",
-              "label_de": "5: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1598,44 +1508,18 @@
       "question": "gre0300s",
       "name": "gre0300s",
       "label": "How often does [name of child] see . . . ?",
+      "label_de": "Wie oft sieht [Name des Kindes] . . .",
       "items": [
         {
           "item": "0",
           "number": "46",
           "concept": "gre0300s",
           "text": "How often does [name of child] see . . . ?",
-          "text_de": "Wie oft sieht [Name des Kindes] ...",
+          "text_de": "Wie oft sieht [Name des Kindes] . . .",
           "scale": "txt",
           "filter": "gre0100s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: always",
-              "label_de": "1: immer"
-            },
-            {
-              "value": 2,
-              "label": "2: often",
-              "label_de": "2: oft"
-            },
-            {
-              "value": 3,
-              "label": "3: sometimes",
-              "label_de": "3: manchmal"
-            },
-            {
-              "value": 4,
-              "label": "4: almost never",
-              "label_de": "4: fast nie"
-            },
-            {
-              "value": 5,
-              "label": "5: never",
-              "label_de": "5: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1875,6 +1759,7 @@
       "question": "she0100t",
       "name": "she0100t",
       "label": "How would you describe the state of [name of child]'s health during the last 12 months in general?",
+      "label_de": "Wie wuerden Sie den Gesundheitszustand von [Name des Kindes] in den letzten 12 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
           "item": "1",
@@ -1929,6 +1814,7 @@
       "question": "she0100u",
       "name": "she0100u",
       "label": "How would you describe the state of [name of child]'s health during the last 12 months in general?",
+      "label_de": "Wie wuerden Sie den Gesundheitszustand von [Name des Kindes] in den letzten 12 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
           "item": "1",
@@ -1983,6 +1869,7 @@
       "question": "she0100s",
       "name": "she0100s",
       "label": "How would you describe the state of [name of child]'s health during the last 12 months in general?",
+      "label_de": "Wie wuerden Sie den Gesundheitszustand von [Name des Kindes] in den letzten 12 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
           "item": "1",
@@ -2037,6 +1924,7 @@
       "question": "doc0100t",
       "name": "doc0100t",
       "label": "Have you visited doctors (incl. dentists) with [name of child] during the last 12 months? (This also includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
+      "label_de": "Haben Sie mit [Name des Kindes] in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? (hiermit sind auch Vorsorgeuntersuchungen gemeint, Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern, o.Ae.)",
       "items": [
         {
           "item": "1",
@@ -2060,6 +1948,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2081,6 +1974,7 @@
       "question": "doc0100u",
       "name": "doc0100u",
       "label": "Have you visited doctors (incl. dentists) with [name of child] during the last 12 months? (This also includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
+      "label_de": "Haben Sie mit [Name des Kindes] in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? (hiermit sind auch Vorsorgeuntersuchungen gemeint, Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern, o.Ae.)",
       "items": [
         {
           "item": "1",
@@ -2104,6 +1998,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2125,6 +2024,7 @@
       "question": "doc0100s",
       "name": "doc0100s",
       "label": "Have you visited doctors (incl. dentists) with [name of child] during the last 12 months? (This also includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
+      "label_de": "Haben Sie mit [Name des Kindes] in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? (hiermit sind auch Vorsorgeuntersuchungen gemeint, Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern, o.Ae.)",
       "items": [
         {
           "item": "1",
@@ -2148,6 +2048,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2169,6 +2074,7 @@
       "question": "doc0101t",
       "name": "doc0101t",
       "label": "Please state the number of visits to medical practitioners. (Note: total number in the last 12 months. If you are not sure please give the approximate number.)",
+      "label_de": "Geben Sie bitte an, wie haeufig Sie Aerzte aufgesucht haben. Anmerkung: Haeufigkeit insgesamt in den letzten 12 Monaten. Wenn Sie es nicht genau wissen, geben Sie bitte die ungefaehre Anzahl an.",
       "items": [
         {
           "item": "1",
@@ -2183,7 +2089,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2203,6 +2109,7 @@
       "question": "doc0101u",
       "name": "doc0101u",
       "label": "Please state the number of visits to medical practitioners. (Note: total number in the last 12 months. If you are not sure please give the approximate number.)",
+      "label_de": "Geben Sie bitte an, wie haeufig Sie Aerzte aufgesucht haben. Anmerkung: Haeufigkeit insgesamt in den letzten 12 Monaten. Wenn Sie es nicht genau wissen, geben Sie bitte die ungefaehre Anzahl an.",
       "items": [
         {
           "item": "1",
@@ -2217,7 +2124,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2237,6 +2144,7 @@
       "question": "doc0101s",
       "name": "doc0101s",
       "label": "Please state the number of visits to medical practitioners. (Note: total number in the last 12 months. If you are not sure please give the approximate number.)",
+      "label_de": "Geben Sie bitte an, wie haeufig Sie Aerzte aufgesucht haben. Anmerkung: Haeufigkeit insgesamt in den letzten 12 Monaten. Wenn Sie es nicht genau wissen, geben Sie bitte die ungefaehre Anzahl an.",
       "items": [
         {
           "item": "1",
@@ -2251,7 +2159,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2271,6 +2179,7 @@
       "question": "imp0100t",
       "name": "imp0100t",
       "label": "To what extent is [name of the child] generally limited due to illnesses?",
+      "label_de": "In welchem Ausmass ist [Name des Kindes] insgesamt durch Erkrankungen beeintraechtigt?",
       "items": [
         {
           "item": "1",
@@ -2325,6 +2234,7 @@
       "question": "imp0100u",
       "name": "imp0100u",
       "label": "To what extent is [name of the child] generally limited due to illnesses?",
+      "label_de": "In welchem Ausmass ist [Name des Kindes] insgesamt durch Erkrankungen beeintraechtigt?",
       "items": [
         {
           "item": "1",
@@ -2379,6 +2289,7 @@
       "question": "imp0100s",
       "name": "imp0100s",
       "label": "To what extent is [name of the child] generally limited due to illnesses?",
+      "label_de": "In welchem Ausmass ist [Name des Kindes] insgesamt durch Erkrankungen beeintraechtigt?",
       "items": [
         {
           "item": "1",
@@ -2433,6 +2344,7 @@
       "question": "dia5000t",
       "name": "dia5000t",
       "label": "Has a doctor ever diagnosed [name child] with one or several of the following illnesses?",
+      "label_de": "Hat ein Arzt bei [Name des Kindes] jemals eine oder mehrere der folgenden Erkrankungen festgestellt?",
       "items": [
         {
           "item": "0",
@@ -2444,18 +2356,6 @@
           "filter": "age0110t >= 4 & age0110t <= 15",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2881,6 +2781,7 @@
       "question": "dia5000u",
       "name": "dia5000u",
       "label": "Has a doctor ever diagnosed [name child] with one or several of the following illnesses?",
+      "label_de": "Hat ein Arzt bei [Name des Kindes] jemals eine oder mehrere der folgenden Erkrankungen festgestellt?",
       "items": [
         {
           "item": "0",
@@ -2892,18 +2793,6 @@
           "filter": "age0110t >= 4 & age0110t <= 15",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3329,6 +3218,7 @@
       "question": "dia5000s",
       "name": "dia5000s",
       "label": "Has a doctor ever diagnosed [name child] with one or several of the following illnesses?",
+      "label_de": "Hat ein Arzt bei [Name des Kindes] jemals eine oder mehrere der folgenden Erkrankungen festgestellt?",
       "items": [
         {
           "item": "0",
@@ -3340,18 +3230,6 @@
           "filter": "age0110s >= 4 & age0110s <= 15",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3777,6 +3655,7 @@
       "question": "dia5001t",
       "name": "dia5001t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -3788,13 +3667,6 @@
           "filter": "dia5000t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3878,6 +3750,7 @@
       "question": "dia5101t",
       "name": "dia5101t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -3889,13 +3762,6 @@
           "filter": "dia5100t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3979,6 +3845,7 @@
       "question": "dia5201t",
       "name": "dia5201t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -3990,13 +3857,6 @@
           "filter": "dia5200t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4080,6 +3940,7 @@
       "question": "dia5301t",
       "name": "dia5301t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4091,13 +3952,6 @@
           "filter": "dia5300t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4181,6 +4035,7 @@
       "question": "dia5401t",
       "name": "dia5401t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4192,13 +4047,6 @@
           "filter": "dia5400t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4282,6 +4130,7 @@
       "question": "dia5501t",
       "name": "dia5501t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4293,13 +4142,6 @@
           "filter": "dia5500t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4383,6 +4225,7 @@
       "question": "dia5601t",
       "name": "dia5601t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4394,13 +4237,6 @@
           "filter": "dia5600t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4484,6 +4320,7 @@
       "question": "dia5701t",
       "name": "dia5701t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4495,13 +4332,6 @@
           "filter": "dia5700t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4585,6 +4415,7 @@
       "question": "dia5801t",
       "name": "dia5801t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4596,13 +4427,6 @@
           "filter": "dia5800t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4686,6 +4510,7 @@
       "question": "dia5901t",
       "name": "dia5901t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4697,13 +4522,6 @@
           "filter": "dia5900t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4787,6 +4605,7 @@
       "question": "dia6001t",
       "name": "dia6001t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4798,13 +4617,6 @@
           "filter": "dia6000t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4888,6 +4700,7 @@
       "question": "dia6101t",
       "name": "dia6101t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -4899,13 +4712,6 @@
           "filter": "dia6100t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4989,6 +4795,7 @@
       "question": "dia6201t",
       "name": "dia6201t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5000,13 +4807,6 @@
           "filter": "dia6200t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5090,6 +4890,7 @@
       "question": "dia6301t",
       "name": "dia6301t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5101,13 +4902,6 @@
           "filter": "dia6300t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5191,6 +4985,7 @@
       "question": "dia6401t",
       "name": "dia6401t",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5202,13 +4997,6 @@
           "filter": "dia6400t == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5292,6 +5080,7 @@
       "question": "dia5001u",
       "name": "dia5001u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5303,13 +5092,6 @@
           "filter": "dia5000u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5393,6 +5175,7 @@
       "question": "dia5101u",
       "name": "dia5101u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5404,13 +5187,6 @@
           "filter": "dia5100u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5494,6 +5270,7 @@
       "question": "dia5201u",
       "name": "dia5201u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5505,13 +5282,6 @@
           "filter": "dia5200u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5595,6 +5365,7 @@
       "question": "dia5301u",
       "name": "dia5301u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5606,13 +5377,6 @@
           "filter": "dia5300u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5696,6 +5460,7 @@
       "question": "dia5401u",
       "name": "dia5401u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5707,13 +5472,6 @@
           "filter": "dia5400u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5797,6 +5555,7 @@
       "question": "dia5501u",
       "name": "dia5501u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5808,13 +5567,6 @@
           "filter": "dia5500u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5898,6 +5650,7 @@
       "question": "dia5601u",
       "name": "dia5601u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -5909,13 +5662,6 @@
           "filter": "dia5600u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5999,6 +5745,7 @@
       "question": "dia5701u",
       "name": "dia5701u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6010,13 +5757,6 @@
           "filter": "dia5700u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6100,6 +5840,7 @@
       "question": "dia5801u",
       "name": "dia5801u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6111,13 +5852,6 @@
           "filter": "dia5800u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6201,6 +5935,7 @@
       "question": "dia5901u",
       "name": "dia5901u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6212,13 +5947,6 @@
           "filter": "dia5900u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6302,6 +6030,7 @@
       "question": "dia6001u",
       "name": "dia6001u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6313,13 +6042,6 @@
           "filter": "dia6000u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6403,6 +6125,7 @@
       "question": "dia6101u",
       "name": "dia6101u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6414,13 +6137,6 @@
           "filter": "dia6100u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6504,6 +6220,7 @@
       "question": "dia6201u",
       "name": "dia6201u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6515,13 +6232,6 @@
           "filter": "dia6200u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6605,6 +6315,7 @@
       "question": "dia6301u",
       "name": "dia6301u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6616,13 +6327,6 @@
           "filter": "dia6300u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6706,6 +6410,7 @@
       "question": "dia6401u",
       "name": "dia6401u",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6717,13 +6422,6 @@
           "filter": "dia6400u == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6807,6 +6505,7 @@
       "question": "dia5001s",
       "name": "dia5001s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6818,13 +6517,6 @@
           "filter": "dia5000s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6908,6 +6600,7 @@
       "question": "dia5101s",
       "name": "dia5101s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -6919,13 +6612,6 @@
           "filter": "dia5100s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7009,6 +6695,7 @@
       "question": "dia5201s",
       "name": "dia5201s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7020,13 +6707,6 @@
           "filter": "dia5200s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7110,6 +6790,7 @@
       "question": "dia5301s",
       "name": "dia5301s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7121,13 +6802,6 @@
           "filter": "dia5300s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7211,6 +6885,7 @@
       "question": "dia5401s",
       "name": "dia5401s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7222,13 +6897,6 @@
           "filter": "dia5400s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7312,6 +6980,7 @@
       "question": "dia5501s",
       "name": "dia5501s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7323,13 +6992,6 @@
           "filter": "dia5500s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7413,6 +7075,7 @@
       "question": "dia5601s",
       "name": "dia5601s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7424,13 +7087,6 @@
           "filter": "dia5600s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7514,6 +7170,7 @@
       "question": "dia5701s",
       "name": "dia5701s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7525,13 +7182,6 @@
           "filter": "dia5700s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7615,6 +7265,7 @@
       "question": "dia5801s",
       "name": "dia5801s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7626,13 +7277,6 @@
           "filter": "dia5800s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7716,6 +7360,7 @@
       "question": "dia5901s",
       "name": "dia5901s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7727,13 +7372,6 @@
           "filter": "dia5900s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7817,6 +7455,7 @@
       "question": "dia6001s",
       "name": "dia6001s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7828,13 +7467,6 @@
           "filter": "dia6000s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7918,6 +7550,7 @@
       "question": "dia6101s",
       "name": "dia6101s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -7929,13 +7562,6 @@
           "filter": "dia6100s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -8019,6 +7645,7 @@
       "question": "dia6201s",
       "name": "dia6201s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -8030,13 +7657,6 @@
           "filter": "dia6200s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -8120,6 +7740,7 @@
       "question": "dia6301s",
       "name": "dia6301s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -8131,13 +7752,6 @@
           "filter": "dia6300s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -8221,6 +7835,7 @@
       "question": "dia6401s",
       "name": "dia6401s",
       "label": "You have stated that [name of child] has been diagnosed with [name of illness]. In which period has the illness occured? If you cannot tell the exact period, please approximate.",
+      "label_de": "Sie haben angegeben, dass bei [Name des Kindes] [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist/sind. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie den genauen Zeitraum nicht nennen koennen, geben Sie bitte den ungefaehren Zeitraum an.",
       "items": [
         {
           "item": "0",
@@ -8232,13 +7847,6 @@
           "filter": "dia6400s == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 9999,
-              "label": "9999: [name of child] is still suffering from this condition",
-              "label_de": "9999: [Name des Kindes] leidet immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -8322,6 +7930,7 @@
       "question": "hbe0500t",
       "name": "hbe0500t",
       "label": "Is [name of the child] taking any medication regularly?",
+      "label_de": "Nimmt [Name des Kindes] regelmaessig Medikamente ein?",
       "items": [
         {
           "item": "1",
@@ -8345,6 +7954,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -8366,6 +7980,7 @@
       "question": "hbe0500u",
       "name": "hbe0500u",
       "label": "Is [name of the child] taking any medication regularly?",
+      "label_de": "Nimmt [Name des Kindes] regelmaessig Medikamente ein?",
       "items": [
         {
           "item": "1",
@@ -8389,6 +8004,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -8410,6 +8030,7 @@
       "question": "hbe0500s",
       "name": "hbe0500s",
       "label": "Is [name of the child] taking any medication regularly?",
+      "label_de": "Nimmt [Name des Kindes] regelmaessig Medikamente ein?",
       "items": [
         {
           "item": "1",
@@ -8433,6 +8054,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -8454,6 +8080,7 @@
       "question": "bdy0100s",
       "name": "bdy0100s",
       "label": "We are also interested in the current weight of [name of the child]. Please give the height and weight of [name of the child]. If you don't know exactly, please estimate.",
+      "label_de": "Wir interessieren uns auch fuer das aktuelle Gewicht von [Name des Kindes]. Geben Sie bitte die Koerpergroesse und das Gewicht von [Name des Kindes] an. Wenn Sie die Groesse und das Gewicht Ihres Kindes nicht genau wissen, geben Sie bitte die ungefaehre Groesse/ das ungefaehre Gewicht an.",
       "items": [
         {
           "item": "1",
@@ -8468,7 +8095,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8488,6 +8115,7 @@
       "question": "bdy0200t",
       "name": "bdy0200t",
       "label": "Please state the weight of [name of child].",
+      "label_de": "Wir interessieren uns auch fuer das aktuelle Gewicht von [Name des Kindes]. Geben Sie bitte das Gewicht von [Name des Kindes] an. Wenn Sie das Gewicht Ihres Kindes nicht genau wissen, geben Sie bitte das ungefaehre Gewicht an.",
       "items": [
         {
           "item": "1",
@@ -8502,7 +8130,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8522,6 +8150,7 @@
       "question": "bdy0200u",
       "name": "bdy0200u",
       "label": "Please state the weight of [name of child].",
+      "label_de": "Wir interessieren uns auch fuer das aktuelle Gewicht von [Name des Kindes]. Geben Sie bitte das Gewicht von [Name des Kindes] an. Wenn Sie das Gewicht Ihres Kindes nicht genau wissen, geben Sie bitte das ungefaehre Gewicht an.",
       "items": [
         {
           "item": "1",
@@ -8536,7 +8165,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8556,6 +8185,7 @@
       "question": "bdy0200s",
       "name": "bdy0200s",
       "label": "Please state the weight of [name of child].",
+      "label_de": "Wir interessieren uns auch fuer das aktuelle Gewicht von [Name des Kindes]. Geben Sie bitte das Gewicht von [Name des Kindes] an. Wenn Sie das Gewicht Ihres Kindes nicht genau wissen, geben Sie bitte das ungefaehre Gewicht an.",
       "items": [
         {
           "item": "1",
@@ -8570,7 +8200,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8590,6 +8220,7 @@
       "question": "net0203t",
       "name": "net0203t",
       "label": "How many close friends does [name of the child] have?",
+      "label_de": "Wie viele enge Freundinnen und Freunde hat [Name des Kindes]? Dazu zaehlen auch Familienmitglieder, z.B. Geschwister oder Cousins, zu denen eine enge Bindung besteht. Eltern zaehlen hier nicht als Freunde.",
       "items": [
         {
           "item": "1",
@@ -8604,7 +8235,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8624,6 +8255,7 @@
       "question": "net0203u",
       "name": "net0203u",
       "label": "How many close friends does [name of the child] have?",
+      "label_de": "Wie viele enge Freundinnen und Freunde hat [Name des Kindes]? Dazu zaehlen auch Familienmitglieder, z.B. Geschwister oder Cousins, zu denen eine enge Bindung besteht. Eltern zaehlen hier nicht als Freunde.",
       "items": [
         {
           "item": "1",
@@ -8638,7 +8270,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8658,6 +8290,7 @@
       "question": "net0203s",
       "name": "net0203s",
       "label": "How many close friends does [name of the child] have?",
+      "label_de": "Wie viele enge Freundinnen und Freunde hat [Name des Kindes]? Dazu zaehlen auch Familienmitglieder, z.B. Geschwister oder Cousins, zu denen eine enge Bindung besteht. Eltern zaehlen hier nicht als Freunde.",
       "items": [
         {
           "item": "1",
@@ -8672,7 +8305,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8692,6 +8325,7 @@
       "question": "net0204t",
       "name": "net0204t",
       "label": "And how many of those do not live in your household?",
+      "label_de": "Und wie viele davon leben nicht bei Ihnen im Haushalt?",
       "items": [
         {
           "item": "1",
@@ -8706,7 +8340,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8726,6 +8360,7 @@
       "question": "net0204u",
       "name": "net0204u",
       "label": "And how many of those do not live in your household?",
+      "label_de": "Und wie viele davon leben nicht bei Ihnen im Haushalt?",
       "items": [
         {
           "item": "1",
@@ -8740,7 +8375,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8760,6 +8395,7 @@
       "question": "net0204s",
       "name": "net0204s",
       "label": "And how many of those do not live in your household?",
+      "label_de": "Und wie viele davon leben nicht bei Ihnen im Haushalt?",
       "items": [
         {
           "item": "1",
@@ -8774,7 +8410,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -8794,6 +8430,7 @@
       "question": "ses0200t",
       "name": "ses0200t",
       "label": "In the following, we want to learn a bit more about [Name]. Please rate the extent to which the following statements apply.",
+      "label_de": "Im Folgenden wollen wir noch ein wenig mehr ueber [Name des Kindes] selbst erfahren. Bitte geben Sie an, inwiefern folgende Aussagen zutreffen.",
       "items": [
         {
           "item": "0",
@@ -8805,33 +8442,6 @@
           "filter": "age0110t >= 4 & age0110t <= 12",
           "description": "Source: Adapted from: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
           "description_de": "Source: Adaptiert von: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 3
         },
         {
@@ -8846,12 +8456,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -8861,7 +8471,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -8884,12 +8494,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -8899,7 +8509,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -8919,6 +8529,7 @@
       "question": "ses0200u",
       "name": "ses0200u",
       "label": "In the following, we want to learn a bit more about [Name]. Please rate the extent to which the following statements apply.",
+      "label_de": "Im Folgenden wollen wir noch ein wenig mehr ueber [Name des Kindes] selbst erfahren. Bitte geben Sie an, inwiefern folgende Aussagen zutreffen.",
       "items": [
         {
           "item": "0",
@@ -8930,33 +8541,6 @@
           "filter": "age0110t >= 4 & age0110t <= 12",
           "description": "Source: Adapted from: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
           "description_de": "Source: Adaptiert von: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 3
         },
         {
@@ -8971,12 +8555,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -8986,7 +8570,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -9009,12 +8593,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -9024,7 +8608,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -9044,6 +8628,7 @@
       "question": "ses0200s",
       "name": "ses0200s",
       "label": "In the following, we want to learn a bit more about [Name]. Please rate the extent to which the following statements apply.",
+      "label_de": "Im Folgenden wollen wir noch ein wenig mehr ueber [Name des Kindes] selbst erfahren. Bitte geben Sie an, inwiefern folgende Aussagen zutreffen.",
       "items": [
         {
           "item": "0",
@@ -9055,33 +8640,6 @@
           "filter": "age0110s >= 4 & age0110s <= 12",
           "description": "Source: Adapted from: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
           "description_de": "Source: Adaptiert von: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 3
         },
         {
@@ -9096,12 +8654,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -9111,7 +8669,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -9134,12 +8692,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -9149,7 +8707,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -9169,6 +8727,7 @@
       "question": "com0100t",
       "name": "com0100t",
       "label": "Now we would like to ask you a few questions about [name's] development. Has [name] made use of the support provided in the following areas in kindergarten or another institution for special needs education?",
+      "label_de": "Nun moechten wir Ihnen einige Fragen zur Entwicklung von [Name des Kindes] stellen. Hat [Name des Kindes] in einem der folgenden Bereiche im Kindergarten oder in einer anderen Institution sonderpaedagogische Foerderung in Anspruch genommen?",
       "items": [
         {
           "item": "0",
@@ -9180,18 +8739,6 @@
           "filter": "age0110t >= 4 & age0110t <= 15",
           "description": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
           "description_de": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -9479,6 +9026,7 @@
       "question": "com0100u",
       "name": "com0100u",
       "label": "Now we would like to ask you a few questions about [name's] development. Has [name] made use of the support provided in the following areas in kindergarten or another institution for special needs education?",
+      "label_de": "Nun moechten wir Ihnen einige Fragen zur Entwicklung von [Name des Kindes] stellen. Hat [Name des Kindes] in einem der folgenden Bereiche im Kindergarten oder in einer anderen Institution sonderpaedagogische Foerderung in Anspruch genommen?",
       "items": [
         {
           "item": "0",
@@ -9490,18 +9038,6 @@
           "filter": "age0110t >= 4 & age0110t <= 15",
           "description": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
           "description_de": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -9789,6 +9325,7 @@
       "question": "com0100s",
       "name": "com0100s",
       "label": "Now we would like to ask you a few questions about [name's] development. Has [name] made use of the support provided in the following areas in kindergarten or another institution for special needs education?",
+      "label_de": "Nun moechten wir Ihnen einige Fragen zur Entwicklung von [Name des Kindes] stellen. Hat [Name des Kindes] in einem der folgenden Bereiche im Kindergarten oder in einer anderen Institution sonderpaedagogische Foerderung in Anspruch genommen?",
       "items": [
         {
           "item": "0",
@@ -9800,18 +9337,6 @@
           "filter": "age0110s >= 4 & age0110s <= 15",
           "description": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
           "description_de": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -10099,6 +9624,7 @@
       "question": "com2000t",
       "name": "com2000t",
       "label": "How would you rate [name of the child]'s skills and abilities in the following areas? Compare [name of the child] here with other children of the same age (but outside the family).",
+      "label_de": "Wie schaetzen Sie die folgenden Faehigkeiten und Fertigkeiten von [Name des Kindes] ein? Vergleichen Sie hierzu [Name des Kindes] mit anderen Kindern gleichen Alters (ausserhalb der Familie).",
       "items": [
         {
           "item": "0",
@@ -10110,33 +9636,6 @@
           "filter": "age0110t >= 4 & age0110t <= 12",
           "description": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
           "description_de": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: a lot worse",
-              "label_de": "1: viel schlechter"
-            },
-            {
-              "value": 2,
-              "label": "2: a bit worse",
-              "label_de": "2: etwas schlechter"
-            },
-            {
-              "value": 3,
-              "label": "3: equally good",
-              "label_de": "3: genauso gut"
-            },
-            {
-              "value": 4,
-              "label": "4: a bit better",
-              "label_de": "4: etwas besser"
-            },
-            {
-              "value": 5,
-              "label": "5: a lot better",
-              "label_de": "5: viel besser"
-            }
-          ],
           "sn": 7
         },
         {
@@ -10376,6 +9875,7 @@
       "question": "com2000u",
       "name": "com2000u",
       "label": "How would you rate [name of the child]'s skills and abilities in the following areas? Compare [name of the child] here with other children of the same age (but outside the family).",
+      "label_de": "Wie schaetzen Sie die folgenden Faehigkeiten und Fertigkeiten von [Name des Kindes] ein? Vergleichen Sie hierzu [Name des Kindes] mit anderen Kindern gleichen Alters (ausserhalb der Familie).",
       "items": [
         {
           "item": "0",
@@ -10387,33 +9887,6 @@
           "filter": "age0110t >= 4 & age0110t <= 12",
           "description": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
           "description_de": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: a lot worse",
-              "label_de": "1: viel schlechter"
-            },
-            {
-              "value": 2,
-              "label": "2: a bit worse",
-              "label_de": "2: etwas schlechter"
-            },
-            {
-              "value": 3,
-              "label": "3: equally good",
-              "label_de": "3: genauso gut"
-            },
-            {
-              "value": 4,
-              "label": "4: a bit better",
-              "label_de": "4: etwas besser"
-            },
-            {
-              "value": 5,
-              "label": "5: a lot better",
-              "label_de": "5: viel besser"
-            }
-          ],
           "sn": 7
         },
         {
@@ -10653,6 +10126,7 @@
       "question": "com2000s",
       "name": "com2000s",
       "label": "How would you rate [name of the child]'s skills and abilities in the following areas? Compare [name of the child] here with other children of the same age (but outside the family).",
+      "label_de": "Wie schaetzen Sie die folgenden Faehigkeiten und Fertigkeiten von [Name des Kindes] ein? Vergleichen Sie hierzu [Name des Kindes] mit anderen Kindern gleichen Alters (ausserhalb der Familie).",
       "items": [
         {
           "item": "0",
@@ -10664,33 +10138,6 @@
           "filter": "age0110s >= 4 & age0110s <= 12",
           "description": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
           "description_de": "Source: Frey, A., Althaus, D., & Duhm, E. (2008). Beobachtungsbogen fuer 3-bis 6-jaehrige Kinder. BBK 3-6. Manual. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: a lot worse",
-              "label_de": "1: viel schlechter"
-            },
-            {
-              "value": 2,
-              "label": "2: a bit worse",
-              "label_de": "2: etwas schlechter"
-            },
-            {
-              "value": 3,
-              "label": "3: equally good",
-              "label_de": "3: genauso gut"
-            },
-            {
-              "value": 4,
-              "label": "4: a bit better",
-              "label_de": "4: etwas besser"
-            },
-            {
-              "value": 5,
-              "label": "5: a lot better",
-              "label_de": "5: viel besser"
-            }
-          ],
           "sn": 7
         },
         {
@@ -10930,6 +10377,7 @@
       "question": "med0100t",
       "name": "med0100t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -10974,6 +10422,7 @@
       "question": "med0200t",
       "name": "med0200t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11018,6 +10467,7 @@
       "question": "med0300t",
       "name": "med0300t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11062,6 +10512,7 @@
       "question": "med0400t",
       "name": "med0400t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11106,6 +10557,7 @@
       "question": "med0500t",
       "name": "med0500t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11150,6 +10602,7 @@
       "question": "med0600t",
       "name": "med0600t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11194,6 +10647,7 @@
       "question": "med0700t",
       "name": "med0700t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11238,6 +10692,7 @@
       "question": "med0800t",
       "name": "med0800t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11282,6 +10737,7 @@
       "question": "med0900t",
       "name": "med0900t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11326,6 +10782,7 @@
       "question": "med1000t",
       "name": "med1000t",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11370,6 +10827,7 @@
       "question": "med0100u",
       "name": "med0100u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11414,6 +10872,7 @@
       "question": "med0200u",
       "name": "med0200u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11458,6 +10917,7 @@
       "question": "med0300u",
       "name": "med0300u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11502,6 +10962,7 @@
       "question": "med0400u",
       "name": "med0400u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11546,6 +11007,7 @@
       "question": "med0500u",
       "name": "med0500u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11590,6 +11052,7 @@
       "question": "med0600u",
       "name": "med0600u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11634,6 +11097,7 @@
       "question": "med0700u",
       "name": "med0700u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11678,6 +11142,7 @@
       "question": "med0800u",
       "name": "med0800u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11722,6 +11187,7 @@
       "question": "med0900u",
       "name": "med0900u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11766,6 +11232,7 @@
       "question": "med1000u",
       "name": "med1000u",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11810,6 +11277,7 @@
       "question": "med0100s",
       "name": "med0100s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11854,6 +11322,7 @@
       "question": "med0200s",
       "name": "med0200s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11898,6 +11367,7 @@
       "question": "med0300s",
       "name": "med0300s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11942,6 +11412,7 @@
       "question": "med0400s",
       "name": "med0400s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -11986,6 +11457,7 @@
       "question": "med0500s",
       "name": "med0500s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -12030,6 +11502,7 @@
       "question": "med0600s",
       "name": "med0600s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -12074,6 +11547,7 @@
       "question": "med0700s",
       "name": "med0700s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -12118,6 +11592,7 @@
       "question": "med0800s",
       "name": "med0800s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -12162,6 +11637,7 @@
       "question": "med0900s",
       "name": "med0900s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -12206,6 +11682,7 @@
       "question": "med1000s",
       "name": "med1000s",
       "label": "How long does [name of the child] spend per day using the following devices or activities?",
+      "label_de": "Wie lange beschaeftigt sich [Name des Kindes] durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten?",
       "items": [
         {
           "item": "1",
@@ -12250,6 +11727,7 @@
       "question": "med2000t",
       "name": "med2000t",
       "label": "Do you have rules for how long [name of the child] is allowed to use these devices?",
+      "label_de": "Haben Sie feste Regeln wie lange [Name des Kindes] diese Geraete nutzen darf?",
       "items": [
         {
           "item": "1",
@@ -12258,7 +11736,7 @@
           "text": "Do you have rules for how long [name of the child] is allowed to use these devices?",
           "text_de": "Haben Sie feste Regeln wie lange [Name des Kindes] diese Geraete nutzen darf?",
           "scale": "cat",
-          "filter": "med0100t >= 1 | med0200t >= 1 | med0300t >= 1 | med0400t >= 1 | med0500t >= 1 | med0600t >= 1 | med0700t >= 1 | med0800t >= 1  | med0900t >= 1 | med1000t >= 1",
+          "filter": "med0100t > 0 | med0200t > 0 | med0300t > 0 | med0400t > 0 | med0500t > 0 | med0600t > 0 | med0700t > 0 | med0800t > 0  | med0900t > 0 | med1000t > 0",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "answers": [
@@ -12271,6 +11749,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -12294,6 +11777,7 @@
       "question": "med2000u",
       "name": "med2000u",
       "label": "Do you have rules for how long [name of the child] is allowed to use these devices?",
+      "label_de": "Haben Sie feste Regeln wie lange [Name des Kindes] diese Geraete nutzen darf?",
       "items": [
         {
           "item": "1",
@@ -12302,7 +11786,7 @@
           "text": "Do you have rules for how long [name of the child] is allowed to use these devices?",
           "text_de": "Haben Sie feste Regeln wie lange [Name des Kindes] diese Geraete nutzen darf?",
           "scale": "cat",
-          "filter": "med0100u >= 1 | med0200u >= 1 | med0300u >= 1 | med0400u >= 1 | med0500u >= 1 | med0600u >= 1 | med0700u >= 1 | med0800u >= 1  | med0900u >= 1 | med1000u >= 1",
+          "filter": "med0100u > 0 | med0200u > 0 | med0300u > 0 | med0400u > 0 | med0500u > 0 | med0600u > 0 | med0700u > 0 | med0800u > 0  | med0900u > 0 | med1000u > 0",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "answers": [
@@ -12315,6 +11799,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -12338,6 +11827,7 @@
       "question": "med2000s",
       "name": "med2000s",
       "label": "Do you have rules for how long [name of the child] is allowed to use these devices?",
+      "label_de": "Haben Sie feste Regeln wie lange [Name des Kindes] diese Geraete nutzen darf?",
       "items": [
         {
           "item": "1",
@@ -12346,7 +11836,7 @@
           "text": "Do you have rules for how long [name of the child] is allowed to use these devices?",
           "text_de": "Haben Sie feste Regeln wie lange [Name des Kindes] diese Geraete nutzen darf?",
           "scale": "cat",
-          "filter": "med0100s >= 1 | med0200s >= 1 | med0300s >= 1 | med0400s >= 1 | med0500s >= 1 | med0600s >= 1 | med0700s >= 1 | med0800s >= 1  | med0900s >= 1 | med1000s >= 1",
+          "filter": "med0100s > 0 | med0200s > 0 | med0300s > 0 | med0400s > 0 | med0500s > 0 | med0600s > 0 | med0700s > 0 | med0800s > 0  | med0900s > 0 | med1000s > 0",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "answers": [
@@ -12359,6 +11849,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -12382,6 +11877,7 @@
       "question": "sop0100t",
       "name": "sop0100t",
       "label": "Please state the extent to which [name of child] is active in the following clubs/groups?",
+      "label_de": "Im Folgenden geht es um Freizeitaktivitaeten von [Name des Kindes]. Sie sehen hier eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass [Name des Kindes] in den jeweiligen Gruppen aktiv ist.",
       "items": [
         {
           "item": "0",
@@ -12393,33 +11889,6 @@
           "filter": "age0110t >= 4 & age0110t <= 12",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: every week",
-              "label_de": "1: jede Woche"
-            },
-            {
-              "value": 2,
-              "label": "2: every month",
-              "label_de": "2: jeden Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: less than once a month",
-              "label_de": "3: seltener als 1-mal im Monat"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -12697,6 +12166,7 @@
       "question": "sop0100u",
       "name": "sop0100u",
       "label": "Please state the extent to which [name of child] is active in the following clubs/groups?",
+      "label_de": "Im Folgenden geht es um Freizeitaktivitaeten von [Name des Kindes]. Sie sehen hier eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass [Name des Kindes] in den jeweiligen Gruppen aktiv ist.",
       "items": [
         {
           "item": "0",
@@ -12708,33 +12178,6 @@
           "filter": "age0110t >= 4 & age0110t <= 12",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: every week",
-              "label_de": "1: jede Woche"
-            },
-            {
-              "value": 2,
-              "label": "2: every month",
-              "label_de": "2: jeden Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: less than once a month",
-              "label_de": "3: seltener als 1-mal im Monat"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -13012,6 +12455,7 @@
       "question": "sop0100s",
       "name": "sop0100s",
       "label": "Please state the extent to which [name of child] is active in the following clubs/groups?",
+      "label_de": "Im Folgenden geht es um Freizeitaktivitaeten von [Name des Kindes]. Sie sehen hier eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass [Name des Kindes] in den jeweiligen Gruppen aktiv ist.",
       "items": [
         {
           "item": "0",
@@ -13023,33 +12467,6 @@
           "filter": "age0110s >= 4 & age0110s <= 12",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: every week",
-              "label_de": "1: jede Woche"
-            },
-            {
-              "value": 2,
-              "label": "2: every month",
-              "label_de": "2: jeden Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: less than once a month",
-              "label_de": "3: seltener als 1-mal im Monat"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -13327,6 +12744,7 @@
       "question": "per0400t",
       "name": "per0400t",
       "label": "How would you describe [name of child] in comparison to other children of the same age?",
+      "label_de": "Jetzt zu den Eigenschaften von [Name des Kindes]. Bei den Antworten gibt es kein richtig oder falsch, es geht um Ihre persoenliche Einschaetzung. Wie wuerden Sie [Name des Kindes] im Vergleich zu anderen Kindern gleichen Alters beurteilen?",
       "items": [
         {
           "item": "0",
@@ -13338,70 +12756,13 @@
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
           "description_de": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Berlin: DIW Berlin. Data Documentation 20",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: communicative",
-              "label_de": "0: gespraechig"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: quiet",
-              "label_de": "10: still"
-            }
-          ],
           "sn": 11
         },
         {
           "item": "1",
           "number": "528",
           "concept": "per0400t",
-          "text": "is communicative - quiet",
+          "text": "is talkative - quiet.",
           "text_de": "ist gespraechig / ist still",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -13409,7 +12770,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: communicative",
+              "label": "0: talkative",
               "label_de": "0: gespraechig"
             },
             {
@@ -13469,7 +12830,7 @@
           "item": "2",
           "number": "529",
           "concept": "per0400t",
-          "text": "is untidy - tidy",
+          "text": "is tidy - untidy.",
           "text_de": "ist unordentlich / ist ordentlich",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -13477,7 +12838,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: messy",
+              "label": "0: untidy",
               "label_de": "0: unordentlich"
             },
             {
@@ -13527,7 +12888,7 @@
             },
             {
               "value": 10,
-              "label": "10: neat",
+              "label": "10: tidy",
               "label_de": "10: ordentlich"
             }
           ],
@@ -13605,7 +12966,7 @@
           "item": "4",
           "number": "531",
           "concept": "per0400t",
-          "text": "has little interest - is hungry for knowledge",
+          "text": "is not that interested - hungry for knowledge.",
           "text_de": "ist wenig interessiert / ist wissensdurstig",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -13613,7 +12974,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: disinterested",
+              "label": "0: not that interested",
               "label_de": "0: wenig interessiert"
             },
             {
@@ -13809,7 +13170,7 @@
           "item": "7",
           "number": "534",
           "concept": "per0400t",
-          "text": "is concentrated - easily distracted",
+          "text": "is focused - easy to distract.",
           "text_de": "ist konzentriert / ist leicht ablenkbar",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -13817,7 +13178,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: concentrated",
+              "label": "0: focused",
               "label_de": "0: konzentriert"
             },
             {
@@ -13867,7 +13228,7 @@
             },
             {
               "value": 10,
-              "label": "10: easily distracted",
+              "label": "10: easy to distract",
               "label_de": "10: leicht ablenkbar"
             }
           ],
@@ -13877,7 +13238,7 @@
           "item": "8",
           "number": "535",
           "concept": "per0400t",
-          "text": "is defiant - compliant",
+          "text": "is obstinate - compliant.",
           "text_de": "ist trotzig / ist folgsam",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -13885,7 +13246,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: defiant",
+              "label": "0: obstinate",
               "label_de": "0: trotzig"
             },
             {
@@ -13945,7 +13306,7 @@
           "item": "9",
           "number": "536",
           "concept": "per0400t",
-          "text": "is quick on the uptake - needs more time to understand",
+          "text": "understands quickly - needs more time.",
           "text_de": "begreift schnell / braucht mehr Zeit",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -13953,7 +13314,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: quick on the uptake",
+              "label": "0: understands quickly",
               "label_de": "0: begreift schnell"
             },
             {
@@ -14003,7 +13364,7 @@
             },
             {
               "value": 10,
-              "label": "10: needs more time to understand",
+              "label": "10: needs more time",
               "label_de": "10: braucht mehr Zeit"
             }
           ],
@@ -14013,7 +13374,7 @@
           "item": "10",
           "number": "537",
           "concept": "per0400t",
-          "text": "is anxious - courageous",
+          "text": "is fearful - fearless.",
           "text_de": "ist aengstlich / ist unaengstlich",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14071,7 +13432,7 @@
             },
             {
               "value": 10,
-              "label": "10: brave",
+              "label": "10: fearless",
               "label_de": "10: unaengstlich"
             }
           ],
@@ -14086,6 +13447,7 @@
       "question": "per0400u",
       "name": "per0400u",
       "label": "How would you describe [name of child] in comparison to other children of the same age?",
+      "label_de": "Jetzt zu den Eigenschaften von [Name des Kindes]. Bei den Antworten gibt es kein richtig oder falsch, es geht um Ihre persoenliche Einschaetzung. Wie wuerden Sie [Name des Kindes] im Vergleich zu anderen Kindern gleichen Alters beurteilen?",
       "items": [
         {
           "item": "0",
@@ -14097,70 +13459,13 @@
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
           "description_de": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Berlin: DIW Berlin. Data Documentation 20",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: communicative",
-              "label_de": "0: gespraechig"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: quiet",
-              "label_de": "10: still"
-            }
-          ],
           "sn": 11
         },
         {
           "item": "1",
           "number": "550",
           "concept": "per0400u",
-          "text": "is communicative - quiet",
+          "text": "is talkative - quiet.",
           "text_de": "ist gespraechig / ist still",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14168,7 +13473,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: communicative",
+              "label": "0: talkative",
               "label_de": "0: gespraechig"
             },
             {
@@ -14228,7 +13533,7 @@
           "item": "2",
           "number": "551",
           "concept": "per0400u",
-          "text": "is untidy - tidy",
+          "text": "is tidy - untidy.",
           "text_de": "ist unordentlich / ist ordentlich",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14236,7 +13541,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: messy",
+              "label": "0: untidy",
               "label_de": "0: unordentlich"
             },
             {
@@ -14286,7 +13591,7 @@
             },
             {
               "value": 10,
-              "label": "10: neat",
+              "label": "10: tidy",
               "label_de": "10: ordentlich"
             }
           ],
@@ -14364,7 +13669,7 @@
           "item": "4",
           "number": "553",
           "concept": "per0400u",
-          "text": "has little interest - is hungry for knowledge",
+          "text": "is not that interested - hungry for knowledge.",
           "text_de": "ist wenig interessiert / ist wissensdurstig",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14372,7 +13677,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: disinterested",
+              "label": "0: not that interested",
               "label_de": "0: wenig interessiert"
             },
             {
@@ -14568,7 +13873,7 @@
           "item": "7",
           "number": "556",
           "concept": "per0400u",
-          "text": "is concentrated - easily distracted",
+          "text": "is focused - easy to distract.",
           "text_de": "ist konzentriert / ist leicht ablenkbar",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14576,7 +13881,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: concentrated",
+              "label": "0: focused",
               "label_de": "0: konzentriert"
             },
             {
@@ -14626,7 +13931,7 @@
             },
             {
               "value": 10,
-              "label": "10: easily distracted",
+              "label": "10: easy to distract",
               "label_de": "10: leicht ablenkbar"
             }
           ],
@@ -14636,7 +13941,7 @@
           "item": "8",
           "number": "557",
           "concept": "per0400u",
-          "text": "is defiant - compliant",
+          "text": "is obstinate - compliant.",
           "text_de": "ist trotzig / ist folgsam",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14644,7 +13949,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: defiant",
+              "label": "0: obstinate",
               "label_de": "0: trotzig"
             },
             {
@@ -14704,7 +14009,7 @@
           "item": "9",
           "number": "558",
           "concept": "per0400u",
-          "text": "is quick on the uptake - needs more time to understand",
+          "text": "understands quickly - needs more time.",
           "text_de": "begreift schnell / braucht mehr Zeit",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14712,7 +14017,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: quick on the uptake",
+              "label": "0: understands quickly",
               "label_de": "0: begreift schnell"
             },
             {
@@ -14762,7 +14067,7 @@
             },
             {
               "value": 10,
-              "label": "10: needs more time to understand",
+              "label": "10: needs more time",
               "label_de": "10: braucht mehr Zeit"
             }
           ],
@@ -14772,7 +14077,7 @@
           "item": "10",
           "number": "559",
           "concept": "per0400u",
-          "text": "is anxious - courageous",
+          "text": "is fearful - fearless.",
           "text_de": "ist aengstlich / ist unaengstlich",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14830,7 +14135,7 @@
             },
             {
               "value": 10,
-              "label": "10: brave",
+              "label": "10: fearless",
               "label_de": "10: unaengstlich"
             }
           ],
@@ -14845,6 +14150,7 @@
       "question": "per0400s",
       "name": "per0400s",
       "label": "How would you describe [name of child] in comparison to other children of the same age?",
+      "label_de": "Jetzt zu den Eigenschaften von [Name des Kindes]. Bei den Antworten gibt es kein richtig oder falsch, es geht um Ihre persoenliche Einschaetzung. Wie wuerden Sie [Name des Kindes] im Vergleich zu anderen Kindern gleichen Alters beurteilen?",
       "items": [
         {
           "item": "0",
@@ -14856,70 +14162,13 @@
           "filter": "age0110s >= 4 & age0110s <= 9",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
           "description_de": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Berlin: DIW Berlin. Data Documentation 20",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: communicative",
-              "label_de": "0: gespraechig"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: quiet",
-              "label_de": "10: still"
-            }
-          ],
           "sn": 11
         },
         {
           "item": "1",
           "number": "572",
           "concept": "per0400s",
-          "text": "is communicative - quiet",
+          "text": "is talkative - quiet.",
           "text_de": "ist gespraechig / ist still",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14927,7 +14176,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: communicative",
+              "label": "0: talkative",
               "label_de": "0: gespraechig"
             },
             {
@@ -14987,7 +14236,7 @@
           "item": "2",
           "number": "573",
           "concept": "per0400s",
-          "text": "is untidy - tidy",
+          "text": "is tidy - untidy.",
           "text_de": "ist unordentlich / ist ordentlich",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -14995,7 +14244,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: messy",
+              "label": "0: untidy",
               "label_de": "0: unordentlich"
             },
             {
@@ -15045,7 +14294,7 @@
             },
             {
               "value": 10,
-              "label": "10: neat",
+              "label": "10: tidy",
               "label_de": "10: ordentlich"
             }
           ],
@@ -15123,7 +14372,7 @@
           "item": "4",
           "number": "575",
           "concept": "per0400s",
-          "text": "has little interest - is hungry for knowledge",
+          "text": "is not that interested - hungry for knowledge.",
           "text_de": "ist wenig interessiert / ist wissensdurstig",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -15131,7 +14380,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: disinterested",
+              "label": "0: not that interested",
               "label_de": "0: wenig interessiert"
             },
             {
@@ -15327,7 +14576,7 @@
           "item": "7",
           "number": "578",
           "concept": "per0400s",
-          "text": "is concentrated - easily distracted",
+          "text": "is focused - easy to distract.",
           "text_de": "ist konzentriert / ist leicht ablenkbar",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -15335,7 +14584,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: concentrated",
+              "label": "0: focused",
               "label_de": "0: konzentriert"
             },
             {
@@ -15385,7 +14634,7 @@
             },
             {
               "value": 10,
-              "label": "10: easily distracted",
+              "label": "10: easy to distract",
               "label_de": "10: leicht ablenkbar"
             }
           ],
@@ -15395,7 +14644,7 @@
           "item": "8",
           "number": "579",
           "concept": "per0400s",
-          "text": "is defiant - compliant",
+          "text": "is obstinate - compliant.",
           "text_de": "ist trotzig / ist folgsam",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -15403,7 +14652,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: defiant",
+              "label": "0: obstinate",
               "label_de": "0: trotzig"
             },
             {
@@ -15463,7 +14712,7 @@
           "item": "9",
           "number": "580",
           "concept": "per0400s",
-          "text": "is quick on the uptake - needs more time to understand",
+          "text": "understands quickly - needs more time.",
           "text_de": "begreift schnell / braucht mehr Zeit",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -15471,7 +14720,7 @@
           "answers": [
             {
               "value": 0,
-              "label": "0: quick on the uptake",
+              "label": "0: understands quickly",
               "label_de": "0: begreift schnell"
             },
             {
@@ -15521,7 +14770,7 @@
             },
             {
               "value": 10,
-              "label": "10: needs more time to understand",
+              "label": "10: needs more time",
               "label_de": "10: braucht mehr Zeit"
             }
           ],
@@ -15531,7 +14780,7 @@
           "item": "10",
           "number": "581",
           "concept": "per0400s",
-          "text": "is anxious - courageous",
+          "text": "is fearful - fearless.",
           "text_de": "ist aengstlich / ist unaengstlich",
           "scale": "cat",
           "description": "Source: Weinert, S., Asendorpf, J. B., Beelmann, A., Doil, H., Frevert, S., Lohaus, A., & Hasselhorn, M. (2007). Expertise zur Erfassung von psychologischen Personmerkmalen bei Kindern im Alter von fuenf Jahren im Rahmen des SOEP. Data Documentation 20. Berlin: DIW Berlin",
@@ -15589,7 +14838,7 @@
             },
             {
               "value": 10,
-              "label": "10: brave",
+              "label": "10: fearless",
               "label_de": "10: unaengstlich"
             }
           ],
@@ -15604,6 +14853,7 @@
       "question": "per0200t",
       "name": "per0200t",
       "label": "Is [name of the child] generally willing to take risks? Or does he/she tend to avoid risks?",
+      "label_de": "Ist [Name des Kindes] im Allgemeinen ein risikobereiter Mensch oder versucht er/sie, Risiken zu vermeiden?",
       "items": [
         {
           "item": "0",
@@ -15615,68 +14865,6 @@
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2008",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2008",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: not at all prepared to take risks",
-              "label_de": "0: gar nicht risikobereit"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very prepared to take risks",
-              "label_de": "10: sehr risikobereit"
-            }
-          ],
           "sn": 1
         }
       ],
@@ -15688,6 +14876,7 @@
       "question": "per0200u",
       "name": "per0200u",
       "label": "Is [name of the child] generally willing to take risks? Or does he/she tend to avoid risks?",
+      "label_de": "Ist [Name des Kindes] im Allgemeinen ein risikobereiter Mensch oder versucht er/sie, Risiken zu vermeiden?",
       "items": [
         {
           "item": "0",
@@ -15699,68 +14888,6 @@
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2008",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2008",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: not at all prepared to take risks",
-              "label_de": "0: gar nicht risikobereit"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very prepared to take risks",
-              "label_de": "10: sehr risikobereit"
-            }
-          ],
           "sn": 1
         }
       ],
@@ -15772,6 +14899,7 @@
       "question": "per0200s",
       "name": "per0200s",
       "label": "Is [name of the child] generally willing to take risks? Or does he/she tend to avoid risks?",
+      "label_de": "Ist [Name des Kindes] im Allgemeinen ein risikobereiter Mensch oder versucht er/sie, Risiken zu vermeiden?",
       "items": [
         {
           "item": "0",
@@ -15783,68 +14911,6 @@
           "filter": "age0110s >= 4 & age0110s <= 9",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2008",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2008",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: not at all prepared to take risks",
-              "label_de": "0: gar nicht risikobereit"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very prepared to take risks",
-              "label_de": "10: sehr risikobereit"
-            }
-          ],
           "sn": 1
         }
       ],
@@ -15856,6 +14922,7 @@
       "question": "per0300t",
       "name": "per0300t",
       "label": "Is [name of the child] generally impatient or always very patient?",
+      "label_de": "Ist [Name des Kindes] es im Allgemeinen ein Mensch, der ungeduldig ist, oder der immer sehr viel Geduld aufbringt?",
       "items": [
         {
           "item": "0",
@@ -15867,68 +14934,6 @@
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2008",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2008",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: very impatient",
-              "label_de": "0: sehr ungeduldig"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very patient",
-              "label_de": "10: sehr geduldig"
-            }
-          ],
           "sn": 1
         }
       ],
@@ -15940,6 +14945,7 @@
       "question": "per0300u",
       "name": "per0300u",
       "label": "Is [name of the child] generally impatient or always very patient?",
+      "label_de": "Ist [Name des Kindes] es im Allgemeinen ein Mensch, der ungeduldig ist, oder der immer sehr viel Geduld aufbringt?",
       "items": [
         {
           "item": "0",
@@ -15951,68 +14957,6 @@
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2008",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2008",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: very impatient",
-              "label_de": "0: sehr ungeduldig"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very patient",
-              "label_de": "10: sehr geduldig"
-            }
-          ],
           "sn": 1
         }
       ],
@@ -16024,6 +14968,7 @@
       "question": "per0300s",
       "name": "per0300s",
       "label": "Is [name of the child] generally impatient or always very patient?",
+      "label_de": "Ist [Name des Kindes] es im Allgemeinen ein Mensch, der ungeduldig ist, oder der immer sehr viel Geduld aufbringt?",
       "items": [
         {
           "item": "0",
@@ -16035,68 +14980,6 @@
           "filter": "age0110s >= 4 & age0110s <= 9",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2008",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2008",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: very impatient",
-              "label_de": "0: sehr ungeduldig"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very patient",
-              "label_de": "10: sehr geduldig"
-            }
-          ],
           "sn": 1
         }
       ],
@@ -16108,34 +14991,18 @@
       "question": "int0100t",
       "name": "int0100t",
       "label": "[name of child] . . .",
+      "label_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] . . .",
       "items": [
         {
           "item": "0",
           "number": "615",
           "concept": "int0100t",
           "text": "[name of child] . . .",
-          "text_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] ...",
+          "text_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] . . .",
           "scale": "txt",
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
           "description_de": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: nicht zutreffend"
-            },
-            {
-              "value": 2,
-              "label": "2: partly applies",
-              "label_de": "2: teilweise zutreffend"
-            },
-            {
-              "value": 3,
-              "label": "3: applies completely",
-              "label_de": "3: eindeutig zutreffend"
-            }
-          ],
           "sn": 21
         },
         {
@@ -16422,7 +15289,7 @@
           "item": "11",
           "number": "626",
           "concept": "int0100t",
-          "text": ". . . restless, overactive; cannot stay still for long.",
+          "text": ". . .  is restless, overactive; cannot stay still for long.",
           "text_de": ". . . ist unruhig, ueberaktiv, kann nicht lange stillsitzen.",
           "scale": "cat",
           "description": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
@@ -16707,34 +15574,18 @@
       "question": "int0100u",
       "name": "int0100u",
       "label": "[name of child] . . .",
+      "label_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] . . .",
       "items": [
         {
           "item": "0",
           "number": "657",
           "concept": "int0100u",
           "text": "[name of child] . . .",
-          "text_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] ...",
+          "text_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] . . .",
           "scale": "txt",
           "filter": "age0110t >= 4 & age0110t <= 9",
           "description": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
           "description_de": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: nicht zutreffend"
-            },
-            {
-              "value": 2,
-              "label": "2: partly applies",
-              "label_de": "2: teilweise zutreffend"
-            },
-            {
-              "value": 3,
-              "label": "3: applies completely",
-              "label_de": "3: eindeutig zutreffend"
-            }
-          ],
           "sn": 21
         },
         {
@@ -17021,7 +15872,7 @@
           "item": "11",
           "number": "668",
           "concept": "int0100u",
-          "text": ". . . restless, overactive; cannot stay still for long.",
+          "text": ". . .  is restless, overactive; cannot stay still for long.",
           "text_de": ". . . ist unruhig, ueberaktiv, kann nicht lange stillsitzen.",
           "scale": "cat",
           "description": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
@@ -17306,34 +16157,18 @@
       "question": "int0100s",
       "name": "int0100s",
       "label": "[name of child] . . .",
+      "label_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] . . .",
       "items": [
         {
           "item": "0",
           "number": "699",
           "concept": "int0100s",
           "text": "[name of child] . . .",
-          "text_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] ...",
+          "text_de": "Bitte markieren Sie zu jedem Punkt Nicht zutreffend, Teilweise zutreffend oder Eindeutig zutreffend. Beantworten Sie bitte alle Fragen so gut Sie koennen, selbst wenn Sie sich nicht ganz sicher sind oder Ihnen eine Frage merkwuerdig vorkommt. Bitte beruecksichtigen Sie bei der Antwort das Verhalten von [Name des Kindes] in den letzten sechs Monaten beziehungsweise in diesem Schuljahr. [Name des Kindes] . . .",
           "scale": "txt",
           "filter": "age0110s >= 4 & age0110s <= 9",
           "description": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
           "description_de": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: nicht zutreffend"
-            },
-            {
-              "value": 2,
-              "label": "2: partly applies",
-              "label_de": "2: teilweise zutreffend"
-            },
-            {
-              "value": 3,
-              "label": "3: applies completely",
-              "label_de": "3: eindeutig zutreffend"
-            }
-          ],
           "sn": 21
         },
         {
@@ -17620,7 +16455,7 @@
           "item": "11",
           "number": "710",
           "concept": "int0100s",
-          "text": ". . . restless, overactive; cannot stay still for long.",
+          "text": ". . .  is restless, overactive; cannot stay still for long.",
           "text_de": ". . . ist unruhig, ueberaktiv, kann nicht lange stillsitzen.",
           "scale": "cat",
           "description": "Source: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",

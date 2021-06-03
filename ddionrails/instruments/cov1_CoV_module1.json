@@ -1,0 +1,3714 @@
+{
+  "study": "twinlife",
+  "name": "cov1_CoV_module1",
+  "label": "CoV 1: COVID-19 Supplementary Questionnaire (CAWI)",
+  "description": "This questionnaire module contains questions on: COVID-19-related behavioral changes, resilience, coping; depressive symptoms, lack of focus; evaluation of governmental restrictions; health during COVID-19 pandemic; perceived threat, stress and burden, psychological impairment; quality of familial environment (existence of bedtime routine, general atmosphere at home); socioeconomic changes; worrying.",
+  "analysis_unit": "individual",
+  "period": 10,
+  "instrument": "cov1_CoV_module1",
+  "questions": {
+    "cor0101": {
+      "question": "cor0101",
+      "name": "cor0101",
+      "label": "Has anyone in your household ever been infected with coronavirus?",
+      "label_de": "War in Ihrem Haushalt schon einmal jemand am Coronavirus erkrankt?",
+      "items": [
+        {
+          "item": "1",
+          "number": "1",
+          "concept": "cor0101",
+          "text": "Has anyone in your household ever been infected with coronavirus?",
+          "text_de": "War in Ihrem Haushalt schon einmal jemand am Coronavirus erkrankt?",
+          "filter": "age0400 >=16",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no, nobody",
+              "label_de": "2: Nein, niemand"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0102": {
+      "question": "cor0102",
+      "name": "cor0102",
+      "label": "Has your household been quarantined since the outbreak of the Corona pandemic in Germany?",
+      "label_de": "Wurde Ihr Haushalt seit Ausbruch der Corona-Pandemie in Deutschland schon einmal unter Quarantaene gestellt?\n",
+      "items": [
+        {
+          "item": "1",
+          "number": "2",
+          "concept": "cor0102",
+          "text": "Has your household been quarantined since the outbreak of the Corona pandemic in Germany?",
+          "text_de": "Wurde Ihr Haushalt seit Ausbruch der Corona-Pandemie in Deutschland schon einmal unter Quarantaene gestellt?\n",
+          "filter": "cor0101==2 & age0400 >=16",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0200": {
+      "question": "cor0200",
+      "name": "cor0200",
+      "label": "[ITEMBAT] Thinking about the first period of the Corona crisis, i.e., from March 2020 until the first easing, which of the following statements apply to your health status?",
+      "label_de": "[ITEMBAT] Wenn Sie an die erste Zeit der Corona-Krise, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, denken: Welche der folgenden Aussagen treffen auf Ihren Gesundheitszustand zu?\n\n",
+      "items": [
+        {
+          "item": "0",
+          "number": "3",
+          "concept": "cor0200",
+          "text": "[ITEMBAT] Thinking about the first period of the Corona crisis, i.e., from March 2020 until the first easing, which of the following statements apply to your health status?",
+          "text_de": "[ITEMBAT] Wenn Sie an die erste Zeit der Corona-Krise, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, denken: Welche der folgenden Aussagen treffen auf Ihren Gesundheitszustand zu?\n\n",
+          "scale": "txt",
+          "filter": "age0400 >=16",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "4",
+          "concept": "cor0200",
+          "text": "My general health has deteriorated.",
+          "text_de": "Meine allgemeine Gesundheit hat sich verschlechtert.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "5",
+          "concept": "cor0200",
+          "text": "Diseases I have suffered from before have worsened.",
+          "text_de": "Krankheiten, an denen ich bereits vorher gelitten habe, haben sich verschlechtert.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "6",
+          "concept": "cor0200",
+          "text": "I have avoided regular preventive medical checkups.",
+          "text_de": "Ich habe regelmaessige Vorsorgeuntersuchungen vermieden.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "7",
+          "concept": "cor0200",
+          "text": "I have avoided doctor visits for acute illnesses.",
+          "text_de": "Ich habe Arztbesuche bei akuten Erkrankungen vermieden.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "8",
+          "concept": "cor0200",
+          "text": "A necessary surgery had to be postponed.",
+          "text_de": "Eine notwendige Operation musste verschoben werden.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 5
+        }
+      ],
+      "sn": 2,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0300": {
+      "question": "cor0300",
+      "name": "cor0300",
+      "label": "[ITEMBAT] [If age >= 16] The Corona pandemic and its aftermath has affected people's work situations in many ways. What applied to you during the initial period of the Corona pandemic, i.e., from March 2020 until the first easing? [If age = 15] The Corona pandemic and its aftermath affected people's education and work situation in many ways. What happened to you during the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations?",
+      "label_de": "[ITEMBAT] [If age >= 16] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was traf in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, auf Sie zu? [If age = 15] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Ausbildungs- und Arbeitssituation der Menschen ausgewirkt. Was traf in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, auf dich zu?",
+      "items": [
+        {
+          "item": "0",
+          "number": "9",
+          "concept": "cor0300",
+          "text": "[ITEMBAT] [If age >= 16] The Corona pandemic and its aftermath has affected people's work situations in many ways. What applied to you during the initial period of the Corona pandemic, i.e., from March 2020 until the first easing? [If age = 15] The Corona pandemic and its aftermath affected people's education and work situation in many ways. What happened to you during the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations?",
+          "text_de": "[ITEMBAT] [If age >= 16] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was traf in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, auf Sie zu? [If age = 15] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Ausbildungs- und Arbeitssituation der Menschen ausgewirkt. Was traf in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, auf dich zu?",
+          "scale": "txt",
+          "filter": "age0400 >=15",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "10",
+          "concept": "cor0300",
+          "text": "[age >= 15] My training/study period has been extended.",
+          "text_de": "[age >= 15] Meine Ausbildungs-/Studienzeit hat sich verlaengert.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "11",
+          "concept": "cor0300",
+          "text": "[age >= 15] I have lost my apprenticeship.",
+          "text_de": "[age >= 15] Ich habe meinen Ausbildungsplatz verloren.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "12",
+          "concept": "cor0300",
+          "text": "[age >= 16] I have lost my job.",
+          "text_de": "[age >= 16] Ich habe meine Arbeit verloren.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "13",
+          "concept": "cor0300",
+          "text": "[age >= 18] I had to give up my business.",
+          "text_de": "[age >= 18] Ich musste meinen Betrieb aufgeben.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "14",
+          "concept": "cor0300",
+          "text": "[age >= 18] My business was threatened in its existence.",
+          "text_de": "[age >= 18] Mein Betrieb war in der Existenz bedroht.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "15",
+          "concept": "cor0300",
+          "text": "[age >= 16] I was on short-time work.",
+          "text_de": "[age >= 16] Ich befand mich in Kurzarbeit.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "16",
+          "concept": "cor0300",
+          "text": "[age >= 16] I had to change my occupation.",
+          "text_de": "[age >= 16] Ich musste meine berufliche Taetigkeit wechseln.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "17",
+          "concept": "cor0300",
+          "text": "[age >= 16] I took up another occupation.",
+          "text_de": "[age >= 16] Ich habe eine weitere Beschaeftigung aufgenommen.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 8
+        }
+      ],
+      "sn": 3,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0400": {
+      "question": "cor0400",
+      "name": "cor0400",
+      "label": "[ITEMBAT] If you think about the first period of the Corona pandemic, i.e. from March 2020 until the first relaxations: To what extent had your work situation changed compared to before the Corona pandemic? You can grade your answers from -3 (Significantly less) to 0 (Same) to +3 (Significantly more). If you were not employed, please click on 'Does not apply'. If you were not working from home, please click on 'I do not work from home.'",
+      "label_de": "[ITEMBAT] Wenn Sie an die erste Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, denken: Inwieweit hatte sich Ihre Arbeitssituation im Vergleich zu vor der Corona-Pandemie veraendert? Sie koennen Ihre Antworten von -3 (Deutlich weniger) ueber 0 (Gleich) bis +3 (Deutlich mehr) abstufen. Sofern Sie nicht erwerbstaetig waren, klicken Sie bitte auf 'Trifft nicht zu'. Sofern Sie nicht im Homeoffice waren, klicken Sie bitte auf 'Ich arbeite nicht im Homeoffice.'",
+      "items": [
+        {
+          "item": "1",
+          "number": "18",
+          "concept": "cor0400",
+          "text": "[ITEMBAT] If you think about the first period of the Corona pandemic, i.e. from March 2020 until the first relaxations: To what extent had your work situation changed compared to before the Corona pandemic? You can grade your answers from -3 (Significantly less) to 0 (Same) to +3 (Significantly more). If you were not employed, please click on 'Does not apply'. If you were not working from home, please click on 'I do not work from home.'",
+          "text_de": "[ITEMBAT] Wenn Sie an die erste Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, denken: Inwieweit hatte sich Ihre Arbeitssituation im Vergleich zu vor der Corona-Pandemie veraendert? Sie koennen Ihre Antworten von -3 (Deutlich weniger) ueber 0 (Gleich) bis +3 (Deutlich mehr) abstufen. Sofern Sie nicht erwerbstaetig waren, klicken Sie bitte auf 'Trifft nicht zu'. Sofern Sie nicht im Homeoffice waren, klicken Sie bitte auf 'Ich arbeite nicht im Homeoffice.'",
+          "filter": "age0400 >=16",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0401": {
+      "question": "cor0401",
+      "name": "cor0401",
+      "label": "[ITEMBAT] If you think about the first period of the Corona pandemic, that is, from March 2020 until the first relaxations: To what extent had your work situation changed compared to before the Corona pandemic?  You can grade your answers from -3 (Significantly less) to 0 (Same) to +3 (Significantly more).",
+      "label_de": "[ITEMBAT] Wenn Sie an die erste Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, denken: Inwieweit hatte sich Ihre Arbeitssituation im Vergleich zu vor der Corona-Pandemie veraendert? \nSie koennen Ihre Antworten von -3 (Deutlich weniger) ueber 0 (Gleich) bis +3 (Deutlich mehr) abstufen.",
+      "items": [
+        {
+          "item": "0",
+          "number": "19",
+          "concept": "cor0401",
+          "text": "[ITEMBAT] If you think about the first period of the Corona pandemic, that is, from March 2020 until the first relaxations: To what extent had your work situation changed compared to before the Corona pandemic?  You can grade your answers from -3 (Significantly less) to 0 (Same) to +3 (Significantly more).",
+          "text_de": "[ITEMBAT] Wenn Sie an die erste Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, denken: Inwieweit hatte sich Ihre Arbeitssituation im Vergleich zu vor der Corona-Pandemie veraendert? \nSie koennen Ihre Antworten von -3 (Deutlich weniger) ueber 0 (Gleich) bis +3 (Deutlich mehr) abstufen.",
+          "scale": "txt",
+          "filter": "age0400 >=16 & cor0400 !=-81",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "20",
+          "concept": "cor0401",
+          "text": "I worked overtime",
+          "text_de": "Ich machte Ueberstunden",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "21",
+          "concept": "cor0401",
+          "text": "I had flexible working hours",
+          "text_de": "Ich hatte flexible Arbeitszeiten",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "22",
+          "concept": "cor0401",
+          "text": "The scope of my employment was ...",
+          "text_de": "Der Umfang meiner Beschaeftigung war ...",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 5,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0500": {
+      "question": "cor0500",
+      "name": "cor0500",
+      "label": "Did your income from employment (including possible bonuses and co-payments) change during the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations? Did your income ...",
+      "label_de": "Hatte sich Ihr Einkommen aus Ihrer Erwerbstaetigkeit (einschliesslich moeglicher Boni und Zuzahlungen) in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen veraendert? Ist ihr Einkommen ...\n",
+      "items": [
+        {
+          "item": "1",
+          "number": "23",
+          "concept": "cor0500",
+          "text": "Did your income from employment (including possible bonuses and co-payments) change during the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations? Did your income ...",
+          "text_de": "Hatte sich Ihr Einkommen aus Ihrer Erwerbstaetigkeit (einschliesslich moeglicher Boni und Zuzahlungen) in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen veraendert? Ist ihr Einkommen ...\n",
+          "filter": "age0400 >=16 & cor0400 !=-81",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not employed.",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: income increased",
+              "label_de": "1: Einkommen gestiegen"
+            },
+            {
+              "value": 2,
+              "label": "2: income decreased",
+              "label_de": "2: Einkommen gesunken"
+            },
+            {
+              "value": 3,
+              "label": "3: income remained unchanged",
+              "label_de": "3: Einkommen unveraendert geblieben"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0600": {
+      "question": "cor0600",
+      "name": "cor0600",
+      "label": "[ITEMBAT] Below, we would like to learn more about your work-at-home and home office experiences during the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations. How much do the following statements apply to you? During the first period of the Corona pandemic ...",
+      "label_de": "[ITEMBAT] Im Folgenden moechten wir mehr ueber Ihren Arbeitsplatz zu Hause und Ihre Erfahrungen im Homeoffice waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen erfahren.Wie sehr treffen die folgenden Aussagen auf Sie zu? In der ersten Zeit der Corona-Pandemie ...",
+      "items": [
+        {
+          "item": "0",
+          "number": "24",
+          "concept": "cor0600",
+          "text": "[ITEMBAT] Below, we would like to learn more about your work-at-home and home office experiences during the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations. How much do the following statements apply to you? During the first period of the Corona pandemic ...",
+          "text_de": "[ITEMBAT] Im Folgenden moechten wir mehr ueber Ihren Arbeitsplatz zu Hause und Ihre Erfahrungen im Homeoffice waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen erfahren.Wie sehr treffen die folgenden Aussagen auf Sie zu? In der ersten Zeit der Corona-Pandemie ...",
+          "scale": "txt",
+          "filter": "age0400 >=16 & !inlist(cor0400,-82,-81)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "25",
+          "concept": "cor0600",
+          "text": "I had my own study where I could work in peace.",
+          "text_de": "hatte ich ein eigenes Arbeitszimmer, in dem ich in Ruhe arbeiten konnte.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "26",
+          "concept": "cor0600",
+          "text": "a poor internet connection prevented me from working.",
+          "text_de": "hinderte mich eine schlechte Internetanbindung am Arbeiten.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "27",
+          "concept": "cor0600",
+          "text": "my workplace at home was of a rather provisional nature.",
+          "text_de": "war mein Arbeitsplatz zu Hause eher provisorischer Natur.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 7,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0603": {
+      "question": "cor0603",
+      "name": "cor0603",
+      "label": "[ITEMBAT] [If age <15] To begin, we are interested in how home schooling has been for you so far during the Corona pandemic. First, we want to know about your place of doing your schoolwork at home during the Corona pandemic. How much do the following statements apply to you? [If age = 15] Below we would like to know more about the place where you were doing your schoolwork at home during the first period of the Corona pandemic, i.e., from March 2020 until the first relaxations. How much do the following statements apply to you? [IF age <=18 & >=16 ] Below, we would like to know more about the place where you were doing doing your schoolwork at home during the first period of the Corona pandemic, i.e., from March 2020 until the first easing. How much do the following statements apply to you?",
+      "label_de": "[ITEMBAT] [If age <15] Zunaechst interessiert uns, wie der Schulunterricht zu Hause waehrend der Corona-Pandemie bisher fuer Dich war. Als Erstes moechten wir etwas ueber Deinen Platz erfahren, an dem Du waehrend der Corona-Pandemie zu Hause Deine Schularbeiten erledigt hast. Wie sehr treffen die folgenden Aussagen auf Dich zu? [If age = 15] Im Folgenden moechten wir mehr ueber Deinen Platz wissen, an dem Du waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, zu Hause Deine Schulaufgaben erledigt hast. Wie sehr treffen die folgenden Aussagen auf Dich zu? [IF age <=18 & >=16 ] Im Folgenden moechten wir mehr ueber Ihren Platz wissen, an dem Sie waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, zu Hause Ihre Schulaufgaben erledigt haben. Wie sehr treffen die folgenden Aussagen auf Sie zu?",
+      "items": [
+        {
+          "item": "0",
+          "number": "28",
+          "concept": "cor0603",
+          "text": "[ITEMBAT] [If age <15] To begin, we are interested in how home schooling has been for you so far during the Corona pandemic. First, we want to know about your place of doing your schoolwork at home during the Corona pandemic. How much do the following statements apply to you? [If age = 15] Below we would like to know more about the place where you were doing your schoolwork at home during the first period of the Corona pandemic, i.e., from March 2020 until the first relaxations. How much do the following statements apply to you? [IF age <=18 & >=16 ] Below, we would like to know more about the place where you were doing doing your schoolwork at home during the first period of the Corona pandemic, i.e., from March 2020 until the first easing. How much do the following statements apply to you?",
+          "text_de": "[ITEMBAT] [If age <15] Zunaechst interessiert uns, wie der Schulunterricht zu Hause waehrend der Corona-Pandemie bisher fuer Dich war. Als Erstes moechten wir etwas ueber Deinen Platz erfahren, an dem Du waehrend der Corona-Pandemie zu Hause Deine Schularbeiten erledigt hast. Wie sehr treffen die folgenden Aussagen auf Dich zu? [If age = 15] Im Folgenden moechten wir mehr ueber Deinen Platz wissen, an dem Du waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, zu Hause Deine Schulaufgaben erledigt hast. Wie sehr treffen die folgenden Aussagen auf Dich zu? [IF age <=18 & >=16 ] Im Folgenden moechten wir mehr ueber Ihren Platz wissen, an dem Sie waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, zu Hause Ihre Schulaufgaben erledigt haben. Wie sehr treffen die folgenden Aussagen auf Sie zu?",
+          "scale": "txt",
+          "filter": "age0400 <=18",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "29",
+          "concept": "cor0603",
+          "text": "I had my own room where I could work in peace.",
+          "text_de": "Ich hatte ein eigenes Zimmer, in dem ich in Ruhe arbeiten konnte.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "30",
+          "concept": "cor0603",
+          "text": "I worked where there was room.",
+          "text_de": "Ich arbeitete dort, wo gerade Platz war.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: applies completely",
+              "label_de": "7: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 2
+        }
+      ],
+      "sn": 8,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0700": {
+      "question": "cor0700",
+      "name": "cor0700",
+      "label": "During the initial period of the Corona pandemic, i.e. from March 2020 until the first relaxations, schools were closed for an extended period of time or only limited classes were available. Thinking back, on average, how much time did you spend on a normal day helping your children with homework or school work? If you do not have school-age children, please click 'Does not apply' .",
+      "label_de": "Waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, waren die Schulen fuer eine laengere Zeit geschlossen, oder es war nur ein eingeschraenkter Unterricht moeglich. Wenn Sie sich daran zurueck erinnern, wie viel Zeit haben Sie an einem normalen Tag durchschnittlich damit verbracht, Ihren Kindern bei Hausaufgaben oder bei Arbeiten fuer die Schule zu helfen? Wenn Sie keine schulpflichtigen Kinder haben, klicken Sie bitte auf 'Trifft nicht zu' .",
+      "items": [
+        {
+          "item": "1",
+          "number": "31",
+          "concept": "cor0700",
+          "text": "During the initial period of the Corona pandemic, i.e. from March 2020 until the first relaxations, schools were closed for an extended period of time or only limited classes were available. Thinking back, on average, how much time did you spend on a normal day helping your children with homework or school work? If you do not have school-age children, please click 'Does not apply' .",
+          "text_de": "Waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, waren die Schulen fuer eine laengere Zeit geschlossen, oder es war nur ein eingeschraenkter Unterricht moeglich. Wenn Sie sich daran zurueck erinnern, wie viel Zeit haben Sie an einem normalen Tag durchschnittlich damit verbracht, Ihren Kindern bei Hausaufgaben oder bei Arbeiten fuer die Schule zu helfen? Wenn Sie keine schulpflichtigen Kinder haben, klicken Sie bitte auf 'Trifft nicht zu' .",
+          "filter": "age0400 >=22",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply (I do not have a school-age child/no chores had to be done at home)",
+              "label_de": "-81: Trifft nicht zu (ich habe kein schulpflichtiges Kind/es mussten keine Aufgaben zu Hause erledigt werden)"
+            },
+            {
+              "value": 1,
+              "label": "1: less than half an hour",
+              "label_de": "1: weniger als eine halbe Stunde"
+            },
+            {
+              "value": 2,
+              "label": "2: half an hour to 1 hour",
+              "label_de": "2: eine halbe bis 1 Stunde"
+            },
+            {
+              "value": 3,
+              "label": "3: 1 to 2 hours",
+              "label_de": "3: 1 bis 2 Stunden"
+            },
+            {
+              "value": 4,
+              "label": "4: 2 to 3 hours",
+              "label_de": "4: 2 bis 3 Stunden"
+            },
+            {
+              "value": 5,
+              "label": "5: 3 to 4 hours",
+              "label_de": "5: 3 bis 4 Stunden"
+            },
+            {
+              "value": 6,
+              "label": "6: more than 4 hours",
+              "label_de": "6: mehr als 4 Stunden"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0701": {
+      "question": "cor0701",
+      "name": "cor0701",
+      "label": "During the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations, schools were closed for an extended period of time, schools were closed for an extended period of time, or limited classes were available. If you think back to that, how much time did you typically spend sitting at home on schoolwork in a day?",
+      "label_de": "Waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, waren die Schulen fuer eine laengere Zeit geschlossen, waren die Schulen fuer eine laengere Zeit geschlossen, oder es war nur ein eingeschraenkter Unterricht moeglich. Wenn Sie sich daran zurueck erinnern, wie viel Zeit haben Sie normalerweise an einem Tag zu Hause an Schulaufgaben gesessen?",
+      "items": [
+        {
+          "item": "1",
+          "number": "32",
+          "concept": "cor0701",
+          "text": "During the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations, schools were closed for an extended period of time, schools were closed for an extended period of time, or limited classes were available. If you think back to that, how much time did you typically spend sitting at home on schoolwork in a day?",
+          "text_de": "Waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, waren die Schulen fuer eine laengere Zeit geschlossen, waren die Schulen fuer eine laengere Zeit geschlossen, oder es war nur ein eingeschraenkter Unterricht moeglich. Wenn Sie sich daran zurueck erinnern, wie viel Zeit haben Sie normalerweise an einem Tag zu Hause an Schulaufgaben gesessen?",
+          "filter": "age0400 <=18 & age0400 >=16",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply (I had no schoolwork to do)",
+              "label_de": "-81: Trifft nicht zu (ich hatte keine Schulaufgaben auf)"
+            },
+            {
+              "value": 1,
+              "label": "1: less than half an hour",
+              "label_de": "1: weniger als eine halbe Stunde"
+            },
+            {
+              "value": 2,
+              "label": "2: half an hour to 1 hour",
+              "label_de": "2: eine halbe bis 1 Stunde"
+            },
+            {
+              "value": 3,
+              "label": "3: 1 to 2 hours",
+              "label_de": "3: 1 bis 2 Stunden"
+            },
+            {
+              "value": 4,
+              "label": "4: 2 to 3 hours",
+              "label_de": "4: 2 bis 3 Stunden"
+            },
+            {
+              "value": 5,
+              "label": "5: 3 to 4 hours",
+              "label_de": "5: 3 bis 4 Stunden"
+            },
+            {
+              "value": 6,
+              "label": "6: more than 4 hours",
+              "label_de": "6: mehr als 4 Stunden"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0702": {
+      "question": "cor0702",
+      "name": "cor0702",
+      "label": "During the early part of the Corona pandemic, schools were closed for an extended period of time, or limited classes were available. Thinking back, how much time did you usually spend at home on schoolwork in a day?",
+      "label_de": "Waehrend der ersten Zeit der Corona-Pandemie waren die Schulen fuer eine laengere Zeit geschlossen, oder es war nur ein eingeschraenkter Unterricht moeglich. Wenn Du daran zurueck denkst, wie viel Zeit hast Du normalerweise an einem Tag zu Hause an Schulaufgaben gesessen?",
+      "items": [
+        {
+          "item": "1",
+          "number": "33",
+          "concept": "cor0702",
+          "text": "During the early part of the Corona pandemic, schools were closed for an extended period of time, or limited classes were available. Thinking back, how much time did you usually spend at home on schoolwork in a day?",
+          "text_de": "Waehrend der ersten Zeit der Corona-Pandemie waren die Schulen fuer eine laengere Zeit geschlossen, oder es war nur ein eingeschraenkter Unterricht moeglich. Wenn Du daran zurueck denkst, wie viel Zeit hast Du normalerweise an einem Tag zu Hause an Schulaufgaben gesessen?",
+          "filter": "age0400 <=15",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply (I had no schoolwork to do)",
+              "label_de": "-81: Trifft nicht zu (ich hatte keine Schulaufgaben auf)"
+            },
+            {
+              "value": 1,
+              "label": "1: less than half an hour",
+              "label_de": "1: weniger als eine halbe Stunde"
+            },
+            {
+              "value": 2,
+              "label": "2: half an hour to 1 hour",
+              "label_de": "2: eine halbe bis 1 Stunde"
+            },
+            {
+              "value": 3,
+              "label": "3: 1 to 2 hours",
+              "label_de": "3: 1 bis 2 Stunden"
+            },
+            {
+              "value": 4,
+              "label": "4: 2 to 3 hours",
+              "label_de": "4: 2 bis 3 Stunden"
+            },
+            {
+              "value": 5,
+              "label": "5: 3 to 4 hours",
+              "label_de": "5: 3 bis 4 Stunden"
+            },
+            {
+              "value": 6,
+              "label": "6: more than 4 hours",
+              "label_de": "6: mehr als 4 Stunden"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0800": {
+      "question": "cor0800",
+      "name": "cor0800",
+      "label": "What is your assessment of government action to contain the Corona pandemic ?",
+      "label_de": "Wie beurteilen Sie die staatlichen Massnahmen zur Eindaemmung der Corona-Pandemie ?",
+      "items": [
+        {
+          "item": "1",
+          "number": "34",
+          "concept": "cor0800",
+          "text": "What is your assessment of government action to contain the Corona pandemic ?",
+          "text_de": "Wie beurteilen Sie die staatlichen Massnahmen zur Eindaemmung der Corona-Pandemie ?",
+          "filter": "age0400 >=16",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: totally inappropriate",
+              "label_de": "1: voellig unangemessen"
+            },
+            {
+              "value": 2,
+              "label": "2: rather inappropriate",
+              "label_de": "2: eher unangemessen"
+            },
+            {
+              "value": 3,
+              "label": "3: partly/partly",
+              "label_de": "3: teils/teils"
+            },
+            {
+              "value": 4,
+              "label": "4: rather appropriate",
+              "label_de": "4: eher angemessen"
+            },
+            {
+              "value": 5,
+              "label": "5: completely appropriate",
+              "label_de": "5: voellig angemessen"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0900": {
+      "question": "cor0900",
+      "name": "cor0900",
+      "label": "[ITEMBAT] If you think back to the early days of the Corona pandemic, that is, from March 2020 until the first easing, how much did you perceive the Corona pandemic as a threat to...",
+      "label_de": "[ITEMBAT] Wenn Sie sich an die erste Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, erinnern, wie sehr empfanden Sie die Corona-Pandemie als Bedrohung fuer...",
+      "items": [
+        {
+          "item": "0",
+          "number": "35",
+          "concept": "cor0900",
+          "text": "[ITEMBAT] If you think back to the early days of the Corona pandemic, that is, from March 2020 until the first easing, how much did you perceive the Corona pandemic as a threat to...",
+          "text_de": "[ITEMBAT] Wenn Sie sich an die erste Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, erinnern, wie sehr empfanden Sie die Corona-Pandemie als Bedrohung fuer...",
+          "scale": "txt",
+          "filter": "age0400 >=16",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "36",
+          "concept": "cor0900",
+          "text": "your health",
+          "text_de": "Ihre Gesundheit",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no threat to me at all",
+              "label_de": "1: ueberhaupt keine Bedrohung fuer mich"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme threat to me",
+              "label_de": "10: extreme Bedrohung fuer mich"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "37",
+          "concept": "cor0900",
+          "text": "your economic situation",
+          "text_de": "Ihre wirtschaftliche Lage",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no threat to me at all",
+              "label_de": "1: ueberhaupt keine Bedrohung fuer mich"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme threat to me",
+              "label_de": "10: extreme Bedrohung fuer mich"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "38",
+          "concept": "cor0900",
+          "text": "your opportunities for education and training",
+          "text_de": "Ihre Chancen auf Aus- und Weiterbildung",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no threat to me at all",
+              "label_de": "1: ueberhaupt keine Bedrohung fuer mich"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme threat to me",
+              "label_de": "10: extreme Bedrohung fuer mich"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "39",
+          "concept": "cor0900",
+          "text": "your personal freedom",
+          "text_de": "Ihre persoenliche Freiheit",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no threat to me at all",
+              "label_de": "1: ueberhaupt keine Bedrohung fuer mich"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme threat to me",
+              "label_de": "10: extreme Bedrohung fuer mich"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "40",
+          "concept": "cor0900",
+          "text": "your social life (e.g., your possibilities for meeting new people, maintaining existing contacts)",
+          "text_de": "Ihr Sozialleben (z.B. Ihre Moeglichkeiten neue Leute kennen zu lernen, bestehende Kontakte zu pflegen)",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no threat to me at all",
+              "label_de": "1: ueberhaupt keine Bedrohung fuer mich"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme threat to me",
+              "label_de": "10: extreme Bedrohung fuer mich"
+            }
+          ],
+          "sn": 5
+        }
+      ],
+      "sn": 13,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0905": {
+      "question": "cor0905",
+      "name": "cor0905",
+      "label": "[ITEMBAT] If you remember the time when your life was particularly affected by the corona pandemic, how much did you feel the corona virus was a threat to...",
+      "label_de": "[ITEMBAT] Wenn Du Dich an die Zeit erinnerst, in der Dein Leben besonders stark durch die Corona-Pandemie betroffen war, wie sehr hast Du das Coronavirus als Bedrohung empfunden fuer...",
+      "items": [
+        {
+          "item": "0",
+          "number": "41",
+          "concept": "cor0905",
+          "text": "[ITEMBAT] If you remember the time when your life was particularly affected by the corona pandemic, how much did you feel the corona virus was a threat to...",
+          "text_de": "[ITEMBAT] Wenn Du Dich an die Zeit erinnerst, in der Dein Leben besonders stark durch die Corona-Pandemie betroffen war, wie sehr hast Du das Coronavirus als Bedrohung empfunden fuer...",
+          "scale": "txt",
+          "filter": "age0400 <=15",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "42",
+          "concept": "cor0905",
+          "text": "your health",
+          "text_de": "Deine Gesundheit",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no threat to me at all",
+              "label_de": "1: ueberhaupt keine Bedrohung fuer mich"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme threat to me",
+              "label_de": "10: extreme Bedrohung fuer mich"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "43",
+          "concept": "cor0905",
+          "text": "your performance at school",
+          "text_de": "Deine Leistungen in der Schule",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no threat to me at all",
+              "label_de": "1: ueberhaupt keine Bedrohung fuer mich"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme threat to me",
+              "label_de": "10: extreme Bedrohung fuer mich"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "44",
+          "concept": "cor0905",
+          "text": "your relationships with other people",
+          "text_de": "Deine Beziehungen zu anderen Menschen",
+          "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
+          "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no threat to me at all",
+              "label_de": "1: ueberhaupt keine Bedrohung fuer mich"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme threat to me",
+              "label_de": "10: extreme Bedrohung fuer mich"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 14,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor1000": {
+      "question": "cor1000",
+      "name": "cor1000",
+      "label": "[ITEMBAT] Thinking about the first period of the Corona crisis, i.e. from March 2020 until the first easing, how much did you experience the following stresses? Unless an area does not concern you, please tick 'Does not apply'.",
+      "label_de": "[ITEMBAT] Wenn Sie an die erste Zeit der Corona-Krise, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, denken: Wie sehr haben Sie die folgenden Belastungen erlebt? Sofern Sie ein Bereich nicht betrifft, klicken Sie bitte 'Trifft nicht zu' an.",
+      "items": [
+        {
+          "item": "0",
+          "number": "45",
+          "concept": "cor1000",
+          "text": "[ITEMBAT] Thinking about the first period of the Corona crisis, i.e. from March 2020 until the first easing, how much did you experience the following stresses? Unless an area does not concern you, please tick 'Does not apply'.",
+          "text_de": "[ITEMBAT] Wenn Sie an die erste Zeit der Corona-Krise, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, denken: Wie sehr haben Sie die folgenden Belastungen erlebt? Sofern Sie ein Bereich nicht betrifft, klicken Sie bitte 'Trifft nicht zu' an.",
+          "scale": "txt",
+          "filter": "age0400 >=16",
+          "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "46",
+          "concept": "cor1000",
+          "text": "social isolation / loneliness",
+          "text_de": "Soziale Isolation / Einsamkeit",
+          "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all / no burden",
+              "label_de": "1: gar nicht / keine Belastung"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme burden",
+              "label_de": "10: extreme Belastung"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "47",
+          "concept": "cor1000",
+          "text": "being separated from important people",
+          "text_de": "Getrenntsein von wichtigen Personen",
+          "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all / no burden",
+              "label_de": "1: gar nicht / keine Belastung"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme burden",
+              "label_de": "10: extreme Belastung"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "48",
+          "concept": "cor1000",
+          "text": "lack of leisure activities such as sports",
+          "text_de": "fehlende Freizeitaktivitaeten wie Sport",
+          "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all / no burden",
+              "label_de": "1: gar nicht / keine Belastung"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme burden",
+              "label_de": "10: extreme Belastung"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "49",
+          "concept": "cor1000",
+          "text": "unregulated daily routine / weekly rhythm",
+          "text_de": "ungeregelter Tagesablauf / Wochenrhythmus",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all / no burden",
+              "label_de": "1: gar nicht / keine Belastung"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme burden",
+              "label_de": "10: extreme Belastung"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "50",
+          "concept": "cor1000",
+          "text": "increased need for child care",
+          "text_de": "erhoehter Betreuungsbedarf der Kinder",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all / no burden",
+              "label_de": "1: gar nicht / keine Belastung"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme burden",
+              "label_de": "10: extreme Belastung"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "51",
+          "concept": "cor1000",
+          "text": "teaching the children at home",
+          "text_de": "Unterricht der Kinder zu Hause",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all / no burden",
+              "label_de": "1: gar nicht / keine Belastung"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme burden",
+              "label_de": "10: extreme Belastung"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "52",
+          "concept": "cor1000",
+          "text": "overuse on the job",
+          "text_de": "Ueberbeanspruchung im Job",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all / no burden",
+              "label_de": "1: gar nicht / keine Belastung"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme burden",
+              "label_de": "10: extreme Belastung"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "53",
+          "concept": "cor1000",
+          "text": "restriction of civil rights",
+          "text_de": "Einschraenkung von Buergerrechten",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all / no burden",
+              "label_de": "1: gar nicht / keine Belastung"
+            },
+            {
+              "value": 10,
+              "label": "10: extreme burden",
+              "label_de": "10: extreme Belastung"
+            }
+          ],
+          "sn": 8
+        }
+      ],
+      "sn": 15,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor1008": {
+      "question": "cor1008",
+      "name": "cor1008",
+      "label": "[ITEMBAT] Because of the Corona pandemic, everyday life has changed for many people. When you think about the time when you were supposed to stay at home first and foremost, how bad were the following things for you during that time?",
+      "label_de": "[ITEMBAT] Aufgrund der Corona-Pandemie hat sich der Alltag fuer viele Menschen veraendert. Wenn Du an die Zeit denkst, in der man vor allem zu Hause bleiben sollte, wie schlimm waren die folgenden Dinge in der Zeit fuer Dich?",
+      "items": [
+        {
+          "item": "0",
+          "number": "54",
+          "concept": "cor1008",
+          "text": "[ITEMBAT] Because of the Corona pandemic, everyday life has changed for many people. When you think about the time when you were supposed to stay at home first and foremost, how bad were the following things for you during that time?",
+          "text_de": "[ITEMBAT] Aufgrund der Corona-Pandemie hat sich der Alltag fuer viele Menschen veraendert. Wenn Du an die Zeit denkst, in der man vor allem zu Hause bleiben sollte, wie schlimm waren die folgenden Dinge in der Zeit fuer Dich?",
+          "scale": "txt",
+          "filter": "age0400 <=15",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "55",
+          "concept": "cor1008",
+          "text": "see friends and relatives less often",
+          "text_de": "Freunde und Verwandte seltener sehen",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not happen to me",
+              "label_de": "-81: kommt bei mir nicht vor"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all bad",
+              "label_de": "1: gar nicht schlimm"
+            },
+            {
+              "value": 10,
+              "label": "10: very bad",
+              "label_de": "10: sehr schlimm"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "56",
+          "concept": "cor1008",
+          "text": "no longer go to the gym so often",
+          "text_de": "nicht mehr so oft zum Sport gehen",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not happen to me",
+              "label_de": "-81: kommt bei mir nicht vor"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all bad",
+              "label_de": "1: gar nicht schlimm"
+            },
+            {
+              "value": 10,
+              "label": "10: very bad",
+              "label_de": "10: sehr schlimm"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "57",
+          "concept": "cor1008",
+          "text": "have an unregulated daily routine",
+          "text_de": "einen ungeregelten Tagesablauf haben",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not happen to me",
+              "label_de": "-81: kommt bei mir nicht vor"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all bad",
+              "label_de": "1: gar nicht schlimm"
+            },
+            {
+              "value": 10,
+              "label": "10: very bad",
+              "label_de": "10: sehr schlimm"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "58",
+          "concept": "cor1008",
+          "text": "to have schooling (also) at home",
+          "text_de": "Schulunterricht (auch) zu Hause zu haben",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not happen to me",
+              "label_de": "-81: kommt bei mir nicht vor"
+            },
+            {
+              "value": 1,
+              "label": "1: not at all bad",
+              "label_de": "1: gar nicht schlimm"
+            },
+            {
+              "value": 10,
+              "label": "10: very bad",
+              "label_de": "10: sehr schlimm"
+            }
+          ],
+          "sn": 4
+        }
+      ],
+      "sn": 16,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "emi0110": {
+      "question": "emi0110",
+      "name": "emi0110",
+      "label": "[ITEMBAT] During the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations, how often did you feel affected by the complains?",
+      "label_de": "[ITEMBAT] Wie oft fuehlten Sie sich waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, durch die folgenden Beschwerden beeintraechtigt?",
+      "items": [
+        {
+          "item": "0",
+          "number": "59",
+          "concept": "emi0110",
+          "text": "[ITEMBAT] During the initial period of the Corona pandemic, i.e., from March 2020 until the first relaxations, how often did you feel affected by the complains?",
+          "text_de": "[ITEMBAT] Wie oft fuehlten Sie sich waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, durch die folgenden Beschwerden beeintraechtigt?",
+          "scale": "txt",
+          "filter": "age0400 >=16",
+          "description": "Source: Adapted from: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening for psychiatric disorders with the Patient Health Questionnaire (PHQ). Results from the German validation study. Diagnostica, 50(4), 171-181.",
+          "description_de": "Source: Adaptiert von: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening psychischer Stoerungen mit dem Gesundheitsfragebogen fuer Patienten (PHQ-D): Ergebnisse der deutschen Validierungsstudie. Diagnostica, 50(4), 171-181.",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "60",
+          "concept": "emi0110",
+          "text": "little interest or pleasure in your activities",
+          "text_de": "Wenig Interesse oder Freude an Ihren Taetigkeiten",
+          "description": "Source: Adapted from: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening for psychiatric disorders with the Patient Health Questionnaire (PHQ). Results from the German validation study. Diagnostica, 50(4), 171-181.",
+          "description_de": "Source: Adaptiert von: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening psychischer Stoerungen mit dem Gesundheitsfragebogen fuer Patienten (PHQ-D): Ergebnisse der deutschen Validierungsstudie. Diagnostica, 50(4), 171-181.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: on single days",
+              "label_de": "2: an einzelnen Tagen"
+            },
+            {
+              "value": 3,
+              "label": "3: more than half of the days",
+              "label_de": "3: an mehr als der Haelfte der Tage"
+            },
+            {
+              "value": 4,
+              "label": "4: almost every day",
+              "label_de": "4: beinahe jeden Tag"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "61",
+          "concept": "emi0110",
+          "text": "dejection, melancholy or hopelessness",
+          "text_de": "Niedergeschlagenheit, Schwermut oder Hoffnungslosigkeit",
+          "description": "Source: Adapted from: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening for psychiatric disorders with the Patient Health Questionnaire (PHQ). Results from the German validation study. Diagnostica, 50(4), 171-181.",
+          "description_de": "Source: Adaptiert von: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening psychischer Stoerungen mit dem Gesundheitsfragebogen fuer Patienten (PHQ-D): Ergebnisse der deutschen Validierungsstudie. Diagnostica, 50(4), 171-181.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: on single days",
+              "label_de": "2: an einzelnen Tagen"
+            },
+            {
+              "value": 3,
+              "label": "3: more than half of the days",
+              "label_de": "3: an mehr als der Haelfte der Tage"
+            },
+            {
+              "value": 4,
+              "label": "4: almost every day",
+              "label_de": "4: beinahe jeden Tag"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "62",
+          "concept": "emi0110",
+          "text": "nervousness, anxiety or tension",
+          "text_de": "Nervositaet, Aengstlichkeit oder Anspannung",
+          "description": "Source: Adapted from: Spitzer, R.L., Kroenke, K., Williams, J.B., Loewe, B. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. May 22; 166 (10): 1092-7",
+          "description_de": "Source: Adapted from: Spitzer, R.L., Kroenke, K., Williams, J.B., Loewe, B. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. May 22; 166 (10): 1092-7",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: on single days",
+              "label_de": "2: an einzelnen Tagen"
+            },
+            {
+              "value": 3,
+              "label": "3: more than half of the days",
+              "label_de": "3: an mehr als der Haelfte der Tage"
+            },
+            {
+              "value": 4,
+              "label": "4: almost every day",
+              "label_de": "4: beinahe jeden Tag"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "63",
+          "concept": "emi0110",
+          "text": "not being able to stop or control worries",
+          "text_de": "Nicht in der Lage sein, Sorgen zu stoppen oder zu kontrollieren",
+          "description": "Source: Adapted from: Spitzer, R.L., Kroenke, K., Williams, J.B., Loewe, B. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. May 22; 166 (10): 1092-7",
+          "description_de": "Source: Adapted from: Spitzer, R.L., Kroenke, K., Williams, J.B., Loewe, B. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. May 22; 166 (10): 1092-7",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: on single days",
+              "label_de": "2: an einzelnen Tagen"
+            },
+            {
+              "value": 3,
+              "label": "3: more than half of the days",
+              "label_de": "3: an mehr als der Haelfte der Tage"
+            },
+            {
+              "value": 4,
+              "label": "4: almost every day",
+              "label_de": "4: beinahe jeden Tag"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "64",
+          "concept": "emi0110",
+          "text": "difficulty concentrating",
+          "text_de": "Konzentrationsschwierigkeiten",
+          "description": "Source: Adapted from: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening for psychiatric disorders with the Patient Health Questionnaire (PHQ). Results from the German validation study. Diagnostica, 50(4), 171-181.",
+          "description_de": "Source: Adaptiert von: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening psychischer Stoerungen mit dem Gesundheitsfragebogen fuer Patienten (PHQ-D): Ergebnisse der deutschen Validierungsstudie. Diagnostica, 50(4), 171-181.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: on single days",
+              "label_de": "2: an einzelnen Tagen"
+            },
+            {
+              "value": 3,
+              "label": "3: more than half of the days",
+              "label_de": "3: an mehr als der Haelfte der Tage"
+            },
+            {
+              "value": 4,
+              "label": "4: almost every day",
+              "label_de": "4: beinahe jeden Tag"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "65",
+          "concept": "emi0110",
+          "text": "difficulty focusing on my goals",
+          "text_de": "Schwierigkeiten, mich auf meine Ziele zu fokussieren",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: on single days",
+              "label_de": "2: an einzelnen Tagen"
+            },
+            {
+              "value": 3,
+              "label": "3: more than half of the days",
+              "label_de": "3: an mehr als der Haelfte der Tage"
+            },
+            {
+              "value": 4,
+              "label": "4: almost every day",
+              "label_de": "4: beinahe jeden Tag"
+            }
+          ],
+          "sn": 6
+        }
+      ],
+      "sn": 17,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor1200": {
+      "question": "cor1200",
+      "name": "cor1200",
+      "label": "[ITEMBAT] [If age >= 16] If you remember the first period of the Corona pandemic, i.e., from March 2020 until the first relaxations, how often did you experience the following things? [If age <= 15] If you remember the time when you had to stay mostly at home, how often did you experience the following things?",
+      "label_de": "[ITEMBAT] [If age >= 16] Wenn Sie sich an die erste Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, erinnern, wie haeufig haben Sie die folgenden Dinge erlebt? [If age <= 15] Wenn Du Dich an die Zeit erinnerst, in der du vor allem zu Hause bleiben musstest, wie haeufig hast Du die folgenden Dinge erlebt?",
+      "items": [
+        {
+          "item": "0",
+          "number": "66",
+          "concept": "cor1200",
+          "text": "[ITEMBAT] [If age >= 16] If you remember the first period of the Corona pandemic, i.e., from March 2020 until the first relaxations, how often did you experience the following things? [If age <= 15] If you remember the time when you had to stay mostly at home, how often did you experience the following things?",
+          "text_de": "[ITEMBAT] [If age >= 16] Wenn Sie sich an die erste Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, erinnern, wie haeufig haben Sie die folgenden Dinge erlebt? [If age <= 15] Wenn Du Dich an die Zeit erinnerst, in der du vor allem zu Hause bleiben musstest, wie haeufig hast Du die folgenden Dinge erlebt?",
+          "scale": "txt",
+          "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "67",
+          "concept": "cor1200",
+          "text": "more dispute at home",
+          "text_de": "mehr Streit zu Hause",
+          "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rarely",
+              "label_de": "2: selten"
+            },
+            {
+              "value": 3,
+              "label": "3: once in a while",
+              "label_de": "3: ab und zu"
+            },
+            {
+              "value": 4,
+              "label": "4: more often",
+              "label_de": "4: oefter"
+            },
+            {
+              "value": 5,
+              "label": "5: very often",
+              "label_de": "5: sehr haeufig"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "68",
+          "concept": "cor1200",
+          "text": "a worse mood at home",
+          "text_de": "eine schlechtere Stimmung zu Hause",
+          "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rarely",
+              "label_de": "2: selten"
+            },
+            {
+              "value": 3,
+              "label": "3: once in a while",
+              "label_de": "3: ab und zu"
+            },
+            {
+              "value": 4,
+              "label": "4: more often",
+              "label_de": "4: oefter"
+            },
+            {
+              "value": 5,
+              "label": "5: very often",
+              "label_de": "5: sehr haeufig"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "69",
+          "concept": "cor1200",
+          "text": "a better family life at home",
+          "text_de": "ein besseres Familienleben zu Hause",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rarely",
+              "label_de": "2: selten"
+            },
+            {
+              "value": 3,
+              "label": "3: once in a while",
+              "label_de": "3: ab und zu"
+            },
+            {
+              "value": 4,
+              "label": "4: more often",
+              "label_de": "4: oefter"
+            },
+            {
+              "value": 5,
+              "label": "5: very often",
+              "label_de": "5: sehr haeufig"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "70",
+          "concept": "cor1200",
+          "text": "greater cohesion at home",
+          "text_de": "einen groesseren Zusammenhalt zu Hause",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rarely",
+              "label_de": "2: selten"
+            },
+            {
+              "value": 3,
+              "label": "3: once in a while",
+              "label_de": "3: ab und zu"
+            },
+            {
+              "value": 4,
+              "label": "4: more often",
+              "label_de": "4: oefter"
+            },
+            {
+              "value": 5,
+              "label": "5: very often",
+              "label_de": "5: sehr haeufig"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "71",
+          "concept": "cor1200",
+          "text": "more joint activities (e.g. playing games, sports, walks)",
+          "text_de": "mehr gemeinsame Aktivitaeten (z.B. Spiele spielen, Sport, Spaziergaenge)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rarely",
+              "label_de": "2: selten"
+            },
+            {
+              "value": 3,
+              "label": "3: once in a while",
+              "label_de": "3: ab und zu"
+            },
+            {
+              "value": 4,
+              "label": "4: more often",
+              "label_de": "4: oefter"
+            },
+            {
+              "value": 5,
+              "label": "5: very often",
+              "label_de": "5: sehr haeufig"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "72",
+          "concept": "cor1200",
+          "text": "more appreciation by other family members",
+          "text_de": "mehr Wertschaetzung durch andere Familienmitglieder",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rarely",
+              "label_de": "2: selten"
+            },
+            {
+              "value": 3,
+              "label": "3: once in a while",
+              "label_de": "3: ab und zu"
+            },
+            {
+              "value": 4,
+              "label": "4: more often",
+              "label_de": "4: oefter"
+            },
+            {
+              "value": 5,
+              "label": "5: very often",
+              "label_de": "5: sehr haeufig"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "73",
+          "concept": "cor1200",
+          "text": "social gathering with friends or relatives",
+          "text_de": "geselliges Zusammensein mit Freunden oder Verwandten",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rarely",
+              "label_de": "2: selten"
+            },
+            {
+              "value": 3,
+              "label": "3: once in a while",
+              "label_de": "3: ab und zu"
+            },
+            {
+              "value": 4,
+              "label": "4: more often",
+              "label_de": "4: oefter"
+            },
+            {
+              "value": 5,
+              "label": "5: very often",
+              "label_de": "5: sehr haeufig"
+            }
+          ],
+          "sn": 7
+        }
+      ],
+      "sn": 18,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "hoe1200": {
+      "question": "hoe1200",
+      "name": "hoe1200",
+      "label": "[ITEMBAT] [IF age>=16] Please indicate the extent to which the following statements were true relative to your home during the initial period of the Corona pandemic, i.e., from March 2020 until the first easing. [IF age<=15] Please indicate the extent to which the following statements were true relative to your home during the initial period of the Corona pandemic.",
+      "label_de": "[ITEMBAT] [IF age>=16] Bitte geben Sie an, inwiefern die nachfolgenden Aussagen bezogen auf Ihr Zuhause waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, stimmten. [IF age<=15] Bitte gib an, inwiefern die nachfolgenden Aussagen bezogen auf Dein Zuhause waehrend der ersten Zeit der Corona-Pandemie gestimmt haben.",
+      "items": [
+        {
+          "item": "0",
+          "number": "79",
+          "concept": "hoe1200",
+          "text": "[ITEMBAT] [IF age>=16] Please indicate the extent to which the following statements were true relative to your home during the initial period of the Corona pandemic, i.e., from March 2020 until the first easing. [IF age<=15] Please indicate the extent to which the following statements were true relative to your home during the initial period of the Corona pandemic.",
+          "text_de": "[ITEMBAT] [IF age>=16] Bitte geben Sie an, inwiefern die nachfolgenden Aussagen bezogen auf Ihr Zuhause waehrend der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, stimmten. [IF age<=15] Bitte gib an, inwiefern die nachfolgenden Aussagen bezogen auf Dein Zuhause waehrend der ersten Zeit der Corona-Pandemie gestimmt haben.",
+          "scale": "txt",
+          "filter": "age0400 >=9",
+          "description": "Source: Adapted from: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-454",
+          "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
+          "sn": 5
+        },
+        {
+          "item": "1",
+          "number": "80",
+          "concept": "hoe1200",
+          "text": "At home, we could not think a clear thought.",
+          "text_de": "Bei uns zu Hause konnte man keinen klaren Gedanken fassen.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-454",
+          "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not correct at all",
+              "label_de": "1: stimmt ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rather not correct",
+              "label_de": "2: stimmt eher nicht"
+            },
+            {
+              "value": 3,
+              "label": "3: partly correct",
+              "label_de": "3: stimmt etwas"
+            },
+            {
+              "value": 4,
+              "label": "4: rather correct",
+              "label_de": "4: stimmt eher"
+            },
+            {
+              "value": 5,
+              "label": "5: fully correct",
+              "label_de": "5: stimmt genau"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "2",
+          "number": "81",
+          "concept": "hoe1200",
+          "text": "Things were going haywire at our house.",
+          "text_de": "Bei uns zu Hause ging es drunter und drueber.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-454",
+          "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not correct at all",
+              "label_de": "1: stimmt ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rather not correct",
+              "label_de": "2: stimmt eher nicht"
+            },
+            {
+              "value": 3,
+              "label": "3: partly correct",
+              "label_de": "3: stimmt etwas"
+            },
+            {
+              "value": 4,
+              "label": "4: rather correct",
+              "label_de": "4: stimmt eher"
+            },
+            {
+              "value": 5,
+              "label": "5: fully correct",
+              "label_de": "5: stimmt genau"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "3",
+          "number": "82",
+          "concept": "hoe1200",
+          "text": "Normally we had everything under control at home.",
+          "text_de": "Normalerweise hatten wir zu Hause alles im Griff.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-454",
+          "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not correct at all",
+              "label_de": "1: stimmt ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rather not correct",
+              "label_de": "2: stimmt eher nicht"
+            },
+            {
+              "value": 3,
+              "label": "3: partly correct",
+              "label_de": "3: stimmt etwas"
+            },
+            {
+              "value": 4,
+              "label": "4: rather correct",
+              "label_de": "4: stimmt eher"
+            },
+            {
+              "value": 5,
+              "label": "5: fully correct",
+              "label_de": "5: stimmt genau"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "4",
+          "number": "83",
+          "concept": "hoe1200",
+          "text": "There was a calm atmosphere at our home.",
+          "text_de": "Bei uns zu Hause herrschte eine ruhige Atmosphaere.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-454",
+          "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not correct at all",
+              "label_de": "1: stimmt ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rather not correct",
+              "label_de": "2: stimmt eher nicht"
+            },
+            {
+              "value": 3,
+              "label": "3: partly correct",
+              "label_de": "3: stimmt etwas"
+            },
+            {
+              "value": 4,
+              "label": "4: rather correct",
+              "label_de": "4: stimmt eher"
+            },
+            {
+              "value": 5,
+              "label": "5: fully correct",
+              "label_de": "5: stimmt genau"
+            }
+          ],
+          "sn": 5
+        }
+      ],
+      "sn": 19,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor1400": {
+      "question": "cor1400",
+      "name": "cor1400",
+      "label": "[ITEMBAT] During the initial period of the corona pandemic, i.e., from March 2020 until the first easing, what behaviors did you have that were less than, the same as, or more than before the corona virus pandemic outbreak? You can grade your answers from -3 (Significantly less) to 0 (Same) to 3 (Significantly more).",
+      "label_de": "[ITEMBAT] Welche Verhaltensweisen haben Sie in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, weniger, gleich oder mehr als vor dem Ausbruch der Coronavirus-Pandemie gezeigt? Sie koennen Ihre Antworten von -3 (Deutlich weniger) ueber 0 (Gleich) bis 3 (Deutlich mehr) abstufen.",
+      "items": [
+        {
+          "item": "0",
+          "number": "84",
+          "concept": "cor1400",
+          "text": "[ITEMBAT] During the initial period of the corona pandemic, i.e., from March 2020 until the first easing, what behaviors did you have that were less than, the same as, or more than before the corona virus pandemic outbreak? You can grade your answers from -3 (Significantly less) to 0 (Same) to 3 (Significantly more).",
+          "text_de": "[ITEMBAT] Welche Verhaltensweisen haben Sie in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen, weniger, gleich oder mehr als vor dem Ausbruch der Coronavirus-Pandemie gezeigt? Sie koennen Ihre Antworten von -3 (Deutlich weniger) ueber 0 (Gleich) bis 3 (Deutlich mehr) abstufen.",
+          "scale": "txt",
+          "filter": "age0400 >=16",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "85",
+          "concept": "cor1400",
+          "text": "I washed/disinfected my hands.",
+          "text_de": "Ich wusch/desinfizierte mir die Haende.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "86",
+          "concept": "cor1400",
+          "text": "I shopped in supermarkets.",
+          "text_de": "Ich kaufte in Supermaerkten ein.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "87",
+          "concept": "cor1400",
+          "text": "I visited public places/ events.",
+          "text_de": "Ich besuchte oeffentliche Plaetze/ Veranstaltungen.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "88",
+          "concept": "cor1400",
+          "text": "I used public transport.",
+          "text_de": "Ich nutzte oeffentliche Verkehrsmittel.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "89",
+          "concept": "cor1400",
+          "text": "I stayed home.",
+          "text_de": "Ich blieb zu Hause.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "90",
+          "concept": "cor1400",
+          "text": "I visited my family.",
+          "text_de": "Ich besuchte meine Familie.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "91",
+          "concept": "cor1400",
+          "text": "I met with acquaintances and friends.",
+          "text_de": "Ich traf mich mit Bekannten und Freunden.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 7
+        }
+      ],
+      "sn": 20,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor1407": {
+      "question": "cor1407",
+      "name": "cor1407",
+      "label": "[ITEMBAT] During the first period of pandemic corona, what things did you do less often, the same amount of times, or more than you did before the corona virus? You can grade your answers from -3 (Significantly less) to 0 (Same) to +3 (Significantly more).",
+      "label_de": "[ITEMBAT] Welche Dinge hast Du in der ersten Zeit der Corona-Pandemie weniger oft, gleich oft oder mehr als vor dem Coronavirus getan? Du kannst Deine Antworten von -3 (Deutlich weniger) ueber 0 (Gleich) bis +3 (Deutlich mehr) abstufen.",
+      "items": [
+        {
+          "item": "0",
+          "number": "92",
+          "concept": "cor1407",
+          "text": "[ITEMBAT] During the first period of pandemic corona, what things did you do less often, the same amount of times, or more than you did before the corona virus? You can grade your answers from -3 (Significantly less) to 0 (Same) to +3 (Significantly more).",
+          "text_de": "[ITEMBAT] Welche Dinge hast Du in der ersten Zeit der Corona-Pandemie weniger oft, gleich oft oder mehr als vor dem Coronavirus getan? Du kannst Deine Antworten von -3 (Deutlich weniger) ueber 0 (Gleich) bis +3 (Deutlich mehr) abstufen.",
+          "scale": "txt",
+          "filter": "age0400 <=15",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "93",
+          "concept": "cor1407",
+          "text": "I washed my hands.",
+          "text_de": "Ich wusch mir die Haende.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "94",
+          "concept": "cor1407",
+          "text": "I shopped in supermarkets.",
+          "text_de": "Ich kaufte in Supermaerkten ein.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "95",
+          "concept": "cor1407",
+          "text": "I was in public places, e.g. playgrounds, sports fields",
+          "text_de": "Ich war auf oeffentlichen Plaetzen, z.B. Spielplaetzen, Sportplaetzen",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "96",
+          "concept": "cor1407",
+          "text": "I took public transportation, such as the bus or train.",
+          "text_de": "Ich fuhr mit oeffentlichen Verkehrsmitteln, z.B. dem Bus oder der Bahn.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "97",
+          "concept": "cor1407",
+          "text": "I stayed at home.",
+          "text_de": "Ich blieb zu Hause.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "98",
+          "concept": "cor1407",
+          "text": "I visited my family.",
+          "text_de": "Ich besuchte meine Familie.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "99",
+          "concept": "cor1407",
+          "text": "I met with friends.",
+          "text_de": "Ich traf mich mit Freunden.",
+          "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
+          "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I do not work from home",
+              "label_de": "-82: Ich arbeite nicht im Homeoffice"
+            },
+            {
+              "value": -81,
+              "label": "-81: does not apply, I was not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+            },
+            {
+              "value": 1,
+              "label": "1: -3 (significantly less)",
+              "label_de": "1: -3 (Deutlich weniger)"
+            },
+            {
+              "value": 2,
+              "label": "2: -2",
+              "label_de": "2: -2"
+            },
+            {
+              "value": 3,
+              "label": "3: -1",
+              "label_de": "3: -1"
+            },
+            {
+              "value": 4,
+              "label": "4: 0 (same)",
+              "label_de": "4: 0 (Gleich)"
+            },
+            {
+              "value": 5,
+              "label": "5: +1",
+              "label_de": "5: +1"
+            },
+            {
+              "value": 6,
+              "label": "6: +2",
+              "label_de": "6: +2"
+            },
+            {
+              "value": 7,
+              "label": "7: +3 (significantly more)",
+              "label_de": "7: +3 (Deutlich mehr)"
+            }
+          ],
+          "sn": 7
+        }
+      ],
+      "sn": 21,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor1500": {
+      "question": "cor1500",
+      "name": "cor1500",
+      "label": "[ITEMBAT] How much do you agree with the following statements?",
+      "label_de": "[ITEMBAT] Wie sehr stimmen Sie den folgenden Aussagen zu?",
+      "items": [
+        {
+          "item": "0",
+          "number": "100",
+          "concept": "cor1500",
+          "text": "[ITEMBAT] How much do you agree with the following statements?",
+          "text_de": "[ITEMBAT] Wie sehr stimmen Sie den folgenden Aussagen zu?",
+          "scale": "txt",
+          "filter": "age0400 >=16",
+          "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "101",
+          "concept": "cor1500",
+          "text": "I worry about how to change difficult situations.",
+          "text_de": "Ich mache mir Gedanken darueber, wie ich schwierige Situationen aendern kann.",
+          "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I do not agree at all",
+              "label_de": "1: ich stimme ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: I agree completely",
+              "label_de": "7: ich stimme voll und ganz zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "102",
+          "concept": "cor1500",
+          "text": "No matter what, I am in control of myself and my reactions.",
+          "text_de": "Egal was passiert, ich habe mich selbst und meine Reaktionen unter Kontrolle.",
+          "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I do not agree at all",
+              "label_de": "1: ich stimme ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: I agree completely",
+              "label_de": "7: ich stimme voll und ganz zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "103",
+          "concept": "cor1500",
+          "text": "I am convinced that I develop myself by dealing with difficult situations.",
+          "text_de": "Ich bin ueberzeugt, dass ich mich durch den Umgang mit schwierigen Situationen weiterentwickle.",
+          "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I do not agree at all",
+              "label_de": "1: ich stimme ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: I agree completely",
+              "label_de": "7: ich stimme voll und ganz zu"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "104",
+          "concept": "cor1500",
+          "text": "I actively try to compensate for setbacks that affect my life.",
+          "text_de": "Ich versuche aktiv, Rueckschlaege, die mein Leben beeinflussen, auszugleichen.",
+          "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I do not agree at all",
+              "label_de": "1: ich stimme ueberhaupt nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7: I agree completely",
+              "label_de": "7: ich stimme voll und ganz zu"
+            }
+          ],
+          "sn": 4
+        }
+      ],
+      "sn": 22,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor1600": {
+      "question": "cor1600",
+      "name": "cor1600",
+      "label": "[ITEMBAT] During the initial period of the Corona pandemic, that is, from March 2020 until the first relaxations, what did you do to deal with the stresses and the consequences of the pandemic?",
+      "label_de": "[ITEMBAT] Was haben Sie in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen getan, um mit den Belastungen und den Folgen der Pandemie umzugehen?",
+      "items": [
+        {
+          "item": "0",
+          "number": "105",
+          "concept": "cor1600",
+          "text": "[ITEMBAT] During the initial period of the Corona pandemic, that is, from March 2020 until the first relaxations, what did you do to deal with the stresses and the consequences of the pandemic?",
+          "text_de": "[ITEMBAT] Was haben Sie in der ersten Zeit der Corona-Pandemie, d.h. seit Maerz 2020 bis zu den ersten Lockerungen getan, um mit den Belastungen und den Folgen der Pandemie umzugehen?",
+          "scale": "txt",
+          "filter": "age0400 >=16",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "106",
+          "concept": "cor1600",
+          "text": "I listened to expert advice and followed official instructions.",
+          "text_de": "Ich hoerte auf den Expertenrat und folgte offiziellen Anweisungen.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "107",
+          "concept": "cor1600",
+          "text": "I turned to my work or other activities to distract myself (e.g., housework, gardening, creative activities, sports).",
+          "text_de": "Ich wendete mich meiner Arbeit oder anderen Aktivitaeten zu, um mich abzulenken (z.B. Haus- und Gartenarbeit, kreative Taetigkeiten, Sport).",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "108",
+          "concept": "cor1600",
+          "text": "I surrendered to my fate; sometimes you just have bad luck.",
+          "text_de": "Ich gab mich meinem Schicksal hin; manchmal hat man einfach Pech.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "109",
+          "concept": "cor1600",
+          "text": "I ate, drank, smoked or took medication to feel better.",
+          "text_de": "Ich ass, trank, rauchte oder nahm Medikamente, um mich besser zu fuehlen.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "110",
+          "concept": "cor1600",
+          "text": "I tried to maintain social contacts via phone, Skype, or similar.",
+          "text_de": "Ich versuchte soziale Kontakte via Telefon, Skype, o.ae. zu pflegen.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "111",
+          "concept": "cor1600",
+          "text": "I was doing something completely new that I would never have done under different circumstances.",
+          "text_de": "Ich machte etwas ganz Neues, das ich unter anderen Umstaenden niemals gemacht haette.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 6
+        }
+      ],
+      "sn": 23,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor1606": {
+      "question": "cor1606",
+      "name": "cor1606",
+      "label": "[ITEMBAT] What did you do to deal with the situation during the time that you had to stay at home primarily?",
+      "label_de": "[ITEMBAT] Was hast Du in der Zeit, in der Du vor allem zu Hause bleiben musstest, getan, um mit der Situation umzugehen?",
+      "items": [
+        {
+          "item": "0",
+          "number": "112",
+          "concept": "cor1606",
+          "text": "[ITEMBAT] What did you do to deal with the situation during the time that you had to stay at home primarily?",
+          "text_de": "[ITEMBAT] Was hast Du in der Zeit, in der Du vor allem zu Hause bleiben musstest, getan, um mit der Situation umzugehen?",
+          "scale": "txt",
+          "filter": "age0400 <=15",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "113",
+          "concept": "cor1606",
+          "text": "I listened to what people who know more than I do said.",
+          "text_de": "Ich hoerte auf das, was Leute sagen, die mehr wissen als ich.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "114",
+          "concept": "cor1606",
+          "text": "I did things to distract myself (e.g., playing, painting, schoolwork).",
+          "text_de": "Ich machte Dinge, um mich abzulenken (z.B. spielen, malen, Schularbeiten).",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "number": "115",
+          "concept": "cor1606",
+          "text": "I didn't think there was anything you could do; sometimes you just have bad luck.",
+          "text_de": "Ich fand, dass man da nichts machen konnte; manchmal hat man einfach Pech.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "number": "116",
+          "concept": "cor1606",
+          "text": "I ate or drank something to feel better.",
+          "text_de": "Ich ass oder trank etwas, um mich besser zu fuehlen.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "number": "117",
+          "concept": "cor1606",
+          "text": "I tried to talk/write with my friends and family via phone, Skype, or similar.",
+          "text_de": "Ich versuchte mit meinen Freunden und meiner Familie ueber Telefon, Skype, o.ae. zu sprechen/zu schreiben.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "number": "118",
+          "concept": "cor1606",
+          "text": "I was doing something completely new that I hadn't done before.",
+          "text_de": "Ich machte etwas ganz Neues, was ich vorher nicht gemacht habe.",
+          "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199.",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 7,
+              "label": "7: very often",
+              "label_de": "7: sehr haeufig"
+            }
+          ],
+          "sn": 6
+        }
+      ],
+      "sn": 24,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    },
+    "cor0001": {
+      "question": "cor0001",
+      "name": "cor0001",
+      "label": "COVID-19 supplementary survey: interview completed",
+      "label_de": "Corona Akutbefragung: Interview vollstaendig",
+      "items": [
+        {
+          "item": "1",
+          "number": "119",
+          "concept": "cor0001",
+          "text": "COVID-19 supplementary survey: interview completed",
+          "text_de": "Corona Akutbefragung: Interview vollstaendig",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: interview incomplete",
+              "label_de": "0: Interview unvollstaendig"
+            },
+            {
+              "value": 1,
+              "label": "1: interview complete",
+              "label_de": "1: Interview vollstaendig"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 25,
+      "instrument": "cov1_CoV_module1",
+      "study": "twinlife"
+    }
+  }
+}

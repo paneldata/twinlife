@@ -11,6 +11,7 @@
       "question": "inc0300",
       "name": "inc0300",
       "label": "Are you or another household member currently receiving one ore more of the following government benefits?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen?",
       "items": [
         {
           "item": "0",
@@ -21,18 +22,6 @@
           "scale": "txt",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben. SOEP Survey Papers 236: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -549,15 +538,16 @@
     "hpr0101": {
       "question": "hpr0101",
       "name": "hpr0101",
-      "label": "Please state what applies to the person.",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
       "items": [
         {
-          "item": "0",
+          "item": "1",
           "number": "24",
           "concept": "hpr0101",
-          "text": "Please state what applies to the person.",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
           "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
-          "scale": "txt",
+          "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "answers": [
@@ -573,13 +563,613 @@
             }
           ],
           "sn": 0
-        },
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0102": {
+      "question": "hpr0102",
+      "name": "hpr0102",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
         {
           "item": "1",
           "number": "25",
-          "concept": "hpr0101",
-          "text": "Kindergarten / KITA",
-          "text_de": "Kindergarten / KITA",
+          "concept": "hpr0102",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0103": {
+      "question": "hpr0103",
+      "name": "hpr0103",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "26",
+          "concept": "hpr0103",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0104": {
+      "question": "hpr0104",
+      "name": "hpr0104",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "27",
+          "concept": "hpr0104",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0105": {
+      "question": "hpr0105",
+      "name": "hpr0105",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "28",
+          "concept": "hpr0105",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0106": {
+      "question": "hpr0106",
+      "name": "hpr0106",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "29",
+          "concept": "hpr0106",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0107": {
+      "question": "hpr0107",
+      "name": "hpr0107",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "30",
+          "concept": "hpr0107",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0108": {
+      "question": "hpr0108",
+      "name": "hpr0108",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "31",
+          "concept": "hpr0108",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0109": {
+      "question": "hpr0109",
+      "name": "hpr0109",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "32",
+          "concept": "hpr0109",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0110": {
+      "question": "hpr0110",
+      "name": "hpr0110",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "33",
+          "concept": "hpr0110",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0111": {
+      "question": "hpr0111",
+      "name": "hpr0111",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "34",
+          "concept": "hpr0111",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0112": {
+      "question": "hpr0112",
+      "name": "hpr0112",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "35",
+          "concept": "hpr0112",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0113": {
+      "question": "hpr0113",
+      "name": "hpr0113",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "36",
+          "concept": "hpr0113",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0114": {
+      "question": "hpr0114",
+      "name": "hpr0114",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "37",
+          "concept": "hpr0114",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0115": {
+      "question": "hpr0115",
+      "name": "hpr0115",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "38",
+          "concept": "hpr0115",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0116": {
+      "question": "hpr0116",
+      "name": "hpr0116",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "39",
+          "concept": "hpr0116",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0120": {
+      "question": "hpr0120",
+      "name": "hpr0120",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "40",
+          "concept": "hpr0120",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0198": {
+      "question": "hpr0198",
+      "name": "hpr0198",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "41",
+          "concept": "hpr0198",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid1_F2F1_module2",
+      "study": "twinlife"
+    },
+    "hpr0199": {
+      "question": "hpr0199",
+      "name": "hpr0199",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+      "items": [
+        {
+          "item": "0",
+          "number": "42",
+          "concept": "hpr0199",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "Wenn mehr als 1 Person im HH: Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. / Wenn 1 Person im HH: Bitte geben Sie jeweils an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft.",
+          "scale": "txt",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "43",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -599,33 +1189,10 @@
         },
         {
           "item": "2",
-          "number": "26",
-          "concept": "hpr0101",
-          "text": "General School (standard education path)",
-          "text_de": "Allgemein bildende Schule (1. Bildungsweg)",
-          "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "number": "27",
-          "concept": "hpr0101",
-          "text": "Training, higher education institution, further training, other schools (e.g. second chance education)",
-          "text_de": "Ausbildung, Hochschule, Weiterbildung, andere Schule (z.B. 2. Bildungsweg)",
+          "number": "62",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -644,11 +1211,11 @@
           "sn": 3
         },
         {
-          "item": "4",
-          "number": "28",
-          "concept": "hpr0101",
-          "text": "Full-time employment",
-          "text_de": "Voll erwerbstaetig",
+          "item": "3",
+          "number": "81",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -667,11 +1234,11 @@
           "sn": 4
         },
         {
-          "item": "5",
-          "number": "29",
-          "concept": "hpr0101",
-          "text": "Employed on a part-time basis (also with several part-time employments)",
-          "text_de": "Teilzeitbeschaeftigt (auch bei parallelen Teilzeittaetigkeiten)",
+          "item": "4",
+          "number": "100",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -690,11 +1257,11 @@
           "sn": 5
         },
         {
-          "item": "6",
-          "number": "30",
-          "concept": "hpr0101",
-          "text": "In-company training/apprenticeship or vocational retraining",
-          "text_de": "In betrieblicher Ausbildung / Lehre oder betrieblicher Umschulung",
+          "item": "5",
+          "number": "119",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -713,11 +1280,11 @@
           "sn": 6
         },
         {
-          "item": "7",
-          "number": "31",
-          "concept": "hpr0101",
-          "text": "Marginally employed, in mini-jobs, one-Euro-jobs (when drawing unemployment benefit type 2)",
-          "text_de": "Geringfuegig erwerbstaetig, Mini Job, Ein-Euro-Job (bei Bezug von Arbeitslosengeld 2)",
+          "item": "6",
+          "number": "138",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -736,11 +1303,11 @@
           "sn": 7
         },
         {
-          "item": "8",
-          "number": "32",
-          "concept": "hpr0101",
-          "text": "Occasionally or irregularly employed",
-          "text_de": "Gelegentlich oder unregelmaessig beschaeftigt",
+          "item": "7",
+          "number": "157",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -759,11 +1326,11 @@
           "sn": 8
         },
         {
-          "item": "9",
-          "number": "33",
-          "concept": "hpr0101",
-          "text": "Voluntary military service",
-          "text_de": "Freiwilliger Wehrdienst",
+          "item": "8",
+          "number": "176",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -782,11 +1349,11 @@
           "sn": 9
         },
         {
-          "item": "10",
-          "number": "34",
-          "concept": "hpr0101",
-          "text": "Voluntary social/ecological year, German federal volunteer service",
-          "text_de": "Freiwilliges soziales / oekologisches Jahr, Bundesfreiwilligendienst",
+          "item": "9",
+          "number": "195",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -805,11 +1372,11 @@
           "sn": 10
         },
         {
-          "item": "11",
-          "number": "35",
-          "concept": "hpr0101",
-          "text": "Unemployed, registered as searching for employment (at job centre)",
-          "text_de": "Arbeitslos, arbeitsuchend gemeldet (beim der Agentur fuer Arbeit, Arbeitsamt)",
+          "item": "10",
+          "number": "214",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -828,11 +1395,11 @@
           "sn": 11
         },
         {
-          "item": "12",
-          "number": "36",
-          "concept": "hpr0101",
-          "text": "Maternity leave, paternal leave, on leave of absence / Special leave for childcare",
-          "text_de": "Mutterschutz, Elternzeit, Beurlaubung / Sonderurlaub wegen Kinderbetreuung",
+          "item": "11",
+          "number": "233",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -851,11 +1418,11 @@
           "sn": 12
         },
         {
-          "item": "13",
-          "number": "37",
-          "concept": "hpr0101",
-          "text": "Housewife/Houseman",
-          "text_de": "Hausfrau / Hausmann",
+          "item": "12",
+          "number": "252",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -874,11 +1441,11 @@
           "sn": 13
         },
         {
-          "item": "14",
-          "number": "38",
-          "concept": "hpr0101",
-          "text": "In (early) retirement, disabled",
-          "text_de": "Vorruhestaendler, Rentner, erwerbsunfaehig",
+          "item": "13",
+          "number": "271",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -897,11 +1464,11 @@
           "sn": 14
         },
         {
-          "item": "15",
-          "number": "39",
-          "concept": "hpr0101",
-          "text": "In early retirement with zero working hours",
-          "text_de": "In Altersteilzeit mit Arbeitszeit Null",
+          "item": "14",
+          "number": "290",
+          "concept": "hpr0199",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
           "scale": "cat",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
@@ -920,78 +1487,9 @@
           "sn": 15
         },
         {
-          "item": "16",
-          "number": "40",
-          "concept": "hpr0101",
-          "text": "Not gainfully employed",
-          "text_de": "Nicht erwerbstaetig",
-          "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
-          "sn": 16
-        },
-        {
-          "item": "17",
-          "number": "41",
-          "concept": "hpr0101",
-          "text": "Other",
-          "text_de": "Sonstiges",
-          "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
-          "sn": 17
-        },
-        {
-          "item": "18",
-          "number": "42",
-          "concept": "hpr0101",
-          "text": "Do not know",
-          "text_de": "Weiss nicht",
-          "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
-          "sn": 18
-        },
-        {
-          "item": "19",
-          "number": "43",
-          "concept": "hpr0101",
+          "item": "15",
+          "number": "309",
+          "concept": "hpr0199",
           "text": "Not specified (refused to answer)",
           "text_de": "Keine Angabe",
           "scale": "cat",
@@ -1009,10 +1507,10 @@
               "label_de": "1: genannt"
             }
           ],
-          "sn": 19
+          "sn": 16
         }
       ],
-      "sn": 1,
+      "sn": 19,
       "instrument": "wid1_F2F1_module2",
       "study": "twinlife"
     },
@@ -1020,53 +1518,22 @@
       "question": "iva0100",
       "name": "iva0100",
       "label": "What is your general impression of the home?",
+      "label_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
       "items": [
         {
           "item": "0",
-          "number": "44",
+          "number": "310",
           "concept": "iva0100",
           "text": "What is your general impression of the home?",
           "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
           "scale": "txt",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: no information available",
-              "label_de": "-85: keine Information vorhanden"
-            },
-            {
-              "value": 1,
-              "label": "1: neat",
-              "label_de": "1: aufgeraeumt"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5: messy",
-              "label_de": "5: unaufgeraeumt"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
-          "number": "45",
+          "number": "311",
           "concept": "iva0100",
           "text": "tidy - untidy",
           "text_de": "aufgeraeumt / unaufgeraeumt",
@@ -1109,7 +1576,7 @@
         },
         {
           "item": "2",
-          "number": "46",
+          "number": "312",
           "concept": "iva0100",
           "text": "cheap furnishings - expensive furnishings",
           "text_de": "billige Ausstattung / teure Ausstattung",
@@ -1152,7 +1619,7 @@
         },
         {
           "item": "3",
-          "number": "47",
+          "number": "313",
           "concept": "iva0100",
           "text": "tidy - neglected",
           "text_de": "gepflegt / vernachlaessigt",
@@ -1195,7 +1662,7 @@
         },
         {
           "item": "4",
-          "number": "48",
+          "number": "314",
           "concept": "iva0100",
           "text": "restricted - roomy",
           "text_de": "beengt / geraeumig",
@@ -1237,7 +1704,7 @@
           "sn": 4
         }
       ],
-      "sn": 2,
+      "sn": 20,
       "instrument": "wid1_F2F1_module2",
       "study": "twinlife"
     },
@@ -1245,10 +1712,11 @@
       "question": "iva0104",
       "name": "iva0104",
       "label": "How many books would you estimate are in the house?",
+      "label_de": "Wie viele Buecher befinden sich wohl in dem Haushalt?",
       "items": [
         {
           "item": "1",
-          "number": "49",
+          "number": "315",
           "concept": "iva0104",
           "text": "How many books would you estimate are in the house?",
           "text_de": "Wie viele Buecher befinden sich wohl in dem Haushalt?",
@@ -1300,7 +1768,7 @@
           "sn": 0
         }
       ],
-      "sn": 3,
+      "sn": 21,
       "instrument": "wid1_F2F1_module2",
       "study": "twinlife"
     },
@@ -1308,10 +1776,11 @@
       "question": "iva0201",
       "name": "iva0201",
       "label": "How well does the respondent speak German?",
+      "label_de": "Wie gut versteht der/die Befragte deutsch?",
       "items": [
         {
           "item": "1",
-          "number": "50",
+          "number": "316",
           "concept": "iva0201",
           "text": "How well does the respondent speak German?",
           "text_de": "Wie gut versteht der/die Befragte deutsch?",
@@ -1353,7 +1822,7 @@
           "sn": 0
         }
       ],
-      "sn": 4,
+      "sn": 22,
       "instrument": "wid1_F2F1_module2",
       "study": "twinlife"
     },
@@ -1361,10 +1830,11 @@
       "question": "iva0301",
       "name": "iva0301",
       "label": "How well does the respondent speak German?",
+      "label_de": "Wie gut spricht der/die Befragte deutsch?",
       "items": [
         {
           "item": "1",
-          "number": "51",
+          "number": "317",
           "concept": "iva0301",
           "text": "How well does the respondent speak German?",
           "text_de": "Wie gut spricht der/die Befragte deutsch?",
@@ -1406,7 +1876,7 @@
           "sn": 0
         }
       ],
-      "sn": 5,
+      "sn": 23,
       "instrument": "wid1_F2F1_module2",
       "study": "twinlife"
     },
@@ -1414,48 +1884,22 @@
       "question": "iva0400",
       "name": "iva0400",
       "label": "Did other persons interfere in the interview?",
+      "label_de": "Wurde von anderen anwesenden Personen in die Befragung eingegriffen?",
       "items": [
         {
           "item": "0",
-          "number": "52",
+          "number": "318",
           "concept": "iva0400",
           "text": "Did other persons interfere in the interview?",
           "text_de": "Wurde von anderen anwesenden Personen in die Befragung eingegriffen?",
           "scale": "txt",
           "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
           "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: no information available",
-              "label_de": "-85: keine Information vorhanden"
-            },
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: yes, often",
-              "label_de": "1: ja, haeufig"
-            },
-            {
-              "value": 2,
-              "label": "2: yes, sometimes",
-              "label_de": "2: ja, manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: no",
-              "label_de": "3: nein"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
-          "number": "53",
+          "number": "319",
           "concept": "iva0400",
           "text": "By the parents in the interview of the twins or the sibling",
           "text_de": "Von den Eltern bei der Befragung der Zwillinge / Geschwister",
@@ -1493,7 +1937,7 @@
         },
         {
           "item": "2",
-          "number": "54",
+          "number": "320",
           "concept": "iva0400",
           "text": "By the parents in the testing of the twins or the sibling",
           "text_de": "Von den Eltern bei der Testung der Zwillinge / Geschwister",
@@ -1531,7 +1975,7 @@
         },
         {
           "item": "3",
-          "number": "55",
+          "number": "321",
           "concept": "iva0400",
           "text": "By the children among each other (by one twin or sibling in the interview of the other twin)",
           "text_de": "Von den Kindern untereinander (einem Zwilling/Geschwisterkind bei der Befragung des anderen Zwillings)",
@@ -1569,7 +2013,7 @@
         },
         {
           "item": "4",
-          "number": "56",
+          "number": "322",
           "concept": "iva0400",
           "text": "By the parents among each other",
           "text_de": "Von den Eltern untereinander",
@@ -1606,7 +2050,7 @@
           "sn": 4
         }
       ],
-      "sn": 6,
+      "sn": 24,
       "instrument": "wid1_F2F1_module2",
       "study": "twinlife"
     }

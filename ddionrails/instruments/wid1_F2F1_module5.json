@@ -11,6 +11,7 @@
       "question": "sex",
       "name": "sex",
       "label": "Interviewer: Please record:",
+      "label_de": "Interviewer: Bitte eintragen:",
       "items": [
         {
           "item": "1",
@@ -43,6 +44,7 @@
       "question": "fam0100",
       "name": "fam0100",
       "label": "What is your marital status?",
+      "label_de": "Welchen Familienstand haben Sie?",
       "items": [
         {
           "item": "1",
@@ -112,6 +114,7 @@
       "question": "fam0200",
       "name": "fam0200",
       "label": "Are you in a serious / permanent relationship?",
+      "label_de": "Haben Sie derzeit eine feste Partnerschaft?",
       "items": [
         {
           "item": "1",
@@ -135,6 +138,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -156,6 +164,7 @@
       "question": "fam0300",
       "name": "fam0300",
       "label": "What is your partner's sex?",
+      "label_de": "Welches Geschlecht hat Ihr Partner?",
       "items": [
         {
           "item": "1",
@@ -190,6 +199,7 @@
       "question": "edu0100",
       "name": "edu0100",
       "label": "Do you go to school?",
+      "label_de": "Alter 4-15 Jahre: Gehst Du in die Schule? / Alter 16-20 Jahre: Besuchen Sie derzeit eine allgemeinbildende Schule?",
       "items": [
         {
           "item": "1",
@@ -229,6 +239,7 @@
       "question": "edu0200",
       "name": "edu0200",
       "label": "Do you have an after-school job?",
+      "label_de": "Arbeitest Du neben der Schule?",
       "items": [
         {
           "item": "1",
@@ -268,6 +279,7 @@
       "question": "edu0202",
       "name": "edu0202",
       "label": "How many hours a week do you work in your job?",
+      "label_de": "Wie viel Stunden pro Woche arbeitest Du normal in Deinem Schuelerjob?",
       "items": [
         {
           "item": "1",
@@ -282,7 +294,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -302,13 +314,14 @@
       "question": "edu0203",
       "name": "edu0203",
       "label": "How much do you earn per hour in this job? Please give your hourly wage in euros.",
+      "label_de": "Wie viel verdienst Du in Deinem Schuelerjob pro Stunde? Bitte Betrag in Euro pro Stunde angeben.",
       "items": [
         {
           "item": "1",
           "number": "8",
           "concept": "edu0203",
           "text": "How much do you earn per hour in this job? Please give your hourly wage in euros.",
-          "text_de": "Wie viel verdienst Du in Deinem Schuelerjob pro Stunde? Bitte Betrag in Ã¢ÂÂ¬ pro Stunde angeben.",
+          "text_de": "Wie viel verdienst Du in Deinem Schuelerjob pro Stunde? Bitte Betrag in Euro pro Stunde angeben.",
           "scale": "dec",
           "filter": "edu0200 == 1 | edu0200 == 2",
           "description": "Source: Item developed for TwinLife",
@@ -316,7 +329,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -336,6 +349,7 @@
       "question": "emp0100",
       "name": "emp0100",
       "label": "Have you done paid work during the last 7 days, even if only for an hour or a few hours?",
+      "label_de": "Haben Sie waehrend der letzten 7 Tage irgendeine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war?",
       "items": [
         {
           "item": "1",
@@ -359,6 +373,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -380,6 +399,7 @@
       "question": "emp0200",
       "name": "emp0200",
       "label": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
+      "label_de": "Sind Sie zurzeit im Mutterschutz oder in der gesetzlich geregelten Elternzeit?",
       "items": [
         {
           "item": "1",
@@ -424,6 +444,7 @@
       "question": "emp0300",
       "name": "emp0300",
       "label": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
+      "label_de": "Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
       "items": [
         {
           "item": "1",
@@ -447,6 +468,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -468,6 +494,7 @@
       "question": "edu0300",
       "name": "edu0300",
       "label": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
+      "label_de": "Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil?",
       "items": [
         {
           "item": "1",
@@ -491,6 +518,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -512,6 +544,7 @@
       "question": "edu0301",
       "name": "edu0301",
       "label": "What type of education or training are you pursuing?",
+      "label_de": "Was fuer eine Ausbildung oder Weiterbildung ist das genau?",
       "items": [
         {
           "item": "1",
@@ -546,8 +579,8 @@
             },
             {
               "value": 5,
-              "label": "5: other, please state (until CATI1)",
-              "label_de": "5: sonstiges, bitte nennen (bis CATI1)"
+              "label": "5: other, please state [until CATI 1]",
+              "label_de": "5: sonstiges, bitte nennen [bis CATI 1]"
             }
           ],
           "sn": 0
@@ -561,6 +594,7 @@
       "question": "edu0303",
       "name": "edu0303",
       "label": "What type of higher education are you pursuing?",
+      "label_de": "Was fuer eine Hochschulausbildung ist das?",
       "items": [
         {
           "item": "1",
@@ -605,6 +639,7 @@
       "question": "edu0305",
       "name": "edu0305",
       "label": "What type of further training/retraining are you pursuing?",
+      "label_de": "Was fuer eine Weiterbildung/Umschulung ist das?",
       "items": [
         {
           "item": "1",
@@ -654,6 +689,7 @@
       "question": "edu0307",
       "name": "edu0307",
       "label": "What type of vocational training are you pursuing?",
+      "label_de": "Was fuer eine berufliche Ausbildung ist das?",
       "items": [
         {
           "item": "1",
@@ -723,6 +759,7 @@
       "question": "emp0400",
       "name": "emp0400",
       "label": "Are you currently in paid employment? Which of the following applies best to your employment status? Pensioners with an employment contract are regarded as employed here.",
+      "label_de": "Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? Rentner mit Arbeitsvertrag gelten hier als erwerbstaetig.",
       "items": [
         {
           "item": "1",
@@ -802,6 +839,7 @@
       "question": "edu0400",
       "name": "edu0400",
       "label": "What school are you currently attending?",
+      "label_de": "Alter 11 bis 15 Jahre: Welche Schule besuchst Du zurzeit? / Alter 16 bis 20 Jahre: Welche Schule besuchen Sie zurzeit?",
       "items": [
         {
           "item": "1",
@@ -866,8 +904,8 @@
             },
             {
               "value": 11,
-              "label": "11: Technical secondary school (from F2F2)",
-              "label_de": "11: Fachoberschule (ab F2F2)"
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
             }
           ],
           "sn": 0
@@ -881,6 +919,7 @@
       "question": "edu0402",
       "name": "edu0402",
       "label": "What grade are you in at this school? Note: If on summer vacation, please state the grade you will start in fall.",
+      "label_de": "Alter 11 bis 15 Jahre: Welche Klasse besuchst Du auf dieser Schule? Anmerkung: Wenn gerade Sommerferien sind, gib bitte an, in welche Klasse Du nach den Sommerferien kommst. / Alter 16 bis 20 Jahre: Welche Klasse besuchen Sie auf dieser Schule? Anmerkung: Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen.",
       "items": [
         {
           "item": "1",
@@ -895,7 +934,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -915,6 +954,7 @@
       "question": "inv0100",
       "name": "inv0100",
       "label": "We would like to ask you a few questions about your parents and school. Please tick whether the statements apply to your parents.",
+      "label_de": "Alter 11 bis 15 Jahre und besucht Schule: Wir wuerden Dir zuerst gerne ein paar Fragen zu Deinen Eltern und der Schule stellen. Bitte kreuze an, ob die Aussagen ueber Deine Eltern zutreffen. / Alter 16 bis 20 Jahre und besucht Schule: Wir wuerden Ihnen zuerst gerne ein paar Fragen zu Ihren Eltern und der Schule stellen. Bitte kreuzen Sie an, ob die Aussagen ueber Ihre Eltern zutreffen.",
       "items": [
         {
           "item": "0",
@@ -926,33 +966,6 @@
           "filter": "age0110 > 9 & (edu0100 == 2 | edu0301 == 1) & (ptyp == 1 | ptyp == 2 | ptyp == 200)",
           "description": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on two new German twin studies. Twin Research and Human Genetics, 9 (6), 787-790",
           "description_de": "Source: Adaptiert von: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on two new German twin studies. Twin Research and Human Genetics, 9 (6), 787-790",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not correct at all",
-              "label_de": "1: stimmt ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: rather not correct",
-              "label_de": "2: stimmt eher nicht"
-            },
-            {
-              "value": 3,
-              "label": "3: partly correct",
-              "label_de": "3: stimmt etwas"
-            },
-            {
-              "value": 4,
-              "label": "4: rather correct",
-              "label_de": "4: stimmt eher"
-            },
-            {
-              "value": 5,
-              "label": "5: fully correct",
-              "label_de": "5: stimmt genau"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1420,6 +1433,7 @@
       "question": "asc0100",
       "name": "asc0100",
       "label": "Now I have a few more questions for you:",
+      "label_de": "Jetzt habe ich ein paar Fragen an Dich:",
       "items": [
         {
           "item": "0",
@@ -1431,38 +1445,6 @@
           "filter": "age0110 < 8",
           "description": "Source: Adapted from: Marsh, H. W., Ellis, L. A., & Craven, R. G. (2002). How do preschool children feel about themselves? Unraveling measurement and multidimensional self-concept structure. Developmental psychology, 38 (3), 376-393",
           "description_de": "Source: Adaptiert von: Marsh, H. W., Ellis, L. A., & Craven, R. G. (2002). How do preschool children feel about themselves? Unraveling measurement and multidimensional self-concept structure. Developmental psychology, 38 (3), 376-393",
-          "answers": [
-            {
-              "value": -82,
-              "label": "-82: child didn't understand the question",
-              "label_de": "-82: Kind hat die Frage nicht verstanden"
-            },
-            {
-              "value": -81,
-              "label": "-81: child understood the question, but doesn't have an answer",
-              "label_de": "-81: Kind hat die Frage verstanden, weiss aber keine Antwort"
-            },
-            {
-              "value": 1,
-              "label": "1: yes, normally good, about like other children",
-              "label_de": "1: ja, normal gut, also so wie andere Kinder"
-            },
-            {
-              "value": 2,
-              "label": "2: yes, really good, better than other children",
-              "label_de": "2: ja, richtig gut, also besser als andere Kinder"
-            },
-            {
-              "value": 3,
-              "label": "3: no, not so good, not as good as other children",
-              "label_de": "3: nein, nicht so gut, also nicht so gut wie andere Kinder"
-            },
-            {
-              "value": 4,
-              "label": "4: no, not good at all, not as good as other children at all",
-              "label_de": "4: nein, gar nicht gut, also viel weniger gut als andere Kinder"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1603,6 +1585,7 @@
       "question": "asc0103",
       "name": "asc0103",
       "label": "Now I have a few more questions for you:",
+      "label_de": "Jetzt habe ich ein paar Fragen an Dich:",
       "items": [
         {
           "item": "0",
@@ -1614,38 +1597,6 @@
           "filter": "age0110 < 8",
           "description": "Source: Adapted from: Marsh, H. W., Ellis, L. A., & Craven, R. G. (2002). How do preschool children feel about themselves? Unraveling measurement and multidimensional self-concept structure. Developmental psychology, 38 (3), 376-393",
           "description_de": "Source: Adaptiert von: Marsh, H. W., Ellis, L. A., & Craven, R. G. (2002). How do preschool children feel about themselves? Unraveling measurement and multidimensional self-concept structure. Developmental psychology, 38 (3), 376-393",
-          "answers": [
-            {
-              "value": -82,
-              "label": "-82: child didn't understand the question",
-              "label_de": "-82: Kind hat die Frage nicht verstanden"
-            },
-            {
-              "value": -81,
-              "label": "-81: child understood the question, but doesn't have an answer",
-              "label_de": "-81: Kind hat die Frage verstanden, weiss aber keine Antwort"
-            },
-            {
-              "value": 1,
-              "label": "1: yes, normally good, about like other children",
-              "label_de": "1: ja, normal gut, also so wie andere Kinder"
-            },
-            {
-              "value": 2,
-              "label": "2: yes, really good, better than other children",
-              "label_de": "2: ja, richtig gut, also besser als andere Kinder"
-            },
-            {
-              "value": 3,
-              "label": "3: no, not so good, not as good as other children",
-              "label_de": "3: nein, nicht so gut, also nicht so gut wie andere Kinder"
-            },
-            {
-              "value": 4,
-              "label": "4: no, not good at all, not as good as other children at all",
-              "label_de": "4: nein, gar nicht gut, also viel weniger gut als andere Kinder"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1829,6 +1780,7 @@
       "question": "spa0100",
       "name": "spa0100",
       "label": "Please tell me whether the following statements apply to you.",
+      "label_de": "Sag mir bitte, ob folgende Saetze fuer Dich zutreffen.",
       "items": [
         {
           "item": "0",
@@ -1840,28 +1792,6 @@
           "filter": "edu0100 == 1",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
           "description_de": "Source: Adaptiert von: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1885,6 +1815,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -1901,7 +1836,7 @@
           "item": "2",
           "number": "44",
           "concept": "spa0100",
-          "text": "Do you think you'll like school?",
+          "text": "Do you think you will like school?",
           "text_de": "Glaubst Du, dass Du die Schule moegen wirst?",
           "scale": "cat",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
@@ -1916,6 +1851,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -1934,7 +1874,7 @@
           "item": "3",
           "number": "45",
           "concept": "spa0100",
-          "text": "Do you think that you'll like learning at school?",
+          "text": "Do you think you will like learning at school?",
           "text_de": "Glaubst Du, dass Du das Lernen in der Schule moegen wirst?",
           "scale": "cat",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
@@ -1949,6 +1889,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -1984,6 +1929,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2015,6 +1965,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -2050,6 +2005,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2083,6 +2043,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2104,6 +2069,7 @@
       "question": "emp0600",
       "name": "emp0600",
       "label": "What is your current occupational status?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt?",
       "items": [
         {
           "item": "1",
@@ -2153,6 +2119,7 @@
       "question": "emp0601",
       "name": "emp0601",
       "label": "What is your current occupational status as a blue-collar worker?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit als Arbeiter beschaeftigt?",
       "items": [
         {
           "item": "1",
@@ -2202,6 +2169,7 @@
       "question": "emp0602",
       "name": "emp0602",
       "label": "What is your current occupational status as a self-employed person?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit als Selbststaendiger beschaeftigt?",
       "items": [
         {
           "item": "1",
@@ -2246,6 +2214,7 @@
       "question": "emp0603",
       "name": "emp0603",
       "label": "Please tell me how many employees you have.",
+      "label_de": "Bitte benennen Sie die Anzahl Ihrer Mitarbeiter und Angestellten.",
       "items": [
         {
           "item": "1",
@@ -2285,6 +2254,7 @@
       "question": "emp0604",
       "name": "emp0604",
       "label": "What is your current occupational status as an apprentice / trainee / intern.",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit als Auszubildender oder Praktikant beschaeftigt?",
       "items": [
         {
           "item": "1",
@@ -2324,6 +2294,7 @@
       "question": "emp0605",
       "name": "emp0605",
       "label": "What is your current occupational status as a white-collar worker?",
+      "label_de": "In welcher beruflichen Stellung sind Sie als Angestellter beschaeftigt?",
       "items": [
         {
           "item": "1",
@@ -2383,6 +2354,7 @@
       "question": "emp0606",
       "name": "emp0606",
       "label": "What kind of managerial position do you hold?",
+      "label_de": "In welcher Art von Fuehrungsposition sind Sie?",
       "items": [
         {
           "item": "1",
@@ -2427,6 +2399,7 @@
       "question": "emp0607",
       "name": "emp0607",
       "label": "What is your current occupational status as a civil servant?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit als Beamter beschaeftigt?",
       "items": [
         {
           "item": "1",
@@ -2471,6 +2444,7 @@
       "question": "emp0700",
       "name": "emp0700",
       "label": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+      "label_de": "Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie Selbstaendiger sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben.",
       "items": [
         {
           "item": "1",
@@ -2500,6 +2474,7 @@
       "question": "emp0701",
       "name": "emp0701",
       "label": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+      "label_de": "Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie Selbstaendiger sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben.",
       "items": [
         {
           "item": "1",
@@ -2514,7 +2489,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2534,6 +2509,7 @@
       "question": "emp0702",
       "name": "emp0702",
       "label": "Do you work for a public sector employer?",
+      "label_de": "Gehoert der Betrieb, in dem Sie arbeiten, zum oeffentlichen Dienst?",
       "items": [
         {
           "item": "1",
@@ -2557,6 +2533,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2578,6 +2559,7 @@
       "question": "emp0703",
       "name": "emp0703",
       "label": "Is this work temporary or on a contractual basis?",
+      "label_de": "Handelt es sich um ein Zeitarbeits- bzw. Leiharbeitsverhaeltnis?",
       "items": [
         {
           "item": "1",
@@ -2601,6 +2583,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2622,6 +2609,7 @@
       "question": "emp0704",
       "name": "emp0704",
       "label": "Do you have a fixed-term or permanent employment contract?",
+      "label_de": "Haben Sie einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag?",
       "items": [
         {
           "item": "1",
@@ -2661,6 +2649,7 @@
       "question": "emp0705",
       "name": "emp0705",
       "label": "How many hours are stipulated in your contract per week excluding overtime?",
+      "label_de": "Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden?",
       "items": [
         {
           "item": "1",
@@ -2695,6 +2684,7 @@
       "question": "emp0706",
       "name": "emp0706",
       "label": "And how many hours do you generally work per week, including any overtime?",
+      "label_de": "Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
       "items": [
         {
           "item": "1",
@@ -2709,7 +2699,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2729,6 +2719,7 @@
       "question": "emp0708",
       "name": "emp0708",
       "label": "Is it considered marginal employment in accordance with the 450/850 euro rule (mini-/midi-job)?",
+      "label_de": "Ist das eine geringfuegige Beschaeftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?",
       "items": [
         {
           "item": "1",
@@ -2768,6 +2759,7 @@
       "question": "emp0800",
       "name": "emp0800",
       "label": "When did you leave your last job?",
+      "label_de": "Wann haben Sie bei Ihrer letzten Stelle aufgehoert zu arbeiten?",
       "items": [
         {
           "item": "1",
@@ -2802,6 +2794,7 @@
       "question": "emp0801",
       "name": "emp0801",
       "label": "When did you leave your last job?",
+      "label_de": "Wann haben Sie bei Ihrer letzten Stelle aufgehoert zu arbeiten?",
       "items": [
         {
           "item": "1",
@@ -2836,6 +2829,7 @@
       "question": "emp0802",
       "name": "emp0802",
       "label": "How long were you employed at that job?",
+      "label_de": "Wie lange waren Sie insgesamt in Ihrer letzten Stelle beschaeftigt?",
       "items": [
         {
           "item": "1",
@@ -2850,7 +2844,7 @@
           "answers": [
             {
               "value": -89,
-              "label": "-89: only year specified",
+              "label": "-89: only years specified",
               "label_de": "-89: nur Jahresangabe vorhanden"
             }
           ],
@@ -2865,6 +2859,7 @@
       "question": "emp0803",
       "name": "emp0803",
       "label": "How long were you employed at that job?",
+      "label_de": "Wie lange waren Sie insgesamt in Ihrer letzten Stelle beschaeftigt?",
       "items": [
         {
           "item": "1",
@@ -2894,6 +2889,7 @@
       "question": "emp0804",
       "name": "emp0804",
       "label": "How did that job end?",
+      "label_de": "Auf welche Weise wurde diese Beschaeftigung beendet?",
       "items": [
         {
           "item": "1",
@@ -2948,6 +2944,7 @@
       "question": "emp0900",
       "name": "emp0900",
       "label": "What type of education or training is usually required for your type of work?",
+      "label_de": "Welche Art von Ausbildung ist fuer Ihre Taetigkeit als [Berufsangabe] in der Regel derzeit erforderlich?",
       "items": [
         {
           "item": "0",
@@ -2959,18 +2956,6 @@
           "filter": "emp0400 == 1 | emp0400 == 2 | emp0400 == 3 | emp0400 == 4 | emp0200 == 1 | emp0200 == 2 | emp0200 == 3",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3120,6 +3105,7 @@
       "question": "emp1000",
       "name": "emp1000",
       "label": "Do you currently work in the city where you live?",
+      "label_de": "Liegt Ihr derzeitiger Arbeitsplatz an Ihrem Wohnort? Erfragt werden soll, ob der Arbeitsplatz in der gleichen Stadt oder Gemeinde liegt wie der Wohnort.",
       "items": [
         {
           "item": "1",
@@ -3143,6 +3129,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -3164,6 +3155,7 @@
       "question": "emp1001",
       "name": "emp1001",
       "label": "How often do you commute from your dwelling to your place of work?",
+      "label_de": "Wie oft pendeln Sie von Ihrer Hauptwohnung zu Ihrem Arbeitsplatz?",
       "items": [
         {
           "item": "1",
@@ -3208,6 +3200,7 @@
       "question": "emp1002",
       "name": "emp1002",
       "label": "How far (in kilometers) is your job from your place of residence?",
+      "label_de": "Wie viele Kilometer ist Ihr Arbeitsplatz von Ihrer Hauptwohnung entfernt?",
       "items": [
         {
           "item": "1",
@@ -3242,6 +3235,7 @@
       "question": "emp1100",
       "name": "emp1100",
       "label": "How likely do you think it is that you might lose your job in the next two years?",
+      "label_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie in den kommenden zwei Jahren den Arbeitsplatz verlieren?",
       "items": [
         {
           "item": "1",
@@ -3291,6 +3285,7 @@
       "question": "emp1200",
       "name": "emp1200",
       "label": "All in all, would you say that what you get paid is fair for the work you do in your job?",
+      "label_de": "Alles in allem: Ist das, was Sie an Ihrem Arbeitsplatz leisten, und das, was Sie dafuer bekommen, in der Regel ausgeglichen?",
       "items": [
         {
           "item": "1",
@@ -3340,6 +3335,7 @@
       "question": "inc0103",
       "name": "inc0103",
       "label": "If you can't or don't wish to state an amount, please indicate which income group your monthly gross income falls into.",
+      "label_de": "Wenn Sie einen exakten Betrag nicht nennen koennen oder wollen, dann geben Sie bitte an, in welche Einkommenskategorie Ihr durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann.",
       "items": [
         {
           "item": "1",
@@ -3434,6 +3430,7 @@
       "question": "inc0200",
       "name": "inc0200",
       "label": "When you think about your current gross income, would you say that what you get paid is fair for the work you do, or is it above or below what you consider fair?",
+      "label_de": "Wenn Sie an Ihr gegenwaertiges Bruttoeinkommen denken, wuerden Sie sagen, dass es in Bezug auf Ihre Taetigkeit gerecht oder ungerechterweise zu hoch oder ungerechterweise zu niedrig ist?",
       "items": [
         {
           "item": "1",
@@ -3473,6 +3470,7 @@
       "question": "inc0201",
       "name": "inc0201",
       "label": "What do you consider a fair gross monthly income for you?",
+      "label_de": "Was waere in Ihren Augen ein gerechtes monatliches Bruttoeinkommen fuer Sie?",
       "items": [
         {
           "item": "1",
@@ -3507,6 +3505,7 @@
       "question": "inc0202",
       "name": "inc0202",
       "label": "What do you consider a fair gross yearly income for you?",
+      "label_de": "Was waere in Ihren Augen ein gerechtes jaehrliches Bruttoeinkommen fuer Sie?",
       "items": [
         {
           "item": "1",
@@ -3541,6 +3540,7 @@
       "question": "eca0100",
       "name": "eca0100",
       "label": "What is your highest school-leaving qualification?",
+      "label_de": "Welchen hoechsten Schulabschluss haben Sie erreicht?",
       "items": [
         {
           "item": "1",
@@ -3600,6 +3600,7 @@
       "question": "eca0102",
       "name": "eca0102",
       "label": "What was the last school you attended?",
+      "label_de": "Welche Schule haben Sie zuletzt besucht?",
       "items": [
         {
           "item": "1",
@@ -3664,8 +3665,8 @@
             },
             {
               "value": 11,
-              "label": "11: Technical secondary school (from F2F2)",
-              "label_de": "11: Fachoberschule (ab F2F2)"
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
             }
           ],
           "sn": 0
@@ -3679,6 +3680,7 @@
       "question": "eca0104",
       "name": "eca0104",
       "label": "What year did you leave secondary school?",
+      "label_de": "In welchem Jahr haben Sie die allgemeinbildende Schule beendet?",
       "items": [
         {
           "item": "1",
@@ -3693,7 +3695,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -3713,6 +3715,7 @@
       "question": "eca0105",
       "name": "eca0105",
       "label": "Please specify your final grade on your highest educational degree/diploma/qualification. Please translate grades for foreign degrees into the German grade system.",
+      "label_de": "Bitte geben Sie die Abschlussnote Ihres hoechsten Schulabschlusses an. Noten aus auslaendischen Abschluessen bitte in das deutsche Notensystem umrechnen.",
       "items": [
         {
           "item": "1",
@@ -3727,7 +3730,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -3747,6 +3750,7 @@
       "question": "eca0200",
       "name": "eca0200",
       "label": "What educational degree / diploma / qualification did you attain? If you have attained more than one, please state the highest.",
+      "label_de": "Welchen Ausbildungs- oder Studienabschluss haben Sie gemacht? Falls Sie mehrere Ausbildungsabschluesse haben, geben Sie bitte den hoechsten an.",
       "items": [
         {
           "item": "1",
@@ -3786,18 +3790,18 @@
             },
             {
               "value": 6,
-              "label": "6: university of applied sciences (from F2F2)",
-              "label_de": "6: Fachhochschule (ab F2F 2)"
+              "label": "6: university of applied sciences [from F2F 2]",
+              "label_de": "6: Fachhochschule [ab F2F 2]"
             },
             {
               "value": 7,
-              "label": "7: university of cooperative education (from F2F2)",
-              "label_de": "7: Berufsakademie (ab F2F 2)"
+              "label": "7: university of cooperative education [from F2F 2]",
+              "label_de": "7: Berufsakademie [ab F2F 2]"
             },
             {
               "value": 8,
-              "label": "8: university of applied sciences, university of cooperative education (F2F 1)",
-              "label_de": "8: Fachhochschule, Berufsakademie (F2F 1)"
+              "label": "8: university of applied sciences, university of cooperative education [only F2F 1]",
+              "label_de": "8: Fachhochschule, Berufsakademie [nur in F2F 1]"
             },
             {
               "value": 9,
@@ -3826,6 +3830,7 @@
       "question": "eca0201",
       "name": "eca0201",
       "label": "What year did you earn your educational degree/diploma/qualification?",
+      "label_de": "In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
       "items": [
         {
           "item": "1",
@@ -3840,7 +3845,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -3860,6 +3865,7 @@
       "question": "eca0300",
       "name": "eca0300",
       "label": "Did you ever repeat a grade of school?",
+      "label_de": "Haben Sie in Ihrer Schulzeit einmal eine Klasse wiederholt?",
       "items": [
         {
           "item": "1",
@@ -3883,6 +3889,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -3904,6 +3915,7 @@
       "question": "eca0301",
       "name": "eca0301",
       "label": "Which grade did you repeat?",
+      "label_de": "Welche Klasse(n) wurde(n) wiederholt?",
       "items": [
         {
           "item": "0",
@@ -3915,18 +3927,6 @@
           "filter": "eca0300 == 1",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4283,6 +4283,7 @@
       "question": "eca0400",
       "name": "eca0400",
       "label": "Did you ever skip a grade or grades?",
+      "label_de": "Haben Sie schon einmal eine Klasse uebersprungen?",
       "items": [
         {
           "item": "1",
@@ -4306,6 +4307,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -4327,6 +4333,7 @@
       "question": "eca0401",
       "name": "eca0401",
       "label": "Which grade(s) did you skip?",
+      "label_de": "Welche Klasse(n) wurde(n) uebersprungen?",
       "items": [
         {
           "item": "0",
@@ -4338,18 +4345,6 @@
           "filter": "eca0400 == 1",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4706,6 +4701,7 @@
       "question": "eca0500",
       "name": "eca0500",
       "label": "Did you obtain a degree / certificate / diploma in Germany or in another country?",
+      "label_de": "Haben Sie in einem anderen Land als Deutschland eine berufliche Ausbildung oder ein Studium absolviert? Dies bezieht sich nur auf abgeschlossene Studien, nicht auf Auslandssemester, Praktika o.ae.",
       "items": [
         {
           "item": "1",
@@ -4729,6 +4725,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -4750,6 +4751,7 @@
       "question": "eca0600",
       "name": "eca0600",
       "label": "Were you given a recommendation to attend lower, intermediate, or upper secondary school after completing primary school? Please state both binding and non-binding recommendations.",
+      "label_de": "Hatten Sie nach Abschluss der Grundschule eine Haupt-, Realschul- oder eine Gymnasialempfehlung? Hier sind sowohl bindende als auch nicht bindende Empfehlungen gemeint.",
       "items": [
         {
           "item": "1",
@@ -4794,6 +4796,7 @@
       "question": "eca0700",
       "name": "eca0700",
       "label": "What type of school-leaving qualification would you like to attain?",
+      "label_de": "Alter 11 bis 15 Jahre: Welchen Schulabschluss moechtest Du einmal erreichen? / Alter ab 16 Jahre: Welchen Schulabschluss moechten Sie einmal erreichen? Wenn mehrere Abschluesse angestrebt/gewuenscht werden, dann bitte den hoechsten Abschluss angeben.",
       "items": [
         {
           "item": "1",
@@ -4828,8 +4831,8 @@
             },
             {
               "value": 5,
-              "label": "5: no specific school leaving certificate (from F2F2)",
-              "label_de": "5: keinen bestimmten Schulabschluss (ab F2F2)"
+              "label": "5: no specific school leaving certificate [from F2F 2]",
+              "label_de": "5: keinen bestimmten Schulabschluss [ab F2F 2]"
             }
           ],
           "sn": 0
@@ -4843,6 +4846,7 @@
       "question": "eca0701",
       "name": "eca0701",
       "label": "How likely do you think is it that you will attain this school-leaving qualification?",
+      "label_de": "Alter 11 bis 15 Jahre: Fuer wie wahrscheinlich haeltst Du es, dass Du diesen Abschluss erreichst? / Alter ab 16 Jahre: Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss erreichen?",
       "items": [
         {
           "item": "1",
@@ -4922,6 +4926,7 @@
       "question": "eca0800",
       "name": "eca0800",
       "label": "Would you like to earn a (further) vocational training qualification or university diploma in the future? If more than one, please state the highest.",
+      "label_de": "Streben Sie in der Zukunft einen (weiteren) beruflichen Ausbildungsabschluss oder Hochschulabschluss an? Wenn mehrere Abschluesse angestrebt werden, dann bitte den hoechsten Abschluss angeben.",
       "items": [
         {
           "item": "1",
@@ -4961,6 +4966,7 @@
       "question": "eca0801",
       "name": "eca0801",
       "label": "How likely do you think is it that you will earn this qualification?",
+      "label_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss erreichen?",
       "items": [
         {
           "item": "1",
@@ -5039,13 +5045,14 @@
     "spa0200": {
       "question": "spa0200",
       "name": "spa0200",
-      "label": "I am ... in school.",
+      "label": "I am . . . in school.",
+      "label_de": "DP 4 bis 15 Jahre: Jetzt geht es um die Schule im Allgemeinen. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. / DP ab 16 Jahren: Jetzt geht es um die Schule im Allgemeinen. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Ich bin fuer die Schule . . .",
       "items": [
         {
           "item": "1",
           "number": "133",
           "concept": "spa0200",
-          "text": "I am ... in school.",
+          "text": "I am . . . in school.",
           "text_de": "DP 4 bis 15 Jahre: Jetzt geht es um die Schule im Allgemeinen. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. / DP ab 16 Jahren: Jetzt geht es um die Schule im Allgemeinen. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Ich bin fuer die Schule . . .",
           "scale": "cat",
           "filter": "edu0100 == 2 | edu0301 == 1",
@@ -5089,6 +5096,7 @@
       "question": "spa0201",
       "name": "spa0201",
       "label": "I know . . . in school.",
+      "label_de": "Ich kann in der Schule . . ..",
       "items": [
         {
           "item": "1",
@@ -5137,13 +5145,14 @@
     "spa0202": {
       "question": "spa0202",
       "name": "spa0202",
-      "label": "In school, many assignments are ... for me.",
+      "label": "In school, many assignments are . . . for me.",
+      "label_de": "In der Schule fallen mir viele Aufgaben . . .",
       "items": [
         {
           "item": "1",
           "number": "135",
           "concept": "spa0202",
-          "text": "In school, many assignments are ... for me.",
+          "text": "In school, many assignments are . . . for me.",
           "text_de": "In der Schule fallen mir viele Aufgaben . . .",
           "scale": "cat",
           "filter": "edu0100 == 2 | edu0301 == 1",
@@ -5187,6 +5196,7 @@
       "question": "spa0300",
       "name": "spa0300",
       "label": "I am . . . in math.",
+      "label_de": "DP 4 bis 15 Jahre: Jetzt geht es um die Faecher Mathe und Deutsch. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. / DP ab 16 Jahren: Jetzt geht es um die Faecher Mathe und Deutsch. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Ich bin fuer Mathe . . .",
       "items": [
         {
           "item": "1",
@@ -5236,6 +5246,7 @@
       "question": "spa0301",
       "name": "spa0301",
       "label": "I know . . . in math.",
+      "label_de": "Ich kann in Mathe . . ..",
       "items": [
         {
           "item": "1",
@@ -5284,13 +5295,14 @@
     "spa0302": {
       "question": "spa0302",
       "name": "spa0302",
-      "label": "In math, many exercises. . .",
+      "label": "In math, many exercises are . . .",
+      "label_de": "In Mathe fallen mir viele Aufgaben . . .",
       "items": [
         {
           "item": "1",
           "number": "138",
           "concept": "spa0302",
-          "text": "In math, many exercises. . .",
+          "text": "In math, many exercises are . . .",
           "text_de": "In Mathe fallen mir viele Aufgaben . . .",
           "scale": "cat",
           "filter": "edu0100 == 2 | edu0301 == 1",
@@ -5334,6 +5346,7 @@
       "question": "spa0400",
       "name": "spa0400",
       "label": "I am . . . in German.",
+      "label_de": "Ich bin fuer Deutsch . . .",
       "items": [
         {
           "item": "1",
@@ -5383,6 +5396,7 @@
       "question": "spa0401",
       "name": "spa0401",
       "label": "I know . . . in German.",
+      "label_de": "Ich kann in Deutsch . . ..",
       "items": [
         {
           "item": "1",
@@ -5431,13 +5445,14 @@
     "spa0402": {
       "question": "spa0402",
       "name": "spa0402",
-      "label": "In German, many assignments...",
+      "label": "In German, many exercises are. . .",
+      "label_de": "In Deutsch fallen mir viele Aufgaben . . .",
       "items": [
         {
           "item": "1",
           "number": "141",
           "concept": "spa0402",
-          "text": "In German, many assignments...",
+          "text": "In German, many exercises are. . .",
           "text_de": "In Deutsch fallen mir viele Aufgaben . . .",
           "scale": "cat",
           "filter": "edu0100 == 2 | edu0301 == 1",
@@ -5481,6 +5496,7 @@
       "question": "imo0200",
       "name": "imo0200",
       "label": "We would like to ask you some more questions about school in general. Please rate the extent to which each statement applies to you.",
+      "label_de": "Alter 4 bis 15 Jahre: Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. / Alter ab 16 Jahre: Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft.",
       "items": [
         {
           "item": "0",
@@ -5492,33 +5508,6 @@
           "filter": "edu0100 == 2 | edu0301 == 1",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
           "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5533,12 +5522,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5548,7 +5537,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5571,12 +5560,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5586,7 +5575,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5601,7 +5590,7 @@
           "item": "3",
           "number": "145",
           "concept": "imo0200",
-          "text": "I find the things that I lean at school interesting.",
+          "text": "Things that I learn (at school) are interesting.",
           "text_de": "Was ich in der Schule lerne, finde ich interessant.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
@@ -5609,12 +5598,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5624,7 +5613,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5644,6 +5633,7 @@
       "question": "imo0300",
       "name": "imo0300",
       "label": "We would like to ask you some more questions about school in general. Please rate the extent to which each statement applies to you.",
+      "label_de": "Alter 4 bis 15 Jahre: Jetzt geht es wieder um die Faecher Mathe und Deutsch. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. / Alter ab 16 Jahre: Jetzt geht es wieder um die Faecher Mathe und Deutsch. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft.",
       "items": [
         {
           "item": "0",
@@ -5655,33 +5645,6 @@
           "filter": "edu0100 == 2 | edu0301 == 1",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
           "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5696,12 +5659,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5711,7 +5674,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5734,12 +5697,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5749,7 +5712,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5772,12 +5735,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5787,7 +5750,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5810,12 +5773,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5825,7 +5788,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5848,12 +5811,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5863,7 +5826,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5886,12 +5849,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5901,7 +5864,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -5921,44 +5884,18 @@
       "question": "imo0500",
       "name": "imo0500",
       "label": "Please rate the extent to which each statement applies to you. At school, I am interested in . . .",
+      "label_de": "Alter 4 bis 9 Jahre: In der Schule will ich. . . / Alter 10 bis 15 Jahre: Bitte gib an, wie gut die Angabe auf Dich zutrifft. In der Schule geht es mir darum . . . / Alter ab 16 Jahre: Bitte geben Sie an, wie gut die Angabe auf Sie zutrifft. In der Schule geht es mir darum . . .",
       "items": [
         {
           "item": "0",
           "number": "153",
           "concept": "imo0500",
           "text": "Please rate the extent to which each statement applies to you. At school, I am interested in . . .",
-          "text_de": "Alter 4 bis 9 Jahre: In der Schule will ich... / Alter 10 bis 15 Jahre: Bitte gib an, wie gut die Angabe auf Dich zutrifft. In der Schule geht es mir darum . . . / Alter ab 16 Jahre: Bitte geben Sie an, wie gut die Angabe auf Sie zutrifft. In der Schule geht es mir darum . . .",
+          "text_de": "Alter 4 bis 9 Jahre: In der Schule will ich. . . / Alter 10 bis 15 Jahre: Bitte gib an, wie gut die Angabe auf Dich zutrifft. In der Schule geht es mir darum . . . / Alter ab 16 Jahre: Bitte geben Sie an, wie gut die Angabe auf Sie zutrifft. In der Schule geht es mir darum . . .",
           "scale": "txt",
           "filter": "edu0100 == 2 | edu0301 == 1 & age0110 > 9",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5973,12 +5910,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -5988,7 +5925,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6011,12 +5948,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6026,7 +5963,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6041,20 +5978,20 @@
           "item": "3",
           "number": "156",
           "concept": "imo0500",
-          "text": ". . . understand difficult things. / . . . getting motivated to think about things.",
-          "text_de": "[DP: 4 bis 9 Jahre] ... schwierige Dinge verstehen. / [DP: ab 10 Jahren:] . . ..zum Nachdenken angeregt zu werden.",
+          "text": ". . . understanding difficult things.",
+          "text_de": "[DP: 4 bis 9 Jahre] . . . schwierige Dinge verstehen. / [DP: ab 10 Jahren:] . . ..zum Nachdenken angeregt zu werden.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6064,7 +6001,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6079,20 +6016,20 @@
           "item": "4",
           "number": "157",
           "concept": "imo0500",
-          "text": ". . . understand difficult things. / . . . getting motivated to think about things.",
-          "text_de": "[DP: 4 bis 9 Jahre] ... schwierige Dinge verstehen. / [DP: ab 10 Jahren:] . . ..zum Nachdenken angeregt zu werden.",
+          "text": ". . . understanding difficult things.",
+          "text_de": "[DP: 4 bis 9 Jahre] . . . schwierige Dinge verstehen. / [DP: ab 10 Jahren:] . . ..zum Nachdenken angeregt zu werden.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6102,7 +6039,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6117,20 +6054,20 @@
           "item": "5",
           "number": "158",
           "concept": "imo0500",
-          "text": ". . . learn as much as possible. / . . . gaining a thorough undestanding of content / really understanding something.",
-          "text_de": "[DP: 4 bis 9 Jahre] ... so viel wie moeglich lernen. / [DP: ab 10 Jahren]. . . ein tieferes Verstaendnis fuer die Inhalte zu erwerben / etwas wirklich zu verstehen.",
+          "text": ". . . learning as much as possible.",
+          "text_de": "[DP: 4 bis 9 Jahre] . . . so viel wie moeglich lernen. / [DP: ab 10 Jahren]. . . ein tieferes Verstaendnis fuer die Inhalte zu erwerben / etwas wirklich zu verstehen.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6140,7 +6077,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6155,20 +6092,20 @@
           "item": "6",
           "number": "159",
           "concept": "imo0500",
-          "text": ". . . learn as much as possible. / . . . gaining a thorough undestanding of content / really understanding something.",
-          "text_de": "[DP: 4 bis 9 Jahre] ... so viel wie moeglich lernen. / [DP: ab 10 Jahren]. . . ein tieferes Verstaendnis fuer die Inhalte zu erwerben / etwas wirklich zu verstehen.",
+          "text": ". . . learning as much as possible.",
+          "text_de": "[DP: 4 bis 9 Jahre] . . . so viel wie moeglich lernen. / [DP: ab 10 Jahren]. . . ein tieferes Verstaendnis fuer die Inhalte zu erwerben / etwas wirklich zu verstehen.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6178,7 +6115,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6198,6 +6135,7 @@
       "question": "spa0500",
       "name": "spa0500",
       "label": "Please rate the extent to which each statement applies to you.",
+      "label_de": "Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft.",
       "items": [
         {
           "item": "0",
@@ -6209,33 +6147,6 @@
           "filter": "emp0400 == 1 | emp0400 == 2 | emp0400 == 3 | emp0400 == 4 | emp0200 == 1 | emp0200 == 2 | emp0200 == 3",
           "description": "Source: Deci, E. L., & Ryan, R. M. (2003). Intrinsic motivation inventory. Self-Determination Theory; McAuley, E., Duncan, T., & Tammen, V. V. (1989). Psychometric properties of the Intrinsic Motivation Inventory in a competitive sport setting: A confirmatory factor analysis. Research quarterly for exercise and sport, 60, (1) 48-58",
           "description_de": "Source: Deci, E. L., & Ryan, R. M. (2003). Intrinsic motivation inventory. Self-Determination Theory; McAuley, E., Duncan, T., & Tammen, V. V. (1989). Psychometric properties of the Intrinsic Motivation Inventory in a competitive sport setting: A confirmatory factor analysis. Research quarterly for exercise and sport, 60, (1) 48-58",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6250,12 +6161,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6265,7 +6176,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6288,12 +6199,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6303,7 +6214,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6326,12 +6237,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6341,7 +6252,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6364,12 +6275,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6379,7 +6290,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6402,12 +6313,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6417,7 +6328,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6437,6 +6348,7 @@
       "question": "imo0600",
       "name": "imo0600",
       "label": "Please rate the extent to which each statement applies to you. It is important for me in the context of my professional work . . .",
+      "label_de": "Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit . . .",
       "items": [
         {
           "item": "0",
@@ -6448,33 +6360,6 @@
           "filter": "emp0400 == 1 | emp0400 == 2 | emp0400 == 3 | emp0400 == 4 | emp0200 == 1 | emp0200 == 2 | emp0200 == 3",
           "description": "Source: Deci, E. L., & Ryan, R. M. (2003). Intrinsic motivation inventory. Self-Determination Theory; McAuley, E., Duncan, T., & Tammen, V. V. (1989). Psychometric properties of the Intrinsic Motivation Inventory in a competitive sport setting: A confirmatory factor analysis. Research quarterly for exercise and sport, 60, (1) 48-58",
           "description_de": "Source: Deci, E. L., & Ryan, R. M. (2003). Intrinsic motivation inventory. Self-Determination Theory; McAuley, E., Duncan, T., & Tammen, V. V. (1989). Psychometric properties of the Intrinsic Motivation Inventory in a competitive sport setting: A confirmatory factor analysis. Research quarterly for exercise and sport, 60, (1) 48-58",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6489,12 +6374,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6504,7 +6389,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6527,12 +6412,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6542,7 +6427,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6565,12 +6450,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -6580,7 +6465,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -6600,6 +6485,7 @@
       "question": "imo0700",
       "name": "imo0700",
       "label": "Please rate the extent to which each statement applies to you. It is important for me in the context of my professional work . . .",
+      "label_de": "Alter 7 bis 15 Jahre: Bitte gib an, wie gut die Angabe auf Dich zutrifft. / Alter ab 16 Jahre: Bitte geben Sie an, wie gut die Angabe auf Sie zutrifft.",
       "items": [
         {
           "item": "0",
@@ -6611,38 +6497,6 @@
           "filter": "emp0400 == 1 | emp0400 == 2 | emp0400 == 3 | emp0400 == 4 | emp0200 == 1 | emp0200 == 2 | emp0200 == 3",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: do not agree at all",
-              "label_de": "1: stimme ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: do not agree",
-              "label_de": "2: stimme nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
-            },
-            {
-              "value": 5,
-              "label": "5: totally agree",
-              "label_de": "5: stimme voll und ganz zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6740,6 +6594,7 @@
       "question": "mig0200",
       "name": "mig0200",
       "label": "What year did you arrive in Germany?",
+      "label_de": "Seit wann leben Sie in Deutschland? Bitte geben Sie das Jahr an.",
       "items": [
         {
           "item": "1",
@@ -6754,7 +6609,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -6774,6 +6629,7 @@
       "question": "mig0600",
       "name": "mig0600",
       "label": "When did you receive German citizenship?",
+      "label_de": "Seit wann haben Sie die deutsche Staatsbuergerschaft?",
       "items": [
         {
           "item": "1",
@@ -6802,14 +6658,15 @@
     "mig0700": {
       "question": "mig0700",
       "name": "mig0700",
-      "label": "Residency status: Do you have ...",
+      "label": "Residency status: Do you have . . .",
+      "label_de": "Haben Sie eine . . .",
       "items": [
         {
           "item": "1",
           "number": "175",
           "concept": "mig0700",
-          "text": "Residency status: Do you have ...",
-          "text_de": "Haben Sie eine ...",
+          "text": "Residency status: Do you have . . .",
+          "text_de": "Haben Sie eine . . .",
           "scale": "cat",
           "filter": "mig0500 != 1 & age0110 > 15",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
@@ -6847,13 +6704,14 @@
       "question": "mig0800",
       "name": "mig0800",
       "label": "Do you speak . . . at home?",
+      "label_de": "Sprechen Sie zuhause . . .",
       "items": [
         {
           "item": "1",
           "number": "176",
           "concept": "mig0800",
           "text": "Do you speak . . . at home?",
-          "text_de": "Sprechen Sie zuhause ...",
+          "text_de": "Sprechen Sie zuhause . . .",
           "scale": "cat",
           "filter": "age0110 > 15",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
@@ -6896,6 +6754,7 @@
       "question": "pas0200m",
       "name": "pas0200m",
       "label": "How often do the following things usually happen between you and [name mother]?",
+      "label_de": "Im Folgenden moechte ich Dich ein paar Dinge zu Dir und Deiner Familie fragen. Wir fangen an mit Fragen zu Deiner Mutter [Name]. Es gibt keine richtigen und falschen Antworten, bitte sag mir einfach, wie Du darueber denkst. Wie haeufig kommen folgende Dinge typischerweise zwischen Dir und Deiner Mutter [Name] vor?",
       "items": [
         {
           "item": "0",
@@ -6907,23 +6766,6 @@
           "filter": "age0110 < 10 & bas0200 == 1",
           "description": "Source: Schmahl, F., Wilhelm, B., Friedrich, S., Wendt, E.-V., Thoennissen, C., & Walper, S. (2012). Scales Manual of the German Family Panel. Wave 1 to 3",
           "description_de": "Source: Schmahl, F., Wilhelm, B., Friedrich, S., Wendt, E.-V., Thoennissen, C., & Walper, S. (2012). Scales Manual of the German Family Panel. Wave 1 to 3",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7299,6 +7141,7 @@
       "question": "pas0200n",
       "name": "pas0200n",
       "label": "How often do the following things usually happen between you and [name stepmother]?",
+      "label_de": "Im Folgenden moechte ich Dich ein paar Dinge zu Dir und Deiner Familie fragen. Wir fangen an mit Fragen zu [Name der Stiefmutter]. Es gibt keine richtigen und falschen Antworten, bitte sag mir einfach, wie Du darueber denkst. Wie haeufig kommen folgende Dinge typischerweise zwischen Dir und [Name der Stiefmutter] vor?",
       "items": [
         {
           "item": "0",
@@ -7310,23 +7153,6 @@
           "filter": "age0110 < 10 & bas0401 == Stiefmutter",
           "description": "Source: Schmahl, F., Wilhelm, B., Friedrich, S., Wendt, E.-V., Thoennissen, C., & Walper, S. (2012). Scales Manual of the German Family Panel. Wave 1 to 3",
           "description_de": "Source: Schmahl, F., Wilhelm, B., Friedrich, S., Wendt, E.-V., Thoennissen, C., & Walper, S. (2012). Scales Manual of the German Family Panel. Wave 1 to 3",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -7702,6 +7528,7 @@
       "question": "pas0200f",
       "name": "pas0200f",
       "label": "How often do the following things usually happen between you and [name father]?",
+      "label_de": "Nun moechte ich Dir noch ein paar Fragen zu Deinem Vater [Name] stellen. Auch hier gibt es keine richtigen oder falschen Antworten, sag mir einfach, wie Du darueber denkst. Wie haeufig kommen folgende Dinge typischerweise zwischen Dir und Deinem Vater [Name] vor?",
       "items": [
         {
           "item": "0",
@@ -7713,23 +7540,6 @@
           "filter": "age0110 < 10 & bas0300 == 1",
           "description": "Source: Schmahl, F., Wilhelm, B., Friedrich, S., Wendt, E.-V., Thoennissen, C., & Walper, S. (2012). Scales Manual of the German Family Panel. Wave 1 to 3",
           "description_de": "Source: Schmahl, F., Wilhelm, B., Friedrich, S., Wendt, E.-V., Thoennissen, C., & Walper, S. (2012). Scales Manual of the German Family Panel. Wave 1 to 3",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -8105,6 +7915,7 @@
       "question": "pas0200g",
       "name": "pas0200g",
       "label": "How often do the following things usually happen between you and [name stepfather]?",
+      "label_de": "Wie haeufig kommen folgende Dinge typischerweise zwischen Dir und [Name des Stiefvaters] vor?",
       "items": [
         {
           "item": "0",
@@ -8116,23 +7927,6 @@
           "filter": "age0110 < 10 & bas0400 == Stiefvater",
           "description": "Source: Schmahl, F., Wilhelm, B., Friedrich, S., Wendt, E.-V., Thoennissen, C., & Walper, S. (2012). Scales Manual of the German Family Panel. Wave 1 to 3",
           "description_de": "Source: Schmahl, F., Wilhelm, B., Friedrich, S., Wendt, E.-V., Thoennissen, C., & Walper, S. (2012). Scales Manual of the German Family Panel. Wave 1 to 3",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -8508,6 +8302,7 @@
       "question": "tsp0100",
       "name": "tsp0100",
       "label": "Do you (as parents) try to dress the twins as similarly as possible? (If the twins are older, think back to when they were children.)",
+      "label_de": "Versuchen Sie (als Eltern) die Zwillinge so gleich wie moeglich zu kleiden?",
       "items": [
         {
           "item": "0",
@@ -8516,36 +8311,9 @@
           "text": "Do you (as parents) try to dress the twins as similarly as possible? (If the twins are older, think back to when they were children.)",
           "text_de": "Versuchen Sie (als Eltern) die Zwillinge so gleich wie moeglich zu kleiden? Wenn die Zwillinge schon aelter sind, denken Sie bitte an die Kindheit der Zwillinge zurueck.",
           "scale": "txt",
-          "filter": "bas0103 > 9 & ptyp >= 300",
+          "filter": "age0110t > 9 & ptyp >= 300",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: no, never",
-              "label_de": "1: nein, niemals"
-            },
-            {
-              "value": 2,
-              "label": "2: no, but I match their outfits",
-              "label_de": "2: nein, aber ich stimme sie aufeinander ab"
-            },
-            {
-              "value": 3,
-              "label": "3: I used to, but not anymore",
-              "label_de": "3: frueher ja, heute nicht mehr"
-            },
-            {
-              "value": 4,
-              "label": "4: yes, sometimes",
-              "label_de": "4: ja, manchmal"
-            },
-            {
-              "value": 5,
-              "label": "5: yes, mostly",
-              "label_de": "5: ja, meistens"
-            }
-          ],
           "sn": 1
         }
       ],
@@ -8557,6 +8325,7 @@
       "question": "tsp0101",
       "name": "tsp0101",
       "label": "Up to what age (of the twins) did they do that?",
+      "label_de": "Bis zu welchem Alter (der Zwillinge) haben Sie das getan?",
       "items": [
         {
           "item": "1",
@@ -8586,6 +8355,7 @@
       "question": "tsp0200",
       "name": "tsp0200",
       "label": "Do the twins (currently) share more or less the same hobbies and interests?",
+      "label_de": "Teilen die Zwillinge (aktuell) in etwa die gleichen Hobbies und Interessen?",
       "items": [
         {
           "item": "1",
@@ -8625,6 +8395,7 @@
       "question": "tsp0300",
       "name": "tsp0300",
       "label": "How close would you say the twins are?",
+      "label_de": "Was wuerden Sie sagen: Wie eng ist das Verhaeltnis der Zwillinge zueinander?",
       "items": [
         {
           "item": "1",
@@ -8669,6 +8440,7 @@
       "question": "tsp0400",
       "name": "tsp0400",
       "label": "Are you sometimes unable to tell the twins apart?",
+      "label_de": "Verwechseln Sie selbst die Zwillinge?",
       "items": [
         {
           "item": "0",
@@ -8677,31 +8449,9 @@
           "text": "Are you sometimes unable to tell the twins apart?",
           "text_de": "Haben Sie selbst die Zwillinge im fruehen Kindesalter verwechselt? Sofern ein neuer Partner/Stiefelternteil angibt, die Zwillinge im Kindesalter noch nicht gekannt zu haben, dann bitte weiss nicht eingeben.",
           "scale": "txt",
-          "filter": "bas0103 > 9 & ptyp >= 300",
+          "filter": "age0110t > 9 & ptyp >= 300",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: yes, often",
-              "label_de": "1: ja, oft"
-            },
-            {
-              "value": 2,
-              "label": "2: yes, sometimes",
-              "label_de": "2: ja, manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: rarely/never",
-              "label_de": "3: selten/nie"
-            },
-            {
-              "value": 4,
-              "label": "4: did not/does not happen",
-              "label_de": "4: gab/gibt es nicht"
-            }
-          ],
           "sn": 1
         }
       ],
@@ -8713,6 +8463,7 @@
       "question": "dev0100",
       "name": "dev0100",
       "label": "What about you?",
+      "label_de": "Wie ist es bei Dir?",
       "items": [
         {
           "item": "0",
@@ -8724,23 +8475,6 @@
           "filter": "age0110 < 10",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
           "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -8864,6 +8598,7 @@
       "question": "sre0500",
       "name": "sre0500",
       "label": "What about you and [name of other twin]?",
+      "label_de": "Wie ist es bei Dir und [Name des anderen Zwillings]?",
       "items": [
         {
           "item": "0",
@@ -8875,23 +8610,6 @@
           "filter": "age0110 < 10 & (ptyp == 1 | ptyp == 2)",
           "description": "Source: Boer, F., Westenberg, P. M., McHale, S. M., Updegraff, K. A., & Stocker, C. M. (1997). The factorial structure of the Sibling Relationship Inventory (SRI) in American and Dutch samples. Journal of Social and Personal Relationships, 14(6), 851-859",
           "description_de": "Source: Boer, F., Westenberg, P. M., McHale, S. M., Updegraff, K. A., & Stocker, C. M. (1997). The factorial structure of the Sibling Relationship Inventory (SRI) in American and Dutch samples. Journal of Social and Personal Relationships, 14(6), 851-859",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -9239,6 +8957,7 @@
       "question": "sre0500s",
       "name": "sre0500s",
       "label": "What about you and [name of other sibling]?",
+      "label_de": "Wie ist es bei Dir und [Name des befragten Geschwisters einblenden]?",
       "items": [
         {
           "item": "0",
@@ -9250,23 +8969,6 @@
           "filter": "age0110 < 10 & (ptyp == 1 | ptyp == 2) & bas0104 == Geschwister",
           "description": "Source: Boer, F., Westenberg, P. M., McHale, S. M., Updegraff, K. A., & Stocker, C. M. (1997). The factorial structure of the Sibling Relationship Inventory (SRI) in American and Dutch samples. Journal of Social and Personal Relationships, 14(6), 851-859",
           "description_de": "Source: Boer, F., Westenberg, P. M., McHale, S. M., Updegraff, K. A., & Stocker, C. M. (1997). The factorial structure of the Sibling Relationship Inventory (SRI) in American and Dutch samples. Journal of Social and Personal Relationships, 14(6), 851-859",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -9614,6 +9316,7 @@
       "question": "sre0500t",
       "name": "sre0500t",
       "label": "What about you and [name of other twin 1]?",
+      "label_de": "Wie ist es bei Dir und [Name des Zwilling 1]?",
       "items": [
         {
           "item": "0",
@@ -9625,23 +9328,6 @@
           "filter": "age0110 < 10 & ptyp == 200",
           "description": "Source: Boer, F., Westenberg, P. M., McHale, S. M., Updegraff, K. A., & Stocker, C. M. (1997). The factorial structure of the Sibling Relationship Inventory (SRI) in American and Dutch samples. Journal of Social and Personal Relationships, 14(6), 851-859",
           "description_de": "Source: Boer, F., Westenberg, P. M., McHale, S. M., Updegraff, K. A., & Stocker, C. M. (1997). The factorial structure of the Sibling Relationship Inventory (SRI) in American and Dutch samples. Journal of Social and Personal Relationships, 14(6), 851-859",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -9989,6 +9675,7 @@
       "question": "sre0500u",
       "name": "sre0500u",
       "label": "What about you and [name of other twin 2]?",
+      "label_de": "Wie ist es bei Dir und [Name des Zwilling 2]?",
       "items": [
         {
           "item": "0",
@@ -10000,23 +9687,6 @@
           "filter": "age0110 < 10 & ptyp == 200",
           "description": "Source: Boer, F., Westenberg, P. M., McHale, S. M., Updegraff, K. A., & Stocker, C. M. (1997). The factorial structure of the Sibling Relationship Inventory (SRI) in American and Dutch samples. Journal of Social and Personal Relationships, 14(6), 851-859",
           "description_de": "Source: Boer, F., Westenberg, P. M., McHale, S. M., Updegraff, K. A., & Stocker, C. M. (1997). The factorial structure of the Sibling Relationship Inventory (SRI) in American and Dutch samples. Journal of Social and Personal Relationships, 14(6), 851-859",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {

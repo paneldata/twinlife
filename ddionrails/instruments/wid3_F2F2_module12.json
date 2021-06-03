@@ -11,6 +11,7 @@
       "question": "she0100",
       "name": "she0100",
       "label": "How would you describe your state of health during the past 12 months, in general?",
+      "label_de": "[IF age >= 10 and age <= 15] Wie wuerdest Du Deine Gesundheit in den letzten 12 Monaten im Allgemeinen beschreiben? [IF age >= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 12 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
           "item": "1",
@@ -65,6 +66,7 @@
       "question": "doc0100",
       "name": "doc0100",
       "label": "Have you visited a doctor (or dentist) in the last 12 months? (This includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
+      "label_de": "Haben Sie in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
       "items": [
         {
           "item": "1",
@@ -88,6 +90,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -109,6 +116,7 @@
       "question": "doc0101",
       "name": "doc0101",
       "label": "Please indicate how often this happened. Here we mean total frequency in the last 12 months. If you are not sure, please give the approximate number number of times.",
+      "label_de": "Geben Sie bitte an, wie haeufig das war. Damit ist die Haeufigkeit insgesamt in den letzten 12 Monaten gemeint. Wenn Sie es nicht genau wissen, geben Sie bitte die ungefaehre Anzahl an.",
       "items": [
         {
           "item": "1",
@@ -123,7 +131,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -143,6 +151,7 @@
       "question": "imp0100",
       "name": "imp0100",
       "label": "To what extent would you say your illness limits you in your everyday life?",
+      "label_de": "In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt?",
       "items": [
         {
           "item": "1",
@@ -197,6 +206,7 @@
       "question": "dia0100",
       "name": "dia0100",
       "label": "Has a doctor ever diagnosed you with one or more of the following illnesses?",
+      "label_de": "[MFN] Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Krankheiten festgestellt? Bitte geben Sie alles an, was zutrifft.",
       "items": [
         {
           "item": "0",
@@ -208,18 +218,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -272,7 +270,7 @@
           "item": "3",
           "number": "8",
           "concept": "dia0100",
-          "text": "RespiratoryÃÂ diseases",
+          "text": "Respiratory diseases",
           "text_de": "Atemwegserkrankungen (Asthma, Bronchitis o.Ae.)",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
@@ -829,6 +827,7 @@
       "question": "dia0101",
       "name": "dia0101",
       "label": "You indicated that you have been diagnosed with <a sleep disorder>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from this condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Schlafstoerung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -840,18 +839,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0100==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -955,6 +942,7 @@
       "question": "dia0201",
       "name": "dia0201",
       "label": "You indicated that you have been diagnosed with <diabetes>. When did this disease appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from this disease today, please select the response option I am still suffering from this disease instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <Diabetes> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -966,18 +954,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0200==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1081,6 +1057,7 @@
       "question": "dia0311",
       "name": "dia0311",
       "label": "You indicated that you have been diagnosed with <a respiratory illness>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Atemwegserkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -1092,18 +1069,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0310==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1207,6 +1172,7 @@
       "question": "dia0401",
       "name": "dia0401",
       "label": "You indicated that you have been diagnosed with <heart disease>. When did this disease appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the disease today, please select the response option I am still suffering from this disease instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Herzkrankheit> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -1218,18 +1184,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0400==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1333,6 +1287,7 @@
       "question": "dia0501",
       "name": "dia0501",
       "label": "You indicated that you have been diagnosed with <cancer>. When did this disease appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the disease today, please select the response option I am still suffering from this disease instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Krebserkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -1344,18 +1299,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0500==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1459,6 +1402,7 @@
       "question": "dia0601",
       "name": "dia0601",
       "label": "You indicated that you have been diagnosed with <a stroke>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <ein Schlaganfall> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -1470,18 +1414,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0600==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1585,6 +1517,7 @@
       "question": "dia0701",
       "name": "dia0701",
       "label": "You indicated that you have been diagnosed with <migraines>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <Migraene> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -1596,18 +1529,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0700==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1711,6 +1632,7 @@
       "question": "dia0801",
       "name": "dia0801",
       "label": "You indicated that you have been diagnosed with <high blood pressure>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <Bluthochdruck> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -1722,18 +1644,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0800==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1837,6 +1747,7 @@
       "question": "dia0901",
       "name": "dia0901",
       "label": "You indicated that you have been diagnosed with <an anxiety disorder>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Angsterkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -1848,18 +1759,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia0900==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1963,6 +1862,7 @@
       "question": "dia1001",
       "name": "dia1001",
       "label": "You indicated that you have been diagnosed with <alcohol addiction>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Alkoholerkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -1974,18 +1874,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia1000==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2089,6 +1977,7 @@
       "question": "dia1101",
       "name": "dia1101",
       "label": "You indicated that you have been diagnosed with <a depressive disorder>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine depressive Erkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -2100,18 +1989,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia1100==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2215,6 +2092,7 @@
       "question": "dia1201",
       "name": "dia1201",
       "label": "You indicated that you have been diagnosed with <joint disease>. When has the disease occurred? If you cannot remember the month exactly, please only enter the period of the year. If you are still suffering from the disease today, please select the answer option I am still suffering from the disease instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Gelenkerkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -2226,18 +2104,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia1200==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2341,6 +2207,7 @@
       "question": "dia1301",
       "name": "dia1301",
       "label": "You indicated that you have been diagnosed with <chronic back pain>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine chronische Rueckenerkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -2352,18 +2219,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia1300==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2467,6 +2322,7 @@
       "question": "dia1401",
       "name": "dia1401",
       "label": "You indicated that you have been diagnosed with <a physical disability>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Koerperbehinderung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -2478,18 +2334,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia1400==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2593,6 +2437,7 @@
       "question": "dia1501",
       "name": "dia1501",
       "label": "You indicated that you have been diagnosed with <dia1500>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <dia1500> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -2604,18 +2449,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia1500==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2719,6 +2552,7 @@
       "question": "dia2201",
       "name": "dia2201",
       "label": "You indicated that you have been diagnosed with <an allergy>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Allergie> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -2730,18 +2564,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia2200==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2845,6 +2667,7 @@
       "question": "dia2301",
       "name": "dia2301",
       "label": "You indicated that you have been diagnosed with <a skin condition>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Hauterkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -2856,18 +2679,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia2300==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2971,6 +2782,7 @@
       "question": "dia2401",
       "name": "dia2401",
       "label": "You have indicated that you have been diagnosed with <defective vision>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Fehlsichtigkeit> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -2982,18 +2794,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia2400==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3097,6 +2897,7 @@
       "question": "dia2501",
       "name": "dia2501",
       "label": "You indicated that you have been diagnosed with <high cholesterol>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <ein erhoehter Cholesterinspiegel> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -3108,18 +2909,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia2500==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3223,6 +3012,7 @@
       "question": "dia2601",
       "name": "dia2601",
       "label": "You indicated that you have been diagnosed with <attention deficit disorder>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Aufmerksamkeitsstoerung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -3234,18 +3024,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia2600==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3349,6 +3127,7 @@
       "question": "dia2701",
       "name": "dia2701",
       "label": "You indicated that you have been diagnosed with <dyslexia>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Lese- Rechtschreibschwaeche> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -3360,18 +3139,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia2700==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3475,6 +3242,7 @@
       "question": "dia2801",
       "name": "dia2801",
       "label": "You indicated that you have been diagnosed with <dyscalculia>. When did this condition appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the condition today, please select the response option I am still suffering from this condition instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Rechenschwaeche> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -3486,18 +3254,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia2800==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3601,6 +3357,7 @@
       "question": "dia2901",
       "name": "dia2901",
       "label": "You indicated that you have been diagnosed with <thyroid disease>. When did this disease appear? If you cannot remember the exact month, please just enter the time of year. If you are still suffering from the disease today, please select the response option I am still suffering from this disease instead of the end date.",
+      "label_de": "Sie haben angegeben, dass bei Ihnen <eine Schilddruesenerkrankung> festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten? Wenn Sie sich nicht genau an den Monat erinnern koennen, geben Sie bitte nur den Jahreszeitraum an. Falls Sie heute immer noch an der Erkrankung leiden, waehlen Sie bitte statt dem Enddatum die Antwortoption Ich leide immer noch an der Erkrankung aus.",
       "items": [
         {
           "item": "0",
@@ -3612,18 +3369,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (dia1800 !=1 & dia2000 !=1 & dia2100!=1 & dia2900==1)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3727,6 +3472,7 @@
       "question": "hbe0100",
       "name": "hbe0100",
       "label": "Do you smoke?",
+      "label_de": "Rauchen Sie?",
       "items": [
         {
           "item": "1",
@@ -3781,6 +3527,7 @@
       "question": "hbe0101",
       "name": "hbe0101",
       "label": "How old were you when you started smoking (even if you didn't smoke much)?",
+      "label_de": "Wie alt waren Sie, als Sie mit dem Rauchen begonnen haben (wenn auch nur in kleinen Mengen)?",
       "items": [
         {
           "item": "1",
@@ -3795,7 +3542,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -3815,6 +3562,7 @@
       "question": "hbe0102",
       "name": "hbe0102",
       "label": "Do you smoke alone or in the company of acquaintances or friends? [IF hbe0100 = 5] Did you smoke alone or in the company of friends and acquaintances?",
+      "label_de": "Rauchen Sie eher alleine oder in Gesellschaft von Bekannten oder Freunden? [IF hbe0100=5] Haben Sie eher alleine oder in Gesellschaft von Bekannten und Freunden geraucht?",
       "items": [
         {
           "item": "1",
@@ -3854,6 +3602,7 @@
       "question": "hbe0200",
       "name": "hbe0200",
       "label": "Have you ever drunk alcohol, and if so, how old were you when you drank alcohol for the first time? If you don't remember exactly, please estimate.",
+      "label_de": "Haben Sie jemals Alkohol getrunken bzw. wie alt waren Sie, als Sie zum ersten Mal Alkohol getrunken haben? Wenn Sie das Alter nicht genau wissen, geben Sie bitte das ungefaehre Alter an.",
       "items": [
         {
           "item": "1",
@@ -3883,6 +3632,7 @@
       "question": "hbe0201",
       "name": "hbe0201",
       "label": "Do you tend to drink alone or with friends or acquaintances?",
+      "label_de": "Trinken Sie eher allein oder in Gesellschaft von Bekannten oder Freunden?",
       "items": [
         {
           "item": "1",
@@ -3922,6 +3672,7 @@
       "question": "hbe0202",
       "name": "hbe0202",
       "label": "How often do you drink a lot?",
+      "label_de": "Wie haeufig kommt es vor, dass Sie viel trinken?",
       "items": [
         {
           "item": "1",
@@ -3976,6 +3727,7 @@
       "question": "hbe0210",
       "name": "hbe0210",
       "label": "If you think you drink a lot, how much do you drink?",
+      "label_de": "Wenn Sie Ihrer Meinung nach viel trinken, wieviel trinken Sie dann?",
       "items": [
         {
           "item": "0",
@@ -3987,18 +3739,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (hbe0200!=-81)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4013,7 +3753,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -4036,7 +3776,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -4059,7 +3799,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -4079,6 +3819,7 @@
       "question": "hbe0240",
       "name": "hbe0240",
       "label": "[ITEMBAT] [NCS] To what extent have you consumed the following alcoholic beverages over the past 12 months?",
+      "label_de": "[ITEMBAT] [NCS] In welchem Ausmass haben Sie waehrend der letzten 12 Monate folgende alkoholische Getraenke konsumiert?",
       "items": [
         {
           "item": "0",
@@ -4090,38 +3831,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (hbe0200!=-81)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: daily",
-              "label_de": "1: taeglich"
-            },
-            {
-              "value": 2,
-              "label": "2: several times per week",
-              "label_de": "2: mehrmals pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: once a week",
-              "label_de": "3: 1-mal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: 1 to 3 times per month",
-              "label_de": "4: 1 bis 3-mal im Monat"
-            },
-            {
-              "value": 5,
-              "label": "5: less frequently",
-              "label_de": "5: seltener"
-            },
-            {
-              "value": 6,
-              "label": "6: never",
-              "label_de": "6: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4262,6 +3971,7 @@
       "question": "hbe0250",
       "name": "hbe0250",
       "label": "How often in the last 12 months did you not do your work as well as usual because you had consumed alcohol?",
+      "label_de": "Wie oft kam es in den letzten 12 Monaten vor, dass Sie wegen des Konsums von Alkohol Ihre Arbeit oder Taetigkeit schlechter als sonst gemacht haben?",
       "items": [
         {
           "item": "1",
@@ -4311,6 +4021,7 @@
       "question": "hbe0300",
       "name": "hbe0300",
       "label": "Do you regularly take medication that adversely affect your ability to think or your emotions or cause other serious side effects?",
+      "label_de": "Nehmen Sie regelmaessig Medikamente ein, die Ihr Denken und Fuehlen beeintraechtigen oder andere gravierende Nebenwirkungen bei Ihnen hervorrufen?",
       "items": [
         {
           "item": "1",
@@ -4334,6 +4045,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -4355,6 +4071,7 @@
       "question": "hbe0400",
       "name": "hbe0400",
       "label": "In the following we would like to know what you do to care for your health. To what extent does this statement apply to you personally: I take active steps to stay healthy (e.g., go to regular checkups, follow a healthy diet, and avoid unhealthy behavior, etc.).",
+      "label_de": "Im Folgenden moechten wir erfahren, inwieweit Sie fuer Ihre Gesundheit vorsorgen. Inwieweit trifft folgende Aussage auf Sie persoenlich zu? Ich sorge fuer die Erhaltung meiner Gesundheit aktiv vor (z.B. durch regelmaessige Vorsorgeuntersuchungen, gesunde Ernaehrung, Vermeidung von gesundheitsschaedlichem Verhalten, etc.).",
       "items": [
         {
           "item": "1",
@@ -4399,6 +4116,7 @@
       "question": "bdy0100",
       "name": "bdy0100",
       "label": "[IF age> = 16] Please enter your height. If you do not know your exact height, you are welcome to measure yourself now, otherwise please estimate. [IF age> = 10 and age <16] Please tell us how tall you are. If you do not know exactly how tall you are, you are welcome to measure yourself now, otherwise please estimate your height.",
+      "label_de": "[IF age >= 16] Bitte geben Sie Ihre Koerpergroesse an. Wenn Sie es nicht genau wissen, koennen Sie sich gerne jetzt messen, ansonsten schaetzen Sie bitte. [IF age >= 10 and age <16] Bitte gib an, wie gross Du bist. Wenn Du es nicht genau weisst, kannst Du Dich gerne jetzt messen, ansonsten schaetze deine Groesse bitte.",
       "items": [
         {
           "item": "1",
@@ -4413,7 +4131,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -4433,6 +4151,7 @@
       "question": "bdy0200",
       "name": "bdy0200",
       "label": "What is your current weight in kilos? If you do not know your current weight, you are welcome to weigh yourself now, otherwise please estimate.",
+      "label_de": "[IF age >= 16] Wieviel Kilogramm wiegen Sie gegenwaertig? Wenn Sie Ihr aktuelles Gewicht nicht wissen, koennen Sie sich gerne jetzt wiegen, ansonsten schaetzen Sie bitte. [If age >= 10 and age <16] Bitte gib an, wie viel Du wiegst. Wenn Du es nicht genau weisst, kannst Du Dich gerne jetzt wiegen, ansonsten schaetze dein Gewicht bitte.",
       "items": [
         {
           "item": "1",
@@ -4447,7 +4166,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -4467,6 +4186,7 @@
       "question": "pub0100",
       "name": "pub0100",
       "label": "[IF sex = 2] In puberty you get hair under your armpits and in the pubic area. For girls, the breasts begin to grow and they get their period (menstrual bleeding). Have you noticed whether any of these changes have already started for you? [IF sex = 1] In puberty you get hair under your armpits and in the pubic area. For boys, facial hair starts to grow and the voice changes. Have you noticed whether any of these changes have already started for you?",
+      "label_de": "[IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Dir einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei dir einige dieser Veraenderungen schon begonnen?",
       "items": [
         {
           "item": "1",
@@ -4511,6 +4231,7 @@
       "question": "pub0200",
       "name": "pub0200",
       "label": "How are or were these physical changes for you?",
+      "label_de": "Wie sind oder waren diese Veraenderungen Deines Koerpers fuer Dich?",
       "items": [
         {
           "item": "1",
@@ -4570,6 +4291,7 @@
       "question": "pub0300",
       "name": "pub0300",
       "label": "These physical changes are often accompanied by changes in how you think and feel, for example, new interests develop and mood swings can occur. Have you noticed changes like this in yourself?",
+      "label_de": "Mir diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Hast Du solche Veraenderungen bei Dir schon bemerkt?",
       "items": [
         {
           "item": "1",
@@ -4593,6 +4315,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -4614,6 +4341,7 @@
       "question": "pub0301",
       "name": "pub0301",
       "label": "How did you feel about these changes in your thoughts and feelings?",
+      "label_de": "Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Dich?",
       "items": [
         {
           "item": "1",
@@ -4673,6 +4401,7 @@
       "question": "seo0100",
       "name": "seo0100",
       "label": "In the following, we would like to ask you some questions that concern your sexuality. Do you consent to this? The questions are very personal, but please rest assured that your answers will be treated strictly confidentially and separated from your name. If you do not want to answer the questions, this will have no effect on our further questioning.",
+      "label_de": "Im Folgenden wuerden wir Ihnen gerne einige Fragen stellen, die Ihre Sexualitaet betreffen. Sind Sie damit einverstanden? Die Fragen sind sehr persoenlich, aber bitte denken Sie daran, dass Ihre Antworten streng vertraulich behandelt und unabhaengig von Ihrem Namen gespeichert werden. Falls Sie die Fragen nicht beantworten moechten, hat dies keine Auswirkung auf die weitere Befragung.",
       "items": [
         {
           "item": "1",
@@ -4705,6 +4434,7 @@
       "question": "seo0200",
       "name": "seo0200",
       "label": "People differ in who they feel sexually attracted to. What best describes your feelings? Are you feeling:",
+      "label_de": "Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Ihre Gefuehle am besten? Fuehlen Sie sich:",
       "items": [
         {
           "item": "1",
@@ -4756,14 +4486,15 @@
     "seo0300": {
       "question": "seo0300",
       "name": "seo0300",
-      "label": "I consider myselfâ¦",
+      "label": "I consider myself. . .",
+      "label_de": "Halten Sie sich selbst fuer . . .",
       "items": [
         {
           "item": "1",
           "number": "172",
           "concept": "seo0300",
-          "text": "I consider myselfâ¦",
-          "text_de": "Halten Sie sich selbst fuer ...",
+          "text": "I consider myself. . .",
+          "text_de": "Halten Sie sich selbst fuer . . .",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (seo0100==1)",
           "answers": [
@@ -4799,6 +4530,7 @@
       "question": "seo0800",
       "name": "seo0800",
       "label": "Have you ever been forced to engage in sexual acts?",
+      "label_de": "Wurden Sie jemals zu sexuellen Handlungen gezwungen?",
       "items": [
         {
           "item": "1",
@@ -4822,6 +4554,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -4843,6 +4580,7 @@
       "question": "seo0900",
       "name": "seo0900",
       "label": "Do you protect yourself against sexually transmitted diseases if you are unsure whether your sexual partner is healthy in this regard? (e.g. with a condom)",
+      "label_de": "Schuetzen Sie sich vor sexuell uebertragbaren Krankheiten, wenn Sie nicht sicher sind, ob Ihr Sexualpartner in dieser Hinsicht gesund ist? (z.B. mit einem Kondom)",
       "items": [
         {
           "item": "1",
@@ -4892,6 +4630,7 @@
       "question": "att0100t",
       "name": "att0100t",
       "label": "[IF age >= 16] How do you rate the physical attractiveness of your twin sibling compared to other people of the same age and gender? [IF age >= 12 and age < 16] How do you rate the physical attractiveness of your twin sibling compared to other young people of the same age and gender? [IF age < 12] How do you rate the physical attractiveness of your twin sibling compared to other children of the same age and gender?",
+      "label_de": "[IF age >= 16] Nun geht es uns um Ihre persoenliche Meinung. Hierbei gibt es keine richtigen oder falschen Antworten. Antworten Sie bitte moeglichst spontan. [IF age >= 10 AND age < 16] Jetzt moechten wir gerne deine Meinung wissen. Hierbei gibt es keine richtigen oder falschen Antworten. Antworte einfach spontan, was du denkst. [IF age >= 16] Wie beurteilen Sie die physische Attraktivitaet Ihres Zwillings im Vergleich zu anderen Menschen desselben Alters und Geschlechts? [IF age >= 14 and age < 16] Wie beurteilst Du die physische Attraktivitaet Deines Zwillings im Vergleich zu anderen Jugendlichen desselben Alters und Geschlechts? [IF age >= 10 and age < 14 and sex = 2] Wie findest Du das Aussehen Deines Zwillings im Vergleich zu anderen Maedchen Eures Alters? [IF age >= 10 and age < 14 and sex = 1] Wie findest Du das Aussehen Deines Zwillings im Vergleich zu anderen Jungen Eures Alters?",
       "items": [
         {
           "item": "1",
@@ -4901,8 +4640,8 @@
           "text_de": "[IF age >= 16] Nun geht es uns um Ihre persoenliche Meinung. Hierbei gibt es keine richtigen oder falschen Antworten. Antworten Sie bitte moeglichst spontan. [IF age >= 10 AND age < 16] Jetzt moechten wir gerne deine Meinung wissen. Hierbei gibt es keine richtigen oder falschen Antworten. Antworte einfach spontan, was du denkst. [IF age >= 16] Wie beurteilen Sie die physische Attraktivitaet Ihres Zwillings im Vergleich zu anderen Menschen desselben Alters und Geschlechts? [IF age >= 14 and age < 16] Wie beurteilst Du die physische Attraktivitaet Deines Zwillings im Vergleich zu anderen Jugendlichen desselben Alters und Geschlechts? [IF age >= 10 and age < 14 and sex = 2] Wie findest Du das Aussehen Deines Zwillings im Vergleich zu anderen Maedchen Eures Alters? [IF age >= 10 and age < 14 and sex = 1] Wie findest Du das Aussehen Deines Zwillings im Vergleich zu anderen Jungen Eures Alters?",
           "scale": "cat",
           "filter": "(inlist(ptyp,2)) & (age0110 >=10)",
-          "description": "Source: Adapted from: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
-          "description_de": "Source: Adaptiert von: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
           "answers": [
             {
               "value": -5,
@@ -4971,6 +4710,7 @@
       "question": "att0100u",
       "name": "att0100u",
       "label": "[IF age >= 16] How do you rate the physical attractiveness of your twin sibling compared to other people of the same age and gender? [IF age >= 12 and age < 16] How do you rate the physical attractiveness of your twin sibling compared to other young people of the same age and gender? [IF age < 12] How do you rate the physical attractiveness of your twin sibling compared to other children of the same age and gender?",
+      "label_de": "[IF age >= 16] Nun geht es uns um Ihre persoenliche Meinung. Hierbei gibt es keine richtigen oder falschen Antworten. Antworten Sie bitte moeglichst spontan. [IF age >= 10 AND age < 16] Jetzt moechten wir gerne deine Meinung wissen. Hierbei gibt es keine richtigen oder falschen Antworten. Antworte einfach spontan, was du denkst. [IF age >= 16] Wie beurteilen Sie die physische Attraktivitaet Ihres Zwillings im Vergleich zu anderen Menschen desselben Alters und Geschlechts? [IF age >= 14 and age < 16] Wie beurteilst Du die physische Attraktivitaet Deines Zwillings im Vergleich zu anderen Jugendlichen desselben Alters und Geschlechts? [IF age >= 10 and age < 14 and sex = 2] Wie findest Du das Aussehen Deines Zwillings im Vergleich zu anderen Maedchen Eures Alters? [IF age >= 10 and age < 14 and sex = 1] Wie findest Du das Aussehen Deines Zwillings im Vergleich zu anderen Jungen Eures Alters?",
       "items": [
         {
           "item": "1",
@@ -4980,8 +4720,8 @@
           "text_de": "[IF age >= 16] Nun geht es uns um Ihre persoenliche Meinung. Hierbei gibt es keine richtigen oder falschen Antworten. Antworten Sie bitte moeglichst spontan. [IF age >= 10 AND age < 16] Jetzt moechten wir gerne deine Meinung wissen. Hierbei gibt es keine richtigen oder falschen Antworten. Antworte einfach spontan, was du denkst. [IF age >= 16] Wie beurteilen Sie die physische Attraktivitaet Ihres Zwillings im Vergleich zu anderen Menschen desselben Alters und Geschlechts? [IF age >= 14 and age < 16] Wie beurteilst Du die physische Attraktivitaet Deines Zwillings im Vergleich zu anderen Jugendlichen desselben Alters und Geschlechts? [IF age >= 10 and age < 14 and sex = 2] Wie findest Du das Aussehen Deines Zwillings im Vergleich zu anderen Maedchen Eures Alters? [IF age >= 10 and age < 14 and sex = 1] Wie findest Du das Aussehen Deines Zwillings im Vergleich zu anderen Jungen Eures Alters?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1)) & (age0110 >=10)",
-          "description": "Source: Adapted from: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
-          "description_de": "Source: Adaptiert von: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
           "answers": [
             {
               "value": -5,
@@ -5050,6 +4790,7 @@
       "question": "att0200",
       "name": "att0200",
       "label": "[IF age >= 16] How do you rate your physical attractiveness compared to other people of the same age and gender? [IF age >= 12 and age < 16] How do you rate your physical attractiveness compared to other young people of the same age and gender? [IF age < 12] How do you rate your physical attractiveness compared to other children of the same age and gender?",
+      "label_de": "[IF age >= 16] Nun geht es uns um Ihre persoenliche Meinung. Hierbei gibt es keine richtigen oder falschen Antworten. Antworten Sie bitte moeglichst spontan. [IF age >= 10 and age < 16] Jetzt moechten wir gerne deine Meinung wissen. Hierbei gibt es keine richtigen oder falschen Antworten. Antworten einfach spontan, was du denkst. [IF age >= 16] Wie beurteilen Sie Ihre physische Attraktivitaet im Vergleich zu anderen Menschen Ihres Alters und Geschlechts? [IF age >= 14 and age < 16] Wie beurteilst Du Deine physische Attraktivitaet im Vergleich zu anderen Jugendlichen Deines Alters und Geschlechts? [IF age >= 10 and age < 14 and sex = 2] Wie findest Du Dein eigenes Aussehen im Vergleich zu anderen Maedchen Deines Alters? [IF age >= 10 and age < 14 and sex = 1] Wie findest Du Dein eigenes Aussehen im Vergleich zu anderen Jungen Deines Alters?",
       "items": [
         {
           "item": "1",
@@ -5059,8 +4800,8 @@
           "text_de": "[IF age >= 16] Nun geht es uns um Ihre persoenliche Meinung. Hierbei gibt es keine richtigen oder falschen Antworten. Antworten Sie bitte moeglichst spontan. [IF age >= 10 and age < 16] Jetzt moechten wir gerne deine Meinung wissen. Hierbei gibt es keine richtigen oder falschen Antworten. Antworten einfach spontan, was du denkst. [IF age >= 16] Wie beurteilen Sie Ihre physische Attraktivitaet im Vergleich zu anderen Menschen Ihres Alters und Geschlechts? [IF age >= 14 and age < 16] Wie beurteilst Du Deine physische Attraktivitaet im Vergleich zu anderen Jugendlichen Deines Alters und Geschlechts? [IF age >= 10 and age < 14 and sex = 2] Wie findest Du Dein eigenes Aussehen im Vergleich zu anderen Maedchen Deines Alters? [IF age >= 10 and age < 14 and sex = 1] Wie findest Du Dein eigenes Aussehen im Vergleich zu anderen Jungen Deines Alters?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110>=10)",
-          "description": "Source: Adapted from: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
-          "description_de": "Source: Adaptiert von: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
           "answers": [
             {
               "value": -5,
@@ -5129,6 +4870,7 @@
       "question": "prg0100t",
       "name": "prg0100t",
       "label": "Was your pregnancy rather planned or unplanned?",
+      "label_de": "War die Schwangerschaft von Ihnen und Ihrem Partner eher ungeplant oder eher geplant?",
       "items": [
         {
           "item": "1",
@@ -5163,6 +4905,7 @@
       "question": "prg0100s",
       "name": "prg0100s",
       "label": "Was your pregnancy rather planned or unplanned?",
+      "label_de": "War die Schwangerschaft von Ihnen und Ihrem Partner eher ungeplant oder eher geplant?",
       "items": [
         {
           "item": "1",
@@ -5197,6 +4940,7 @@
       "question": "prg0200t",
       "name": "prg0200t",
       "label": "Did you receive medical help in order to get pregnant (e.g. hormone treatment, IVF)?",
+      "label_de": "Erfolgte die Schwangerschaft mit Hilfe medizinischer Unterstuetzung (z.B. Hormonbehandlung, IVF)",
       "items": [
         {
           "item": "1",
@@ -5220,6 +4964,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -5241,6 +4990,7 @@
       "question": "prg0200s",
       "name": "prg0200s",
       "label": "Did you receive medical help in order to get pregnant (e.g. hormone treatment, IVF)?",
+      "label_de": "Erfolgte die Schwangerschaft mit Hilfe medizinischer Unterstuetzung (z.B. Hormonbehandlung, IVF)",
       "items": [
         {
           "item": "1",
@@ -5264,6 +5014,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -5285,6 +5040,7 @@
       "question": "prg0201t",
       "name": "prg0201t",
       "label": "What medical help did you receive?",
+      "label_de": "Welche medizinische Unterstuetzung war das?",
       "items": [
         {
           "item": "1",
@@ -5334,6 +5090,7 @@
       "question": "prg0201s",
       "name": "prg0201s",
       "label": "What medical help did you receive?",
+      "label_de": "Welche medizinische Unterstuetzung war das?",
       "items": [
         {
           "item": "1",
@@ -5382,40 +5139,19 @@
     "prg0300t": {
       "question": "prg0300t",
       "name": "prg0300t",
-      "label": "[ITEMBAT] [NCS] How was your physical well-being...",
+      "label": "[ITEMBAT] [NCS] How was your physical well-being. . .",
+      "label_de": "[ITEMBAT][NCS] Wie war Ihr koerperliches Befinden. . .",
       "items": [
         {
           "item": "0",
           "number": "184",
           "concept": "prg0300t",
-          "text": "[ITEMBAT] [NCS] How was your physical well-being...",
-          "text_de": "[ITEMBAT][NCS] Wie war Ihr koerperliches Befinden...",
+          "text": "[ITEMBAT] [NCS] How was your physical well-being. . .",
+          "text_de": "[ITEMBAT][NCS] Wie war Ihr koerperliches Befinden. . .",
           "scale": "txt",
           "filter": "inlist(ptyp,300) & fpr0107 !=23 & fpr0107!=25",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Lebenslauffragebogen, Altstichproben. SOEP Survey Papers 237: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: very good",
-              "label_de": "1: sehr gut"
-            },
-            {
-              "value": 2,
-              "label": "2: good",
-              "label_de": "2: gut"
-            },
-            {
-              "value": 3,
-              "label": "3: mostly bad",
-              "label_de": "3: eher schlecht"
-            },
-            {
-              "value": 4,
-              "label": "4: bad",
-              "label_de": "4: schlecht"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5492,40 +5228,19 @@
     "prg0302t": {
       "question": "prg0302t",
       "name": "prg0302t",
-      "label": "[ITEMBAT] [NCS] And how was your mental/psychological well-being ...",
+      "label": "[ITEMBAT] [NCS] And how was your mental/psychological well-being . . .",
+      "label_de": "[ITEMBAT][NCS] Und wie war ihr seelisches/psychisches Befinden. . .",
       "items": [
         {
           "item": "0",
           "number": "187",
           "concept": "prg0302t",
-          "text": "[ITEMBAT] [NCS] And how was your mental/psychological well-being ...",
-          "text_de": "[ITEMBAT][NCS] Und wie war ihr seelisches/psychisches Befinden...",
+          "text": "[ITEMBAT] [NCS] And how was your mental/psychological well-being . . .",
+          "text_de": "[ITEMBAT][NCS] Und wie war ihr seelisches/psychisches Befinden. . .",
           "scale": "txt",
           "filter": "inlist(ptyp,300) & fpr0107 !=23 & fpr0107!=25",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Lebenslauffragebogen, Altstichproben. SOEP Survey Papers 237: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: very good",
-              "label_de": "1: sehr gut"
-            },
-            {
-              "value": 2,
-              "label": "2: good",
-              "label_de": "2: gut"
-            },
-            {
-              "value": 3,
-              "label": "3: mostly bad",
-              "label_de": "3: eher schlecht"
-            },
-            {
-              "value": 4,
-              "label": "4: bad",
-              "label_de": "4: schlecht"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5602,40 +5317,19 @@
     "prg0300s": {
       "question": "prg0300s",
       "name": "prg0300s",
-      "label": "[ITEMBAT] [NCS] How was your physical well-being ...",
+      "label": "[ITEMBAT] [NCS] How was your physical well-being . . .",
+      "label_de": "[ITEMBAT][NCS] Wie war Ihr koerperliches Befinden. . .",
       "items": [
         {
           "item": "0",
           "number": "190",
           "concept": "prg0300s",
-          "text": "[ITEMBAT] [NCS] How was your physical well-being ...",
-          "text_de": "[ITEMBAT][NCS] Wie war Ihr koerperliches Befinden...",
+          "text": "[ITEMBAT] [NCS] How was your physical well-being . . .",
+          "text_de": "[ITEMBAT][NCS] Wie war Ihr koerperliches Befinden. . .",
           "scale": "txt",
           "filter": "prg0001s !=-81 & inlist(ptyp,300) & fpr0107 !=23 & fpr0107!=25 & fls==1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Lebenslauffragebogen, Altstichproben. SOEP Survey Papers 237: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: very good",
-              "label_de": "1: sehr gut"
-            },
-            {
-              "value": 2,
-              "label": "2: good",
-              "label_de": "2: gut"
-            },
-            {
-              "value": 3,
-              "label": "3: mostly bad",
-              "label_de": "3: eher schlecht"
-            },
-            {
-              "value": 4,
-              "label": "4: bad",
-              "label_de": "4: schlecht"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5712,40 +5406,19 @@
     "prg0302s": {
       "question": "prg0302s",
       "name": "prg0302s",
-      "label": "[ITEMBAT] [NCS] And how was your mental/psychological well-being ...",
+      "label": "[ITEMBAT] [NCS] And how was your mental/psychological well-being . . .",
+      "label_de": "[ITEMBAT][NCS] Und wie war ihr seelisches/psychisches Befinden. . .",
       "items": [
         {
           "item": "0",
           "number": "193",
           "concept": "prg0302s",
-          "text": "[ITEMBAT] [NCS] And how was your mental/psychological well-being ...",
-          "text_de": "[ITEMBAT][NCS] Und wie war ihr seelisches/psychisches Befinden...",
+          "text": "[ITEMBAT] [NCS] And how was your mental/psychological well-being . . .",
+          "text_de": "[ITEMBAT][NCS] Und wie war ihr seelisches/psychisches Befinden. . .",
           "scale": "txt",
           "filter": "prg0001s !=-81 & inlist(ptyp,300) & fpr0107 !=23 & fpr0107!=25 & fls==1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Lebenslauffragebogen, Altstichproben. SOEP Survey Papers 237: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: very good",
-              "label_de": "1: sehr gut"
-            },
-            {
-              "value": 2,
-              "label": "2: good",
-              "label_de": "2: gut"
-            },
-            {
-              "value": 3,
-              "label": "3: mostly bad",
-              "label_de": "3: eher schlecht"
-            },
-            {
-              "value": 4,
-              "label": "4: bad",
-              "label_de": "4: schlecht"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5822,50 +5495,19 @@
     "prg0400t": {
       "question": "prg0400t",
       "name": "prg0400t",
-      "label": "[ITEMBAT] [NCS] During pregnancy, my partner and I ...",
+      "label": "[ITEMBAT] [NCS] During pregnancy, my partner and I . . .",
+      "label_de": "[ITEMBAT] [NCS] Ich und mein Partner haben waehrend der Schwangerschaft. . .",
       "items": [
         {
           "item": "0",
           "number": "196",
           "concept": "prg0400t",
-          "text": "[ITEMBAT] [NCS] During pregnancy, my partner and I ...",
-          "text_de": "[ITEMBAT] [NCS] Ich und mein Partner haben waehrend der Schwangerschaft...",
+          "text": "[ITEMBAT] [NCS] During pregnancy, my partner and I . . .",
+          "text_de": "[ITEMBAT] [NCS] Ich und mein Partner haben waehrend der Schwangerschaft. . .",
           "scale": "txt",
           "filter": "inlist(ptyp,300) & fpr0107 !=23 & fpr0107!=25",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: rarely",
-              "label_de": "2: selten"
-            },
-            {
-              "value": 3,
-              "label": "3: occasionally",
-              "label_de": "3: manchmal"
-            },
-            {
-              "value": 4,
-              "label": "4: often",
-              "label_de": "4: oft"
-            },
-            {
-              "value": 5,
-              "label": "5: very often",
-              "label_de": "5: sehr oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6005,50 +5647,19 @@
     "prg0400s": {
       "question": "prg0400s",
       "name": "prg0400s",
-      "label": "[ITEMBAT] [NCS] During pregnancy, my partner and I ...",
+      "label": "[ITEMBAT] [NCS] During pregnancy, my partner and I . . .",
+      "label_de": "[ITEMBAT] [NCS] Ich und mein Partner haben waehrend der Schwangerschaft. . .",
       "items": [
         {
           "item": "0",
           "number": "200",
           "concept": "prg0400s",
-          "text": "[ITEMBAT] [NCS] During pregnancy, my partner and I ...",
-          "text_de": "[ITEMBAT] [NCS] Ich und mein Partner haben waehrend der Schwangerschaft...",
+          "text": "[ITEMBAT] [NCS] During pregnancy, my partner and I . . .",
+          "text_de": "[ITEMBAT] [NCS] Ich und mein Partner haben waehrend der Schwangerschaft. . .",
           "scale": "txt",
           "filter": "prg0001s !=-81 & inlist(ptyp,300) & fpr0107 !=23 & fpr0107!=25 & fls==1",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: rarely",
-              "label_de": "2: selten"
-            },
-            {
-              "value": 3,
-              "label": "3: occasionally",
-              "label_de": "3: manchmal"
-            },
-            {
-              "value": 4,
-              "label": "4: often",
-              "label_de": "4: oft"
-            },
-            {
-              "value": 5,
-              "label": "5: very often",
-              "label_de": "5: sehr oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6188,40 +5799,19 @@
     "prg0500t": {
       "question": "prg0500t",
       "name": "prg0500t",
-      "label": "[ITEMBAT] [NCS] Did you do the following during pregnancy ...",
+      "label": "[ITEMBAT] [NCS] Did you do the following during pregnancy . . .",
+      "label_de": "[ITEMBAT] [NCS]Haben Sie waehrend der Schwangerschaft. . .",
       "items": [
         {
           "item": "0",
           "number": "204",
           "concept": "prg0500t",
-          "text": "[ITEMBAT] [NCS] Did you do the following during pregnancy ...",
-          "text_de": "[ITEMBAT] [NCS]Haben Sie waehrend der Schwangerschaft...",
+          "text": "[ITEMBAT] [NCS] Did you do the following during pregnancy . . .",
+          "text_de": "[ITEMBAT] [NCS]Haben Sie waehrend der Schwangerschaft. . .",
           "scale": "txt",
           "filter": "inlist(ptyp,300) & fpr0107 !=23 & fpr0107!=25",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6243,6 +5833,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -6278,6 +5873,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -6309,6 +5909,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -6344,6 +5949,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -6364,40 +5974,19 @@
     "prg0500s": {
       "question": "prg0500s",
       "name": "prg0500s",
-      "label": "[ITEMBAT] [NCS] Did you do the following during pregnancy ...",
+      "label": "[ITEMBAT] [NCS] Did you do the following during pregnancy . . .",
+      "label_de": "[ITEMBAT] [NCS]Haben Sie waehrend der Schwangerschaft. . .",
       "items": [
         {
           "item": "0",
           "number": "209",
           "concept": "prg0500s",
-          "text": "[ITEMBAT] [NCS] Did you do the following during pregnancy ...",
-          "text_de": "[ITEMBAT] [NCS]Haben Sie waehrend der Schwangerschaft...",
+          "text": "[ITEMBAT] [NCS] Did you do the following during pregnancy . . .",
+          "text_de": "[ITEMBAT] [NCS]Haben Sie waehrend der Schwangerschaft. . .",
           "scale": "txt",
           "filter": "prg0001s !=-81 & inlist(ptyp,300) & fpr0107 !=23 & fpr0107!=25 & fls==1",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6419,6 +6008,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -6454,6 +6048,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -6485,6 +6084,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -6520,6 +6124,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -6541,6 +6150,7 @@
       "question": "prg0600t",
       "name": "prg0600t",
       "label": "Did you breastfeed? If only one twin was breastfed: which twin was breastfed?",
+      "label_de": "Haben Sie gestillt? Falls nur ein Zwilling gestillt wurde: Welcher Zwilling wurde gestillt?",
       "items": [
         {
           "item": "1",
@@ -6585,6 +6195,7 @@
       "question": "prg0600s",
       "name": "prg0600s",
       "label": "Did you breastfeed?",
+      "label_de": "Haben Sie gestillt?",
       "items": [
         {
           "item": "1",
@@ -6608,6 +6219,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -6629,6 +6245,7 @@
       "question": "prg0601t",
       "name": "prg0601t",
       "label": "For how long did you breastfeed?",
+      "label_de": "Wie lange haben Sie gestillt?",
       "items": [
         {
           "item": "1",
@@ -6658,6 +6275,7 @@
       "question": "prg0601s",
       "name": "prg0601s",
       "label": "For how long did you breastfeed?",
+      "label_de": "Wie lange haben Sie gestillt?",
       "items": [
         {
           "item": "1",
@@ -6672,7 +6290,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -6692,6 +6310,7 @@
       "question": "prg0602t",
       "name": "prg0602t",
       "label": "You said you breastfed your twins for different lengths of time. For each of your twins, please indicate for how long you breastfed them.",
+      "label_de": "Sie haben angegeben, Ihre Zwillinge unterschiedlich lange gestillt zu haben. Bitte geben Sie fuer jeden ihrer Zwillinge an, wie lange Sie diesen gestillt haben.",
       "items": [
         {
           "item": "0",
@@ -6703,18 +6322,6 @@
           "filter": "prg0601t==-81",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Lebenslauffragebogen, Altstichproben. SOEP Survey Papers 237: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6729,7 +6336,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -6752,7 +6359,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -6772,6 +6379,7 @@
       "question": "cts0100",
       "name": "cts0100",
       "label": "We would now also like to know: Do you already have your own children?",
+      "label_de": "Nun wuessten wir noch gerne: Haben Sie selbst bereits eigene Kinder?",
       "items": [
         {
           "item": "1",
@@ -6795,6 +6403,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -6816,6 +6429,7 @@
       "question": "cts0101",
       "name": "cts0101",
       "label": "How many children do you have?",
+      "label_de": "Wie viele Kinder haben Sie?",
       "items": [
         {
           "item": "1",
@@ -6830,7 +6444,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -6850,6 +6464,7 @@
       "question": "cts0301",
       "name": "cts0301",
       "label": "What is the gender of <name of child>?",
+      "label_de": "Welches Geschlecht hat <NAME DES KINDES>?",
       "items": [
         {
           "item": "0",
@@ -6861,18 +6476,6 @@
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 >=16) & (cts0100==1) & cts0101>= 1",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: male",
-              "label_de": "1: maennlich"
-            },
-            {
-              "value": 2,
-              "label": "2: female",
-              "label_de": "2: weiblich"
-            }
-          ],
           "sn": 0
         },
         {
@@ -6933,7 +6536,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -6952,60 +6555,19 @@
     "per0100": {
       "question": "per0100",
       "name": "per0100",
-      "label": "Below are different qualities that a person might have. You will probably find that some apply to you completely and that some do not apply to you at all. With others, you may be somewhere in between. I see myself as someone who...",
+      "label": "Below are different qualities that a person might have. You will probably find that some apply to you completely and that some do not apply to you at all. With others, you may be somewhere in between. I see myself as someone who. . .",
+      "label_de": "[ITEMBAT] [IF age >= 10 AND age <= 15] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Dich persoenlich voll zutreffen und andere ueberhaupt nicht. Bei wieder anderen bist Du vielleicht unentschieden. Ich bin jemand, der. . . [IF age >= 16] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persoenlich voll zutreffen und andere ueberhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden. Ich bin jemand, der. . .",
       "items": [
         {
           "item": "0",
           "number": "230",
           "concept": "per0100",
-          "text": "Below are different qualities that a person might have. You will probably find that some apply to you completely and that some do not apply to you at all. With others, you may be somewhere in between. I see myself as someone who...",
-          "text_de": "[ITEMBAT] [IF age >= 10 AND age <= 15] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Dich persoenlich voll zutreffen und andere ueberhaupt nicht. Bei wieder anderen bist Du vielleicht unentschieden. Ich bin jemand, der... [IF age >= 16] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persoenlich voll zutreffen und andere ueberhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden. Ich bin jemand, der...",
+          "text": "Below are different qualities that a person might have. You will probably find that some apply to you completely and that some do not apply to you at all. With others, you may be somewhere in between. I see myself as someone who. . .",
+          "text_de": "[ITEMBAT] [IF age >= 10 AND age <= 15] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Dich persoenlich voll zutreffen und andere ueberhaupt nicht. Bei wieder anderen bist Du vielleicht unentschieden. Ich bin jemand, der. . . [IF age >= 16] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persoenlich voll zutreffen und andere ueberhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden. Ich bin jemand, der. . .",
           "scale": "txt",
           "filter": "inlist(ptyp,110,120,200,300,400,500,600) & age0110>=16 & new==1",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7: completely applies",
-              "label_de": "7: trifft voll zu"
-            }
-          ],
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "sn": 0
         },
         {
@@ -7013,10 +6575,10 @@
           "number": "231",
           "concept": "per0100",
           "text": ". . . does a thorough job.",
-          "text_de": "... gruendlich arbeitet.",
+          "text_de": ". . . gruendlich arbeitet.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7025,7 +6587,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7055,7 +6617,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7065,11 +6627,11 @@
           "item": "2",
           "number": "232",
           "concept": "per0100",
-          "text": ". . . [IF age >= 10 AND age <= 15] is communicative, is talkative. Which means, I enjoy talking to people and talk a lot. [IF age >= 16] is communicative, is talkative.",
-          "text_de": "... [IF age >= 10 AND age <= 15] kommunikativ, gespraechig ist. Das heisst, ich rede oft und gerne mit anderen Personen. [IF age >= 16] kommunikativ, gespraechig ist.",
+          "text": ". . . [IF age >= 10 AND age <= 15] is talkative. Which means, I enjoy talking to people and talk a lot. [IF age >= 16] is talkative.",
+          "text_de": ". . . [IF age >= 10 AND age <= 15] kommunikativ, gespraechig ist. Das heisst, ich rede oft und gerne mit anderen Personen. [IF age >= 16] kommunikativ, gespraechig ist.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7078,7 +6640,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7108,7 +6670,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7119,10 +6681,10 @@
           "number": "233",
           "concept": "per0100",
           "text": ". . . is sometimes somewhat rude to others.",
-          "text_de": "... manchmal etwas grob zu anderen ist.",
+          "text_de": ". . . manchmal etwas grob zu anderen ist.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7131,7 +6693,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7161,7 +6723,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7172,10 +6734,10 @@
           "number": "234",
           "concept": "per0100",
           "text": ". . . is original, comes up with new ideas.",
-          "text_de": "... originell ist, neue Ideen einbringt.",
+          "text_de": ". . . originell ist, neue Ideen einbringt.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7184,7 +6746,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7214,7 +6776,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7225,10 +6787,10 @@
           "number": "235",
           "concept": "per0100",
           "text": ". . . worries a lot.",
-          "text_de": "... sich oft Sorgen macht.",
+          "text_de": ". . . sich oft Sorgen macht.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7237,7 +6799,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7267,7 +6829,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7277,11 +6839,11 @@
           "item": "6",
           "number": "236",
           "concept": "per0100",
-          "text": ". . . [IF age >= 10 AND age <= 15] can forgive; means I quickly accept apologies. [IF age >= 16] . . . can forgive.",
-          "text_de": "... [IF age >= 10 AND age <= 15] verzeihen kann. Das heisst ich nehme Entschuldigungen schnell an. [IF age >= 16] verzeihen kann.",
+          "text": ". . . [IF age >= 10 AND age <= 15] has a forgiving nature [IF age >= 16] . . . has a forgiving nature.",
+          "text_de": ". . . [IF age >= 10 AND age <= 15] verzeihen kann. Das heisst ich nehme Entschuldigungen schnell an. [IF age >= 16] verzeihen kann.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7290,7 +6852,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7320,7 +6882,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7331,10 +6893,10 @@
           "number": "237",
           "concept": "per0100",
           "text": ". . . tends to be lazy.",
-          "text_de": "... eher faul ist.",
+          "text_de": ". . . eher faul ist.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7343,7 +6905,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7373,7 +6935,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7384,10 +6946,10 @@
           "number": "238",
           "concept": "per0100",
           "text": ". . . is outgoing, sociable.",
-          "text_de": "... aus sich herausgehen kann, gesellig ist.",
+          "text_de": ". . . aus sich herausgehen kann, gesellig ist.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7396,7 +6958,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7426,7 +6988,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7436,11 +6998,11 @@
           "item": "9",
           "number": "239",
           "concept": "per0100",
-          "text": ". . . [IF age >= 10 AND age <= 15] is artistic, values aesthetic experiences. [IF age >= 16] is artistic.",
-          "text_de": "... [IF age >= 10 AND age <= 15] kuenstlerische Erfahrungen schaetzt. Das heisst ich male gerne oder mache Musik, gehe gerne ins Theater oder ins Museum. [IF age >= 16] kuenstlerische Erfahrungen schaetzt.",
+          "text": ". . . [IF age >= 10 AND age <= 15] values artistic, esthetic experiences. [IF age >= 16] is artistic.",
+          "text_de": ". . . [IF age >= 10 AND age <= 15] kuenstlerische Erfahrungen schaetzt. Das heisst ich male gerne oder mache Musik, gehe gerne ins Theater oder ins Museum. [IF age >= 16] kuenstlerische Erfahrungen schaetzt.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7449,7 +7011,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7479,7 +7041,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7490,10 +7052,10 @@
           "number": "240",
           "concept": "per0100",
           "text": ". . . gets nervous easily.",
-          "text_de": "... leicht nervoes wird.",
+          "text_de": ". . . leicht nervoes wird.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7502,7 +7064,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7532,7 +7094,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7542,11 +7104,11 @@
           "item": "11",
           "number": "241",
           "concept": "per0100",
-          "text": ". . . does things efficiently and efficiently.",
-          "text_de": "... Aufgaben wirksam und effizient erledigt.",
+          "text": ". . . does everything efficiently.",
+          "text_de": ". . . Aufgaben wirksam und effizient erledigt.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7555,7 +7117,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7585,7 +7147,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7595,11 +7157,11 @@
           "item": "12",
           "number": "242",
           "concept": "per0100",
-          "text": ". . . is reserved.",
-          "text_de": "... zurueckhaltend ist.",
+          "text": ". . . is reserved, quiet.",
+          "text_de": ". . . zurueckhaltend ist.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7608,7 +7170,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7638,7 +7200,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7648,11 +7210,11 @@
           "item": "13",
           "number": "243",
           "concept": "per0100",
-          "text": ". . . is considerate and kind to others.",
-          "text_de": "... ruecksichtsvoll und freundlich mit anderen umgeht.",
+          "text": ". . . is considerate and kind to almost everyone.",
+          "text_de": ". . . ruecksichtsvoll und freundlich mit anderen umgeht.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7661,7 +7223,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7691,7 +7253,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7701,11 +7263,11 @@
           "item": "14",
           "number": "244",
           "concept": "per0100",
-          "text": ". . . [IF age >= 10 AND age <= 15] has a lively imagination, perception; this means I can easily visualize things and like to dream. [IF age >= 16] has a lively imagination, perception.",
-          "text_de": "... [IF age >= 10 AND age <= 15] eine lebhafte Phantasie/Vorstellung hat. Das heisst, ich kann mir gut Dinge vorstellen und traeume gern. [IF age >= 16] eine lebhafte Phantasie/Vorstellung hat.",
+          "text": ". . . [IF age >= 10 AND age <= 15] has an active imagination; this means I can easily visualize things and like to dream. [IF age >= 16] has an active imagination.",
+          "text_de": ". . . [IF age >= 10 AND age <= 15] eine lebhafte Phantasie/Vorstellung hat. Das heisst, ich kann mir gut Dinge vorstellen und traeume gern. [IF age >= 16] eine lebhafte Phantasie/Vorstellung hat.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7714,7 +7276,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7744,7 +7306,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7755,10 +7317,10 @@
           "number": "245",
           "concept": "per0100",
           "text": ". . . is relaxed, handles stress well.",
-          "text_de": "... entspannt ist, mit Stress gut umgehen kann.",
+          "text_de": ". . . entspannt ist, mit Stress gut umgehen kann.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7767,7 +7329,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7797,7 +7359,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7807,11 +7369,11 @@
           "item": "16",
           "number": "246",
           "concept": "per0100",
-          "text": ". . . [IF age >= 10 AND age <= 15] is eager to learn; this means I am curious and interested in learning and new experiences. [IF age >= 16] is eager to learn.",
-          "text_de": "... [IF age >= 10 AND age <= 15] wissbegierig ist. [IF age >= 16] wissbegierig ist. Das heisst, ich bin neugierig und interessiert daran, Dinge zu erfahren und zu lernen.",
+          "text": ". . . [IF age >= 10 AND age <= 15] is eager for knowledge; this means I am curious and interested in learning and new experiences. [IF age >= 16] is eager for knowledge.",
+          "text_de": ". . . [IF age >= 10 AND age <= 15] wissbegierig ist. [IF age >= 16] wissbegierig ist. Das heisst, ich bin neugierig und interessiert daran, Dinge zu erfahren und zu lernen.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7820,7 +7382,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7850,7 +7412,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7860,11 +7422,11 @@
           "item": "17",
           "number": "247",
           "concept": "per0100",
-          "text": ". . . likes to have fun today and don't worry about tomorrow.",
-          "text_de": "... lieber heute seinen Spass hat und nicht an morgen denkt.",
+          "text": ". . . likes to have fun and doesn't worry about tomorrow.",
+          "text_de": ". . . lieber heute seinen Spass hat und nicht an morgen denkt.",
           "scale": "cat",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "description": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
+          "description_de": "Source: Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP. Dokumentation der Instrumentenentwicklung BFI-S auf Basis des SOEP-Pretests 2005. DIW Research, Notes 4.",
           "answers": [
             {
               "value": -85,
@@ -7873,7 +7435,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -7903,7 +7465,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -7918,6 +7480,7 @@
       "question": "per0200",
       "name": "per0200",
       "label": "Would you describe yourself as someone who is willing to take risks or as someone who tries to avoid risks? In other words, do you often try things that could go wrong, or do you prefer to play it safe?",
+      "label_de": "Wie schaetzen Sie sich persoenlich ein? Sind Sie im Allgemeinen ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden?",
       "items": [
         {
           "item": "1",
@@ -8002,6 +7565,7 @@
       "question": "per0300",
       "name": "per0300",
       "label": "Would you describe yourself in general as an impatient person, or as someone who is always very patient?",
+      "label_de": "Sind Sie im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt?",
       "items": [
         {
           "item": "1",
@@ -8086,6 +7650,7 @@
       "question": "int0100",
       "name": "int0100",
       "label": "To what extent do the following statements apply to you?",
+      "label_de": "[ITEMBAT] [IF age >= 10 AND age <= 15] Wie gut treffen folgende Aussagen auf Dich zu? [IF age >= 16] Wie gut treffen folgende Aussagen auf Sie zu?",
       "items": [
         {
           "item": "0",
@@ -8097,23 +7662,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=10) & new==1",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
           "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: nicht zutreffend"
-            },
-            {
-              "value": 2,
-              "label": "2: partly applies",
-              "label_de": "2: teilweise zutreffend"
-            },
-            {
-              "value": 3,
-              "label": "3: applies completely",
-              "label_de": "3: eindeutig zutreffend"
-            }
-          ],
           "sn": 0
         },
         {
@@ -8260,7 +7808,7 @@
           "item": "6",
           "number": "256",
           "concept": "int0100",
-          "text": "I am usually on my own. I generally play alone or keep to myself.",
+          "text": "I am usually on my own. I generally keep to myself.",
           "text_de": "Ich bin meistens fuer mich alleine; ich beschaeftige mich lieber mit mir selbst.",
           "scale": "cat",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
@@ -8316,7 +7864,7 @@
           "item": "8",
           "number": "258",
           "concept": "int0100",
-          "text": "In general I am popular with others.",
+          "text": "[If age < 18] Other people my age generally like me. [If age >= 18] Other people generally like me.",
           "text_de": "[If age < 18] Im Allgemeinen bin ich bei Gleichaltrigen beliebt. [If age >= 18] Im Allgemeinen bin ich bei anderen beliebt.",
           "scale": "cat",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
@@ -8372,7 +7920,7 @@
           "item": "10",
           "number": "260",
           "concept": "int0100",
-          "text": "[If age < 18] I get along better with adults than with peers.",
+          "text": "[If age < 18] I get on better with adults than with people my own age.",
           "text_de": "[If age < 18] Ich komme besser mit Erwachsenen aus als mit Gleichaltrigen.",
           "scale": "cat",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
@@ -8428,7 +7976,7 @@
           "item": "12",
           "number": "262",
           "concept": "int0100",
-          "text": "[If age >= 18] Others don't take me seriously or even bully me.",
+          "text": "[If age >= 18] Other people pick on me or bully me.",
           "text_de": "[If age >= 18] Ich werde von anderen nicht ernst genommen, oder sogar gemobbt.",
           "scale": "cat",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
@@ -8461,6 +8009,7 @@
       "question": "ext0100",
       "name": "ext0100",
       "label": "To what extent do the following statements apply to you?",
+      "label_de": "[IF age >= 10 AND age <= 15] [NCS] Wie gut treffen folgende Aussagen auf Dich zu? [IF age >= 16] [NCS] Wie gut treffen folgende Aussagen auf Sie zu?",
       "items": [
         {
           "item": "0",
@@ -8472,23 +8021,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=10) & new==1",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
           "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: nicht zutreffend"
-            },
-            {
-              "value": 2,
-              "label": "2: partly applies",
-              "label_de": "2: teilweise zutreffend"
-            },
-            {
-              "value": 3,
-              "label": "3: applies completely",
-              "label_de": "3: eindeutig zutreffend"
-            }
-          ],
           "sn": 0
         },
         {

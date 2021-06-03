@@ -11,6 +11,7 @@
       "question": "cul0100",
       "name": "cul0100",
       "label": "[IF age> = 16] How much time do you spend, on average, reading in your free time each day? Please consider all possible occasions when you read, not only books or magazines, but also e-mails or material on the Internet.",
+      "label_de": "[IF age > = 16 ] Wie viel Zeit verbringen Sie im Durchschnitt taeglich damit, in Ihrer Freizeit zu lesen? Denken Sie dabei bitte an alle moeglichen Gelegenheiten, bei denen Sie lesen, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
       "items": [
         {
           "item": "0",
@@ -22,18 +23,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            }
-          ],
           "sn": 0
         },
         {
@@ -71,13 +60,13 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
             },
             {
               "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
             }
           ],
           "sn": 2
@@ -91,6 +80,7 @@
       "question": "mus0101",
       "name": "mus0101",
       "label": "[IF age> = 16] Have you ever actively played music? (By this we mean playing a musical instrument or singing).",
+      "label_de": "[IF age >= 16] Haben Sie jemals aktiv Musik ausgeuebt? (Gemeint ist: Gesang oder Spielen eines Musikinstrumentes)",
       "items": [
         {
           "item": "1",
@@ -130,6 +120,7 @@
       "question": "mus0201",
       "name": "mus0201",
       "label": "[IF age> = 16] For how many hours a week did you play music back then? Think of a typical week.",
+      "label_de": "[IF age >= 16] Wie viele Stunden in der Woche haben Sie frueher Musik gemacht? Denken Sie dabei an eine typische Woche.",
       "items": [
         {
           "item": "1",
@@ -144,7 +135,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -189,6 +180,7 @@
       "question": "mus0301",
       "name": "mus0301",
       "label": "[IF age> = 16] At what age did you learn a musical instrument or how to sing?",
+      "label_de": "[IF age >= 16] In welchem Alter haben Sie ein Musikinstrument oder Gesang gelernt?",
       "items": [
         {
           "item": "0",
@@ -200,18 +192,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0101==1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -226,13 +206,13 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
             },
             {
               "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
             }
           ],
           "sn": 1
@@ -249,13 +229,13 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
             },
             {
               "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
             }
           ],
           "sn": 2
@@ -269,6 +249,7 @@
       "question": "sop0100",
       "name": "sop0100",
       "label": "[IF age> = 16] Below you can see a number of groups in which it is possible to take part. Please indicate the extent to which you are active in the respective groups.",
+      "label_de": "[IF age >= 16] Im Folgenden sehen Sie eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass Sie in den jeweiligen Gruppen aktiv sind.",
       "items": [
         {
           "item": "0",
@@ -280,33 +261,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: every week",
-              "label_de": "1: jede Woche"
-            },
-            {
-              "value": 2,
-              "label": "2: every month",
-              "label_de": "2: jeden Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: less than once a month",
-              "label_de": "3: seltener als 1-mal im Monat"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -622,6 +576,7 @@
       "question": "sop0200",
       "name": "sop0200",
       "label": "Do you have a (volunteer) position in one of these associations or groups?",
+      "label_de": "[IF age >= 16] Falls Sie in einer der oben genannten Gruppen aktiv sind: Haben Sie in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder sind Sie regelmaessig fuer besondere Aufgaben verantwortlich?",
       "items": [
         {
           "item": "1",
@@ -645,6 +600,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -666,6 +626,7 @@
       "question": "ses0100",
       "name": "ses0100",
       "label": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
+      "label_de": "[IF age >=16] Im Folgenden werden Ihnen eine Reihe von Aussagen praesentiert. Wie sehr stimmen Sie folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
@@ -677,38 +638,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
           "description_de": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: do not agree at all",
-              "label_de": "1: stimme ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: do not agree",
-              "label_de": "2: stimme nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
-            },
-            {
-              "value": 5,
-              "label": "5: totally agree",
-              "label_de": "5: stimme voll und ganz zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -849,6 +778,7 @@
       "question": "sef0100",
       "name": "sef0100",
       "label": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
+      "label_de": "[IF age >=16]: Wie sehr stimmen Sie folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
@@ -860,38 +790,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
           "description_de": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: do not agree at all",
-              "label_de": "1: stimme ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: do not agree",
-              "label_de": "2: stimme nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
-            },
-            {
-              "value": 5,
-              "label": "5: totally agree",
-              "label_de": "5: stimme voll und ganz zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1032,6 +930,7 @@
       "question": "loc0200",
       "name": "loc0200",
       "label": "[IF age> = 16]: To what extent do you agree with the following statements?",
+      "label_de": "[IF age > = 16 ]: Wie sehr stimmen Sie folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
@@ -1043,45 +942,13 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: do not agree at all",
-              "label_de": "1: stimme ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: do not agree",
-              "label_de": "2: stimme nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
-            },
-            {
-              "value": 5,
-              "label": "5: totally agree",
-              "label_de": "5: stimme voll und ganz zu"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
           "number": "28",
           "concept": "loc0200",
-          "text": "The course of my life depends on me.",
+          "text": "How my life goes depends on me.",
           "text_de": "Wie mein Leben verlaeuft, haengt von mir selbst ab.",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
@@ -1124,7 +991,7 @@
           "item": "2",
           "number": "29",
           "concept": "loc0200",
-          "text": "I often feel that others control my life.",
+          "text": "I frequently have the experience that other people have a controlling influence over my life.",
           "text_de": "Ich mache haeufig die Erfahrung, dass andere ueber mein Leben bestimmen.",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
@@ -1167,7 +1034,7 @@
           "item": "3",
           "number": "30",
           "concept": "loc0200",
-          "text": "You have to work hard to achieve success.",
+          "text": "One has to work hard in order to succeed.",
           "text_de": "Erfolg muss man sich hart erarbeiten.",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
@@ -1210,7 +1077,7 @@
           "item": "4",
           "number": "31",
           "concept": "loc0200",
-          "text": "The social circumstances determine which options I have in life.",
+          "text": "The opportunities that I have in life are determined by the social conditions.",
           "text_de": "Welche Moeglichkeiten ich im Leben habe, wird von den sozialen Umstaenden bestimmt.",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
@@ -1258,6 +1125,7 @@
       "question": "net0600",
       "name": "net0600",
       "label": "[IF age> = 16] To what extent do you agree with the following statement? I often feel lonely.",
+      "label_de": "[IF age > = 16] Wie sehr stimmen Sie der folgenden Aussage zu? Ich fuehle mich oft einsam.",
       "items": [
         {
           "item": "1",
@@ -1307,6 +1175,7 @@
       "question": "med0100",
       "name": "med0100",
       "label": "[IF age> = 16] How long do you spend, on average, per day on the following devices or activities? Please state as accurately as possible how much time you spend on the respective activity outside of working or school time.",
+      "label_de": "[IF age >= 16] Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "0",
@@ -1318,28 +1187,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1680,40 +1527,19 @@
     "cul0201": {
       "question": "cul0201",
       "name": "cul0201",
-      "label": "[IF age> = 16] Does your home have ...?",
+      "label": "[IF age> = 16] Does your home have . . .?",
+      "label_de": "[IF age > = 16 ] Gibt es bei Ihnen zu Hause. . . ?",
       "items": [
         {
           "item": "0",
           "number": "44",
           "concept": "cul0201",
-          "text": "[IF age> = 16] Does your home have ...?",
-          "text_de": "[IF age > = 16 ] Gibt es bei Ihnen zu Hause... ?",
+          "text": "[IF age> = 16] Does your home have . . .?",
+          "text_de": "[IF age > = 16 ] Gibt es bei Ihnen zu Hause. . . ?",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1735,6 +1561,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -1770,6 +1601,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -1801,6 +1637,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -1836,6 +1677,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -1869,6 +1715,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -1890,6 +1741,7 @@
       "question": "gls0100",
       "name": "gls0100",
       "label": "Below we would like to know how satisfied you are with your life in general. You can agree or disagree with the following statements. Please answer on a scale of 1 to 5, where 1 is strongly disagree and 5 means strongly agree.",
+      "label_de": "[IF age >=16] Im Folgenden wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen bzw. die Sie ablehnen koennen. Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: Starke Ablehnung. Der Wert 5 bedeutet: Starke Zustimmung. Mit den Werten dazwischen koennen Sie Ihre Meinung abstufen.",
       "items": [
         {
           "item": "0",
@@ -1901,38 +1753,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: disagree strongly",
-              "label_de": "1: lehne stark ab"
-            },
-            {
-              "value": 2,
-              "label": "2: disagree",
-              "label_de": "2: lehne ab"
-            },
-            {
-              "value": 3,
-              "label": "3: neither denial nor approval",
-              "label_de": "3: weder Ablehnung noch Zustimmung"
-            },
-            {
-              "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
-            },
-            {
-              "value": 5,
-              "label": "5: agree strongly",
-              "label_de": "5: stimme stark zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2158,85 +1978,19 @@
     "sat0100": {
       "question": "sat0100",
       "name": "sat0100",
-      "label": "We are interested in hearing how satisfied you are with the following areas of your life. How satisfied are you...",
+      "label": "We are interested in hearing how satisfied you are with the following areas of your life. How satisfied are you. . .",
+      "label_de": "[IF age >=16] Wir interessieren uns auch dafuer, wie zufrieden Sie mit verschiedenen Bereichen Ihres Lebens sind. Wie zufrieden sind Sie. . . [IF age >=10 AND <= 15] Wir interessieren uns auch dafuer, wie zufrieden Du mit verschiedenen Bereichen Deines Lebens bist. Wie zufrieden bist du. . .",
       "items": [
         {
           "item": "0",
           "number": "56",
           "concept": "sat0100",
-          "text": "We are interested in hearing how satisfied you are with the following areas of your life. How satisfied are you...",
-          "text_de": "[IF age >=16] Wir interessieren uns auch dafuer, wie zufrieden Sie mit verschiedenen Bereichen Ihres Lebens sind. Wie zufrieden sind Sie... [IF age >=10 AND <= 15] Wir interessieren uns auch dafuer, wie zufrieden Du mit verschiedenen Bereichen Deines Lebens bist. Wie zufrieden bist du...",
+          "text": "We are interested in hearing how satisfied you are with the following areas of your life. How satisfied are you. . .",
+          "text_de": "[IF age >=16] Wir interessieren uns auch dafuer, wie zufrieden Sie mit verschiedenen Bereichen Ihres Lebens sind. Wie zufrieden sind Sie. . . [IF age >=10 AND <= 15] Wir interessieren uns auch dafuer, wie zufrieden Du mit verschiedenen Bereichen Deines Lebens bist. Wie zufrieden bist du. . .",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (direct response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 0,
-              "label": "0: completely dissatisfied",
-              "label_de": "0: ganz und gar unzufrieden"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: completely satisfied",
-              "label_de": "10: ganz und gar zufrieden"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2244,7 +1998,7 @@
           "number": "57",
           "concept": "sat0100",
           "text": ". . . your health?",
-          "text_de": "...[IF age >=16] mit Ihrer Gesundheit? [IF age >=10 AND <= 15] mit Deiner Gesundheit?",
+          "text_de": ". . .[IF age >=16] mit Ihrer Gesundheit? [IF age >=10 AND <= 15] mit Deiner Gesundheit?",
           "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -2322,7 +2076,7 @@
           "number": "58",
           "concept": "sat0100",
           "text": "[IF age >=16] (if employed) . . . with your job?",
-          "text_de": "...[IF age >=16] falls Sie erwerbstaetig sind: ...mit Ihrer Arbeit?",
+          "text_de": ". . .[IF age >=16] falls Sie erwerbstaetig sind: . . .mit Ihrer Arbeit?",
           "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -2400,7 +2154,7 @@
           "number": "59",
           "concept": "sat0100",
           "text": "[IF age >=16]. . . in case you are still going to school: with school? [IF age >=10 AND <= 15] with school?",
-          "text_de": "...[IF age >=16] falls Sie noch zur Schule gehen: ...mit der Schule? [IF age >=10 AND <= 15] mit der Schule?",
+          "text_de": ". . .[IF age >=16] falls Sie noch zur Schule gehen: . . .mit der Schule? [IF age >=10 AND <= 15] mit der Schule?",
           "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -2478,7 +2232,7 @@
           "number": "60",
           "concept": "sat0100",
           "text": "[IF age >=16] . . . your personal income?",
-          "text_de": "...[IF age >=16] mit Ihrem persoenlichen Einkommen?",
+          "text_de": ". . .[IF age >=16] mit Ihrem persoenlichen Einkommen?",
           "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -2556,7 +2310,7 @@
           "number": "61",
           "concept": "sat0100",
           "text": ". . . your leisure time?",
-          "text_de": "...[IF age >=16] mit Ihrer Freizeit? [IF age >=10 AND <= 15] mit Deiner Freizeit?",
+          "text_de": ". . .[IF age >=16] mit Ihrer Freizeit? [IF age >=10 AND <= 15] mit Deiner Freizeit?",
           "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -2634,7 +2388,7 @@
           "number": "62",
           "concept": "sat0100",
           "text": ". . . your family life?",
-          "text_de": "...[IF age >=16] mit Ihrem Familienleben? [IF age >=10 AND <= 15] mit Deinem Familienleben?",
+          "text_de": ". . .[IF age >=16] mit Ihrem Familienleben? [IF age >=10 AND <= 15] mit Deinem Familienleben?",
           "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -2712,7 +2466,7 @@
           "number": "63",
           "concept": "sat0100",
           "text": "[IF age >=16] . . . with your partnership?",
-          "text_de": "...[IF age >=16] mit Ihrer Partnerschaft?",
+          "text_de": ". . .[IF age >=16] mit Ihrer Partnerschaft?",
           "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -2789,8 +2543,8 @@
           "item": "8",
           "number": "64",
           "concept": "sat0100",
-          "text": "... [IF age> = 16] with your friends and acquaintances? [IF age> = 10 AND <= 15] with your friends?",
-          "text_de": "...[IF age >=16] mit Ihrem Freundes- und Bekanntenkreis? [IF age >=10 AND <= 15] mit Deinem Freundeskreis?",
+          "text": ". . . [IF age> = 16] with your friends and acquaintances? [IF age> = 10 AND <= 15] with your friends?",
+          "text_de": ". . .[IF age >=16] mit Ihrem Freundes- und Bekanntenkreis? [IF age >=10 AND <= 15] mit Deinem Freundeskreis?",
           "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -2872,6 +2626,7 @@
       "question": "lgd0101",
       "name": "lgd0101",
       "label": "Different things are important to different people. How important are the following things for you personally today?",
+      "label_de": "Verschiedenen Menschen sind verschiedene Dinge wichtig. Wie wichtig sind fuer Sie persoenlich die folgenden Dinge heute?",
       "items": [
         {
           "item": "0",
@@ -2883,40 +2638,13 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: cannot be evaluated",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: unimportant",
-              "label_de": "1: unwichtig"
-            },
-            {
-              "value": 2,
-              "label": "2: not very important",
-              "label_de": "2: weniger wichtig"
-            },
-            {
-              "value": 3,
-              "label": "3: important",
-              "label_de": "3: wichtig"
-            },
-            {
-              "value": 4,
-              "label": "4: very important",
-              "label_de": "4: sehr wichtig"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
           "number": "66",
           "concept": "lgd0101",
-          "text": "To be able to afford things",
+          "text": "Being able to afford to buy things for myself.",
           "text_de": "Sich etwas leisten koennen",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
@@ -2924,17 +2652,17 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
               "value": 1,
-              "label": "1: unimportant",
+              "label": "1: not at all important",
               "label_de": "1: unwichtig"
             },
             {
               "value": 2,
-              "label": "2: not very important",
+              "label": "2: less important",
               "label_de": "2: weniger wichtig"
             },
             {
@@ -2954,7 +2682,7 @@
           "item": "2",
           "number": "67",
           "concept": "lgd0101",
-          "text": "Be successful in your job",
+          "text": "Being successful in my career.",
           "text_de": "Erfolg im Beruf haben",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
@@ -2962,17 +2690,17 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
               "value": 1,
-              "label": "1: unimportant",
+              "label": "1: not at all important",
               "label_de": "1: unwichtig"
             },
             {
               "value": 2,
-              "label": "2: not very important",
+              "label": "2: less important",
               "label_de": "2: weniger wichtig"
             },
             {
@@ -2992,7 +2720,7 @@
           "item": "3",
           "number": "68",
           "concept": "lgd0101",
-          "text": "Have a happy marriage/relationship",
+          "text": "Having a happy marriage / relationship.",
           "text_de": "Eine glueckliche Ehe/Partnerschaft haben",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
@@ -3000,17 +2728,17 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
               "value": 1,
-              "label": "1: unimportant",
+              "label": "1: not at all important",
               "label_de": "1: unwichtig"
             },
             {
               "value": 2,
-              "label": "2: not very important",
+              "label": "2: less important",
               "label_de": "2: weniger wichtig"
             },
             {
@@ -3030,7 +2758,7 @@
           "item": "4",
           "number": "69",
           "concept": "lgd0101",
-          "text": "Have children",
+          "text": "Having children.",
           "text_de": "Kinder haben",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
@@ -3038,17 +2766,17 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
               "value": 1,
-              "label": "1: unimportant",
+              "label": "1: not at all important",
               "label_de": "1: unwichtig"
             },
             {
               "value": 2,
-              "label": "2: not very important",
+              "label": "2: less important",
               "label_de": "2: weniger wichtig"
             },
             {
@@ -3068,7 +2796,7 @@
           "item": "5",
           "number": "70",
           "concept": "lgd0101",
-          "text": "See the world, travel a lot",
+          "text": "Seeing the world and/or traveling extensively.",
           "text_de": "Die Welt sehen, viele Reisen machen",
           "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
@@ -3076,17 +2804,17 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
               "value": 1,
-              "label": "1: unimportant",
+              "label": "1: not at all important",
               "label_de": "1: unwichtig"
             },
             {
               "value": 2,
-              "label": "2: not very important",
+              "label": "2: less important",
               "label_de": "2: weniger wichtig"
             },
             {
@@ -3110,80 +2838,19 @@
     "lgd0201": {
       "question": "lgd0201",
       "name": "lgd0201",
-      "label": "How likely do you think you are to achieve this goal in your lifetime? Please answer on a scale from 0 (very unlikely) to 10 (very likely). With the values ââin between you can graduate your opinion.",
+      "label": "How likely do you think you are to achieve this goal in your lifetime? Please answer on a scale from 0 (very unlikely) to 10 (very likely). With the values in between you can graduate your opinion.",
+      "label_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie dieses Ziel in Ihrem Leben realisieren? Bitte antworten Sie auf einer Skala von 0 sehr unwahrscheinlich bis 10 sehr wahrscheinlich. Mit den Werten dazwischen koennen Sie Ihre Meinung abstufen.",
       "items": [
         {
           "item": "0",
           "number": "71",
           "concept": "lgd0201",
-          "text": "How likely do you think you are to achieve this goal in your lifetime? Please answer on a scale from 0 (very unlikely) to 10 (very likely). With the values ââin between you can graduate your opinion.",
+          "text": "How likely do you think you are to achieve this goal in your lifetime? Please answer on a scale from 0 (very unlikely) to 10 (very likely). With the values in between you can graduate your opinion.",
           "text_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie dieses Ziel in Ihrem Leben realisieren? Bitte antworten Sie auf einer Skala von 0 sehr unwahrscheinlich bis 10 sehr wahrscheinlich. Mit den Werten dazwischen koennen Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: very unlikely",
-              "label_de": "0: sehr unwahrscheinlich"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very likely",
-              "label_de": "10: sehr wahrscheinlich"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3417,7 +3084,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3565,6 +3232,7 @@
       "question": "lot0100",
       "name": "lot0100",
       "label": "[IF age> = 16] To what extent do you think the following statements apply?",
+      "label_de": "[IF age >= 16] Wie sehr treffen die folgenden Aussagen Ihrer Meinung nach zu?",
       "items": [
         {
           "item": "0",
@@ -3576,45 +3244,13 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
           "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: cannot be evaluated",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: does not apply at all",
-              "label_de": "1: trifft ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: does not really apply",
-              "label_de": "2: trifft kaum zu"
-            },
-            {
-              "value": 3,
-              "label": "3: partly applies/partly doesn't apply",
-              "label_de": "3: teils/teils"
-            },
-            {
-              "value": 4,
-              "label": "4: slightly applies",
-              "label_de": "4: trifft etwas zu"
-            },
-            {
-              "value": 5,
-              "label": "5: completely applies",
-              "label_de": "5: trifft ausgesprochen zu"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
           "number": "78",
           "concept": "lot0100",
-          "text": "Even in uncertain times, I usually expect the best.",
+          "text": "In uncertain times, I usually except the best.",
           "text_de": "Auch in ungewissen Zeiten erwarte ich normalerweise das Beste.",
           "scale": "cat",
           "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
@@ -3622,7 +3258,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3665,7 +3301,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3700,7 +3336,7 @@
           "item": "3",
           "number": "80",
           "concept": "lot0100",
-          "text": "Overall, I expect more good than bad things to happen to me.",
+          "text": "Overall, I expect more good things to happen to me than bad.",
           "text_de": "Alles in allem erwarte ich, dass mir mehr gute als schlechte Dinge widerfahren.",
           "scale": "cat",
           "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
@@ -3708,7 +3344,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3748,6 +3384,7 @@
       "question": "bdi0100",
       "name": "bdi0100",
       "label": "[IF age> = 16] Over the past two weeks, how often have the following statements applied to you?",
+      "label_de": "[IF age >= 16] Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen auf Sie zu?",
       "items": [
         {
           "item": "0",
@@ -3757,33 +3394,8 @@
           "text_de": "[IF age >= 16] Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen auf Sie zu?",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: cannot be evaluated",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4: almost always",
-              "label_de": "4: fast immer"
-            }
-          ],
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "sn": 0
         },
         {
@@ -3793,10 +3405,12 @@
           "text": "I'm sad.",
           "text_de": "Ich bin traurig.",
           "scale": "cat",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85:  information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3829,10 +3443,12 @@
           "text": "I am pessimistic about my future.",
           "text_de": "Ich sehe mutlos in die Zukunft.",
           "scale": "cat",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85:  information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3865,10 +3481,12 @@
           "text": "I feel like a failure",
           "text_de": "Ich fuehle mich als Versager/in",
           "scale": "cat",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85:  information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3901,10 +3519,12 @@
           "text": "I find it difficult to enjoy anything.",
           "text_de": "Es faellt mir schwer, etwas zu geniessen.",
           "scale": "cat",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85:  information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3937,10 +3557,12 @@
           "text": "I am disappointed in myself.",
           "text_de": "Ich bin von mir enttaeuscht.",
           "scale": "cat",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85:  information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -3973,10 +3595,12 @@
           "text": "I blame myself for mistakes and weaknesses.",
           "text_de": "Ich werfe mir Fehler und Schwaechen vor.",
           "scale": "cat",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85:  information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4009,10 +3633,12 @@
           "text": "I think about hurting myself.",
           "text_de": "Ich denke daran, mir etwas anzutun.",
           "scale": "cat",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85:  information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4047,6 +3673,7 @@
       "question": "cis0100",
       "name": "cis0100",
       "label": "Various types of behavior that people can use to respond to difficult, critical, or challenging events are listed below. Please indicate how well these statements describe how you deal with such events.",
+      "label_de": "Im Folgenden werden verschiedene Verhaltensweisen aufgelistet, mit denen Menschen auf schwierige, kritische oder herausfordernde Ereignisse reagieren koennen. Bitte geben Sie an, wie gut diese Aussagen beschreiben, wie Sie mit solchen Ereignissen umgehen.",
       "items": [
         {
           "item": "0",
@@ -4058,45 +3685,13 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
           "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: cannot be evaluated",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: does not apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: mostly does not apply",
-              "label_de": "2: trifft eher nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: not sure",
-              "label_de": "3: nicht sicher"
-            },
-            {
-              "value": 4,
-              "label": "4: mostly applies",
-              "label_de": "4: trifft eher zu"
-            },
-            {
-              "value": 5,
-              "label": "5: totally applies",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
           "number": "90",
           "concept": "cis0100",
-          "text": "I think about the result and learn from my mistakes.",
+          "text": "I think about the event and learn from my mistakes.",
           "text_de": "Ich denke ueber das Ergebnis nach und lerne aus meinen Fehlern.",
           "scale": "cat",
           "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
@@ -4104,7 +3699,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4139,7 +3734,7 @@
           "item": "2",
           "number": "91",
           "concept": "cis0100",
-          "text": "I worry about what I'm going to do next.",
+          "text": "I worry about what I should do.",
           "text_de": "Ich sorge mich darum, was ich als naechstes tun werde.",
           "scale": "cat",
           "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
@@ -4147,7 +3742,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4190,7 +3785,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4225,7 +3820,7 @@
           "item": "4",
           "number": "93",
           "concept": "cis0100",
-          "text": "I immediately do something to try and correct the mistake.",
+          "text": "I take corrective action immediately.",
           "text_de": "Ich leite sofort Massnahmen zur Korrektur ein.",
           "scale": "cat",
           "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
@@ -4233,7 +3828,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4276,7 +3871,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4311,7 +3906,7 @@
           "item": "6",
           "number": "95",
           "concept": "cis0100",
-          "text": "I buy something.",
+          "text": "I buy myself something.",
           "text_de": "Ich kaufe mir etwas.",
           "scale": "cat",
           "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
@@ -4319,7 +3914,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4354,7 +3949,7 @@
           "item": "7",
           "number": "96",
           "concept": "cis0100",
-          "text": "I try to take control of the situation.",
+          "text": "I get control of the situation.",
           "text_de": "Ich versuche die Kontrolle ueber die Situation zu erlangen.",
           "scale": "cat",
           "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
@@ -4362,7 +3957,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4397,7 +3992,7 @@
           "item": "8",
           "number": "97",
           "concept": "cis0100",
-          "text": "I am afraid that I will not be able to cope with the situation.",
+          "text": "I feel anxious about not being able to cope.",
           "text_de": "Ich habe Angst, nicht mit der Situation fertig zu werden.",
           "scale": "cat",
           "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
@@ -4405,7 +4000,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4440,7 +4035,7 @@
           "item": "9",
           "number": "98",
           "concept": "cis0100",
-          "text": "I go out for a meal.",
+          "text": "I go out for a snack or meal.",
           "text_de": "Ich gehe Essen.",
           "scale": "cat",
           "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
@@ -4448,7 +4043,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4487,67 +4082,26 @@
     "sps0200": {
       "question": "sps0200",
       "name": "sps0200",
-      "label": "How well do the following statements apply to you personally? Please use the following scale from 1 to 7 where 1 is: does not apply at all and 7 is: fully applies. With the values ââin between you can graduate your opinion.",
+      "label": "How well do the following statements apply to you personally? Please use the following scale from 1 to 7 where 1 is: does not apply at all and 7 is: fully applies. With the values in between you can graduate your opinion.",
+      "label_de": "Wie gut treffen die folgenden Aussagen auf Sie persoenlich zu? Bitte benutzen Sie folgende Skala von 1 bis 7.Der Wert 1 bedeutet: Trifft ueberhaupt nicht zu. Der Wert 7 bedeutet: Trifft voellig zu. Mit den Werten dazwischen koennen Sie Ihre Meinung abstufen.",
       "items": [
         {
           "item": "0",
           "number": "99",
           "concept": "sps0200",
-          "text": "How well do the following statements apply to you personally? Please use the following scale from 1 to 7 where 1 is: does not apply at all and 7 is: fully applies. With the values ââin between you can graduate your opinion.",
+          "text": "How well do the following statements apply to you personally? Please use the following scale from 1 to 7 where 1 is: does not apply at all and 7 is: fully applies. With the values in between you can graduate your opinion.",
           "text_de": "Wie gut treffen die folgenden Aussagen auf Sie persoenlich zu? Bitte benutzen Sie folgende Skala von 1 bis 7.Der Wert 1 bedeutet: Trifft ueberhaupt nicht zu. Der Wert 7 bedeutet: Trifft voellig zu. Mit den Werten dazwischen koennen Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
           "description_de": "Source: Adaptiert von:   Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7: completely applies",
-              "label_de": "7: trifft voll zu"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
           "number": "100",
           "concept": "sps0200",
-          "text": "I generally avoid films and television programs featuring scenes of violence.",
+          "text": "I make a point to avoid violent movies and TV shows.",
           "text_de": "Filme und Fernsehsendungen mit Gewaltszenen meide ich prinzipiell.",
           "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
@@ -4560,7 +4114,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -4590,7 +4144,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -4600,7 +4154,7 @@
           "item": "2",
           "number": "101",
           "concept": "sps0200",
-          "text": "Art or music often moves me deeply.",
+          "text": "I am deeply moved by the arts or music.",
           "text_de": "Kunst oder Musik bewegt mich oft zutiefst.",
           "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
@@ -4613,7 +4167,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -4643,7 +4197,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -4653,7 +4207,7 @@
           "item": "3",
           "number": "102",
           "concept": "sps0200",
-          "text": "I get nervous when I have to do a lot in a short time.",
+          "text": "I get rattled when I have a lot to do in a short amount of time.",
           "text_de": "Ich werde nervoes, wenn ich in kurzer Zeit viel erledigen muss.",
           "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
@@ -4666,7 +4220,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -4696,7 +4250,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -4719,7 +4273,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -4749,7 +4303,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -4772,7 +4326,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -4802,7 +4356,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -4812,7 +4366,7 @@
           "item": "6",
           "number": "105",
           "concept": "sps0200",
-          "text": "I am bothered by intense stimuli, like loud noises or chaotic events.",
+          "text": "I am bothered by intense stimuli, like loud noises or chaotic scenes.",
           "text_de": "Intensive Reize wie laute Geraeusche oder chaotische Vorgaenge stoeren mich.",
           "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
@@ -4825,7 +4379,7 @@
             },
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply to me at all",
               "label_de": "1: trifft ueberhaupt nicht zu"
             },
             {
@@ -4855,7 +4409,7 @@
             },
             {
               "value": 7,
-              "label": "7: completely applies",
+              "label": "7: applies to me perfectly",
               "label_de": "7: trifft voll zu"
             }
           ],
@@ -4870,6 +4424,7 @@
       "question": "ebi0100",
       "name": "ebi0100",
       "label": "Please answer the following question only if you have children. When raising children there are certainly times when increased stresses and strains occur, which are very challenging for you as a parent. What is your experience of these multiple demands and how do they affect your personal lifestyle?",
+      "label_de": "Bitte beantworten Sie die folgende Frage nur, falls Sie Kinder haben. In der Erziehung von Kindern gibt es sicher auch Zeiten, in denen besondere Belastungen auftreten, bei denen Sie als Mutter oder Vater sehr gefordert sind. Wie erleben Sie die zahl-reichen Anforderungen und wie wirken sich diese auf Ihre persoenliche Lebensfuehrung aus?",
       "items": [
         {
           "item": "0",
@@ -4881,38 +4436,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: cannot be evaluated",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: does not apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: mostly does not apply",
-              "label_de": "2: trifft eher nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: not sure",
-              "label_de": "3: nicht sicher"
-            },
-            {
-              "value": 4,
-              "label": "4: mostly applies",
-              "label_de": "4: trifft eher zu"
-            },
-            {
-              "value": 5,
-              "label": "5: totally applies",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4927,7 +4450,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -4970,7 +4493,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -5013,7 +4536,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -5056,7 +4579,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -5099,7 +4622,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -5142,7 +4665,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -5182,6 +4705,7 @@
       "question": "cul0301",
       "name": "cul0301",
       "label": "[IF age> = 16] Do you listen to classical music? All situations where you can listen to classical music are meant here: at home, while traveling, or at a concert.",
+      "label_de": "[IF age > = 16 ] Hoeren Sie klassische Musik? Hier sind alle Gelegenheiten gemeint, bei denen man klassische Musik hoeren kann: Bei Ihnen zu Hause, unterwegs oder im Konzert.",
       "items": [
         {
           "item": "1",
@@ -5205,6 +4729,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -5226,6 +4755,7 @@
       "question": "cul0302",
       "name": "cul0302",
       "label": "[IF age> = 16] And, think back over the past week, how often did you listen to classical music during that period?",
+      "label_de": "[IF age > = 16 ] Und wenn Sie an die vergangene Woche denken, wie oft haben Sie klassische Musik gehoert?",
       "items": [
         {
           "item": "1",
@@ -5260,6 +4790,7 @@
       "question": "cul0401",
       "name": "cul0401",
       "label": "[IF age> = 16] In general, how often do you discuss the following things with others?",
+      "label_de": "[IF age > = 16 ] Wie oft kommt es im Allgemeinen vor, dass Sie mit anderen ueber folgende Dinge diskutieren?",
       "items": [
         {
           "item": "0",
@@ -5271,38 +4802,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: daily",
-              "label_de": "1: taeglich"
-            },
-            {
-              "value": 2,
-              "label": "2: several times per week",
-              "label_de": "2: mehrmals in der Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: once a week",
-              "label_de": "3: einmal in der Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: several times a month",
-              "label_de": "4: mehrmals im Monat"
-            },
-            {
-              "value": 5,
-              "label": "5: rarely or never",
-              "label_de": "5: selten oder nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5484,6 +4983,7 @@
       "question": "cul0501",
       "name": "cul0501",
       "label": "[IF age> = 16] Now we'd like to move on to other activities that you can do in your free time. It doesn't matter here whether you carried out this activity with someone else or alone. How often have you done the following in the past 12 months:",
+      "label_de": "[IF age > = 16 ] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. Dabei ist es egal, ob Sie das mit jemandem zusammen oder alleine getan haben. Wie oft haben Sie in den letzten 12 Monaten folgende Dinge getan:",
       "items": [
         {
           "item": "0",
@@ -5495,38 +4995,6 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: once",
-              "label_de": "2: einmal"
-            },
-            {
-              "value": 3,
-              "label": "3: 2 to 3 times",
-              "label_de": "3: 2 bis 3 mal"
-            },
-            {
-              "value": 4,
-              "label": "4: 4 to 5 times",
-              "label_de": "4: 4 bis 5 mal"
-            },
-            {
-              "value": 5,
-              "label": "5: more than 5 times",
-              "label_de": "5: mehr als 5 mal"
-            }
-          ],
           "sn": 0
         },
         {
@@ -5753,6 +5221,7 @@
       "question": "mus0100",
       "name": "mus0100",
       "label": "[IF age> = 16] Do you currently actively play music. Here we mean playing a musical instrument or singing (individual lessons or in a choir)?",
+      "label_de": "[IF age >= 16] Machen Sie zurzeit aktiv Musik, gemeint ist: Spielen eines Musikinstrumentes oder Gesang (Einzelunterricht oder Chor)?",
       "items": [
         {
           "item": "1",
@@ -5792,6 +5261,7 @@
       "question": "mus0200",
       "name": "mus0200",
       "label": "[IF age> = 16] For how many hours a week do you play music? Think of a typical week.",
+      "label_de": "[IF age >= 16] Wie viele Stunden in der Woche machen Sie Musik? Denken Sie dabei an eine typische Woche.",
       "items": [
         {
           "item": "1",
@@ -5806,7 +5276,7 @@
           "answers": [
             {
               "value": -85,
-              "label": "-85: cannot be evaluated",
+              "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
             },
             {
@@ -5851,6 +5321,7 @@
       "question": "mus0300",
       "name": "mus0300",
       "label": "[IF age> = 16] At what age did you start learning a musical instrument or singing?",
+      "label_de": "[IF age >= 16] In welchem Alter haben Sie begonnen, ein Musikinstrument oder Gesang zu lernen?",
       "items": [
         {
           "item": "1",
@@ -5865,13 +5336,13 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
             },
             {
               "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
             }
           ],
           "sn": 0

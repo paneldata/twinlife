@@ -1,0 +1,3278 @@
+{
+  "study": "twinlife",
+  "name": "wid4_CATI2_module3",
+  "label": "CATI 2: employment/education (CATI)",
+  "description": "This questionnaire module contains questions on: classification of occupation; educational and employment status of all household members (employment / education / vocational training / parental leave / pension); history of education and graduation: educational degrees, vocational training, year abroad; occupational status; type of education / training; current status of education / qualification.",
+  "analysis_unit": "individual",
+  "period": 4,
+  "instrument": "wid4_CATI2_module3",
+  "questions": {
+    "hpr0102": {
+      "question": "hpr0102",
+      "name": "hpr0102",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "1",
+          "concept": "hpr0102",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,5,66) & proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2)))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0104": {
+      "question": "hpr0104",
+      "name": "hpr0104",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "2",
+          "concept": "hpr0104",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,16,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0105": {
+      "question": "hpr0105",
+      "name": "hpr0105",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "3",
+          "concept": "hpr0105",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,16,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0106": {
+      "question": "hpr0106",
+      "name": "hpr0106",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "4",
+          "concept": "hpr0106",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,16,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0107": {
+      "question": "hpr0107",
+      "name": "hpr0107",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "5",
+          "concept": "hpr0107",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,16,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0108": {
+      "question": "hpr0108",
+      "name": "hpr0108",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "6",
+          "concept": "hpr0108",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,16,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0109": {
+      "question": "hpr0109",
+      "name": "hpr0109",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "7",
+          "concept": "hpr0109",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,17,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0110": {
+      "question": "hpr0110",
+      "name": "hpr0110",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "8",
+          "concept": "hpr0110",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,17,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0111": {
+      "question": "hpr0111",
+      "name": "hpr0111",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "9",
+          "concept": "hpr0111",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,16,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0112": {
+      "question": "hpr0112",
+      "name": "hpr0112",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "10",
+          "concept": "hpr0112",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,16,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0113": {
+      "question": "hpr0113",
+      "name": "hpr0113",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "11",
+          "concept": "hpr0113",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,18,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0114": {
+      "question": "hpr0114",
+      "name": "hpr0114",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "12",
+          "concept": "hpr0114",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "age0110>=16 & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0115": {
+      "question": "hpr0115",
+      "name": "hpr0115",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "13",
+          "concept": "hpr0115",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "age0110>=58 & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0116": {
+      "question": "hpr0116",
+      "name": "hpr0116",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "14",
+          "concept": "hpr0116",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "inrange(age0110,16,66) & (proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0120": {
+      "question": "hpr0120",
+      "name": "hpr0120",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "15",
+          "concept": "hpr0120",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "(proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2))))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0203": {
+      "question": "hpr0203",
+      "name": "hpr0203",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "1",
+          "number": "16",
+          "concept": "hpr0203",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "cat",
+          "filter": "age0110>=16 & proxy!=1 | (((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1) | (ptyp==300 & flm==1) | (ptyp==400 & flf==1) | (ptyp==500 & flg==1) | (ptyp==600 & fln==1)) | (proxy == 1 & (ptyp==110 & flp==1 & version_ptyp==1) | (ptyp==120 & flq==1 & version_ptyp==2)))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "emp0520": {
+      "question": "emp0520",
+      "name": "emp0520",
+      "label": "You said in the last interview in [INTDATM/INTDATY] that you worked as [emp0500_2[Preload]]. Is this still currently true?\n",
+      "label_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie als [emp0500_2[Preload]] taetig waren. Trifft dies aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "number": "17",
+          "concept": "emp0520",
+          "text": "You said in the last interview in [INTDATM/INTDATY] that you worked as [emp0500_2[Preload]]. Is this still currently true?\n",
+          "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie als [emp0500_2[Preload]] taetig waren. Trifft dies aktuell immer noch zu?",
+          "filter": "(hpr0104==1 | hpr0105==1 | hpr0107==1) & !missing(emp0500_3) & proxy != 1",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect occupation information",
+              "label_de": "-81: Angaben zum Beruf nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "emp0620": {
+      "question": "emp0620",
+      "name": "emp0620",
+      "label": "In the last interview, we noted that you worked in [INTDATM/INTDATY] as [emp0600_2[preload]]. Is that still true at the\nmoment?",
+      "label_de": "Im letzten Interview haben wir notiert, dass Sie im [INTDATM/INTDATY] als [emp0600_2[Preload]] taetig waren. Trifft das aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "number": "18",
+          "concept": "emp0620",
+          "text": "In the last interview, we noted that you worked in [INTDATM/INTDATY] as [emp0600_2[preload]]. Is that still true at the\nmoment?",
+          "text_de": "Im letzten Interview haben wir notiert, dass Sie im [INTDATM/INTDATY] als [emp0600_2[Preload]] taetig waren. Trifft das aktuell immer noch zu?",
+          "filter": "(hpr0104==1 | hpr0105==1 | hpr0107==1) & inrange(emp0600_3,1,5) & proxy != 1",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect occupation information",
+              "label_de": "-81: Angaben zum Beruf nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "emp0600": {
+      "question": "emp0600",
+      "name": "emp0600",
+      "label": "In what professional position are you currently employed?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "number": "19",
+          "concept": "emp0600",
+          "text": "In what professional position are you currently employed?",
+          "text_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt?",
+          "scale": "cat",
+          "filter": "proxy != 1 & (((hpr0104==1 | hpr0105==1 | hpr0107==1) & emp0620!=1) | ((hpr0104==1 | hpr0105==1 | hpr0107==1) & emp0600_3<0) | (hpr0112==1) | (hpr0115==1))",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: blue-collar worker (Arbeiter) (also in agriculture)",
+              "label_de": "1: Arbeiter/in (auch in der Landwirtschaft)"
+            },
+            {
+              "value": 2,
+              "label": "2: white-collar worker (Angestellte)",
+              "label_de": "2: Angestellte/r"
+            },
+            {
+              "value": 3,
+              "label": "3: civil servant (including judges and professional soldiers)",
+              "label_de": "3: Beamte/r (einschliesslich Richter und Berufssoldaten)"
+            },
+            {
+              "value": 4,
+              "label": "4: self-employed (including family members working for the self-employed)",
+              "label_de": "4: Selbstaendige/r (einschl. mithelfende Familienangehoerige)"
+            },
+            {
+              "value": 5,
+              "label": "5: apprentices / trainees / interns",
+              "label_de": "5: Auszubildende und Praktikanten"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "edu0420": {
+      "question": "edu0420",
+      "name": "edu0420",
+      "label": "You said in the [INTDATM/INTDATY] that you attend [edu0400_2[Preload]] when you were last interviewed. Is this still\ncurrently true?",
+      "label_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0400_2[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "number": "20",
+          "concept": "edu0420",
+          "text": "You said in the [INTDATM/INTDATY] that you attend [edu0400_2[Preload]] when you were last interviewed. Is this still\ncurrently true?",
+          "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0400_2[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
+          "scale": "cat",
+          "filter": "proxy != 1 & hpr0102==1 & inrange(edu0400_3,1,11)",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect information on school attendance",
+              "label_de": "-81: Angaben zur Schule nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "edu0400": {
+      "question": "edu0400",
+      "name": "edu0400",
+      "label": "What school are you currently attending?",
+      "label_de": "Welche Schule besuchen Sie zurzeit?",
+      "items": [
+        {
+          "item": "0",
+          "number": "219",
+          "concept": "edu0400",
+          "text": "What school does <name[120/121]> (ptyp) currently attend?",
+          "text_de": "Welche Schule besucht <Name[120/121]> (ptyp) zurzeit?",
+          "scale": "txt",
+          "filter": "hpr0102==1 & (edu0420!=1 | edu0400_3<0)",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "sn": 1
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "edu0402": {
+      "question": "edu0402",
+      "name": "edu0402",
+      "label": "Which class do you attend at this school? [PROG: green] If it is summer vacation, please indicate which class you will be in\nafter summer vacation.",
+      "label_de": "Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen.",
+      "items": [
+        {
+          "item": "0",
+          "number": "220",
+          "concept": "edu0402",
+          "text": "Which class does <name[120/121]> (ptyp) attend at this school? [PROG: green] If it is summer vacation, please indicate which class <name> will be in after summer vacation.",
+          "text_de": "Welche Klasse besucht <Name[120/121]> (ptyp) auf dieser Schule?\n[PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
+          "scale": "txt",
+          "filter": "(hpr0102==1) & !inlist(edu0400,-98,-99)",
+          "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
+          "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "sn": 1
+        }
+      ],
+      "sn": 21,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "edu0320": {
+      "question": "edu0320",
+      "name": "edu0320",
+      "label": "You said in the [INTDATM/INTDATY] that you attend [edu0303_2[preload]] when you were last interviewed. Is this still\ncurrently true?",
+      "label_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0303_2[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "number": "23",
+          "concept": "edu0320",
+          "text": "You said in the [INTDATM/INTDATY] that you attend [edu0303_2[preload]] when you were last interviewed. Is this still\ncurrently true?",
+          "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0303_2[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
+          "scale": "cat",
+          "filter": "proxy != 1 & hpr0203==1 & inrange(edu0303_3,1,4)",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect information on university attendance",
+              "label_de": "-81: Angaben zum Hochschulbesuch nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 22,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "edu0303": {
+      "question": "edu0303",
+      "name": "edu0303",
+      "label": "What kind of higher education is this?",
+      "label_de": "Was fuer eine Hochschulausbildung ist das?",
+      "items": [
+        {
+          "item": "0",
+          "number": "221",
+          "concept": "edu0303",
+          "text": "What kind of higher education is this?",
+          "text_de": "Was fuer eine Hochschulausbildung ist das?",
+          "scale": "txt",
+          "filter": "(hpr0203==1) & (edu0320!=1 | edu0303_3<0)",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "sn": 1
+        }
+      ],
+      "sn": 23,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "edu0330": {
+      "question": "edu0330",
+      "name": "edu0330",
+      "label": "[IF edu0307[preload] = 1,2,4,8] You said in the last interview in the [INTDATM/INTDATY] that you [IF edu0307_2[preload] = 1,2 one/ IF edu0307_2[preload] = 4,8 one] <edu0307_2[preload]> do. Is this still currently true? [IF edu0307_2[Preload] = 3,5,6,7] You said you were attending an <edu0307_2[preload]> in the [INTDATM/INTDATY] the last time you were interviewed. Is this still currently true? [IF edu0307_2[preload] = 9] When last interviewed in the [INTDATM/INTDATY], I noted the following in response to the question about what kind of vocational training you are doing:\n<edu0308_2[preload]>. Is this still currently true?",
+      "label_de": "[IF edu0307[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie [IF edu0307_2[Preload] = 1,2 ein/ IF edu0307_2[Preload] = 4,8 eine] <edu0307_2[preload]> machen. Trifft dies aktuell immer noch zu? [IF edu0307_2[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie eine <edu0307_2[preload]> besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_2[Preload] = 9] Bei der letzten Befragung im [INTDATM/INTDATY] habe ich mir zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: <edu0308_2[preload]>. Trifft dies aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "number": "25",
+          "concept": "edu0330",
+          "text": "[IF edu0307[preload] = 1,2,4,8] You said in the last interview in the [INTDATM/INTDATY] that you [IF edu0307_2[preload] = 1,2 one/ IF edu0307_2[preload] = 4,8 one] <edu0307_2[preload]> do. Is this still currently true? [IF edu0307_2[Preload] = 3,5,6,7] You said you were attending an <edu0307_2[preload]> in the [INTDATM/INTDATY] the last time you were interviewed. Is this still currently true? [IF edu0307_2[preload] = 9] When last interviewed in the [INTDATM/INTDATY], I noted the following in response to the question about what kind of vocational training you are doing:\n<edu0308_2[preload]>. Is this still currently true?",
+          "text_de": "[IF edu0307[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie [IF edu0307_2[Preload] = 1,2 ein/ IF edu0307_2[Preload] = 4,8 eine] <edu0307_2[preload]> machen. Trifft dies aktuell immer noch zu? [IF edu0307_2[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie eine <edu0307_2[preload]> besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_2[Preload] = 9] Bei der letzten Befragung im [INTDATM/INTDATY] habe ich mir zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: <edu0308_2[preload]>. Trifft dies aktuell immer noch zu?",
+          "scale": "cat",
+          "filter": "proxy != 1 & hpr0106==1 & inrange(edu0307_3,1,9)",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect information on apprenticeship",
+              "label_de": "-81: Angaben zur Ausbildung nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 24,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "edu0307": {
+      "question": "edu0307",
+      "name": "edu0307",
+      "label": "What kind of vocational training is this?",
+      "label_de": "Was fuer eine berufliche Ausbildung ist das?",
+      "items": [
+        {
+          "item": "0",
+          "number": "222",
+          "concept": "edu0307",
+          "text": "What kind of vocational training is this?",
+          "text_de": "Was fuer eine berufliche Ausbildung ist das?",
+          "scale": "txt",
+          "filter": "(hpr0106==1) & (edu0330!=1 | edu0307_3<0)",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "sn": 10
+        },
+        {
+          "item": "2",
+          "number": "66",
+          "concept": "edu0307",
+          "text": "child is in private care",
+          "text_de": "Kind wird noch privat betreut",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "3",
+          "number": "88",
+          "concept": "edu0307",
+          "text": "child is in private care",
+          "text_de": "Kind wird noch privat betreut",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "4",
+          "number": "110",
+          "concept": "edu0307",
+          "text": "child is in private care",
+          "text_de": "Kind wird noch privat betreut",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "5",
+          "number": "132",
+          "concept": "edu0307",
+          "text": "child is in private care",
+          "text_de": "Kind wird noch privat betreut",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "6",
+          "number": "154",
+          "concept": "edu0307",
+          "text": "child is in private care",
+          "text_de": "Kind wird noch privat betreut",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "7",
+          "number": "176",
+          "concept": "edu0307",
+          "text": "child is in private care",
+          "text_de": "Kind wird noch privat betreut",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "8",
+          "number": "178",
+          "concept": "edu0307",
+          "text": "higher education institution",
+          "text_de": "Ausbildung an einer Hochschule",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "198",
+          "concept": "edu0307",
+          "text": "higher education institution",
+          "text_de": "Ausbildung an einer Hochschule",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "number": "218",
+          "concept": "edu0307",
+          "text": "higher education institution",
+          "text_de": "Ausbildung an einer Hochschule",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        }
+      ],
+      "sn": 25,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0101": {
+      "question": "hpr0101",
+      "name": "hpr0101",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "0",
+          "number": "27",
+          "concept": "hpr0101",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "txt",
+          "filter": "age0110<=6 & ((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1))",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "28",
+          "concept": "hpr0101",
+          "text": "Kindergarten / day care center / nanny",
+          "text_de": "Kindergarten / KITA, Tagesmutter",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "42",
+          "concept": "hpr0101",
+          "text": "other economic inactivity",
+          "text_de": "sonstige Nichterwerbstaetigkeit",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 26,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "hpr0117": {
+      "question": "hpr0117",
+      "name": "hpr0117",
+      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+      "items": [
+        {
+          "item": "0",
+          "number": "43",
+          "concept": "hpr0117",
+          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
+          "scale": "txt",
+          "filter": "age0110<=6 & ((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1))",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "number": "44",
+          "concept": "hpr0117",
+          "text": "child is in private care",
+          "text_de": "Kind wird noch privat betreut",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "number": "46",
+          "concept": "hpr0117",
+          "text": "higher education institution",
+          "text_de": "Ausbildung an einer Hochschule",
+          "scale": "cat",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 27,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "eca0900": {
+      "question": "eca0900",
+      "name": "eca0900",
+      "label": "[IF proxy=2] Have you received a school degree since the last interview, i.e., since the <INTDATM INTDATY>? [IF proxy=1] Have you or any of the following received a school degree since the last interview, i.e., since <INTDATM INTDATY>? For this question, we are referring to the following family members: [PROG: INSERT PERSONS BY NAME] / Have you or your partner received a school degree since the last interview, i.e., since <INTDATM INTDATY>? Of the persons named, who did so?",
+      "label_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem  <INTDATM INTDATY>, einen Schulabschluss erworben? [IF proxy=1] Haben Sie oder eine der folgenden Personen seit dem letzten Interview, d.h. seit dem  <INTDATM INTDATY>, einen Schulabschluss erworben? Bei dieser Frage geht es uns um folgende Familienmitglieder: [PROG: EINBLENDUNG PERSONEN mit NAMEN] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, einen Schulabschluss erworben? Wer von den genannten Personen war das?",
+      "items": [
+        {
+          "item": "0",
+          "number": "240",
+          "concept": "eca0900",
+          "text": "[IF proxy=2] Have you received a school degree since the last interview, i.e., since the <INTDATM INTDATY>? [IF proxy=1] Have you or any of the following received a school degree since the last interview, i.e., since <INTDATM INTDATY>? For this question, we are referring to the following family members: [PROG: INSERT PERSONS BY NAME] / Have you or your partner received a school degree since the last interview, i.e., since <INTDATM INTDATY>? Of the persons named, who did so?",
+          "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem  <INTDATM INTDATY>, einen Schulabschluss erworben? [IF proxy=1] Haben Sie oder eine der folgenden Personen seit dem letzten Interview, d.h. seit dem  <INTDATM INTDATY>, einen Schulabschluss erworben? Bei dieser Frage geht es uns um folgende Familienmitglieder: [PROG: EINBLENDUNG PERSONEN mit NAMEN] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, einen Schulabschluss erworben? Wer von den genannten Personen war das?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,110,120,200,300,400,500,600) & (res0600_1 == 10 | res0600_3 == 10) & age0110 >= 15",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "sn": 6
+        },
+        {
+          "item": "1",
+          "number": "241",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 001 & eca0901 != 1] 1: Myself [IF ptyp != 001]1: <NAME_ZWILLING1> (first born twin)",
+          "text_de": "[IF ptyp = 001 & eca0901 != 1] 1: Ich selbst [IF ptyp != 001]1: <NAME_ZWILLING1> (Erstgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "2",
+          "number": "242",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 002 & eca0901 != 1] 2: Myself [IF ptyp != 002] 2: <NAME_ZWILLING2> (second born twin)",
+          "text_de": "[IF ptyp = 002 & eca0901 != 1] 2: Ich selbst [IF ptyp != 002] 2: <NAME_ZWILLING2>  (Zweitgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "3",
+          "number": "243",
+          "concept": "eca0900",
+          "text": "[(IF sibling_present) AND (IF sibling_female) AND (IF ptyp = 001 OR 002)] 200: My sister <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp = 001 OR 002)] 200: My brother <NAME_sibling> [(IF sibling_present) AND (IF sibling_female) AND (IF ptyp >=300)] 200: My (step)daughter <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp >=300)] 200: My (step)son <NAME_sibling> [(IF sibling_present) AND (IF sex_sibling_missing)] 200: <NAME_sibling> (sibling of twins).",
+          "text_de": "[(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp = 001 OR 002)] 200: Meine Schwester <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp = 001 OR 002)] 200: Mein Bruder <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp >=300)] 200: Meine (Stief-)Tochter <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp >=300)] 200: Mein (Stief-)Sohn <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF GeschlechtGeschwisterkind_missing)] 200: <NAME_Geschwisterkind>  (Geschwisterkind der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "4",
+          "number": "244",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 300 & eca0901 != 1] 300: Myself [IF ptyp != 300] 300: <NAME_Mother> (mother of the twins)",
+          "text_de": "[IF ptyp = 300 & eca0901 != 1] 300: Ich selbst [IF ptyp != 300] 300: <NAME_Mutter> (Mutter der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "5",
+          "number": "245",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 400 & eca0901 != 1] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400 & eca0901 != 1] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "6",
+          "number": "246",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 500 & eca0901 != 1] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / twins' stepfather) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner <NAME_stepfather>.",
+          "text_de": "[IF ptyp = 500 & eca0901 != 1] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner der Mutter / Stiefvater der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "247",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 600 & eca0901 != 1] 600: Myself [(IF ptyp = 600_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (father's partner / twins' stepmother) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My",
+          "text_de": "[IF ptyp = 600 & eca0901 != 1] 600: Ich selbst [(IF ptyp = 600_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner des Vaters / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "248",
+          "concept": "eca0900",
+          "text": "-98: do not know",
+          "text_de": "-98: weiss nicht",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "249",
+          "concept": "eca0900",
+          "text": "-99: Not specified",
+          "text_de": "-99: Keine Angabe",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "number": "250",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 001 & eca0901 != 1] 1: Myself [IF ptyp != 001]1: <NAME_ZWILLING1> (first born twin)",
+          "text_de": "[IF ptyp = 001 & eca0901 != 1] 1: Ich selbst [IF ptyp != 001]1: <NAME_ZWILLING1> (Erstgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "number": "251",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 002 & eca0901 != 1] 2: Myself [IF ptyp != 002] 2: <NAME_ZWILLING2> (second born twin)",
+          "text_de": "[IF ptyp = 002 & eca0901 != 1] 2: Ich selbst [IF ptyp != 002] 2: <NAME_ZWILLING2>  (Zweitgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "number": "252",
+          "concept": "eca0900",
+          "text": "[(IF sibling_present) AND (IF sibling_female) AND (IF ptyp = 001 OR 002)] 200: My sister <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp = 001 OR 002)] 200: My brother <NAME_sibling> [(IF sibling_present) AND (IF sibling_female) AND (IF ptyp >=300)] 200: My (step)daughter <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp >=300)] 200: My (step)son <NAME_sibling> [(IF sibling_present) AND (IF sex_sibling_missing)] 200: <NAME_sibling> (sibling of twins).",
+          "text_de": "[(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp = 001 OR 002)] 200: Meine Schwester  <NAME_Geschwisterkind>   [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp = 001 OR 002)] 200: Mein Bruder <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp >=300)] 200: Meine (Stief-)Tochter <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp >=300)] 200: Mein (Stief-)Sohn <NAME_Geschwisterkind>   [(IF Geschwister_vorhanden) AND (IF GeschlechtGeschwisterkind_missing)] 200: <NAME_Geschwisterkind>  (Geschwisterkind der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "number": "253",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 300 & eca0901 != 1] 300: Myself [IF ptyp != 300] 300: <NAME_Mother> (mother of the twins)",
+          "text_de": "[IF ptyp = 300 & eca0901 != 1] 300: Ich selbst [IF ptyp != 300] 300: <NAME_Mutter> (Mutter der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "14",
+          "number": "254",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 400 & eca0901 != 1] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400 & eca0901 != 1] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "15",
+          "number": "255",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 500 & eca0901 != 1] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / twins' stepfather) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner <NAME_stepfather>.",
+          "text_de": "[IF ptyp = 500 & eca0901 != 1] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner der Mutter / Stiefvater der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 15
+        },
+        {
+          "item": "16",
+          "number": "256",
+          "concept": "eca0900",
+          "text": "[IF ptyp = 600 & eca0901 != 1] 600: Myself [(IF ptyp = 600_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600 & eca0901 != 1] 600: Ich selbst [(IF ptyp = 600_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner des Vaters / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 16
+        },
+        {
+          "item": "17",
+          "number": "257",
+          "concept": "eca0900",
+          "text": "[(IF partner1_present) AND (IF ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (IF ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 17
+        },
+        {
+          "item": "18",
+          "number": "258",
+          "concept": "eca0900",
+          "text": "[(IF partner2_exists) AND (IF ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>.",
+          "text_de": "[(IF Partner2_vorhanden) AND (IF ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 18
+        },
+        {
+          "item": "19",
+          "number": "259",
+          "concept": "eca0900",
+          "text": "-98: Do not know",
+          "text_de": "-98: Weiss nicht",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 19
+        },
+        {
+          "item": "20",
+          "number": "260",
+          "concept": "eca0900",
+          "text": "-99: Not specified",
+          "text_de": "-99: Keine Angabe",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 20
+        }
+      ],
+      "sn": 28,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "eca0901": {
+      "question": "eca0901",
+      "name": "eca0901",
+      "label": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+      "label_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
+      "items": [
+        {
+          "item": "0",
+          "number": "275",
+          "concept": "eca0901",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
+          "scale": "txt",
+          "filter": "eca0900 == 1",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "sn": 1
+        }
+      ],
+      "sn": 29,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "eca1000": {
+      "question": "eca1000",
+      "name": "eca1000",
+      "label": "[IF proxy=2] Since the last interview, i.e., <INTDATM/INTDATY>, have you obtained a vocational training or university degree? [IF proxy=1] Please indicate whether you or any of the following have obtained a vocational training or university degree since the last interview, i.e., since <INTDATM/ INTDATY>? For this question, we are referring to the following family members: [names_list] / Since the last interview, i.e., <INTDATM/ INTDATY>, have you or your partner obtained a vocational training or university degree? Of the persons named, who did so?",
+      "label_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem  <INTDATM/INTDATY>, einen Ausbildungs- oder Studienabschluss erworben? [IF proxy=1] Bitte geben Sie an, ob Sie oder jemand von den folgenden Personen seit dem letzten Interview, d.h. seit dem <INTDATM/ INTDATY>, einen Ausbildungs- oder Studienabschluss erworben hat? Bei diese Frage geht es uns um folgende Familienmitglieder: [Namen_Liste] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem <INTDATM/ INTDATY>, einen Ausbildungs- oder Studienabschluss erworben? Wer von den genannten Personen war das?",
+      "items": [
+        {
+          "item": "0",
+          "number": "293",
+          "concept": "eca1000",
+          "text": "[IF proxy=2] Since the last interview, i.e., <INTDATM/INTDATY>, have you obtained a vocational training or university degree? [IF proxy=1] Please indicate whether you or any of the following have obtained a vocational training or university degree since the last interview, i.e., since <INTDATM/ INTDATY>? For this question, we are referring to the following family members: [names_list] / Since the last interview, i.e., <INTDATM/ INTDATY>, have you or your partner obtained a vocational training or university degree? Of the persons named, who did so?",
+          "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem  <INTDATM/INTDATY>, einen Ausbildungs- oder Studienabschluss erworben? [IF proxy=1] Bitte geben Sie an, ob Sie oder jemand von den folgenden Personen seit dem letzten Interview, d.h. seit dem <INTDATM/ INTDATY>, einen Ausbildungs- oder Studienabschluss erworben hat? Bei diese Frage geht es uns um folgende Familienmitglieder: [Namen_Liste] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem <INTDATM/ INTDATY>, einen Ausbildungs- oder Studienabschluss erworben? Wer von den genannten Personen war das?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,200,110,120,200,300,400,500,600) & (res0600_1 == 10 | res0600_3 == 10) & age0110 >= 15",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "sn": 6
+        },
+        {
+          "item": "1",
+          "number": "294",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 001 & eca0901 != 1] 1: Myself [IF ptyp != 001]1: <NAME_ZWILLING1> (first born twin)",
+          "text_de": "[IF ptyp = 001 & eca0901 != 1] 1: Ich selbst [IF ptyp != 001]1: <NAME_ZWILLING1> (Erstgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "2",
+          "number": "295",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 002 & eca0901 != 1] 2: Myself [IF ptyp != 002] 2: <NAME_ZWILLING2> (second born twin)",
+          "text_de": "[IF ptyp = 002 & eca0901 != 1] 2: Ich selbst [IF ptyp != 002] 2: <NAME_ZWILLING2>  (Zweitgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "3",
+          "number": "296",
+          "concept": "eca1000",
+          "text": "[(IF sibling_present) AND (IF sibling_female) AND (IF ptyp = 001 OR 002)] 200: My sister <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp = 001 OR 002)] 200: My brother <NAME_sibling> [(IF sibling_present) AND (IF sibling_female) AND (IF ptyp >=300)] 200: My (step)daughter <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp >=300)] 200: My (step)son <NAME_sibling> [(IF sibling_present) AND (IF sex_sibling_missing)] 200: <NAME_sibling> (sibling of twins).",
+          "text_de": "[(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp = 001 OR 002)] 200: Meine Schwester <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp = 001 OR 002)] 200: Mein Bruder <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp >=300)] 200: Meine (Stief-)Tochter <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp >=300)] 200: Mein (Stief-)Sohn <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF GeschlechtGeschwisterkind_missing)] 200: <NAME_Geschwisterkind>  (Geschwisterkind der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "4",
+          "number": "297",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 300 & eca0901 != 1] 300: Myself [IF ptyp != 300] 300: <NAME_Mother> (mother of the twins)",
+          "text_de": "[IF ptyp = 300 & eca0901 != 1] 300: Ich selbst [IF ptyp != 300] 300: <NAME_Mutter> (Mutter der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "5",
+          "number": "298",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 400 & eca0901 != 1] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400 & eca0901 != 1] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "6",
+          "number": "299",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 500 & eca0901 != 1] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / twins' stepfather) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner <NAME_stepfather>.",
+          "text_de": "[IF ptyp = 500 & eca0901 != 1] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner der Mutter / Stiefvater der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "number": "300",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 600 & eca0901 != 1] 600: Myself [(IF ptyp = 600_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (father's partner / twins' stepmother) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My",
+          "text_de": "[IF ptyp = 600 & eca0901 != 1] 600: Ich selbst [(IF ptyp = 600_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner des Vaters / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "number": "301",
+          "concept": "eca1000",
+          "text": "-98: do not know",
+          "text_de": "-98: weiss nicht",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "number": "302",
+          "concept": "eca1000",
+          "text": "-99: Not specified",
+          "text_de": "-99: Keine Angabe",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "number": "303",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 001 & eca0901 != 1] 1: Myself [IF ptyp != 001]1: <NAME_ZWILLING1> (first born twin)",
+          "text_de": "[IF ptyp = 001 & eca0901 != 1] 1: Ich selbst [IF ptyp != 001]1: <NAME_ZWILLING1> (Erstgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "number": "304",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 002 & eca0901 != 1] 2: Myself [IF ptyp != 002] 2: <NAME_ZWILLING2> (second born twin)",
+          "text_de": "[IF ptyp = 002 & eca0901 != 1] 2: Ich selbst [IF ptyp != 002] 2: <NAME_ZWILLING2>  (Zweitgeborener Zwilling)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "number": "305",
+          "concept": "eca1000",
+          "text": "[(IF sibling_present) AND (IF sibling_female) AND (IF ptyp = 001 OR 002)] 200: My sister <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp = 001 OR 002)] 200: My brother <NAME_sibling> [(IF sibling_present) AND (IF sibling_female) AND (IF ptyp >=300)] 200: My (step)daughter <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp >=300)] 200: My (step)son <NAME_sibling> [(IF sibling_present) AND (IF sex_sibling_missing)] 200: <NAME_sibling> (sibling of twins).",
+          "text_de": "[(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp = 001 OR 002)] 200: Meine Schwester  <NAME_Geschwisterkind>   [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp = 001 OR 002)] 200: Mein Bruder <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp >=300)] 200: Meine (Stief-)Tochter <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp >=300)] 200: Mein (Stief-)Sohn <NAME_Geschwisterkind>   [(IF Geschwister_vorhanden) AND (IF GeschlechtGeschwisterkind_missing)] 200: <NAME_Geschwisterkind>  (Geschwisterkind der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "number": "306",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 300 & eca0901 != 1] 300: Myself [IF ptyp != 300] 300: <NAME_Mother> (mother of the twins)",
+          "text_de": "[IF ptyp = 300 & eca0901 != 1] 300: Ich selbst [IF ptyp != 300] 300: <NAME_Mutter> (Mutter der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "14",
+          "number": "307",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 400 & eca0901 != 1] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400 & eca0901 != 1] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "15",
+          "number": "308",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 500 & eca0901 != 1] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / twins' stepfather) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner <NAME_stepfather>.",
+          "text_de": "[IF ptyp = 500 & eca0901 != 1] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner der Mutter / Stiefvater der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner <NAME_Stiefvater>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 15
+        },
+        {
+          "item": "16",
+          "number": "309",
+          "concept": "eca1000",
+          "text": "[IF ptyp = 600 & eca0901 != 1] 600: Myself [(IF ptyp = 600_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600 & eca0901 != 1] 600: Ich selbst [(IF ptyp = 600_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner des Vaters / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin <NAME_Stiefmutter>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 16
+        },
+        {
+          "item": "17",
+          "number": "310",
+          "concept": "eca1000",
+          "text": "[(IF partner1_present) AND (IF ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (IF ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 17
+        },
+        {
+          "item": "18",
+          "number": "311",
+          "concept": "eca1000",
+          "text": "[(IF partner2_exists) AND (IF ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>.",
+          "text_de": "[(IF Partner2_vorhanden) AND (IF ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 18
+        },
+        {
+          "item": "19",
+          "number": "312",
+          "concept": "eca1000",
+          "text": "-98: Do not know",
+          "text_de": "-98: Weiss nicht",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 19
+        },
+        {
+          "item": "20",
+          "number": "313",
+          "concept": "eca1000",
+          "text": "-99: Not specified",
+          "text_de": "-99: Keine Angabe",
+          "scale": "cat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 20
+        }
+      ],
+      "sn": 30,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "eca1100": {
+      "question": "eca1100",
+      "name": "eca1100",
+      "label": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+      "label_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
+      "items": [
+        {
+          "item": "0",
+          "number": "327",
+          "concept": "eca1100",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
+          "scale": "txt",
+          "filter": "eca1000 == 1",
+          "sn": 1
+        }
+      ],
+      "sn": 31,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "eca1200": {
+      "question": "eca1200",
+      "name": "eca1200",
+      "label": "[IF proxy=2] Have you dropped out of school, training, or study since the last interview, i.e., since the <INTDATM INTDATY>? [IF proxy=1] Since the last interview, i.e., since the <INTDATM INTDATY>, have you or any of the following dropped out of school, training, or study? For this question, we are referring to the following family members: [PROG: INSERT PERSONS BY NAME] / Since the last interview, i.e., since <INTDATM INTDATY>, have you or your partner dropped out of school, training, or study? Of the persons named, who did so?",
+      "label_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? [IF proxy=1] Haben Sie oder jemand von den folgenden Personen seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? Bei dieser Frage geht es uns um folgende Familienmitglieder: [PROG: EINBLENDUNG PERSONEN mit NAMEN] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem < INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? Wer von den genannten Personen war das?",
+      "items": [
+        {
+          "item": "0",
+          "number": "355",
+          "concept": "eca1200",
+          "text": "[IF proxy=2] Have you dropped out of school, training, or study since the last interview, i.e., since the <INTDATM INTDATY>? [IF proxy=1] Since the last interview, i.e., since the <INTDATM INTDATY>, have you or any of the following dropped out of school, training, or study? For this question, we are referring to the following family members: [PROG: INSERT PERSONS BY NAME] / Since the last interview, i.e., since <INTDATM INTDATY>, have you or your partner dropped out of school, training, or study? Of the persons named, who did so?",
+          "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? [IF proxy=1] Haben Sie oder jemand von den folgenden Personen seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? Bei dieser Frage geht es uns um folgende Familienmitglieder: [PROG: EINBLENDUNG PERSONEN mit NAMEN] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem < INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? Wer von den genannten Personen war das?",
+          "scale": "txt",
+          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600)",
+          "sn": 10
+        },
+        {
+          "item": "1",
+          "number": "356",
+          "concept": "eca1200",
+          "text": "[IF ptyp = 001 & eca0901 != 1] 1: Myself [IF ptyp != 001]1: <NAME_ZWILLING1> (first born twin)",
+          "text_de": "[IF ptyp = 001 & eca0901 != 1] 1: Ich selbst [IF ptyp != 001]1: <NAME_ZWILLING1> (Erstgeborener Zwilling)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "2",
+          "number": "357",
+          "concept": "eca1200",
+          "text": "[IF ptyp = 002 & eca0901 != 1] 2: Myself [IF ptyp != 002] 2: <NAME_ZWILLING2> (second born twin)",
+          "text_de": "[IF ptyp = 002 & eca0901 != 1] 2: Ich selbst [IF ptyp != 002] 2: <NAME_ZWILLING2>  (Zweitgeborener Zwilling)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "3",
+          "number": "358",
+          "concept": "eca1200",
+          "text": "[(IF sibling_present) AND (IF sibling_female) AND (IF ptyp = 001 OR 002)] 200: My sister <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp = 001 OR 002)] 200: My brother <NAME_sibling> [(IF sibling_present) AND (IF sibling_female) AND (IF ptyp >=300)] 200: My (step)daughter <NAME_sibling> [(IF sibling_present) AND (IF sibling_male) AND (IF ptyp >=300)] 200: My (step)son <NAME_sibling> [(IF sibling_present) AND (IF sex_sibling_missing)] 200: <NAME_sibling> (sibling of twins).",
+          "text_de": "[(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp = 001 OR 002)] 200: Meine Schwester  <NAME_Geschwisterkind>   [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp = 001 OR 002)] 200: Mein Bruder <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_weiblich) AND (IF ptyp >=300)] 200: Meine (Stief-)Tochter <NAME_Geschwisterkind> [(IF Geschwister_vorhanden) AND (IF Geschwister_maennlich) AND (IF ptyp >=300)] 200: Mein (Stief-)Sohn <NAME_Geschwisterkind>   [(IF Geschwister_vorhanden) AND (IF GeschlechtGeschwisterkind_missing)] 200: <NAME_Geschwisterkind>  (Geschwisterkind der Zwillinge)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "4",
+          "number": "359",
+          "concept": "eca1200",
+          "text": "[IF ptyp = 300 & eca0901 != 1] 300: Myself [IF ptyp != 300] 300: <NAME_Mother> (mother of the twins)",
+          "text_de": "[IF ptyp = 300 & eca0901 != 1] 300: Ich selbst [IF ptyp != 300] 300: <NAME_Mutter> (Mutter der Zwillinge)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "5",
+          "number": "360",
+          "concept": "eca1200",
+          "text": "[IF ptyp = 400 & eca0901 != 1] 400: Myself [IF ptyp != 400] 400: <NAME_father> (father of the twins)",
+          "text_de": "[IF ptyp = 400 & eca0901 != 1] 400: Ich selbst [IF ptyp != 400] 400:  <NAME_Vater>  (Vater der Zwillinge)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "6",
+          "number": "361",
+          "concept": "eca1200",
+          "text": "[IF ptyp = 500 & eca0901 != 1] 500: Myself [(IF stepfather_present) AND (IF ptyp != 500 OR 300)] 500: <NAME_stepfather> (mother's partner / twins' stepfather) [(IF stepfather_present) AND (IF ptyp = 300)] 500: My partner <NAME_stepfather>.",
+          "text_de": "[IF ptyp = 500 & eca0901 != 1] 500: Ich selbst [(IF Stiefvater_vorhanden) AND (IF ptyp != 500 OR 300)] 500: <NAME_Stiefvater> (Partner der Mutter / Stiefvater der Zwillinge) [(IF Stiefvater_vorhanden) AND (IF ptyp = 300)] 500: Mein Partner <NAME_Stiefvater>",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "7",
+          "number": "362",
+          "concept": "eca1200",
+          "text": "[IF ptyp = 600 & eca0901 != 1] 600: Myself [(IF ptyp = 600_present) AND (IF ptyp != 600 OR 400)] 600: <NAME_stepmother> (partner of the father / stepmother of the twins) [(IF stepmother_present) AND (IF ptyp = 400)] 600: My partner <NAME_stepmother>",
+          "text_de": "[IF ptyp = 600 & eca0901 != 1] 600: Ich selbst [(IF ptyp = 600_vorhanden) AND (IF ptyp != 600 OR 400)] 600: <NAME_Stiefmutter> (Partner des Vaters / Stiefmutter der Zwillinge) [(IF Stiefmutter_vorhanden) AND (IF ptyp = 400)] 600: Meine Partnerin <NAME_Stiefmutter>",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "10",
+          "number": "365",
+          "concept": "eca1200",
+          "text": "-98: Do not know",
+          "text_de": "-98: Weiss nicht",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "11",
+          "number": "366",
+          "concept": "eca1200",
+          "text": "-99: Not specified",
+          "text_de": "-99: Keine Angabe",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "8",
+          "number": "363",
+          "concept": "eca1200",
+          "text": "[(IF partner1_present) AND (IF ptyp = 001)] 110: My partner <NAME_Partner_ZWILLING1>.",
+          "text_de": "[(IF Partner1_vorhanden) AND (IF ptyp = 001)] 110: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING1>",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "9",
+          "number": "364",
+          "concept": "eca1200",
+          "text": "[(IF partner2_exists) AND (IF ptyp = 002)] 120: My partner <NAME_Partner_ZWILLING2>.",
+          "text_de": "[(IF Partner2_vorhanden) AND (IF ptyp = 002)] 120: Meine Partnerin / Mein Partner <NAME_Partner_ZWILLING2>",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 11
+        }
+      ],
+      "sn": 32,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    },
+    "eca1201": {
+      "question": "eca1201",
+      "name": "eca1201",
+      "label": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name[001]> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+      "label_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+      "items": [
+        {
+          "item": "0",
+          "number": "381",
+          "concept": "eca1201",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name[001]> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+          "scale": "txt",
+          "filter": "eca1200 == 1",
+          "sn": 1
+        }
+      ],
+      "sn": 33,
+      "instrument": "wid4_CATI2_module3",
+      "study": "twinlife"
+    }
+  }
+}
