@@ -11,6 +11,7 @@
       "question": "igf0540",
       "name": "igf0540",
       "label": "CFT 1-R T1.1 short: result (gen)",
+      "label_de": "CFT 1-R T1.1 kurz: Ergebnis (gen)",
       "items": [
         {
           "item": "0",
@@ -20,30 +21,8 @@
           "text_de": "CFT 1-R T1.1 kurz: Ergebnis (gen)",
           "scale": "txt",
           "filter": "(ptyp==200) & (age0110 > 4 & age0110 <=9) & new==1",
-          "description": "Source: Gottschling, J. (2017). Documentation TwinLife Data: Cognitive Abilities (TwinLife Technical Report Series, 02). Bielefeld: Project TwinLife Genetic and social causes of life chances (Bielefeld University / Saarland University)",
-          "description_de": "Source: Gottschling, J. (2017). Documentation TwinLife Data: Cognitive Abilities (TwinLife Technical Report Series, 02). Bielefeld: Project TwinLife Genetic and social causes of life chances (Bielefeld University / Saarland University)",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: worked on task in short version",
-              "label_de": "-89: Aufgabe in Kurzversion bearbeitet"
-            },
-            {
-              "value": -88,
-              "label": "-88: not worked on task",
-              "label_de": "-88: Aufgabe nicht bearbeitet"
-            },
-            {
-              "value": 0,
-              "label": "0: answer wrong",
-              "label_de": "0: Antwort falsch"
-            },
-            {
-              "value": 1,
-              "label": "1: answer right",
-              "label_de": "1: Antwort richtig"
-            }
-          ],
+          "description": "Source: Weiss, R. H., & Osterland, J. (2012). Grundintelligenztest Skala 1 - Revision: CFT 1-R. Goettingen, Deutschland: Hogrefe.",
+          "description_de": "Source: Weiss, R. H., & Osterland, J. (2012). Grundintelligenztest Skala 1 - Revision: CFT 1-R. Goettingen, Deutschland: Hogrefe.",
           "sn": 0
         }
       ],
@@ -55,6 +34,7 @@
       "question": "edu0100",
       "name": "edu0100",
       "label": "Do you go to school?",
+      "label_de": "Gehst Du in die Schule?",
       "items": [
         {
           "item": "1",
@@ -94,6 +74,7 @@
       "question": "spa0100",
       "name": "spa0100",
       "label": "Do you believe you will do well at school?",
+      "label_de": "Glaubst du, dass du in der Schule gut sein wirst?",
       "items": [
         {
           "item": "1",
@@ -117,6 +98,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -137,14 +123,15 @@
     "spa0200": {
       "question": "spa0200",
       "name": "spa0200",
-      "label": "I am ... in school.",
+      "label": "I am . . . in school.",
+      "label_de": "Ich bin fuer die Schule . . . Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "1",
           "number": "4",
           "concept": "spa0200",
-          "text": "I am ... in school.",
-          "text_de": "Ich bin fuer die Schule ... Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
+          "text": "I am . . . in school.",
+          "text_de": "Ich bin fuer die Schule . . . Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -187,13 +174,14 @@
       "question": "spa0201",
       "name": "spa0201",
       "label": "I know . . . in school.",
+      "label_de": "Ich kann in der Schule . . . Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "1",
           "number": "5",
           "concept": "spa0201",
           "text": "I know . . . in school.",
-          "text_de": "Ich kann in der Schule ... Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
+          "text_de": "Ich kann in der Schule . . . Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -235,14 +223,15 @@
     "spa0202": {
       "question": "spa0202",
       "name": "spa0202",
-      "label": "In school, many assignments are ... for me.",
+      "label": "In school, many assignments are . . . for me.",
+      "label_de": "In der Schule fallen mir viele Aufgaben . . . Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "1",
           "number": "6",
           "concept": "spa0202",
-          "text": "In school, many assignments are ... for me.",
-          "text_de": "In der Schule fallen mir viele Aufgaben ... Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
+          "text": "In school, many assignments are . . . for me.",
+          "text_de": "In der Schule fallen mir viele Aufgaben . . . Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -285,13 +274,14 @@
       "question": "spa0300",
       "name": "spa0300",
       "label": "I am . . . in math.",
+      "label_de": "Ich bin fuer Mathe . . . Antworte bitte wieder anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "1",
           "number": "7",
           "concept": "spa0300",
           "text": "I am . . . in math.",
-          "text_de": "Ich bin fuer Mathe ... Antworte bitte wieder anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
+          "text_de": "Ich bin fuer Mathe . . . Antworte bitte wieder anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -334,13 +324,14 @@
       "question": "spa0301",
       "name": "spa0301",
       "label": "I know . . . in math.",
+      "label_de": "Ich kann in Mathe . . . Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel.",
       "items": [
         {
           "item": "1",
           "number": "8",
           "concept": "spa0301",
           "text": "I know . . . in math.",
-          "text_de": "Ich kann in Mathe ... Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel.",
+          "text_de": "Ich kann in Mathe . . . Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -382,14 +373,15 @@
     "spa0302": {
       "question": "spa0302",
       "name": "spa0302",
-      "label": "In math, many exercises. . .",
+      "label": "In math, many exercises are. . .",
+      "label_de": "In Mathe fallen mir viele Aufgaben . . . Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer.",
       "items": [
         {
           "item": "1",
           "number": "9",
           "concept": "spa0302",
-          "text": "In math, many exercises. . .",
-          "text_de": "In Mathe fallen mir viele Aufgaben ... Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer.",
+          "text": "In math, many exercises are. . .",
+          "text_de": "In Mathe fallen mir viele Aufgaben . . . Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -432,13 +424,14 @@
       "question": "spa0400",
       "name": "spa0400",
       "label": "I am . . . in German.",
+      "label_de": "Ich bin fuer Deutsch . . . Antworte bitte wieder anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "1",
           "number": "10",
           "concept": "spa0400",
           "text": "I am . . . in German.",
-          "text_de": "Ich bin fuer Deutsch ... Antworte bitte wieder anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
+          "text_de": "Ich bin fuer Deutsch . . . Antworte bitte wieder anhand der folgenden Skala. Der Wert 1 bedeutet: nicht begabt. Der Wert 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -481,13 +474,14 @@
       "question": "spa0401",
       "name": "spa0401",
       "label": "I know . . . in German.",
+      "label_de": "Ich kann in Deutsch . . . Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel.",
       "items": [
         {
           "item": "1",
           "number": "11",
           "concept": "spa0401",
           "text": "I know . . . in German.",
-          "text_de": "Ich kann in Deutsch ... Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel.",
+          "text_de": "Ich kann in Deutsch . . . Der Wert 1 bedeutet: wenig. Der Wert 5 bedeutet: viel.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -529,14 +523,15 @@
     "spa0402": {
       "question": "spa0402",
       "name": "spa0402",
-      "label": "In German, many assignments...",
+      "label": "In German, many exercises are. . .",
+      "label_de": "In Deutsch fallen mir viele Aufgaben . . . Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer.",
       "items": [
         {
           "item": "1",
           "number": "12",
           "concept": "spa0402",
-          "text": "In German, many assignments...",
-          "text_de": "In Deutsch fallen mir viele Aufgaben ... Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer.",
+          "text": "In German, many exercises are. . .",
+          "text_de": "In Deutsch fallen mir viele Aufgaben . . . Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
@@ -579,6 +574,7 @@
       "question": "imo0100",
       "name": "imo0100",
       "label": "Please tell me whether the following statements apply to you.",
+      "label_de": "Sag mir bitte, ob folgende Saetze fuer Dich zutreffen?",
       "items": [
         {
           "item": "0",
@@ -590,35 +586,13 @@
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==1",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
           "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
           "number": "14",
           "concept": "imo0100",
-          "text": "Do you think you'll like school?",
+          "text": "Do you think you will like school?",
           "text_de": "Glaubst Du, dass Du die Schule moegen wirst?",
           "scale": "cat",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
@@ -633,6 +607,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -651,7 +630,7 @@
           "item": "2",
           "number": "15",
           "concept": "imo0100",
-          "text": "Do you think that you'll like learning at school?",
+          "text": "Do you think you will like learning at school?",
           "text_de": "Glaubst Du, dass Du das Lernen in der Schule moegen wirst?",
           "scale": "cat",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
@@ -666,6 +645,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -701,6 +685,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -721,45 +710,19 @@
     "imo0200": {
       "question": "imo0200",
       "name": "imo0200",
-      "label": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values ââbetween 1 and 5 to tell me if your opinion is somewhere in between.",
+      "label": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values between 1 and 5 to tell me if your opinion is somewhere in between.",
+      "label_de": "[ITEMBAT] Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: trifft genau zu. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "0",
           "number": "17",
           "concept": "imo0200",
-          "text": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values ââbetween 1 and 5 to tell me if your opinion is somewhere in between.",
+          "text": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values between 1 and 5 to tell me if your opinion is somewhere in between.",
           "text_de": "[ITEMBAT] Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: trifft genau zu. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
           "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -774,12 +737,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -789,7 +752,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -812,12 +775,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -827,7 +790,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -842,7 +805,7 @@
           "item": "3",
           "number": "20",
           "concept": "imo0200",
-          "text": "I find what I learn in school interesting.",
+          "text": "Things that I learn (at school) are interesting.",
           "text_de": "Was ich in der Schule lerne, finde ich interessant.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
@@ -850,12 +813,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -865,7 +828,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -884,45 +847,19 @@
     "imo0300": {
       "question": "imo0300",
       "name": "imo0300",
-      "label": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values ââbetween 1 and 5 to tell me if your opinion is somewhere in between.",
+      "label": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values between 1 and 5 to tell me if your opinion is somewhere in between.",
+      "label_de": "[ITEMBAT] Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: trifft genau zu. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "0",
           "number": "21",
           "concept": "imo0300",
-          "text": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values ââbetween 1 and 5 to tell me if your opinion is somewhere in between.",
+          "text": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values between 1 and 5 to tell me if your opinion is somewhere in between.",
           "text_de": "[ITEMBAT] Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: trifft genau zu. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
           "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -937,12 +874,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -952,7 +889,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -975,12 +912,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -990,7 +927,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -1013,12 +950,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -1028,7 +965,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -1047,45 +984,19 @@
     "imo0400": {
       "question": "imo0400",
       "name": "imo0400",
-      "label": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values ââbetween 1 and 5 to tell me if your opinion is somewhere in between.",
+      "label": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values between 1 and 5 to tell me if your opinion is somewhere in between.",
+      "label_de": "[ITEMBAT] Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: trifft genau zu. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "0",
           "number": "25",
           "concept": "imo0400",
-          "text": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values ââbetween 1 and 5 to tell me if your opinion is somewhere in between.",
+          "text": "[ITEMBAT] Please answer using the following scale. 1 means: does not apply at all. That would be 'thumbs down'. 5 means: fully applies. That would be 'thumbs up'. You can use the values between 1 and 5 to tell me if your opinion is somewhere in between.",
           "text_de": "[ITEMBAT] Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: trifft genau zu. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
           "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1100,12 +1011,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -1115,7 +1026,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -1138,12 +1049,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -1153,7 +1064,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -1176,12 +1087,12 @@
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -1191,7 +1102,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -1211,6 +1122,7 @@
       "question": "imo0103",
       "name": "imo0103",
       "label": "Please tell me whether the following statements apply to you.",
+      "label_de": "Sag mir bitte, ob folgende Saetze fuer Dich zutreffen?",
       "items": [
         {
           "item": "0",
@@ -1222,28 +1134,6 @@
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==1",
           "description": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1265,6 +1155,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -1300,6 +1195,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -1333,6 +1233,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -1354,44 +1259,18 @@
       "question": "imo0500",
       "name": "imo0500",
       "label": "At school, I am interested in . . .",
+      "label_de": "[ITEMBAT][NCS] In der Schule will ich. . .",
       "items": [
         {
           "item": "0",
           "number": "33",
           "concept": "imo0500",
           "text": "At school, I am interested in . . .",
-          "text_de": "[ITEMBAT][NCS] In der Schule will ich...",
+          "text_de": "[ITEMBAT][NCS] In der Schule will ich. . .",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: doesn't apply",
-              "label_de": "2: trifft nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: applies",
-              "label_de": "4: trifft zu"
-            },
-            {
-              "value": 5,
-              "label": "5: does apply exactly",
-              "label_de": "5: trifft genau zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1399,19 +1278,19 @@
           "number": "34",
           "concept": "imo0500",
           "text": ". . . learning something interesting.",
-          "text_de": "... etwas Interessantes lernen.",
+          "text_de": ". . . etwas Interessantes lernen.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -1421,7 +1300,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -1436,20 +1315,20 @@
           "item": "2",
           "number": "35",
           "concept": "imo0500",
-          "text": ". . . understand difficult things.",
-          "text_de": "... schwierige Dinge verstehen.",
+          "text": ". . . understanding difficult things.",
+          "text_de": ". . . schwierige Dinge verstehen.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -1459,7 +1338,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -1474,20 +1353,20 @@
           "item": "3",
           "number": "36",
           "concept": "imo0500",
-          "text": ". . . learn as much as possible.",
-          "text_de": "... so viel wie moeglich lernen.",
+          "text": ". . . learning as much as possible.",
+          "text_de": ". . . so viel wie moeglich lernen.",
           "scale": "cat",
           "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
           "answers": [
             {
               "value": 1,
-              "label": "1: doesn't apply at all",
+              "label": "1: does not apply at all",
               "label_de": "1: trifft gar nicht zu"
             },
             {
               "value": 2,
-              "label": "2: doesn't apply",
+              "label": "2: does not apply",
               "label_de": "2: trifft nicht zu"
             },
             {
@@ -1497,7 +1376,7 @@
             },
             {
               "value": 4,
-              "label": "4: applies",
+              "label": "4: does apply",
               "label_de": "4: trifft zu"
             },
             {
@@ -1516,58 +1395,27 @@
     "svk0100": {
       "question": "svk0100",
       "name": "svk0100",
-      "label": "[ITEMBAT] This is about how you deal with situations that put you under pressure, those that are difficult, and in which you don't feel comfortable. [NCS] When other kids put pressure on me and I'm very nervous, then ...",
+      "label": "[ITEMBAT] This is about how you deal with situations that put you under pressure, those that are difficult, and in which you don't feel comfortable. [NCS] When other kids put pressure on me and I'm very nervous, then . . .",
+      "label_de": "[ITEMBAT] Hier geht es darum, wie Du mit Situationen umgehst, die Dich unter Druck setzen, d.h. die schwierig sind und in denen du dich nicht wohl fuehlst. [NCS] Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
       "items": [
         {
           "item": "0",
           "number": "37",
           "concept": "svk0100",
-          "text": "[ITEMBAT] This is about how you deal with situations that put you under pressure, those that are difficult, and in which you don't feel comfortable. [NCS] When other kids put pressure on me and I'm very nervous, then ...",
-          "text_de": "[ITEMBAT] Hier geht es darum, wie Du mit Situationen umgehst, die Dich unter Druck setzen, d.h. die schwierig sind und in denen du dich nicht wohl fuehlst. [NCS] Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann...",
+          "text": "[ITEMBAT] This is about how you deal with situations that put you under pressure, those that are difficult, and in which you don't feel comfortable. [NCS] When other kids put pressure on me and I'm very nervous, then . . .",
+          "text_de": "[ITEMBAT] Hier geht es darum, wie Du mit Situationen umgehst, die Dich unter Druck setzen, d.h. die schwierig sind und in denen du dich nicht wohl fuehlst. [NCS] Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110<=9 & age0110 >=6)",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply: can't read yet",
-              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
-            },
-            {
-              "value": 1,
-              "label": "1: definitely not",
-              "label_de": "1: auf keinen Fall"
-            },
-            {
-              "value": 2,
-              "label": "2: mostly no",
-              "label_de": "2: eher nein"
-            },
-            {
-              "value": 3,
-              "label": "3: maybe",
-              "label_de": "3: vielleicht"
-            },
-            {
-              "value": 4,
-              "label": "4: mostly yes",
-              "label_de": "4: eher ja"
-            },
-            {
-              "value": 5,
-              "label": "5: definitely",
-              "label_de": "5: auf jeden Fall"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
           "number": "38",
           "concept": "svk0100",
-          "text": "... I make a plan for how to solve the problem.",
-          "text_de": "...mache ich mir einen Plan, wie ich das Problem loesen kann.",
+          "text": ". . . I make a plan for how to solve the problem.",
+          "text_de": ". . .mache ich mir einen Plan, wie ich das Problem loesen kann.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1609,8 +1457,8 @@
           "item": "2",
           "number": "39",
           "concept": "svk0100",
-          "text": "... the situation keeps going through my head.",
-          "text_de": "...muss ich immer wieder an die Situation denken.",
+          "text": ". . . the situation keeps going through my head.",
+          "text_de": ". . .muss ich immer wieder an die Situation denken.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1652,8 +1500,8 @@
           "item": "3",
           "number": "40",
           "concept": "svk0100",
-          "text": "...I read something I enjoy.",
-          "text_de": "...lese ich etwas, was mir Spass macht.",
+          "text": ". . .I read something I enjoy.",
+          "text_de": ". . .lese ich etwas, was mir Spass macht.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1695,8 +1543,8 @@
           "item": "4",
           "number": "41",
           "concept": "svk0100",
-          "text": "... I try to find out why it's like that.",
-          "text_de": "...versuche ich herauszufinden, warum das so ist.",
+          "text": ". . . I try to find out why it's like that.",
+          "text_de": ". . .versuche ich herauszufinden, warum das so ist.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1738,8 +1586,8 @@
           "item": "5",
           "number": "42",
           "concept": "svk0100",
-          "text": "...everything I do seems pointless.",
-          "text_de": "...kommt mir alles sinnlos vor, was ich tue.",
+          "text": ". . .everything I do seems pointless.",
+          "text_de": ". . .kommt mir alles sinnlos vor, was ich tue.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1781,8 +1629,8 @@
           "item": "6",
           "number": "43",
           "concept": "svk0100",
-          "text": "... I play something.",
-          "text_de": "...spiele ich etwas.",
+          "text": ". . . I play something.",
+          "text_de": ". . .spiele ich etwas.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1824,8 +1672,8 @@
           "item": "7",
           "number": "44",
           "concept": "svk0100",
-          "text": "... I think about what I can do.",
-          "text_de": "...ueberlege ich, was ich tun kann.",
+          "text": ". . . I think about what I can do.",
+          "text_de": ". . .ueberlege ich, was ich tun kann.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1867,8 +1715,8 @@
           "item": "8",
           "number": "45",
           "concept": "svk0100",
-          "text": "... I would rather avoid it.",
-          "text_de": "...moechte ich mich am liebsten davor druecken.",
+          "text": ". . . I would rather avoid it.",
+          "text_de": ". . .moechte ich mich am liebsten davor druecken.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1910,8 +1758,8 @@
           "item": "9",
           "number": "46",
           "concept": "svk0100",
-          "text": "... I get really comfy.",
-          "text_de": "...mache ich es mir erst mal so richtig gemuetlich.",
+          "text": ". . . I get really comfy.",
+          "text_de": ". . .mache ich es mir erst mal so richtig gemuetlich.",
           "scale": "cat",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
           "description_de": "Source: Adaptiert von:   Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Goettingen, Germany: Hogrefe.",
@@ -1958,6 +1806,7 @@
       "question": "bus0300",
       "name": "bus0300",
       "label": "[If age <16 & (mother present & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother & no stepfather present)] How often do your parents quarrel? [If age <16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] How often do your biological parents quarrel?",
+      "label_de": "[If age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Wie oft streiten sich Deine Eltern? [If age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Deine leiblichen Eltern?",
       "items": [
         {
           "item": "1",
@@ -1983,7 +1832,7 @@
             {
               "value": 2,
               "label": "2: about once a month",
-              "label_de": "2: etwa einmal im Mont"
+              "label_de": "2: etwa einmal im Monat"
             },
             {
               "value": 3,
@@ -2012,6 +1861,7 @@
       "question": "bus0400",
       "name": "bus0400",
       "label": "[Stepfather present] How often do your mother and> stepfather's name <quarrel? [Stepmother present] How often do your father and> NAME OF THE STEPMOTHER <quarrel?",
+      "label_de": "[Stiefvater vorhanden] Wie oft streiten sich Deine Mutter und >NAME DES STIEFVATERS<? [Stiefmutter vorhanden] Wie oft streiten sich Dein Vater und >NAME DER STIEFMUTTER<?",
       "items": [
         {
           "item": "1",
@@ -2037,7 +1887,7 @@
             {
               "value": 2,
               "label": "2: about once a month",
-              "label_de": "2: etwa einmal im Mont"
+              "label_de": "2: etwa einmal im Monat"
             },
             {
               "value": 3,
@@ -2066,6 +1916,7 @@
       "question": "bus0301",
       "name": "bus0301",
       "label": "[If age <16 & (mother & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother OR stepfather present)] Overall, how much does it bother you when your parents quarrel? [If age <16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] Overall, how much does it bother you when your biological parents quarrel?",
+      "label_de": "[If age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie viel macht dir der Streit zwischen Deinen Eltern aus? [If age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie viel macht dir der Streit zwischen Deinen leiblichen Eltern aus?",
       "items": [
         {
           "item": "1",
@@ -2145,6 +1996,7 @@
       "question": "bus0401",
       "name": "bus0401",
       "label": "[Stepfather present] Overall, how much does it bother you when your mother and> NAME OF THE STEPFATHER < quarrel? [Stepmother present] Overall, how much does it bother you when your father and> NAME OF THE STEPMOTHER < quarrel? [Stepfather present] Overall, how much does it bother you when your mother and> NAME OF THE STEPFATHER < quarrel? [Stepmother present] Overall, how much does it bother you when your father and> NAME OF THE STEPMOTHER < quarrel?",
+      "label_de": "[Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und >NAME DES STIEFVATERS< aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und >NAME DER STIEFMUTTER< aus? [Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und >NAME DES STIEFVATERS< aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und >NAME DER STIEFMUTTER< aus?",
       "items": [
         {
           "item": "1",
@@ -2223,53 +2075,27 @@
     "bus0402": {
       "question": "bus0402",
       "name": "bus0402",
-      "label": "[ITEMBAT] When my parents are arguing ...",
+      "label": "[ITEMBAT] When my parents are arguing . . .",
+      "label_de": "[ITEMBAT] Wenn meine Eltern streiten. . .",
       "items": [
         {
           "item": "0",
           "number": "51",
           "concept": "bus0402",
-          "text": "[ITEMBAT] When my parents are arguing ...",
-          "text_de": "[ITEMBAT] Wenn meine Eltern streiten...",
+          "text": "[ITEMBAT] When my parents are arguing . . .",
+          "text_de": "[ITEMBAT] Wenn meine Eltern streiten. . .",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & bus0300_einleitung==1 & bus0300!=95 & ((bus0300 !=1) | (bus0400 !=1))",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not true",
-              "label_de": "1: stimmt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: mostly not true",
-              "label_de": "2: stimmt eher nicht"
-            },
-            {
-              "value": 3,
-              "label": "3: neither true nor false",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: mostly true",
-              "label_de": "4: stimmt eher"
-            },
-            {
-              "value": 5,
-              "label": "5: true",
-              "label_de": "5: stimmt"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
           "number": "52",
           "concept": "bus0402",
-          "text": "... I'm in a bad mood.",
-          "text_de": "...kriege ich schlechte Laune.",
+          "text": ". . . I'm in a bad mood.",
+          "text_de": ". . .kriege ich schlechte Laune.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2306,8 +2132,8 @@
           "item": "2",
           "number": "53",
           "concept": "bus0402",
-          "text": "... I would like to hide and ignore all of it.",
-          "text_de": "...moechte ich mich am liebsten verstecken und nichts davon mitbekommen.",
+          "text": ". . . I would like to hide and ignore all of it.",
+          "text_de": ". . .moechte ich mich am liebsten verstecken und nichts davon mitbekommen.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2344,8 +2170,8 @@
           "item": "3",
           "number": "54",
           "concept": "bus0402",
-          "text": "...I am scared.",
-          "text_de": "...habe ich Angst.",
+          "text": ". . .I am scared.",
+          "text_de": ". . .habe ich Angst.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2382,8 +2208,8 @@
           "item": "4",
           "number": "55",
           "concept": "bus0402",
-          "text": "... I feel trapped in the middle [INT] if necessary elaborate on this: 'I don't know who I should be loyal to'.",
-          "text_de": "...fuehle ich mich in der Mitte gefangen [INT] ggf. erlaeutern: 'Weiss ich nicht, zu wem ich halten soll'.",
+          "text": ". . . I feel trapped in the middle [INT] if necessary elaborate on this: 'I don't know who I should be loyal to'.",
+          "text_de": ". . .fuehle ich mich in der Mitte gefangen [INT] ggf. erlaeutern: 'Weiss ich nicht, zu wem ich halten soll'.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2420,8 +2246,8 @@
           "item": "5",
           "number": "56",
           "concept": "bus0402",
-          "text": "... I think that's my fault.",
-          "text_de": "...denke ich Das ist meine Schuld.",
+          "text": ". . . I think that's my fault.",
+          "text_de": ". . .denke ich Das ist meine Schuld.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2458,8 +2284,8 @@
           "item": "6",
           "number": "57",
           "concept": "bus0402",
-          "text": "... I wonder what I did wrong.",
-          "text_de": "...frage ich mich, was ich falsch gemacht habe.",
+          "text": ". . . I wonder what I did wrong.",
+          "text_de": ". . .frage ich mich, was ich falsch gemacht habe.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2496,8 +2322,8 @@
           "item": "7",
           "number": "58",
           "concept": "bus0402",
-          "text": "... I don't know what to do.",
-          "text_de": "...weiss ich nicht, was ich tun soll.",
+          "text": ". . . I don't know what to do.",
+          "text_de": ". . .weiss ich nicht, was ich tun soll.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2534,8 +2360,8 @@
           "item": "8",
           "number": "59",
           "concept": "bus0402",
-          "text": "... I can do something to make myself feel better.",
-          "text_de": "...kann ich etwas tun, damit es mir besser geht.",
+          "text": ". . . I can do something to make myself feel better.",
+          "text_de": ". . .kann ich etwas tun, damit es mir besser geht.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2572,8 +2398,8 @@
           "item": "9",
           "number": "60",
           "concept": "bus0402",
-          "text": "... I distract myself with something nice.",
-          "text_de": "...lenke ich mich mit etwas Schoenem ab.",
+          "text": ". . . I distract myself with something nice.",
+          "text_de": ". . .lenke ich mich mit etwas Schoenem ab.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2610,8 +2436,8 @@
           "item": "10",
           "number": "61",
           "concept": "bus0402",
-          "text": "... I think about what I can do to stop them arguing.",
-          "text_de": "...ueberlege ich, was ich tun kann, damit sie aufhoeren zu streiten.",
+          "text": ". . . I think about what I can do to stop them arguing.",
+          "text_de": ". . .ueberlege ich, was ich tun kann, damit sie aufhoeren zu streiten.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2648,8 +2474,8 @@
           "item": "11",
           "number": "62",
           "concept": "bus0402",
-          "text": "... I play something.",
-          "text_de": "...spiele ich etwas.",
+          "text": ". . . I play something.",
+          "text_de": ". . .spiele ich etwas.",
           "scale": "cat",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detailierte Informationen); Adaptiert von:  Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572.",
@@ -2691,6 +2517,7 @@
       "question": "loc0100",
       "name": "loc0100",
       "label": "[ITEMBAT] [NCS] Now there will be a few sentences that are only about you again.",
+      "label_de": "[ITEMBAT] [NCS] Jetzt folgen einige Saetze, die sich wieder nur auf dich beziehen.",
       "items": [
         {
           "item": "0",
@@ -2702,38 +2529,6 @@
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & edu0100==2",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: do not agree at all",
-              "label_de": "1: stimme ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2: do not agree",
-              "label_de": "2: stimme nicht zu"
-            },
-            {
-              "value": 3,
-              "label": "3: nor",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
-            },
-            {
-              "value": 5,
-              "label": "5: totally agree",
-              "label_de": "5: stimme voll und ganz zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2916,18 +2711,19 @@
     "bul0500": {
       "question": "bul0500",
       "name": "bul0500",
-      "label": "How often do other kids yell at you or call you names? Does it occur that...?",
+      "label": "How often do other kids yell at you or call you names?",
+      "label_de": "Wie oft wirst Du von anderen Kindern boese angeschrien oder beschimpft?",
       "items": [
         {
           "item": "1",
           "number": "68",
           "concept": "bul0500",
-          "text": "How often do other kids yell at you or call you names? Does it occur that...?",
-          "text_de": "Wie oft wirst Du von anderen Kindern boese angeschrien oder beschimpft? Passiert das ...?",
+          "text": "How often do other kids yell at you or call you names?",
+          "text_de": "Wie oft wirst Du von anderen Kindern boese angeschrien oder beschimpft?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9)",
-          "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
-          "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79.",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
           "answers": [
             {
               "value": 1,
@@ -2956,6 +2752,7 @@
       "question": "bul0501",
       "name": "bul0501",
       "label": "How bad is it for you when you get yelled at or insulted by other children?",
+      "label_de": "Wie schlimm ist das fuer Dich, wenn Du von den anderen Kindern boese angeschrien oder beschimpft wirst?",
       "items": [
         {
           "item": "1",
@@ -2965,8 +2762,8 @@
           "text_de": "Wie schlimm ist das fuer Dich, wenn Du von den anderen Kindern boese angeschrien oder beschimpft wirst?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & bul0500 >1",
-          "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
-          "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79.",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
           "answers": [
             {
               "value": 1,
@@ -2995,6 +2792,7 @@
       "question": "bul0600",
       "name": "bul0600",
       "label": "How often do other children deliberately hurt you?",
+      "label_de": "Wie oft wird Dir von anderen Kindern absichtlich wehgetan?",
       "items": [
         {
           "item": "1",
@@ -3004,8 +2802,8 @@
           "text_de": "Wie oft wird Dir von anderen Kindern absichtlich wehgetan?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9)",
-          "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
-          "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79.",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
           "answers": [
             {
               "value": 1,
@@ -3034,6 +2832,7 @@
       "question": "bul0601",
       "name": "bul0601",
       "label": "How bad is it for you if other children deliberately hurt you?",
+      "label_de": "Wie schlimm ist das fuer Dich, wenn andere Kinder Dir absichtlich wehtun?",
       "items": [
         {
           "item": "1",
@@ -3043,8 +2842,8 @@
           "text_de": "Wie schlimm ist das fuer Dich, wenn andere Kinder Dir absichtlich wehtun?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & bul0600 >1",
-          "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
-          "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79.",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
           "answers": [
             {
               "value": 1,
@@ -3073,6 +2872,7 @@
       "question": "bul0700",
       "name": "bul0700",
       "label": "How often do other children not let you play with them?",
+      "label_de": "Wie oft lassen Dich andere Kinder nicht mitspielen?",
       "items": [
         {
           "item": "1",
@@ -3082,8 +2882,8 @@
           "text_de": "Wie oft lassen Dich andere Kinder nicht mitspielen?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9)",
-          "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
-          "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79.",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
           "answers": [
             {
               "value": 1,
@@ -3111,18 +2911,19 @@
     "bul0701": {
       "question": "bul0701",
       "name": "bul0701",
-      "label": "How bad is that for you if other children won't let you play with them?",
+      "label": "How bad is it for you if other children won't let you play with them?",
+      "label_de": "Wie schlimm ist das fuer Dich, wenn Dich die anderen Kinder nicht mitspielen lassen?",
       "items": [
         {
           "item": "1",
           "number": "73",
           "concept": "bul0701",
-          "text": "How bad is that for you if other children won't let you play with them?",
+          "text": "How bad is it for you if other children won't let you play with them?",
           "text_de": "Wie schlimm ist das fuer Dich, wenn Dich die anderen Kinder nicht mitspielen lassen?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & bul0700 >1",
-          "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
-          "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79.",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
           "answers": [
             {
               "value": 1,
@@ -3151,6 +2952,7 @@
       "question": "bul0800",
       "name": "bul0800",
       "label": "How often does another child say nasty things about you so that the others don't like you anymore?",
+      "label_de": "Wie oft redet ein anderes Kind schlecht ueber Dich, damit die anderen Dich nicht mehr moegen?",
       "items": [
         {
           "item": "1",
@@ -3160,8 +2962,8 @@
           "text_de": "Wie oft redet ein anderes Kind schlecht ueber Dich, damit die anderen Dich nicht mehr moegen?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9)",
-          "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
-          "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79.",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
           "answers": [
             {
               "value": 1,
@@ -3190,6 +2992,7 @@
       "question": "bul0801",
       "name": "bul0801",
       "label": "How bad is it for you when another child says nasty things about you so that the others don't like you anymore?",
+      "label_de": "Wie schlimm ist das fuer Dich, wenn ein anderes Kind schlecht ueber Dich redet, damit die anderen Dich nicht mehr moegen?",
       "items": [
         {
           "item": "1",
@@ -3199,8 +3002,8 @@
           "text_de": "Wie schlimm ist das fuer Dich, wenn ein anderes Kind schlecht ueber Dich redet, damit die anderen Dich nicht mehr moegen?",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9) & bul0800 >1",
-          "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
-          "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79.",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
           "answers": [
             {
               "value": 1,
@@ -3229,6 +3032,7 @@
       "question": "dev0100",
       "name": "dev0100",
       "label": "What about you?",
+      "label_de": "[ITEMBAT] [NCS] Wie ist es bei dir?",
       "items": [
         {
           "item": "0",
@@ -3240,23 +3044,6 @@
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9)",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
           "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: occasionally",
-              "label_de": "2: manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: very often",
-              "label_de": "3: ganz oft"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3319,7 +3106,7 @@
           "item": "3",
           "number": "79",
           "concept": "dev0100",
-          "text": "Would you say that you NEVER have arguments with other children, SOMETIMES have arguments with other children or VERY OFTEN have arguments with other children.",
+          "text": "Would you say that you NEVER have arguments with other children, SOMETIMES have arguments with other children or VERY OFTEN have arguments with other children?",
           "text_de": "Wuerdest Du sagen, dass Du Dich NIE mit anderen Kindern streitest, MANCHMAL mit anderen Kindern streitest, oder GANZ OFT mit anderen Kindern streitest?",
           "scale": "cat",
           "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
@@ -3379,14 +3166,15 @@
     "hoe0110": {
       "question": "hoe0110",
       "name": "hoe0110",
-      "label": "We have the same bedtime routine every night (e.g. going to bed at the same time every evening, having a bath before going to bed, reading a story, saying our prayers ...). Please answer using the following scale. 1 means: not true at all. This would be a 'thumbs down'. 5 means: completely true. This would be 'thumbs up'. Again, with the values ââbetween 1 and 5 you can tell me whether your assessment is somewhere in between.",
+      "label": "We have the same bedtime routine every night (e.g. going to bed at the same time every evening, having a bath before going to bed, reading a story, saying our prayers . . .). Please answer using the following scale. 1 means: not true at all. This would be a 'thumbs down'. 5 means: completely true. This would be 'thumbs up'. Again, with the values between 1 and 5 you can tell me whether your assessment is somewhere in between.",
+      "label_de": "Bei uns laeuft das Schlafengehen jeden Abend gleich ab (z.B. jeden Abend dieselbe Schlafenszeit, ein Bad vorm Schlafengehen, eine Geschichte (vor-)lesen, ein Gebet sprechen. . .). Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: stimmt ueberhaupt nicht. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: stimmt genau. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir wieder sagen, wenn deine Meinung irgendwo dazwischen liegt.",
       "items": [
         {
           "item": "1",
           "number": "81",
           "concept": "hoe0110",
-          "text": "We have the same bedtime routine every night (e.g. going to bed at the same time every evening, having a bath before going to bed, reading a story, saying our prayers ...). Please answer using the following scale. 1 means: not true at all. This would be a 'thumbs down'. 5 means: completely true. This would be 'thumbs up'. Again, with the values ââbetween 1 and 5 you can tell me whether your assessment is somewhere in between.",
-          "text_de": "Bei uns laeuft das Schlafengehen jeden Abend gleich ab (z.B. jeden Abend dieselbe Schlafenszeit, ein Bad vorm Schlafengehen, eine Geschichte (vor-)lesen, ein Gebet sprechen...). Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: stimmt ueberhaupt nicht. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: stimmt genau. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir wieder sagen, wenn deine Meinung irgendwo dazwischen liegt.",
+          "text": "We have the same bedtime routine every night (e.g. going to bed at the same time every evening, having a bath before going to bed, reading a story, saying our prayers . . .). Please answer using the following scale. 1 means: not true at all. This would be a 'thumbs down'. 5 means: completely true. This would be 'thumbs up'. Again, with the values between 1 and 5 you can tell me whether your assessment is somewhere in between.",
+          "text_de": "Bei uns laeuft das Schlafengehen jeden Abend gleich ab (z.B. jeden Abend dieselbe Schlafenszeit, ein Bad vorm Schlafengehen, eine Geschichte (vor-)lesen, ein Gebet sprechen. . .). Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: stimmt ueberhaupt nicht. Das waere dann der 'Daumen runter'. Der Wert 5 bedeutet: stimmt genau. Das waere dann der 'Daumen hoch'. Mit den Werten zwischen 1 und 5 kannst Du mir wieder sagen, wenn deine Meinung irgendwo dazwischen liegt.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9)",
           "description": "Source: Adapted from: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-454",
@@ -3428,13 +3216,14 @@
     "hoe0210": {
       "question": "hoe0210",
       "name": "hoe0210",
-      "label": "You can't think in peace in our house.",
+      "label": "You can't hear yourself think in our home",
+      "label_de": "Bei uns zuhause kann man nicht in Ruhe nachdenken.",
       "items": [
         {
           "item": "1",
           "number": "82",
           "concept": "hoe0210",
-          "text": "You can't think in peace in our house.",
+          "text": "You can't hear yourself think in our home",
           "text_de": "Bei uns zuhause kann man nicht in Ruhe nachdenken.",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9)",
@@ -3478,6 +3267,7 @@
       "question": "hoe0310",
       "name": "hoe0310",
       "label": "Everything is very wild and disorganized in our house.",
+      "label_de": "Bei uns zuhause laeuft alles sehr wild und ungeordnet.",
       "items": [
         {
           "item": "1",
@@ -3527,6 +3317,7 @@
       "question": "hoe0410",
       "name": "hoe0410",
       "label": "We usually have everything under control at home.",
+      "label_de": "Normalerweise haben wir zuhause alles im Griff.",
       "items": [
         {
           "item": "1",
@@ -3576,6 +3367,7 @@
       "question": "hoe0510",
       "name": "hoe0510",
       "label": "There is almost always a TV on somewhere in our house.",
+      "label_de": "Irgendwo bei uns im Haus laeuft fast immer ein Fernseher.",
       "items": [
         {
           "item": "1",
@@ -3624,45 +3416,19 @@
     "hoe0610": {
       "question": "hoe0610",
       "name": "hoe0610",
-      "label": "The atmosphere in our house is calm and relaxed.",
+      "label": "The atmosphere in our home is calm.",
+      "label_de": "Bei uns zuhause ist die Stimmung ruhig und entspannt.",
       "items": [
         {
           "item": "0",
           "number": "86",
           "concept": "hoe0610",
-          "text": "The atmosphere in our house is calm and relaxed.",
+          "text": "The atmosphere in our home is calm.",
           "text_de": "Bei uns zuhause ist die Stimmung ruhig und entspannt.",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110 > 4 & age0110 <=9)",
           "description": "Source: Adapted from: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-454",
           "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not correct at all",
-              "label_de": "1: stimmt ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: rather not correct",
-              "label_de": "2: stimmt eher nicht"
-            },
-            {
-              "value": 3,
-              "label": "3: partly correct",
-              "label_de": "3: stimmt etwas"
-            },
-            {
-              "value": 4,
-              "label": "4: rather correct",
-              "label_de": "4: stimmt eher"
-            },
-            {
-              "value": 5,
-              "label": "5: fully correct",
-              "label_de": "5: stimmt genau"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3720,6 +3486,7 @@
       "question": "tst1000",
       "name": "tst1000",
       "label": "Do you like being a twin?",
+      "label_de": "Magst du es, Zwilling zu sein?",
       "items": [
         {
           "item": "1",
@@ -3767,6 +3534,7 @@
       "question": "tst1100",
       "name": "tst1100",
       "label": "[IF ptyp = 001] Do you and <NAME ZWILLING2> mostly have the same or rather different friends? [IF ptyp = 002] Do you and <NAME ZWILLING1> mainly have the same or rather different friends?",
+      "label_de": "[IF ptyp = 001] Haben Du und <NAME TWIN2> vor allem die gleichen oder eher verschiedene Freunde? [IF ptyp = 002] Haben Du und <NAME TWIN1> vor allem die gleichen oder eher verschiedene Freunde?",
       "items": [
         {
           "item": "1",

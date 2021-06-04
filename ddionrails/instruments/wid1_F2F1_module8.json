@@ -11,6 +11,7 @@
       "question": "she0100",
       "name": "she0100",
       "label": "How would you describe your state of health during the last 12 months, in general?",
+      "label_de": "Wie wuerden Sie Ihren Gesundheitszustand in den letzten 12 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
           "item": "1",
@@ -65,6 +66,7 @@
       "question": "doc0100",
       "name": "doc0100",
       "label": "Have you visited a doctor (or dentist) in the last 12 months? (This includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
+      "label_de": "Haben Sie persoenlich in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? (Hiermit sind auch Vorsorgeuntersuchungen gemeint, Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern, o.Ae.)",
       "items": [
         {
           "item": "1",
@@ -88,6 +90,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -109,6 +116,7 @@
       "question": "doc0101",
       "name": "doc0101",
       "label": "Please state the number of visits to doctors. (Note: total number in the last 12 months. If you are not sure, please estimate.)",
+      "label_de": "Geben Sie bitte an, wie haeufig das war.",
       "items": [
         {
           "item": "1",
@@ -123,7 +131,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -143,6 +151,7 @@
       "question": "imp0100",
       "name": "imp0100",
       "label": "To what extent would you say your illness limits you in your everyday life?",
+      "label_de": "In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt?",
       "items": [
         {
           "item": "1",
@@ -197,6 +206,7 @@
       "question": "dia0100",
       "name": "dia0100",
       "label": "Has a doctor ever diagnosed you with one or more of the following illnesses?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt?",
       "items": [
         {
           "item": "0",
@@ -208,18 +218,6 @@
           "filter": "age0110 >= 16",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -622,6 +620,7 @@
       "question": "dia0102",
       "name": "dia0102",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -633,18 +632,6 @@
           "filter": "dia0100 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -702,6 +689,7 @@
       "question": "dia0202",
       "name": "dia0202",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -713,18 +701,6 @@
           "filter": "dia0200 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -782,6 +758,7 @@
       "question": "dia0302",
       "name": "dia0302",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -793,18 +770,6 @@
           "filter": "dia0300 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -862,6 +827,7 @@
       "question": "dia0402",
       "name": "dia0402",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -873,18 +839,6 @@
           "filter": "dia0400 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -942,6 +896,7 @@
       "question": "dia0502",
       "name": "dia0502",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -953,18 +908,6 @@
           "filter": "dia0500 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1022,6 +965,7 @@
       "question": "dia0602",
       "name": "dia0602",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1033,18 +977,6 @@
           "filter": "dia0600 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1102,6 +1034,7 @@
       "question": "dia0702",
       "name": "dia0702",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1113,18 +1046,6 @@
           "filter": "dia0700 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1182,6 +1103,7 @@
       "question": "dia0802",
       "name": "dia0802",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1193,18 +1115,6 @@
           "filter": "dia0800 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1262,6 +1172,7 @@
       "question": "dia0902",
       "name": "dia0902",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1273,18 +1184,6 @@
           "filter": "dia0900 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1342,6 +1241,7 @@
       "question": "dia1002",
       "name": "dia1002",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1353,18 +1253,6 @@
           "filter": "dia1000 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1422,6 +1310,7 @@
       "question": "dia1102",
       "name": "dia1102",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1433,18 +1322,6 @@
           "filter": "dia1100 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1502,6 +1379,7 @@
       "question": "dia1202",
       "name": "dia1202",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1513,18 +1391,6 @@
           "filter": "dia1200 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1582,6 +1448,7 @@
       "question": "dia1302",
       "name": "dia1302",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1593,18 +1460,6 @@
           "filter": "dia1300 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1662,6 +1517,7 @@
       "question": "dia1402",
       "name": "dia1402",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1673,18 +1529,6 @@
           "filter": "dia1400 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1742,6 +1586,7 @@
       "question": "dia1502",
       "name": "dia1502",
       "label": "During what period did the illness occur?",
+      "label_de": "Hat ein Arzt bei Ihnen jemals eine oder mehrere der folgenden Erkrankungen festgestellt? Falls ja, von wann bis wann haben Sie unter der Erkrankung gelitten (Jahreszahlen)? Wenn Sie heute noch unter der Erkrankung leiden, geben Sie bitte an bis heute.",
       "items": [
         {
           "item": "0",
@@ -1753,18 +1598,6 @@
           "filter": "dia1500 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
           "sn": 0
         },
         {
@@ -1822,6 +1655,7 @@
       "question": "hbe0100",
       "name": "hbe0100",
       "label": "Do you smoke?",
+      "label_de": "Rauchen Sie?",
       "items": [
         {
           "item": "1",
@@ -1876,6 +1710,7 @@
       "question": "hbe0101",
       "name": "hbe0101",
       "label": "How old were you when you started smoking (even if you didn't smoke much)?",
+      "label_de": "Wie alt waren Sie, als Sie mit dem Rauchen begonnen haben (wenn auch nur in kleinen Mengen)?",
       "items": [
         {
           "item": "1",
@@ -1890,7 +1725,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -1910,6 +1745,7 @@
       "question": "hbe0102",
       "name": "hbe0102",
       "label": "Do you tend to smoke alone or with friends or acquaintances?",
+      "label_de": "Rauchen Sie eher alleine oder in Gesellschaft von Bekannten oder Freunden?",
       "items": [
         {
           "item": "1",
@@ -1949,6 +1785,7 @@
       "question": "hbe0200",
       "name": "hbe0200",
       "label": "Have you ever drunk alcohol, and if so, how old were you when you drank alcohol for the first time? If you don't remember exactly, please estimate.",
+      "label_de": "Haben Sie jemals Alkohol getrunken bzw. wie alt waren Sie, als Sie zum ersten Mal Alkohol getrunken haben? Wenn Sie das Alter nicht genau wissen, geben Sie bitte das ungefaehre Alter an.",
       "items": [
         {
           "item": "1",
@@ -1978,6 +1815,7 @@
       "question": "hbe0201",
       "name": "hbe0201",
       "label": "Do you tend to drink alone or with friends or acquaintances?",
+      "label_de": "Trinken Sie eher alleine oder in Gesellschaft von Bekannten oder Freunden?",
       "items": [
         {
           "item": "1",
@@ -2017,6 +1855,7 @@
       "question": "hbe0202",
       "name": "hbe0202",
       "label": "How often would you say that you drink a lot?",
+      "label_de": "Wie haeufig kommt es Ihrer Meinung nach vor, dass Sie viel trinken?",
       "items": [
         {
           "item": "1",
@@ -2071,6 +1910,7 @@
       "question": "hbe0210",
       "name": "hbe0210",
       "label": "When you drink what you would describe as a lot in a day or in an evening, how much do you drink? Please state the number of glasses.",
+      "label_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
       "items": [
         {
           "item": "1",
@@ -2085,7 +1925,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2105,6 +1945,7 @@
       "question": "hbe0220",
       "name": "hbe0220",
       "label": "When you drink what you would describe as a lot in a day or in an evening, how much do you drink? Please state the number of glasses.",
+      "label_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
       "items": [
         {
           "item": "1",
@@ -2119,7 +1960,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2139,6 +1980,7 @@
       "question": "hbe0230",
       "name": "hbe0230",
       "label": "When you drink what you would describe as a lot in a day or in an evening, how much do you drink? Please state the number of glasses.",
+      "label_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
       "items": [
         {
           "item": "1",
@@ -2153,7 +1995,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2173,6 +2015,7 @@
       "question": "hbe0240",
       "name": "hbe0240",
       "label": "The following questions are about the past 12 months. How much alcohol have you consumed in the last 12 months?",
+      "label_de": "Die folgenden Fragen beziehen sich nun auf die letzten 12 Monate. In welchem Ausmass haben Sie waehrend der letzten 12 Monate alkoholische Getraenke konsumiert?",
       "items": [
         {
           "item": "0",
@@ -2184,38 +2027,6 @@
           "filter": "hbe0200 >= -98",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: daily",
-              "label_de": "1: taeglich"
-            },
-            {
-              "value": 2,
-              "label": "2: several times per week",
-              "label_de": "2: mehrmals pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: once a week",
-              "label_de": "3: 1-mal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: 1 to 3 times per month",
-              "label_de": "4: 1 bis 3-mal im Monat"
-            },
-            {
-              "value": 5,
-              "label": "5: less frequently",
-              "label_de": "5: seltener"
-            },
-            {
-              "value": 6,
-              "label": "6: never",
-              "label_de": "6: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2356,6 +2167,7 @@
       "question": "hbe0250",
       "name": "hbe0250",
       "label": "How often in the last 12 months did you not do your work as well as usual because you had consumed alcohol?",
+      "label_de": "Wie oft kam es in den letzten 12 Monaten vor, dass Sie wegen des Konsums von Alkohol Ihre Arbeit oder Taetigkeit schlechter als sonst gemacht haben?",
       "items": [
         {
           "item": "1",
@@ -2405,6 +2217,7 @@
       "question": "hbe0300",
       "name": "hbe0300",
       "label": "Do you regularly take medication that adversely affect your ability to think or your emotions or cause other serious side effects?",
+      "label_de": "Nehmen Sie regelmaessig Medikamente ein, die Ihr Denken und Fuehlen beeintraechtigen oder andere gravierende Nebenwirkungen bei Ihnen hervorrufen?",
       "items": [
         {
           "item": "1",
@@ -2428,6 +2241,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2449,6 +2267,7 @@
       "question": "hbe0400",
       "name": "hbe0400",
       "label": "In the following we would like to know what you do to care for your health. To what extent does this statement apply to you personally: I take active steps to stay healthy (e.g., go to regular checkups, follow a healthy diet, and avoid unhealthy behavior, etc.).",
+      "label_de": "Im Folgenden moechten wir erfahren, inwieweit Sie fuer Ihre Gesundheit vorsorgen. Inwieweit trifft folgende Aussage auf Sie persoenlich zu? Ich sorge fuer die Erhaltung meiner Gesundheit aktiv vor (z.B. durch regelmaessige Vorsorgeuntersuchungen, gesunde Ernaehrung, Vermeidung von gesundheitsschaedlichem Verhalten, etc.).",
       "items": [
         {
           "item": "1",
@@ -2493,6 +2312,7 @@
       "question": "bdy0100",
       "name": "bdy0100",
       "label": "Please give your height and weight.",
+      "label_de": "Bitte geben Sie Ihre Koerpergroesse und Ihr Gewicht an.",
       "items": [
         {
           "item": "1",
@@ -2507,7 +2327,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2527,6 +2347,7 @@
       "question": "bdy0200",
       "name": "bdy0200",
       "label": "Please give your height and weight.",
+      "label_de": "Bitte geben Sie Ihre Koerpergroesse und Ihr Gewicht an.",
       "items": [
         {
           "item": "1",
@@ -2541,7 +2362,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2561,6 +2382,7 @@
       "question": "gls0100",
       "name": "gls0100",
       "label": "Below we would like to know how satisfied you are with your life in general. You can agree or disagree with the following statements.",
+      "label_de": "Im Folgenden wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen bzw. die Sie ablehnen koennen.",
       "items": [
         {
           "item": "0",
@@ -2572,38 +2394,6 @@
           "filter": "age0110 >= 16",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: disagree strongly",
-              "label_de": "1: lehne stark ab"
-            },
-            {
-              "value": 2,
-              "label": "2: disagree",
-              "label_de": "2: lehne ab"
-            },
-            {
-              "value": 3,
-              "label": "3: neither denial nor approval",
-              "label_de": "3: weder Ablehnung noch Zustimmung"
-            },
-            {
-              "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
-            },
-            {
-              "value": 5,
-              "label": "5: agree strongly",
-              "label_de": "5: stimme stark zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -2830,6 +2620,7 @@
       "question": "sop0100",
       "name": "sop0100",
       "label": "Below is a list of groups that one might be active in. For each one, please state how often you take part: once a week, once a month, less than once a month, never.",
+      "label_de": "Im Folgenden sehen Sie eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass Sie in den jeweiligen Gruppen aktiv sind.",
       "items": [
         {
           "item": "0",
@@ -2841,33 +2632,6 @@
           "filter": "age0110 >= 16",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: every week",
-              "label_de": "1: jede Woche"
-            },
-            {
-              "value": 2,
-              "label": "2: every month",
-              "label_de": "2: jeden Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: less than once a month",
-              "label_de": "3: seltener als 1-mal im Monat"
-            },
-            {
-              "value": 4,
-              "label": "4: never",
-              "label_de": "4: nie"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3183,6 +2947,7 @@
       "question": "sop0200",
       "name": "sop0200",
       "label": "Do you have a (volunteer) position in one of these associations or groups?",
+      "label_de": "Wenn Sie in einem der Vereine mindestens selten aktiv sind: Haben Sie in einem dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne?",
       "items": [
         {
           "item": "1",
@@ -3206,6 +2971,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -3227,6 +2997,7 @@
       "question": "pop0100",
       "name": "pop0100",
       "label": "Generally speaking, how interested are you in politics?",
+      "label_de": "Einmal ganz allgemein gesprochen, wie stark interessieren Sie sich fuer Politik?",
       "items": [
         {
           "item": "1",
@@ -3271,6 +3042,7 @@
       "question": "pop0200",
       "name": "pop0200",
       "label": "Which of the following activities did you take part in within the last 12 months?",
+      "label_de": "Welche der folgenden Aktivitaeten haben Sie in den letzten 12 Monaten ausgeuebt?",
       "items": [
         {
           "item": "0",
@@ -3282,28 +3054,6 @@
           "filter": "age0110 >= 16",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3325,6 +3075,11 @@
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -3360,6 +3115,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -3393,6 +3153,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -3414,6 +3179,7 @@
       "question": "pop0300",
       "name": "pop0300",
       "label": "Did you vote in the last election of the federal parliament?",
+      "label_de": "Haben Sie bei der letzten Bundestagswahl gewaehlt?",
       "items": [
         {
           "item": "1",
@@ -3453,6 +3219,7 @@
       "question": "pop0301",
       "name": "pop0301",
       "label": "If an election for the federal parmliament would take place next Sunday, would you participate in the election? If you are not eligible to vote, please indicate what you would do if you were eligible to vote.",
+      "label_de": "Wenn am naechsten Sonntag Bundestagswahl waere, wuerden Sie an der Wahl teilnehmen? Wenn Sie nicht wahlberechtigt sind, geben Sie bitte an, was Sie tun wuerden, wenn Sie wahlberechtigt waeren.",
       "items": [
         {
           "item": "1",
@@ -3476,6 +3243,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -3497,6 +3269,7 @@
       "question": "pop0302",
       "name": "pop0302",
       "label": "Do you usually think of yourself as close to any particular party? Which party do you feel closest to?",
+      "label_de": "Neigen Sie einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigen Sie am ehesten zu?",
       "items": [
         {
           "item": "1",
@@ -3521,8 +3294,8 @@
             },
             {
               "value": 3,
-              "label": "3: CDU/CSU (F2F1)",
-              "label_de": "3: CDU/CSU (F2F1)"
+              "label": "3: CDU/CSU [only F2F 1]",
+              "label_de": "3: CDU/CSU [nur in F2F 1]"
             },
             {
               "value": 4,
@@ -3561,13 +3334,13 @@
             },
             {
               "value": 11,
-              "label": "11: CDU (from F2F2)",
-              "label_de": "11: CDU (ab F2F2)"
+              "label": "11: CDU [from F2F 2]",
+              "label_de": "11: CDU [ab F2F 2]"
             },
             {
               "value": 12,
-              "label": "12: CSU (from F2F2)",
-              "label_de": "12: CSU (ab F2F2)"
+              "label": "12: CSU [from F2F 2]",
+              "label_de": "12: CSU [ab F2F 2]"
             }
           ],
           "sn": 0
@@ -3581,6 +3354,7 @@
       "question": "dis0100",
       "name": "dis0100",
       "label": "Now we have some questions about your personal experiences. During the last 12 months, have you felt that you were disadvantaged or discriminated against due to any personal characteristics (e.g., your ethnic or cultural background, gender, religious beliefs)?",
+      "label_de": "Im Folgenden geht es um Ihre persoenlichen Erfahrungen. Haben Sie in den vergangenen 12 Monaten erlebt, dass Sie aufgrund eines persoenlichen Merkmals (z.B. Ihrer Herkunft, Ihres Geschlechts, Ihrer Religionszugehoerigkeit/Weltanschauung) durch andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurden?",
       "items": [
         {
           "item": "1",
@@ -3604,6 +3378,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -3625,6 +3404,7 @@
       "question": "dis0200",
       "name": "dis0200",
       "label": "If so, what do you think was the reason for the discrimination? Multiple answers possible.",
+      "label_de": "Aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt? Und wie sehr hat Sie diese Benachteiligung belastet? Ich wurde benachteiligt auf Grund meiner/meines . . .",
       "items": [
         {
           "item": "0",
@@ -3636,18 +3416,6 @@
           "filter": "dis0100 == 1",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
@@ -3797,6 +3565,7 @@
       "question": "dis0201",
       "name": "dis0201",
       "label": "How much stress did the disadvantage cause you?",
+      "label_de": "Aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt? Und wie sehr hat Sie diese Benachteiligung belastet?",
       "items": [
         {
           "item": "1",
@@ -3841,6 +3610,7 @@
       "question": "dis0301",
       "name": "dis0301",
       "label": "How much stress did the disadvantage cause you?",
+      "label_de": "Aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt? Und wie sehr hat Sie diese Benachteiligung belastet?",
       "items": [
         {
           "item": "1",
@@ -3885,6 +3655,7 @@
       "question": "dis0401",
       "name": "dis0401",
       "label": "How much stress did the disadvantage cause you?",
+      "label_de": "Aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt? Und wie sehr hat Sie diese Benachteiligung belastet?",
       "items": [
         {
           "item": "1",
@@ -3929,6 +3700,7 @@
       "question": "dis0501",
       "name": "dis0501",
       "label": "How much stress did the disadvantage cause you?",
+      "label_de": "Aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt? Und wie sehr hat Sie diese Benachteiligung belastet?",
       "items": [
         {
           "item": "1",
@@ -3973,6 +3745,7 @@
       "question": "dis0601",
       "name": "dis0601",
       "label": "How much stress did the disadvantage cause you?",
+      "label_de": "Aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt? Und wie sehr hat Sie diese Benachteiligung belastet?",
       "items": [
         {
           "item": "1",
@@ -4017,6 +3790,7 @@
       "question": "dis0701",
       "name": "dis0701",
       "label": "How much stress did the disadvantage cause you?",
+      "label_de": "Aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt? Und wie sehr hat Sie diese Benachteiligung belastet?",
       "items": [
         {
           "item": "1",
@@ -4061,6 +3835,7 @@
       "question": "med0100",
       "name": "med0100",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4105,6 +3880,7 @@
       "question": "med0200",
       "name": "med0200",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4149,6 +3925,7 @@
       "question": "med0300",
       "name": "med0300",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4193,6 +3970,7 @@
       "question": "med0400",
       "name": "med0400",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4237,6 +4015,7 @@
       "question": "med0500",
       "name": "med0500",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4281,6 +4060,7 @@
       "question": "med0600",
       "name": "med0600",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4325,6 +4105,7 @@
       "question": "med0700",
       "name": "med0700",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4369,6 +4150,7 @@
       "question": "med0800",
       "name": "med0800",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4413,6 +4195,7 @@
       "question": "med0900",
       "name": "med0900",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4457,6 +4240,7 @@
       "question": "med1000",
       "name": "med1000",
       "label": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
+      "label_de": "Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
           "item": "1",
@@ -4501,6 +4285,7 @@
       "question": "net0100",
       "name": "net0100",
       "label": "Below are three statements that you can either agree or disagree with. What is your opinion on the following three statements ?",
+      "label_de": "Im Folgenden sehen Sie drei Aussagen, die man ablehnen oder denen man zustimmen kann. Wie ist Ihre Meinung zu den folgenden drei Aussagen?",
       "items": [
         {
           "item": "0",
@@ -4512,28 +4297,6 @@
           "filter": "age0110 >= 16",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: completely disagree",
-              "label_de": "1: lehne voll ab"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4: completely agree",
-              "label_de": "4: stimme voll zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4644,6 +4407,7 @@
       "question": "net0200",
       "name": "net0200",
       "label": "Now a few general questions about your friends. What applies to you?",
+      "label_de": "Nun noch einige allgemeine Fragen zu Ihren Freunden. Was trifft bei Ihnen zu?",
       "items": [
         {
           "item": "0",
@@ -4655,33 +4419,6 @@
           "filter": "age0110 >= 16",
           "description": "Source: Panel Study Labour Market and Social Security (PASS): PASS personal questionnaire wave 6 2013",
           "description_de": "Source: Panel Arbeitsmarkt und soziale Sicherung (PASS): PASS Personenfragebogen Welle 6 2013",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: totally disagree",
-              "label_de": "1: stimme ganz und gar nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4: totally agree",
-              "label_de": "4: stimme ganz und gar zu"
-            }
-          ],
           "sn": 0
         },
         {
@@ -4807,6 +4544,7 @@
       "question": "net0203",
       "name": "net0203",
       "label": "Now follow a few questions about your friends and acquaintances: How many close friends do you have? This includes family members who you are close to. This does not include Facebook friends.",
+      "label_de": "Nun folgen ein paar Fragen zu Ihrem Bekannten- und Freundeskreis: Wie viele enge Freundinnen und Freunde haben Sie? Dazu zaehlen auch Partner und Familienmitglieder, zu denen eine enge Beziehung besteht. Facebook-Freunde sind hier nicht gemeint.",
       "items": [
         {
           "item": "1",
@@ -4821,7 +4559,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -4841,6 +4579,7 @@
       "question": "net0204",
       "name": "net0204",
       "label": "And how many of them do not live with you?",
+      "label_de": "Und wie viele davon leben nicht bei Ihnen im Haushalt?",
       "items": [
         {
           "item": "1",
@@ -4855,7 +4594,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -4875,6 +4614,7 @@
       "question": "net0300",
       "name": "net0300",
       "label": "How old is the first person?",
+      "label_de": "Wie alt ist die erste Person?",
       "items": [
         {
           "item": "1",
@@ -4904,6 +4644,7 @@
       "question": "net0301",
       "name": "net0301",
       "label": "Is the first person male or female?",
+      "label_de": "Welches Geschlecht hat die erste Person?",
       "items": [
         {
           "item": "1",
@@ -4938,6 +4679,7 @@
       "question": "net0400",
       "name": "net0400",
       "label": "How old is the second person?",
+      "label_de": "Wie alt ist die zweite Person?",
       "items": [
         {
           "item": "1",
@@ -4967,6 +4709,7 @@
       "question": "net0401",
       "name": "net0401",
       "label": "Is the second person male or female?",
+      "label_de": "Welches Geschlecht hat die zweite Person?",
       "items": [
         {
           "item": "1",
@@ -5001,6 +4744,7 @@
       "question": "net0500",
       "name": "net0500",
       "label": "How old is the third person?",
+      "label_de": "Wie alt ist die dritte Person?",
       "items": [
         {
           "item": "1",
@@ -5030,6 +4774,7 @@
       "question": "net0501",
       "name": "net0501",
       "label": "Is the third person male or female?",
+      "label_de": "Welches Geschlecht hat die dritte Person?",
       "items": [
         {
           "item": "1",
@@ -5064,6 +4809,7 @@
       "question": "net0302",
       "name": "net0302",
       "label": "Which is the first person's highest school-leaving certificate?",
+      "label_de": "Welchen hoechsten Schulabschluss hat die erste Person?",
       "items": [
         {
           "item": "1",
@@ -5113,6 +4859,7 @@
       "question": "net0402",
       "name": "net0402",
       "label": "Which is the second person's highest school-leaving certificate?",
+      "label_de": "Welchen hoechsten Schulabschluss hat die zweite Person?",
       "items": [
         {
           "item": "1",
@@ -5162,6 +4909,7 @@
       "question": "net0502",
       "name": "net0502",
       "label": "Which is the third person's highest school-leaving certificate?",
+      "label_de": "Welchen hoechsten Schulabschluss hat die dritte Person?",
       "items": [
         {
           "item": "1",
@@ -5211,6 +4959,7 @@
       "question": "net0303",
       "name": "net0303",
       "label": "What type of school does the first person attend?",
+      "label_de": "Welche Schulform besucht die erste Person?",
       "items": [
         {
           "item": "1",
@@ -5275,6 +5024,7 @@
       "question": "net0403",
       "name": "net0403",
       "label": "What type of school does the second person attend?",
+      "label_de": "Welche Schulform besucht die zweite Person?",
       "items": [
         {
           "item": "1",
@@ -5339,6 +5089,7 @@
       "question": "net0503",
       "name": "net0503",
       "label": "What type of school does the third person attend?",
+      "label_de": "Welche Schulform besucht die dritte Person?",
       "items": [
         {
           "item": "1",
@@ -5403,6 +5154,7 @@
       "question": "net0600",
       "name": "net0600",
       "label": "To what extent does the following statement apply to you?",
+      "label_de": "Wie sehr trifft die folgende Aussage auf Sie persoenlich zu?",
       "items": [
         {
           "item": "1",

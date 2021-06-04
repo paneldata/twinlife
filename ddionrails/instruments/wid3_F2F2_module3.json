@@ -11,6 +11,7 @@
       "question": "edu0100",
       "name": "edu0100",
       "label": "Do you go to school?",
+      "label_de": "[IF age >= 4 & age < =15]: Gehst Du in die Schule? [IF age>= 16 & age < 22]: Besuchen Sie derzeit eine allgemeinbildende Schule?",
       "items": [
         {
           "item": "1",
@@ -50,6 +51,7 @@
       "question": "edu0200",
       "name": "edu0200",
       "label": "Do you have an after-school job?",
+      "label_de": "Arbeitest Du neben der Schule?",
       "items": [
         {
           "item": "1",
@@ -89,6 +91,7 @@
       "question": "edu0202",
       "name": "edu0202",
       "label": "How many hours a week do you work in your job?",
+      "label_de": "Wie viel Stunden pro Woche arbeitest Du normal in Deinem Schuelerjob?",
       "items": [
         {
           "item": "1",
@@ -103,7 +106,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -123,6 +126,7 @@
       "question": "edu0203",
       "name": "edu0203",
       "label": "How much do you earn per hour in this job?",
+      "label_de": "Wie viel verdienst Du in Deinem Schuelerjob pro Stunde?",
       "items": [
         {
           "item": "1",
@@ -137,7 +141,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -157,6 +161,7 @@
       "question": "edu0400",
       "name": "edu0400",
       "label": "What school are you currently attending?",
+      "label_de": "[IF age > 10 & age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age > = 16 & age < =20]: Welche Schule besuchen Sie zurzeit?",
       "items": [
         {
           "item": "1",
@@ -221,8 +226,8 @@
             },
             {
               "value": 11,
-              "label": "11: Technical secondary school (from F2F2)",
-              "label_de": "11: Fachoberschule (ab F2F2)"
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
             }
           ],
           "sn": 0
@@ -236,6 +241,7 @@
       "question": "edu0402",
       "name": "edu0402",
       "label": "What class do you go to at this school?",
+      "label_de": "[IF age > 10 & age < = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age > = 16 & age < =20]: Welche Klasse besuchen Sie auf dieser Schule?",
       "items": [
         {
           "item": "1",
@@ -250,7 +256,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -270,6 +276,7 @@
       "question": "eca0900",
       "name": "eca0900",
       "label": "Have you received a degree since the last interview, since <mon_fq><yea_fq>?",
+      "label_de": "[IF age = 15] Hast Du seit dem letzten Interview, d.h. seit <<mon_fq>> <<yea_fq>>, einen Schulabschluss erworben? [If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit <<mon_fq>> <<yea_fq>>, einen Schulabschluss erworben? [IF neuzu = 1 and age=15] Hast Du bereits einen Schulabschluss erworben? [IF neuzu = 1 and age >= 16] Haben Sie bereits einen Schulabschluss erworben?",
       "items": [
         {
           "item": "1",
@@ -293,6 +300,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -314,6 +326,7 @@
       "question": "eca0100",
       "name": "eca0100",
       "label": "What is your highest school-leaving qualification?",
+      "label_de": "[IF age = 15] Welchen hoechsten Schulabschluss hast Du erreicht? [IF age > = 16 ] Welchen hoechsten Schulabschluss haben Sie erreicht?",
       "items": [
         {
           "item": "1",
@@ -373,6 +386,7 @@
       "question": "eca0102",
       "name": "eca0102",
       "label": "What was the last school you attended?",
+      "label_de": "[IF age = 15] Welche Schule hast Du zuletzt besucht? [IF age > = 16] Welche Schule haben Sie zuletzt besucht?",
       "items": [
         {
           "item": "1",
@@ -437,8 +451,8 @@
             },
             {
               "value": 11,
-              "label": "11: Technical secondary school (from F2F2)",
-              "label_de": "11: Fachoberschule (ab F2F2)"
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
             }
           ],
           "sn": 0
@@ -452,6 +466,7 @@
       "question": "eca0104",
       "name": "eca0104",
       "label": "What year did you leave secondary school?",
+      "label_de": "[IF age = 15] In welchem Jahr hast Du die allgemeinbildende Schule beendet? [IF age > = 16 ]In welchem Jahr haben Sie die allgemeinbildende Schule beendet?",
       "items": [
         {
           "item": "1",
@@ -466,7 +481,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -486,6 +501,7 @@
       "question": "eca0105",
       "name": "eca0105",
       "label": "Please specify your final grade on your highest educational degree/diploma/qualification.",
+      "label_de": "[IF age = 15] Bitte gib uns die Abschlussnote Deines hoechsten Schulabschlusses an. [IF age > = 16] Bitte geben Sie die Abschlussnote Ihres hoechsten Schulabschlusses an.",
       "items": [
         {
           "item": "1",
@@ -500,7 +516,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -520,6 +536,7 @@
       "question": "eca0200",
       "name": "eca0200",
       "label": "What educational degree / diploma / qualification did you attain? If you have attained more than one, please state the highest.",
+      "label_de": "[IF age = 15] Was ist Dein hoechster Ausbildungs- oder Studienabschluss? [IF age > = 16 ] Was ist Ihr hoechster Ausbildungs- oder Studienabschluss?",
       "items": [
         {
           "item": "1",
@@ -559,18 +576,18 @@
             },
             {
               "value": 6,
-              "label": "6: university of applied sciences (from F2F2)",
-              "label_de": "6: Fachhochschule (ab F2F 2)"
+              "label": "6: university of applied sciences [from F2F 2]",
+              "label_de": "6: Fachhochschule [ab F2F 2]"
             },
             {
               "value": 7,
-              "label": "7: university of cooperative education (from F2F2)",
-              "label_de": "7: Berufsakademie (ab F2F 2)"
+              "label": "7: university of cooperative education [from F2F 2]",
+              "label_de": "7: Berufsakademie [ab F2F 2]"
             },
             {
               "value": 8,
-              "label": "8: university of applied sciences, university of cooperative education (F2F 1)",
-              "label_de": "8: Fachhochschule, Berufsakademie (F2F 1)"
+              "label": "8: university of applied sciences, university of cooperative education [only F2F 1]",
+              "label_de": "8: Fachhochschule, Berufsakademie [nur in F2F 1]"
             },
             {
               "value": 9,
@@ -599,6 +616,7 @@
       "question": "eca0201",
       "name": "eca0201",
       "label": "What year did you earn your educational degree/diploma/qualification?",
+      "label_de": "[IF age = 15] In welchem Jahr hast Du den Ausbildungs- oder Studienabschluss erreicht? [IF age > = 16] In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
       "items": [
         {
           "item": "1",
@@ -613,7 +631,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -633,6 +651,7 @@
       "question": "eca0220",
       "name": "eca0220",
       "label": "Did you attain another educational degree in addition to this highest educational qualification?",
+      "label_de": "Liegt neben diesem hoechsten Ausbildungs- oder Studienabschluss ein weiterer Ausbildungsabschluss vor?",
       "items": [
         {
           "item": "1",
@@ -654,6 +673,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -671,14 +695,93 @@
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
-    "eca0300": {
-      "question": "eca0300",
-      "name": "eca0300",
-      "label": "Did you ever repeat a grade of school?",
+    "eca0221": {
+      "question": "eca0221",
+      "name": "eca0221",
+      "label": "What educational qualification is that?",
+      "label_de": "Welcher Ausbildungs- oder Studienabschluss ist das?",
       "items": [
         {
           "item": "1",
           "number": "15",
+          "concept": "eca0221",
+          "text": "What educational qualification is that?",
+          "text_de": "Welcher Ausbildungs- oder Studienabschluss ist das?",
+          "scale": "cat",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0220==1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no vocational training or higher educational certificate (yet)",
+              "label_de": "1: (noch) keinen Ausbildungs- oder Studienabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: vocational training, vocational school, commercial school",
+              "label_de": "2: Lehre, Facharbeiterabschluss, Berufsschule, Handelsschule"
+            },
+            {
+              "value": 3,
+              "label": "3: schools for healthcare",
+              "label_de": "3: Schule des Gesundheitswesens"
+            },
+            {
+              "value": 4,
+              "label": "4: professional school, technical college, e.g., master craftsman's or technician's certificate",
+              "label_de": "4: Fachschule, z.B. Meister-, Technikerabschluss"
+            },
+            {
+              "value": 5,
+              "label": "5: training for civil servants",
+              "label_de": "5: Beamtenausbildung"
+            },
+            {
+              "value": 6,
+              "label": "6: university of applied sciences [from F2F 2]",
+              "label_de": "6: Fachhochschule [ab F2F 2]"
+            },
+            {
+              "value": 7,
+              "label": "7: university of cooperative education [from F2F 2]",
+              "label_de": "7: Berufsakademie [ab F2F 2]"
+            },
+            {
+              "value": 8,
+              "label": "8: university of applied sciences, university of cooperative education [only F2F 1]",
+              "label_de": "8: Fachhochschule, Berufsakademie [nur in F2F 1]"
+            },
+            {
+              "value": 9,
+              "label": "9: university, higher educational institution",
+              "label_de": "9: Universitaet, Hochschule"
+            },
+            {
+              "value": 10,
+              "label": "10: PhD",
+              "label_de": "10: Promotion"
+            },
+            {
+              "value": 11,
+              "label": "11: other qualification",
+              "label_de": "11: sonstiger Abschluss"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid3_F2F2_module3",
+      "study": "twinlife"
+    },
+    "eca0300": {
+      "question": "eca0300",
+      "name": "eca0300",
+      "label": "Did you ever repeat a grade of school?",
+      "label_de": "Haben Sie in Ihrer Schulzeit einmal eine Klasse wiederholt?",
+      "items": [
+        {
+          "item": "1",
+          "number": "16",
           "concept": "eca0300",
           "text": "Did you ever repeat a grade of school?",
           "text_de": "Haben Sie in Ihrer Schulzeit einmal eine Klasse wiederholt?",
@@ -698,6 +801,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -711,7 +819,7 @@
           "sn": 0
         }
       ],
-      "sn": 14,
+      "sn": 15,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -719,10 +827,11 @@
       "question": "eca0301",
       "name": "eca0301",
       "label": "Which grade did you repeat?",
+      "label_de": "[MFN] Welche Klasse(n) wurde(n) wiederholt?",
       "items": [
         {
           "item": "0",
-          "number": "16",
+          "number": "17",
           "concept": "eca0301",
           "text": "Which grade did you repeat?",
           "text_de": "[MFN] Welche Klasse(n) wurde(n) wiederholt?",
@@ -730,23 +839,11 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16 & eca0300==1",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
-          "number": "17",
+          "number": "18",
           "concept": "eca0301",
           "text": "1. grade",
           "text_de": "1. Klasse",
@@ -769,7 +866,7 @@
         },
         {
           "item": "2",
-          "number": "18",
+          "number": "19",
           "concept": "eca0301",
           "text": "2. grade",
           "text_de": "2. Klasse",
@@ -792,7 +889,7 @@
         },
         {
           "item": "3",
-          "number": "19",
+          "number": "20",
           "concept": "eca0301",
           "text": "3. grade",
           "text_de": "3. Klasse",
@@ -815,7 +912,7 @@
         },
         {
           "item": "4",
-          "number": "20",
+          "number": "21",
           "concept": "eca0301",
           "text": "4. grade",
           "text_de": "4. Klasse",
@@ -838,7 +935,7 @@
         },
         {
           "item": "5",
-          "number": "21",
+          "number": "22",
           "concept": "eca0301",
           "text": "5. grade",
           "text_de": "5. Klasse",
@@ -861,7 +958,7 @@
         },
         {
           "item": "6",
-          "number": "22",
+          "number": "23",
           "concept": "eca0301",
           "text": "6. grade",
           "text_de": "6. Klasse",
@@ -884,7 +981,7 @@
         },
         {
           "item": "7",
-          "number": "23",
+          "number": "24",
           "concept": "eca0301",
           "text": "7. grade",
           "text_de": "7. Klasse",
@@ -907,7 +1004,7 @@
         },
         {
           "item": "8",
-          "number": "24",
+          "number": "25",
           "concept": "eca0301",
           "text": "8. grade",
           "text_de": "8. Klasse",
@@ -930,7 +1027,7 @@
         },
         {
           "item": "9",
-          "number": "25",
+          "number": "26",
           "concept": "eca0301",
           "text": "9. grade",
           "text_de": "9. Klasse",
@@ -953,7 +1050,7 @@
         },
         {
           "item": "10",
-          "number": "26",
+          "number": "27",
           "concept": "eca0301",
           "text": "10. grade",
           "text_de": "10. Klasse",
@@ -976,7 +1073,7 @@
         },
         {
           "item": "11",
-          "number": "27",
+          "number": "28",
           "concept": "eca0301",
           "text": "11. grade",
           "text_de": "11. Klasse",
@@ -999,7 +1096,7 @@
         },
         {
           "item": "12",
-          "number": "28",
+          "number": "29",
           "concept": "eca0301",
           "text": "12. grade",
           "text_de": "12. Klasse",
@@ -1022,7 +1119,7 @@
         },
         {
           "item": "13",
-          "number": "29",
+          "number": "30",
           "concept": "eca0301",
           "text": "13. grade",
           "text_de": "13. Klasse",
@@ -1045,7 +1142,7 @@
         },
         {
           "item": "14",
-          "number": "30",
+          "number": "31",
           "concept": "eca0301",
           "text": "don't know",
           "text_de": "weiss nicht",
@@ -1068,7 +1165,7 @@
         },
         {
           "item": "15",
-          "number": "31",
+          "number": "32",
           "concept": "eca0301",
           "text": "n.a.",
           "text_de": "keine Angabe",
@@ -1090,7 +1187,7 @@
           "sn": 15
         }
       ],
-      "sn": 15,
+      "sn": 16,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -1098,10 +1195,11 @@
       "question": "eca0400",
       "name": "eca0400",
       "label": "Did you ever skip a grade or grades?",
+      "label_de": "Haben Sie in Ihrer Schulzeit einmal eine Klasse uebersprungen?",
       "items": [
         {
           "item": "1",
-          "number": "32",
+          "number": "33",
           "concept": "eca0400",
           "text": "Did you ever skip a grade or grades?",
           "text_de": "Haben Sie in Ihrer Schulzeit einmal eine Klasse uebersprungen?",
@@ -1121,6 +1219,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -1134,7 +1237,7 @@
           "sn": 0
         }
       ],
-      "sn": 16,
+      "sn": 17,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -1142,10 +1245,11 @@
       "question": "eca0401",
       "name": "eca0401",
       "label": "Which grade(s) did you skip?",
+      "label_de": "[MFN] Welche Klasse(n) wurde(n) uebersprungen?",
       "items": [
         {
           "item": "0",
-          "number": "33",
+          "number": "34",
           "concept": "eca0401",
           "text": "Which grade(s) did you skip?",
           "text_de": "[MFN] Welche Klasse(n) wurde(n) uebersprungen?",
@@ -1153,23 +1257,11 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16 & eca0400==1",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
-          "number": "34",
+          "number": "35",
           "concept": "eca0401",
           "text": "1. grade",
           "text_de": "1. Klasse",
@@ -1192,7 +1284,7 @@
         },
         {
           "item": "2",
-          "number": "35",
+          "number": "36",
           "concept": "eca0401",
           "text": "2. grade",
           "text_de": "2. Klasse",
@@ -1215,7 +1307,7 @@
         },
         {
           "item": "3",
-          "number": "36",
+          "number": "37",
           "concept": "eca0401",
           "text": "3. grade",
           "text_de": "3. Klasse",
@@ -1238,7 +1330,7 @@
         },
         {
           "item": "4",
-          "number": "37",
+          "number": "38",
           "concept": "eca0401",
           "text": "4. grade",
           "text_de": "4. Klasse",
@@ -1261,7 +1353,7 @@
         },
         {
           "item": "5",
-          "number": "38",
+          "number": "39",
           "concept": "eca0401",
           "text": "5. grade",
           "text_de": "5. Klasse",
@@ -1284,7 +1376,7 @@
         },
         {
           "item": "6",
-          "number": "39",
+          "number": "40",
           "concept": "eca0401",
           "text": "6. grade",
           "text_de": "6. Klasse",
@@ -1307,7 +1399,7 @@
         },
         {
           "item": "7",
-          "number": "40",
+          "number": "41",
           "concept": "eca0401",
           "text": "7. grade",
           "text_de": "7. Klasse",
@@ -1330,7 +1422,7 @@
         },
         {
           "item": "8",
-          "number": "41",
+          "number": "42",
           "concept": "eca0401",
           "text": "8. grade",
           "text_de": "8. Klasse",
@@ -1353,7 +1445,7 @@
         },
         {
           "item": "9",
-          "number": "42",
+          "number": "43",
           "concept": "eca0401",
           "text": "9. grade",
           "text_de": "9. Klasse",
@@ -1376,7 +1468,7 @@
         },
         {
           "item": "10",
-          "number": "43",
+          "number": "44",
           "concept": "eca0401",
           "text": "10. grade",
           "text_de": "10. Klasse",
@@ -1399,7 +1491,7 @@
         },
         {
           "item": "11",
-          "number": "44",
+          "number": "45",
           "concept": "eca0401",
           "text": "11. grade",
           "text_de": "11. Klasse",
@@ -1422,7 +1514,7 @@
         },
         {
           "item": "12",
-          "number": "45",
+          "number": "46",
           "concept": "eca0401",
           "text": "12. grade",
           "text_de": "12. Klasse",
@@ -1445,7 +1537,7 @@
         },
         {
           "item": "13",
-          "number": "46",
+          "number": "47",
           "concept": "eca0401",
           "text": "13. grade",
           "text_de": "13. Klasse",
@@ -1468,7 +1560,7 @@
         },
         {
           "item": "14",
-          "number": "47",
+          "number": "48",
           "concept": "eca0401",
           "text": "don't know",
           "text_de": "weiss nicht",
@@ -1491,7 +1583,7 @@
         },
         {
           "item": "15",
-          "number": "48",
+          "number": "49",
           "concept": "eca0401",
           "text": "n.a.",
           "text_de": "keine Angabe",
@@ -1513,7 +1605,7 @@
           "sn": 15
         }
       ],
-      "sn": 17,
+      "sn": 18,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -1521,10 +1613,11 @@
       "question": "eca0500",
       "name": "eca0500",
       "label": "Did you obtain a degree / certificate / diploma in Germany or in another country?",
+      "label_de": "Haben Sie in einem anderen Land als Deutschland eine berufliche Ausbildung oder ein Studium absolviert? Dies bezieht sich nur auf abgeschlossene Studien, nicht auf Auslandssemester, Praktika o.ae.",
       "items": [
         {
           "item": "1",
-          "number": "49",
+          "number": "50",
           "concept": "eca0500",
           "text": "Did you obtain a degree / certificate / diploma in Germany or in another country?",
           "text_de": "Haben Sie in einem anderen Land als Deutschland eine berufliche Ausbildung oder ein Studium absolviert? Dies bezieht sich nur auf abgeschlossene Studien, nicht auf Auslandssemester, Praktika o.ae.",
@@ -1544,48 +1637,9 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 18,
-      "instrument": "wid3_F2F2_module3",
-      "study": "twinlife"
-    },
-    "emp0100": {
-      "question": "emp0100",
-      "name": "emp0100",
-      "label": "Have you done paid work during the last 7 days, even if only for an hour or a few hours?",
-      "items": [
-        {
-          "item": "1",
-          "number": "50",
-          "concept": "emp0100",
-          "text": "Have you done paid work during the last 7 days, even if only for an hour or a few hours?",
-          "text_de": "[IF age = 15 ] Hast Du waehrend der letzten 7 Tage eine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war? Es geht um die Arbeit, die Du in einem Beschaeftigungsverhaeltnis in einer Firma, Unternehmen oder als Selbststaendiger ausgeuebt hast. Es geht jedoch nicht um Hilfe in Deiner Familie oder im Haushalt, auch wenn diese von Verwandten oder Deinen Eltern mit Geld entlohnt wurde. [IF age > = 16 ] Haben Sie waehrend der letzten 7 Tage eine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war? Es geht um die Arbeit, die Sie in einem Beschaeftigungsverhaeltnis in einer Firma, Unternehmen oder als Selbststaendiger ausgeuebt haben. Es geht jedoch nicht um Hilfe in Ihrer Familie oder im Haushalt, auch wenn diese von Verwandten oder Ihren Eltern mit Geld entlohnt wurde.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & (edu0100==3 | age0110>=22)",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -1605,14 +1659,65 @@
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
-    "emp0200": {
-      "question": "emp0200",
-      "name": "emp0200",
-      "label": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
+    "emp0100": {
+      "question": "emp0100",
+      "name": "emp0100",
+      "label": "Have you done paid work during the last 7 days, even if only for an hour or a few hours?",
+      "label_de": "[IF age = 15 ] Hast Du waehrend der letzten 7 Tage eine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war? Es geht um die Arbeit, die Du in einem Beschaeftigungsverhaeltnis in einer Firma, Unternehmen oder als Selbststaendiger ausgeuebt hast. Es geht jedoch nicht um Hilfe in Deiner Familie oder im Haushalt, auch wenn diese von Verwandten oder Deinen Eltern mit Geld entlohnt wurde. [IF age > = 16 ] Haben Sie waehrend der letzten 7 Tage eine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war? Es geht um die Arbeit, die Sie in einem Beschaeftigungsverhaeltnis in einer Firma, Unternehmen oder als Selbststaendiger ausgeuebt haben. Es geht jedoch nicht um Hilfe in Ihrer Familie oder im Haushalt, auch wenn diese von Verwandten oder Ihren Eltern mit Geld entlohnt wurde.",
       "items": [
         {
           "item": "1",
           "number": "51",
+          "concept": "emp0100",
+          "text": "Have you done paid work during the last 7 days, even if only for an hour or a few hours?",
+          "text_de": "[IF age = 15 ] Hast Du waehrend der letzten 7 Tage eine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war? Es geht um die Arbeit, die Du in einem Beschaeftigungsverhaeltnis in einer Firma, Unternehmen oder als Selbststaendiger ausgeuebt hast. Es geht jedoch nicht um Hilfe in Deiner Familie oder im Haushalt, auch wenn diese von Verwandten oder Deinen Eltern mit Geld entlohnt wurde. [IF age > = 16 ] Haben Sie waehrend der letzten 7 Tage eine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war? Es geht um die Arbeit, die Sie in einem Beschaeftigungsverhaeltnis in einer Firma, Unternehmen oder als Selbststaendiger ausgeuebt haben. Es geht jedoch nicht um Hilfe in Ihrer Familie oder im Haushalt, auch wenn diese von Verwandten oder Ihren Eltern mit Geld entlohnt wurde.",
+          "scale": "cat",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & (edu0100==3 | age0110>=22)",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid3_F2F2_module3",
+      "study": "twinlife"
+    },
+    "emp0200": {
+      "question": "emp0200",
+      "name": "emp0200",
+      "label": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
+      "label_de": "[IF age = 15 & sex=2] Bist Du zurzeit im Mutterschutz oder in der gesetzlich geregelten Elternzeit? [IF age = 15 & sex=1] Bist Du zurzeit in der gesetzlich geregelten Elternzeit? [IF age > = 16 & sex=2] Sind Sie zurzeit im Mutterschutz oder in der gesetzlich geregelten Elternzeit? [IF age > = 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit?",
+      "items": [
+        {
+          "item": "1",
+          "number": "52",
           "concept": "emp0200",
           "text": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
           "text_de": "[IF age = 15 & sex=2] Bist Du zurzeit im Mutterschutz oder in der gesetzlich geregelten Elternzeit? [IF age = 15 & sex=1] Bist Du zurzeit in der gesetzlich geregelten Elternzeit? [IF age > = 16 & sex=2] Sind Sie zurzeit im Mutterschutz oder in der gesetzlich geregelten Elternzeit? [IF age > = 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit?",
@@ -1645,7 +1750,7 @@
           "sn": 0
         }
       ],
-      "sn": 20,
+      "sn": 21,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -1653,10 +1758,11 @@
       "question": "emp0300",
       "name": "emp0300",
       "label": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
+      "label_de": "[IF age = 15] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age > = 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
       "items": [
         {
           "item": "1",
-          "number": "52",
+          "number": "53",
           "concept": "emp0300",
           "text": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
           "text_de": "[IF age = 15] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age > = 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
@@ -1676,48 +1782,9 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 21,
-      "instrument": "wid3_F2F2_module3",
-      "study": "twinlife"
-    },
-    "edu0300": {
-      "question": "edu0300",
-      "name": "edu0300",
-      "label": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
-      "items": [
-        {
-          "item": "1",
-          "number": "53",
-          "concept": "edu0300",
-          "text": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
-          "text_de": "[IF age = 15] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age > = 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=15 & (edu0100==3 | age0110>=22)",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -1737,14 +1804,65 @@
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
-    "edu0301": {
-      "question": "edu0301",
-      "name": "edu0301",
-      "label": "What type of education or training are you pursuing?",
+    "edu0300": {
+      "question": "edu0300",
+      "name": "edu0300",
+      "label": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
+      "label_de": "[IF age = 15] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age > = 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
       "items": [
         {
           "item": "1",
           "number": "54",
+          "concept": "edu0300",
+          "text": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
+          "text_de": "[IF age = 15] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age > = 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
+          "scale": "cat",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=15 & (edu0100==3 | age0110>=22)",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 23,
+      "instrument": "wid3_F2F2_module3",
+      "study": "twinlife"
+    },
+    "edu0301": {
+      "question": "edu0301",
+      "name": "edu0301",
+      "label": "What type of education or training are you pursuing?",
+      "label_de": "Was fuer eine Ausbildung oder Weiterbildung ist das genau?",
+      "items": [
+        {
+          "item": "1",
+          "number": "55",
           "concept": "edu0301",
           "text": "What type of education or training are you pursuing?",
           "text_de": "Was fuer eine Ausbildung oder Weiterbildung ist das genau?",
@@ -1775,14 +1893,14 @@
             },
             {
               "value": 5,
-              "label": "5: other, please state (until CATI1)",
-              "label_de": "5: sonstiges, bitte nennen (bis CATI1)"
+              "label": "5: other, please state [until CATI 1]",
+              "label_de": "5: sonstiges, bitte nennen [bis CATI 1]"
             }
           ],
           "sn": 0
         }
       ],
-      "sn": 23,
+      "sn": 24,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -1790,10 +1908,11 @@
       "question": "edu0303",
       "name": "edu0303",
       "label": "What type of higher education are you pursuing?",
+      "label_de": "Was fuer eine Hochschulausbildung ist das?",
       "items": [
         {
           "item": "1",
-          "number": "55",
+          "number": "56",
           "concept": "edu0303",
           "text": "What type of higher education are you pursuing?",
           "text_de": "Was fuer eine Hochschulausbildung ist das?",
@@ -1826,7 +1945,7 @@
           "sn": 0
         }
       ],
-      "sn": 24,
+      "sn": 25,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -1834,10 +1953,11 @@
       "question": "edu0305",
       "name": "edu0305",
       "label": "What type of further training/retraining are you pursuing?",
+      "label_de": "Was fuer eine Weiterbildung/Umschulung ist das?",
       "items": [
         {
           "item": "1",
-          "number": "56",
+          "number": "57",
           "concept": "edu0305",
           "text": "What type of further training/retraining are you pursuing?",
           "text_de": "Was fuer eine Weiterbildung/Umschulung ist das?",
@@ -1875,7 +1995,7 @@
           "sn": 0
         }
       ],
-      "sn": 25,
+      "sn": 26,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -1883,10 +2003,11 @@
       "question": "edu0307",
       "name": "edu0307",
       "label": "What type of vocational training are you pursuing?",
+      "label_de": "Was fuer eine berufliche Ausbildung ist das?",
       "items": [
         {
           "item": "1",
-          "number": "57",
+          "number": "58",
           "concept": "edu0307",
           "text": "What type of vocational training are you pursuing?",
           "text_de": "Was fuer eine berufliche Ausbildung ist das?",
@@ -1944,7 +2065,7 @@
           "sn": 0
         }
       ],
-      "sn": 26,
+      "sn": 27,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -1952,10 +2073,11 @@
       "question": "emp0400",
       "name": "emp0400",
       "label": "Are you currently employed? What applies to you? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+      "label_de": "Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
       "items": [
         {
           "item": "1",
-          "number": "58",
+          "number": "59",
           "concept": "emp0400",
           "text": "Are you currently employed? What applies to you? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
           "text_de": "Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
@@ -2023,7 +2145,7 @@
           "sn": 0
         }
       ],
-      "sn": 27,
+      "sn": 28,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2031,10 +2153,11 @@
       "question": "emp0600",
       "name": "emp0600",
       "label": "In which professional position are you currently employed? If you perform more than one occupation, please decide which one you consider to be your main occupation and answer the following questions in reference to this main occupation.",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
       "items": [
         {
           "item": "1",
-          "number": "59",
+          "number": "60",
           "concept": "emp0600",
           "text": "In which professional position are you currently employed? If you perform more than one occupation, please decide which one you consider to be your main occupation and answer the following questions in reference to this main occupation.",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
@@ -2072,7 +2195,7 @@
           "sn": 0
         }
       ],
-      "sn": 28,
+      "sn": 29,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2080,10 +2203,11 @@
       "question": "emp0601",
       "name": "emp0601",
       "label": "What is your current occupational status as a blue-collar worker?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit als Arbeiter/Arbeiterin beschaeftigt?",
       "items": [
         {
           "item": "1",
-          "number": "60",
+          "number": "61",
           "concept": "emp0601",
           "text": "What is your current occupational status as a blue-collar worker?",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit als Arbeiter/Arbeiterin beschaeftigt?",
@@ -2121,7 +2245,7 @@
           "sn": 0
         }
       ],
-      "sn": 29,
+      "sn": 30,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2129,10 +2253,11 @@
       "question": "emp0602",
       "name": "emp0602",
       "label": "What is your current occupational status as a self-employed person?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit als Selbststaendiger/Selbststaendige beschaeftigt?",
       "items": [
         {
           "item": "1",
-          "number": "61",
+          "number": "62",
           "concept": "emp0602",
           "text": "What is your current occupational status as a self-employed person?",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit als Selbststaendiger/Selbststaendige beschaeftigt?",
@@ -2165,7 +2290,7 @@
           "sn": 0
         }
       ],
-      "sn": 30,
+      "sn": 31,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2173,10 +2298,11 @@
       "question": "emp0603",
       "name": "emp0603",
       "label": "Please tell me the number of your employees.",
+      "label_de": "Bitte benennen Sie die Anzahl Ihrer Mitarbeiter und Angestellten.",
       "items": [
         {
           "item": "1",
-          "number": "62",
+          "number": "63",
           "concept": "emp0603",
           "text": "Please tell me the number of your employees.",
           "text_de": "Bitte benennen Sie die Anzahl Ihrer Mitarbeiter und Angestellten.",
@@ -2204,7 +2330,7 @@
           "sn": 0
         }
       ],
-      "sn": 31,
+      "sn": 32,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2212,10 +2338,11 @@
       "question": "emp0604",
       "name": "emp0604",
       "label": "What is your current occupational status as an apprentice / trainee / intern.",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt?",
       "items": [
         {
           "item": "1",
-          "number": "63",
+          "number": "64",
           "concept": "emp0604",
           "text": "What is your current occupational status as an apprentice / trainee / intern.",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt?",
@@ -2243,7 +2370,7 @@
           "sn": 0
         }
       ],
-      "sn": 32,
+      "sn": 33,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2251,10 +2378,11 @@
       "question": "emp0605",
       "name": "emp0605",
       "label": "What is your current occupational status as a white-collar worker?",
+      "label_de": "In welcher beruflichen Stellung sind Sie als Angestellter/Angestellte beschaeftigt?",
       "items": [
         {
           "item": "1",
-          "number": "64",
+          "number": "65",
           "concept": "emp0605",
           "text": "What is your current occupational status as a white-collar worker?",
           "text_de": "In welcher beruflichen Stellung sind Sie als Angestellter/Angestellte beschaeftigt?",
@@ -2302,7 +2430,7 @@
           "sn": 0
         }
       ],
-      "sn": 33,
+      "sn": 34,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2310,10 +2438,11 @@
       "question": "emp0606",
       "name": "emp0606",
       "label": "What kind of managerial position do you hold?",
+      "label_de": "In welcher Art von Fuehrungsposition sind Sie?",
       "items": [
         {
           "item": "1",
-          "number": "65",
+          "number": "66",
           "concept": "emp0606",
           "text": "What kind of managerial position do you hold?",
           "text_de": "In welcher Art von Fuehrungsposition sind Sie?",
@@ -2346,7 +2475,7 @@
           "sn": 0
         }
       ],
-      "sn": 34,
+      "sn": 35,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2354,10 +2483,11 @@
       "question": "emp0607",
       "name": "emp0607",
       "label": "What is your current occupational status as a civil servant?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit als Beamter beschaeftigt?",
       "items": [
         {
           "item": "1",
-          "number": "66",
+          "number": "67",
           "concept": "emp0607",
           "text": "What is your current occupational status as a civil servant?",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit als Beamter beschaeftigt?",
@@ -2390,7 +2520,7 @@
           "sn": 0
         }
       ],
-      "sn": 35,
+      "sn": 36,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2398,10 +2528,11 @@
       "question": "emp0700",
       "name": "emp0700",
       "label": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+      "label_de": "Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie Selbstaendiger sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
       "items": [
         {
           "item": "0",
-          "number": "67",
+          "number": "68",
           "concept": "emp0700",
           "text": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
           "text_de": "Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie Selbstaendiger sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
@@ -2409,17 +2540,10 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            }
-          ],
           "sn": 0
         }
       ],
-      "sn": 36,
+      "sn": 37,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2427,10 +2551,11 @@
       "question": "emp0702",
       "name": "emp0702",
       "label": "Do you work for a public sector employer?",
+      "label_de": "Gehoert der Betrieb, in dem Sie arbeiten, zum oeffentlichen Dienst?",
       "items": [
         {
           "item": "1",
-          "number": "68",
+          "number": "69",
           "concept": "emp0702",
           "text": "Do you work for a public sector employer?",
           "text_de": "Gehoert der Betrieb, in dem Sie arbeiten, zum oeffentlichen Dienst?",
@@ -2450,48 +2575,9 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 37,
-      "instrument": "wid3_F2F2_module3",
-      "study": "twinlife"
-    },
-    "emp0703": {
-      "question": "emp0703",
-      "name": "emp0703",
-      "label": "Is this work temporary or on a contractual basis?",
-      "items": [
-        {
-          "item": "1",
-          "number": "69",
-          "concept": "emp0703",
-          "text": "Is this work temporary or on a contractual basis?",
-          "text_de": "Handelt es sich um ein Zeitarbeits- bzw. Leiharbeitsverhaeltnis?",
-          "scale": "cat",
-          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6) & emp0600 !=3 & emp0600 !=4 & emp0600 !=5",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
             },
             {
               "value": 1,
@@ -2511,14 +2597,65 @@
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
-    "emp0704": {
-      "question": "emp0704",
-      "name": "emp0704",
-      "label": "Do you have a fixed-term or permanent employment contract?",
+    "emp0703": {
+      "question": "emp0703",
+      "name": "emp0703",
+      "label": "Is this work temporary or on a contractual basis?",
+      "label_de": "Handelt es sich um ein Zeitarbeits- bzw. Leiharbeitsverhaeltnis?",
       "items": [
         {
           "item": "1",
           "number": "70",
+          "concept": "emp0703",
+          "text": "Is this work temporary or on a contractual basis?",
+          "text_de": "Handelt es sich um ein Zeitarbeits- bzw. Leiharbeitsverhaeltnis?",
+          "scale": "cat",
+          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6) & emp0600 !=3 & emp0600 !=4 & emp0600 !=5",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 39,
+      "instrument": "wid3_F2F2_module3",
+      "study": "twinlife"
+    },
+    "emp0704": {
+      "question": "emp0704",
+      "name": "emp0704",
+      "label": "Do you have a fixed-term or permanent employment contract?",
+      "label_de": "Haben Sie einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag?",
+      "items": [
+        {
+          "item": "1",
+          "number": "71",
           "concept": "emp0704",
           "text": "Do you have a fixed-term or permanent employment contract?",
           "text_de": "Haben Sie einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag?",
@@ -2546,20 +2683,21 @@
           "sn": 0
         }
       ],
-      "sn": 39,
+      "sn": 40,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
     "emp0705": {
       "question": "emp0705",
       "name": "emp0705",
-      "label": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (...emp0400)",
+      "label": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (. . .emp0400)",
+      "label_de": "Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden? IF emp0200 = 1, 2, 3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zur Zeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
       "items": [
         {
           "item": "1",
-          "number": "71",
+          "number": "72",
           "concept": "emp0705",
-          "text": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (...emp0400)",
+          "text": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (. . .emp0400)",
           "text_de": "Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden? IF emp0200 = 1, 2, 3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zur Zeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
           "scale": "dec",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
@@ -2580,7 +2718,7 @@
           "sn": 0
         }
       ],
-      "sn": 40,
+      "sn": 41,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2588,10 +2726,11 @@
       "question": "emp0715",
       "name": "emp0715",
       "label": "Please state the approximate number of hours.",
+      "label_de": "Bitte geben Sie die ungefaehre Stundenzahl an.",
       "items": [
         {
           "item": "1",
-          "number": "72",
+          "number": "73",
           "concept": "emp0715",
           "text": "Please state the approximate number of hours.",
           "text_de": "Bitte geben Sie die ungefaehre Stundenzahl an.",
@@ -2600,41 +2739,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 41,
-      "instrument": "wid3_F2F2_module3",
-      "study": "twinlife"
-    },
-    "emp0706": {
-      "question": "emp0706",
-      "name": "emp0706",
-      "label": "And how many hours do you generally work per week, including any overtime?",
-      "items": [
-        {
-          "item": "1",
-          "number": "73",
-          "concept": "emp0706",
-          "text": "And how many hours do you generally work per week, including any overtime?",
-          "text_de": "Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
-          "scale": "dec",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
-          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
-          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -2650,16 +2755,52 @@
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
-    "emp2300": {
-      "question": "emp2300",
-      "name": "emp2300",
-      "label": "Do you work shifts? [If emp0200 = 1,2,3] (...emp0400)",
+    "emp0706": {
+      "question": "emp0706",
+      "name": "emp0706",
+      "label": "And how many hours do you generally work per week, including any overtime?",
+      "label_de": "Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
       "items": [
         {
           "item": "1",
           "number": "74",
+          "concept": "emp0706",
+          "text": "And how many hours do you generally work per week, including any overtime?",
+          "text_de": "Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
+          "scale": "dec",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 43,
+      "instrument": "wid3_F2F2_module3",
+      "study": "twinlife"
+    },
+    "emp2300": {
+      "question": "emp2300",
+      "name": "emp2300",
+      "label": "Do you work shifts? [If emp0200 = 1,2,3] (. . .emp0400)",
+      "label_de": "Arbeiten Sie in Schichtarbeit? [If emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben",
+      "items": [
+        {
+          "item": "1",
+          "number": "75",
           "concept": "emp2300",
-          "text": "Do you work shifts? [If emp0200 = 1,2,3] (...emp0400)",
+          "text": "Do you work shifts? [If emp0200 = 1,2,3] (. . .emp0400)",
           "text_de": "Arbeiten Sie in Schichtarbeit? [If emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==5 | emp0200==1 | emp0200==2 | emp0200==3)",
@@ -2675,6 +2816,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -2688,7 +2834,7 @@
           "sn": 0
         }
       ],
-      "sn": 43,
+      "sn": 44,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2696,10 +2842,11 @@
       "question": "emp2301",
       "name": "emp2301",
       "label": "Please indicate whether you work continuously, regularly or occasionally in shifts?",
+      "label_de": "Geben Sie bitte an, ob Sie staendig, regelmaessig oder gelegentlich in Schichten arbeiten?",
       "items": [
         {
           "item": "1",
-          "number": "75",
+          "number": "76",
           "concept": "emp2301",
           "text": "Please indicate whether you work continuously, regularly or occasionally in shifts?",
           "text_de": "Geben Sie bitte an, ob Sie staendig, regelmaessig oder gelegentlich in Schichten arbeiten?",
@@ -2725,7 +2872,7 @@
           "sn": 0
         }
       ],
-      "sn": 44,
+      "sn": 45,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2733,10 +2880,11 @@
       "question": "emp2302",
       "name": "emp2302",
       "label": "How often do you work on Sundays or public holidays?",
+      "label_de": "Wie haeufig kommt es vor, dass Sie sonn- oder feiertags arbeiten?",
       "items": [
         {
           "item": "1",
-          "number": "76",
+          "number": "77",
           "concept": "emp2302",
           "text": "How often do you work on Sundays or public holidays?",
           "text_de": "Wie haeufig kommt es vor, dass Sie sonn- oder feiertags arbeiten?",
@@ -2772,7 +2920,7 @@
           "sn": 0
         }
       ],
-      "sn": 45,
+      "sn": 46,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2780,10 +2928,11 @@
       "question": "emp0708",
       "name": "emp0708",
       "label": "Is it considered marginal employment in accordance with the 450/850 euro rule (mini-/midi-job)?",
+      "label_de": "Ist das eine geringfuegige Beschaeftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?",
       "items": [
         {
           "item": "1",
-          "number": "77",
+          "number": "78",
           "concept": "emp0708",
           "text": "Is it considered marginal employment in accordance with the 450/850 euro rule (mini-/midi-job)?",
           "text_de": "Ist das eine geringfuegige Beschaeftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?",
@@ -2811,7 +2960,7 @@
           "sn": 0
         }
       ],
-      "sn": 46,
+      "sn": 47,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2819,10 +2968,11 @@
       "question": "emp0800",
       "name": "emp0800",
       "label": "When did you leave your last job?",
+      "label_de": "Wann haben Sie bei Ihrer letzten Stelle aufgehoert zu arbeiten?",
       "items": [
         {
           "item": "0",
-          "number": "78",
+          "number": "79",
           "concept": "emp0800",
           "text": "When did you leave your last job?",
           "text_de": "Wann haben Sie bei Ihrer letzten Stelle aufgehoert zu arbeiten?",
@@ -2830,23 +2980,11 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==9 | emp0400==10 | emp0400==8 | emp0300==1)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": -81,
-              "label": "-81: not employed until now",
-              "label_de": "-81: hatte noch keine Stelle"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
-          "number": "79",
+          "number": "80",
           "concept": "emp0800",
           "text": "month",
           "text_de": "Monat",
@@ -2869,7 +3007,7 @@
         },
         {
           "item": "2",
-          "number": "80",
+          "number": "81",
           "concept": "emp0800",
           "text": "year",
           "text_de": "Jahr",
@@ -2891,7 +3029,7 @@
           "sn": 2
         }
       ],
-      "sn": 47,
+      "sn": 48,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2899,10 +3037,11 @@
       "question": "emp0802",
       "name": "emp0802",
       "label": "How long were you employed at that job?",
+      "label_de": "Wie lange waren Sie insgesamt in Ihrer letzten Stelle beschaeftigt?",
       "items": [
         {
           "item": "0",
-          "number": "81",
+          "number": "82",
           "concept": "emp0802",
           "text": "How long were you employed at that job?",
           "text_de": "Wie lange waren Sie insgesamt in Ihrer letzten Stelle beschaeftigt?",
@@ -2910,18 +3049,11 @@
           "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==9 | emp0400==10 | emp0400==8 | emp0300==1) & emp0800!=-81",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
-          "number": "82",
+          "number": "83",
           "concept": "emp0802",
           "text": "months",
           "text_de": "Monate",
@@ -2931,7 +3063,7 @@
           "answers": [
             {
               "value": -89,
-              "label": "-89: only year specified",
+              "label": "-89: only years specified",
               "label_de": "-89: nur Jahresangabe vorhanden"
             }
           ],
@@ -2939,7 +3071,7 @@
         },
         {
           "item": "2",
-          "number": "83",
+          "number": "84",
           "concept": "emp0802",
           "text": "years",
           "text_de": "Jahre",
@@ -2956,7 +3088,7 @@
           "sn": 2
         }
       ],
-      "sn": 48,
+      "sn": 49,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -2964,10 +3096,11 @@
       "question": "emp0804",
       "name": "emp0804",
       "label": "How did that job end?",
+      "label_de": "Auf welche Weise wurde diese Beschaeftigung beendet?",
       "items": [
         {
           "item": "1",
-          "number": "84",
+          "number": "85",
           "concept": "emp0804",
           "text": "How did that job end?",
           "text_de": "Auf welche Weise wurde diese Beschaeftigung beendet?",
@@ -3010,7 +3143,7 @@
           "sn": 0
         }
       ],
-      "sn": 49,
+      "sn": 50,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3018,10 +3151,11 @@
       "question": "emp0910",
       "name": "emp0910",
       "label": "What type of training is usually required for your job as [PROG: insertion emp0500]? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+      "label_de": "Welche Art von Ausbildung ist fuer Ihre Taetigkeit als [PROG: Einblendung emp0500] in der Regel derzeit erforderlich? [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
       "items": [
         {
           "item": "1",
-          "number": "85",
+          "number": "86",
           "concept": "emp0910",
           "text": "What type of training is usually required for your job as [PROG: insertion emp0500]? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
           "text_de": "Welche Art von Ausbildung ist fuer Ihre Taetigkeit als [PROG: Einblendung emp0500] in der Regel derzeit erforderlich? [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
@@ -3054,7 +3188,7 @@
           "sn": 0
         }
       ],
-      "sn": 50,
+      "sn": 51,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3062,10 +3196,11 @@
       "question": "emp1000",
       "name": "emp1000",
       "label": "Do you currently work in the city where you live?",
+      "label_de": "Liegt Ihr derzeitiger Arbeitsplatz an Ihrem Wohnort?",
       "items": [
         {
           "item": "1",
-          "number": "86",
+          "number": "87",
           "concept": "emp1000",
           "text": "Do you currently work in the city where you live?",
           "text_de": "Liegt Ihr derzeitiger Arbeitsplatz an Ihrem Wohnort?",
@@ -3085,6 +3220,11 @@
               "label_de": "-85: nicht auswertbar"
             },
             {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
               "value": 1,
               "label": "1: yes",
               "label_de": "1: ja"
@@ -3098,7 +3238,7 @@
           "sn": 0
         }
       ],
-      "sn": 51,
+      "sn": 52,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3106,10 +3246,11 @@
       "question": "emp1001",
       "name": "emp1001",
       "label": "How often do you commute from your dwelling to your place of work?",
+      "label_de": "Wie oft pendeln Sie von Ihrer Hauptwohnung zu Ihrem Arbeitsplatz?",
       "items": [
         {
           "item": "1",
-          "number": "87",
+          "number": "88",
           "concept": "emp1001",
           "text": "How often do you commute from your dwelling to your place of work?",
           "text_de": "Wie oft pendeln Sie von Ihrer Hauptwohnung zu Ihrem Arbeitsplatz?",
@@ -3142,7 +3283,7 @@
           "sn": 0
         }
       ],
-      "sn": 52,
+      "sn": 53,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3150,10 +3291,11 @@
       "question": "emp1002",
       "name": "emp1002",
       "label": "How many kilometers is your workplace away from your main apartment? [F emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+      "label_de": "Wie viele Kilometer ist Ihr Arbeitsplatz von Ihrer Hauptwohnung entfernt? [F emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
       "items": [
         {
           "item": "1",
-          "number": "88",
+          "number": "89",
           "concept": "emp1002",
           "text": "How many kilometers is your workplace away from your main apartment? [F emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
           "text_de": "Wie viele Kilometer ist Ihr Arbeitsplatz von Ihrer Hauptwohnung entfernt? [F emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
@@ -3176,63 +3318,37 @@
           "sn": 0
         }
       ],
-      "sn": 53,
+      "sn": 54,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
     "aut0101": {
       "question": "aut0101",
       "name": "aut0101",
-      "label": "[ITEMBAT]] [NCS] On a scale of 1 to 5, please tell me to what extent the following statements apply to your work situation. 1 means that the statement 'does not apply at all', 5 means that the statement 'fully applies'. With the values ââin between you can graduate your assessment.",
+      "label": "[ITEMBAT]] [NCS] On a scale of 1 to 5, please tell me to what extent the following statements apply to your work situation. 1 means that the statement 'does not apply at all', 5 means that the statement 'fully applies'. With the values in between you can graduate your assessment.",
+      "label_de": "[ITEMBAT] ][NCS] Bitte nennen Sie mir auf einer Skala von 1 bis 5, wie sehr die folgenden Aussagen auf Ihre Arbeitssituation zutreffen. Die 1 bedeutet, dass die Aussage 'ueberhaupt nicht zutrifft', die 5 bedeutet, dass die Aussage 'voll und ganz zutrifft'. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen.",
       "items": [
         {
           "item": "0",
-          "number": "89",
+          "number": "90",
           "concept": "aut0101",
-          "text": "[ITEMBAT]] [NCS] On a scale of 1 to 5, please tell me to what extent the following statements apply to your work situation. 1 means that the statement 'does not apply at all', 5 means that the statement 'fully applies'. With the values ââin between you can graduate your assessment.",
+          "text": "[ITEMBAT]] [NCS] On a scale of 1 to 5, please tell me to what extent the following statements apply to your work situation. 1 means that the statement 'does not apply at all', 5 means that the statement 'fully applies'. With the values in between you can graduate your assessment.",
           "text_de": "[ITEMBAT] ][NCS] Bitte nennen Sie mir auf einer Skala von 1 bis 5, wie sehr die folgenden Aussagen auf Ihre Arbeitssituation zutreffen. Die 1 bedeutet, dass die Aussage 'ueberhaupt nicht zutrifft', die 5 bedeutet, dass die Aussage 'voll und ganz zutrifft'. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen.",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
-          "description": "Source: Adapted from: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
-          "description_de": "Source: Adaptiert von: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: doesn't apply at all",
-              "label_de": "1: trifft ueberhaupt nicht zu"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5: applies completely",
-              "label_de": "5: trifft voll und ganz zu"
-            }
-          ],
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "90",
+          "number": "91",
           "concept": "aut0101",
           "text": "Within my working hours, I can decide for myself when I do which work tasks.",
           "text_de": "Ich kann innerhalb meiner Arbeitszeit selbst entscheiden, wann ich welche Arbeitsaufgaben erledige.",
           "scale": "cat",
-          "description": "Source: Adapted from: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
-          "description_de": "Source: Adaptiert von: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
           "answers": [
             {
               "value": 1,
@@ -3264,13 +3380,13 @@
         },
         {
           "item": "2",
-          "number": "91",
+          "number": "92",
           "concept": "aut0101",
           "text": "I can decide for myself how I carry out my work tasks.",
           "text_de": "Ich kann selbst entscheiden, auf welche Weise ich meine Arbeitsaufgaben erledige.",
           "scale": "cat",
-          "description": "Source: Adapted from: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
-          "description_de": "Source: Adaptiert von: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
           "answers": [
             {
               "value": 1,
@@ -3302,13 +3418,13 @@
         },
         {
           "item": "3",
-          "number": "92",
+          "number": "93",
           "concept": "aut0101",
           "text": "Most of my work involves routine activities and I rarely learn anything new.",
           "text_de": "Meine Arbeit beinhaltet groesstenteils Routinetaetigkeiten, durch die ich selten etwas Neues hinzu lerne.",
           "scale": "cat",
-          "description": "Source: Adapted from: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
-          "description_de": "Source: Adaptiert von: Lutz, J., Kemper, C. J., Beierlein, C., Margraf-Stiksrud, J., & Rammstedt, B. (2013). Konstruktion und Validierung einer Skala zur relativen Messung von physischer Attraktivitaet mit einem Item: Das Attraktivitaetsrating 1 (AR1). Methoden, Daten, Analysen (mda), 7(2), 209-232  ",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
           "answers": [
             {
               "value": 1,
@@ -3339,7 +3455,7 @@
           "sn": 3
         }
       ],
-      "sn": 54,
+      "sn": 55,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3347,10 +3463,11 @@
       "question": "emp1100",
       "name": "emp1100",
       "label": "How likely do you think you will be to lose your job in the next two years? Please answer on a scale from 1 to 5, where 1 means 'very unlikely' and 5 means 'very likely'. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions about your last job. If you are currently on parental leave and working at the same time, answer the questions about your current job.",
+      "label_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie in den kommenden zwei Jahren den Arbeitsplatz verlieren? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 'sehr unwahrscheinlich' bedeutet und 5 'sehr wahrscheinlich'. [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
       "items": [
         {
           "item": "1",
-          "number": "93",
+          "number": "94",
           "concept": "emp1100",
           "text": "How likely do you think you will be to lose your job in the next two years? Please answer on a scale from 1 to 5, where 1 means 'very unlikely' and 5 means 'very likely'. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions about your last job. If you are currently on parental leave and working at the same time, answer the questions about your current job.",
           "text_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie in den kommenden zwei Jahren den Arbeitsplatz verlieren? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 'sehr unwahrscheinlich' bedeutet und 5 'sehr wahrscheinlich'. [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
@@ -3388,20 +3505,21 @@
           "sn": 0
         }
       ],
-      "sn": 55,
+      "sn": 56,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
     "emp1200": {
       "question": "emp1200",
       "name": "emp1200",
-      "label": "Overall, is what you do at work and what you get for it in return generally balanced? Please answer on a scale of 1 to 5, where 1 means that it is completely unbalanced and 5 means that it is completely balanced. With the values ââin between you can graduate your assessment again. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+      "label": "Overall, is what you do at work and what you get for it in return generally balanced? Please answer on a scale of 1 to 5, where 1 means that it is completely unbalanced and 5 means that it is completely balanced. With the values in between you can graduate your assessment again. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+      "label_de": "Alles in allem: Ist das, was Sie an Ihrem Arbeitsplatz leisten, und das, was Sie dafuer bekommen, in der Regel ausgeglichen? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 bedeutet, dass es absolut unausgeglichen ist und 5 bedeutet, dass es absolut ausgeglichen ist. Mit den Werten dazwischen koennen Sie Ihre Meinung wieder abstufen. [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben",
       "items": [
         {
           "item": "1",
-          "number": "94",
+          "number": "95",
           "concept": "emp1200",
-          "text": "Overall, is what you do at work and what you get for it in return generally balanced? Please answer on a scale of 1 to 5, where 1 means that it is completely unbalanced and 5 means that it is completely balanced. With the values ââin between you can graduate your assessment again. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+          "text": "Overall, is what you do at work and what you get for it in return generally balanced? Please answer on a scale of 1 to 5, where 1 means that it is completely unbalanced and 5 means that it is completely balanced. With the values in between you can graduate your assessment again. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
           "text_de": "Alles in allem: Ist das, was Sie an Ihrem Arbeitsplatz leisten, und das, was Sie dafuer bekommen, in der Regel ausgeglichen? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 bedeutet, dass es absolut unausgeglichen ist und 5 bedeutet, dass es absolut ausgeglichen ist. Mit den Werten dazwischen koennen Sie Ihre Meinung wieder abstufen. [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
@@ -3437,7 +3555,7 @@
           "sn": 0
         }
       ],
-      "sn": 56,
+      "sn": 57,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3445,10 +3563,11 @@
       "question": "inc0103",
       "name": "inc0103",
       "label": "If you can't or don't wish to state an amount, please indicate which income group your monthly gross income falls into.",
+      "label_de": "Wenn Sie einen exakten Betrag nicht nennen koennen oder wollen, dann geben Sie bitte an, in welche Einkommenskategorie Ihr durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann.",
       "items": [
         {
           "item": "1",
-          "number": "95",
+          "number": "96",
           "concept": "inc0103",
           "text": "If you can't or don't wish to state an amount, please indicate which income group your monthly gross income falls into.",
           "text_de": "Wenn Sie einen exakten Betrag nicht nennen koennen oder wollen, dann geben Sie bitte an, in welche Einkommenskategorie Ihr durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann.",
@@ -3531,7 +3650,7 @@
           "sn": 0
         }
       ],
-      "sn": 57,
+      "sn": 58,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3539,10 +3658,11 @@
       "question": "inc0200",
       "name": "inc0200",
       "label": "When you think about your current gross income, would you say that what you get paid is fair for the work you do, or is it above or below what you consider fair?",
+      "label_de": "Wenn Sie an Ihr gegenwaertiges Bruttoeinkommen denken, wuerden Sie sagen, dass es in Bezug auf Ihre Taetigkeit gerecht oder ungerechterweise zu hoch oder ungerechterweise zu niedrig ist?",
       "items": [
         {
           "item": "1",
-          "number": "96",
+          "number": "97",
           "concept": "inc0200",
           "text": "When you think about your current gross income, would you say that what you get paid is fair for the work you do, or is it above or below what you consider fair?",
           "text_de": "Wenn Sie an Ihr gegenwaertiges Bruttoeinkommen denken, wuerden Sie sagen, dass es in Bezug auf Ihre Taetigkeit gerecht oder ungerechterweise zu hoch oder ungerechterweise zu niedrig ist?",
@@ -3570,7 +3690,7 @@
           "sn": 0
         }
       ],
-      "sn": 58,
+      "sn": 59,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3578,10 +3698,11 @@
       "question": "inc0201",
       "name": "inc0201",
       "label": "What do you consider a fair gross monthly income for you?",
+      "label_de": "Was waere in Ihren Augen ein gerechtes monatliches Bruttoeinkommen fuer Sie?",
       "items": [
         {
           "item": "0",
-          "number": "97",
+          "number": "98",
           "concept": "inc0201",
           "text": "What do you consider a fair gross monthly income for you?",
           "text_de": "Was waere in Ihren Augen ein gerechtes monatliches Bruttoeinkommen fuer Sie?",
@@ -3589,23 +3710,11 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inc0200==1 | inc0200==3)",
           "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
           "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only yearly income filled",
-              "label_de": "-89: nur jaehrliche Einkommensangabe gefuellt"
-            },
-            {
-              "value": -88,
-              "label": "-88: only monthly income filled",
-              "label_de": "-88: nur monatliche Einkommensangabe gefuellt"
-            }
-          ],
           "sn": 0
         },
         {
           "item": "1",
-          "number": "98",
+          "number": "99",
           "concept": "inc0201",
           "text": "monthly income",
           "text_de": "Einkommen pro MONAT",
@@ -3628,7 +3737,7 @@
         },
         {
           "item": "2",
-          "number": "99",
+          "number": "100",
           "concept": "inc0201",
           "text": "yearly income",
           "text_de": "Einkommen pro JAHR",
@@ -3650,7 +3759,7 @@
           "sn": 2
         }
       ],
-      "sn": 59,
+      "sn": 60,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3658,10 +3767,11 @@
       "question": "eca0800",
       "name": "eca0800",
       "label": "Would you like to earn a (further) vocational training qualification or university diploma in the future?",
+      "label_de": "Streben Sie in der Zukunft einen beruflichen Ausbildungsabschluss oder Hochschulabschluss an? Wenn Sie bereits einen Abschluss haben: Streben Sie einen weiteren Ausbildungsabschluss oder Hochschulabschluss an?",
       "items": [
         {
           "item": "1",
-          "number": "100",
+          "number": "101",
           "concept": "eca0800",
           "text": "Would you like to earn a (further) vocational training qualification or university diploma in the future?",
           "text_de": "Streben Sie in der Zukunft einen beruflichen Ausbildungsabschluss oder Hochschulabschluss an? Wenn Sie bereits einen Abschluss haben: Streben Sie einen weiteren Ausbildungsabschluss oder Hochschulabschluss an?",
@@ -3689,7 +3799,7 @@
           "sn": 0
         }
       ],
-      "sn": 60,
+      "sn": 61,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3697,10 +3807,11 @@
       "question": "eca0801",
       "name": "eca0801",
       "label": "How likely do you think is it that you will earn this qualification? Please tell me a value between 0 and 100. Value 0 stands for 0% probability, value 100 stands for 100% probability.",
+      "label_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss mal erreichen? Bitte nennen Sie mir einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'.",
       "items": [
         {
           "item": "1",
-          "number": "101",
+          "number": "102",
           "concept": "eca0801",
           "text": "How likely do you think is it that you will earn this qualification? Please tell me a value between 0 and 100. Value 0 stands for 0% probability, value 100 stands for 100% probability.",
           "text_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss mal erreichen? Bitte nennen Sie mir einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'.",
@@ -3768,7 +3879,7 @@
           "sn": 0
         }
       ],
-      "sn": 61,
+      "sn": 62,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3776,10 +3887,11 @@
       "question": "eca0700",
       "name": "eca0700",
       "label": "What type of school-leaving qualification would you like to attain?",
+      "label_de": "[IF age >= 4 & age < =15]: Welchen Schulabschluss moechtest Du einmal erreichen? [IF age >15 ]: Welchen Schulabschluss moechten Sie einmal erreichen?",
       "items": [
         {
           "item": "1",
-          "number": "102",
+          "number": "103",
           "concept": "eca0700",
           "text": "What type of school-leaving qualification would you like to attain?",
           "text_de": "[IF age >= 4 & age < =15]: Welchen Schulabschluss moechtest Du einmal erreichen? [IF age >15 ]: Welchen Schulabschluss moechten Sie einmal erreichen?",
@@ -3810,14 +3922,14 @@
             },
             {
               "value": 5,
-              "label": "5: no specific school leaving certificate (from F2F2)",
-              "label_de": "5: keinen bestimmten Schulabschluss (ab F2F2)"
+              "label": "5: no specific school leaving certificate [from F2F 2]",
+              "label_de": "5: keinen bestimmten Schulabschluss [ab F2F 2]"
             }
           ],
           "sn": 0
         }
       ],
-      "sn": 62,
+      "sn": 63,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3825,10 +3937,11 @@
       "question": "eca0701",
       "name": "eca0701",
       "label": "How likely do you think is it that you will attain this school-leaving qualification? Please tell me a value between 0 and 100. Value 0 stands for 0% probability, value 100 stands for 100% probability.",
+      "label_de": "[IF age >= 4 & age < =15]: Fuer wie wahrscheinlich haeltst Du es, dass Du diesen Abschluss erreichst? Bitte nenne einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'. [IF age >15]: Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss erreichen? Bitte nennen Sie mir einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'.",
       "items": [
         {
           "item": "1",
-          "number": "103",
+          "number": "104",
           "concept": "eca0701",
           "text": "How likely do you think is it that you will attain this school-leaving qualification? Please tell me a value between 0 and 100. Value 0 stands for 0% probability, value 100 stands for 100% probability.",
           "text_de": "[IF age >= 4 & age < =15]: Fuer wie wahrscheinlich haeltst Du es, dass Du diesen Abschluss erreichst? Bitte nenne einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'. [IF age >15]: Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss erreichen? Bitte nennen Sie mir einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'.",
@@ -3896,7 +4009,7 @@
           "sn": 0
         }
       ],
-      "sn": 63,
+      "sn": 64,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3904,10 +4017,11 @@
       "question": "mig0200",
       "name": "mig0200",
       "label": "What year did you arrive in Germany?",
+      "label_de": "Seit wann leben Sie in Deutschland?",
       "items": [
         {
           "item": "1",
-          "number": "104",
+          "number": "105",
           "concept": "mig0200",
           "text": "What year did you arrive in Germany?",
           "text_de": "Seit wann leben Sie in Deutschland?",
@@ -3918,7 +4032,7 @@
           "answers": [
             {
               "value": -86,
-              "label": "-86: not available/empty/not codeable",
+              "label": "-86: not available/empty/not codable",
               "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
             },
             {
@@ -3930,7 +4044,7 @@
           "sn": 0
         }
       ],
-      "sn": 64,
+      "sn": 65,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3938,10 +4052,11 @@
       "question": "mig0700",
       "name": "mig0700",
       "label": "Do you have a permanent or temporary residence permit?",
+      "label_de": "Haben Sie heute eine unbefristete oder eine befristete Aufenthaltserlaubnis?",
       "items": [
         {
           "item": "1",
-          "number": "105",
+          "number": "106",
           "concept": "mig0700",
           "text": "Do you have a permanent or temporary residence permit?",
           "text_de": "Haben Sie heute eine unbefristete oder eine befristete Aufenthaltserlaubnis?",
@@ -3974,7 +4089,7 @@
           "sn": 0
         }
       ],
-      "sn": 65,
+      "sn": 66,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -3982,13 +4097,14 @@
       "question": "mig0800",
       "name": "mig0800",
       "label": "Do you speak . . . at home?",
+      "label_de": "Sprechen Sie zuhause . . .",
       "items": [
         {
           "item": "1",
-          "number": "106",
+          "number": "107",
           "concept": "mig0800",
           "text": "Do you speak . . . at home?",
-          "text_de": "Sprechen Sie zuhause ...",
+          "text_de": "Sprechen Sie zuhause . . .",
           "scale": "cat",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=16",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
@@ -4023,7 +4139,7 @@
           "sn": 0
         }
       ],
-      "sn": 66,
+      "sn": 67,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     },
@@ -4031,43 +4147,22 @@
       "question": "igf0140",
       "name": "igf0140",
       "label": "CFT 20-R T1.1 short: result (gen)",
+      "label_de": "CFT 20-R T1.1 kurz: Ergebnis (gen)",
       "items": [
         {
           "item": "0",
-          "number": "107",
+          "number": "108",
           "concept": "igf0140",
           "text": "CFT 20-R T1.1 short: result (gen)",
           "text_de": "CFT 20-R T1.1 kurz: Ergebnis (gen)",
           "scale": "txt",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=10 & new==1",
-          "description": "Source: Gottschling, J. (2017). Documentation TwinLife Data: Cognitive Abilities (TwinLife Technical Report Series, 02). Bielefeld: Project TwinLife Genetic and social causes of life chances (Bielefeld University / Saarland University)",
-          "description_de": "Source: Gottschling, J. (2017). Documentation TwinLife Data: Cognitive Abilities (TwinLife Technical Report Series, 02). Bielefeld: Project TwinLife Genetic and social causes of life chances (Bielefeld University / Saarland University)",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: worked on task in short version",
-              "label_de": "-89: Aufgabe in Kurzversion bearbeitet"
-            },
-            {
-              "value": -88,
-              "label": "-88: not worked on task",
-              "label_de": "-88: Aufgabe nicht bearbeitet"
-            },
-            {
-              "value": 0,
-              "label": "0: answer wrong",
-              "label_de": "0: Antwort falsch"
-            },
-            {
-              "value": 1,
-              "label": "1: answer right",
-              "label_de": "1: Antwort richtig"
-            }
-          ],
+          "description": "Source: Weiss, R. H. (2006). CFT 20-R. Grundintelligenztestskala 2. Manual. Goettingen, Deutschland: Hogrefe.",
+          "description_de": "Source: Weiss, R. H. (2006). CFT 20-R. Grundintelligenztestskala 2. Manual. Goettingen, Deutschland: Hogrefe.",
           "sn": 0
         }
       ],
-      "sn": 67,
+      "sn": 68,
       "instrument": "wid3_F2F2_module3",
       "study": "twinlife"
     }
