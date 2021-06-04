@@ -17,7 +17,7 @@ config:
     Prof. Dr. Frank M. Spinath (f.spinath[at]mx.uni-saarland.de)
 * **URL:** [https://www.twin-life.de/documentation/](https://www.twin-life.de/documentation/)
 
-Please cite both the dataset (Diewald et al., 2019: [https://doi.org/10.4232/1.13539](https://doi.org/10.4232/1.13539)) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
+Please cite both the dataset (Diewald, Martin et al. 2021: TwinLife. GESIS Datenarchiv, Köln. ZA6701 Datenfile Version 5.0.0, https://doi.org/10.4232/1.13747.) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
 
 ## Study info
 
