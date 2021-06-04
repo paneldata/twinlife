@@ -7,6 +7,66 @@
   "period": 4,
   "instrument": "wid4_CATI2_module5",
   "questions": {
+    "tst1400": {
+      "question": "tst1400",
+      "name": "tst1400",
+      "label": "[IF ptyp = 001] How would you rate your relationship with <NAME_ZWILLING2>? [IF ptyp = 002] How would you rate your relationship with <NAME_ZWILLING1>?",
+      "label_de": "[IF ptyp = 001] Wie wuerden Sie Ihre Beziehung zu <NAME_ZWILLING2> einschaetzen? [IF ptyp = 002] Wie wuerden Sie Ihre Beziehung zu <NAME_ZWILLING1> einschaetzen?",
+      "items": [
+        {
+          "item": "1",
+          "number": "1",
+          "concept": "tst1400",
+          "text": "[IF ptyp = 001] How would you rate your relationship with <NAME_ZWILLING2>? [IF ptyp = 002] How would you rate your relationship with <NAME_ZWILLING1>?",
+          "text_de": "[IF ptyp = 001] Wie wuerden Sie Ihre Beziehung zu <NAME_ZWILLING2> einschaetzen? [IF ptyp = 002] Wie wuerden Sie Ihre Beziehung zu <NAME_ZWILLING1> einschaetzen?",
+          "scale": "cat",
+          "filter": "inlist(ptyp,1,2) & version_ptyp==ptyp",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: very bad",
+              "label_de": "1: sehr schlecht"
+            },
+            {
+              "value": 2,
+              "label": "2: bad",
+              "label_de": "2: schlecht"
+            },
+            {
+              "value": 3,
+              "label": "3: rather bad",
+              "label_de": "3: eher schlecht"
+            },
+            {
+              "value": 4,
+              "label": "4: neither bad nor good",
+              "label_de": "4: weder schlecht noch gut"
+            },
+            {
+              "value": 5,
+              "label": "5: rather good",
+              "label_de": "5: eher gut"
+            },
+            {
+              "value": 6,
+              "label": "6: good",
+              "label_de": "6: gut"
+            },
+            {
+              "value": 7,
+              "label": "7: very good",
+              "label_de": "7: sehr gut"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid4_CATI2_module5",
+      "study": "twinlife"
+    },
     "tst1500": {
       "question": "tst1500",
       "name": "tst1500",
@@ -15,7 +75,7 @@
       "items": [
         {
           "item": "1",
-          "number": "1",
+          "number": "2",
           "concept": "tst1500",
           "text": "How often has it happened that family members, friends or acquaintances envied you for being a twin?",
           "text_de": "Wie haeufig kam es schon vor, dass Familienmitglieder, Freunde oder Bekannte Sie darum beneideten, ein Zwilling zu sein?",
@@ -53,7 +113,7 @@
           "sn": 0
         }
       ],
-      "sn": 0,
+      "sn": 1,
       "instrument": "wid4_CATI2_module5",
       "study": "twinlife"
     },
@@ -65,7 +125,7 @@
       "items": [
         {
           "item": "1",
-          "number": "2",
+          "number": "3",
           "concept": "tst1600",
           "text": "[IF ptyp = 001] How often does it happen that you compare yourself with <NAME_ZWILLING2>? [IF ptyp = 002] How often does it happen that you compare yourself with <NAME_ZWILLING1>?",
           "text_de": "[IF ptyp = 001] Wie haeufig kommt es vor, dass Sie sich mit <NAME_ZWILLING2> vergleichen? [IF ptyp = 002] Wie haeufig kommt es vor, dass Sie sich mit <NAME_ZWILLING1> vergleichen?",
@@ -113,7 +173,7 @@
           "sn": 0
         }
       ],
-      "sn": 1,
+      "sn": 2,
       "instrument": "wid4_CATI2_module5",
       "study": "twinlife"
     },
@@ -125,7 +185,7 @@
       "items": [
         {
           "item": "1",
-          "number": "3",
+          "number": "4",
           "concept": "tsp1400",
           "text": "How would you rate the relationship between <NAME_ZWILLING1> and <NAME_ZWILLING2>?",
           "text_de": "Wie wuerden Sie die Beziehung zwischen  <NAME_ZWILLING1> und <NAME_ZWILLING2> einschaetzen?",
@@ -173,7 +233,7 @@
           "sn": 0
         }
       ],
-      "sn": 2,
+      "sn": 3,
       "instrument": "wid4_CATI2_module5",
       "study": "twinlife"
     },
@@ -185,7 +245,7 @@
       "items": [
         {
           "item": "1",
-          "number": "4",
+          "number": "5",
           "concept": "tsp1500",
           "text": "How often has it happened that you were envied by friends, acquaintances or other parent couples for having a pair of twins in your family?",
           "text_de": "Wie haeufig kam es schon vor, dass sie von Freunden, Bekannten oder anderen Elternpaaren darum beneidet wurden, ein Zwillingspaar in Ihrer Familie zu haben?",
@@ -223,7 +283,7 @@
           "sn": 0
         }
       ],
-      "sn": 3,
+      "sn": 4,
       "instrument": "wid4_CATI2_module5",
       "study": "twinlife"
     },
@@ -235,7 +295,7 @@
       "items": [
         {
           "item": "1",
-          "number": "5",
+          "number": "6",
           "concept": "tsp1600",
           "text": "How often does it happen that the two twins compare each other?",
           "text_de": "Wie haeufig kommt es vor, dass sich die beiden Zwillinge vergleichen?",
@@ -283,7 +343,7 @@
           "sn": 0
         }
       ],
-      "sn": 4,
+      "sn": 5,
       "instrument": "wid4_CATI2_module5",
       "study": "twinlife"
     },
@@ -295,7 +355,7 @@
       "items": [
         {
           "item": "1",
-          "number": "6",
+          "number": "7",
           "concept": "ris0100",
           "text": "Finally, we would like to ask you a question about your willingness to take risks. Please consider what you would do in the following situation: You win 100,000 euros in a lottery and you receive an offer. If you accept this offer, the chance of doubling your 100,000 euros is just as high as the risk of losing half of the money. You can participate with all or part of your 100,000 euros or reject the offer completely. What part of the 100,000 euros would you wager? (Remember: you can either double your money or lose half).",
           "text_de": "Zum Abschluss moechten wir Ihnen noch gerne eine Frage zu Ihrer Risikobereitschaft stellen. Ueberlegen Sie bitte, was Sie in folgender Situation tun wuerden: Sie gewinnen in einer Lotterie 100.000 Euro und Sie erhalten ein Angebot. Wenn Sie auf dieses Angebot eingehen, ist die Chance darauf, Ihre 100.000 Euro zu verdoppeln genauso hoch wie das Risiko, die Haelfte des Geldes zu verlieren. Sie koennen mit Ihren 100.000Euro ganz oder teilweise teilnehmen oder das Angebot komplett ablehnen. Welchen Teil der 100.000Euro wuerden Sie einsetzen? (Zur Erinnerung: Sie koennen Ihr Geld entweder verdoppeln oder die Haelfte verlieren.)",
@@ -336,7 +396,7 @@
           "sn": 0
         }
       ],
-      "sn": 5,
+      "sn": 6,
       "instrument": "wid4_CATI2_module5",
       "study": "twinlife"
     }

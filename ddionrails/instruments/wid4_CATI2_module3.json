@@ -2,68 +2,22 @@
   "study": "twinlife",
   "name": "wid4_CATI2_module3",
   "label": "CATI 2: employment/education (CATI)",
-  "description": "This questionnaire module contains questions on: classification of occupation; educational and employment status of all household members (employment / education / vocational training / parental leave / pension); history of education and graduation: educational degrees, vocational training, year abroad; occupational status; type of education / training; current status of education / qualification.",
+  "description": "This questionnaire module contains questions on: classification of occupation; history of education and graduation: educational degrees, vocational training, year abroad; occupational status; type of education / training; current status of education / qualification.",
   "analysis_unit": "individual",
   "period": 4,
   "instrument": "wid4_CATI2_module3",
   "questions": {
-    "hpr0101": {
-      "question": "hpr0101",
-      "name": "hpr0101",
-      "label": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
-      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
-      "items": [
-        {
-          "item": "0",
-          "number": "1",
-          "concept": "hpr0101",
-          "text": "[MCQ] Please indicate what currently applies to you in terms of school or employment. [LOOP] Please indicate what currently applies to <NAME> concerning school or employment.",
-          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft. [LOOP] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf <NAME> zutrifft.",
-          "scale": "txt",
-          "filter": "age0110<=6 & ((ptyp==1 & flt==1) | (ptyp==2 & flu==1) | (ptyp==200 & fls==1))",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "sn": 0
-        },
-        {
-          "item": "1",
-          "number": "19",
-          "concept": "hpr0101",
-          "text": "other: [OPEN]",
-          "text_de": "Sonstiges: [OPEN]",
-          "scale": "cat",
-          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not mentioned",
-              "label_de": "0: nicht genannt"
-            },
-            {
-              "value": 1,
-              "label": "1: mentioned",
-              "label_de": "1: genannt"
-            }
-          ],
-          "sn": 2
-        }
-      ],
-      "sn": 0,
-      "instrument": "wid4_CATI2_module3",
-      "study": "twinlife"
-    },
     "emp0520": {
       "question": "emp0520",
       "name": "emp0520",
-      "label": "You said in the last interview in [INTDATM/INTDATY] that you worked as [emp0500_2[Preload]]. Is this still currently true?\n",
+      "label": "You said you worked as a [emp0500_2[preload]] when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true?\n",
       "label_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie als [emp0500_2[Preload]] taetig waren. Trifft dies aktuell immer noch zu?",
       "items": [
         {
           "item": "1",
-          "number": "20",
+          "number": "1",
           "concept": "emp0520",
-          "text": "You said in the last interview in [INTDATM/INTDATY] that you worked as [emp0500_2[Preload]]. Is this still currently true?\n",
+          "text": "You said you worked as a [emp0500_2[preload]] when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true?\n",
           "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie als [emp0500_2[Preload]] taetig waren. Trifft dies aktuell immer noch zu?",
           "filter": "(hpr0104==1 | hpr0105==1 | hpr0107==1) & !missing(emp0500_3) & proxy != 1",
           "answers": [
@@ -86,7 +40,7 @@
           "sn": 0
         }
       ],
-      "sn": 1,
+      "sn": 0,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -98,7 +52,7 @@
       "items": [
         {
           "item": "1",
-          "number": "21",
+          "number": "2",
           "concept": "emp0620",
           "text": "In the last interview, we noted that you worked in [INTDATM/INTDATY] as [emp0600_2[preload]]. Is that still true at the\nmoment?",
           "text_de": "Im letzten Interview haben wir notiert, dass Sie im [INTDATM/INTDATY] als [emp0600_2[Preload]] taetig waren. Trifft das aktuell immer noch zu?",
@@ -123,7 +77,7 @@
           "sn": 0
         }
       ],
-      "sn": 2,
+      "sn": 1,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -135,7 +89,7 @@
       "items": [
         {
           "item": "1",
-          "number": "22",
+          "number": "3",
           "concept": "emp0600",
           "text": "In what professional position are you currently employed?",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt?",
@@ -173,21 +127,21 @@
           "sn": 0
         }
       ],
-      "sn": 3,
+      "sn": 2,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
     "edu0420": {
       "question": "edu0420",
       "name": "edu0420",
-      "label": "You said in the [INTDATM/INTDATY] that you attend [edu0400_2[Preload]] when you were last interviewed. Is this still\ncurrently true?",
+      "label": "You said you attended [edu0400_2[Preload]] when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true?",
       "label_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0400_2[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
       "items": [
         {
           "item": "1",
-          "number": "23",
+          "number": "4",
           "concept": "edu0420",
-          "text": "You said in the [INTDATM/INTDATY] that you attend [edu0400_2[Preload]] when you were last interviewed. Is this still\ncurrently true?",
+          "text": "You said you attended [edu0400_2[Preload]] when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true?",
           "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0400_2[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
           "scale": "cat",
           "filter": "proxy != 1 & hpr0102==1 & inrange(edu0400_3,1,11)",
@@ -211,7 +165,7 @@
           "sn": 0
         }
       ],
-      "sn": 4,
+      "sn": 3,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -223,7 +177,7 @@
       "items": [
         {
           "item": "0",
-          "number": "24",
+          "number": "5",
           "concept": "edu0400",
           "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
@@ -234,7 +188,7 @@
           "sn": 0
         }
       ],
-      "sn": 5,
+      "sn": 4,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -246,7 +200,7 @@
       "items": [
         {
           "item": "0",
-          "number": "25",
+          "number": "6",
           "concept": "edu0402",
           "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
@@ -257,7 +211,7 @@
           "sn": 0
         }
       ],
-      "sn": 6,
+      "sn": 5,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -269,7 +223,7 @@
       "items": [
         {
           "item": "1",
-          "number": "26",
+          "number": "7",
           "concept": "edu0320",
           "text": "You said you were attending [edu0303_3] when you were last surveyed in [INTDATM/INTDATY]. Is this still currently true?",
           "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0303_3] besuchen. Trifft dies aktuell immer noch zu?",
@@ -295,7 +249,7 @@
           "sn": 0
         }
       ],
-      "sn": 7,
+      "sn": 6,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -307,7 +261,7 @@
       "items": [
         {
           "item": "0",
-          "number": "27",
+          "number": "8",
           "concept": "edu0303",
           "text": "What kind of higher education is this?",
           "text_de": "Was fuer eine Hochschulausbildung ist das?",
@@ -318,7 +272,7 @@
           "sn": 0
         }
       ],
-      "sn": 8,
+      "sn": 7,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -330,7 +284,7 @@
       "items": [
         {
           "item": "1",
-          "number": "28",
+          "number": "9",
           "concept": "edu0330",
           "text": "[IF edu0307[preload] = 1,2,4,8] You said you were doing a <edu0307_2[preload]> when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true? [IF edu0307_2[preload] = 3,5,6,7] You said you were attending a <edu0307_2[preload]> when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true? [IF edu0307_2[preload] = 9] I recorded the following in response to the question about what kind of vocational training you are doing during the last interview: <edu0308_2[preload]>. Is this still currently true?",
           "text_de": "[IF edu0307[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie [IF edu0307_2[Preload] = 1,2 ein/ IF edu0307_2[Preload] = 4,8 eine] <edu0307_2[preload]> machen. Trifft dies aktuell immer noch zu? [IF edu0307_2[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie eine <edu0307_2[preload]> besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_2[Preload] = 9] Bei der letzten Befragung im [INTDATM/INTDATY] habe ich mir zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: <edu0308_2[preload]>. Trifft dies aktuell immer noch zu?",
@@ -356,7 +310,7 @@
           "sn": 0
         }
       ],
-      "sn": 9,
+      "sn": 8,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -368,7 +322,7 @@
       "items": [
         {
           "item": "0",
-          "number": "29",
+          "number": "10",
           "concept": "edu0307",
           "text": "What kind of vocational training is this?",
           "text_de": "Was fuer eine berufliche Ausbildung ist das?",
@@ -379,7 +333,7 @@
           "sn": 0
         }
       ],
-      "sn": 10,
+      "sn": 9,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -391,7 +345,7 @@
       "items": [
         {
           "item": "0",
-          "number": "30",
+          "number": "11",
           "concept": "eca0900",
           "text": "[IF proxy=2] Have you received a school degree since the last interview, i.e., since the <INTDATM INTDATY>? [IF proxy=1] Have you or any of the following received a school degree since the last interview, i.e., since <INTDATM INTDATY>? For this question, we are referring to the following family members: [PROG: INSERT PERSONS BY NAME] / Have you or your partner received a school degree since the last interview, i.e., since <INTDATM INTDATY>? Of the persons named, who did so?",
           "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem  <INTDATM INTDATY>, einen Schulabschluss erworben? [IF proxy=1] Haben Sie oder eine der folgenden Personen seit dem letzten Interview, d.h. seit dem  <INTDATM INTDATY>, einen Schulabschluss erworben? Bei dieser Frage geht es uns um folgende Familienmitglieder: [PROG: EINBLENDUNG PERSONEN mit NAMEN] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, einen Schulabschluss erworben? Wer von den genannten Personen war das?",
@@ -402,7 +356,7 @@
           "sn": 0
         }
       ],
-      "sn": 11,
+      "sn": 10,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -414,7 +368,7 @@
       "items": [
         {
           "item": "0",
-          "number": "31",
+          "number": "12",
           "concept": "eca0901",
           "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
@@ -425,7 +379,7 @@
           "sn": 0
         }
       ],
-      "sn": 12,
+      "sn": 11,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -437,7 +391,7 @@
       "items": [
         {
           "item": "0",
-          "number": "32",
+          "number": "13",
           "concept": "eca1000",
           "text": "[IF proxy=2] Since the last interview, i.e., <INTDATM/INTDATY>, have you obtained a vocational training or university degree? [IF proxy=1] Please indicate whether you or any of the following have obtained a vocational training or university degree since the last interview, i.e., since <INTDATM/ INTDATY>? For this question, we are referring to the following family members: [names_list] / Since the last interview, i.e., <INTDATM/ INTDATY>, have you or your partner obtained a vocational training or university degree? Of the persons named, who did so?",
           "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem  <INTDATM/INTDATY>, einen Ausbildungs- oder Studienabschluss erworben? [IF proxy=1] Bitte geben Sie an, ob Sie oder jemand von den folgenden Personen seit dem letzten Interview, d.h. seit dem <INTDATM/ INTDATY>, einen Ausbildungs- oder Studienabschluss erworben hat? Bei diese Frage geht es uns um folgende Familienmitglieder: [Namen_Liste] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem <INTDATM/ INTDATY>, einen Ausbildungs- oder Studienabschluss erworben? Wer von den genannten Personen war das?",
@@ -448,7 +402,7 @@
           "sn": 0
         }
       ],
-      "sn": 13,
+      "sn": 12,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -460,7 +414,7 @@
       "items": [
         {
           "item": "0",
-          "number": "33",
+          "number": "14",
           "concept": "eca1100",
           "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
@@ -469,7 +423,7 @@
           "sn": 0
         }
       ],
-      "sn": 14,
+      "sn": 13,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -481,7 +435,7 @@
       "items": [
         {
           "item": "0",
-          "number": "34",
+          "number": "15",
           "concept": "eca1200",
           "text": "[IF proxy=2] Have you dropped out of school, training, or study since the last interview, i.e., since the <INTDATM INTDATY>? [IF proxy=1] Since the last interview, i.e., since the <INTDATM INTDATY>, have you or any of the following dropped out of school, training, or study? For this question, we are referring to the following family members: [PROG: INSERT PERSONS BY NAME] / Since the last interview, i.e., since <INTDATM INTDATY>, have you or your partner dropped out of school, training, or study? Of the persons named, who did so?",
           "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? [IF proxy=1] Haben Sie oder jemand von den folgenden Personen seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? Bei dieser Frage geht es uns um folgende Familienmitglieder: [PROG: EINBLENDUNG PERSONEN mit NAMEN] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem < INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? Wer von den genannten Personen war das?",
@@ -490,7 +444,7 @@
           "sn": 0
         }
       ],
-      "sn": 15,
+      "sn": 14,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     },
@@ -502,7 +456,7 @@
       "items": [
         {
           "item": "0",
-          "number": "35",
+          "number": "16",
           "concept": "eca1201",
           "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
@@ -511,7 +465,7 @@
           "sn": 0
         }
       ],
-      "sn": 16,
+      "sn": 15,
       "instrument": "wid4_CATI2_module3",
       "study": "twinlife"
     }
