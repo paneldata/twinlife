@@ -1,25 +1,25 @@
 {
   "study": "twinlife",
-  "name": "wid3_F2F2_module6",
-  "label": "F2F 2: certificate (CAPI)",
+  "name": "wid5_F2F3_module6",
+  "label": "F2F 3: certificate (CAPI)",
   "description": "This questionnaire module contains questions on: photos of school reports, self-report on school grades (current school marks, marks of highest graduation).",
   "analysis_unit": "individual",
-  "period": 3,
-  "instrument": "wid3_F2F2_module6",
+  "period": 5,
+  "instrument": "wid5_F2F3_module6",
   "questions": {
     "cer1001": {
       "question": "cer1001",
       "name": "cer1001",
-      "label": "[If edu0100=2 or edu0301=1] We would like to ask you to provide us with your last annual report card from general education school so that we can photograph it. Do you agree with this? [If edu0100=3 or edu0301=2 or eca0900=1] We would like to ask you to provide us with your school leaving certificate so that we can photograph it. Do you agree with this?",
-      "label_de": "[If edu0100=2 or edu0301=1] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemeinbildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [If edu0100=3 or edu0301=2 or eca0900=1] Wir moechten Sie bitten, uns Ihr Abschlusszeugnis der allgemeinbildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
+      "label": "[If edu0100=2 or edu0301=1]  We would like to ask you to provide us with your last annual report card from general education school so that we can photograph it. Do you agree with this? [If edu0100 != 2 and edu0301 !=1 and (eca0900=1 or (cer_pre = 2 and note_pre = 2)) We would like to ask you to provide us with your school leaving certificate so that we can photograph it. Do you agree with this?",
+      "label_de": "[If edu0100=2 or edu0301=1] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemeinbildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [If edu0100 != 2 and edu0301 !=1 and (eca0900=1 or (cer_pre = 2 and note_pre = 2)) Wir moechten Sie bitten, uns Ihr Abschlusszeugnis der allgemeinbildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
       "items": [
         {
           "item": "1",
-          "text": "[If edu0100=2 or edu0301=1] We would like to ask you to provide us with your last annual report card from general education school so that we can photograph it. Do you agree with this? [If edu0100=3 or edu0301=2 or eca0900=1] We would like to ask you to provide us with your school leaving certificate so that we can photograph it. Do you agree with this?",
-          "text_de": "[If edu0100=2 or edu0301=1] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemeinbildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [If edu0100=3 or edu0301=2 or eca0900=1] Wir moechten Sie bitten, uns Ihr Abschlusszeugnis der allgemeinbildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
+          "text": "[If edu0100=2 or edu0301=1]  We would like to ask you to provide us with your last annual report card from general education school so that we can photograph it. Do you agree with this? [If edu0100 != 2 and edu0301 !=1 and (eca0900=1 or (cer_pre = 2 and note_pre = 2)) We would like to ask you to provide us with your school leaving certificate so that we can photograph it. Do you agree with this?",
+          "text_de": "[If edu0100=2 or edu0301=1] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemeinbildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [If edu0100 != 2 and edu0301 !=1 and (eca0900=1 or (cer_pre = 2 and note_pre = 2)) Wir moechten Sie bitten, uns Ihr Abschlusszeugnis der allgemeinbildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "inlist(ptyp,1,2,200) & age0110>=18 & (edu0100==2 | edu0301==1 | eca0900==1)",
+          "filter": "age0110>=18 & (inlist(ptyp,1,2,200)) & ((edu0100==2 | edu0301==1) | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & mod0200_5==3",
           "concept": "cer1001",
           "scale": "cat",
           "number": "1",
@@ -54,7 +54,45 @@
         }
       ],
       "sn": 0,
-      "instrument": "wid3_F2F2_module6",
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1013": {
+      "question": "cer1013",
+      "name": "cer1013",
+      "label": "Please indicate what type of certificate it is.",
+      "label_de": "Bitte geben Sie an, um was fuer ein Zeugnis es sich handelt.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate what type of certificate it is.",
+          "text_de": "Bitte geben Sie an, um was fuer ein Zeugnis es sich handelt.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cer1013",
+          "number": "2",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: annual report",
+              "label_de": "1: Jahreszeugnis"
+            },
+            {
+              "value": 2,
+              "label": "2: final report",
+              "label_de": "2: Abschlusszeugnis"
+            },
+            {
+              "value": 3,
+              "label": "3: not identifiable",
+              "label_de": "3: nicht erkennbar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1400": {
@@ -69,10 +107,10 @@
           "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote Sie auf dem letzten Zeugnis in folgenden Faechern hatten:",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "((inlist(ptyp,1,2,200)) & age0110 >=18 & ((edu0100==2 | edu0301==1) & cer1001==2)) | ((!inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1))",
+          "filter": "(age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & mod0200_5==3 & (cer1001==2 | cer1900==3)) | (age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1400",
           "scale": "txt",
-          "number": "2",
+          "number": "3",
           "sn": 0
         },
         {
@@ -83,7 +121,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cer1400",
           "scale": "dec",
-          "number": "3",
+          "number": "4",
           "answers": [
             {
               "value": -96,
@@ -111,7 +149,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cer1400",
           "scale": "dec",
-          "number": "4",
+          "number": "5",
           "answers": [
             {
               "value": -96,
@@ -132,8 +170,8 @@
           "sn": 2
         }
       ],
-      "sn": 1,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 2,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1600": {
@@ -148,10 +186,10 @@
           "text_de": "Von welcher Klasse ist das letzte Zeugnis?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "((inlist(ptyp,1,2,200)) & age0110 >=18 & ((edu0100==2 | edu0301==1) & cer1001==2)) | ((!inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1))",
+          "filter": "(age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & mod0200_5==3 & (cer1001==2 | cer1900==3)) | (age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1600",
           "scale": "dec",
-          "number": "5",
+          "number": "6",
           "answers": [
             {
               "value": -96,
@@ -172,8 +210,8 @@
           "sn": 0
         }
       ],
-      "sn": 2,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 3,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1700": {
@@ -188,10 +226,10 @@
           "text_de": "In welcher Schulart wurde das letzte Zeugnis vergeben?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "((inlist(ptyp,1,2,200)) & age0110 >=18 & ((edu0100==2 | edu0301==1) & cer1001==2)) | ((!inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1))",
+          "filter": "(age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & mod0200_5==3 & (cer1001==2 | cer1900==3)) | (age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1700",
           "scale": "cat",
-          "number": "6",
+          "number": "7",
           "answers": [
             {
               "value": 1,
@@ -252,8 +290,8 @@
           "sn": 0
         }
       ],
-      "sn": 3,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 4,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1100": {
@@ -268,10 +306,10 @@
           "text_de": "Bitte geben Sie die Note Ihres hoechsten allgemeinbildenden Schulabschlusses an.",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "((inlist(ptyp,1,2,200)) & age0110 >=18 & (edu0100==3 & edu0301 !=1) & ((eca0900==1 & cer1001==2) | (eca0900==2 & eca0105_1<0))) | ((!inlist(ptyp,1,2,200)) & (edu0100!=2 & edu0301 !=1) & eca0105_1<0)",
+          "filter": "(age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & mod0200_5==3 & (cer1001==2 | cer1900==3)) | (age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1100",
           "scale": "txt",
-          "number": "7",
+          "number": "8",
           "sn": 0
         },
         {
@@ -282,7 +320,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cer1100",
           "scale": "int",
-          "number": "8",
+          "number": "9",
           "answers": [
             {
               "value": -86,
@@ -305,7 +343,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cer1100",
           "scale": "int",
-          "number": "9",
+          "number": "10",
           "answers": [
             {
               "value": -86,
@@ -321,8 +359,8 @@
           "sn": 2
         }
       ],
-      "sn": 4,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 5,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1200": {
@@ -337,10 +375,10 @@
           "text_de": "Welcher Art ist der Schulabschluss?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "((inlist(ptyp,1,2,200)) & age0110 >=18 & (edu0100==3 & edu0301 !=1) & ((eca0900==1 & cer1001==2) | (eca0900==2 & eca0100_1<0))) | ((!inlist(ptyp,1,2,200)) & (edu0100!=2 & edu0301 !=1) & eca0100_1<0)",
+          "filter": "(age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & mod0200_5==3 & (cer1001==2 | cer1900==3)) | (age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1200",
           "scale": "cat",
-          "number": "10",
+          "number": "11",
           "answers": [
             {
               "value": -89,
@@ -386,8 +424,8 @@
           "sn": 0
         }
       ],
-      "sn": 5,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 6,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1300": {
@@ -402,10 +440,10 @@
           "text_de": "Wann wurde der Schulabschluss erworben?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "((inlist(ptyp,1,2,200)) & age0110 >=18 & (edu0100==3 & edu0301 !=1) & ((eca0900==1 & cer1001==2) | (eca0900==2 & eca0104_1<0))) | ((!inlist(ptyp,1,2,200)) & (edu0100!=2 & edu0301 !=1) & eca0104_1<0)",
+          "filter": "(age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & mod0200_5==3 & (cer1001==2 | cer1900==3)) | (age0110>=18 & (inlist(ptyp,1,2,200)) & (edu0100==2 | edu0301==1 | eca0900==1 | (cer_pre!=1 & note_pre!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1300",
           "scale": "int",
-          "number": "11",
+          "number": "12",
           "answers": [
             {
               "value": -96,
@@ -426,69 +464,22 @@
           "sn": 0
         }
       ],
-      "sn": 6,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 7,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1001t": {
       "question": "cer1001t",
       "name": "cer1001t",
       "label": "We would like to ask you to provide us with the last annual report card of the mainstream school of <NAME DES KINDES> so that we can take photograph it. Do you consent to that?",
-      "label_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
+      "label_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule (oder Abschlusszeugnis) von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
       "items": [
         {
           "item": "1",
           "text": "We would like to ask you to provide us with the last annual report card of the mainstream school of <NAME DES KINDES> so that we can take photograph it. Do you consent to that?",
-          "text_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
-          "filter": "(euek==1 & inrange(age0110t,6,17)) & edu0100t!=1",
+          "text_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule (oder Abschlusszeugnis) von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
+          "filter": "inrange(age0110t,6,17) & euek==1 & (edu0100t==2 | (edu0100t==3 & cer_pret!=1 & note_pret!=1)) & mod0200_5==3",
           "concept": "cer1001t",
-          "number": "12",
-          "answers": [
-            {
-              "value": -83,
-              "label": "-83: Child does not live in the same household",
-              "label_de": "-83: Kind wohnt nicht im selben Haushalt"
-            },
-            {
-              "value": -82,
-              "label": "-82: does not apply: child does not go to school yet",
-              "label_de": "-82: Trifft nicht zu: Kind geht noch nicht zur Schule"
-            },
-            {
-              "value": -81,
-              "label": "-81: (still) no certificate available",
-              "label_de": "-81: (noch) kein Zeugnis vorhanden"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 7,
-      "instrument": "wid3_F2F2_module6",
-      "study": "twinlife"
-    },
-    "cer1001u": {
-      "question": "cer1001u",
-      "name": "cer1001u",
-      "label": "We would like to ask you to provide us with the last annual report card of the mainstream school of <NAME DES KINDES> so that we can take photograph it. Do you consent to that?",
-      "label_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
-      "items": [
-        {
-          "item": "1",
-          "text": "We would like to ask you to provide us with the last annual report card of the mainstream school of <NAME DES KINDES> so that we can take photograph it. Do you consent to that?",
-          "text_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
-          "filter": "(euek==1 & inrange(age0110t,6,17)) & edu0100u!=1",
-          "concept": "cer1001u",
           "number": "13",
           "answers": [
             {
@@ -521,21 +512,21 @@
         }
       ],
       "sn": 8,
-      "instrument": "wid3_F2F2_module6",
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
-    "cer1001s": {
-      "question": "cer1001s",
-      "name": "cer1001s",
+    "cer1001u": {
+      "question": "cer1001u",
+      "name": "cer1001u",
       "label": "We would like to ask you to provide us with the last annual report card of the mainstream school of <NAME DES KINDES> so that we can take photograph it. Do you consent to that?",
-      "label_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
+      "label_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule (oder Abschlusszeugnis) von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
       "items": [
         {
           "item": "1",
           "text": "We would like to ask you to provide us with the last annual report card of the mainstream school of <NAME DES KINDES> so that we can take photograph it. Do you consent to that?",
-          "text_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
-          "filter": "(euek==1 & inrange(age0110s,6,17)) & edu0100s!=1",
-          "concept": "cer1001s",
+          "text_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule (oder Abschlusszeugnis) von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
+          "filter": "inrange(age0110t,6,17) & euek==1 & (edu0100u==2 | (edu0100u==3 & cer_preu!=1 & note_preu!=1)) & mod0200_5==3",
+          "concept": "cer1001u",
           "number": "14",
           "answers": [
             {
@@ -568,7 +559,168 @@
         }
       ],
       "sn": 9,
-      "instrument": "wid3_F2F2_module6",
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1001s": {
+      "question": "cer1001s",
+      "name": "cer1001s",
+      "label": "We would like to ask you to provide us with the last annual report card of the mainstream school of <NAME DES KINDES> so that we can take photograph it. Do you consent to that?",
+      "label_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule (oder Abschlusszeugnis) von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
+      "items": [
+        {
+          "item": "1",
+          "text": "We would like to ask you to provide us with the last annual report card of the mainstream school of <NAME DES KINDES> so that we can take photograph it. Do you consent to that?",
+          "text_de": "Wir moechten Sie bitten, uns das letzte Jahreszeugnis der allgemeinbildenden Schule (oder Abschlusszeugnis) von <NAME DES KINDES> zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden?",
+          "filter": "inrange(age0110s,6,17) & euek==1 & (edu0100s==2 | (edu0100s==3 & cer_pres!=1 & note_pres!=1)) & mod0200_5==3",
+          "concept": "cer1001s",
+          "number": "15",
+          "answers": [
+            {
+              "value": -83,
+              "label": "-83: Child does not live in the same household",
+              "label_de": "-83: Kind wohnt nicht im selben Haushalt"
+            },
+            {
+              "value": -82,
+              "label": "-82: does not apply: child does not go to school yet",
+              "label_de": "-82: Trifft nicht zu: Kind geht noch nicht zur Schule"
+            },
+            {
+              "value": -81,
+              "label": "-81: (still) no certificate available",
+              "label_de": "-81: (noch) kein Zeugnis vorhanden"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1013t": {
+      "question": "cer1013t",
+      "name": "cer1013t",
+      "label": "Please indicate what type of certificate it is.",
+      "label_de": "Bitte geben Sie an, um was fuer ein Zeugnis es sich handelt.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate what type of certificate it is.",
+          "text_de": "Bitte geben Sie an, um was fuer ein Zeugnis es sich handelt.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cer1013t",
+          "number": "16",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: annual report",
+              "label_de": "1: Jahreszeugnis"
+            },
+            {
+              "value": 2,
+              "label": "2: final report",
+              "label_de": "2: Abschlusszeugnis"
+            },
+            {
+              "value": 3,
+              "label": "3: not identifiable",
+              "label_de": "3: nicht erkennbar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1013u": {
+      "question": "cer1013u",
+      "name": "cer1013u",
+      "label": "Please indicate what type of certificate it is.",
+      "label_de": "Bitte geben Sie an, um was fuer ein Zeugnis es sich handelt.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate what type of certificate it is.",
+          "text_de": "Bitte geben Sie an, um was fuer ein Zeugnis es sich handelt.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cer1013u",
+          "number": "17",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: annual report",
+              "label_de": "1: Jahreszeugnis"
+            },
+            {
+              "value": 2,
+              "label": "2: final report",
+              "label_de": "2: Abschlusszeugnis"
+            },
+            {
+              "value": 3,
+              "label": "3: not identifiable",
+              "label_de": "3: nicht erkennbar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1013s": {
+      "question": "cer1013s",
+      "name": "cer1013s",
+      "label": "Please indicate what type of certificate it is.",
+      "label_de": "Bitte geben Sie an, um was fuer ein Zeugnis es sich handelt.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate what type of certificate it is.",
+          "text_de": "Bitte geben Sie an, um was fuer ein Zeugnis es sich handelt.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cer1013s",
+          "number": "18",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: annual report",
+              "label_de": "1: Jahreszeugnis"
+            },
+            {
+              "value": 2,
+              "label": "2: final report",
+              "label_de": "2: Abschlusszeugnis"
+            },
+            {
+              "value": 3,
+              "label": "3: not identifiable",
+              "label_de": "3: nicht erkennbar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1004t": {
@@ -578,83 +730,13 @@
       "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
       "items": [
         {
-          "item": "0",
+          "item": "1",
           "text": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
           "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001t==2",
+          "filter": "((euek==1) & (cer1001t==2 | cer1003t==3)) | ((euek==1) & inrange(age0110t,6,17) & (edu0100t==2 | (edu0100t==3 & cer_pret!=1 & note_pret!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1004t",
-          "scale": "txt",
-          "number": "15",
-          "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "mathematics",
-          "text_de": "Mathematik",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cer1004t",
-          "scale": "int",
-          "number": "16",
-          "answers": [
-            {
-              "value": -83,
-              "label": "-83: there were no grades",
-              "label_de": "-83: es gab keine Noten"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "German",
-          "text_de": "Deutsch",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cer1004t",
-          "scale": "int",
-          "number": "17",
-          "answers": [
-            {
-              "value": -83,
-              "label": "-83: there were no grades",
-              "label_de": "-83: es gab keine Noten"
-            }
-          ],
-          "sn": 2
-        }
-      ],
-      "sn": 10,
-      "instrument": "wid3_F2F2_module6",
-      "study": "twinlife"
-    },
-    "cer1004u": {
-      "question": "cer1004u",
-      "name": "cer1004u",
-      "label": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
-      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
-      "items": [
-        {
-          "item": "0",
-          "text": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001u==2",
-          "concept": "cer1004u",
-          "scale": "txt",
-          "number": "18",
-          "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "mathematics",
-          "text_de": "Mathematik",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cer1004u",
           "scale": "int",
           "number": "19",
           "answers": [
@@ -664,15 +746,27 @@
               "label_de": "-83: es gab keine Noten"
             }
           ],
-          "sn": 1
-        },
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1005t": {
+      "question": "cer1005t",
+      "name": "cer1005t",
+      "label": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
+      "items": [
         {
-          "item": "2",
-          "text": "German",
-          "text_de": "Deutsch",
+          "item": "1",
+          "text": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cer1004u",
+          "filter": "((euek==1) & (cer1001t==2 | cer1003t==3)) | ((euek==1) & inrange(age0110t,6,17) & (edu0100t==2 | (edu0100t==3 & cer_pret!=1 & note_pret!=1)) & inlist(mod0200_5,1,2))",
+          "concept": "cer1005t",
           "scale": "int",
           "number": "20",
           "answers": [
@@ -682,38 +776,57 @@
               "label_de": "-83: es gab keine Noten"
             }
           ],
-          "sn": 2
+          "sn": 0
         }
       ],
-      "sn": 11,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 15,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
-    "cer1004s": {
-      "question": "cer1004s",
-      "name": "cer1004s",
+    "cer1004u": {
+      "question": "cer1004u",
+      "name": "cer1004u",
       "label": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
       "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
       "items": [
         {
-          "item": "0",
+          "item": "1",
           "text": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
           "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001s==2",
-          "concept": "cer1004s",
-          "scale": "txt",
+          "filter": "((euek==1) & (cer1001u==2 | cer1003u==3)) | ((euek==1) & inrange(age0110t,6,17) & (edu0100u==2 | (edu0100u==3 & cer_preu!=1 & note_preu!=1)) & inlist(mod0200_5,1,2))",
+          "concept": "cer1004u",
+          "scale": "int",
           "number": "21",
+          "answers": [
+            {
+              "value": -83,
+              "label": "-83: there were no grades",
+              "label_de": "-83: es gab keine Noten"
+            }
+          ],
           "sn": 0
-        },
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1005u": {
+      "question": "cer1005u",
+      "name": "cer1005u",
+      "label": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
+      "items": [
         {
           "item": "1",
-          "text": "Math",
-          "text_de": "Mathematik",
+          "text": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cer1004s",
+          "filter": "((euek==1) & (cer1001u==2 | cer1003u==3)) | ((euek==1) & inrange(age0110t,6,17) & (edu0100u==2 | (edu0100u==3 & cer_preu!=1 & note_preu!=1)) & inlist(mod0200_5,1,2))",
+          "concept": "cer1005u",
           "scale": "int",
           "number": "22",
           "answers": [
@@ -723,14 +836,26 @@
               "label_de": "-83: es gab keine Noten"
             }
           ],
-          "sn": 1
-        },
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1004s": {
+      "question": "cer1004s",
+      "name": "cer1004s",
+      "label": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
+      "items": [
         {
-          "item": "2",
-          "text": "German",
-          "text_de": "Deutsch",
+          "item": "1",
+          "text": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "((euek==1) & (cer1001s==2 | cer1003s==3)) | ((euek==1) & inrange(age0110s,6,17) & (edu0100s==2 | (edu0100s==3 & cer_pres!=1 & note_pres!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1004s",
           "scale": "int",
           "number": "23",
@@ -741,11 +866,41 @@
               "label_de": "-83: es gab keine Noten"
             }
           ],
-          "sn": 2
+          "sn": 0
         }
       ],
-      "sn": 12,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 18,
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1005s": {
+      "question": "cer1005s",
+      "name": "cer1005s",
+      "label": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
+      "items": [
+        {
+          "item": "1",
+          "text": "[ITEMBAT] [NCS] Please indicate the grades <NAME OF CHILD> received in his/her last report card in the following subjects:",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, welche Schulnote <NAME DES KINDES> auf dem letzten Zeugnis in folgenden Faechern hatten:",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "((euek==1) & (cer1001s==2 | cer1003s==3)) | ((euek==1) & inrange(age0110s,6,17) & (edu0100s==2 | (edu0100s==3 & cer_pres!=1 & note_pres!=1)) & inlist(mod0200_5,1,2))",
+          "concept": "cer1005s",
+          "scale": "int",
+          "number": "24",
+          "answers": [
+            {
+              "value": -83,
+              "label": "-83: there were no grades",
+              "label_de": "-83: es gab keine Noten"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1006t": {
@@ -760,10 +915,10 @@
           "text_de": "Von welcher Klasse ist das letzte Zeugnis von <NAME DES KINDES>?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001t==2",
+          "filter": "((euek==1) & (cer1001t==2 | cer1003t==3)) | ((euek==1) & inrange(age0110t,6,17) & (edu0100t==2 | (edu0100t==3 & cer_pret!=1 & note_pret!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1006t",
           "scale": "int",
-          "number": "24",
+          "number": "25",
           "answers": [
             {
               "value": -83,
@@ -774,8 +929,8 @@
           "sn": 0
         }
       ],
-      "sn": 13,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 20,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1006u": {
@@ -790,10 +945,10 @@
           "text_de": "Von welcher Klasse ist das letzte Zeugnis von <NAME DES KINDES>?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001u==2",
+          "filter": "((euek==1) & (cer1001u==2 | cer1003u==3)) | ((euek==1) & inrange(age0110t,6,17) & (edu0100u==2 | (edu0100u==3 & cer_preu!=1 & note_preu!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1006u",
           "scale": "int",
-          "number": "25",
+          "number": "26",
           "answers": [
             {
               "value": -83,
@@ -804,8 +959,8 @@
           "sn": 0
         }
       ],
-      "sn": 14,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 21,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1006s": {
@@ -820,10 +975,10 @@
           "text_de": "Von welcher Klasse ist das letzte Zeugnis von <NAME DES KINDES>?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001s==2",
+          "filter": "((euek==1) & (cer1001s==2 | cer1003s==3)) | ((euek==1) & inrange(age0110s,6,17) & (edu0100s==2 | (edu0100s==3 & cer_pres!=1 & note_pres!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1006s",
           "scale": "int",
-          "number": "26",
+          "number": "27",
           "answers": [
             {
               "value": -83,
@@ -834,8 +989,8 @@
           "sn": 0
         }
       ],
-      "sn": 15,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 22,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
     "cer1007t": {
@@ -850,88 +1005,8 @@
           "text_de": "In welcher Schulart wurde das letzte Zeugnis von <NAME DES KINDES> vergeben?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001t==2",
+          "filter": "((euek==1) & (cer1001t==2 | cer1003t==3)) | ((euek==1) & inrange(age0110t,6,17) & (edu0100t==2 | (edu0100t==3 & cer_pret!=1 & note_pret!=1)) & inlist(mod0200_5,1,2))",
           "concept": "cer1007t",
-          "scale": "cat",
-          "number": "27",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: primary school",
-              "label_de": "1: Grundschule"
-            },
-            {
-              "value": 2,
-              "label": "2: orientation school [until F2F 2]",
-              "label_de": "2: Orientierungsschule [bis F2F 2]"
-            },
-            {
-              "value": 3,
-              "label": "3: lower secondary school",
-              "label_de": "3: Hauptschule"
-            },
-            {
-              "value": 4,
-              "label": "4: intermediate-level secondary school",
-              "label_de": "4: Realschule"
-            },
-            {
-              "value": 5,
-              "label": "5: integrated lower and intermediate-level secondary school",
-              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
-            },
-            {
-              "value": 6,
-              "label": "6: comprehensive school",
-              "label_de": "6: Gesamtschule (auch integrierte Schule)"
-            },
-            {
-              "value": 7,
-              "label": "7: Waldorf school (Rudolf Steiner school)",
-              "label_de": "7: Waldorfschule"
-            },
-            {
-              "value": 8,
-              "label": "8: upper secondary school",
-              "label_de": "8: Gymnasium (auch Kolleg)"
-            },
-            {
-              "value": 9,
-              "label": "9: school for children with special needs",
-              "label_de": "9: Sonderschule/Foerderschule"
-            },
-            {
-              "value": 10,
-              "label": "10: other school, namely",
-              "label_de": "10: andere Schule, und zwar"
-            },
-            {
-              "value": 11,
-              "label": "11: Technical secondary school [from F2F 2]",
-              "label_de": "11: Fachoberschule [ab F2F 2]"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 16,
-      "instrument": "wid3_F2F2_module6",
-      "study": "twinlife"
-    },
-    "cer1007u": {
-      "question": "cer1007u",
-      "name": "cer1007u",
-      "label": "In which type of school was the last report card of <NAME OF THE CHILD> issued?",
-      "label_de": "In welcher Schulart wurde das letzte Zeugnis von <NAME DES KINDES> vergeben?",
-      "items": [
-        {
-          "item": "1",
-          "text": "In which type of school was the last report card of <NAME OF THE CHILD> issued?",
-          "text_de": "In welcher Schulart wurde das letzte Zeugnis von <NAME DES KINDES> vergeben?",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001u==2",
-          "concept": "cer1007u",
           "scale": "cat",
           "number": "28",
           "answers": [
@@ -994,13 +1069,13 @@
           "sn": 0
         }
       ],
-      "sn": 17,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 23,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     },
-    "cer1007s": {
-      "question": "cer1007s",
-      "name": "cer1007s",
+    "cer1007u": {
+      "question": "cer1007u",
+      "name": "cer1007u",
       "label": "In which type of school was the last report card of <NAME OF THE CHILD> issued?",
       "label_de": "In welcher Schulart wurde das letzte Zeugnis von <NAME DES KINDES> vergeben?",
       "items": [
@@ -1010,8 +1085,8 @@
           "text_de": "In welcher Schulart wurde das letzte Zeugnis von <NAME DES KINDES> vergeben?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "(euek==1) & cer1001s==2",
-          "concept": "cer1007s",
+          "filter": "((euek==1) & (cer1001u==2 | cer1003u==3)) | ((euek==1) & inrange(age0110t,6,17) & (edu0100u==2 | (edu0100u==3 & cer_preu!=1 & note_preu!=1)) & inlist(mod0200_5,1,2))",
+          "concept": "cer1007u",
           "scale": "cat",
           "number": "29",
           "answers": [
@@ -1074,8 +1149,88 @@
           "sn": 0
         }
       ],
-      "sn": 18,
-      "instrument": "wid3_F2F2_module6",
+      "sn": 24,
+      "instrument": "wid5_F2F3_module6",
+      "study": "twinlife"
+    },
+    "cer1007s": {
+      "question": "cer1007s",
+      "name": "cer1007s",
+      "label": "In which type of school was the last report card of <NAME OF THE CHILD> issued?",
+      "label_de": "In welcher Schulart wurde das letzte Zeugnis von <NAME DES KINDES> vergeben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In which type of school was the last report card of <NAME OF THE CHILD> issued?",
+          "text_de": "In welcher Schulart wurde das letzte Zeugnis von <NAME DES KINDES> vergeben?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "((euek==1) & (cer1001s==2 | cer1003s==3)) | ((euek==1) & inrange(age0110s,6,17) & (edu0100s==2 | (edu0100s==3 & cer_pres!=1 & note_pres!=1)) & inlist(mod0200_5,1,2))",
+          "concept": "cer1007s",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
+            },
+            {
+              "value": 2,
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
+            },
+            {
+              "value": 3,
+              "label": "3: lower secondary school",
+              "label_de": "3: Hauptschule"
+            },
+            {
+              "value": 4,
+              "label": "4: intermediate-level secondary school",
+              "label_de": "4: Realschule"
+            },
+            {
+              "value": 5,
+              "label": "5: integrated lower and intermediate-level secondary school",
+              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: Waldorf school (Rudolf Steiner school)",
+              "label_de": "7: Waldorfschule"
+            },
+            {
+              "value": 8,
+              "label": "8: upper secondary school",
+              "label_de": "8: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 9,
+              "label": "9: school for children with special needs",
+              "label_de": "9: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 10,
+              "label": "10: other school, namely",
+              "label_de": "10: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 25,
+      "instrument": "wid5_F2F3_module6",
       "study": "twinlife"
     }
   }

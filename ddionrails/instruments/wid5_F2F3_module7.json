@@ -1,0 +1,1518 @@
+{
+  "study": "twinlife",
+  "name": "wid5_F2F3_module7",
+  "label": "F2F 3: children under 11 (CAPI)",
+  "description": "This questionnaire module contains questions on: academic self concept: anticipated self-perceived ability; academic self concept: general self-perceived ability; anticipated intrinsic motivation; anticipated learning motivation; deviant behavior young children (e.g. lying/cheating, fighting with other children); intrinsic motivation for school in general; learning motivation for school in general; smartphone-use; twin-specific questions for siblings (e.g. relationship of the twins); twin-specific questions for twins themselves (e.g. relationship to other twin); verbal and physical bullying experience in childhood and adolescence.",
+  "analysis_unit": "individual",
+  "period": 5,
+  "instrument": "wid5_F2F3_module7",
+  "questions": {
+    "med1100": {
+      "question": "med1100",
+      "name": "med1100",
+      "label": "Do you own a mobile phone?",
+      "label_de": "[IF age <11] Besitzt Du ein Handy?",
+      "items": [
+        {
+          "item": "0",
+          "text": "Do you own a mobile phone?",
+          "text_de": "[IF age <11] Besitzt Du ein Handy?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "med1100",
+          "scale": "txt",
+          "number": "1",
+          "sn": 0
+        },
+        {
+          "item": "2",
+          "text": ". . . since the age of [...] (please specify)",
+          "text_de": ". . . und zwar seit meinem [...] Lebensjahr (bitte angeben)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "med1100",
+          "number": "2",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 1
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "med1200": {
+      "question": "med1200",
+      "name": "med1200",
+      "label": "[ITEMBAT] Below you are presented with a series of statements. How much do you agree with the following statements? [green after 2nd item] Please tell me how much you agree. The value 1 means: I do not agree at all. The value 6 means: I strongly agree.",
+      "label_de": "Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu? [nach 2. Item gruen] Bitte sag mir, wie sehr zu zustimmst. Der Wert 1 bedeutet: Ich stimme ueberhaupt nicht zu. Der Wert 6 bedeutet: Ich stimme stark zu.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] Below you are presented with a series of statements. How much do you agree with the following statements? [green after 2nd item] Please tell me how much you agree. The value 1 means: I do not agree at all. The value 6 means: I strongly agree.",
+          "text_de": "Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu? [nach 2. Item gruen] Bitte sag mir, wie sehr zu zustimmst. Der Wert 1 bedeutet: Ich stimme ueberhaupt nicht zu. Der Wert 6 bedeutet: Ich stimme stark zu.",
+          "description": "Source: Adapted from: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht [Short test for smartphone addiction]. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "description_de": "Source: Adaptiert von: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "concept": "med1200",
+          "scale": "txt",
+          "number": "3",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "I have a hard time concentrating in class due to my cell phone use.",
+          "text_de": "[IF edu0100 = 2]: Wegen meines Handys faellt es mir schwer, mich in der Schule zu konzentrieren.",
+          "description": "Source: Adapted from: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht [Short test for smartphone addiction]. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "description_de": "Source: Adaptiert von: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "concept": "med1200",
+          "number": "4",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I do not agree at all",
+              "label_de": "1: ich stimme ueberhaupt nicht zu"
+            },
+            {
+              "value": 6,
+              "label": "6: I strongly agree",
+              "label_de": "6: ich stimme stark zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "I constantly check my cell phone so as not to miss anything.",
+          "text_de": "Ich schaue andauernd auf mein Handy, um nichts zu verpassen.",
+          "description": "Source: Adapted from: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht [Short test for smartphone addiction]. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "description_de": "Source: Adaptiert von: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "concept": "med1200",
+          "number": "5",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I do not agree at all",
+              "label_de": "1: ich stimme ueberhaupt nicht zu"
+            },
+            {
+              "value": 6,
+              "label": "6: I strongly agree",
+              "label_de": "6: ich stimme stark zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I use my cell phone longer than I had intended.",
+          "text_de": "Ich benutze mein Handy oft laenger, als ich es eigentlich vorhabe.",
+          "description": "Source: Adapted from: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht [Short test for smartphone addiction]. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "description_de": "Source: Adaptiert von: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "concept": "med1200",
+          "number": "6",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I do not agree at all",
+              "label_de": "1: ich stimme ueberhaupt nicht zu"
+            },
+            {
+              "value": 6,
+              "label": "6: I strongly agree",
+              "label_de": "6: ich stimme stark zu"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "My parents tell me that I use my cell phone too much.",
+          "text_de": "Meine Eltern sagen mir, dass ich mein Handy zu viel benutze.",
+          "description": "Source: Adapted from: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht [Short test for smartphone addiction]. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "description_de": "Source: Adaptiert von: Montag C. (2018) Appendix: Schnelltest Smartphone-Sucht. In: Homo Digitalis. essentials. Springer, Wiesbaden. https://doi.org/10.1007/978-3-658-20026-8_10",
+          "concept": "med1200",
+          "number": "7",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I do not agree at all",
+              "label_de": "1: ich stimme ueberhaupt nicht zu"
+            },
+            {
+              "value": 6,
+              "label": "6: I strongly agree",
+              "label_de": "6: ich stimme stark zu"
+            }
+          ],
+          "sn": 4
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "spa0100": {
+      "question": "spa0100",
+      "name": "spa0100",
+      "label": "Do you believe you will do well at school?",
+      "label_de": "Glaubst du, dass Du in der Schule gut sein wirst?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you believe you will do well at school?",
+          "text_de": "Glaubst du, dass Du in der Schule gut sein wirst?",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
+          "description_de": "Source: Adaptiert von: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
+          "concept": "spa0100",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "spa0200": {
+      "question": "spa0200",
+      "name": "spa0200",
+      "label": "I am . . . in school.",
+      "label_de": "Antworte bitte anhand der folgenden Zahlen: 1 bedeutet: nicht begabt. 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt. Ich bin fuer die Schule . . .",
+      "items": [
+        {
+          "item": "1",
+          "text": "I am . . . in school.",
+          "text_de": "Antworte bitte anhand der folgenden Zahlen: 1 bedeutet: nicht begabt. 5 bedeutet: sehr begabt. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt. Ich bin fuer die Schule . . .",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
+          "description_de": "Source: Adaptiert von: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
+          "concept": "spa0200",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not talented",
+              "label_de": "1: nicht begabt"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: very talented",
+              "label_de": "5: sehr begabt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "spa0201": {
+      "question": "spa0201",
+      "name": "spa0201",
+      "label": "I know . . . in school.",
+      "label_de": "Antworte bitte anhand der folgenden Zahlen: 1 bedeutet: wenig. 5 bedeutet: viel. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt. Ich kann in der Schule...",
+      "items": [
+        {
+          "item": "1",
+          "text": "I know . . . in school.",
+          "text_de": "Antworte bitte anhand der folgenden Zahlen: 1 bedeutet: wenig. 5 bedeutet: viel. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt. Ich kann in der Schule...",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
+          "description_de": "Source: Adaptiert von: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
+          "concept": "spa0201",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: just a little",
+              "label_de": "1: wenig"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: a lot",
+              "label_de": "5: viel"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "spa0202": {
+      "question": "spa0202",
+      "name": "spa0202",
+      "label": "In school, many assignments are . . . for me.",
+      "label_de": "Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt. In der Schule fallen mir viele Aufgaben ...",
+      "items": [
+        {
+          "item": "1",
+          "text": "In school, many assignments are . . . for me.",
+          "text_de": "Der Wert 1 bedeutet: leicht. Der Wert 5 bedeutet: schwer. Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt. In der Schule fallen mir viele Aufgaben ...",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
+          "description_de": "Source: Adaptiert von: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23 (4), 393-405",
+          "concept": "spa0202",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: easy",
+              "label_de": "1: leicht"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: difficult",
+              "label_de": "5: schwer"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "imo0100": {
+      "question": "imo0100",
+      "name": "imo0100",
+      "label": "Please tell me whether the following statements apply to you.",
+      "label_de": "Sag mir bitte, ob folgende Saetze fuer Dich zutreffen?",
+      "items": [
+        {
+          "item": "0",
+          "text": "Please tell me whether the following statements apply to you.",
+          "text_de": "Sag mir bitte, ob folgende Saetze fuer Dich zutreffen?",
+          "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "concept": "imo0100",
+          "scale": "txt",
+          "number": "12",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Do you think you will like school?",
+          "text_de": "Glaubst Du, dass Du die Schule moegen wirst?",
+          "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "concept": "imo0100",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "Do you think you will like learning at school?",
+          "text_de": "Glaubst Du, dass Du das Lernen in der Schule moegen wirst?",
+          "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "concept": "imo0100",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Are you looking forward to school?",
+          "text_de": "Freust Du Dich auf die Schule?",
+          "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "concept": "imo0100",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "imo0200": {
+      "question": "imo0200",
+      "name": "imo0200",
+      "label": "We would like to ask you some more questions about school in general. Please rate the extent to which each statement applies to you.",
+      "label_de": "Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Das waere dann der Daumen runter Der Wert 5 bedeutet: trifft genau zu. Das waere dann der Daumen hoch Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt. [ITEMBAT]",
+      "items": [
+        {
+          "item": "0",
+          "text": "We would like to ask you some more questions about school in general. Please rate the extent to which each statement applies to you.",
+          "text_de": "Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Das waere dann der Daumen runter Der Wert 5 bedeutet: trifft genau zu. Das waere dann der Daumen hoch Mit den Werten zwischen 1 und 5 kannst Du mir sagen, wenn deine Meinung irgendwo dazwischen liegt. [ITEMBAT]",
+          "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "concept": "imo0200",
+          "scale": "txt",
+          "number": "16",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "I like doing the things that I learn at school.",
+          "text_de": "Ich mache die Dinge, die ich in der Schule lerne, gerne.",
+          "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "description_de": "Source: Adaptiert von: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211",
+          "concept": "imo0200",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "School is fun.",
+          "text_de": "Schule macht mir Spass.",
+          "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0200",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Things that I learn (at school) are interesting.",
+          "text_de": "Was ich in der Schule lerne, finde ich interessant.",
+          "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0200",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "imo0103": {
+      "question": "imo0103",
+      "name": "imo0103",
+      "label": "Please tell me whether the following statements apply to you.",
+      "label_de": "Sag mir bitte, ob folgende Saetze fuer Dich zutreffen?",
+      "items": [
+        {
+          "item": "0",
+          "text": "Please tell me whether the following statements apply to you.",
+          "text_de": "Sag mir bitte, ob folgende Saetze fuer Dich zutreffen?",
+          "description": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0103",
+          "scale": "txt",
+          "number": "20",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Are you looking forward to learning something interesting at school?",
+          "text_de": "Freust Du Dich darauf, in der Schule etwas Interessantes zu lernen?",
+          "description": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0103",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "Are you looking forward to understanding difficult things?",
+          "text_de": "Freust Du Dich darauf, in der Schule schwierige Dinge zu verstehen?",
+          "description": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0103",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Are you looking forward to learning as much as possible?",
+          "text_de": "Freust Du Dich darauf, in der Schule so viel wie moeglich zu lernen?",
+          "description": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Adapted from: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0103",
+          "scale": "cat",
+          "number": "23",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "imo0550": {
+      "question": "imo0550",
+      "name": "imo0550",
+      "label": "At school, I am interested in . . .",
+      "label_de": "[ITEMBAT][NCS] In der Schule will ich. . .",
+      "items": [
+        {
+          "item": "0",
+          "text": "At school, I am interested in . . .",
+          "text_de": "[ITEMBAT][NCS] In der Schule will ich. . .",
+          "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "filter": "(age0110<11) & (inlist(ptyp,1,2,200)) & edu0100==2",
+          "concept": "imo0550",
+          "scale": "txt",
+          "number": "24",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": ". . . learning something interesting.",
+          "text_de": ". . . etwas Interessantes lernen.",
+          "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0550",
+          "scale": "cat",
+          "number": "25",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": ". . . understanding difficult things.",
+          "text_de": ". . . schwierige Dinge verstehen.",
+          "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0550",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": ". . . learning as much as possible.",
+          "text_de": ". . . so viel wie moeglich lernen.",
+          "description": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "description_de": "Source: Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern-und Leistungsmotivation. SELLMO. Goettingen: Hogrefe",
+          "concept": "imo0550",
+          "scale": "cat",
+          "number": "27",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "bul0500": {
+      "question": "bul0500",
+      "name": "bul0500",
+      "label": "How often do other kids yell at you or call you names?",
+      "label_de": "Wie oft wirst Du von anderen Kindern boese angeschrien oder beschimpft? Passiert das ...?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How often do other kids yell at you or call you names?",
+          "text_de": "Wie oft wirst Du von anderen Kindern boese angeschrien oder beschimpft? Passiert das ...?",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "concept": "bul0500",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 2,
+              "label": "2: occasionally",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: very often",
+              "label_de": "3: ganz oft"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "bul0501": {
+      "question": "bul0501",
+      "name": "bul0501",
+      "label": "How bad is it for you when you get yelled at or insulted by other children?",
+      "label_de": "Wie schlimm ist das fuer Dich, wenn Du von den anderen Kindern boese angeschrien oder beschimpft wirst?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How bad is it for you when you get yelled at or insulted by other children?",
+          "text_de": "Wie schlimm ist das fuer Dich, wenn Du von den anderen Kindern boese angeschrien oder beschimpft wirst?",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "filter": "age0110<11 & (inlist(ptyp,1,2,200)) & inlist(bul0500,2,3)",
+          "concept": "bul0501",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not bad at all",
+              "label_de": "1: ueberhaupt nicht schlimm"
+            },
+            {
+              "value": 2,
+              "label": "2: slightly bad",
+              "label_de": "2: ein bisschen schlimm"
+            },
+            {
+              "value": 3,
+              "label": "3: quite bad",
+              "label_de": "3: ziemlich schlimm"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "bul0600": {
+      "question": "bul0600",
+      "name": "bul0600",
+      "label": "How often do other children deliberately hurt you?",
+      "label_de": "Wie oft wird Dir von anderen Kindern absichtlich wehgetan?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How often do other children deliberately hurt you?",
+          "text_de": "Wie oft wird Dir von anderen Kindern absichtlich wehgetan?",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "concept": "bul0600",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 2,
+              "label": "2: occasionally",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: very often",
+              "label_de": "3: ganz oft"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "bul0601": {
+      "question": "bul0601",
+      "name": "bul0601",
+      "label": "How bad is it for you if other children deliberately hurt you?",
+      "label_de": "Wie schlimm ist das fuer Dich, wenn andere Kinder Dir absichtlich wehtun?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How bad is it for you if other children deliberately hurt you?",
+          "text_de": "Wie schlimm ist das fuer Dich, wenn andere Kinder Dir absichtlich wehtun?",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "concept": "bul0601",
+          "scale": "cat",
+          "number": "31",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not bad at all",
+              "label_de": "1: ueberhaupt nicht schlimm"
+            },
+            {
+              "value": 2,
+              "label": "2: slightly bad",
+              "label_de": "2: ein bisschen schlimm"
+            },
+            {
+              "value": 3,
+              "label": "3: quite bad",
+              "label_de": "3: ziemlich schlimm"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "bul0700": {
+      "question": "bul0700",
+      "name": "bul0700",
+      "label": "How often do other children not let you play with them?",
+      "label_de": "Wie oft lassen Dich andere Kinder nicht mitspielen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How often do other children not let you play with them?",
+          "text_de": "Wie oft lassen Dich andere Kinder nicht mitspielen?",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "concept": "bul0700",
+          "scale": "cat",
+          "number": "32",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 2,
+              "label": "2: occasionally",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: very often",
+              "label_de": "3: ganz oft"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "bul0701": {
+      "question": "bul0701",
+      "name": "bul0701",
+      "label": "How bad is it for you if other children won't let you play with them?",
+      "label_de": "Wie schlimm ist das fuer Dich, wenn Dich die anderen Kinder nicht mitspielen lassen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How bad is it for you if other children won't let you play with them?",
+          "text_de": "Wie schlimm ist das fuer Dich, wenn Dich die anderen Kinder nicht mitspielen lassen?",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "concept": "bul0701",
+          "scale": "cat",
+          "number": "33",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not bad at all",
+              "label_de": "1: ueberhaupt nicht schlimm"
+            },
+            {
+              "value": 2,
+              "label": "2: slightly bad",
+              "label_de": "2: ein bisschen schlimm"
+            },
+            {
+              "value": 3,
+              "label": "3: quite bad",
+              "label_de": "3: ziemlich schlimm"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "bul0800": {
+      "question": "bul0800",
+      "name": "bul0800",
+      "label": "How often does another child say nasty things about you so that the others don't like you anymore?",
+      "label_de": "Wie oft redet ein anderes Kind schlecht ueber Dich, damit die anderen Dich nicht mehr moegen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How often does another child say nasty things about you so that the others don't like you anymore?",
+          "text_de": "Wie oft redet ein anderes Kind schlecht ueber Dich, damit die anderen Dich nicht mehr moegen?",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "concept": "bul0800",
+          "scale": "cat",
+          "number": "34",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 2,
+              "label": "2: occasionally",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: very often",
+              "label_de": "3: ganz oft"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "bul0801": {
+      "question": "bul0801",
+      "name": "bul0801",
+      "label": "How bad is it for you when another child says nasty things about you so that the others don't like you anymore?",
+      "label_de": "Wie schlimm ist das fuer Dich, wenn ein anderes Kind schlecht ueber Dich redet, damit die anderen Dich nicht mehr moegen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How bad is it for you when another child says nasty things about you so that the others don't like you anymore?",
+          "text_de": "Wie schlimm ist das fuer Dich, wenn ein anderes Kind schlecht ueber Dich redet, damit die anderen Dich nicht mehr moegen?",
+          "description": "Source: Adapted from: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "description_de": "Source: Adaptiert von: v. Marees, N. & Petermann, F. (2009). Der Bullying- und Viktimisierungs-Fragebogen fuer Kinder (BVF-K): Konstruktion und Analyse eines Verfahrens zur Erhebung von Bullying im Vor- und Grundschulalter, Praxis der Kinderpsychologie und Kinderpsychiatrie, 58(2), 96-109. doi: 10.13109/prkk.2009.58.2.96",
+          "concept": "bul0801",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not bad at all",
+              "label_de": "1: ueberhaupt nicht schlimm"
+            },
+            {
+              "value": 2,
+              "label": "2: slightly bad",
+              "label_de": "2: ein bisschen schlimm"
+            },
+            {
+              "value": 3,
+              "label": "3: quite bad",
+              "label_de": "3: ziemlich schlimm"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "dev0100": {
+      "question": "dev0100",
+      "name": "dev0100",
+      "label": "[ITEMBAT] [NCS] Sometimes you're angry and you might do things that your parents don't like. How is it with you?",
+      "label_de": "[ITEMBAT] [NCS] Manchmal ist man wuetend und tut vielleicht Dinge, die den Eltern nicht gefallen. Wie ist es bei dir?",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] [NCS] Sometimes you're angry and you might do things that your parents don't like. How is it with you?",
+          "text_de": "[ITEMBAT] [NCS] Manchmal ist man wuetend und tut vielleicht Dinge, die den Eltern nicht gefallen. Wie ist es bei dir?",
+          "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "concept": "dev0100",
+          "scale": "txt",
+          "number": "36",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Would you say that you are NEVER angry, SOMETIMES angry or VERY OFTEN angry?",
+          "text_de": "Wuerdest du sagen, dass du NIE wuetend bist, MANCHMAL wuetend bist oder GANZ OFT wuetend bist?",
+          "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "concept": "dev0100",
+          "scale": "cat",
+          "number": "37",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 2,
+              "label": "2: occasionally",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: very often",
+              "label_de": "3: ganz oft"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "Would you say that you NEVER listen to your parents, SOMETIMES listen to your parents or VERY OFTEN listen to your parents?",
+          "text_de": "Wuerdest Du sagen, dass du NIE auf Deine Eltern hoerst, MANCHMAL auf Deine Eltern hoerst oder GANZ OFT auf Deine Eltern hoerst?",
+          "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "concept": "dev0100",
+          "scale": "cat",
+          "number": "38",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 2,
+              "label": "2: occasionally",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: very often",
+              "label_de": "3: ganz oft"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Would you say that you NEVER have arguments with other children, SOMETIMES have arguments with other children or VERY OFTEN have arguments with other children?",
+          "text_de": "Wuerdest Du sagen, dass Du Dich NIE mit anderen Kindern streitest, MANCHMAL mit anderen Kindern streitest, oder GANZ OFT mit anderen Kindern streitest?",
+          "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "concept": "dev0100",
+          "scale": "cat",
+          "number": "39",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 2,
+              "label": "2: occasionally",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: very often",
+              "label_de": "3: ganz oft"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "Would you say that you NEVER cheat or lie, sometimes cheat or lie, or very often cheat or lie?",
+          "text_de": "Wuerdest Du sagen, dass Du NIE mogelst oder luegst, MANCHMAL mogelst oder luegst, oder GANZ OFT mogelst oder luegst?",
+          "description": "Source: Adapted from: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "description_de": "Source: Adaptiert von: Goodman, R., Meltzer, H., & Bailey, V. (1998). The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version. European child & adolescent psychiatry, 7 (3), 125-130",
+          "concept": "dev0100",
+          "scale": "cat",
+          "number": "40",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: never",
+              "label_de": "1: nie"
+            },
+            {
+              "value": 2,
+              "label": "2: occasionally",
+              "label_de": "2: manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: very often",
+              "label_de": "3: ganz oft"
+            }
+          ],
+          "sn": 4
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "tst1700": {
+      "question": "tst1700",
+      "name": "tst1700",
+      "label": "How is it with you and your twin: do you usually celebrate birthdays together or separately?",
+      "label_de": "Wie ist das bei Dir und Deinem Zwilling: Feiert Ihr normalerweise gemeinsam oder getrennt Geburtstag?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How is it with you and your twin: do you usually celebrate birthdays together or separately?",
+          "text_de": "Wie ist das bei Dir und Deinem Zwilling: Feiert Ihr normalerweise gemeinsam oder getrennt Geburtstag?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2)) & age0110<11",
+          "concept": "tst1700",
+          "scale": "cat",
+          "number": "41",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, we usually celebrate our birthdays together",
+              "label_de": "1: Ja,  in der Regel feiern wir unsere Geburtstage gemeinsam"
+            },
+            {
+              "value": 2,
+              "label": "2: no, we usually celebrate our birthdays separately",
+              "label_de": "2: Nein, in der Regel feiern wir unsere Geburtstage getrennt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "tst1701": {
+      "question": "tst1701",
+      "name": "tst1701",
+      "label": "What do you think of that?",
+      "label_de": "Wie findest Du das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What do you think of that?",
+          "text_de": "Wie findest Du das?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2)) & age0110<11",
+          "concept": "tst1701",
+          "scale": "cat",
+          "number": "42",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not good at all",
+              "label_de": "1: ueberhaupt nicht gut"
+            },
+            {
+              "value": 2,
+              "label": "2: rather not good",
+              "label_de": "2: eher nicht gut"
+            },
+            {
+              "value": 3,
+              "label": "3: not good and not bad",
+              "label_de": "3: nicht gut und nicht schlecht"
+            },
+            {
+              "value": 4,
+              "label": "4: rather good",
+              "label_de": "4: eher gut"
+            },
+            {
+              "value": 5,
+              "label": "5: very good",
+              "label_de": "5: sehr gut"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "tst1800": {
+      "question": "tst1800",
+      "name": "tst1800",
+      "label": "What would you say: Which of these pictures suits you and your twin best?",
+      "label_de": "Was wuerdest Du sagen: Welches dieser Bilder passt am besten zu Dir und Deinem Zwilling?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What would you say: Which of these pictures suits you and your twin best?",
+          "text_de": "Was wuerdest Du sagen: Welches dieser Bilder passt am besten zu Dir und Deinem Zwilling?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2)) & age0110<11",
+          "concept": "tst1800",
+          "scale": "cat",
+          "number": "43",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: figure 1",
+              "label_de": "1: Abbildung 1"
+            },
+            {
+              "value": 2,
+              "label": "2: figure 2",
+              "label_de": "2: Abbildung 2"
+            },
+            {
+              "value": 3,
+              "label": "3: figure 3",
+              "label_de": "3: Abbildung 3"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 21,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    },
+    "tss1800": {
+      "question": "tss1800",
+      "name": "tss1800",
+      "label": "What would you say: Which of these pictures fits the twins best?",
+      "label_de": "Was wuerdest Du sagen: Welches dieser Bilder passt am besten zu den Zwillingen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What would you say: Which of these pictures fits the twins best?",
+          "text_de": "Was wuerdest Du sagen: Welches dieser Bilder passt am besten zu den Zwillingen?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(ptyp==200) & age0110<11",
+          "concept": "tss1800",
+          "scale": "cat",
+          "number": "44",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: figure 1",
+              "label_de": "1: Abbildung 1"
+            },
+            {
+              "value": 2,
+              "label": "2: figure 2",
+              "label_de": "2: Abbildung 2"
+            },
+            {
+              "value": 3,
+              "label": "3: figure 3",
+              "label_de": "3: Abbildung 3"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 22,
+      "instrument": "wid5_F2F3_module7",
+      "study": "twinlife"
+    }
+  }
+}

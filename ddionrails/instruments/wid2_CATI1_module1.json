@@ -15,11 +15,11 @@
       "items": [
         {
           "item": "1",
-          "number": "1",
-          "concept": "ptyp_hq",
           "text": "My name is . . . from TNS Infratest Sozialforschung. I'm calling because of the twin family study 'TwinLife' which is conducted by Infratest Sozialforschung on behalf of University of Bielefeld and University of Saarland.",
           "text_de": "Guten Tag mein Name ist . . .. von TNS Infratest Sozialforschung.\nEs geht um die Zwillingsfamilien-Studie 'TwinLife', die TNS Infratest Sozialforschung im\nAuftrag der Universitaeten Bielefeld und des Saarlandes durchfuehrt.\nSpreche ich jetzt mit . . .?",
+          "concept": "ptyp_hq",
           "scale": "cat",
+          "number": "1",
           "answers": [
             {
               "value": 1,
@@ -97,14 +97,14 @@
       "items": [
         {
           "item": "1",
-          "number": "2",
-          "concept": "con0301s",
           "text": "How often has <name sibling> seen <name mother> in the past 6 months or since moving out?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug <Name ausserhaeusige Person>\ngesehen?",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,400) & inrange(age0110s,0,9) & fpr1100_200 == 0 & fpr1101_200 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,400) & inrange(age0110s,0,9) & fpr1100_200 == 0 & fpr1101_200 == 1",
+          "concept": "con0301s",
+          "scale": "cat",
+          "number": "2",
           "answers": [
             {
               "value": 1,
@@ -147,14 +147,14 @@
       "items": [
         {
           "item": "1",
-          "number": "3",
-          "concept": "con0301t",
           "text": "How often has <name twin 1> seen <name mother> in the past 6 months or since moving out?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug <Name ausserhaeusige Person>\ngesehen?",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,400) & inrange(age0110t,0,9) & fpr1100_1 == 0 & fpr1101_1 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,400) & inrange(age0110t,0,9) & fpr1100_1 == 0 & fpr1101_1 == 1",
+          "concept": "con0301t",
+          "scale": "cat",
+          "number": "3",
           "answers": [
             {
               "value": 1,
@@ -197,14 +197,14 @@
       "items": [
         {
           "item": "1",
-          "number": "4",
-          "concept": "con0301u",
           "text": "How often has <name twin 2> seen <name mother> in the past 6 months or since moving out?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug <Name ausserhaeusige Person>\ngesehen?",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,400) & inrange(age0110t,0,9) & fpr1100_2 == 0 & fpr1101_2 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,400) & inrange(age0110t,0,9) & fpr1100_2 == 0 & fpr1101_2 == 1",
+          "concept": "con0301u",
+          "scale": "cat",
+          "number": "4",
           "answers": [
             {
               "value": 1,
@@ -247,14 +247,14 @@
       "items": [
         {
           "item": "1",
-          "number": "5",
-          "concept": "con0302s",
           "text": "When did  <name sibling>  see  <name mother> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0301s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0301s == 1",
+          "concept": "con0302s",
+          "scale": "int",
+          "number": "5",
           "answers": [
             {
               "value": -86,
@@ -282,14 +282,14 @@
       "items": [
         {
           "item": "1",
-          "number": "6",
-          "concept": "con0302t",
           "text": "When did  <name twin 1>  see  <name mother> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0301t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0301t == 1",
+          "concept": "con0302t",
+          "scale": "int",
+          "number": "6",
           "answers": [
             {
               "value": -86,
@@ -317,14 +317,14 @@
       "items": [
         {
           "item": "1",
-          "number": "7",
-          "concept": "con0302u",
           "text": "When did  <name twin2>  see  <name mother> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0301u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0301u == 1",
+          "concept": "con0302u",
+          "scale": "int",
+          "number": "7",
           "answers": [
             {
               "value": -86,
@@ -352,14 +352,14 @@
       "items": [
         {
           "item": "1",
-          "number": "8",
-          "concept": "con0303s",
           "text": "When did  <name sibling>  see  <name mother> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0301s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0301s == 1",
+          "concept": "con0303s",
+          "scale": "int",
+          "number": "8",
           "answers": [
             {
               "value": -86,
@@ -387,14 +387,14 @@
       "items": [
         {
           "item": "1",
-          "number": "9",
-          "concept": "con0303t",
           "text": "When did  <name twin 1>  see  <name mother> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0301t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0301t == 1",
+          "concept": "con0303t",
+          "scale": "int",
+          "number": "9",
           "answers": [
             {
               "value": -86,
@@ -422,14 +422,14 @@
       "items": [
         {
           "item": "1",
-          "number": "10",
-          "concept": "con0303u",
           "text": "When did  <name twin 2>  see  <name mother> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0301u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0301u == 1",
+          "concept": "con0303u",
+          "scale": "int",
+          "number": "10",
           "answers": [
             {
               "value": -86,
@@ -457,14 +457,14 @@
       "items": [
         {
           "item": "1",
-          "number": "11",
-          "concept": "con0304s",
           "text": "How often has <name sibling> been in contact with <name mother> in the past 6 months or since moving out, for example by phone, mail, etc.?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug mit <Name ausserhaeusige\nPerson> Kontakt gehabt, z.B. per Telefon, Email etc.? Persoenliche Treffen sind hiermit\nnicht gemeint.",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,400) & inrange(age0110s,0,9) & fpr1100_200 == 0 & fpr1101_200 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,400) & inrange(age0110s,0,9) & fpr1100_200 == 0 & fpr1101_200 == 1",
+          "concept": "con0304s",
+          "scale": "cat",
+          "number": "11",
           "answers": [
             {
               "value": 1,
@@ -507,14 +507,14 @@
       "items": [
         {
           "item": "1",
-          "number": "12",
-          "concept": "con0304t",
           "text": "How often has <name twin 1> been in contact with <name mother> in the past 6 months or since moving out, for example by phone, mail, etc.?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug mit <Name ausserhaeusige\nPerson> Kontakt gehabt, z.B. per Telefon, Email etc.? Persoenliche Treffen sind hiermit\nnicht gemeint.",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,400) & inrange(age0110t,0,9) & fpr1100_1 == 0 & fpr1101_1 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,400) & inrange(age0110t,0,9) & fpr1100_1 == 0 & fpr1101_1 == 1",
+          "concept": "con0304t",
+          "scale": "cat",
+          "number": "12",
           "answers": [
             {
               "value": 1,
@@ -557,14 +557,14 @@
       "items": [
         {
           "item": "1",
-          "number": "13",
-          "concept": "con0304u",
           "text": "How often has <name twin2> been in contact with <name mother> in the past 6 months or since moving out, for example by phone, mail, etc.?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug mit <Name ausserhaeusige\nPerson> Kontakt gehabt, z.B. per Telefon, Email etc.? Persoenliche Treffen sind hiermit\nnicht gemeint.",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,400) & inrange(age0110t,0,9) & fpr1100_2 == 0 & fpr1101_2 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,400) & inrange(age0110t,0,9) & fpr1100_2 == 0 & fpr1101_2 == 1",
+          "concept": "con0304u",
+          "scale": "cat",
+          "number": "13",
           "answers": [
             {
               "value": 1,
@@ -607,14 +607,14 @@
       "items": [
         {
           "item": "1",
-          "number": "14",
-          "concept": "con0305s",
           "text": "When was <name sibling> in contact with <name mother> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0304s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0304s == 1",
+          "concept": "con0305s",
+          "scale": "int",
+          "number": "14",
           "answers": [
             {
               "value": -86,
@@ -642,14 +642,14 @@
       "items": [
         {
           "item": "1",
-          "number": "15",
-          "concept": "con0305t",
           "text": "When was <name twin 1> in contact with <name mother> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0304t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0304t == 1",
+          "concept": "con0305t",
+          "scale": "int",
+          "number": "15",
           "answers": [
             {
               "value": -86,
@@ -677,14 +677,14 @@
       "items": [
         {
           "item": "1",
-          "number": "16",
-          "concept": "con0305u",
           "text": "When was <name twin 2> in contact with <name mother> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0304u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0304u == 1",
+          "concept": "con0305u",
+          "scale": "int",
+          "number": "16",
           "answers": [
             {
               "value": -86,
@@ -712,14 +712,14 @@
       "items": [
         {
           "item": "1",
-          "number": "17",
-          "concept": "con0306s",
           "text": "When was <name sibling> in contact with <name mother> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0304s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0304s == 1",
+          "concept": "con0306s",
+          "scale": "int",
+          "number": "17",
           "answers": [
             {
               "value": -86,
@@ -747,14 +747,14 @@
       "items": [
         {
           "item": "1",
-          "number": "18",
-          "concept": "con0306t",
           "text": "When was <name twin 1> in contact with <name mother> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0304t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0304t == 1",
+          "concept": "con0306t",
+          "scale": "int",
+          "number": "18",
           "answers": [
             {
               "value": -86,
@@ -782,14 +782,14 @@
       "items": [
         {
           "item": "1",
-          "number": "19",
-          "concept": "con0306u",
           "text": "When was <name twin 2> in contact with <name mother> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0304u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0304u == 1",
+          "concept": "con0306u",
+          "scale": "int",
+          "number": "19",
           "answers": [
             {
               "value": -86,
@@ -817,14 +817,14 @@
       "items": [
         {
           "item": "1",
-          "number": "20",
-          "concept": "con0401s",
           "text": "How often has <name sibling> seen <name father> in the past 6 months or since moving out?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug <Name ausserhaeusige Person>\ngesehen?",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,300) & inrange(age0110s,0,9) & fpr1101_200 == 0 & fpr1100_200 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,300) & inrange(age0110s,0,9) & fpr1101_200 == 0 & fpr1100_200 == 1",
+          "concept": "con0401s",
+          "scale": "cat",
+          "number": "20",
           "answers": [
             {
               "value": 1,
@@ -867,14 +867,14 @@
       "items": [
         {
           "item": "1",
-          "number": "21",
-          "concept": "con0401t",
           "text": "How often has <name twin 1> seen <name father> in the past 6 months or since moving out?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug <Name ausserhaeusige Person>\ngesehen?",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,300) & inrange(age0110t,0,9) & fpr1101_1 == 0 & fpr1100_1 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,300) & inrange(age0110t,0,9) & fpr1101_1 == 0 & fpr1100_1 == 1",
+          "concept": "con0401t",
+          "scale": "cat",
+          "number": "21",
           "answers": [
             {
               "value": 1,
@@ -917,14 +917,14 @@
       "items": [
         {
           "item": "1",
-          "number": "22",
-          "concept": "con0401u",
           "text": "How often has <name twin 2> seen <name father> in the past 6 months or since moving out?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug <Name ausserhaeusige Person>\ngesehen?",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,300) & inrange(age0110t,0,9) & fpr1101_2 == 0 & fpr1100_2 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,300) & inrange(age0110t,0,9) & fpr1101_2 == 0 & fpr1100_2 == 1",
+          "concept": "con0401u",
+          "scale": "cat",
+          "number": "22",
           "answers": [
             {
               "value": 1,
@@ -967,14 +967,14 @@
       "items": [
         {
           "item": "1",
-          "number": "23",
-          "concept": "con0402s",
           "text": "When did  <name sibling>  see  <name father> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0401s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0401s == 1",
+          "concept": "con0402s",
+          "scale": "int",
+          "number": "23",
           "answers": [
             {
               "value": -86,
@@ -1002,14 +1002,14 @@
       "items": [
         {
           "item": "1",
-          "number": "24",
-          "concept": "con0402t",
           "text": "When did  <name twin 1>  see  <name father> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0401t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0401t == 1",
+          "concept": "con0402t",
+          "scale": "int",
+          "number": "24",
           "answers": [
             {
               "value": -86,
@@ -1037,14 +1037,14 @@
       "items": [
         {
           "item": "1",
-          "number": "25",
-          "concept": "con0402u",
           "text": "When did  <name twin2>  see  <name father> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0401u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0401u == 1",
+          "concept": "con0402u",
+          "scale": "int",
+          "number": "25",
           "answers": [
             {
               "value": -86,
@@ -1072,14 +1072,14 @@
       "items": [
         {
           "item": "1",
-          "number": "26",
-          "concept": "con0403s",
           "text": "When did  <name sibling>  see  <name father> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0401s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0401s == 1",
+          "concept": "con0403s",
+          "scale": "int",
+          "number": "26",
           "answers": [
             {
               "value": -86,
@@ -1107,14 +1107,14 @@
       "items": [
         {
           "item": "1",
-          "number": "27",
-          "concept": "con0403t",
           "text": "When did  <name twin 1>  see  <name father> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0401t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0401t == 1",
+          "concept": "con0403t",
+          "scale": "int",
+          "number": "27",
           "answers": [
             {
               "value": -86,
@@ -1142,14 +1142,14 @@
       "items": [
         {
           "item": "1",
-          "number": "28",
-          "concept": "con0403u",
           "text": "When did  <name twin 2>  see  <name father> the last time?",
           "text_de": "Wann [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] <Name ausserhaeusige Person> das letzte Mal gesehen?",
-          "scale": "int",
-          "filter": "con0401u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0401u == 1",
+          "concept": "con0403u",
+          "scale": "int",
+          "number": "28",
           "answers": [
             {
               "value": -86,
@@ -1177,14 +1177,14 @@
       "items": [
         {
           "item": "1",
-          "number": "29",
-          "concept": "con0404s",
           "text": "How often has <name sibling> been in contact with <name father> in the past 6 months or since moving out, for example by phone, mail, etc.?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug mit <Name ausserhaeusige\nPerson> Kontakt gehabt, z.B. per Telefon, Email etc.? Persoenliche Treffen sind hiermit\nnicht gemeint.",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,300) & inrange(age0110s,0,9) & fpr1101_200 == 0 & fpr1100_200 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,300) & inrange(age0110s,0,9) & fpr1101_200 == 0 & fpr1100_200 == 1",
+          "concept": "con0404s",
+          "scale": "cat",
+          "number": "29",
           "answers": [
             {
               "value": 1,
@@ -1227,14 +1227,14 @@
       "items": [
         {
           "item": "1",
-          "number": "30",
-          "concept": "con0404t",
           "text": "How often has <name twin 1> been in contact with <name father> in the past 6 months or since moving out, for example by phone, mail, etc.?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug mit <Name ausserhaeusige\nPerson> Kontakt gehabt, z.B. per Telefon, Email etc.? Persoenliche Treffen sind hiermit\nnicht gemeint.",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,300) & inrange(age0110t,0,9) & fpr1101_1 == 0 & fpr1100_1 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,300) & inrange(age0110t,0,9) & fpr1101_1 == 0 & fpr1100_1 == 1",
+          "concept": "con0404t",
+          "scale": "cat",
+          "number": "30",
           "answers": [
             {
               "value": 1,
@@ -1277,14 +1277,14 @@
       "items": [
         {
           "item": "1",
-          "number": "31",
-          "concept": "con0404u",
           "text": "How often has <name twin2> been in contact with <name father> in the past 6 months or since moving out, for example by phone, mail, etc.?",
           "text_de": "Wie haeufig [hat <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<haben Sie>] in den letzten 6 Monaten bzw. seit Auszug mit <Name ausserhaeusige\nPerson> Kontakt gehabt, z.B. per Telefon, Email etc.? Persoenliche Treffen sind hiermit\nnicht gemeint.",
-          "scale": "cat",
-          "filter": "inlist(ptyp_hq,300) & inrange(age0110t,0,9) & fpr1101_2 == 0 & fpr1100_2 == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "inlist(ptyp_hq,300) & inrange(age0110t,0,9) & fpr1101_2 == 0 & fpr1100_2 == 1",
+          "concept": "con0404u",
+          "scale": "cat",
+          "number": "31",
           "answers": [
             {
               "value": 1,
@@ -1327,14 +1327,14 @@
       "items": [
         {
           "item": "1",
-          "number": "32",
-          "concept": "con0405s",
           "text": "When was <name sibling> in contact with <name father> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0404s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0404s == 1",
+          "concept": "con0405s",
+          "scale": "int",
+          "number": "32",
           "answers": [
             {
               "value": -86,
@@ -1362,14 +1362,14 @@
       "items": [
         {
           "item": "1",
-          "number": "33",
-          "concept": "con0405t",
           "text": "When was <name twin 1> in contact with <name father> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0404t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0404t == 1",
+          "concept": "con0405t",
+          "scale": "int",
+          "number": "33",
           "answers": [
             {
               "value": -86,
@@ -1397,14 +1397,14 @@
       "items": [
         {
           "item": "1",
-          "number": "34",
-          "concept": "con0405u",
           "text": "When was <name twin 2> in contact with <name father> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0404u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0404u == 1",
+          "concept": "con0405u",
+          "scale": "int",
+          "number": "34",
           "answers": [
             {
               "value": -86,
@@ -1432,14 +1432,14 @@
       "items": [
         {
           "item": "1",
-          "number": "35",
-          "concept": "con0406s",
           "text": "When was <name sibling> in contact with <name father> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0404s == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0404s == 1",
+          "concept": "con0406s",
+          "scale": "int",
+          "number": "35",
           "answers": [
             {
               "value": -86,
@@ -1467,14 +1467,14 @@
       "items": [
         {
           "item": "1",
-          "number": "36",
-          "concept": "con0406t",
           "text": "When was <name twin 1> in contact with <name father> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0404t == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0404t == 1",
+          "concept": "con0406t",
+          "scale": "int",
+          "number": "36",
           "answers": [
             {
               "value": -86,
@@ -1502,14 +1502,14 @@
       "items": [
         {
           "item": "1",
-          "number": "37",
-          "concept": "con0406u",
           "text": "When was <name twin 2> in contact with <name father> the last time?",
           "text_de": "Wann [hatte <Name Zwilling 1> / <Name Zwilling 2> / <Name Zielgeschwister> /\n<hatten Sie>]den letzten Kontakt zu <Name ausserhaeusige Person>?",
-          "scale": "int",
-          "filter": "con0404u == 1",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 3 2010/11",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 3 2010/11",
+          "filter": "con0404u == 1",
+          "concept": "con0406u",
+          "scale": "int",
+          "number": "37",
           "answers": [
             {
               "value": -86,

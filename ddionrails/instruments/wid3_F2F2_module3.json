@@ -15,14 +15,14 @@
       "items": [
         {
           "item": "1",
-          "number": "1",
-          "concept": "edu0100",
           "text": "Do you go to school?",
           "text_de": "[IF age >= 4 & age < =15]: Gehst Du in die Schule? [IF age>= 16 & age < 22]: Besuchen Sie derzeit eine allgemeinbildende Schule?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200)) & (age0110 > 4 & age0110 <22)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200)) & (age0110 > 4 & age0110 <22)",
+          "concept": "edu0100",
+          "scale": "cat",
+          "number": "1",
           "answers": [
             {
               "value": 1,
@@ -55,14 +55,14 @@
       "items": [
         {
           "item": "1",
-          "number": "2",
-          "concept": "edu0200",
           "text": "Do you have an after-school job?",
           "text_de": "Arbeitest Du neben der Schule?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110>12 & age0110 <=15 & edu0100==2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110>12 & age0110 <=15 & edu0100==2",
+          "concept": "edu0200",
+          "scale": "cat",
+          "number": "2",
           "answers": [
             {
               "value": 1,
@@ -95,14 +95,14 @@
       "items": [
         {
           "item": "1",
-          "number": "3",
-          "concept": "edu0202",
           "text": "How many hours a week do you work in your job?",
           "text_de": "Wie viel Stunden pro Woche arbeitest Du normal in Deinem Schuelerjob?",
-          "scale": "dec",
-          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >12 & age0110 <=15 & (edu0200==1 | edu0200==2)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >12 & age0110 <=15 & (edu0200==1 | edu0200==2)",
+          "concept": "edu0202",
+          "scale": "dec",
+          "number": "3",
           "answers": [
             {
               "value": -86,
@@ -130,14 +130,14 @@
       "items": [
         {
           "item": "1",
-          "number": "4",
-          "concept": "edu0203",
           "text": "How much do you earn per hour in this job?",
           "text_de": "Wie viel verdienst Du in Deinem Schuelerjob pro Stunde?",
-          "scale": "dec",
-          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >12 & age0110 <=15 & (edu0200==1 | edu0200==2)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >12 & age0110 <=15 & (edu0200==1 | edu0200==2)",
+          "concept": "edu0203",
+          "scale": "dec",
+          "number": "4",
           "answers": [
             {
               "value": -86,
@@ -165,14 +165,14 @@
       "items": [
         {
           "item": "1",
-          "number": "5",
-          "concept": "edu0400",
           "text": "What school are you currently attending?",
           "text_de": "[IF age > 10 & age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age > = 16 & age < =20]: Welche Schule besuchen Sie zurzeit?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >=11 & edu0100==2",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >=11 & edu0100==2",
+          "concept": "edu0400",
+          "scale": "cat",
+          "number": "5",
           "answers": [
             {
               "value": 1,
@@ -181,8 +181,8 @@
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
             },
             {
               "value": 3,
@@ -245,14 +245,14 @@
       "items": [
         {
           "item": "1",
-          "number": "6",
-          "concept": "edu0402",
           "text": "What class do you go to at this school?",
           "text_de": "[IF age > 10 & age < = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age > = 16 & age < =20]: Welche Klasse besuchen Sie auf dieser Schule?",
-          "scale": "int",
-          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >=11 & edu0100==2",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >=11 & edu0100==2",
+          "concept": "edu0402",
+          "scale": "int",
+          "number": "6",
           "answers": [
             {
               "value": -86,
@@ -280,14 +280,14 @@
       "items": [
         {
           "item": "1",
-          "number": "7",
-          "concept": "eca0900",
           "text": "Have you received a degree since the last interview, since <mon_fq><yea_fq>?",
           "text_de": "[IF age = 15] Hast Du seit dem letzten Interview, d.h. seit <<mon_fq>> <<yea_fq>>, einen Schulabschluss erworben? [If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit <<mon_fq>> <<yea_fq>>, einen Schulabschluss erworben? [IF neuzu = 1 and age=15] Hast Du bereits einen Schulabschluss erworben? [IF neuzu = 1 and age >= 16] Haben Sie bereits einen Schulabschluss erworben?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15",
+          "concept": "eca0900",
+          "scale": "cat",
+          "number": "7",
           "answers": [
             {
               "value": -89,
@@ -330,14 +330,14 @@
       "items": [
         {
           "item": "1",
-          "number": "8",
-          "concept": "eca0100",
           "text": "What is your highest school-leaving qualification?",
           "text_de": "[IF age = 15] Welchen hoechsten Schulabschluss hast Du erreicht? [IF age > = 16 ] Welchen hoechsten Schulabschluss haben Sie erreicht?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=15) & (edu0100 !=1 & edu0100 !=2 & edu0301 !=1) & eca0900!=2",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=15) & (edu0100 !=1 & edu0100 !=2 & edu0301 !=1) & eca0900!=2",
+          "concept": "eca0100",
+          "scale": "cat",
+          "number": "8",
           "answers": [
             {
               "value": -81,
@@ -390,14 +390,14 @@
       "items": [
         {
           "item": "1",
-          "number": "9",
-          "concept": "eca0102",
           "text": "What was the last school you attended?",
           "text_de": "[IF age = 15] Welche Schule hast Du zuletzt besucht? [IF age > = 16] Welche Schule haben Sie zuletzt besucht?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & eca0100==1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & eca0100==1",
+          "concept": "eca0102",
+          "scale": "cat",
+          "number": "9",
           "answers": [
             {
               "value": 1,
@@ -406,8 +406,8 @@
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
             },
             {
               "value": 3,
@@ -470,14 +470,14 @@
       "items": [
         {
           "item": "1",
-          "number": "10",
-          "concept": "eca0104",
           "text": "What year did you leave secondary school?",
           "text_de": "[IF age = 15] In welchem Jahr hast Du die allgemeinbildende Schule beendet? [IF age > = 16 ]In welchem Jahr haben Sie die allgemeinbildende Schule beendet?",
-          "scale": "int",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0100 >1 & eca0100 <7 & edu0100!=2",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0100 >1 & eca0100 <7 & edu0100!=2",
+          "concept": "eca0104",
+          "scale": "int",
+          "number": "10",
           "answers": [
             {
               "value": -86,
@@ -500,19 +500,19 @@
     "eca0105": {
       "question": "eca0105",
       "name": "eca0105",
-      "label": "Please specify your final grade on your highest educational degree/diploma/qualification.",
+      "label": "Please specify your final grade of your highest school leaving certificate.",
       "label_de": "[IF age = 15] Bitte gib uns die Abschlussnote Deines hoechsten Schulabschlusses an. [IF age > = 16] Bitte geben Sie die Abschlussnote Ihres hoechsten Schulabschlusses an.",
       "items": [
         {
           "item": "1",
-          "number": "11",
-          "concept": "eca0105",
-          "text": "Please specify your final grade on your highest educational degree/diploma/qualification.",
+          "text": "Please specify your final grade of your highest school leaving certificate.",
           "text_de": "[IF age = 15] Bitte gib uns die Abschlussnote Deines hoechsten Schulabschlusses an. [IF age > = 16] Bitte geben Sie die Abschlussnote Ihres hoechsten Schulabschlusses an.",
-          "scale": "dec",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0100>1 & eca0100<7",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0100>1 & eca0100<7",
+          "concept": "eca0105",
+          "scale": "dec",
+          "number": "11",
           "answers": [
             {
               "value": -86,
@@ -540,14 +540,14 @@
       "items": [
         {
           "item": "1",
-          "number": "12",
-          "concept": "eca0200",
           "text": "What educational degree / diploma / qualification did you attain? If you have attained more than one, please state the highest.",
           "text_de": "[IF age = 15] Was ist Dein hoechster Ausbildungs- oder Studienabschluss? [IF age > = 16 ] Was ist Ihr hoechster Ausbildungs- oder Studienabschluss?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15",
+          "concept": "eca0200",
+          "scale": "cat",
+          "number": "12",
           "answers": [
             {
               "value": 1,
@@ -620,14 +620,14 @@
       "items": [
         {
           "item": "1",
-          "number": "13",
-          "concept": "eca0201",
           "text": "What year did you earn your educational degree/diploma/qualification?",
           "text_de": "[IF age = 15] In welchem Jahr hast Du den Ausbildungs- oder Studienabschluss erreicht? [IF age > = 16] In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
-          "scale": "int",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0200 >1 & eca0200 <12",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0200 >1 & eca0200 <12",
+          "concept": "eca0201",
+          "scale": "int",
+          "number": "13",
           "answers": [
             {
               "value": -86,
@@ -655,12 +655,12 @@
       "items": [
         {
           "item": "1",
-          "number": "14",
-          "concept": "eca0220",
           "text": "Did you attain another educational degree in addition to this highest educational qualification?",
           "text_de": "Liegt neben diesem hoechsten Ausbildungs- oder Studienabschluss ein weiterer Ausbildungsabschluss vor?",
-          "scale": "cat",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0200!=1 & age0110 >=15",
+          "concept": "eca0220",
+          "scale": "cat",
+          "number": "14",
           "answers": [
             {
               "value": -89,
@@ -703,12 +703,12 @@
       "items": [
         {
           "item": "1",
-          "number": "15",
-          "concept": "eca0221",
           "text": "What educational qualification is that?",
           "text_de": "Welcher Ausbildungs- oder Studienabschluss ist das?",
-          "scale": "cat",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & eca0220==1",
+          "concept": "eca0221",
+          "scale": "cat",
+          "number": "15",
           "answers": [
             {
               "value": 1,
@@ -781,14 +781,14 @@
       "items": [
         {
           "item": "1",
-          "number": "16",
-          "concept": "eca0300",
           "text": "Did you ever repeat a grade of school?",
           "text_de": "Haben Sie in Ihrer Schulzeit einmal eine Klasse wiederholt?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16",
+          "concept": "eca0300",
+          "scale": "cat",
+          "number": "16",
           "answers": [
             {
               "value": -89,
@@ -831,25 +831,25 @@
       "items": [
         {
           "item": "0",
-          "number": "17",
-          "concept": "eca0301",
           "text": "Which grade did you repeat?",
           "text_de": "[MFN] Welche Klasse(n) wurde(n) wiederholt?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16 & eca0300==1",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16 & eca0300==1",
+          "concept": "eca0301",
+          "scale": "txt",
+          "number": "17",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "18",
-          "concept": "eca0301",
           "text": "1. grade",
           "text_de": "1. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "18",
           "answers": [
             {
               "value": 0,
@@ -866,13 +866,13 @@
         },
         {
           "item": "2",
-          "number": "19",
-          "concept": "eca0301",
           "text": "2. grade",
           "text_de": "2. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "19",
           "answers": [
             {
               "value": 0,
@@ -889,13 +889,13 @@
         },
         {
           "item": "3",
-          "number": "20",
-          "concept": "eca0301",
           "text": "3. grade",
           "text_de": "3. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "20",
           "answers": [
             {
               "value": 0,
@@ -912,13 +912,13 @@
         },
         {
           "item": "4",
-          "number": "21",
-          "concept": "eca0301",
           "text": "4. grade",
           "text_de": "4. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "21",
           "answers": [
             {
               "value": 0,
@@ -935,13 +935,13 @@
         },
         {
           "item": "5",
-          "number": "22",
-          "concept": "eca0301",
           "text": "5. grade",
           "text_de": "5. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "22",
           "answers": [
             {
               "value": 0,
@@ -958,13 +958,13 @@
         },
         {
           "item": "6",
-          "number": "23",
-          "concept": "eca0301",
           "text": "6. grade",
           "text_de": "6. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "23",
           "answers": [
             {
               "value": 0,
@@ -981,13 +981,13 @@
         },
         {
           "item": "7",
-          "number": "24",
-          "concept": "eca0301",
           "text": "7. grade",
           "text_de": "7. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "24",
           "answers": [
             {
               "value": 0,
@@ -1004,13 +1004,13 @@
         },
         {
           "item": "8",
-          "number": "25",
-          "concept": "eca0301",
           "text": "8. grade",
           "text_de": "8. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "25",
           "answers": [
             {
               "value": 0,
@@ -1027,13 +1027,13 @@
         },
         {
           "item": "9",
-          "number": "26",
-          "concept": "eca0301",
           "text": "9. grade",
           "text_de": "9. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "26",
           "answers": [
             {
               "value": 0,
@@ -1050,13 +1050,13 @@
         },
         {
           "item": "10",
-          "number": "27",
-          "concept": "eca0301",
           "text": "10. grade",
           "text_de": "10. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "27",
           "answers": [
             {
               "value": 0,
@@ -1073,13 +1073,13 @@
         },
         {
           "item": "11",
-          "number": "28",
-          "concept": "eca0301",
           "text": "11. grade",
           "text_de": "11. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "28",
           "answers": [
             {
               "value": 0,
@@ -1096,13 +1096,13 @@
         },
         {
           "item": "12",
-          "number": "29",
-          "concept": "eca0301",
           "text": "12. grade",
           "text_de": "12. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "29",
           "answers": [
             {
               "value": 0,
@@ -1119,13 +1119,13 @@
         },
         {
           "item": "13",
-          "number": "30",
-          "concept": "eca0301",
           "text": "13. grade",
           "text_de": "13. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "30",
           "answers": [
             {
               "value": 0,
@@ -1142,13 +1142,13 @@
         },
         {
           "item": "14",
-          "number": "31",
-          "concept": "eca0301",
           "text": "don't know",
           "text_de": "weiss nicht",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "31",
           "answers": [
             {
               "value": 0,
@@ -1165,13 +1165,13 @@
         },
         {
           "item": "15",
-          "number": "32",
-          "concept": "eca0301",
           "text": "n.a.",
           "text_de": "keine Angabe",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0301",
+          "scale": "cat",
+          "number": "32",
           "answers": [
             {
               "value": 0,
@@ -1199,14 +1199,14 @@
       "items": [
         {
           "item": "1",
-          "number": "33",
-          "concept": "eca0400",
           "text": "Did you ever skip a grade or grades?",
           "text_de": "Haben Sie in Ihrer Schulzeit einmal eine Klasse uebersprungen?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16",
+          "concept": "eca0400",
+          "scale": "cat",
+          "number": "33",
           "answers": [
             {
               "value": -89,
@@ -1249,25 +1249,25 @@
       "items": [
         {
           "item": "0",
-          "number": "34",
-          "concept": "eca0401",
           "text": "Which grade(s) did you skip?",
           "text_de": "[MFN] Welche Klasse(n) wurde(n) uebersprungen?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16 & eca0400==1",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16 & eca0400==1",
+          "concept": "eca0401",
+          "scale": "txt",
+          "number": "34",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "35",
-          "concept": "eca0401",
           "text": "1. grade",
           "text_de": "1. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "35",
           "answers": [
             {
               "value": 0,
@@ -1284,13 +1284,13 @@
         },
         {
           "item": "2",
-          "number": "36",
-          "concept": "eca0401",
           "text": "2. grade",
           "text_de": "2. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "36",
           "answers": [
             {
               "value": 0,
@@ -1307,13 +1307,13 @@
         },
         {
           "item": "3",
-          "number": "37",
-          "concept": "eca0401",
           "text": "3. grade",
           "text_de": "3. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "37",
           "answers": [
             {
               "value": 0,
@@ -1330,13 +1330,13 @@
         },
         {
           "item": "4",
-          "number": "38",
-          "concept": "eca0401",
           "text": "4. grade",
           "text_de": "4. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "38",
           "answers": [
             {
               "value": 0,
@@ -1353,13 +1353,13 @@
         },
         {
           "item": "5",
-          "number": "39",
-          "concept": "eca0401",
           "text": "5. grade",
           "text_de": "5. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "39",
           "answers": [
             {
               "value": 0,
@@ -1376,13 +1376,13 @@
         },
         {
           "item": "6",
-          "number": "40",
-          "concept": "eca0401",
           "text": "6. grade",
           "text_de": "6. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "40",
           "answers": [
             {
               "value": 0,
@@ -1399,13 +1399,13 @@
         },
         {
           "item": "7",
-          "number": "41",
-          "concept": "eca0401",
           "text": "7. grade",
           "text_de": "7. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "41",
           "answers": [
             {
               "value": 0,
@@ -1422,13 +1422,13 @@
         },
         {
           "item": "8",
-          "number": "42",
-          "concept": "eca0401",
           "text": "8. grade",
           "text_de": "8. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "42",
           "answers": [
             {
               "value": 0,
@@ -1445,13 +1445,13 @@
         },
         {
           "item": "9",
-          "number": "43",
-          "concept": "eca0401",
           "text": "9. grade",
           "text_de": "9. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "43",
           "answers": [
             {
               "value": 0,
@@ -1468,13 +1468,13 @@
         },
         {
           "item": "10",
-          "number": "44",
-          "concept": "eca0401",
           "text": "10. grade",
           "text_de": "10. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "44",
           "answers": [
             {
               "value": 0,
@@ -1491,13 +1491,13 @@
         },
         {
           "item": "11",
-          "number": "45",
-          "concept": "eca0401",
           "text": "11. grade",
           "text_de": "11. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "45",
           "answers": [
             {
               "value": 0,
@@ -1514,13 +1514,13 @@
         },
         {
           "item": "12",
-          "number": "46",
-          "concept": "eca0401",
           "text": "12. grade",
           "text_de": "12. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "46",
           "answers": [
             {
               "value": 0,
@@ -1537,13 +1537,13 @@
         },
         {
           "item": "13",
-          "number": "47",
-          "concept": "eca0401",
           "text": "13. grade",
           "text_de": "13. Klasse",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "47",
           "answers": [
             {
               "value": 0,
@@ -1560,13 +1560,13 @@
         },
         {
           "item": "14",
-          "number": "48",
-          "concept": "eca0401",
           "text": "don't know",
           "text_de": "weiss nicht",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "48",
           "answers": [
             {
               "value": 0,
@@ -1583,13 +1583,13 @@
         },
         {
           "item": "15",
-          "number": "49",
-          "concept": "eca0401",
           "text": "n.a.",
           "text_de": "keine Angabe",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0401",
+          "scale": "cat",
+          "number": "49",
           "answers": [
             {
               "value": 0,
@@ -1617,14 +1617,14 @@
       "items": [
         {
           "item": "1",
-          "number": "50",
-          "concept": "eca0500",
           "text": "Did you obtain a degree / certificate / diploma in Germany or in another country?",
           "text_de": "Haben Sie in einem anderen Land als Deutschland eine berufliche Ausbildung oder ein Studium absolviert? Dies bezieht sich nur auf abgeschlossene Studien, nicht auf Auslandssemester, Praktika o.ae.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC6 Starting Cohort 6: Adults, Wave 6, 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): Startkohorte 6: Erwachsene (SC6), Welle 6, Erhebungsinstrumente (Feldversion)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & new==1 & age0110 >=16",
+          "concept": "eca0500",
+          "scale": "cat",
+          "number": "50",
           "answers": [
             {
               "value": -89,
@@ -1667,14 +1667,14 @@
       "items": [
         {
           "item": "1",
-          "number": "51",
-          "concept": "emp0100",
           "text": "Have you done paid work during the last 7 days, even if only for an hour or a few hours?",
           "text_de": "[IF age = 15 ] Hast Du waehrend der letzten 7 Tage eine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war? Es geht um die Arbeit, die Du in einem Beschaeftigungsverhaeltnis in einer Firma, Unternehmen oder als Selbststaendiger ausgeuebt hast. Es geht jedoch nicht um Hilfe in Deiner Familie oder im Haushalt, auch wenn diese von Verwandten oder Deinen Eltern mit Geld entlohnt wurde. [IF age > = 16 ] Haben Sie waehrend der letzten 7 Tage eine bezahlte Arbeit ausgeuebt, auch wenn dies nur fuer eine Stunde oder fuer wenige Stunden war? Es geht um die Arbeit, die Sie in einem Beschaeftigungsverhaeltnis in einer Firma, Unternehmen oder als Selbststaendiger ausgeuebt haben. Es geht jedoch nicht um Hilfe in Ihrer Familie oder im Haushalt, auch wenn diese von Verwandten oder Ihren Eltern mit Geld entlohnt wurde.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & (edu0100==3 | age0110>=22)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & (edu0100==3 | age0110>=22)",
+          "concept": "emp0100",
+          "scale": "cat",
+          "number": "51",
           "answers": [
             {
               "value": -89,
@@ -1717,24 +1717,24 @@
       "items": [
         {
           "item": "1",
-          "number": "52",
-          "concept": "emp0200",
           "text": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
           "text_de": "[IF age = 15 & sex=2] Bist Du zurzeit im Mutterschutz oder in der gesetzlich geregelten Elternzeit? [IF age = 15 & sex=1] Bist Du zurzeit in der gesetzlich geregelten Elternzeit? [IF age > = 16 & sex=2] Sind Sie zurzeit im Mutterschutz oder in der gesetzlich geregelten Elternzeit? [IF age > = 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & (edu0100==3 | age0110>=22)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & (edu0100==3 | age0110>=22)",
+          "concept": "emp0200",
+          "scale": "cat",
+          "number": "52",
           "answers": [
             {
               "value": 1,
-              "label": "1: [only women] maternity leave",
-              "label_de": "1: [nur bei Frauen] Mutterschutz"
+              "label": "1: [for women only] yes, maternity leave",
+              "label_de": "1: [nur bei Frauen] Ja, Mutterschutz"
             },
             {
               "value": 2,
-              "label": "2: parental leave",
-              "label_de": "2: Elternzeit"
+              "label": "2: parental leave (up to F2F 2)",
+              "label_de": "2: Elternzeit (bis F2F 2)"
             },
             {
               "value": 3,
@@ -1745,6 +1745,16 @@
               "value": 4,
               "label": "4: no",
               "label_de": "4: nein"
+            },
+            {
+              "value": 5,
+              "label": "5: yes, parental leave with part-time employment (from F2F 3)",
+              "label_de": "5: Ja, Elternzeit mit Teilzeitbeschaeftigung (ab F2F 3)"
+            },
+            {
+              "value": 6,
+              "label": "6: yes, parental leave without part-time employment (from F2F 3)",
+              "label_de": "5: Ja, Elternzeit ohnw Teilzeitbeschaeftigung (ab F2F 3)"
             }
           ],
           "sn": 0
@@ -1762,14 +1772,14 @@
       "items": [
         {
           "item": "1",
-          "number": "53",
-          "concept": "emp0300",
           "text": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
           "text_de": "[IF age = 15] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age > = 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & (edu0100==3 | age0110>=22)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=15 & (edu0100==3 | age0110>=22)",
+          "concept": "emp0300",
+          "scale": "cat",
+          "number": "53",
           "answers": [
             {
               "value": -89,
@@ -1812,14 +1822,14 @@
       "items": [
         {
           "item": "1",
-          "number": "54",
-          "concept": "edu0300",
           "text": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
           "text_de": "[IF age = 15] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age > = 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=15 & (edu0100==3 | age0110>=22)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=15 & (edu0100==3 | age0110>=22)",
+          "concept": "edu0300",
+          "scale": "cat",
+          "number": "54",
           "answers": [
             {
               "value": -89,
@@ -1862,14 +1872,14 @@
       "items": [
         {
           "item": "1",
-          "number": "55",
-          "concept": "edu0301",
           "text": "What type of education or training are you pursuing?",
           "text_de": "Was fuer eine Ausbildung oder Weiterbildung ist das genau?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0300==1",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0300==1",
+          "concept": "edu0301",
+          "scale": "cat",
+          "number": "55",
           "answers": [
             {
               "value": 1,
@@ -1912,14 +1922,14 @@
       "items": [
         {
           "item": "1",
-          "number": "56",
-          "concept": "edu0303",
           "text": "What type of higher education are you pursuing?",
           "text_de": "Was fuer eine Hochschulausbildung ist das?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0301==3",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0301==3",
+          "concept": "edu0303",
+          "scale": "cat",
+          "number": "56",
           "answers": [
             {
               "value": 1,
@@ -1957,14 +1967,14 @@
       "items": [
         {
           "item": "1",
-          "number": "57",
-          "concept": "edu0305",
           "text": "What type of further training/retraining are you pursuing?",
           "text_de": "Was fuer eine Weiterbildung/Umschulung ist das?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0301==4",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0301==4",
+          "concept": "edu0305",
+          "scale": "cat",
+          "number": "57",
           "answers": [
             {
               "value": 1,
@@ -2007,14 +2017,14 @@
       "items": [
         {
           "item": "1",
-          "number": "58",
-          "concept": "edu0307",
           "text": "What type of vocational training are you pursuing?",
           "text_de": "Was fuer eine berufliche Ausbildung ist das?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0301==2",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0301==2",
+          "concept": "edu0307",
+          "scale": "cat",
+          "number": "58",
           "answers": [
             {
               "value": 1,
@@ -2077,14 +2087,14 @@
       "items": [
         {
           "item": "1",
-          "number": "59",
-          "concept": "emp0400",
           "text": "Are you currently employed? What applies to you? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
           "text_de": "Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>15 & (edu0100==3 | age0110>=22)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>15 & (edu0100==3 | age0110>=22)",
+          "concept": "emp0400",
+          "scale": "cat",
+          "number": "59",
           "answers": [
             {
               "value": 1,
@@ -2157,14 +2167,14 @@
       "items": [
         {
           "item": "1",
-          "number": "60",
-          "concept": "emp0600",
           "text": "In which professional position are you currently employed? If you perform more than one occupation, please decide which one you consider to be your main occupation and answer the following questions in reference to this main occupation.",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
+          "concept": "emp0600",
+          "scale": "cat",
+          "number": "60",
           "answers": [
             {
               "value": 1,
@@ -2207,14 +2217,14 @@
       "items": [
         {
           "item": "1",
-          "number": "61",
-          "concept": "emp0601",
           "text": "What is your current occupational status as a blue-collar worker?",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit als Arbeiter/Arbeiterin beschaeftigt?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==1",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==1",
+          "concept": "emp0601",
+          "scale": "cat",
+          "number": "61",
           "answers": [
             {
               "value": 1,
@@ -2257,14 +2267,14 @@
       "items": [
         {
           "item": "1",
-          "number": "62",
-          "concept": "emp0602",
           "text": "What is your current occupational status as a self-employed person?",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit als Selbststaendiger/Selbststaendige beschaeftigt?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==4",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==4",
+          "concept": "emp0602",
+          "scale": "cat",
+          "number": "62",
           "answers": [
             {
               "value": 1,
@@ -2302,14 +2312,14 @@
       "items": [
         {
           "item": "1",
-          "number": "63",
-          "concept": "emp0603",
           "text": "Please tell me the number of your employees.",
           "text_de": "Bitte benennen Sie die Anzahl Ihrer Mitarbeiter und Angestellten.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==4",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==4",
+          "concept": "emp0603",
+          "scale": "cat",
+          "number": "63",
           "answers": [
             {
               "value": 1,
@@ -2342,14 +2352,14 @@
       "items": [
         {
           "item": "1",
-          "number": "64",
-          "concept": "emp0604",
           "text": "What is your current occupational status as an apprentice / trainee / intern.",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==5",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==5",
+          "concept": "emp0604",
+          "scale": "cat",
+          "number": "64",
           "answers": [
             {
               "value": 1,
@@ -2382,14 +2392,14 @@
       "items": [
         {
           "item": "1",
-          "number": "65",
-          "concept": "emp0605",
           "text": "What is your current occupational status as a white-collar worker?",
           "text_de": "In welcher beruflichen Stellung sind Sie als Angestellter/Angestellte beschaeftigt?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==2",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==2",
+          "concept": "emp0605",
+          "scale": "cat",
+          "number": "65",
           "answers": [
             {
               "value": 1,
@@ -2442,14 +2452,14 @@
       "items": [
         {
           "item": "1",
-          "number": "66",
-          "concept": "emp0606",
           "text": "What kind of managerial position do you hold?",
           "text_de": "In welcher Art von Fuehrungsposition sind Sie?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0605==6 | emp0605==7)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0605==6 | emp0605==7)",
+          "concept": "emp0606",
+          "scale": "cat",
+          "number": "66",
           "answers": [
             {
               "value": 1,
@@ -2487,14 +2497,14 @@
       "items": [
         {
           "item": "1",
-          "number": "67",
-          "concept": "emp0607",
           "text": "What is your current occupational status as a civil servant?",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit als Beamter beschaeftigt?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==3",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0600==3",
+          "concept": "emp0607",
+          "scale": "cat",
+          "number": "67",
           "answers": [
             {
               "value": 1,
@@ -2532,14 +2542,14 @@
       "items": [
         {
           "item": "0",
-          "number": "68",
-          "concept": "emp0700",
           "text": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
           "text_de": "Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie Selbstaendiger sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6)",
+          "concept": "emp0700",
+          "scale": "txt",
+          "number": "68",
           "sn": 0
         }
       ],
@@ -2555,14 +2565,14 @@
       "items": [
         {
           "item": "1",
-          "number": "69",
-          "concept": "emp0702",
           "text": "Do you work for a public sector employer?",
           "text_de": "Gehoert der Betrieb, in dem Sie arbeiten, zum oeffentlichen Dienst?",
-          "scale": "cat",
-          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6) & emp0600 !=3 & emp0600 !=4",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6) & emp0600 !=3 & emp0600 !=4",
+          "concept": "emp0702",
+          "scale": "cat",
+          "number": "69",
           "answers": [
             {
               "value": -89,
@@ -2605,14 +2615,14 @@
       "items": [
         {
           "item": "1",
-          "number": "70",
-          "concept": "emp0703",
           "text": "Is this work temporary or on a contractual basis?",
           "text_de": "Handelt es sich um ein Zeitarbeits- bzw. Leiharbeitsverhaeltnis?",
-          "scale": "cat",
-          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6) & emp0600 !=3 & emp0600 !=4 & emp0600 !=5",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6) & emp0600 !=3 & emp0600 !=4 & emp0600 !=5",
+          "concept": "emp0703",
+          "scale": "cat",
+          "number": "70",
           "answers": [
             {
               "value": -89,
@@ -2655,14 +2665,14 @@
       "items": [
         {
           "item": "1",
-          "number": "71",
-          "concept": "emp0704",
           "text": "Do you have a fixed-term or permanent employment contract?",
           "text_de": "Haben Sie einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
+          "concept": "emp0704",
+          "scale": "cat",
+          "number": "71",
           "answers": [
             {
               "value": -81,
@@ -2695,14 +2705,14 @@
       "items": [
         {
           "item": "1",
-          "number": "72",
-          "concept": "emp0705",
           "text": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (. . .emp0400)",
           "text_de": "Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden? IF emp0200 = 1, 2, 3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zur Zeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
-          "scale": "dec",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
+          "concept": "emp0705",
+          "scale": "dec",
+          "number": "72",
           "answers": [
             {
               "value": -89,
@@ -2730,12 +2740,12 @@
       "items": [
         {
           "item": "1",
-          "number": "73",
-          "concept": "emp0715",
           "text": "Please state the approximate number of hours.",
           "text_de": "Bitte geben Sie die ungefaehre Stundenzahl an.",
-          "scale": "int",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0705==-98",
+          "concept": "emp0715",
+          "scale": "int",
+          "number": "73",
           "answers": [
             {
               "value": -86,
@@ -2763,14 +2773,14 @@
       "items": [
         {
           "item": "1",
-          "number": "74",
-          "concept": "emp0706",
           "text": "And how many hours do you generally work per week, including any overtime?",
           "text_de": "Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
-          "scale": "dec",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
+          "concept": "emp0706",
+          "scale": "dec",
+          "number": "74",
           "answers": [
             {
               "value": -86,
@@ -2798,12 +2808,14 @@
       "items": [
         {
           "item": "1",
-          "number": "75",
-          "concept": "emp2300",
           "text": "Do you work shifts? [If emp0200 = 1,2,3] (. . .emp0400)",
           "text_de": "Arbeiten Sie in Schichtarbeit? [If emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben",
-          "scale": "cat",
+          "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
+          "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==5 | emp0200==1 | emp0200==2 | emp0200==3)",
+          "concept": "emp2300",
+          "scale": "cat",
+          "number": "75",
           "answers": [
             {
               "value": -89,
@@ -2846,12 +2858,14 @@
       "items": [
         {
           "item": "1",
-          "number": "76",
-          "concept": "emp2301",
           "text": "Please indicate whether you work continuously, regularly or occasionally in shifts?",
           "text_de": "Geben Sie bitte an, ob Sie staendig, regelmaessig oder gelegentlich in Schichten arbeiten?",
-          "scale": "cat",
+          "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
+          "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp2300==1",
+          "concept": "emp2301",
+          "scale": "cat",
+          "number": "76",
           "answers": [
             {
               "value": 1,
@@ -2884,12 +2898,14 @@
       "items": [
         {
           "item": "1",
-          "number": "77",
-          "concept": "emp2302",
           "text": "How often do you work on Sundays or public holidays?",
           "text_de": "Wie haeufig kommt es vor, dass Sie sonn- oder feiertags arbeiten?",
-          "scale": "cat",
+          "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
+          "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
+          "concept": "emp2302",
+          "scale": "cat",
+          "number": "77",
           "answers": [
             {
               "value": 1,
@@ -2932,14 +2948,14 @@
       "items": [
         {
           "item": "1",
-          "number": "78",
-          "concept": "emp0708",
           "text": "Is it considered marginal employment in accordance with the 450/850 euro rule (mini-/midi-job)?",
           "text_de": "Ist das eine geringfuegige Beschaeftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0400==4",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp0400==4",
+          "concept": "emp0708",
+          "scale": "cat",
+          "number": "78",
           "answers": [
             {
               "value": 1,
@@ -2972,25 +2988,25 @@
       "items": [
         {
           "item": "0",
-          "number": "79",
-          "concept": "emp0800",
           "text": "When did you leave your last job?",
           "text_de": "Wann haben Sie bei Ihrer letzten Stelle aufgehoert zu arbeiten?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==9 | emp0400==10 | emp0400==8 | emp0300==1)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==9 | emp0400==10 | emp0400==8 | emp0300==1)",
+          "concept": "emp0800",
+          "scale": "txt",
+          "number": "79",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "80",
-          "concept": "emp0800",
           "text": "month",
           "text_de": "Monat",
-          "scale": "int",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0800",
+          "scale": "int",
+          "number": "80",
           "answers": [
             {
               "value": -89,
@@ -3007,13 +3023,13 @@
         },
         {
           "item": "2",
-          "number": "81",
-          "concept": "emp0800",
           "text": "year",
           "text_de": "Jahr",
-          "scale": "int",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0800",
+          "scale": "int",
+          "number": "81",
           "answers": [
             {
               "value": -89,
@@ -3041,25 +3057,25 @@
       "items": [
         {
           "item": "0",
-          "number": "82",
-          "concept": "emp0802",
           "text": "How long were you employed at that job?",
           "text_de": "Wie lange waren Sie insgesamt in Ihrer letzten Stelle beschaeftigt?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==9 | emp0400==10 | emp0400==8 | emp0300==1) & emp0800!=-81",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==9 | emp0400==10 | emp0400==8 | emp0300==1) & emp0800!=-81",
+          "concept": "emp0802",
+          "scale": "txt",
+          "number": "82",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "83",
-          "concept": "emp0802",
           "text": "months",
           "text_de": "Monate",
-          "scale": "int",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0802",
+          "scale": "int",
+          "number": "83",
           "answers": [
             {
               "value": -89,
@@ -3071,13 +3087,13 @@
         },
         {
           "item": "2",
-          "number": "84",
-          "concept": "emp0802",
           "text": "years",
           "text_de": "Jahre",
-          "scale": "int",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0802",
+          "scale": "int",
+          "number": "84",
           "answers": [
             {
               "value": -88,
@@ -3100,14 +3116,14 @@
       "items": [
         {
           "item": "1",
-          "number": "85",
-          "concept": "emp0804",
           "text": "How did that job end?",
           "text_de": "Auf welche Weise wurde diese Beschaeftigung beendet?",
-          "scale": "cat",
-          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==9 | emp0400==8 | emp0300==1) & emp0800 !=-81",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600) & (emp0400==9 | emp0400==8 | emp0300==1) & emp0800 !=-81",
+          "concept": "emp0804",
+          "scale": "cat",
+          "number": "85",
           "answers": [
             {
               "value": 1,
@@ -3155,14 +3171,14 @@
       "items": [
         {
           "item": "1",
-          "number": "86",
-          "concept": "emp0910",
           "text": "What type of training is usually required for your job as [PROG: insertion emp0500]? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
           "text_de": "Welche Art von Ausbildung ist fuer Ihre Taetigkeit als [PROG: Einblendung emp0500] in der Regel derzeit erforderlich? [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
+          "concept": "emp0910",
+          "scale": "cat",
+          "number": "86",
           "answers": [
             {
               "value": 1,
@@ -3200,14 +3216,14 @@
       "items": [
         {
           "item": "1",
-          "number": "87",
-          "concept": "emp1000",
           "text": "Do you currently work in the city where you live?",
           "text_de": "Liegt Ihr derzeitiger Arbeitsplatz an Ihrem Wohnort?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
           "description_de": "Source: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6)",
+          "concept": "emp1000",
+          "scale": "cat",
+          "number": "87",
           "answers": [
             {
               "value": -89,
@@ -3250,14 +3266,14 @@
       "items": [
         {
           "item": "1",
-          "number": "88",
-          "concept": "emp1001",
           "text": "How often do you commute from your dwelling to your place of work?",
           "text_de": "Wie oft pendeln Sie von Ihrer Hauptwohnung zu Ihrem Arbeitsplatz?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp1000==2",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
           "description_de": "Source: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & emp1000==2",
+          "concept": "emp1001",
+          "scale": "cat",
+          "number": "88",
           "answers": [
             {
               "value": 1,
@@ -3295,14 +3311,14 @@
       "items": [
         {
           "item": "1",
-          "number": "89",
-          "concept": "emp1002",
           "text": "How many kilometers is your workplace away from your main apartment? [F emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
           "text_de": "Wie viele Kilometer ist Ihr Arbeitsplatz von Ihrer Hauptwohnung entfernt? [F emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
-          "scale": "int",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
           "description_de": "Source: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
+          "concept": "emp1002",
+          "scale": "int",
+          "number": "89",
           "answers": [
             {
               "value": -82,
@@ -3330,25 +3346,25 @@
       "items": [
         {
           "item": "0",
-          "number": "90",
-          "concept": "aut0101",
           "text": "[ITEMBAT]] [NCS] On a scale of 1 to 5, please tell me to what extent the following statements apply to your work situation. 1 means that the statement 'does not apply at all', 5 means that the statement 'fully applies'. With the values in between you can graduate your assessment.",
           "text_de": "[ITEMBAT] ][NCS] Bitte nennen Sie mir auf einer Skala von 1 bis 5, wie sehr die folgenden Aussagen auf Ihre Arbeitssituation zutreffen. Die 1 bedeutet, dass die Aussage 'ueberhaupt nicht zutrifft', die 5 bedeutet, dass die Aussage 'voll und ganz zutrifft'. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen.",
-          "scale": "txt",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
-          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
-          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "concept": "aut0101",
+          "scale": "txt",
+          "number": "90",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "91",
-          "concept": "aut0101",
           "text": "Within my working hours, I can decide for myself when I do which work tasks.",
           "text_de": "Ich kann innerhalb meiner Arbeitszeit selbst entscheiden, wann ich welche Arbeitsaufgaben erledige.",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "concept": "aut0101",
           "scale": "cat",
-          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
-          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "number": "91",
           "answers": [
             {
               "value": 1,
@@ -3380,13 +3396,13 @@
         },
         {
           "item": "2",
-          "number": "92",
-          "concept": "aut0101",
           "text": "I can decide for myself how I carry out my work tasks.",
           "text_de": "Ich kann selbst entscheiden, auf welche Weise ich meine Arbeitsaufgaben erledige.",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "concept": "aut0101",
           "scale": "cat",
-          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
-          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "number": "92",
           "answers": [
             {
               "value": 1,
@@ -3418,13 +3434,13 @@
         },
         {
           "item": "3",
-          "number": "93",
-          "concept": "aut0101",
           "text": "Most of my work involves routine activities and I rarely learn anything new.",
           "text_de": "Meine Arbeit beinhaltet groesstenteils Routinetaetigkeiten, durch die ich selten etwas Neues hinzu lerne.",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "concept": "aut0101",
           "scale": "cat",
-          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
-          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities.",
+          "number": "93",
           "answers": [
             {
               "value": 1,
@@ -3467,14 +3483,14 @@
       "items": [
         {
           "item": "1",
-          "number": "94",
-          "concept": "emp1100",
           "text": "How likely do you think you will be to lose your job in the next two years? Please answer on a scale from 1 to 5, where 1 means 'very unlikely' and 5 means 'very likely'. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions about your last job. If you are currently on parental leave and working at the same time, answer the questions about your current job.",
           "text_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie in den kommenden zwei Jahren den Arbeitsplatz verlieren? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 'sehr unwahrscheinlich' bedeutet und 5 'sehr wahrscheinlich'. [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
           "description_de": "Source: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & ((emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3) & emp0600 !=4)",
+          "concept": "emp1100",
+          "scale": "cat",
+          "number": "94",
           "answers": [
             {
               "value": 1,
@@ -3517,14 +3533,14 @@
       "items": [
         {
           "item": "1",
-          "number": "95",
-          "concept": "emp1200",
           "text": "Overall, is what you do at work and what you get for it in return generally balanced? Please answer on a scale of 1 to 5, where 1 means that it is completely unbalanced and 5 means that it is completely balanced. With the values in between you can graduate your assessment again. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
           "text_de": "Alles in allem: Ist das, was Sie an Ihrem Arbeitsplatz leisten, und das, was Sie dafuer bekommen, in der Regel ausgeglichen? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 bedeutet, dass es absolut unausgeglichen ist und 5 bedeutet, dass es absolut ausgeglichen ist. Mit den Werten dazwischen koennen Sie Ihre Meinung wieder abstufen. [IF emp0200 = 1,2,3] Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder in Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
           "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
           "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6 | emp0200==1 | emp0200==2 | emp0200==3)",
+          "concept": "emp1200",
+          "scale": "cat",
+          "number": "95",
           "answers": [
             {
               "value": 1,
@@ -3567,14 +3583,14 @@
       "items": [
         {
           "item": "1",
-          "number": "96",
-          "concept": "inc0103",
           "text": "If you can't or don't wish to state an amount, please indicate which income group your monthly gross income falls into.",
           "text_de": "Wenn Sie einen exakten Betrag nicht nennen koennen oder wollen, dann geben Sie bitte an, in welche Einkommenskategorie Ihr durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inc0100==-98 | inc0100==-99)",
           "description": "Source: TNS Infratest Sozialforschung. 2011. [SOEP 2005 Pretest Mother and child 2] SOEP 2005 - Pretestbericht zum Befragungsjahr 2005 (Welle 22) des Sozio-oekonomischen Panels - Mutter und Kind 2. SOEP Survey Papers 54: Series B. Berlin: DIW/SOEP",
           "description_de": "Source: TNS Infratest Sozialforschung. 2011. SOEP 2005 - Pretestbericht zum Befragungsjahr 2005 (Welle 22) des Sozio-oekonomischen Panels - Mutter und Kind 2. SOEP Survey Papers 54: Series B. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inc0100==-98 | inc0100==-99)",
+          "concept": "inc0103",
+          "scale": "cat",
+          "number": "96",
           "answers": [
             {
               "value": 1,
@@ -3662,14 +3678,14 @@
       "items": [
         {
           "item": "1",
-          "number": "97",
-          "concept": "inc0200",
           "text": "When you think about your current gross income, would you say that what you get paid is fair for the work you do, or is it above or below what you consider fair?",
           "text_de": "Wenn Sie an Ihr gegenwaertiges Bruttoeinkommen denken, wuerden Sie sagen, dass es in Bezug auf Ihre Taetigkeit gerecht oder ungerechterweise zu hoch oder ungerechterweise zu niedrig ist?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6)",
           "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
           "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4 | emp0400==6)",
+          "concept": "inc0200",
+          "scale": "cat",
+          "number": "97",
           "answers": [
             {
               "value": 1,
@@ -3702,25 +3718,25 @@
       "items": [
         {
           "item": "0",
-          "number": "98",
-          "concept": "inc0201",
           "text": "What do you consider a fair gross monthly income for you?",
           "text_de": "Was waere in Ihren Augen ein gerechtes monatliches Bruttoeinkommen fuer Sie?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inc0200==1 | inc0200==3)",
           "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
           "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inc0200==1 | inc0200==3)",
+          "concept": "inc0201",
+          "scale": "txt",
+          "number": "98",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "99",
-          "concept": "inc0201",
           "text": "monthly income",
           "text_de": "Einkommen pro MONAT",
-          "scale": "dec",
           "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
           "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "concept": "inc0201",
+          "scale": "dec",
+          "number": "99",
           "answers": [
             {
               "value": -89,
@@ -3737,13 +3753,13 @@
         },
         {
           "item": "2",
-          "number": "100",
-          "concept": "inc0201",
           "text": "yearly income",
           "text_de": "Einkommen pro JAHR",
-          "scale": "dec",
           "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
           "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "concept": "inc0201",
+          "scale": "dec",
+          "number": "100",
           "answers": [
             {
               "value": -89,
@@ -3771,14 +3787,14 @@
       "items": [
         {
           "item": "1",
-          "number": "101",
-          "concept": "eca0800",
           "text": "Would you like to earn a (further) vocational training qualification or university diploma in the future?",
           "text_de": "Streben Sie in der Zukunft einen beruflichen Ausbildungsabschluss oder Hochschulabschluss an? Wenn Sie bereits einen Abschluss haben: Streben Sie einen weiteren Ausbildungsabschluss oder Hochschulabschluss an?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>15",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>15",
+          "concept": "eca0800",
+          "scale": "cat",
+          "number": "101",
           "answers": [
             {
               "value": 1,
@@ -3811,14 +3827,14 @@
       "items": [
         {
           "item": "1",
-          "number": "102",
-          "concept": "eca0801",
           "text": "How likely do you think is it that you will earn this qualification? Please tell me a value between 0 and 100. Value 0 stands for 0% probability, value 100 stands for 100% probability.",
           "text_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss mal erreichen? Bitte nennen Sie mir einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >15 & (eca0800==1 | eca0800==2)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >15 & (eca0800==1 | eca0800==2)",
+          "concept": "eca0801",
+          "scale": "cat",
+          "number": "102",
           "answers": [
             {
               "value": 0,
@@ -3891,14 +3907,14 @@
       "items": [
         {
           "item": "1",
-          "number": "103",
-          "concept": "eca0700",
           "text": "What type of school-leaving qualification would you like to attain?",
           "text_de": "[IF age >= 4 & age < =15]: Welchen Schulabschluss moechtest Du einmal erreichen? [IF age >15 ]: Welchen Schulabschluss moechten Sie einmal erreichen?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200)) & ((edu0100==2 & age0110 >9) | edu0301==1)",
           "description": "Source: Adapted from: Deutsches Jugendinstitut (DJI), Muenchen (1995). DJI Youth Survey 1992 (Youth and Politics). GESIS Data Archive, Cologne",
           "description_de": "Source: Adaptiert von: Deutsches Jugendinstitut (DJI), Muenchen (1995). DJI-Jugendsurvey 1992 (Jugend und Politik). GESIS Datenarchiv, Koeln",
+          "filter": "(inlist(ptyp,1,2,110,120,200)) & ((edu0100==2 & age0110 >9) | edu0301==1)",
+          "concept": "eca0700",
+          "scale": "cat",
+          "number": "103",
           "answers": [
             {
               "value": 1,
@@ -3941,14 +3957,14 @@
       "items": [
         {
           "item": "1",
-          "number": "104",
-          "concept": "eca0701",
           "text": "How likely do you think is it that you will attain this school-leaving qualification? Please tell me a value between 0 and 100. Value 0 stands for 0% probability, value 100 stands for 100% probability.",
           "text_de": "[IF age >= 4 & age < =15]: Fuer wie wahrscheinlich haeltst Du es, dass Du diesen Abschluss erreichst? Bitte nenne einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'. [IF age >15]: Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss erreichen? Bitte nennen Sie mir einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet '0 Prozent Wahrscheinlichkeit' und der Wert 100 '100 Prozent Wahrscheinlichkeit'.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >9 & (eca0700==1 | eca0700==2 | eca0700==3)",
           "description": "Source: Adapted from: Deutsches Jugendinstitut (DJI), Muenchen (1995). DJI Youth Survey 1992 (Youth and Politics). GESIS Data Archive, Cologne",
           "description_de": "Source: Adaptiert von: Deutsches Jugendinstitut (DJI), Muenchen (1995). DJI-Jugendsurvey 1992 (Jugend und Politik). GESIS Datenarchiv, Koeln",
+          "filter": "(inlist(ptyp,1,2,110,120,200)) & age0110 >9 & (eca0700==1 | eca0700==2 | eca0700==3)",
+          "concept": "eca0701",
+          "scale": "cat",
+          "number": "104",
           "answers": [
             {
               "value": 0,
@@ -4021,14 +4037,14 @@
       "items": [
         {
           "item": "1",
-          "number": "105",
-          "concept": "mig0200",
           "text": "What year did you arrive in Germany?",
           "text_de": "Seit wann leben Sie in Deutschland?",
-          "scale": "int",
-          "filter": "inlist(ptyp,110,120,200,300,400,500,600) & age0110>=16 & new==1 & mig0100 !=1 & mig0100 !=2",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Lebenslauffragebogen, Altstichproben. SOEP Survey Papers 237: Series A. Berlin: DIW/SOEP",
+          "filter": "inlist(ptyp,110,120,200,300,400,500,600) & age0110>=16 & new==1 & mig0100 !=1 & mig0100 !=2",
+          "concept": "mig0200",
+          "scale": "int",
+          "number": "105",
           "answers": [
             {
               "value": -86,
@@ -4056,14 +4072,14 @@
       "items": [
         {
           "item": "1",
-          "number": "106",
-          "concept": "mig0700",
           "text": "Do you have a permanent or temporary residence permit?",
           "text_de": "Haben Sie heute eine unbefristete oder eine befristete Aufenthaltserlaubnis?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=16 & mig0550!=000 & mig0552!=000",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Lebenslauffragebogen, Altstichproben. SOEP Survey Papers 237: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=16 & mig0550!=000 & mig0552!=000",
+          "concept": "mig0700",
+          "scale": "cat",
+          "number": "106",
           "answers": [
             {
               "value": 1,
@@ -4101,14 +4117,14 @@
       "items": [
         {
           "item": "1",
-          "number": "107",
-          "concept": "mig0800",
           "text": "Do you speak . . . at home?",
           "text_de": "Sprechen Sie zuhause . . .",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=16",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Life Course 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Lebenslauffragebogen, Altstichproben. SOEP Survey Papers 237: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=16",
+          "concept": "mig0800",
+          "scale": "cat",
+          "number": "107",
           "answers": [
             {
               "value": 1,
@@ -4122,18 +4138,18 @@
             },
             {
               "value": 3,
-              "label": "3: partly the one and partly the other, except for German also",
-              "label_de": "3: teils/teils, neben Deutsch noch eine andere Sprache, und zwar"
+              "label": "3: partly partly, German and another language",
+              "label_de": "3: teils/teils, neben Deutsch noch eine andere Sprache"
             },
             {
               "value": 4,
-              "label": "4: mainly another language, which is",
-              "label_de": "4: ueberwiegend eine andere Sprache, und zwar"
+              "label": "4: mainly another language",
+              "label_de": "4: ueberwiegend eine andere Sprache"
             },
             {
               "value": 5,
-              "label": "5: exclusively another language, which is",
-              "label_de": "5: ausschliesslich eine andere Sprache, und zwar"
+              "label": "5: exclusively another language",
+              "label_de": "5: ausschliesslich eine andere Sprache"
             }
           ],
           "sn": 0
@@ -4151,14 +4167,14 @@
       "items": [
         {
           "item": "0",
-          "number": "108",
-          "concept": "igf0140",
           "text": "CFT 20-R T1.1 short: result (gen)",
           "text_de": "CFT 20-R T1.1 kurz: Ergebnis (gen)",
-          "scale": "txt",
+          "description": "Source: Weiss, R. H. (2006). CFT 20-R. Grundintelligenztestskala 2. Manual. Goettingen, Deutschland: Hogrefe",
+          "description_de": "Source: Weiss, R. H. (2006). CFT 20-R. Grundintelligenztestskala 2. Manual. Goettingen, Deutschland: Hogrefe",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=10 & new==1",
-          "description": "Source: Weiss, R. H. (2006). CFT 20-R. Grundintelligenztestskala 2. Manual. Goettingen, Deutschland: Hogrefe.",
-          "description_de": "Source: Weiss, R. H. (2006). CFT 20-R. Grundintelligenztestskala 2. Manual. Goettingen, Deutschland: Hogrefe.",
+          "concept": "igf0140",
+          "scale": "txt",
+          "number": "108",
           "sn": 0
         }
       ],

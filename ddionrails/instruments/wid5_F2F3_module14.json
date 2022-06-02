@@ -1,0 +1,1106 @@
+{
+  "study": "twinlife",
+  "name": "wid5_F2F3_module14",
+  "label": "F2F 3: health (CASI)",
+  "description": "This questionnaire module contains questions on: beginning of physical and psychological changes, evaluation of changes; current subjective health; diagnoses (adults and children); doctor's visit; impairment caused by diseases.",
+  "analysis_unit": "individual",
+  "period": 5,
+  "instrument": "wid5_F2F3_module14",
+  "questions": {
+    "she0200": {
+      "question": "she0200",
+      "name": "she0200",
+      "label": "How would you describe your state of health during the past 24 months, in general?",
+      "label_de": "[IF age >= 11 AND age <= 15] Wie wuerdest Du Deine Gesundheit in den letzten 24 Monaten im Allgemeinen beschreiben? [IF age >= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 24 Monaten im Allgemeinen beschreiben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How would you describe your state of health during the past 24 months, in general?",
+          "text_de": "[IF age >= 11 AND age <= 15] Wie wuerdest Du Deine Gesundheit in den letzten 24 Monaten im Allgemeinen beschreiben? [IF age >= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 24 Monaten im Allgemeinen beschreiben?",
+          "description": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
+          "description_de": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
+          "concept": "she0200",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: excellent",
+              "label_de": "1: ausgezeichnet"
+            },
+            {
+              "value": 2,
+              "label": "2: very good",
+              "label_de": "2: sehr gut"
+            },
+            {
+              "value": 3,
+              "label": "3: good",
+              "label_de": "3: gut"
+            },
+            {
+              "value": 4,
+              "label": "4: less good",
+              "label_de": "4: maessig / weniger gut"
+            },
+            {
+              "value": 5,
+              "label": "5: poor",
+              "label_de": "5: schlecht"
+            },
+            {
+              "value": 6,
+              "label": "6: very poor",
+              "label_de": "6: sehr schlecht"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "doc0200": {
+      "question": "doc0200",
+      "name": "doc0200",
+      "label": "Have you visited a doctor (or dentist) in the last 24 months? (This includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
+      "label_de": "[IF age >= 16] Haben Sie in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae. [IF age < 16] Hast Du in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you visited a doctor (or dentist) in the last 24 months? (This includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
+          "text_de": "[IF age >= 16] Haben Sie in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae. [IF age < 16] Hast Du in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "doc0200",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "doc0201": {
+      "question": "doc0201",
+      "name": "doc0201",
+      "label": "Please indicate how often this happened.",
+      "label_de": "[IF age < 16] Gib bitte an, wie haeufig das war. [IF age >= 16] Geben Sie bitte an, wie haeufig das war.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate how often this happened.",
+          "text_de": "[IF age < 16] Gib bitte an, wie haeufig das war. [IF age >= 16] Geben Sie bitte an, wie haeufig das war.",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "doc0201",
+          "scale": "cat",
+          "number": "3",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "dia3110": {
+      "question": "dia3110",
+      "name": "dia3110",
+      "label": "[MFN] Has a doctor diagnosed you with one or more of the following illnesses in the last 24 months?",
+      "label_de": "[MFN] [IF age >= 16] Hat ein Arzt bei Ihnen in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [IF age < 16] Hat ein Arzt bei Dir in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [END IF]",
+      "items": [
+        {
+          "item": "0",
+          "text": "[MFN] Has a doctor diagnosed you with one or more of the following illnesses in the last 24 months?",
+          "text_de": "[MFN] [IF age >= 16] Hat ein Arzt bei Ihnen in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [IF age < 16] Hat ein Arzt bei Dir in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [END IF]",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "txt",
+          "number": "4",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Sleeping disorder",
+          "text_de": "Schlafstoerung",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "Diabetes",
+          "text_de": "Diabetes",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Respiratory diseases (asthma, bronchitis, etc.)",
+          "text_de": "Atemwegserkrankungen (Asthma, Bronchitis o.Ae.)",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "7",
+          "text": "Heart problems (also heart failure, congestive heart failure)",
+          "text_de": "Herzkrankheit (auch Herzinsuffizienz, Herzschwaeche)",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "8",
+          "text": "Cancer",
+          "text_de": "Krebserkrankungen",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "9",
+          "text": "Stroke",
+          "text_de": "Schlaganfall",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "10",
+          "text": "Migraine",
+          "text_de": "Migraene",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "11",
+          "text": "High blood pressure",
+          "text_de": "Bluthochdruck",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "13",
+          "text": "Anxiety disorders",
+          "text_de": "Angsterkrankung",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "14",
+          "text": "Alcohol addiction",
+          "text_de": "Alkoholerkrankung",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "25",
+          "text": "No illness diagnosed",
+          "text_de": "Keine Erkrankung festgestellt",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "26",
+          "text": "Don't know",
+          "text_de": "Weiss nicht",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "16",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "27",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "15",
+          "text": "Depression",
+          "text_de": "Depressive Erkrankung",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "20",
+          "text": "Joint diseases (also arthrosis, rhematism)",
+          "text_de": "Gelenkerkrankung (auch Arthrose, Rheuma)",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 15
+        },
+        {
+          "item": "21",
+          "text": "Chronic back pains",
+          "text_de": "Chronische Rueckenbeschwerden",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 16
+        },
+        {
+          "item": "22",
+          "text": "physical disability",
+          "text_de": "Koerperbehinderung",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 17
+        },
+        {
+          "item": "23",
+          "text": "Other physical or psychological illness/disease",
+          "text_de": "Sonstige koerperliche oder psychische Erkrankung",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 18
+        },
+        {
+          "item": "16",
+          "text": "Attention disorders (hyper activity (ADHS/ADS)",
+          "text_de": "Aufmerksamkeitsstoerung, Hyperaktivitaet (ADHS/ADS)",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "23",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 19
+        },
+        {
+          "item": "4",
+          "text": "Allergies",
+          "text_de": "Allergien",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "24",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 20
+        },
+        {
+          "item": "5",
+          "text": "Skin disease (e.g. Neurodermatitis, Psoriasis)",
+          "text_de": "Hauterkrankungen (z.B. Neurodermitis, Psoriasis)",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "25",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 21
+        },
+        {
+          "item": "12",
+          "text": "Increased blood fats / cholesterol level",
+          "text_de": "Erhoehte Blutfette/Cholesterin",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 22
+        },
+        {
+          "item": "6",
+          "text": "defective vision (e.g. strong near or distance vision [from +/- 2.5 diopters], colour deficiency, blindness)",
+          "text_de": "Fehlsichtigkeit (z.B. starke Kurz- oder Weitsichtigkeit [ab +/- 2,5 Dioptrien], Farbschwaeche, Blindheit)",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "27",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 23
+        },
+        {
+          "item": "17",
+          "text": "Reading/spelling problems",
+          "text_de": "Lese-/Rechtschreibschwaeche",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 24
+        },
+        {
+          "item": "18",
+          "text": "Dyscalculia (problems with numbers and counting)",
+          "text_de": "Rechenschwaeche",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 25
+        },
+        {
+          "item": "19",
+          "text": "Thyroid disease (including Hashimoto's thyroiditis, Basedow-Graves disease)",
+          "text_de": "Schilddruesenerkrankungen (auch Hashimoto, Morbus Basedow)",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia3110",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 26
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "imp0100": {
+      "question": "imp0100",
+      "name": "imp0100",
+      "label": "To what extent would you say your illness limits you in your everyday life?",
+      "label_de": "[IF age >= 16] In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt? [IF age < 16] In welchem Ausmass fuehlst Du Dich in Deinem Alltag durch Erkrankungen beeintraechtigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "To what extent would you say your illness limits you in your everyday life?",
+          "text_de": "[IF age >= 16] In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt? [IF age < 16] In welchem Ausmass fuehlst Du Dich in Deinem Alltag durch Erkrankungen beeintraechtigt?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "imp0100",
+          "scale": "cat",
+          "number": "31",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: only very slightly",
+              "label_de": "2: sehr leicht"
+            },
+            {
+              "value": 3,
+              "label": "3: slightly",
+              "label_de": "3: leicht"
+            },
+            {
+              "value": 4,
+              "label": "4: moderately",
+              "label_de": "4: maessig"
+            },
+            {
+              "value": 5,
+              "label": "5: strongly",
+              "label_de": "5: stark"
+            },
+            {
+              "value": 6,
+              "label": "6: very strongly",
+              "label_de": "6: sehr stark"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "pub0100": {
+      "question": "pub0100",
+      "name": "pub0100",
+      "label": "[IF sex = 2] In puberty you get hair under your armpits and in the pubic area. For girls, the breasts begin to grow and they get their period (menstrual bleeding). Have you noticed whether any of these changes have already started for you? [IF sex = 1] In puberty you get hair under your armpits and in the pubic area. For boys, facial hair starts to grow and the voice changes. Have you noticed whether any of these changes have already started for you?",
+      "label_de": "[IF age >= 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF age < 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Dir einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Dir einige dieser Veraenderungen schon begonnen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF sex = 2] In puberty you get hair under your armpits and in the pubic area. For girls, the breasts begin to grow and they get their period (menstrual bleeding). Have you noticed whether any of these changes have already started for you? [IF sex = 1] In puberty you get hair under your armpits and in the pubic area. For boys, facial hair starts to grow and the voice changes. Have you noticed whether any of these changes have already started for you?",
+          "text_de": "[IF age >= 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF age < 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Dir einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Dir einige dieser Veraenderungen schon begonnen?",
+          "description": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale. Diagnostica, 55(1), 55-65.",
+          "description_de": "Source: Adaptiert von: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale. Diagnostica, 55(1), 55-65.",
+          "concept": "pub0100",
+          "scale": "cat",
+          "number": "32",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: has not started yet",
+              "label_de": "1: hat noch nicht begonnen"
+            },
+            {
+              "value": 2,
+              "label": "2: is slowly starting",
+              "label_de": "2: faengt langsam an"
+            },
+            {
+              "value": 3,
+              "label": "3: has definitely started",
+              "label_de": "3: hat auf jeden Fall schon angefangen"
+            },
+            {
+              "value": 4,
+              "label": "4: I already have the body of an adult woman/an adult man",
+              "label_de": "4: alles ist schon wie bei einer erwachsenen Frau/einem erwachsenen Mann"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "pub0200": {
+      "question": "pub0200",
+      "name": "pub0200",
+      "label": "How are or were these physical changes for you?",
+      "label_de": "[IF age >= 16] Wie sind oder waren diese Veraenderungen Ihres Koerpers fuer Sie? [IF age < 16] Wie sind oder waren diese Veraenderungen Deines Koerpers fuer Dich?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How are or were these physical changes for you?",
+          "text_de": "[IF age >= 16] Wie sind oder waren diese Veraenderungen Ihres Koerpers fuer Sie? [IF age < 16] Wie sind oder waren diese Veraenderungen Deines Koerpers fuer Dich?",
+          "description": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale. Diagnostica, 55(1), 55-65.",
+          "description_de": "Source: Adaptiert von: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale. Diagnostica, 55(1), 55-65.",
+          "concept": "pub0200",
+          "scale": "cat",
+          "number": "33",
+          "answers": [
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "pub0300": {
+      "question": "pub0300",
+      "name": "pub0300",
+      "label": "These physical changes are often accompanied by changes in how you think and feel, for example, new interests develop and mood swings can occur. Have you noticed changes like this in yourself?",
+      "label_de": "[IF age >= 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Haben Sie solche Veraenderungen bei Ihnen schon bemerkt? [IF age < 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Hast Du solche Veraenderungen bei Dir schon bemerkt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "These physical changes are often accompanied by changes in how you think and feel, for example, new interests develop and mood swings can occur. Have you noticed changes like this in yourself?",
+          "text_de": "[IF age >= 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Haben Sie solche Veraenderungen bei Ihnen schon bemerkt? [IF age < 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Hast Du solche Veraenderungen bei Dir schon bemerkt?",
+          "description": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale. Diagnostica, 55(1), 55-65.",
+          "description_de": "Source: Adaptiert von: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale. Diagnostica, 55(1), 55-65.",
+          "concept": "pub0300",
+          "scale": "cat",
+          "number": "34",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "pub0301": {
+      "question": "pub0301",
+      "name": "pub0301",
+      "label": "How did you feel about these changes in your thoughts and feelings?",
+      "label_de": "[IF age >= 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Sie? [IF age < 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Dich?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How did you feel about these changes in your thoughts and feelings?",
+          "text_de": "[IF age >= 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Sie? [IF age < 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Dich?",
+          "description": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale. Diagnostica, 55(1), 55-65.",
+          "description_de": "Source: Adaptiert von: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale. Diagnostica, 55(1), 55-65.",
+          "concept": "pub0301",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "pub0400": {
+      "question": "pub0400",
+      "name": "pub0400",
+      "label": "Menstrual periods start at very different times in women when they are young. How about you: Have you already had your first menstrual period?",
+      "label_de": "[IF age >= 10 & <16] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Dir: Hattest Du schon Deine erste Regelblutung? [IF age = 16] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Ihnen: Hatten Sie schon Ihre erste Regelblutung?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Menstrual periods start at very different times in women when they are young. How about you: Have you already had your first menstrual period?",
+          "text_de": "[IF age >= 10 & <16] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Dir: Hattest Du schon Deine erste Regelblutung? [IF age = 16] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Ihnen: Hatten Sie schon Ihre erste Regelblutung?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "pub0400",
+          "scale": "cat",
+          "number": "36",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: I do not want to give this information",
+              "label_de": "-81: ich moechte diese Angabe nicht machen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no, I have not had a menstrual period yet",
+              "label_de": "2: Nein, ich hatte noch keine Regelblutung"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    },
+    "pub0401": {
+      "question": "pub0401",
+      "name": "pub0401",
+      "label": "At which age did you have your first menstruation?",
+      "label_de": "[IF age >= 10 and < 16] In welchem Alter hattest Du Deine erste Periode? [IF age = 16] In welchem Alter hatten Sie Ihre erste Periode? [IF age >= 17] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. In welchem Alter hatten Sie Ihre erste Periode?",
+      "items": [
+        {
+          "item": "1",
+          "text": "At which age did you have your first menstruation?",
+          "text_de": "[IF age >= 10 and < 16] In welchem Alter hattest Du Deine erste Periode? [IF age = 16] In welchem Alter hatten Sie Ihre erste Periode? [IF age >= 17] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. In welchem Alter hatten Sie Ihre erste Periode?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "pub0401",
+          "scale": "cat",
+          "number": "37",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: I have not had any menstrual periods so far",
+              "label_de": "-82: ich hatte bisher keine Regelblutungen"
+            },
+            {
+              "value": -81,
+              "label": "-81: I do not want to give this information",
+              "label_de": "-81: ich moechte diese Angabe nicht machen"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid5_F2F3_module14",
+      "study": "twinlife"
+    }
+  }
+}

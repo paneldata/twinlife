@@ -15,11 +15,11 @@
       "items": [
         {
           "item": "1",
-          "number": "1",
-          "concept": "emp0520",
           "text": "You said you worked as a [emp0500_2[preload]] when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true?\n",
           "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie als [emp0500_2[Preload]] taetig waren. Trifft dies aktuell immer noch zu?",
           "filter": "(hpr0104==1 | hpr0105==1 | hpr0107==1) & !missing(emp0500_3) & proxy != 1",
+          "concept": "emp0520",
+          "number": "1",
           "answers": [
             {
               "value": -81,
@@ -52,11 +52,11 @@
       "items": [
         {
           "item": "1",
-          "number": "2",
-          "concept": "emp0620",
           "text": "In the last interview, we noted that you worked in [INTDATM/INTDATY] as [emp0600_2[preload]]. Is that still true at the\nmoment?",
           "text_de": "Im letzten Interview haben wir notiert, dass Sie im [INTDATM/INTDATY] als [emp0600_2[Preload]] taetig waren. Trifft das aktuell immer noch zu?",
           "filter": "(hpr0104==1 | hpr0105==1 | hpr0107==1) & inrange(emp0600_3,1,5) & proxy != 1",
+          "concept": "emp0620",
+          "number": "2",
           "answers": [
             {
               "value": -81,
@@ -89,14 +89,14 @@
       "items": [
         {
           "item": "1",
-          "number": "3",
-          "concept": "emp0600",
           "text": "In what professional position are you currently employed?",
           "text_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt?",
-          "scale": "cat",
-          "filter": "proxy != 1 & (((hpr0104==1 | hpr0105==1 | hpr0107==1) & emp0620!=1) | ((hpr0104==1 | hpr0105==1 | hpr0107==1) & emp0600_3<0) | (hpr0112==1) | (hpr0115==1))",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "filter": "proxy != 1 & (((hpr0104==1 | hpr0105==1 | hpr0107==1) & emp0620!=1) | ((hpr0104==1 | hpr0105==1 | hpr0107==1) & emp0600_3<0) | (hpr0112==1) | (hpr0115==1))",
+          "concept": "emp0600",
+          "scale": "cat",
+          "number": "3",
           "answers": [
             {
               "value": 1,
@@ -139,12 +139,12 @@
       "items": [
         {
           "item": "1",
-          "number": "4",
-          "concept": "edu0420",
           "text": "You said you attended [edu0400_2[Preload]] when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true?",
           "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0400_2[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
-          "scale": "cat",
           "filter": "proxy != 1 & hpr0102==1 & inrange(edu0400_3,1,11)",
+          "concept": "edu0420",
+          "scale": "cat",
+          "number": "4",
           "answers": [
             {
               "value": -81,
@@ -177,14 +177,14 @@
       "items": [
         {
           "item": "0",
-          "number": "5",
-          "concept": "edu0400",
           "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
-          "scale": "txt",
-          "filter": "hpr0102==1 & (edu0420!=1 | edu0400_3<0)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "hpr0102==1 & (edu0420!=1 | edu0400_3<0)",
+          "concept": "edu0400",
+          "scale": "txt",
+          "number": "5",
           "sn": 0
         }
       ],
@@ -200,14 +200,14 @@
       "items": [
         {
           "item": "0",
-          "number": "6",
-          "concept": "edu0402",
           "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
-          "scale": "txt",
-          "filter": "(hpr0102==1) & !inlist(edu0400,-98,-99)",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "filter": "(hpr0102==1) & !inlist(edu0400,-98,-99)",
+          "concept": "edu0402",
+          "scale": "txt",
+          "number": "6",
           "sn": 0
         }
       ],
@@ -223,12 +223,12 @@
       "items": [
         {
           "item": "1",
-          "number": "7",
-          "concept": "edu0320",
           "text": "You said you were attending [edu0303_3] when you were last surveyed in [INTDATM/INTDATY]. Is this still currently true?",
           "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie die [edu0303_3] besuchen. Trifft dies aktuell immer noch zu?",
-          "scale": "cat",
           "filter": "proxy != 1 & hpr0203==1 & inrange(edu0303_3,1,4)",
+          "concept": "edu0320",
+          "scale": "cat",
+          "number": "7",
           "answers": [
             {
               "value": -81,
@@ -261,14 +261,14 @@
       "items": [
         {
           "item": "0",
-          "number": "8",
-          "concept": "edu0303",
           "text": "What kind of higher education is this?",
           "text_de": "Was fuer eine Hochschulausbildung ist das?",
-          "scale": "txt",
-          "filter": "(hpr0203==1) & (edu0320!=1 | edu0303_3<0)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(hpr0203==1) & (edu0320!=1 | edu0303_3<0)",
+          "concept": "edu0303",
+          "scale": "txt",
+          "number": "8",
           "sn": 0
         }
       ],
@@ -284,12 +284,12 @@
       "items": [
         {
           "item": "1",
-          "number": "9",
-          "concept": "edu0330",
           "text": "[IF edu0307[preload] = 1,2,4,8] You said you were doing a <edu0307_2[preload]> when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true? [IF edu0307_2[preload] = 3,5,6,7] You said you were attending a <edu0307_2[preload]> when you were last interviewed in [INTDATM/INTDATY]. Is this still currently true? [IF edu0307_2[preload] = 9] I recorded the following in response to the question about what kind of vocational training you are doing during the last interview: <edu0308_2[preload]>. Is this still currently true?",
           "text_de": "[IF edu0307[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie [IF edu0307_2[Preload] = 1,2 ein/ IF edu0307_2[Preload] = 4,8 eine] <edu0307_2[preload]> machen. Trifft dies aktuell immer noch zu? [IF edu0307_2[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie eine <edu0307_2[preload]> besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_2[Preload] = 9] Bei der letzten Befragung im [INTDATM/INTDATY] habe ich mir zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: <edu0308_2[preload]>. Trifft dies aktuell immer noch zu?",
-          "scale": "cat",
           "filter": "proxy != 1 & hpr0106==1 & inrange(edu0307_3,1,9)",
+          "concept": "edu0330",
+          "scale": "cat",
+          "number": "9",
           "answers": [
             {
               "value": -81,
@@ -322,14 +322,14 @@
       "items": [
         {
           "item": "0",
-          "number": "10",
-          "concept": "edu0307",
           "text": "What kind of vocational training is this?",
           "text_de": "Was fuer eine berufliche Ausbildung ist das?",
-          "scale": "txt",
-          "filter": "(hpr0106==1) & (edu0330!=1 | edu0307_3<0)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(hpr0106==1) & (edu0330!=1 | edu0307_3<0)",
+          "concept": "edu0307",
+          "scale": "txt",
+          "number": "10",
           "sn": 0
         }
       ],
@@ -345,14 +345,14 @@
       "items": [
         {
           "item": "0",
-          "number": "11",
-          "concept": "eca0900",
           "text": "[IF proxy=2] Have you received a school degree since the last interview, i.e., since the <INTDATM INTDATY>? [IF proxy=1] Have you or any of the following received a school degree since the last interview, i.e., since <INTDATM INTDATY>? For this question, we are referring to the following family members: [PROG: INSERT PERSONS BY NAME] / Have you or your partner received a school degree since the last interview, i.e., since <INTDATM INTDATY>? Of the persons named, who did so?",
           "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem  <INTDATM INTDATY>, einen Schulabschluss erworben? [IF proxy=1] Haben Sie oder eine der folgenden Personen seit dem letzten Interview, d.h. seit dem  <INTDATM INTDATY>, einen Schulabschluss erworben? Bei dieser Frage geht es uns um folgende Familienmitglieder: [PROG: EINBLENDUNG PERSONEN mit NAMEN] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, einen Schulabschluss erworben? Wer von den genannten Personen war das?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,110,120,200,300,400,500,600) & (res0600_1 == 10 | res0600_3 == 10) & age0110 >= 15",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "inlist(ptyp,1,2,200,110,120,200,300,400,500,600) & (res0600_1 == 10 | res0600_3 == 10) & age0110 >= 15",
+          "concept": "eca0900",
+          "scale": "txt",
+          "number": "11",
           "sn": 0
         }
       ],
@@ -368,14 +368,14 @@
       "items": [
         {
           "item": "0",
-          "number": "12",
-          "concept": "eca0901",
           "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
-          "scale": "txt",
-          "filter": "eca0900 == 1",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "eca0900 == 1",
+          "concept": "eca0901",
+          "scale": "txt",
+          "number": "12",
           "sn": 0
         }
       ],
@@ -391,14 +391,14 @@
       "items": [
         {
           "item": "0",
-          "number": "13",
-          "concept": "eca1000",
           "text": "[IF proxy=2] Since the last interview, i.e., <INTDATM/INTDATY>, have you obtained a vocational training or university degree? [IF proxy=1] Please indicate whether you or any of the following have obtained a vocational training or university degree since the last interview, i.e., since <INTDATM/ INTDATY>? For this question, we are referring to the following family members: [names_list] / Since the last interview, i.e., <INTDATM/ INTDATY>, have you or your partner obtained a vocational training or university degree? Of the persons named, who did so?",
           "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem  <INTDATM/INTDATY>, einen Ausbildungs- oder Studienabschluss erworben? [IF proxy=1] Bitte geben Sie an, ob Sie oder jemand von den folgenden Personen seit dem letzten Interview, d.h. seit dem <INTDATM/ INTDATY>, einen Ausbildungs- oder Studienabschluss erworben hat? Bei diese Frage geht es uns um folgende Familienmitglieder: [Namen_Liste] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem <INTDATM/ INTDATY>, einen Ausbildungs- oder Studienabschluss erworben? Wer von den genannten Personen war das?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,110,120,200,300,400,500,600) & (res0600_1 == 10 | res0600_3 == 10) & age0110 >= 15",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "filter": "inlist(ptyp,1,2,200,110,120,200,300,400,500,600) & (res0600_1 == 10 | res0600_3 == 10) & age0110 >= 15",
+          "concept": "eca1000",
+          "scale": "txt",
+          "number": "13",
           "sn": 0
         }
       ],
@@ -414,12 +414,12 @@
       "items": [
         {
           "item": "0",
-          "number": "14",
-          "concept": "eca1100",
           "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
-          "scale": "txt",
           "filter": "eca1000 == 1",
+          "concept": "eca1100",
+          "scale": "txt",
+          "number": "14",
           "sn": 0
         }
       ],
@@ -435,12 +435,12 @@
       "items": [
         {
           "item": "0",
-          "number": "15",
-          "concept": "eca1200",
           "text": "[IF proxy=2] Have you dropped out of school, training, or study since the last interview, i.e., since the <INTDATM INTDATY>? [IF proxy=1] Since the last interview, i.e., since the <INTDATM INTDATY>, have you or any of the following dropped out of school, training, or study? For this question, we are referring to the following family members: [PROG: INSERT PERSONS BY NAME] / Since the last interview, i.e., since <INTDATM INTDATY>, have you or your partner dropped out of school, training, or study? Of the persons named, who did so?",
           "text_de": "[IF proxy=2] Haben Sie seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? [IF proxy=1] Haben Sie oder jemand von den folgenden Personen seit dem letzten Interview, d.h. seit dem <INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? Bei dieser Frage geht es uns um folgende Familienmitglieder: [PROG: EINBLENDUNG PERSONEN mit NAMEN] / Haben Sie oder ihr Partner seit dem letzten Interview, d.h. seit dem < INTDATM INTDATY>, die Schule, eine Ausbildung, oder ein Studium abgebrochen? Wer von den genannten Personen war das?",
-          "scale": "txt",
           "filter": "inlist(ptyp,1,2,110,120,200,300,400,500,600)",
+          "concept": "eca1200",
+          "scale": "txt",
+          "number": "15",
           "sn": 0
         }
       ],
@@ -456,12 +456,12 @@
       "items": [
         {
           "item": "0",
-          "number": "16",
-          "concept": "eca1201",
           "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
-          "scale": "txt",
           "filter": "eca1200 == 1",
+          "concept": "eca1201",
+          "scale": "txt",
+          "number": "16",
           "sn": 0
         }
       ],

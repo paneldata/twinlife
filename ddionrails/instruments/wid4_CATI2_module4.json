@@ -15,14 +15,14 @@
       "items": [
         {
           "item": "0",
-          "number": "1",
-          "concept": "lev0100",
           "text": "In the past 12 months, have you or any of the other named people in your family separated or divorced from your partner? [PROG: fade in family members over 10 years; [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600] Who did this? Please name in order all the people in your family to whom this applies, including yourself. [PROG: fade in family members over 10 years of age.] [IF proxy=2] Have you separated or divorced from a partner in the last 12 months? You have indicated that <NAME named person / type of person> has separated or divorced from a partner. [IF respondent = named person: you yourself have separated or divorced from a partner] What exactly was the case?",
           "text_de": "Haben Sie sich oder hat sich eine andere der genannten Personen in Ihrer Familie in den letzten 12 Monaten von ihrem Partner bzw. Partnerin getrennt oder scheiden lassen? [PROG: Einblendung Familienmitglieder ueber 10 Jahren; [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600] Wer war das? Bitte nennen Sie nacheinander alle Personen in Ihrer Familie, auf die dies zutrifft, auch sich selbst. [PROG: Einblendung Familienmitglieder ueber 10 Jahren] [IF proxy=2] Haben Sie sich in den letzten 12 Monaten von einem Partner bzw. einer Partnerin getrennt oder scheiden lassen? Sie haben angegeben, dass <NAME genannte Person / Personentyp>  sich von einem Partner bzw. einer Partnerin getrennt oder geschieden hat. [IF Befragungsperson = genannte Person: Sie selbst sich von einem Partner bzw. einer Partnerin getrennt oder geschieden haben] Um was handelte es sich dabei genau?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (version_fq==2 & version_ptyp == 1 & ptyp == 110 & flp == 1) | (version_fq==2 & version_ptyp == 2 & ptyp == 120 & flq == 1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (version_fq==2 & version_ptyp == 1 & ptyp == 110 & flp == 1) | (version_fq==2 & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev0100",
+          "scale": "txt",
+          "number": "1",
           "sn": 0
         }
       ],
@@ -38,14 +38,14 @@
       "items": [
         {
           "item": "0",
-          "number": "2",
-          "concept": "lev0500",
           "text": "Have you yourself or any of the named people in your family entered into a new relationship or gotten married in the last 12 months? Who did this? Please name everyone in your family to whom this applies, including yourself. [PROG: Overlay family members over the age of 10.] [IF proxy=2] Have you yourself entered into a new relationship or gotten married in the last 12 months? You indicated that <NAME named person / type of person> [IF respondent = named person: yourself] entered into a new relationship or got married [IF respondent = named person: entered into a new relationship or got married]. What was it exactly?",
           "text_de": "Sind Sie selbst oder ist eine der genannten Personen in Ihrer Familie in den letzten 12 Monaten eine neue Beziehung eingegangen oder hat geheiratet? Wer war das? Bitte nennen Sie alle Personen in Ihrer Familie, auf die dies zutrifft, auch sich selbst. [PROG: Einblendung Familienmitglieder ueber 10 Jahren] [IF proxy=2] Sind Sie selbst in den letzten 12 Monaten eine neue Beziehung eingegangen oder haben geheiratet? Sie haben angegeben, dass <NAME genannte Person / Personentyp> [IF Befragungsperson = genannte Person: Sie selbst] eine neue Beziehung eingegangen ist oder geheiratet hat [IF Befragungsperson = genannte Person: eine neue Beziehung eingegangen sind oder geheiratet haben]. Um was handelte es sich dabei genau?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (version_fq==2 & version_ptyp == 1 & ptyp == 110 & flp == 1) | (version_fq==2 & version_ptyp == 2 & ptyp == 120 & flq == 1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (version_fq==2 & version_ptyp == 1 & ptyp == 110 & flp == 1) | (version_fq==2 & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev0500",
+          "scale": "txt",
+          "number": "2",
           "sn": 0
         }
       ],
@@ -61,14 +61,14 @@
       "items": [
         {
           "item": "0",
-          "number": "3",
-          "concept": "lev1100",
           "text": "[IF sex=2]: Have you yourself or any of the named persons in your family had a child in the last 12 months, or have you been or are you or any of the named persons in your family pregnant? [IF sex=1]: In the last 12 months, have any of the named persons in your family had a child, or have any of the named persons in your family been or are pregnant? [PROG: insert family members female over 16 ] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600] Who did this? Please name all persons to whom this applies, including yourself [PROG: fade in family members female over 16 ]. [IF proxy=2][IF sex[respondent]= 2]: Have you yourself had a child or been or are you pregnant in the last 12 months? [IF sex[respondent]= 1]: Have you yourself [IF partner1_present=1 OR partner2_present=1: or your partner] had a child in the last 12 months [IF partner1_present=1 OR partner2_present=1: or your partner was or is pregnant]? Who was that? You indicated that <NAME named person / type of person> [IF respondent = named person: <yourself>] had a child or was/is pregnant in the last 12 months [IF respondent = named person: <had a child or was/is pregnant in the last 12 months>]. Which of the following was it?",
           "text_de": "[IF sex=2]: Haben Sie selbst oder eine der genannten Personen Ihrer Familie in den letzten 12 Monaten ein Kind bekommen bzw. waren oder sind Sie oder eine der genannten Personen Ihrer Familie schwanger? [IF sex[Befragungsperson]= 1] Hat eine der genannten Personen in Ihrer Familie in den letzten 12 Monaten ein Kind bekommen bzw. war oder ist eine Person in Ihrer Familie schwanger? [PROG: Einblendung Familienmitglieder weiblich  ueber 16 Jahren ] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600]",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev1100",
+          "scale": "txt",
+          "number": "3",
           "sn": 0
         }
       ],
@@ -84,14 +84,14 @@
       "items": [
         {
           "item": "0",
-          "number": "4",
-          "concept": "lev0900",
           "text": "In the past 12 months, have you or any of the named people in your family had major money worries or severe financial problems? [PROG: display family members] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600] Who did this? Please name everyone to whom this applies, including yourself. [PROG: display family members] [IF version_fq = 2,3 & version_ptyp = 1,2] Have you [IF Partner1_present=1 OR Partner2_present=1: or your partner] had major money worries or severe financial problems in the last 12 months? Who was that?",
           "text_de": "Hatten oder haben Sie selbst oder eine der genannten Personen in Ihrer Familie in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? [PROG: Einblendung Familienmitglieder] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600] Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft, auch sich selbst. [PROG: Einblendung Familienmitglieder] [IF version_fq = 2,3 & version_ptyp = 1,2] Hatten oder haben Sie [IF Partner1_vorhanden=1 OR Partner2_vorhanden=1: oder Ihr Partner] in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? Wer war das?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev0900",
+          "scale": "txt",
+          "number": "4",
           "sn": 0
         }
       ],
@@ -107,14 +107,14 @@
       "items": [
         {
           "item": "0",
-          "number": "5",
-          "concept": "lev1800",
           "text": "Have you yourself or any of the other named people in your family lost their jobs in the last 12 months? [PROG: display family members] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600] Who did this? Please name everyone to whom this applies, including yourself. [PROG: display family members over 10 years of age.] [IF version_fq = 2,3 & version_ptyp = 1,2] Have you [IF partner1_present=1 OR partner2_present=1: or your partner] lost your job in the last 12 months? Who was that?",
           "text_de": "Haben Sie selbst oder eine andere der genannten Personen in Ihrer Familie in den letzten 12 Monaten ihre Arbeit verloren? [PROG: Einblendung Familienmitglieder] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600] Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft, auch sich selbst. [PROG: Einblendung Familienmitglieder ueber 10 Jahren] [IF version_fq = 2,3 & version_ptyp = 1,2] Haben Sie [IF Partner1_vorhanden=1 OR Partner2_vorhanden=1: oder Ihr Partner] in den letzten 12 Monaten Ihre Arbeit verloren? Wer war das?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev1800",
+          "scale": "txt",
+          "number": "5",
           "sn": 0
         }
       ],
@@ -130,14 +130,14 @@
       "items": [
         {
           "item": "0",
-          "number": "6",
-          "concept": "lev1700",
           "text": "In the past 12 months, is any of the above people in your family or you yourself affected by a permanent severe disability, physical impairment or mental disorder? [PROG: insert family members] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600] Who did this? Please name everyone to whom this applies, including yourself. [PROG: display family members] Are you or were you [IF Partner1_present=1 OR Partner2_present=1: or your partner] affected by a permanent severe disability, physical impairment or mental disorder in the last 12 months? Who was that?",
           "text_de": "Ist oder war jemand von den genannten Personen in Ihrer Familie oder Sie selbst in den letzten 12 Monaten von einer dauerhaften schweren Behinderung, koerperlichen Beeintraechtigung oder psychischen Stoerung betroffen? [PROG: Einblendung Familienmitglieder] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600] Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft, auch sich selbst. [PROG: Einblendung Familienmitglieder] Sind oder waren Sie [IF Partner1_vorhanden=1 OR Partner2_vorhanden=1: oder Ihr Partner] in den letzten 12 Monaten von einer dauerhaften schweren Behinderung, koerperlichen Beeintraechtigung oder psychischen Stoerung betroffen? Wer war das?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev1700",
+          "scale": "txt",
+          "number": "6",
           "sn": 0
         }
       ],
@@ -153,14 +153,14 @@
       "items": [
         {
           "item": "0",
-          "number": "7",
-          "concept": "lev2710",
           "text": "[(ptyp=1 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (sibling_present!=1 OR edu0100[200]_2(Preload)!=2)] Have you yourself or <NAME TWITTER 2> repeated or skipped a grade in the last 12 months? [(ptyp=1 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (sibling_present=1 and edu0100[200]_2(Preload)=2)] Did yourself, <NAME TWIN 2>, or <NAME SIBLING CHILD> repeat or skip a grade in the last 12 months? [(ptyp=2 AND (edu0100[001]_2(preload)=2) OR (edu0100[002]_2(preload)=2)) AND (sibling_present!=1 OR edu0100[200]_2(preload)!=2)] In the last 12 months, have you or <NAME Sibling 1> repeated or skipped a grade? [(ptyp=2 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (sibling_present=1 and edu0100[200]_2(Preload)=2)] Have you yourself, <NAME TWIN 1>, or <NAME SIBLING CHILD> repeated or skipped a grade in the last 12 months? [ptyp!=1 AND ptyp!=2 AND ((edu0100[001]_2(preload)=2) OR (edu0100[002]_2(preload)=2)) AND (sibling_present!=1 OR edu0100[200]_2(preload)!=2)] Did <NAME Sibling 1> or <NAME Sibling 2> repeat or skip a grade in the last 12 months? [ptyp!=1 AND ptyp!=2 AND ((edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2) OR (sibling_present=1 AND edu0100[200]_2(Preload)=2))] Did <NAME SIBLING 1>, <NAME SIBLING 2>, or <NAME SIBLING CHILD> repeat or skip a grade in the last 12 months? Have you [IF Partner1_present=1 OR Partner2_present=1: or your partner] repeated or skipped a grade in the last 12 months? Who was that?",
           "text_de": "[(ptyp=1 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (Geschwisterkind_vorhanden!=1 OR edu0100[200]_2(Preload)!=2)] Haben Sie selbst oder <NAME ZWILLING 2> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen? [(ptyp=1 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (Geschwisterkind_vorhanden=1 and edu0100[200]_2(Preload)=2)] Haben Sie selbst, <NAME ZWILLING 2> oder <NAME GESCHWISTERKIND> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen? [(ptyp=2 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2))  AND (Geschwisterkind_vorhanden!=1 OR edu0100[200]_2(Preload)!=2)] Haben Sie selbst oder <NAME ZWILLING 1> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen? [(ptyp=2 AND (edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (Geschwisterkind_vorhanden=1 and edu0100[200]_2(Preload)=2)] Haben Sie selbst,  <NAME ZWILLING 1> oder <NAME GESCHWISTERKIND> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen? [ptyp!=1 AND ptyp!=2 AND ((edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2)) AND (Geschwisterkind_vorhanden!=1 OR edu0100[200]_2(Preload)!=2)] Haben <NAME ZWILLING 1> oder <NAME ZWILLING 2> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen? [ptyp!=1 AND ptyp!=2 AND ((edu0100[001]_2(Preload)=2) OR (edu0100[002]_2(Preload)=2) OR (Geschwisterkind_vorhanden=1 AND edu0100[200]_2(Preload)=2))] Haben <NAME ZWILLING 1>, <NAME ZWILLING 2> oder <NAME GESCHWISTERKIND> in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen? Haben Sie [IF Partner1_vorhanden=1 OR Partner2_vorhanden=1: oder Ihr Partner] in den letzten 12 Monaten eine Klasse wiederholt oder uebersprungen? Wer war das?",
-          "scale": "txt",
-          "filter": "age0110 < 25 & ((ptyp==1 & (edu0100t_3==2 | edu0301t_3==1)) | (ptyp==2 & (edu0100u_3==2 | edu0301u_3==1)) | (ptyp==200 & (edu0100s_3==2 | edu0301s_3==1)))",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "age0110 < 25 & ((ptyp==1 & (edu0100t_3==2 | edu0301t_3==1)) | (ptyp==2 & (edu0100u_3==2 | edu0301u_3==1)) | (ptyp==200 & (edu0100s_3==2 | edu0301s_3==1)))",
+          "concept": "lev2710",
+          "scale": "txt",
+          "number": "7",
           "sn": 0
         }
       ],
@@ -176,14 +176,14 @@
       "items": [
         {
           "item": "0",
-          "number": "8",
-          "concept": "lev1400",
           "text": "Have any of the above people in your family or yourself had a serious accident, serious injury, or sudden serious illness in the past 12 months? [PROG: Insert family members.] Who did this? Please name everyone to whom this applies, including yourself. [PROG: display family members] Have you yourself [IF Partner1_present=1 OR Partner2_present=1: or your partner] had a serious accident, serious injury, or sudden serious illness in the last 12 months? Who was that?",
           "text_de": "Hatte jemand von den genannten Personen in Ihrer Familie oder Sie selbst in den letzten 12 Monaten einen schweren Unfall, eine schwere Verletzung oder eine ploetzliche schwere Erkrankung? [PROG: Einblendung Familienmitglieder] Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft, auch sich selbst. [PROG: Einblendung Familienmitglieder] Hatten Sie selbst [IF Partner1_vorhanden=1 OR Partner2_vorhanden=1: oder Ihr Partner] in den letzten 12 Monaten einen schweren Unfall, eine schwere Verletzung, oder eine ploetzliche schwere Erkrankung? Wer war das?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev1400",
+          "scale": "txt",
+          "number": "8",
           "sn": 0
         }
       ],
@@ -199,14 +199,14 @@
       "items": [
         {
           "item": "0",
-          "number": "9",
-          "concept": "lev3400",
           "text": "Have any of the above people in your family or yourself been in trouble at home, with school, with your employer, or with the police because of their behavior in the past 12 months? [PROG: Family member insertion] [If ptyp = 001]: family members 002, 110, 200, 300, 400, 500, 600[ If ptyp = 002]: family members 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]: family members 001, 002, 200, 300, 400, 500, 600] Who was that? [PROG: display family members] In the last 12 months, have you [IF Partner1_present=1 OR Partner2_present=1: or your partner] been in trouble at home, with school, with your employer, or with the police because of your behavior? Who was that?",
           "text_de": "Hatte eine der genannten Personen in Ihrer Familie oder Sie selbst in den letzten 12 Monaten durch ihr Verhalten Aerger Zuhause, mit der Schule, dem Arbeitgeber oder mit der Polizei? [PROG: Einblendung Familienmitglieder] [If ptyp = 001]:  Familienmitglieder 002, 110, 200, 300, 400, 500, 600 [If ptyp = 002]:  Familienmitglieder 001, 120, 200, 300, 400, 500, 600 [If ptyp = 300, 400, 500, 600]:  Familienmitglieder 001, 002, 200, 300, 400, 500, 600] Wer war das? [PROG: Einblendung Familienmitglieder] Hatten Sie [IF Partner1_vorhanden=1 OR Partner2_vorhanden=1: oder Ihr Partner] in den letzten 12 Monaten durch Ihr Verhalten Aerger Zuhause, mit der Schule, dem Arbeitgeber oder mit der Polizei? Wer war das?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev3400",
+          "scale": "txt",
+          "number": "9",
           "sn": 0
         }
       ],
@@ -217,284 +217,19 @@
     "lev2100": {
       "question": "lev2100",
       "name": "lev2100",
-      "label": "[If no deceased persons were indicated in the family questionnaire] Has someone in your family or another person important to you or your family died in the last 12 months? PROG: [If deceased persons are already indicated in the family record]: Automatically log yes and jump directly to the next question. [If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden] Ist jemand aus Ihrer Familie oder eine andere fuer Sie oder Ihre Familie wichtige Person in den letzten 12 Monaten gestorben? PROG: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Automatisch ja einloggen und direkt zur naechsten Frage springen. [Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-      "items": [
-        {
-          "item": "0",
-          "number": "10",
-          "concept": "lev2100",
-          "text": "[If no deceased persons were indicated in the family questionnaire] Has someone in your family or another person important to you or your family died in the last 12 months? PROG: [If deceased persons are already indicated in the family record]: Automatically log yes and jump directly to the next question. [If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden] Ist jemand aus Ihrer Familie oder eine andere fuer Sie oder Ihre Familie wichtige Person in den letzten 12 Monaten gestorben? PROG: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Automatisch ja einloggen und direkt zur naechsten Frage springen. [Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 9,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev2117": {
-      "question": "lev2117",
-      "name": "lev2117",
-      "label": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-      "items": [
-        {
-          "item": "0",
-          "number": "11",
-          "concept": "lev2117",
-          "text": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 10,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev2118": {
-      "question": "lev2118",
-      "name": "lev2118",
-      "label": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-      "items": [
-        {
-          "item": "0",
-          "number": "12",
-          "concept": "lev2118",
-          "text": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 11,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev2119": {
-      "question": "lev2119",
-      "name": "lev2119",
-      "label": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-      "items": [
-        {
-          "item": "0",
-          "number": "13",
-          "concept": "lev2119",
-          "text": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 12,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev2120": {
-      "question": "lev2120",
-      "name": "lev2120",
-      "label": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-      "items": [
-        {
-          "item": "0",
-          "number": "14",
-          "concept": "lev2120",
-          "text": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 13,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev2122": {
-      "question": "lev2122",
-      "name": "lev2122",
-      "label": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-      "items": [
-        {
-          "item": "0",
-          "number": "15",
-          "concept": "lev2122",
-          "text": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 14,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev2123": {
-      "question": "lev2123",
-      "name": "lev2123",
-      "label": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-      "items": [
-        {
-          "item": "0",
-          "number": "16",
-          "concept": "lev2123",
-          "text": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 15,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev2197": {
-      "question": "lev2197",
-      "name": "lev2197",
-      "label": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-      "items": [
-        {
-          "item": "0",
-          "number": "17",
-          "concept": "lev2197",
-          "text": "[If no deceased persons were indicated in the family record]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
-          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 16,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev9000": {
-      "question": "lev9000",
-      "name": "lev9000",
-      "label": "In the past 12 months, has there been another positive or negative event that is or has been significant to you or someone else in your family? For whom was there such an event? Please name all persons to whom this applies. In the last 12 months, has there been another positive or negative event for you [IF partner_present: your partner] or another person important to you that is or was of great importance to you? For whom was there such an event?",
-      "label_de": "Gab es in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie oder eine andere Person in Ihrer Familie von grosser Bedeutung ist oder war? Fuer wen gab es ein solches Ereignis? Bitte nennen Sie alle Personen, auf die dies zutrifft.Gab es fuer Sie [IF Partner_vorhanden: Ihren Partner] oder eine andere fuer Sie wichtige Person in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie von grosser Bedeutung ist oder war? Fuer wen gab es ein solches Ereignis?",
-      "items": [
-        {
-          "item": "0",
-          "number": "18",
-          "concept": "lev9000",
-          "text": "In the past 12 months, has there been another positive or negative event that is or has been significant to you or someone else in your family? For whom was there such an event? Please name all persons to whom this applies. In the last 12 months, has there been another positive or negative event for you [IF partner_present: your partner] or another person important to you that is or was of great importance to you? For whom was there such an event?",
-          "text_de": "Gab es in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie oder eine andere Person in Ihrer Familie von grosser Bedeutung ist oder war? Fuer wen gab es ein solches Ereignis? Bitte nennen Sie alle Personen, auf die dies zutrifft.Gab es fuer Sie [IF Partner_vorhanden: Ihren Partner] oder eine andere fuer Sie wichtige Person in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie von grosser Bedeutung ist oder war? Fuer wen gab es ein solches Ereignis?",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 17,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev9017": {
-      "question": "lev9017",
-      "name": "lev9017",
-      "label": "For whom was there such an event? Please name all persons to whom this applies.",
-      "label_de": "Fuer wen gab es ein solches Ereignis? Bitte nennen Sie alle Personen, auf die dies zutrifft.",
-      "items": [
-        {
-          "item": "0",
-          "number": "19",
-          "concept": "lev9017",
-          "text": "For whom was there such an event? Please name all persons to whom this applies.",
-          "text_de": "Fuer wen gab es ein solches Ereignis? Bitte nennen Sie alle Personen, auf die dies zutrifft.",
-          "scale": "txt",
-          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (version_fq==2 & version_ptyp == 1 & ptyp == 110 & flp == 1) | (version_fq==2 & version_ptyp == 2 & ptyp == 120 & flq == 1)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "sn": 0
-        }
-      ],
-      "sn": 18,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev9021": {
-      "question": "lev9021",
-      "name": "lev9021",
-      "label": "What was the most beautiful event for you in the last 12 months?",
-      "label_de": "Welches war das fuer Sie schoenste Ereignis in den letzten 12 Monaten?",
+      "label": "[If no deceased persons were indicated in the family questionnaire] Has someone in your family or another person important to you or your family died in the last 12 months? PROG: [If deceased persons are already indicated in the family record]: Automatically log yes and jump directly to the next question.",
+      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden] Ist jemand aus Ihrer Familie oder eine andere fuer Sie oder Ihre Familie wichtige Person in den letzten 12 Monaten gestorben? PROG: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Automatisch ja einloggen und direkt zur naechsten Frage springen.",
       "items": [
         {
           "item": "1",
-          "number": "20",
-          "concept": "lev9021",
-          "text": "What was the most beautiful event for you in the last 12 months?",
-          "text_de": "Welches war das fuer Sie schoenste Ereignis in den letzten 12 Monaten?",
-          "scale": "cat",
+          "text": "[If no deceased persons were indicated in the family questionnaire] Has someone in your family or another person important to you or your family died in the last 12 months? PROG: [If deceased persons are already indicated in the family record]: Automatically log yes and jump directly to the next question.",
+          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden] Ist jemand aus Ihrer Familie oder eine andere fuer Sie oder Ihre Familie wichtige Person in den letzten 12 Monaten gestorben? PROG: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Automatisch ja einloggen und direkt zur naechsten Frage springen.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "ptyp == version_ptyp",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: there was no beautiful event",
-              "label_de": "-81: es gab kein schoenes Ereignis"
-            },
-            {
-              "value": 1,
-              "label": "1: most beautiful event mentioned (open specification in lev9020)",
-              "label_de": "1: schoenstes Ereignis genannt (offene Angabe in lev9020)"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 19,
-      "instrument": "wid4_CATI2_module4",
-      "study": "twinlife"
-    },
-    "lev9025": {
-      "question": "lev9025",
-      "name": "lev9025",
-      "label": "[IF ptyp = 001] Did you experience this event together with <NAME_ZWILLING2>? [IF ptyp = 002] Did you experience this event together with <NAME_ZWILLING1>?",
-      "label_de": "[IF ptyp = 001] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING2> erlebt? [IF ptyp = 002] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING1> erlebt?",
-      "items": [
-        {
-          "item": "1",
-          "number": "21",
-          "concept": "lev9025",
-          "text": "[IF ptyp = 001] Did you experience this event together with <NAME_ZWILLING2>? [IF ptyp = 002] Did you experience this event together with <NAME_ZWILLING1>?",
-          "text_de": "[IF ptyp = 001] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING2> erlebt? [IF ptyp = 002] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING1> erlebt?",
+          "concept": "lev2100",
           "scale": "cat",
-          "filter": "(ptyp==1 | ptyp==2) & lev9021==1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "number": "10",
           "answers": [
             {
               "value": -89,
@@ -525,7 +260,266 @@
           "sn": 0
         }
       ],
-      "sn": 20,
+      "sn": 9,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev2111": {
+      "question": "lev2111",
+      "name": "lev2111",
+      "label": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "lev2100 == 1",
+          "concept": "lev2111",
+          "scale": "txt",
+          "number": "11",
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev2115": {
+      "question": "lev2115",
+      "name": "lev2115",
+      "label": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "lev2100 == 1",
+          "concept": "lev2115",
+          "scale": "txt",
+          "number": "12",
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev2116": {
+      "question": "lev2116",
+      "name": "lev2116",
+      "label": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "lev2100 == 1",
+          "concept": "lev2116",
+          "scale": "txt",
+          "number": "13",
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev2121": {
+      "question": "lev2121",
+      "name": "lev2121",
+      "label": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "lev2100 == 1",
+          "concept": "lev2121",
+          "scale": "txt",
+          "number": "14",
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev2124": {
+      "question": "lev2124",
+      "name": "lev2124",
+      "label": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "lev2100 == 1",
+          "concept": "lev2124",
+          "scale": "txt",
+          "number": "15",
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev2197": {
+      "question": "lev2197",
+      "name": "lev2197",
+      "label": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+      "label_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[If no deceased persons were indicated in the family questionnaire]: Who were they? Please name all persons to whom this applies. Variant 1: [If deceased persons have already been indicated in the family record]: You have already indicated that someone from your family has died. If other persons important to you or your family have died, please now indicate who they were.",
+          "text_de": "[Falls im Familienprotokoll keine verstorbenen Personen angegeben wurden]: Wer war das? Bitte nennen Sie alle Personen, auf die dies zutrifft. Variante 1: [Falls im Familienprotokoll bereits verstorbenen Personen angegeben wurden]: Sie haben bereits angegeben, dass jemand aus Ihrer Familie verstorben ist. Fall noch weitere fuer Sie oder Ihre Familie wichtige Personen verstorben sind, geben Sie bitte nun an, wer das war.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "lev2100 == 1",
+          "concept": "lev2197",
+          "scale": "txt",
+          "number": "16",
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev9000": {
+      "question": "lev9000",
+      "name": "lev9000",
+      "label": "In the past 12 months, has there been another positive or negative event that is or has been significant to you or someone else in your family? For whom was there such an event? Please name all persons to whom this applies. In the last 12 months, has there been another positive or negative event for you [IF partner_present: your partner] or another person important to you that is or was of great importance to you? For whom was there such an event?",
+      "label_de": "Gab es in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie oder eine andere Person in Ihrer Familie von grosser Bedeutung ist oder war? Fuer wen gab es ein solches Ereignis? Bitte nennen Sie alle Personen, auf die dies zutrifft.Gab es fuer Sie [IF Partner_vorhanden: Ihren Partner] oder eine andere fuer Sie wichtige Person in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie von grosser Bedeutung ist oder war? Fuer wen gab es ein solches Ereignis?",
+      "items": [
+        {
+          "item": "0",
+          "text": "In the past 12 months, has there been another positive or negative event that is or has been significant to you or someone else in your family? For whom was there such an event? Please name all persons to whom this applies. In the last 12 months, has there been another positive or negative event for you [IF partner_present: your partner] or another person important to you that is or was of great importance to you? For whom was there such an event?",
+          "text_de": "Gab es in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie oder eine andere Person in Ihrer Familie von grosser Bedeutung ist oder war? Fuer wen gab es ein solches Ereignis? Bitte nennen Sie alle Personen, auf die dies zutrifft.Gab es fuer Sie [IF Partner_vorhanden: Ihren Partner] oder eine andere fuer Sie wichtige Person in den letzten 12 Monaten noch ein weiteres positives oder negatives Ereignis, das fuer Sie von grosser Bedeutung ist oder war? Fuer wen gab es ein solches Ereignis?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (inlist(version_fq,2,3) & version_ptyp == 1 & ptyp == 110 & flp == 1) | (inlist(version_fq,2,3) & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev9000",
+          "scale": "txt",
+          "number": "17",
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev9017": {
+      "question": "lev9017",
+      "name": "lev9017",
+      "label": "For whom was there such an event? Please name all persons to whom this applies.",
+      "label_de": "Fuer wen gab es ein solches Ereignis? Bitte nennen Sie alle Personen, auf die dies zutrifft.",
+      "items": [
+        {
+          "item": "0",
+          "text": "For whom was there such an event? Please name all persons to whom this applies.",
+          "text_de": "Fuer wen gab es ein solches Ereignis? Bitte nennen Sie alle Personen, auf die dies zutrifft.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "inlist(ptyp,1,2,200,300,400,500,600) | (version_fq==2 & version_ptyp == 1 & ptyp == 110 & flp == 1) | (version_fq==2 & version_ptyp == 2 & ptyp == 120 & flq == 1)",
+          "concept": "lev9017",
+          "scale": "txt",
+          "number": "18",
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev9021": {
+      "question": "lev9021",
+      "name": "lev9021",
+      "label": "What was the most beautiful event for you in the last 12 months?",
+      "label_de": "Welches war das fuer Sie schoenste Ereignis in den letzten 12 Monaten?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What was the most beautiful event for you in the last 12 months?",
+          "text_de": "Welches war das fuer Sie schoenste Ereignis in den letzten 12 Monaten?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "ptyp == version_ptyp",
+          "concept": "lev9021",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: there was no beautiful event",
+              "label_de": "-81: es gab kein schoenes Ereignis"
+            },
+            {
+              "value": 1,
+              "label": "1: most beautiful event mentioned (open specification in lev9020)",
+              "label_de": "1: schoenstes Ereignis genannt (offene Angabe in lev9020)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid4_CATI2_module4",
+      "study": "twinlife"
+    },
+    "lev9025": {
+      "question": "lev9025",
+      "name": "lev9025",
+      "label": "[IF ptyp = 001] Did you experience this event together with <NAME_ZWILLING2>? [IF ptyp = 002] Did you experience this event together with <NAME_ZWILLING1>?",
+      "label_de": "[IF ptyp = 001] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING2> erlebt? [IF ptyp = 002] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING1> erlebt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF ptyp = 001] Did you experience this event together with <NAME_ZWILLING2>? [IF ptyp = 002] Did you experience this event together with <NAME_ZWILLING1>?",
+          "text_de": "[IF ptyp = 001] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING2> erlebt? [IF ptyp = 002] Haben Sie dieses Ereignis zusammen mit <NAME_ZWILLING1> erlebt?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(ptyp==1 | ptyp==2) & lev9021==1",
+          "concept": "lev9025",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: there was no such event",
+              "label_de": "-81: es gab kein solches Ereignis"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
       "instrument": "wid4_CATI2_module4",
       "study": "twinlife"
     }

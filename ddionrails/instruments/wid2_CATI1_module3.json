@@ -15,14 +15,14 @@
       "items": [
         {
           "item": "1",
-          "number": "1",
-          "concept": "rel0100t",
           "text": "First, a few questions about the confession and religiosity of <Twin1>? May I ask whether <Twin1> is a member of a church or religious community? If so, is <Twin1> . . .",
           "text_de": "Zunaechst ein paar Fragen zur Konfession und Religiositaet. Darf ich fragen, ob <Twin1> einer Religionsgemeinschaft angehoert? Gehoert <Twin1> einer Religionsgemeinschaft an? Wenn ja, ist <Twin1> . . .",
-          "scale": "cat",
-          "filter": "bas1101 == 1 & age0110t < 15",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011 ",
+          "filter": "bas1101 == 1 & age0110t < 15",
+          "concept": "rel0100t",
+          "scale": "cat",
+          "number": "1",
           "answers": [
             {
               "value": -81,
@@ -85,14 +85,14 @@
       "items": [
         {
           "item": "1",
-          "number": "2",
-          "concept": "rel0100u",
           "text": "First, a few questions about the confession and religiosity of <Twin2>? May I ask whether <Twin2> is a member of a church or religious community? If so, is <Twin2> . . .",
           "text_de": "Zunaechst ein paar Fragen zur Konfession und Religiositaet. Darf ich fragen, ob <Twin2> einer Religionsgemeinschaft angehoert? Gehoert <Twin2> einer Religionsgemeinschaft an? Wenn ja, ist <Twin2> . . .",
-          "scale": "cat",
-          "filter": "bas1101 == 1 & age0110t < 15",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011 ",
+          "filter": "bas1101 == 1 & age0110t < 15",
+          "concept": "rel0100u",
+          "scale": "cat",
+          "number": "2",
           "answers": [
             {
               "value": -81,
@@ -155,14 +155,14 @@
       "items": [
         {
           "item": "1",
-          "number": "3",
-          "concept": "rel0100s",
           "text": "First, a few questions about the confession and religiosity of <Sibling>? May I ask whether <Sibling> is a member of a church or religious community? If so, is <Sibling> . . .",
           "text_de": "Zunaechst ein paar Fragen zur Konfession und Religiositaet. Darf ich fragen, ob <Geschwister> einer Religionsgemeinschaft angehoert? Gehoert <Geschwister> einer Religionsgemeinschaft an? Wenn ja, ist <Geschwister> . . .",
-          "scale": "cat",
-          "filter": "bas1101 == 1 & age0110s < 15",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011 ",
+          "filter": "bas1101 == 1 & age0110s < 15",
+          "concept": "rel0100s",
+          "scale": "cat",
+          "number": "3",
           "answers": [
             {
               "value": -81,
@@ -225,14 +225,14 @@
       "items": [
         {
           "item": "1",
-          "number": "4",
-          "concept": "rel0200t",
           "text": "In general, how often does <Twin1> go to church or in the mosque, synagogue or other house of worship?",
           "text_de": "Wie haeufig geht <Twin1> im Allgemeinen in die Kirche bzw. in die Moschee, Synagoge oder ein anderes Gotteshaus?",
-          "scale": "cat",
-          "filter": "age0110t <= 14 & rel0100t != -81 & rel0100t != -95",
           "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
           "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
+          "filter": "age0110t <= 14 & rel0100t != -81 & rel0100t != -95",
+          "concept": "rel0200t",
+          "scale": "cat",
+          "number": "4",
           "answers": [
             {
               "value": 1,
@@ -275,14 +275,14 @@
       "items": [
         {
           "item": "1",
-          "number": "5",
-          "concept": "rel0200u",
           "text": "In general, how often does <Twin2> go to church or in the mosque, synagogue or other house of worship?",
           "text_de": "Wie haeufig geht <Twin2> im Allgemeinen in die Kirche bzw. in die Moschee, Synagoge oder ein anderes Gotteshaus?",
-          "scale": "cat",
-          "filter": "age0110t <= 14 & rel0100u != -81 & rel0100u != -95",
           "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
           "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
+          "filter": "age0110t <= 14 & rel0100u != -81 & rel0100u != -95",
+          "concept": "rel0200u",
+          "scale": "cat",
+          "number": "5",
           "answers": [
             {
               "value": 1,
@@ -325,14 +325,14 @@
       "items": [
         {
           "item": "1",
-          "number": "6",
-          "concept": "rel0200s",
           "text": "In general, how often does <Sibling> go to church or in the mosque, synagogue or other house of worship?",
           "text_de": "Wie haeufig geht <Geschwister> im Allgemeinen in die Kirche bzw. in die Moschee, Synagoge oder ein anderes Gotteshaus?",
-          "scale": "cat",
-          "filter": "age0110s <= 14 & rel0100s != -81 & rel0100s != -95",
           "description": "Source: GESIS - Leibniz Institute for the Social Sciences (2013): ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012). GESIS Data Archive, Cologne. ZA4614 Data file Version 1.1.1",
           "description_de": "Source: GESIS - Leibniz-Institut fuer Sozialwissenschaften (2013): Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Datenarchiv, Koeln. ZA4614 Datenfile Version 1.1.1",
+          "filter": "age0110s <= 14 & rel0100s != -81 & rel0100s != -95",
+          "concept": "rel0200s",
+          "scale": "cat",
+          "number": "6",
           "answers": [
             {
               "value": 1,
@@ -375,14 +375,14 @@
       "items": [
         {
           "item": "1",
-          "number": "7",
-          "concept": "edu0100t",
           "text": "Does <Twin1> go to school?",
           "text_de": "Geht <Twin1> in die Schule?",
-          "scale": "cat",
-          "filter": "age0110t <= 7",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "filter": "age0110t <= 7",
+          "concept": "edu0100t",
+          "scale": "cat",
+          "number": "7",
           "answers": [
             {
               "value": 1,
@@ -415,14 +415,14 @@
       "items": [
         {
           "item": "1",
-          "number": "8",
-          "concept": "edu0100u",
           "text": "Does <Twin2> go to school?",
           "text_de": "Geht <Twin2> in die Schule?",
-          "scale": "cat",
-          "filter": "age0110t <= 7",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "filter": "age0110t <= 7",
+          "concept": "edu0100u",
+          "scale": "cat",
+          "number": "8",
           "answers": [
             {
               "value": 1,
@@ -455,14 +455,14 @@
       "items": [
         {
           "item": "1",
-          "number": "9",
-          "concept": "edu0100s",
           "text": "Does <Sibling> go to school?",
           "text_de": "Geht <Geschwister> in die Schule?",
-          "scale": "cat",
-          "filter": "age0110s <=7",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "filter": "age0110s <=7",
+          "concept": "edu0100s",
+          "scale": "cat",
+          "number": "9",
           "answers": [
             {
               "value": 1,
@@ -495,14 +495,14 @@
       "items": [
         {
           "item": "1",
-          "number": "10",
-          "concept": "edu0500t",
           "text": "Does <Twin1> visit a day nursery, a day care center, a nursery school or other care facilities?",
           "text_de": "Besucht <Twin1> eine Krippe, eine Kita, einen Kindergarten oder eine sonstige Betreuungseinrichtung?",
-          "scale": "cat",
-          "filter": "edu0100t == 2 &  age0110t < 8",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC2 Starting Cohort 2: Kindergarten Wave 2 2011",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC2 Startkohorte 2: Kindergarten Welle 2 2011",
+          "filter": "edu0100t == 2 &  age0110t < 8",
+          "concept": "edu0500t",
+          "scale": "cat",
+          "number": "10",
           "answers": [
             {
               "value": 1,
@@ -550,14 +550,14 @@
       "items": [
         {
           "item": "1",
-          "number": "11",
-          "concept": "edu0500u",
           "text": "Does <Twin2> visit a day nursery, a day care center, a nursery school or other care facilities?",
           "text_de": "Besucht <Twin2> eine Krippe, eine Kita, einen Kindergarten oder eine sonstige Betreuungseinrichtung?",
-          "scale": "cat",
-          "filter": "edu0100u == 2 &  age0110t < 8",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC2 Starting Cohort 2: Kindergarten Wave 2 2011",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC2 Startkohorte 2: Kindergarten Welle 2 2011",
+          "filter": "edu0100u == 2 &  age0110t < 8",
+          "concept": "edu0500u",
+          "scale": "cat",
+          "number": "11",
           "answers": [
             {
               "value": 1,
@@ -605,14 +605,14 @@
       "items": [
         {
           "item": "1",
-          "number": "12",
-          "concept": "edu0500s",
           "text": "Does <Sibling> visit a day nursery, a day care center, a nursery school or other care facilities?",
           "text_de": "Besucht <Geschwister> eine Krippe, eine Kita, einen Kindergarten oder eine sonstige Betreuungseinrichtung?",
-          "scale": "cat",
-          "filter": "edu0100s == 2 &  age0110s < 8",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC2 Starting Cohort 2: Kindergarten Wave 2 2011",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC2 Startkohorte 2: Kindergarten Welle 2 2011",
+          "filter": "edu0100s == 2 &  age0110s < 8",
+          "concept": "edu0500s",
+          "scale": "cat",
+          "number": "12",
           "answers": [
             {
               "value": 1,
@@ -660,14 +660,14 @@
       "items": [
         {
           "item": "1",
-          "number": "13",
-          "concept": "edu0400t",
           "text": "What type of school does <Twin1> attend?",
           "text_de": "Auf welche Art von Schule geht <Twin1>?",
-          "scale": "cat",
-          "filter": "edu0100t == 1 | age0110t >= 8",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS): NEPS SC2 Starting Cohort 2: Kindergarten Wave 2 2011",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC2 Startkohorte 2: Kindergarten Welle 2 2011",
+          "filter": "edu0100t == 1 | age0110t >= 8",
+          "concept": "edu0400t",
+          "scale": "cat",
+          "number": "13",
           "answers": [
             {
               "value": 1,
@@ -676,8 +676,8 @@
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
             },
             {
               "value": 3,
@@ -740,14 +740,14 @@
       "items": [
         {
           "item": "1",
-          "number": "14",
-          "concept": "edu0400u",
           "text": "What type of school does <Twin2> attend?",
           "text_de": "Auf welche Art von Schule geht <Twin2>?",
-          "scale": "cat",
-          "filter": "edu0100u == 1 | age0110t >= 8",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS): NEPS SC2 Starting Cohort 2: Kindergarten Wave 2 2011",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC2 Startkohorte 2: Kindergarten Welle 2 2011",
+          "filter": "edu0100u == 1 | age0110t >= 8",
+          "concept": "edu0400u",
+          "scale": "cat",
+          "number": "14",
           "answers": [
             {
               "value": 1,
@@ -756,8 +756,8 @@
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
             },
             {
               "value": 3,
@@ -820,14 +820,14 @@
       "items": [
         {
           "item": "1",
-          "number": "15",
-          "concept": "edu0400s",
           "text": "What type of school does <sibling> attend?",
           "text_de": "Auf welche Art von Schule geht <Geschwister>?",
-          "scale": "cat",
-          "filter": "edu0100s == 1 |  age0110s >= 8",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC2 Starting Cohort 2: Kindergarten Wave 2 2011",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC2 Startkohorte 2: Kindergarten Welle 2 2011",
+          "filter": "edu0100s == 1 |  age0110s >= 8",
+          "concept": "edu0400s",
+          "scale": "cat",
+          "number": "15",
           "answers": [
             {
               "value": 1,
@@ -836,8 +836,8 @@
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
             },
             {
               "value": 3,
@@ -900,14 +900,14 @@
       "items": [
         {
           "item": "1",
-          "number": "16",
-          "concept": "edu0402t",
           "text": "What grade level does <Twin1> attend at this school? Note: In summer holidays, please state the grade level <Twin1> will attend after summer holidays.",
           "text_de": "In welche Klasse geht <Twin1> derzeit?",
-          "scale": "int",
-          "filter": "edu0100t == 1 |  age0110t >= 8",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "filter": "edu0100t == 1 |  age0110t >= 8",
+          "concept": "edu0402t",
+          "scale": "int",
+          "number": "16",
           "answers": [
             {
               "value": -86,
@@ -935,14 +935,14 @@
       "items": [
         {
           "item": "1",
-          "number": "17",
-          "concept": "edu0402u",
           "text": "What grade level does <Twin2> attend at this school? Note: In summer holidays, please state the grade level <Twin2> will attend after summer holidays.",
           "text_de": "In welche Klasse geht <Twin2> derzeit?",
-          "scale": "int",
-          "filter": "edu0100u == 1 |  age0110t >= 8",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "filter": "edu0100u == 1 |  age0110t >= 8",
+          "concept": "edu0402u",
+          "scale": "int",
+          "number": "17",
           "answers": [
             {
               "value": -86,
@@ -970,14 +970,14 @@
       "items": [
         {
           "item": "1",
-          "number": "18",
-          "concept": "edu0402s",
           "text": "What grade level does <Sibling> attend at this school? Note: In summer holidays, please state the grade level <Sibling> will attend after summer holidays.",
           "text_de": "In welche Klasse geht <Geschwister> derzeit?",
-          "scale": "int",
-          "filter": "edu0100s == 1 |  age0110s >= 8",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "filter": "edu0100s == 1 |  age0110s >= 8",
+          "concept": "edu0402s",
+          "scale": "int",
+          "number": "18",
           "answers": [
             {
               "value": -86,
@@ -1005,14 +1005,14 @@
       "items": [
         {
           "item": "1",
-          "number": "19",
-          "concept": "cer0300t",
           "text": "When did <Twin1> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Twin1> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "int",
-          "filter": "edu0402t >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402t >= 2",
+          "concept": "cer0300t",
+          "scale": "int",
+          "number": "19",
           "answers": [
             {
               "value": -86,
@@ -1040,14 +1040,14 @@
       "items": [
         {
           "item": "1",
-          "number": "20",
-          "concept": "cer0300u",
           "text": "When did <Twin2> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Twin1> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "int",
-          "filter": "edu0402u >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402u >= 2",
+          "concept": "cer0300u",
+          "scale": "int",
+          "number": "20",
           "answers": [
             {
               "value": -86,
@@ -1075,14 +1075,14 @@
       "items": [
         {
           "item": "1",
-          "number": "21",
-          "concept": "cer0300s",
           "text": "When did <Sibling> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "int",
-          "filter": "edu0402s >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402s >= 2",
+          "concept": "cer0300s",
+          "scale": "int",
+          "number": "21",
           "answers": [
             {
               "value": -86,
@@ -1110,14 +1110,14 @@
       "items": [
         {
           "item": "1",
-          "number": "22",
-          "concept": "cer0301t",
           "text": "When did <Twin1> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "int",
-          "filter": "edu0402t >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402t >= 2",
+          "concept": "cer0301t",
+          "scale": "int",
+          "number": "22",
           "answers": [
             {
               "value": -86,
@@ -1145,14 +1145,14 @@
       "items": [
         {
           "item": "1",
-          "number": "23",
-          "concept": "cer0301u",
           "text": "When did <Twin2> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Geschwister> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "int",
-          "filter": "edu0402u >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402u >= 2",
+          "concept": "cer0301u",
+          "scale": "int",
+          "number": "23",
           "answers": [
             {
               "value": -86,
@@ -1180,14 +1180,14 @@
       "items": [
         {
           "item": "1",
-          "number": "24",
-          "concept": "cer0301s",
           "text": "When did <Sibling> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Geschwister> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "int",
-          "filter": "edu0402s >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402s >= 2",
+          "concept": "cer0301s",
+          "scale": "int",
+          "number": "24",
           "answers": [
             {
               "value": -86,
@@ -1215,14 +1215,14 @@
       "items": [
         {
           "item": "1",
-          "number": "25",
-          "concept": "cer0302t",
           "text": "Did <Twin1> receive his/her last annual certificate from a school abroad?",
           "text_de": "Hat <Twin1> dieses Jahreszeugnis an einer Schule im Ausland erworben?",
-          "scale": "cat",
-          "filter": "edu0402t >= 2 | edu0402t == -99",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402t >= 2 | edu0402t == -99",
+          "concept": "cer0302t",
+          "scale": "cat",
+          "number": "25",
           "answers": [
             {
               "value": -89,
@@ -1265,14 +1265,14 @@
       "items": [
         {
           "item": "1",
-          "number": "26",
-          "concept": "cer0302u",
           "text": "Did <Twin2> receive his/her last annual certificate from a school abroad?",
           "text_de": "Hat <Twin2> dieses Jahreszeugnis an einer Schule im Ausland erworben?",
-          "scale": "cat",
-          "filter": "edu0402u >= 2 | edu0402u == -99",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402u >= 2 | edu0402u == -99",
+          "concept": "cer0302u",
+          "scale": "cat",
+          "number": "26",
           "answers": [
             {
               "value": -89,
@@ -1315,14 +1315,14 @@
       "items": [
         {
           "item": "1",
-          "number": "27",
-          "concept": "cer0302s",
           "text": "Did <Sibling> receive his/her last annual certificate from a school abroad?",
           "text_de": "Hat <Geschwister> dieses Jahreszeugnis an einer Schule im Ausland erworben?",
-          "scale": "cat",
-          "filter": "edu0402s >= 2 | edu0402s == -99",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402s >= 2 | edu0402s == -99",
+          "concept": "cer0302s",
+          "scale": "cat",
+          "number": "27",
           "answers": [
             {
               "value": -89,
@@ -1365,14 +1365,14 @@
       "items": [
         {
           "item": "1",
-          "number": "28",
-          "concept": "cer0303t",
           "text": "At what type of school did <Twin1> receive his/her last annual certificate?",
           "text_de": "An welcher Schule hat <Twin1> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "cat",
-          "filter": "edu0402t >= 2 & cer0302t != 1",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402t >= 2 & cer0302t != 1",
+          "concept": "cer0303t",
+          "scale": "cat",
+          "number": "28",
           "answers": [
             {
               "value": 1,
@@ -1381,8 +1381,8 @@
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
             },
             {
               "value": 3,
@@ -1445,14 +1445,14 @@
       "items": [
         {
           "item": "1",
-          "number": "29",
-          "concept": "cer0303u",
           "text": "At what type of school did <Twin2> receive his/her last annual certificate?",
           "text_de": "An welcher Schule hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "cat",
-          "filter": "edu0402u >= 2 & cer0302u != 1",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402u >= 2 & cer0302u != 1",
+          "concept": "cer0303u",
+          "scale": "cat",
+          "number": "29",
           "answers": [
             {
               "value": 1,
@@ -1461,8 +1461,8 @@
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
             },
             {
               "value": 3,
@@ -1525,14 +1525,14 @@
       "items": [
         {
           "item": "1",
-          "number": "30",
-          "concept": "cer0303s",
           "text": "At what type of school did <Sibling> receive his/her last annual certificate?",
           "text_de": "An welcher Schule hat <Geschwister> sein/ihr letztes Jahreszeugnis erhalten?",
-          "scale": "cat",
-          "filter": "edu0402s >= 2 & cer0302s != 1",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402s >= 2 & cer0302s != 1",
+          "concept": "cer0303s",
+          "scale": "cat",
+          "number": "30",
           "answers": [
             {
               "value": 1,
@@ -1541,8 +1541,8 @@
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
             },
             {
               "value": 3,
@@ -1605,14 +1605,14 @@
       "items": [
         {
           "item": "1",
-          "number": "31",
-          "concept": "cer0305t",
           "text": "What class was the last annual certificate issued for <Twin 1>?",
           "text_de": "Fuer welche Klasse wurde das letzte Jahreszeugnis von <Twin1> ausgestellt?",
-          "scale": "int",
-          "filter": "edu0402t >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402t >= 2",
+          "concept": "cer0305t",
+          "scale": "int",
+          "number": "31",
           "answers": [
             {
               "value": -86,
@@ -1640,14 +1640,14 @@
       "items": [
         {
           "item": "1",
-          "number": "32",
-          "concept": "cer0305u",
           "text": "What class was the last annual certificate issued for <Twin 2>?",
           "text_de": "Fuer welche Klasse wurde das letzte Jahreszeugnis von <Twin2> ausgestellt?",
-          "scale": "int",
-          "filter": "edu0402u >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402u >= 2",
+          "concept": "cer0305u",
+          "scale": "int",
+          "number": "32",
           "answers": [
             {
               "value": -86,
@@ -1675,14 +1675,14 @@
       "items": [
         {
           "item": "1",
-          "number": "33",
-          "concept": "cer0305s",
           "text": "What class was the last annual certificate issued for <Sibling>?",
           "text_de": "Fuer welche Klasse wurde das letzte Jahreszeugnis von <Geschwister> ausgestellt?",
-          "scale": "int",
-          "filter": "edu0402s >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402s >= 2",
+          "concept": "cer0305s",
+          "scale": "int",
+          "number": "33",
           "answers": [
             {
               "value": -86,
@@ -1710,14 +1710,14 @@
       "items": [
         {
           "item": "1",
-          "number": "34",
-          "concept": "cer0100t",
           "text": "Which grade did <Twin1> receive in his/her last annual certificate in math?",
           "text_de": "Welche Note hat <Twin1> in seinem/ihrem letzten Jahreszeugnis in Mathematik?",
-          "scale": "int",
-          "filter": "edu0402t >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402t >= 2",
+          "concept": "cer0100t",
+          "scale": "int",
+          "number": "34",
           "answers": [
             {
               "value": -83,
@@ -1750,14 +1750,14 @@
       "items": [
         {
           "item": "1",
-          "number": "35",
-          "concept": "cer0100u",
           "text": "Which grade did <Twin1> receive in his/her last annual certificate in math?",
           "text_de": "Welche Note hat <Twin2> in seinem/ihrem letzten Jahreszeugnis in Mathematik?",
-          "scale": "int",
-          "filter": "edu0402u >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402u >= 2",
+          "concept": "cer0100u",
+          "scale": "int",
+          "number": "35",
           "answers": [
             {
               "value": -83,
@@ -1790,14 +1790,14 @@
       "items": [
         {
           "item": "1",
-          "number": "36",
-          "concept": "cer0100s",
           "text": "Which grade did <Twin1> receive in his/her last annual certificate in math?",
           "text_de": "Welche Note hat <Geschwister> in seinem/ihrem letzten Jahreszeugnis in Mathematik?",
-          "scale": "int",
-          "filter": "edu0402s >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402s >= 2",
+          "concept": "cer0100s",
+          "scale": "int",
+          "number": "36",
           "answers": [
             {
               "value": -83,
@@ -1830,14 +1830,14 @@
       "items": [
         {
           "item": "1",
-          "number": "37",
-          "concept": "cer0103t",
           "text": "Is there or has there been a subject which is comparable to mathematics? If so, how is this subject called and what grade did <Twin1> receive?",
           "text_de": "Gibt es einen dem Fach Mathematik vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Twin1> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-          "scale": "int",
-          "filter": "cer0100t == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0100t == -81",
+          "concept": "cer0103t",
+          "scale": "int",
+          "number": "37",
           "answers": [
             {
               "value": -89,
@@ -1870,14 +1870,14 @@
       "items": [
         {
           "item": "1",
-          "number": "38",
-          "concept": "cer0103u",
           "text": "Is there or has there been a subject which is comparable to mathematics? If so, how is this subject called and what grade did <Twin2> receive?",
           "text_de": "Gibt es einen dem Fach Mathematik vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Twin2> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-          "scale": "int",
-          "filter": "cer0100u == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0100u == -81",
+          "concept": "cer0103u",
+          "scale": "int",
+          "number": "38",
           "answers": [
             {
               "value": -89,
@@ -1910,14 +1910,14 @@
       "items": [
         {
           "item": "1",
-          "number": "39",
-          "concept": "cer0103s",
           "text": "Is there or has there been a subject which is comparable to mathematics? If so, how is this subject called and what grade did <Sibling> receive?",
           "text_de": "Gibt es einen dem Fach Mathematik vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Geschwister> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-          "scale": "int",
-          "filter": "cer0100s == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0100s == -81",
+          "concept": "cer0103s",
+          "scale": "int",
+          "number": "39",
           "answers": [
             {
               "value": -89,
@@ -1950,14 +1950,14 @@
       "items": [
         {
           "item": "1",
-          "number": "40",
-          "concept": "cer0105t",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
-          "scale": "int",
-          "filter": "cer0100t == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0100t == -81",
+          "concept": "cer0105t",
+          "scale": "int",
+          "number": "40",
           "answers": [
             {
               "value": -89,
@@ -1990,14 +1990,14 @@
       "items": [
         {
           "item": "1",
-          "number": "41",
-          "concept": "cer0105u",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
-          "scale": "int",
-          "filter": "cer0100u == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0100u == -81",
+          "concept": "cer0105u",
+          "scale": "int",
+          "number": "41",
           "answers": [
             {
               "value": -89,
@@ -2030,14 +2030,14 @@
       "items": [
         {
           "item": "1",
-          "number": "42",
-          "concept": "cer0105s",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
-          "scale": "int",
-          "filter": "cer0100s == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0100s == -81",
+          "concept": "cer0105s",
+          "scale": "int",
+          "number": "42",
           "answers": [
             {
               "value": -89,
@@ -2070,14 +2070,14 @@
       "items": [
         {
           "item": "1",
-          "number": "43",
-          "concept": "cer0200t",
           "text": "And which grade in German? Which grade did <Twin1> receive in his/her last annual certificate in German?",
           "text_de": "Und welche Note in Deutsch? Welche Note hat <Twin1> seinem/ihrem letzten Jahreszeugnis in Deutsch?",
-          "scale": "int",
-          "filter": "edu0402t >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402t >= 2",
+          "concept": "cer0200t",
+          "scale": "int",
+          "number": "43",
           "answers": [
             {
               "value": -83,
@@ -2110,14 +2110,14 @@
       "items": [
         {
           "item": "1",
-          "number": "44",
-          "concept": "cer0200u",
           "text": "And which grade in German? Which grade did <Twin2> receive in his/her last annual certificate in German?",
           "text_de": "Und welche Note in Deutsch? Welche Note hat <Twin2> seinem/ihrem letzten Jahreszeugnis in Deutsch?",
-          "scale": "int",
-          "filter": "edu0402u >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402u >= 2",
+          "concept": "cer0200u",
+          "scale": "int",
+          "number": "44",
           "answers": [
             {
               "value": -83,
@@ -2150,14 +2150,14 @@
       "items": [
         {
           "item": "1",
-          "number": "45",
-          "concept": "cer0200s",
           "text": "And which grade in German? Which grade did <Sibling> receive in his/her last annual certificate in German?",
           "text_de": "Und welche Note in Deutsch? Welche Note hat <Geschwister> seinem/ihrem letzten Jahreszeugnis in Deutsch?",
-          "scale": "int",
-          "filter": "edu0402s >= 2",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402s >= 2",
+          "concept": "cer0200s",
+          "scale": "int",
+          "number": "45",
           "answers": [
             {
               "value": -83,
@@ -2190,14 +2190,14 @@
       "items": [
         {
           "item": "1",
-          "number": "46",
-          "concept": "cer0203t",
           "text": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Twin1> receive?",
           "text_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Twin1> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-          "scale": "cat",
-          "filter": "cer0200t == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200t == -81",
+          "concept": "cer0203t",
+          "scale": "cat",
+          "number": "46",
           "answers": [
             {
               "value": -89,
@@ -2230,14 +2230,14 @@
       "items": [
         {
           "item": "1",
-          "number": "47",
-          "concept": "cer0203u",
           "text": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Twin2> receive?",
           "text_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Twin2> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-          "scale": "cat",
-          "filter": "cer0200u == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200u == -81",
+          "concept": "cer0203u",
+          "scale": "cat",
+          "number": "47",
           "answers": [
             {
               "value": -89,
@@ -2270,14 +2270,14 @@
       "items": [
         {
           "item": "1",
-          "number": "48",
-          "concept": "cer0203s",
           "text": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Sibling> receive?",
           "text_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Geschwister> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-          "scale": "cat",
-          "filter": "cer0200s == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200s == -81",
+          "concept": "cer0203s",
+          "scale": "cat",
+          "number": "48",
           "answers": [
             {
               "value": -89,
@@ -2310,14 +2310,14 @@
       "items": [
         {
           "item": "1",
-          "number": "49",
-          "concept": "cer0205t",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
-          "scale": "int",
-          "filter": "cer0200t == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200t == -81",
+          "concept": "cer0205t",
+          "scale": "int",
+          "number": "49",
           "answers": [
             {
               "value": -89,
@@ -2350,14 +2350,14 @@
       "items": [
         {
           "item": "1",
-          "number": "50",
-          "concept": "cer0205u",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
-          "scale": "int",
-          "filter": "cer0200u == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200u == -81",
+          "concept": "cer0205u",
+          "scale": "int",
+          "number": "50",
           "answers": [
             {
               "value": -89,
@@ -2390,14 +2390,14 @@
       "items": [
         {
           "item": "1",
-          "number": "51",
-          "concept": "cer0205s",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
-          "scale": "int",
-          "filter": "cer0200s == -81",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200s == -81",
+          "concept": "cer0205s",
+          "scale": "int",
+          "number": "51",
           "answers": [
             {
               "value": -89,
@@ -2430,25 +2430,25 @@
       "items": [
         {
           "item": "0",
-          "number": "52",
-          "concept": "del2100t",
           "text": "The following question refers to problematic behavior. Certain behavior may cause children to get into trouble with the school / care facility or the police. How is this with <Twin1>? Did <Twin1> have trouble with the school / care facility or with the police during the past 12 months due to one or more of the following behaviors?",
           "text_de": "Die folgende Frage bezieht sich auf problematische Verhaltensweisen. Bestimmte Verhaltensweisen koennen dazu fuehren, dass Kinder Aerger z.B. mit der Schule / Betreuungseinrichtung oder der Polizei bekommen. Wie ist das bei <Twin1>? Hatte <Twin1> in den letzten 12 Monaten durch eine oder mehrere der folgenden Verhaltensweisen Aerger mit der Schule/Betreuungseinrichtung oder mit der Polizei?",
-          "scale": "txt",
-          "filter": "age0110t < 10 & edu0100t == 1",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "filter": "age0110t < 10 & edu0100t == 1",
+          "concept": "del2100t",
+          "scale": "txt",
+          "number": "52",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "53",
-          "concept": "del2100t",
           "text": "skipping school/ work",
           "text_de": "Schule/ Arbeit schwaenzen",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100t",
+          "scale": "cat",
+          "number": "53",
           "answers": [
             {
               "value": -89,
@@ -2480,13 +2480,13 @@
         },
         {
           "item": "2",
-          "number": "54",
-          "concept": "del2100t",
           "text": "shoplifting",
           "text_de": "Stehlen im Geschaeft",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100t",
+          "scale": "cat",
+          "number": "54",
           "answers": [
             {
               "value": -89,
@@ -2518,13 +2518,13 @@
         },
         {
           "item": "3",
-          "number": "55",
-          "concept": "del2100t",
           "text": "fighting",
           "text_de": "Pruegeleien",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100t",
+          "scale": "cat",
+          "number": "55",
           "answers": [
             {
               "value": -89,
@@ -2556,13 +2556,13 @@
         },
         {
           "item": "4",
-          "number": "56",
-          "concept": "del2100t",
           "text": "other",
           "text_de": "sonstiges",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100t",
+          "scale": "cat",
+          "number": "56",
           "answers": [
             {
               "value": -89,
@@ -2605,25 +2605,25 @@
       "items": [
         {
           "item": "0",
-          "number": "57",
-          "concept": "del2100u",
           "text": "The following question refers to problematic behavior. Certain behavior may cause children to get into trouble with the school / care facility or the police. How is this with <Twin2>? Did <Twin2> have trouble with the school / care facility or with the police during the past 12 months due to one or more of the following behaviors?",
           "text_de": "Die folgende Frage bezieht sich auf problematische Verhaltensweisen. Bestimmte Verhaltensweisen koennen dazu fuehren, dass Kinder Aerger z.B. mit der Schule / Betreuungseinrichtung oder der Polizei bekommen. Wie ist das bei <Twin2>? Hatte <Twin2> in den letzten 12 Monaten durch eine oder mehrere der folgenden Verhaltensweisen Aerger mit der Schule/Betreuungseinrichtung oder mit der Polizei?",
-          "scale": "txt",
-          "filter": "age0110t < 10 & edu0100u == 1",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "filter": "age0110t < 10 & edu0100u == 1",
+          "concept": "del2100u",
+          "scale": "txt",
+          "number": "57",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "58",
-          "concept": "del2100u",
           "text": "skipping school/ work",
           "text_de": "Schule/ Arbeit schwaenzen",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100u",
+          "scale": "cat",
+          "number": "58",
           "answers": [
             {
               "value": -89,
@@ -2655,13 +2655,13 @@
         },
         {
           "item": "2",
-          "number": "59",
-          "concept": "del2100u",
           "text": "shoplifting",
           "text_de": "Stehlen im Geschaeft",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100u",
+          "scale": "cat",
+          "number": "59",
           "answers": [
             {
               "value": -89,
@@ -2693,13 +2693,13 @@
         },
         {
           "item": "3",
-          "number": "60",
-          "concept": "del2100u",
           "text": "fighting",
           "text_de": "Pruegeleien",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100u",
+          "scale": "cat",
+          "number": "60",
           "answers": [
             {
               "value": -89,
@@ -2731,13 +2731,13 @@
         },
         {
           "item": "4",
-          "number": "61",
-          "concept": "del2100u",
           "text": "other",
           "text_de": "sonstiges",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100u",
+          "scale": "cat",
+          "number": "61",
           "answers": [
             {
               "value": -89,
@@ -2780,25 +2780,25 @@
       "items": [
         {
           "item": "0",
-          "number": "62",
-          "concept": "del2100s",
           "text": "The following question refers to problematic behavior. Certain behavior may cause children to get into trouble with the school / care facility or the police. How is this with <Sibling>? Did <Sibling> have trouble with the school / care facility or with the police during the past 12 months due to one or more of the following behaviors?",
           "text_de": "Die folgende Frage bezieht sich auf problematische Verhaltensweisen. Bestimmte Verhaltensweisen koennen dazu fuehren, dass Kinder Aerger z.B. mit der Schule / Betreuungseinrichtung oder der Polizei bekommen. Wie ist das bei <Geschwister>? Hatte <Geschwister> in den letzten 12 Monaten durch eine oder mehrere der folgenden Verhaltensweisen Aerger mit der Schule/Betreuungseinrichtung oder mit der Polizei?",
-          "scale": "txt",
-          "filter": "age0110s < 10 & edu0100s == 1",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "filter": "age0110s < 10 & edu0100s == 1",
+          "concept": "del2100s",
+          "scale": "txt",
+          "number": "62",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "63",
-          "concept": "del2100s",
           "text": "skipping school/ work",
           "text_de": "Schule/ Arbeit schwaenzen",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100s",
+          "scale": "cat",
+          "number": "63",
           "answers": [
             {
               "value": -89,
@@ -2830,13 +2830,13 @@
         },
         {
           "item": "2",
-          "number": "64",
-          "concept": "del2100s",
           "text": "shoplifting",
           "text_de": "Stehlen im Geschaeft",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100s",
+          "scale": "cat",
+          "number": "64",
           "answers": [
             {
               "value": -89,
@@ -2868,13 +2868,13 @@
         },
         {
           "item": "3",
-          "number": "65",
-          "concept": "del2100s",
           "text": "fighting",
           "text_de": "Pruegeleien",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100s",
+          "scale": "cat",
+          "number": "65",
           "answers": [
             {
               "value": -89,
@@ -2906,13 +2906,13 @@
         },
         {
           "item": "4",
-          "number": "66",
-          "concept": "del2100s",
           "text": "other",
           "text_de": "sonstiges",
-          "scale": "cat",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
           "description_de": "Source: Adaptiert von: Reinecke, J., Stemmler, M., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J.(2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities . SFB 882 Working Paper Series, 17. Bielefeld: DFG Research Center (SFB) 882 From Heterogeneities to Inequalities",
+          "concept": "del2100s",
+          "scale": "cat",
+          "number": "66",
           "answers": [
             {
               "value": -89,
@@ -2955,14 +2955,14 @@
       "items": [
         {
           "item": "1",
-          "number": "67",
-          "concept": "she0100t",
           "text": "How would you describe the state of health of <Twin1> during the last 12 months, in general?",
           "text_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
-          "scale": "cat",
-          "filter": "age0110t < 10",
           "description": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "description_de": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
+          "filter": "age0110t < 10",
+          "concept": "she0100t",
+          "scale": "cat",
+          "number": "67",
           "answers": [
             {
               "value": 1,
@@ -3010,14 +3010,14 @@
       "items": [
         {
           "item": "1",
-          "number": "68",
-          "concept": "she0100u",
           "text": "How would you describe the state of health of <Twin2> during the last 12 months, in general?",
           "text_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
-          "scale": "cat",
-          "filter": "age0110t < 10",
           "description": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "description_de": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
+          "filter": "age0110t < 10",
+          "concept": "she0100u",
+          "scale": "cat",
+          "number": "68",
           "answers": [
             {
               "value": 1,
@@ -3065,14 +3065,14 @@
       "items": [
         {
           "item": "1",
-          "number": "69",
-          "concept": "she0100s",
           "text": "How would you describe the state of health of <Sibling> during the last 12 months, in general?",
           "text_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
-          "scale": "cat",
-          "filter": "age0110s < 10",
           "description": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "description_de": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
+          "filter": "age0110s < 10",
+          "concept": "she0100s",
+          "scale": "cat",
+          "number": "69",
           "answers": [
             {
               "value": 1,
@@ -3120,25 +3120,25 @@
       "items": [
         {
           "item": "0",
-          "number": "70",
-          "concept": "dia7000t",
           "text": "I will now read out a list of diseases. Please tell me in case of any illness whether it occurred in <Twin1> in the last 12 months. We are concerned with longer-lasting or chronic diseases, which have been diagnosed by a doctor. Has one or more of the following disorders been present in <Twin1> during the last 12 months?",
           "text_de": "Ich lese Ihnen nun eine Liste mit Erkrankungen vor. Bitte sagen Sie mir bei jeder Erkrankung, ob sie in den letzten 12 Monaten bei <Twin1> vorlag. Es geht uns dabei um laenger andauernde oder chronische Erkrankungen, die von einem Arzt festgestellt worden sind. Lag in den letzten 12 Monaten eine oder mehrere der folgenden Erkrankungen bei <Twin1> vor?",
-          "scale": "txt",
-          "filter": "age0110t <= 14",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "filter": "age0110t <= 14",
+          "concept": "dia7000t",
+          "scale": "txt",
+          "number": "70",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "71",
-          "concept": "dia7000t",
           "text": "respiratory diseases",
           "text_de": "Atemwegserkrankungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "71",
           "answers": [
             {
               "value": 0,
@@ -3155,13 +3155,13 @@
         },
         {
           "item": "2",
-          "number": "72",
-          "concept": "dia7000t",
           "text": "allergies",
           "text_de": "Allergien",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "72",
           "answers": [
             {
               "value": 0,
@@ -3178,13 +3178,13 @@
         },
         {
           "item": "3",
-          "number": "73",
-          "concept": "dia7000t",
           "text": "neurodermatitis",
           "text_de": "Neurodermitis",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "73",
           "answers": [
             {
               "value": 0,
@@ -3201,13 +3201,13 @@
         },
         {
           "item": "4",
-          "number": "74",
-          "concept": "dia7000t",
           "text": "defective vision",
           "text_de": "Fehlsichtigkeit",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "74",
           "answers": [
             {
               "value": 0,
@@ -3224,13 +3224,13 @@
         },
         {
           "item": "5",
-          "number": "75",
-          "concept": "dia7000t",
           "text": "physiological eating disorder",
           "text_de": "Physiologische Ernaehrungsstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "75",
           "answers": [
             {
               "value": 0,
@@ -3247,13 +3247,13 @@
         },
         {
           "item": "6",
-          "number": "76",
-          "concept": "dia7000t",
           "text": "psychological eating disorder",
           "text_de": "Psychische Ernaehrungsstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "76",
           "answers": [
             {
               "value": 0,
@@ -3270,13 +3270,13 @@
         },
         {
           "item": "7",
-          "number": "77",
-          "concept": "dia7000t",
-          "text": "motoric disturbances",
+          "text": "Motor dysfunctions",
           "text_de": "Stoerung der Motorik",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "77",
           "answers": [
             {
               "value": 0,
@@ -3293,13 +3293,13 @@
         },
         {
           "item": "8",
-          "number": "78",
-          "concept": "dia7000t",
           "text": "mental disorder",
           "text_de": "Geistige Behinderung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "78",
           "answers": [
             {
               "value": 0,
@@ -3316,13 +3316,13 @@
         },
         {
           "item": "9",
-          "number": "79",
-          "concept": "dia7000t",
           "text": "physical disability",
           "text_de": "Koerperliche Behinderung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "79",
           "answers": [
             {
               "value": 0,
@@ -3339,13 +3339,13 @@
         },
         {
           "item": "10",
-          "number": "80",
-          "concept": "dia7000t",
           "text": "anxiety disorder",
           "text_de": "Angsterkrankung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "80",
           "answers": [
             {
               "value": 0,
@@ -3362,13 +3362,13 @@
         },
         {
           "item": "11",
-          "number": "81",
-          "concept": "dia7000t",
           "text": "conduct disorder",
           "text_de": "Stoerung des Sozialverhaltens",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "81",
           "answers": [
             {
               "value": 0,
@@ -3385,13 +3385,13 @@
         },
         {
           "item": "12",
-          "number": "82",
-          "concept": "dia7000t",
           "text": "ADHD/ADS",
           "text_de": "ADHS/ADS",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "82",
           "answers": [
             {
               "value": 0,
@@ -3408,13 +3408,13 @@
         },
         {
           "item": "13",
-          "number": "83",
-          "concept": "dia7000t",
           "text": "dyslexia",
           "text_de": "Lese-/Rechtschreibschwaeche",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "83",
           "answers": [
             {
               "value": 0,
@@ -3431,13 +3431,13 @@
         },
         {
           "item": "14",
-          "number": "84",
-          "concept": "dia7000t",
           "text": "dyscalculia",
           "text_de": "Rechenschwaeche",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "84",
           "answers": [
             {
               "value": 0,
@@ -3454,13 +3454,13 @@
         },
         {
           "item": "15",
-          "number": "85",
-          "concept": "dia7000t",
           "text": "stutter",
           "text_de": "Stottern",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "85",
           "answers": [
             {
               "value": 0,
@@ -3477,13 +3477,13 @@
         },
         {
           "item": "16",
-          "number": "86",
-          "concept": "dia7000t",
           "text": "sleep disturbances",
           "text_de": "Schlafstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "86",
           "answers": [
             {
               "value": 0,
@@ -3500,13 +3500,13 @@
         },
         {
           "item": "17",
-          "number": "87",
-          "concept": "dia7000t",
           "text": "other diseases",
           "text_de": "Sonstige Erkrankungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "87",
           "answers": [
             {
               "value": 0,
@@ -3523,13 +3523,13 @@
         },
         {
           "item": "18",
-          "number": "88",
-          "concept": "dia7000t",
           "text": "no diseases",
           "text_de": "Keine Erkrankung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "88",
           "answers": [
             {
               "value": 0,
@@ -3546,13 +3546,13 @@
         },
         {
           "item": "19",
-          "number": "89",
-          "concept": "dia7000t",
           "text": "don't know",
           "text_de": "Weiss nicht",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "89",
           "answers": [
             {
               "value": 0,
@@ -3569,13 +3569,13 @@
         },
         {
           "item": "20",
-          "number": "90",
-          "concept": "dia7000t",
           "text": "not specified",
           "text_de": "Keine Angabe",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000t",
+          "scale": "cat",
+          "number": "90",
           "answers": [
             {
               "value": 0,
@@ -3603,25 +3603,25 @@
       "items": [
         {
           "item": "0",
-          "number": "91",
-          "concept": "dia7000u",
           "text": "Now I will read out again a list of illnesses and you can indicate which of the illnesses occured in <Twin2> in the last 12 months. We are concerned with longer-lasting or chronic diseases, which have been diagnosed by a doctor. Has one or more of the following disorders been present in <Twin2> during the last 12 months?",
           "text_de": "Nun lese ich Ihnen erneut eine Liste mit Erkrankungen vor und Sie koennen angeben, welche der Erkrankungen in den letzten 12 Monaten bei <Twin2> vorlagen. Es geht uns dabei um laenger andauernde oder chronische Erkrankungen, die von einem Arzt festgestellt worden sind. Lag in den letzten 12 Monaten eine oder mehrere der folgenden Erkrankungen bei <Twin2> vor?",
-          "scale": "txt",
-          "filter": "age0110t <= 14",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "filter": "age0110t <= 14",
+          "concept": "dia7000u",
+          "scale": "txt",
+          "number": "91",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "92",
-          "concept": "dia7000u",
           "text": "respiratory diseases",
           "text_de": "Atemwegserkrankungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "92",
           "answers": [
             {
               "value": 0,
@@ -3638,13 +3638,13 @@
         },
         {
           "item": "2",
-          "number": "93",
-          "concept": "dia7000u",
           "text": "allergies",
           "text_de": "Allergien",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "93",
           "answers": [
             {
               "value": 0,
@@ -3661,13 +3661,13 @@
         },
         {
           "item": "3",
-          "number": "94",
-          "concept": "dia7000u",
           "text": "neurodermatitis",
           "text_de": "Neurodermitis",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "94",
           "answers": [
             {
               "value": 0,
@@ -3684,13 +3684,13 @@
         },
         {
           "item": "4",
-          "number": "95",
-          "concept": "dia7000u",
           "text": "defective vision",
           "text_de": "Fehlsichtigkeit",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "95",
           "answers": [
             {
               "value": 0,
@@ -3707,13 +3707,13 @@
         },
         {
           "item": "5",
-          "number": "96",
-          "concept": "dia7000u",
           "text": "physiological eating disorder",
           "text_de": "Physiologische Ernaehrungsstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "96",
           "answers": [
             {
               "value": 0,
@@ -3730,13 +3730,13 @@
         },
         {
           "item": "6",
-          "number": "97",
-          "concept": "dia7000u",
           "text": "psychological eating disorder",
           "text_de": "Psychische Ernaehrungsstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "97",
           "answers": [
             {
               "value": 0,
@@ -3753,13 +3753,13 @@
         },
         {
           "item": "7",
-          "number": "98",
-          "concept": "dia7000u",
-          "text": "motoric disturbances",
+          "text": "Motor dysfunctions",
           "text_de": "Stoerung der Motorik",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "98",
           "answers": [
             {
               "value": 0,
@@ -3776,13 +3776,13 @@
         },
         {
           "item": "8",
-          "number": "99",
-          "concept": "dia7000u",
           "text": "mental disorder",
           "text_de": "Geistige Behinderung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "99",
           "answers": [
             {
               "value": 0,
@@ -3799,13 +3799,13 @@
         },
         {
           "item": "9",
-          "number": "100",
-          "concept": "dia7000u",
           "text": "physical disability",
           "text_de": "Koerperliche Behinderung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "100",
           "answers": [
             {
               "value": 0,
@@ -3822,13 +3822,13 @@
         },
         {
           "item": "10",
-          "number": "101",
-          "concept": "dia7000u",
           "text": "anxiety disorder",
           "text_de": "Angsterkrankung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "101",
           "answers": [
             {
               "value": 0,
@@ -3845,13 +3845,13 @@
         },
         {
           "item": "11",
-          "number": "102",
-          "concept": "dia7000u",
           "text": "conduct disorder",
           "text_de": "Stoerung des Sozialverhaltens",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "102",
           "answers": [
             {
               "value": 0,
@@ -3868,13 +3868,13 @@
         },
         {
           "item": "12",
-          "number": "103",
-          "concept": "dia7000u",
           "text": "ADHD/ADS",
           "text_de": "ADHS/ADS",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "103",
           "answers": [
             {
               "value": 0,
@@ -3891,13 +3891,13 @@
         },
         {
           "item": "13",
-          "number": "104",
-          "concept": "dia7000u",
           "text": "dyslexia",
           "text_de": "Lese-/Rechtschreibschwaeche",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "104",
           "answers": [
             {
               "value": 0,
@@ -3914,13 +3914,13 @@
         },
         {
           "item": "14",
-          "number": "105",
-          "concept": "dia7000u",
           "text": "dyscalculia",
           "text_de": "Rechenschwaeche",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "105",
           "answers": [
             {
               "value": 0,
@@ -3937,13 +3937,13 @@
         },
         {
           "item": "15",
-          "number": "106",
-          "concept": "dia7000u",
           "text": "stutter",
           "text_de": "Stottern",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "106",
           "answers": [
             {
               "value": 0,
@@ -3960,13 +3960,13 @@
         },
         {
           "item": "16",
-          "number": "107",
-          "concept": "dia7000u",
           "text": "sleep disturbances",
           "text_de": "Schlafstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "107",
           "answers": [
             {
               "value": 0,
@@ -3983,13 +3983,13 @@
         },
         {
           "item": "17",
-          "number": "108",
-          "concept": "dia7000u",
           "text": "other diseases",
           "text_de": "Sonstige Erkrankungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "108",
           "answers": [
             {
               "value": 0,
@@ -4006,13 +4006,13 @@
         },
         {
           "item": "18",
-          "number": "109",
-          "concept": "dia7000u",
           "text": "no diseases",
           "text_de": "Keine Erkrankung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "109",
           "answers": [
             {
               "value": 0,
@@ -4029,13 +4029,13 @@
         },
         {
           "item": "19",
-          "number": "110",
-          "concept": "dia7000u",
           "text": "don't know",
           "text_de": "Weiss nicht",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "110",
           "answers": [
             {
               "value": 0,
@@ -4052,13 +4052,13 @@
         },
         {
           "item": "20",
-          "number": "111",
-          "concept": "dia7000u",
           "text": "not specified",
           "text_de": "Keine Angabe",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000u",
+          "scale": "cat",
+          "number": "111",
           "answers": [
             {
               "value": 0,
@@ -4086,25 +4086,25 @@
       "items": [
         {
           "item": "0",
-          "number": "112",
-          "concept": "dia7000s",
           "text": "Now I will read out again a list of illnesses and you can indicate which of the illnesses occured in <Sibling> in the last 12 months. We are concerned with longer-lasting or chronic diseases, which have been diagnosed by a doctor. Has one or more of the following disorders been present in <Sibling> during the last 12 months?",
           "text_de": "Nun lese ich Ihnen erneut eine Liste mit Erkrankungen vor und Sie koennen angeben, welche der Erkrankungen in den letzten 12 Monaten bei <Geschwister> vorlagen. Es geht uns dabei um laenger andauernde oder chronische Erkrankungen, die von einem Arzt festgestellt worden sind. Lag in den letzten 12 Monaten eine oder mehrere der folgenden Erkrankungen bei <Geschwister> vor?",
-          "scale": "txt",
-          "filter": "age0110s <= 14",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "filter": "age0110s <= 14",
+          "concept": "dia7000s",
+          "scale": "txt",
+          "number": "112",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "113",
-          "concept": "dia7000s",
           "text": "respiratory diseases",
           "text_de": "Atemwegserkrankungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "113",
           "answers": [
             {
               "value": 0,
@@ -4121,13 +4121,13 @@
         },
         {
           "item": "2",
-          "number": "114",
-          "concept": "dia7000s",
           "text": "allergies",
           "text_de": "Allergien",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "114",
           "answers": [
             {
               "value": 0,
@@ -4144,13 +4144,13 @@
         },
         {
           "item": "3",
-          "number": "115",
-          "concept": "dia7000s",
           "text": "neurodermatitis",
           "text_de": "Neurodermitis",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "115",
           "answers": [
             {
               "value": 0,
@@ -4167,13 +4167,13 @@
         },
         {
           "item": "4",
-          "number": "116",
-          "concept": "dia7000s",
           "text": "defective vision",
           "text_de": "Fehlsichtigkeit",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "116",
           "answers": [
             {
               "value": 0,
@@ -4190,13 +4190,13 @@
         },
         {
           "item": "5",
-          "number": "117",
-          "concept": "dia7000s",
           "text": "physiological eating disorder",
           "text_de": "Physiologische Ernaehrungsstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "117",
           "answers": [
             {
               "value": 0,
@@ -4213,13 +4213,13 @@
         },
         {
           "item": "6",
-          "number": "118",
-          "concept": "dia7000s",
           "text": "psychological eating disorder",
           "text_de": "Psychische Ernaehrungsstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "118",
           "answers": [
             {
               "value": 0,
@@ -4236,13 +4236,13 @@
         },
         {
           "item": "7",
-          "number": "119",
-          "concept": "dia7000s",
-          "text": "motoric disturbances",
+          "text": "Motor dysfunctions",
           "text_de": "Stoerung der Motorik",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "119",
           "answers": [
             {
               "value": 0,
@@ -4259,13 +4259,13 @@
         },
         {
           "item": "8",
-          "number": "120",
-          "concept": "dia7000s",
           "text": "mental disorder",
           "text_de": "Geistige Behinderung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "120",
           "answers": [
             {
               "value": 0,
@@ -4282,13 +4282,13 @@
         },
         {
           "item": "9",
-          "number": "121",
-          "concept": "dia7000s",
           "text": "physical disability",
           "text_de": "Koerperliche Behinderung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "121",
           "answers": [
             {
               "value": 0,
@@ -4305,13 +4305,13 @@
         },
         {
           "item": "10",
-          "number": "122",
-          "concept": "dia7000s",
           "text": "anxiety disorder",
           "text_de": "Angsterkrankung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "122",
           "answers": [
             {
               "value": 0,
@@ -4328,13 +4328,13 @@
         },
         {
           "item": "11",
-          "number": "123",
-          "concept": "dia7000s",
           "text": "conduct disorder",
           "text_de": "Stoerung des Sozialverhaltens",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "123",
           "answers": [
             {
               "value": 0,
@@ -4351,13 +4351,13 @@
         },
         {
           "item": "12",
-          "number": "124",
-          "concept": "dia7000s",
           "text": "ADHD/ADS",
           "text_de": "ADHS/ADS",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "124",
           "answers": [
             {
               "value": 0,
@@ -4374,13 +4374,13 @@
         },
         {
           "item": "13",
-          "number": "125",
-          "concept": "dia7000s",
           "text": "dyslexia",
           "text_de": "Lese-/Rechtschreibschwaeche",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "125",
           "answers": [
             {
               "value": 0,
@@ -4397,13 +4397,13 @@
         },
         {
           "item": "14",
-          "number": "126",
-          "concept": "dia7000s",
           "text": "dyscalculia",
           "text_de": "Rechenschwaeche",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "126",
           "answers": [
             {
               "value": 0,
@@ -4420,13 +4420,13 @@
         },
         {
           "item": "15",
-          "number": "127",
-          "concept": "dia7000s",
           "text": "stutter",
           "text_de": "Stottern",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "127",
           "answers": [
             {
               "value": 0,
@@ -4443,13 +4443,13 @@
         },
         {
           "item": "16",
-          "number": "128",
-          "concept": "dia7000s",
           "text": "sleep disturbances",
           "text_de": "Schlafstoerungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "128",
           "answers": [
             {
               "value": 0,
@@ -4466,13 +4466,13 @@
         },
         {
           "item": "17",
-          "number": "129",
-          "concept": "dia7000s",
           "text": "other diseases",
           "text_de": "Sonstige Erkrankungen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "129",
           "answers": [
             {
               "value": 0,
@@ -4489,13 +4489,13 @@
         },
         {
           "item": "18",
-          "number": "130",
-          "concept": "dia7000s",
           "text": "no diseases",
           "text_de": "Keine Erkrankung",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "130",
           "answers": [
             {
               "value": 0,
@@ -4512,13 +4512,13 @@
         },
         {
           "item": "19",
-          "number": "131",
-          "concept": "dia7000s",
           "text": "don't know",
           "text_de": "Weiss nicht",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "131",
           "answers": [
             {
               "value": 0,
@@ -4535,13 +4535,13 @@
         },
         {
           "item": "20",
-          "number": "132",
-          "concept": "dia7000s",
           "text": "not specified",
           "text_de": "Keine Angabe",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "concept": "dia7000s",
+          "scale": "cat",
+          "number": "132",
           "answers": [
             {
               "value": 0,
