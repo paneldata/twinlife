@@ -10,14 +10,14 @@ config:
 
 ## Citation
 
-* **Title:** TwinLife  - A genetically informative, longitudinal study about the development of social    
-    inequality
-* **Principle Investigators:** Prof. Dr. Martin Diewald (martin.diewald[at]uni-bielefeld.de);    
-    Prof. Dr. Rainer Riemann (rainer.riemann[at]uni-bielefeld.de);    
-    Prof. Dr. Frank M. Spinath (f.spinath[at]mx.uni-saarland.de)
+* **Title:** TwinLife  - A genetically informative, longitudinal study about the development of social inequality
+* **Principle Investigators:** Prof. Dr. Martin Diewald (<martin.diewald@uni-bielefeld.de>);    
+	Prof. Dr. Christian Kandler (since 07/2021) (<ckandler@uni-bremen.de>);   
+    Prof. Dr. Rainer Riemann (until 07/2021) (<rainer.riemann@uni-bielefeld.de>);      
+    Prof. Dr. Frank M. Spinath (<f.spinath@mx.uni-saarland.de>)
 * **URL:** [https://www.twin-life.de/documentation/](https://www.twin-life.de/documentation/)
 
-Please cite both the dataset (Diewald, Martin et al. 2021: TwinLife. GESIS Datenarchiv, Köln. ZA6701 Datenfile Version 5.0.0, https://doi.org/10.4232/1.13747.) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
+Please cite both the dataset (Diewald et al., 2022: TwinLife. GESIS, Cologne. ZA6701 Data file Version 6.0.0, [https://doi.org/10.4232/1.13932](https://doi.org/10.4232/1.13932).) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
 
 ## Study info
 
@@ -272,6 +272,21 @@ In the following, the contents of the TwinLife Data are described in more detail
 - E.g., same or different clothing, confusion of the twins, undertakings with twins
 
 
+**10. Covid-19 supplementary surveys**
+
+10.1 Health during the COVID-19 pandemic 
+
+10.2 Socioeconomic changes 
+
+10.3 Covid-19-related behavior change 
+
+10.4 Resilience, coping 
+
+10.5 Perceived threat, stress and strain, psychological impairment 
+
+10.6 Assessment of government restrictions
+
+
 ## Method
 
 The TwinLife panel combines a sequential cohort-design with an extended twin family-design (ETFD). The related surveys are conducted yearly, whereat the mode alternates between face-to-face at 
@@ -323,16 +338,24 @@ data collection 4 (CATI 2a)		Oct 11, 2017 to May 12, 2018
 	
 data collection 4 (CATI 2b)		Nov 06, 2018 to Apr 16, 2019
 
-COVID-19 Supplementary Survey (Cov 1)		Jul 24, 2020 to Nov 15, 2020
+data collection 5 (F2F 3a) 		Nov 26, 2018 to July 06, 2019
+
+data collection 5 (F2F 3b) 		Sep 16, 2019 to June 06, 2020
+
+COVID-19 Supplementary Survey (CoV 1)		Jul 24, 2020 to Nov 15, 2020
+
+COVID-19 Supplementary Survey (CoV 2a) 		Nov 30, 2020 to Apr 20, 2021
+
+COVID-19 Supplementary Survey (CoV 2b) 		Feb 18, 2021 to Aug 01, 2021
 
 
 
 
-## Scientific use files (current version: v5-0-0)
+## Scientific use files (current version: v6-0-0)
 
 ### Data description
 
-For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method reports of the first three data collections see the TwinLife Technical Reports 05, 09, and 10 at 
+For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method reports of the first four data collections see the TwinLife Technical Reports 05, 09, 10, and 12 at 
 [https://www.twin-life.de/twinlife-series](https://www.twin-life.de/twinlife-series).
 
 
@@ -340,39 +363,47 @@ For a description of the structure of the TwinLife sample see the TwinLife Techn
 
 - **Master data (ZA6701_master_v$)**: Includes information on the gross sample, such as consistency checked variables that are stable over time (sex, year of birth, relation to the twins, zygosity, migration background) and wave-specific variables (person type, response status) about all individuals included in TwinLife in each wave.
 
-- **Survey data in person format with filter error adjustment (ZA6701_person_wid$_v$)**: There is one data set for each regular data collection (F2F 1, CATI 1, F2F 2, CATI 2) and the supplementary COVID-19 survey (CoV1). The data collection identifier is the variable wid. The additional survey identifier for the supplementary COVID-19 survey is cov. Each surveyed person has one data row (pid). The data were filter-cleaned, i.e. data were deleted if the question was not intended for a person according to the filter instructions. These datasets are documented on paneldata.org.
+- **Survey data in person format with filter error adjustment (ZA6701_person_wid$_v$)**: There is one data set for each data collection. Each surveyed person has one data row (pid). The data collection identifier is the variable wid. The data were filter-cleaned, i.e. data were deleted if the question was not intended for a person according to the filter instructions. These datasets are documented on paneldata.org.
 
-- **Survey data in person format without filter error adjustment (ZA6701_person_unadj_wid$_v$.dta)**: There is one data file for each F2F data collection including all variables that were at least partially collected in PAPI mode (self-administered) *without filter error adjustment*. It is up to the users to decide how to handle the information provided by the respondents.
+- **Data of covid supplementary surveys (ZA6701_person_cov$_v$)**: There is one data set for each covid supplementary survey. Each surveyed person has one data row (pid). The data collection identifier is the variable cov.
 
-- **Survey data in family format (ZA6701_family_wide_wid$_v$.dta)**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2, CATI 2). Each family has one data row with information of each participating person in the family being stored in separate variables/columns). Person format and family format data sets contain the same data using different structures.
+- **Survey data in person format without filter error adjustment (ZA6701_person_unadj_wid$_v$)**: There is one data file for each F2F data collection including all variables that were at least partially collected in PAPI mode (self-administered) *without filter error adjustment*. It is up to the users to decide how to handle the information provided by the respondents.
+
+- **Survey data in family format (ZA6701_family_wide_wid$_v$)**: There is one data set for each data collection. Each family has one data row with information of each participating person in the family being stored in separate variables/columns. Person format and family format data sets contain the same data using different structures.
 
 - **Twin zygosity assessment (ZA6701_zygosity_v$)**: A data file with the information of the twin zygosity assessment in F2F 1.
 
-- **Survey mode (ZA6701_mode_wid1_v$.dta)**: Contains information on survey mode for each variable in F2F 1.
+- **Survey mode (ZA6701_mode_wid1_v$)**: A data file with information on the survey mode for each variable in F2F 1.
+
+- **Survey weights (ZA6701_weights_v$)**: A data file containing the survey weights (design, non-response, and panel weights).
 
 
-All data is provided with English and German variable descriptions. In Stata, these languages are included in one data set while in SPSS, these are separate data files. Variables and instruments are documented at http://www.paneldata.org. Detailed information on the study and special features can be found at https://www.twin-life.de/documentation/. For questions regarding the content of the data, please contact data(at)twin-life.de. 
+All data is provided with English and German variable descriptions. In Stata, these languages are included in one data set while in SPSS, these are separate data files. Variables and instruments are documented at http://www.paneldata.org. Detailed information on the study and special features can be found at https://www.twin-life.de/documentation/. For questions regarding the content of the data, please contact <data@twin-life.de>. 
 
 
 ### Study units
 
 Number of Units:
 
-21262 individuals, 4096 families
+- 21,262 individuals
+- 4096 families
  
 Number of Variables:
 
-2,509 (F2F 1 [wid1] person-format)
-611 (CATI 1 [wid2] person-format)
-2,320 (F2F 2 [wid3] person-format)
-120 (CATI 2 [wid4] person-format)
-119 (CoV 1 [cov1/wid10] person-format)
+- 2,515 (F2F 1 [wid1] person-format)
+- 611 (CATI 1 [wid2] person-format)
+- 2,347 (F2F 2 [wid3] person-format)
+- 123 (CATI 2 [wid4] person-format)
+- 1,341 (F2F 3 [wid5] person-format)
+- 121 (CoV 1 [cov1/wid10] person-format)
+- 131 (CoV 2 [cov2/wid11] person-format)
+
 
 ### Data access 
 
-Data can be accessed via the GESIS Data Catalogue: [https://dbk.gesis.org/dbksearch/index.asp](https://dbk.gesis.org/dbksearch/index.asp) 
+Data can be accessed via the GESIS Data Catalogue: [https://search.gesis.org/research_data/ZA6701](https://search.gesis.org/research_data/ZA6701) 
 
 Charges for downloading this data will be paid by the TwinLife project, so the use of the data is **free of charge**!
 
 Note on availability: Data and documents are only released for academic research and teaching after the data depositor's written authorization. For this purpose the Gesis Data Archive obtains a written permission 
-with specification of the user and the analysis intention.
+with specification of the user and the analysis intention. To get access to the TwinLife data, please fill in the [Data Use Agreement](https://dbk.gesis.org/dbksearch/download.asp?id=60842).
