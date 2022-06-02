@@ -1,0 +1,3188 @@
+{
+  "study": "twinlife",
+  "name": "wid5_F2F3_module16",
+  "label": "F2F 3: Balloon Analogue Risk Task (BART) (CASI)",
+  "description": "This questionnaire module contains questions on: Ballon Analogue Risk Task (BART).",
+  "analysis_unit": "individual",
+  "period": 5,
+  "instrument": "wid5_F2F3_module16",
+  "questions": {
+    "brt0001": {
+      "question": "brt0001",
+      "name": "brt0001",
+      "label": "Would you like to play the game?",
+      "label_de": "[IF age < 16] Moechtest Du das Spiel spielen? [IF age >= 16] Moechten Sie am Spiel teilnehmen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Would you like to play the game?",
+          "text_de": "[IF age < 16] Moechtest Du das Spiel spielen? [IF age >= 16] Moechten Sie am Spiel teilnehmen?",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & mod0200_5 == 3",
+          "concept": "brt0001",
+          "number": "1",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0100": {
+      "question": "brt0100",
+      "name": "brt0100",
+      "label": "Was the game stopped in this round? round 1",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 1",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 1",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 1",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1",
+          "concept": "brt0100",
+          "number": "2",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0101": {
+      "question": "brt0101",
+      "name": "brt0101",
+      "label": "Did the balloon burst in this round? round 1",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 1",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 1",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 1",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0100==0",
+          "concept": "brt0101",
+          "number": "3",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0102": {
+      "question": "brt0102",
+      "name": "brt0102",
+      "label": "How many pumps were made in this round? round 1",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 1",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 1",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 1",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0100==0",
+          "concept": "brt0102",
+          "number": "4",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0200": {
+      "question": "brt0200",
+      "name": "brt0200",
+      "label": "Was the game stopped in this round? round 2",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 2",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 2",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 2",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0100==0",
+          "concept": "brt0200",
+          "number": "5",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0201": {
+      "question": "brt0201",
+      "name": "brt0201",
+      "label": "Did the balloon burst in this round? round 2",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 2",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 2",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 2",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0200==0",
+          "concept": "brt0201",
+          "number": "6",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0202": {
+      "question": "brt0202",
+      "name": "brt0202",
+      "label": "How many pumps were made in this round? round 2",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 2",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 2",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 2",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0200==0",
+          "concept": "brt0202",
+          "number": "7",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0300": {
+      "question": "brt0300",
+      "name": "brt0300",
+      "label": "Was the game stopped in this round? round 3",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 3",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 3",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 3",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0200==0",
+          "concept": "brt0300",
+          "number": "8",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0301": {
+      "question": "brt0301",
+      "name": "brt0301",
+      "label": "Did the balloon burst in this round? round 3",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 3",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 3",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 3",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0300==0",
+          "concept": "brt0301",
+          "number": "9",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0302": {
+      "question": "brt0302",
+      "name": "brt0302",
+      "label": "How many pumps were made in this round? round 3",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 3",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 3",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 3",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0300==0",
+          "concept": "brt0302",
+          "number": "10",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0400": {
+      "question": "brt0400",
+      "name": "brt0400",
+      "label": "Was the game stopped in this round? round 4",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 4",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 4",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 4",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0300==0",
+          "concept": "brt0400",
+          "number": "11",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0401": {
+      "question": "brt0401",
+      "name": "brt0401",
+      "label": "Did the balloon burst in this round? round 4",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 4",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 4",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 4",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0400==0",
+          "concept": "brt0401",
+          "number": "12",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0402": {
+      "question": "brt0402",
+      "name": "brt0402",
+      "label": "How many pumps were made in this round? round 4",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 4",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 4",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 4",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0400==0",
+          "concept": "brt0402",
+          "number": "13",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0500": {
+      "question": "brt0500",
+      "name": "brt0500",
+      "label": "Was the game stopped in this round? round 5",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 5",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 5",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 5",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0400==0",
+          "concept": "brt0500",
+          "number": "14",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0501": {
+      "question": "brt0501",
+      "name": "brt0501",
+      "label": "Did the balloon burst in this round? round 5",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 5",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 5",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 5",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0500==0",
+          "concept": "brt0501",
+          "number": "15",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0502": {
+      "question": "brt0502",
+      "name": "brt0502",
+      "label": "How many pumps were made in this round? round 5",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 5",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 5",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 5",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0500==0",
+          "concept": "brt0502",
+          "number": "16",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0600": {
+      "question": "brt0600",
+      "name": "brt0600",
+      "label": "Was the game stopped in this round? round 6",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 6",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 6",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 6",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0500==0",
+          "concept": "brt0600",
+          "number": "17",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0601": {
+      "question": "brt0601",
+      "name": "brt0601",
+      "label": "Did the balloon burst in this round? round 6",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 6",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 6",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 6",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0600==0",
+          "concept": "brt0601",
+          "number": "18",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0602": {
+      "question": "brt0602",
+      "name": "brt0602",
+      "label": "How many pumps were made in this round? round 6",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 6",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 6",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 6",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0600==0",
+          "concept": "brt0602",
+          "number": "19",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0700": {
+      "question": "brt0700",
+      "name": "brt0700",
+      "label": "Was the game stopped in this round? round 7",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 7",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 7",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 7",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0600==0",
+          "concept": "brt0700",
+          "number": "20",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0701": {
+      "question": "brt0701",
+      "name": "brt0701",
+      "label": "Did the balloon burst in this round? round 7",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 7",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 7",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 7",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0700==0",
+          "concept": "brt0701",
+          "number": "21",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0702": {
+      "question": "brt0702",
+      "name": "brt0702",
+      "label": "How many pumps were made in this round? round 7",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 7",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 7",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 7",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0700==0",
+          "concept": "brt0702",
+          "number": "22",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 21,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0800": {
+      "question": "brt0800",
+      "name": "brt0800",
+      "label": "Was the game stopped in this round? round 8",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 8",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 8",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 8",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0700==0",
+          "concept": "brt0800",
+          "number": "23",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 22,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0801": {
+      "question": "brt0801",
+      "name": "brt0801",
+      "label": "Did the balloon burst in this round? round 8",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 8",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 8",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 8",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0800==0",
+          "concept": "brt0801",
+          "number": "24",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 23,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0802": {
+      "question": "brt0802",
+      "name": "brt0802",
+      "label": "How many pumps were made in this round? round 8",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 8",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 8",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 8",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0800==0",
+          "concept": "brt0802",
+          "number": "25",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 24,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0900": {
+      "question": "brt0900",
+      "name": "brt0900",
+      "label": "Was the game stopped in this round? round 9",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 9",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 9",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 9",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0800==0",
+          "concept": "brt0900",
+          "number": "26",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 25,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0901": {
+      "question": "brt0901",
+      "name": "brt0901",
+      "label": "Did the balloon burst in this round? round 9",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 9",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 9",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 9",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0900==0",
+          "concept": "brt0901",
+          "number": "27",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 26,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt0902": {
+      "question": "brt0902",
+      "name": "brt0902",
+      "label": "How many pumps were made in this round? round 9",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 9",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 9",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 9",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0900==0",
+          "concept": "brt0902",
+          "number": "28",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 27,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1000": {
+      "question": "brt1000",
+      "name": "brt1000",
+      "label": "Was the game stopped in this round? round 10",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 10",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 10",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 10",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt0900==0",
+          "concept": "brt1000",
+          "number": "29",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 28,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1001": {
+      "question": "brt1001",
+      "name": "brt1001",
+      "label": "Did the balloon burst in this round? round 10",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 10",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 10",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 10",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1000==0",
+          "concept": "brt1001",
+          "number": "30",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 29,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1002": {
+      "question": "brt1002",
+      "name": "brt1002",
+      "label": "How many pumps were made in this round? round 10",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 10",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 10",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 10",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1000==0",
+          "concept": "brt1002",
+          "number": "31",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 30,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1100": {
+      "question": "brt1100",
+      "name": "brt1100",
+      "label": "Was the game stopped in this round? round 11",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 11",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 11",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 11",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1000==0",
+          "concept": "brt1100",
+          "number": "32",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 31,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1101": {
+      "question": "brt1101",
+      "name": "brt1101",
+      "label": "Did the balloon burst in this round? round 11",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 11",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 11",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 11",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1100==0",
+          "concept": "brt1101",
+          "number": "33",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 32,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1102": {
+      "question": "brt1102",
+      "name": "brt1102",
+      "label": "How many pumps were made in this round? round 11",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 11",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 11",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 11",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1100==0",
+          "concept": "brt1102",
+          "number": "34",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 33,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1200": {
+      "question": "brt1200",
+      "name": "brt1200",
+      "label": "Was the game stopped in this round? round 12",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 12",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 12",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 12",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1100==0",
+          "concept": "brt1200",
+          "number": "35",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 34,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1201": {
+      "question": "brt1201",
+      "name": "brt1201",
+      "label": "Did the balloon burst in this round? round 12",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 12",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 12",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 12",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1200==0",
+          "concept": "brt1201",
+          "number": "36",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 35,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1202": {
+      "question": "brt1202",
+      "name": "brt1202",
+      "label": "How many pumps were made in this round? round 12",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 12",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 12",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 12",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1200==0",
+          "concept": "brt1202",
+          "number": "37",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 36,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1300": {
+      "question": "brt1300",
+      "name": "brt1300",
+      "label": "Was the game stopped in this round? round 13",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 13",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 13",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 13",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1200==0",
+          "concept": "brt1300",
+          "number": "38",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 37,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1301": {
+      "question": "brt1301",
+      "name": "brt1301",
+      "label": "Did the balloon burst in this round? round 13",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 13",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 13",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 13",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1300==0",
+          "concept": "brt1301",
+          "number": "39",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 38,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1302": {
+      "question": "brt1302",
+      "name": "brt1302",
+      "label": "How many pumps were made in this round? round 13",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 13",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 13",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 13",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1300==0",
+          "concept": "brt1302",
+          "number": "40",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 39,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1400": {
+      "question": "brt1400",
+      "name": "brt1400",
+      "label": "Was the game stopped in this round? round 14",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 14",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 14",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 14",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1300==0",
+          "concept": "brt1400",
+          "number": "41",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 40,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1401": {
+      "question": "brt1401",
+      "name": "brt1401",
+      "label": "Did the balloon burst in this round? round 14",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 14",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 14",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 14",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1400==0",
+          "concept": "brt1401",
+          "number": "42",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 41,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1402": {
+      "question": "brt1402",
+      "name": "brt1402",
+      "label": "How many pumps were made in this round? round 14",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 14",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 14",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 14",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1400==0",
+          "concept": "brt1402",
+          "number": "43",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 42,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1500": {
+      "question": "brt1500",
+      "name": "brt1500",
+      "label": "Was the game stopped in this round? round 15",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 15",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 15",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 15",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1400==0",
+          "concept": "brt1500",
+          "number": "44",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 43,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1501": {
+      "question": "brt1501",
+      "name": "brt1501",
+      "label": "Did the balloon burst in this round? round 15",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 15",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 15",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 15",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1500==0",
+          "concept": "brt1501",
+          "number": "45",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 44,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1502": {
+      "question": "brt1502",
+      "name": "brt1502",
+      "label": "How many pumps were made in this round? round 15",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 15",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 15",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 15",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1500==0",
+          "concept": "brt1502",
+          "number": "46",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 45,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1600": {
+      "question": "brt1600",
+      "name": "brt1600",
+      "label": "Was the game stopped in this round? round 16",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 16",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 16",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 16",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1500==0",
+          "concept": "brt1600",
+          "number": "47",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 46,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1601": {
+      "question": "brt1601",
+      "name": "brt1601",
+      "label": "Did the balloon burst in this round? round 16",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 16",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 16",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 16",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1600==0",
+          "concept": "brt1601",
+          "number": "48",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 47,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1602": {
+      "question": "brt1602",
+      "name": "brt1602",
+      "label": "How many pumps were made in this round? round 16",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 16",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 16",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 16",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1600==0",
+          "concept": "brt1602",
+          "number": "49",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 48,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1700": {
+      "question": "brt1700",
+      "name": "brt1700",
+      "label": "Was the game stopped in this round? round 17",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 17",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 17",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 17",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1600==0",
+          "concept": "brt1700",
+          "number": "50",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 49,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1701": {
+      "question": "brt1701",
+      "name": "brt1701",
+      "label": "Did the balloon burst in this round? round 17",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 17",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 17",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 17",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1700==0",
+          "concept": "brt1701",
+          "number": "51",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 50,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1702": {
+      "question": "brt1702",
+      "name": "brt1702",
+      "label": "How many pumps were made in this round? round 17",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 17",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 17",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 17",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1700==0",
+          "concept": "brt1702",
+          "number": "52",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 51,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1800": {
+      "question": "brt1800",
+      "name": "brt1800",
+      "label": "Was the game stopped in this round? round 18",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 18",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 18",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 18",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1700==0",
+          "concept": "brt1800",
+          "number": "53",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 52,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1801": {
+      "question": "brt1801",
+      "name": "brt1801",
+      "label": "Did the balloon burst in this round? round 18",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 18",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 18",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 18",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1800==0",
+          "concept": "brt1801",
+          "number": "54",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 53,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1802": {
+      "question": "brt1802",
+      "name": "brt1802",
+      "label": "How many pumps were made in this round? round 18",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 18",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 18",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 18",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1800==0",
+          "concept": "brt1802",
+          "number": "55",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 54,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1900": {
+      "question": "brt1900",
+      "name": "brt1900",
+      "label": "Was the game stopped in this round? round 19",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 19",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 19",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 19",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1800==0",
+          "concept": "brt1900",
+          "number": "56",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 55,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1901": {
+      "question": "brt1901",
+      "name": "brt1901",
+      "label": "Did the balloon burst in this round? round 19",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 19",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 19",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 19",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1900==0",
+          "concept": "brt1901",
+          "number": "57",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 56,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt1902": {
+      "question": "brt1902",
+      "name": "brt1902",
+      "label": "How many pumps were made in this round? round 19",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 19",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 19",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 19",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1900==0",
+          "concept": "brt1902",
+          "number": "58",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 57,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2000": {
+      "question": "brt2000",
+      "name": "brt2000",
+      "label": "Was the game stopped in this round? round 20",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 20",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 20",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 20",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt1900==0",
+          "concept": "brt2000",
+          "number": "59",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 58,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2001": {
+      "question": "brt2001",
+      "name": "brt2001",
+      "label": "Did the balloon burst in this round? round 20",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 20",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 20",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 20",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2000==0",
+          "concept": "brt2001",
+          "number": "60",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 59,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2002": {
+      "question": "brt2002",
+      "name": "brt2002",
+      "label": "How many pumps were made in this round? round 20",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 20",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 20",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 20",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2000==0",
+          "concept": "brt2002",
+          "number": "61",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 60,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2100": {
+      "question": "brt2100",
+      "name": "brt2100",
+      "label": "Was the game stopped in this round? round 21",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 21",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 21",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 21",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2000==0",
+          "concept": "brt2100",
+          "number": "62",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 61,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2101": {
+      "question": "brt2101",
+      "name": "brt2101",
+      "label": "Did the balloon burst in this round? round 21",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 21",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 21",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 21",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2100==0",
+          "concept": "brt2101",
+          "number": "63",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 62,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2102": {
+      "question": "brt2102",
+      "name": "brt2102",
+      "label": "How many pumps were made in this round? round 21",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 21",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 21",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 21",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2100==0",
+          "concept": "brt2102",
+          "number": "64",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 63,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2200": {
+      "question": "brt2200",
+      "name": "brt2200",
+      "label": "Was the game stopped in this round? round 22",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 22",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 22",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 22",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2100==0",
+          "concept": "brt2200",
+          "number": "65",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 64,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2201": {
+      "question": "brt2201",
+      "name": "brt2201",
+      "label": "Did the balloon burst in this round? round 22",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 22",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 22",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 22",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2200==0",
+          "concept": "brt2201",
+          "number": "66",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 65,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2202": {
+      "question": "brt2202",
+      "name": "brt2202",
+      "label": "How many pumps were made in this round? round 22",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 22",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 22",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 22",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2200==0",
+          "concept": "brt2202",
+          "number": "67",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 66,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2300": {
+      "question": "brt2300",
+      "name": "brt2300",
+      "label": "Was the game stopped in this round? round 23",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 23",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 23",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 23",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2200==0",
+          "concept": "brt2300",
+          "number": "68",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 67,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2301": {
+      "question": "brt2301",
+      "name": "brt2301",
+      "label": "balloon game: broke in round 23",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 23",
+      "items": [
+        {
+          "item": "1",
+          "text": "balloon game: broke in round 23",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 23",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2300==0",
+          "concept": "brt2301",
+          "number": "69",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 68,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2302": {
+      "question": "brt2302",
+      "name": "brt2302",
+      "label": "How many pumps were made in this round? round 23",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 23",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 23",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 23",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2300==0",
+          "concept": "brt2302",
+          "number": "70",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 69,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2400": {
+      "question": "brt2400",
+      "name": "brt2400",
+      "label": "Was the game stopped in this round? round 24",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 24",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 24",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 24",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2300==0",
+          "concept": "brt2400",
+          "number": "71",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 70,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2401": {
+      "question": "brt2401",
+      "name": "brt2401",
+      "label": "Did the balloon burst in this round? round 24",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 24",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 24",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 24",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2400==0",
+          "concept": "brt2401",
+          "number": "72",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 71,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2402": {
+      "question": "brt2402",
+      "name": "brt2402",
+      "label": "How many pumps were made in this round? round 24",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 24",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 24",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 24",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2400==0",
+          "concept": "brt2402",
+          "number": "73",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 72,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2500": {
+      "question": "brt2500",
+      "name": "brt2500",
+      "label": "Was the game stopped in this round? round 25",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 25",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 25",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 25",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2400==0",
+          "concept": "brt2500",
+          "number": "74",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 73,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2501": {
+      "question": "brt2501",
+      "name": "brt2501",
+      "label": "Did the balloon burst in this round? round 25",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 25",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 25",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 25",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2500==0",
+          "concept": "brt2501",
+          "number": "75",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 74,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2502": {
+      "question": "brt2502",
+      "name": "brt2502",
+      "label": "How many pumps were made in this round? round 25",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 25",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 25",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 25",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2500==0",
+          "concept": "brt2502",
+          "number": "76",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 75,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2600": {
+      "question": "brt2600",
+      "name": "brt2600",
+      "label": "Was the game stopped in this round? round 26",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 26",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 26",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 26",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2500==0",
+          "concept": "brt2600",
+          "number": "77",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 76,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2601": {
+      "question": "brt2601",
+      "name": "brt2601",
+      "label": "Did the balloon burst in this round? round 26",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 26",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 26",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 26",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2600==0",
+          "concept": "brt2601",
+          "number": "78",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 77,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2602": {
+      "question": "brt2602",
+      "name": "brt2602",
+      "label": "How many pumps were made in this round? round 26",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 26",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 26",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 26",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2600==0",
+          "concept": "brt2602",
+          "number": "79",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 78,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2700": {
+      "question": "brt2700",
+      "name": "brt2700",
+      "label": "Was the game stopped in this round? round 27",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 27",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 27",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 27",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2600==0",
+          "concept": "brt2700",
+          "number": "80",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 79,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2701": {
+      "question": "brt2701",
+      "name": "brt2701",
+      "label": "Did the balloon burst in this round? round 27",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 27",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 27",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 27",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2700==0",
+          "concept": "brt2701",
+          "number": "81",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 80,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2702": {
+      "question": "brt2702",
+      "name": "brt2702",
+      "label": "How many pumps were made in this round? round 27",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 27",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 27",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 27",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2700==0",
+          "concept": "brt2702",
+          "number": "82",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 81,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2800": {
+      "question": "brt2800",
+      "name": "brt2800",
+      "label": "Was the game stopped in this round? round 28",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 28",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 28",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 28",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2700==0",
+          "concept": "brt2800",
+          "number": "83",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 82,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2801": {
+      "question": "brt2801",
+      "name": "brt2801",
+      "label": "Did the balloon burst in this round? round 28",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 28",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 28",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 28",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2800==0",
+          "concept": "brt2801",
+          "number": "84",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 83,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2802": {
+      "question": "brt2802",
+      "name": "brt2802",
+      "label": "How many pumps were made in this round? round 28",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 28",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 28",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 28",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2800==0",
+          "concept": "brt2802",
+          "number": "85",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 84,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2900": {
+      "question": "brt2900",
+      "name": "brt2900",
+      "label": "Was the game stopped in this round? round 29",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 29",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 29",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 29",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2800==0",
+          "concept": "brt2900",
+          "number": "86",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 85,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2901": {
+      "question": "brt2901",
+      "name": "brt2901",
+      "label": "balloon game: broke in round 29",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 29",
+      "items": [
+        {
+          "item": "1",
+          "text": "balloon game: broke in round 29",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 29",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2900==0",
+          "concept": "brt2901",
+          "number": "87",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 86,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt2902": {
+      "question": "brt2902",
+      "name": "brt2902",
+      "label": "How many pumps were made in this round? round 29",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 29",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 29",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 29",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2900==0",
+          "concept": "brt2902",
+          "number": "88",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 87,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt3000": {
+      "question": "brt3000",
+      "name": "brt3000",
+      "label": "Was the game stopped in this round? round 30",
+      "label_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 30",
+      "items": [
+        {
+          "item": "1",
+          "text": "Was the game stopped in this round? round 30",
+          "text_de": "Wurde das Spiel in dieser Runde abgebrochen? Runde 30",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt2900==0",
+          "concept": "brt3000",
+          "number": "89",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 88,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt3001": {
+      "question": "brt3001",
+      "name": "brt3001",
+      "label": "Did the balloon burst in this round? round 30",
+      "label_de": "Ist der Ballon in dieser Runde geplatzt? Runde 30",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did the balloon burst in this round? round 30",
+          "text_de": "Ist der Ballon in dieser Runde geplatzt? Runde 30",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt3000==0",
+          "concept": "brt3001",
+          "number": "90",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not true",
+              "label_de": "0: nicht zutreffend"
+            },
+            {
+              "value": 1,
+              "label": "1: true",
+              "label_de": "1: zutreffend"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 89,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt3002": {
+      "question": "brt3002",
+      "name": "brt3002",
+      "label": "How many pumps were made in this round? round 30",
+      "label_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 30",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many pumps were made in this round? round 30",
+          "text_de": "Wie viele Pumpstoesse wurden in dieser Runde gemacht? Runde 30",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1 & brt3000==0",
+          "concept": "brt3002",
+          "number": "91",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 90,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt4000": {
+      "question": "brt4000",
+      "name": "brt4000",
+      "label": "balloon game: number of total pumps",
+      "label_de": "Ballonspiel: Pumpstoesse Gesamt",
+      "items": [
+        {
+          "item": "1",
+          "text": "balloon game: number of total pumps",
+          "text_de": "Ballonspiel: Pumpstoesse Gesamt",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1",
+          "concept": "brt4000",
+          "number": "92",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 91,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    },
+    "brt4001": {
+      "question": "brt4001",
+      "name": "brt4001",
+      "label": "balloon game: rounds total",
+      "label_de": "Ballonspiel: Runden insgesamt",
+      "items": [
+        {
+          "item": "1",
+          "text": "balloon game: rounds total",
+          "text_de": "Ballonspiel: Runden insgesamt",
+          "description": "Source: Experiment programmed for TwinLife, adapted from: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "description_de": "Source: Experiment programmiert fuer TwinLife, adaptiert von: Lejuez, C. W., Read, J. P., Kahler, C. W., Richards, J. B., Ramsey, S. E., Stuart, G. L., ... & Brown, R. A. (2002). Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART). Journal of Experimental Psychology: Applied, 8(2), 75",
+          "filter": "age0110>=8 & brt0001==1",
+          "concept": "brt4001",
+          "number": "93",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 92,
+      "instrument": "wid5_F2F3_module16",
+      "study": "twinlife"
+    }
+  }
+}

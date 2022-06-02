@@ -15,25 +15,25 @@
       "items": [
         {
           "item": "0",
-          "number": "1",
-          "concept": "cul0100",
           "text": "[IF age> = 16] How much time do you spend, on average, reading in your free time each day? Please consider all possible occasions when you read, not only books or magazines, but also e-mails or material on the Internet.",
           "text_de": "[IF age > = 16 ] Wie viel Zeit verbringen Sie im Durchschnitt taeglich damit, in Ihrer Freizeit zu lesen? Denken Sie dabei bitte an alle moeglichen Gelegenheiten, bei denen Sie lesen, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "cul0100",
+          "scale": "txt",
+          "number": "1",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "2",
-          "concept": "cul0100",
           "text": "hours",
           "text_de": "Stunden",
-          "scale": "dec",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
+          "concept": "cul0100",
+          "scale": "dec",
+          "number": "2",
           "answers": [
             {
               "value": -86,
@@ -50,13 +50,13 @@
         },
         {
           "item": "2",
-          "number": "3",
-          "concept": "cul0100",
           "text": "minutes",
           "text_de": "Minuten",
-          "scale": "dec",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
+          "concept": "cul0100",
+          "scale": "dec",
+          "number": "3",
           "answers": [
             {
               "value": -86,
@@ -84,14 +84,14 @@
       "items": [
         {
           "item": "1",
-          "number": "4",
-          "concept": "mus0101",
           "text": "[IF age> = 16] Have you ever actively played music? (By this we mean playing a musical instrument or singing).",
           "text_de": "[IF age >= 16] Haben Sie jemals aktiv Musik ausgeuebt? (Gemeint ist: Gesang oder Spielen eines Musikinstrumentes)",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0100==2)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0100==2)",
+          "concept": "mus0101",
+          "scale": "cat",
+          "number": "4",
           "answers": [
             {
               "value": -85,
@@ -124,14 +124,14 @@
       "items": [
         {
           "item": "1",
-          "number": "5",
-          "concept": "mus0201",
           "text": "[IF age> = 16] For how many hours a week did you play music back then? Think of a typical week.",
           "text_de": "[IF age >= 16] Wie viele Stunden in der Woche haben Sie frueher Musik gemacht? Denken Sie dabei an eine typische Woche.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0101==1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0101==1)",
+          "concept": "mus0201",
+          "scale": "cat",
+          "number": "5",
           "answers": [
             {
               "value": -85,
@@ -184,25 +184,25 @@
       "items": [
         {
           "item": "0",
-          "number": "6",
-          "concept": "mus0301",
           "text": "[IF age> = 16] At what age did you learn a musical instrument or how to sing?",
           "text_de": "[IF age >= 16] In welchem Alter haben Sie ein Musikinstrument oder Gesang gelernt?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0101==1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0101==1)",
+          "concept": "mus0301",
+          "scale": "txt",
+          "number": "6",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "7",
-          "concept": "mus0301",
           "text": "Age beginning",
           "text_de": "Alter Beginn",
-          "scale": "dec",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "mus0301",
+          "scale": "dec",
+          "number": "7",
           "answers": [
             {
               "value": -86,
@@ -219,13 +219,13 @@
         },
         {
           "item": "2",
-          "number": "8",
-          "concept": "mus0301",
           "text": "Age end",
           "text_de": "Alter Ende",
-          "scale": "dec",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "mus0301",
+          "scale": "dec",
+          "number": "8",
           "answers": [
             {
               "value": -86,
@@ -253,25 +253,25 @@
       "items": [
         {
           "item": "0",
-          "number": "9",
-          "concept": "sop0100",
           "text": "[IF age> = 16] Below you can see a number of groups in which it is possible to take part. Please indicate the extent to which you are active in the respective groups.",
           "text_de": "[IF age >= 16] Im Folgenden sehen Sie eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass Sie in den jeweiligen Gruppen aktiv sind.",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "sop0100",
+          "scale": "txt",
+          "number": "9",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "10",
-          "concept": "sop0100",
           "text": "Sports club",
           "text_de": "Sportverein",
-          "scale": "cat",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "concept": "sop0100",
+          "scale": "cat",
+          "number": "10",
           "answers": [
             {
               "value": -85,
@@ -303,13 +303,13 @@
         },
         {
           "item": "2",
-          "number": "11",
-          "concept": "sop0100",
           "text": "Choral society/music club/ theater group, etc.",
           "text_de": "Gesangs-/Musikverein/Theatergruppe o.ae.",
-          "scale": "cat",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "concept": "sop0100",
+          "scale": "cat",
+          "number": "11",
           "answers": [
             {
               "value": -85,
@@ -341,13 +341,13 @@
         },
         {
           "item": "3",
-          "number": "12",
-          "concept": "sop0100",
           "text": "Church group/religious group",
           "text_de": "Kirchliche/religioese Gruppe",
-          "scale": "cat",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "concept": "sop0100",
+          "scale": "cat",
+          "number": "12",
           "answers": [
             {
               "value": -85,
@@ -379,13 +379,13 @@
         },
         {
           "item": "4",
-          "number": "13",
-          "concept": "sop0100",
           "text": "Trade union/professional association/student council",
           "text_de": "Gewerkschaft/Berufsverband/Schuelervertretung",
-          "scale": "cat",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "concept": "sop0100",
+          "scale": "cat",
+          "number": "13",
           "answers": [
             {
               "value": -85,
@@ -417,13 +417,13 @@
         },
         {
           "item": "5",
-          "number": "14",
-          "concept": "sop0100",
           "text": "Voluntary fire brigade/technical relief agency/lifeguard association, or similar",
           "text_de": "Freiwillige Feuerwehr/Technisches Hilfswerk/DLRG, o.ae.",
-          "scale": "cat",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "concept": "sop0100",
+          "scale": "cat",
+          "number": "14",
           "answers": [
             {
               "value": -85,
@@ -455,13 +455,13 @@
         },
         {
           "item": "6",
-          "number": "15",
-          "concept": "sop0100",
           "text": "Heritage association/citizens' association/rifle association",
           "text_de": "Heimat-/Buerger-/Schuetzenverein",
-          "scale": "cat",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "concept": "sop0100",
+          "scale": "cat",
+          "number": "15",
           "answers": [
             {
               "value": -85,
@@ -493,13 +493,13 @@
         },
         {
           "item": "7",
-          "number": "16",
-          "concept": "sop0100",
           "text": "Political organization/political party/citizens' initiative",
           "text_de": "Politische Organisation/Partei/Buergerinitiative",
-          "scale": "cat",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "concept": "sop0100",
+          "scale": "cat",
+          "number": "16",
           "answers": [
             {
               "value": -85,
@@ -531,13 +531,13 @@
         },
         {
           "item": "8",
-          "number": "17",
-          "concept": "sop0100",
           "text": "Other club/association",
           "text_de": "Anderer Verein/Verband",
-          "scale": "cat",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "concept": "sop0100",
+          "scale": "cat",
+          "number": "17",
           "answers": [
             {
               "value": -85,
@@ -580,14 +580,14 @@
       "items": [
         {
           "item": "1",
-          "number": "18",
-          "concept": "sop0200",
           "text": "Do you have a (volunteer) position in one of these associations or groups?",
           "text_de": "[IF age >= 16] Falls Sie in einer der oben genannten Gruppen aktiv sind: Haben Sie in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder sind Sie regelmaessig fuer besondere Aufgaben verantwortlich?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(sop0100,1,3) | inrange(sop0101,1,3) | inrange(sop0102,1,3) | inrange(sop0103,1,3) | inrange(sop0104,1,3) | inrange(sop0105,1,3) | inrange(sop0106,1,3) | inrange(sop0150,1,3)) & (age0110 >=16)",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(sop0100,1,3) | inrange(sop0101,1,3) | inrange(sop0102,1,3) | inrange(sop0103,1,3) | inrange(sop0104,1,3) | inrange(sop0105,1,3) | inrange(sop0106,1,3) | inrange(sop0150,1,3)) & (age0110 >=16)",
+          "concept": "sop0200",
+          "scale": "cat",
+          "number": "18",
           "answers": [
             {
               "value": -89,
@@ -630,25 +630,25 @@
       "items": [
         {
           "item": "0",
-          "number": "19",
-          "concept": "ses0100",
           "text": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
           "text_de": "[IF age >=16] Im Folgenden werden Ihnen eine Reihe von Aussagen praesentiert. Wie sehr stimmen Sie folgenden Aussagen zu?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
           "description_de": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "ses0100",
+          "scale": "txt",
+          "number": "19",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "20",
-          "concept": "ses0100",
           "text": "At times I think I am no good at all.",
           "text_de": "Manchmal denke ich, dass ich wertlos bin.",
-          "scale": "cat",
           "description": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
           "description_de": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
+          "concept": "ses0100",
+          "scale": "cat",
+          "number": "20",
           "answers": [
             {
               "value": -85,
@@ -685,13 +685,13 @@
         },
         {
           "item": "2",
-          "number": "21",
-          "concept": "ses0100",
           "text": "I take a positive attitude toward myself.",
           "text_de": "Ich mag mich so, wie ich bin.",
-          "scale": "cat",
           "description": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
           "description_de": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
+          "concept": "ses0100",
+          "scale": "cat",
+          "number": "21",
           "answers": [
             {
               "value": -85,
@@ -728,13 +728,13 @@
         },
         {
           "item": "3",
-          "number": "22",
-          "concept": "ses0100",
           "text": "On the whole, I am satisfied with myself.",
           "text_de": "Alles in allem bin ich mit mir selbst zufrieden.",
-          "scale": "cat",
           "description": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
           "description_de": "Source: Thoennissen, C., Wilhelm B., Friedrich, S., Alt, P., & Walper S. (2014). Scales Manual of the German Family Panel. Wave 1 to 6",
+          "concept": "ses0100",
+          "scale": "cat",
+          "number": "22",
           "answers": [
             {
               "value": -85,
@@ -782,25 +782,25 @@
       "items": [
         {
           "item": "0",
-          "number": "23",
-          "concept": "sef0100",
           "text": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
           "text_de": "[IF age >=16]: Wie sehr stimmen Sie folgenden Aussagen zu?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
           "description_de": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "sef0100",
+          "scale": "txt",
+          "number": "23",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "24",
-          "concept": "sef0100",
           "text": "I can rely on my own abilities in difficult situations.",
           "text_de": "In schwierigen Situationen kann ich mich auf meine Faehigkeiten verlassen.",
-          "scale": "cat",
           "description": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
           "description_de": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
+          "concept": "sef0100",
+          "scale": "cat",
+          "number": "24",
           "answers": [
             {
               "value": -85,
@@ -837,13 +837,13 @@
         },
         {
           "item": "2",
-          "number": "25",
-          "concept": "sef0100",
           "text": "I am able to solve most problems on my own.",
           "text_de": "Die meisten Probleme kann ich aus eigener Kraft gut meistern.",
-          "scale": "cat",
           "description": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
           "description_de": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
+          "concept": "sef0100",
+          "scale": "cat",
+          "number": "25",
           "answers": [
             {
               "value": -85,
@@ -880,13 +880,13 @@
         },
         {
           "item": "3",
-          "number": "26",
-          "concept": "sef0100",
           "text": "I can usually solve even challenging and complex tasks well.",
           "text_de": "Auch anstrengende und komplizierte Aufgaben kann ich in der Regel gut loesen.",
-          "scale": "cat",
           "description": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
           "description_de": "Source: Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen. Allgemeine Selbstwirksamkeit Kurzskala (ASKU). GESIS Working Paper. Koeln: GESIS",
+          "concept": "sef0100",
+          "scale": "cat",
+          "number": "26",
           "answers": [
             {
               "value": -85,
@@ -934,25 +934,25 @@
       "items": [
         {
           "item": "0",
-          "number": "27",
-          "concept": "loc0200",
           "text": "[IF age> = 16]: To what extent do you agree with the following statements?",
           "text_de": "[IF age > = 16 ]: Wie sehr stimmen Sie folgenden Aussagen zu?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "loc0200",
+          "scale": "txt",
+          "number": "27",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "28",
-          "concept": "loc0200",
           "text": "How my life goes depends on me.",
           "text_de": "Wie mein Leben verlaeuft, haengt von mir selbst ab.",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
+          "concept": "loc0200",
+          "scale": "cat",
+          "number": "28",
           "answers": [
             {
               "value": -85,
@@ -989,13 +989,13 @@
         },
         {
           "item": "2",
-          "number": "29",
-          "concept": "loc0200",
           "text": "I frequently have the experience that other people have a controlling influence over my life.",
           "text_de": "Ich mache haeufig die Erfahrung, dass andere ueber mein Leben bestimmen.",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
+          "concept": "loc0200",
+          "scale": "cat",
+          "number": "29",
           "answers": [
             {
               "value": -85,
@@ -1032,13 +1032,13 @@
         },
         {
           "item": "3",
-          "number": "30",
-          "concept": "loc0200",
           "text": "One has to work hard in order to succeed.",
           "text_de": "Erfolg muss man sich hart erarbeiten.",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
+          "concept": "loc0200",
+          "scale": "cat",
+          "number": "30",
           "answers": [
             {
               "value": -85,
@@ -1075,13 +1075,13 @@
         },
         {
           "item": "4",
-          "number": "31",
-          "concept": "loc0200",
           "text": "The opportunities that I have in life are determined by the social conditions.",
           "text_de": "Welche Moeglichkeiten ich im Leben habe, wird von den sozialen Umstaenden bestimmt.",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
+          "concept": "loc0200",
+          "scale": "cat",
+          "number": "31",
           "answers": [
             {
               "value": -85,
@@ -1129,14 +1129,14 @@
       "items": [
         {
           "item": "1",
-          "number": "32",
-          "concept": "net0600",
           "text": "[IF age> = 16] To what extent do you agree with the following statement? I often feel lonely.",
           "text_de": "[IF age > = 16] Wie sehr stimmen Sie der folgenden Aussage zu? Ich fuehle mich oft einsam.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2008",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2008",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "net0600",
+          "scale": "cat",
+          "number": "32",
           "answers": [
             {
               "value": -85,
@@ -1179,25 +1179,25 @@
       "items": [
         {
           "item": "0",
-          "number": "33",
-          "concept": "med0100",
           "text": "[IF age> = 16] How long do you spend, on average, per day on the following devices or activities? Please state as accurately as possible how much time you spend on the respective activity outside of working or school time.",
           "text_de": "[IF age >= 16] Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "med0100",
+          "scale": "txt",
+          "number": "33",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "34",
-          "concept": "med0100",
           "text": "Computer/laptop/tablet/smartphone - hours per day on school and work days",
           "text_de": "Computer/ Laptop/Tablet/Smartphone - Stunden pro Tag Schul- und Arbeitstagen",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "34",
           "answers": [
             {
               "value": -96,
@@ -1224,13 +1224,13 @@
         },
         {
           "item": "2",
-          "number": "35",
-          "concept": "med0100",
           "text": "Computer/laptop/tablet/smartphone - hours per day on weekends",
           "text_de": "Computer/ Laptop/Tablet/Smartphone - Stunden pro Tag am Wochenende",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "35",
           "answers": [
             {
               "value": -96,
@@ -1257,13 +1257,13 @@
         },
         {
           "item": "3",
-          "number": "36",
-          "concept": "med0100",
           "text": "of which on the Internet/online - hours per day on school and work days",
           "text_de": "davon im Internet/online - Stunden pro Tag Schul- und Arbeitstagen",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "36",
           "answers": [
             {
               "value": -96,
@@ -1290,13 +1290,13 @@
         },
         {
           "item": "4",
-          "number": "37",
-          "concept": "med0100",
           "text": "of which on the Internet / online - hours a day on weekends",
           "text_de": "davon im Internet/online - Stunden pro Tag am Wochenende",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "37",
           "answers": [
             {
               "value": -96,
@@ -1323,13 +1323,13 @@
         },
         {
           "item": "5",
-          "number": "38",
-          "concept": "med0100",
           "text": "of which: computer games (also online) - hours per day on school and work days",
           "text_de": "davon: Computerspiele (auch online) - Stunden pro Tag Schul- und Arbeitstagen",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "38",
           "answers": [
             {
               "value": -96,
@@ -1356,13 +1356,13 @@
         },
         {
           "item": "6",
-          "number": "39",
-          "concept": "med0100",
           "text": "of which: computer games (also online) - hours a day on weekends",
           "text_de": "davon: Computerspiele (auch online) - Stunden pro Tag am Wochenende",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "39",
           "answers": [
             {
               "value": -96,
@@ -1389,13 +1389,13 @@
         },
         {
           "item": "7",
-          "number": "40",
-          "concept": "med0100",
           "text": "Game consoles (e.g. Nintendo, PlayStation, Xbox) - hours per day on school and work days",
           "text_de": "Spielekonsolen (z. B. Nintendo, Play Station, Xbox) - Stunden pro Tag Schul- und Arbeitstagen",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "40",
           "answers": [
             {
               "value": -96,
@@ -1422,13 +1422,13 @@
         },
         {
           "item": "8",
-          "number": "41",
-          "concept": "med0100",
           "text": "Game consoles (e.g. Nintendo, Play Station, Xbox) - hours a day on weekends",
           "text_de": "Spielekonsolen (z. B. Nintendo, Play Station, Xbox) - Stunden pro Tag am Wochenende",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "41",
           "answers": [
             {
               "value": -96,
@@ -1455,13 +1455,13 @@
         },
         {
           "item": "9",
-          "number": "42",
-          "concept": "med0100",
           "text": "Television, videos, DVDs - hours per day on school and work days",
           "text_de": "Fernsehen, Videos, DVDs - Stunden pro Tag Schul- und Arbeitstagen",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "42",
           "answers": [
             {
               "value": -96,
@@ -1488,13 +1488,13 @@
         },
         {
           "item": "10",
-          "number": "43",
-          "concept": "med0100",
           "text": "Television, videos, DVDs - hours a day on weekends",
           "text_de": "Fernsehen, Videos, DVDs - Stunden pro Tag am Wochenende",
-          "scale": "int",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
+          "concept": "med0100",
+          "scale": "int",
+          "number": "43",
           "answers": [
             {
               "value": -96,
@@ -1532,25 +1532,25 @@
       "items": [
         {
           "item": "0",
-          "number": "44",
-          "concept": "cul0201",
           "text": "[IF age> = 16] Does your home have . . .?",
           "text_de": "[IF age > = 16 ] Gibt es bei Ihnen zu Hause. . . ?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "cul0201",
+          "scale": "txt",
+          "number": "44",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "45",
-          "concept": "cul0201",
           "text": "classical literature, e.g. Goethe",
           "text_de": "klassische Literatur, z.B. von Goethe",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0201",
+          "scale": "cat",
+          "number": "45",
           "answers": [
             {
               "value": -89,
@@ -1582,13 +1582,13 @@
         },
         {
           "item": "2",
-          "number": "46",
-          "concept": "cul0201",
           "text": "a dictionary",
           "text_de": "ein Woerterbuch",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0201",
+          "scale": "cat",
+          "number": "46",
           "answers": [
             {
               "value": -89,
@@ -1620,13 +1620,13 @@
         },
         {
           "item": "3",
-          "number": "47",
-          "concept": "cul0201",
           "text": "Books of poems",
           "text_de": "Buecher mit Gedichten",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0201",
+          "scale": "cat",
+          "number": "47",
           "answers": [
             {
               "value": -89,
@@ -1658,13 +1658,13 @@
         },
         {
           "item": "4",
-          "number": "48",
-          "concept": "cul0201",
           "text": "a library card",
           "text_de": "einen Bibliotheksausweis",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0201",
+          "scale": "cat",
+          "number": "48",
           "answers": [
             {
               "value": -89,
@@ -1696,13 +1696,13 @@
         },
         {
           "item": "5",
-          "number": "49",
-          "concept": "cul0201",
           "text": "Works of art, e.g. paintings",
           "text_de": "Kunstwerke, z.B. Gemaelde",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0201",
+          "scale": "cat",
+          "number": "49",
           "answers": [
             {
               "value": -89,
@@ -1745,25 +1745,25 @@
       "items": [
         {
           "item": "0",
-          "number": "50",
-          "concept": "gls0100",
           "text": "Below we would like to know how satisfied you are with your life in general. You can agree or disagree with the following statements. Please answer on a scale of 1 to 5, where 1 is strongly disagree and 5 means strongly agree.",
           "text_de": "[IF age >=16] Im Folgenden wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen bzw. die Sie ablehnen koennen. Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: Starke Ablehnung. Der Wert 5 bedeutet: Starke Zustimmung. Mit den Werten dazwischen koennen Sie Ihre Meinung abstufen.",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "gls0100",
+          "scale": "txt",
+          "number": "50",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "51",
-          "concept": "gls0100",
           "text": "In most ways my life is close to my ideal.",
           "text_de": "In den meisten Punkten ist mein Leben meinem Ideal nahe.",
-          "scale": "cat",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "51",
           "answers": [
             {
               "value": -85,
@@ -1772,41 +1772,41 @@
             },
             {
               "value": 1,
-              "label": "1: disagree strongly",
-              "label_de": "1: lehne stark ab"
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
             },
             {
               "value": 2,
-              "label": "2: disagree",
-              "label_de": "2: lehne ab"
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
             },
             {
               "value": 3,
-              "label": "3: neither denial nor approval",
+              "label": "3: neither rejection nor agreement",
               "label_de": "3: weder Ablehnung noch Zustimmung"
             },
             {
               "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
             },
             {
               "value": 5,
-              "label": "5: agree strongly",
-              "label_de": "5: stimme stark zu"
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
             }
           ],
           "sn": 1
         },
         {
           "item": "2",
-          "number": "52",
-          "concept": "gls0100",
           "text": "The conditions of my life are excellent.",
           "text_de": "Meine Lebensbedingungen sind hervorragend.",
-          "scale": "cat",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "52",
           "answers": [
             {
               "value": -85,
@@ -1815,41 +1815,41 @@
             },
             {
               "value": 1,
-              "label": "1: disagree strongly",
-              "label_de": "1: lehne stark ab"
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
             },
             {
               "value": 2,
-              "label": "2: disagree",
-              "label_de": "2: lehne ab"
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
             },
             {
               "value": 3,
-              "label": "3: neither denial nor approval",
+              "label": "3: neither rejection nor agreement",
               "label_de": "3: weder Ablehnung noch Zustimmung"
             },
             {
               "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
             },
             {
               "value": 5,
-              "label": "5: agree strongly",
-              "label_de": "5: stimme stark zu"
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
             }
           ],
           "sn": 2
         },
         {
           "item": "3",
-          "number": "53",
-          "concept": "gls0100",
           "text": "I am satisfied with my life.",
           "text_de": "Ich bin zufrieden mit meinem Leben.",
-          "scale": "cat",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "53",
           "answers": [
             {
               "value": -85,
@@ -1858,41 +1858,41 @@
             },
             {
               "value": 1,
-              "label": "1: disagree strongly",
-              "label_de": "1: lehne stark ab"
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
             },
             {
               "value": 2,
-              "label": "2: disagree",
-              "label_de": "2: lehne ab"
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
             },
             {
               "value": 3,
-              "label": "3: neither denial nor approval",
+              "label": "3: neither rejection nor agreement",
               "label_de": "3: weder Ablehnung noch Zustimmung"
             },
             {
               "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
             },
             {
               "value": 5,
-              "label": "5: agree strongly",
-              "label_de": "5: stimme stark zu"
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
             }
           ],
           "sn": 3
         },
         {
           "item": "4",
-          "number": "54",
-          "concept": "gls0100",
           "text": "So far I have gotten the important things I want in life.",
           "text_de": "Ich habe bisher die wichtigen Dinge, die ich mir vom Leben wuensche, auch bekommen.",
-          "scale": "cat",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "54",
           "answers": [
             {
               "value": -85,
@@ -1901,41 +1901,41 @@
             },
             {
               "value": 1,
-              "label": "1: disagree strongly",
-              "label_de": "1: lehne stark ab"
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
             },
             {
               "value": 2,
-              "label": "2: disagree",
-              "label_de": "2: lehne ab"
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
             },
             {
               "value": 3,
-              "label": "3: neither denial nor approval",
+              "label": "3: neither rejection nor agreement",
               "label_de": "3: weder Ablehnung noch Zustimmung"
             },
             {
               "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
             },
             {
               "value": 5,
-              "label": "5: agree strongly",
-              "label_de": "5: stimme stark zu"
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
             }
           ],
           "sn": 4
         },
         {
           "item": "5",
-          "number": "55",
-          "concept": "gls0100",
           "text": "If I could live my life over, I would change almost nothing.",
           "text_de": "Wenn ich mein Leben noch einmal leben koennte, wuerde ich fast nichts aendern.",
-          "scale": "cat",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "55",
           "answers": [
             {
               "value": -85,
@@ -1944,28 +1944,28 @@
             },
             {
               "value": 1,
-              "label": "1: disagree strongly",
-              "label_de": "1: lehne stark ab"
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
             },
             {
               "value": 2,
-              "label": "2: disagree",
-              "label_de": "2: lehne ab"
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
             },
             {
               "value": 3,
-              "label": "3: neither denial nor approval",
+              "label": "3: neither rejection nor agreement",
               "label_de": "3: weder Ablehnung noch Zustimmung"
             },
             {
               "value": 4,
-              "label": "4: agree",
-              "label_de": "4: stimme zu"
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
             },
             {
               "value": 5,
-              "label": "5: agree strongly",
-              "label_de": "5: stimme stark zu"
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
             }
           ],
           "sn": 5
@@ -1983,25 +1983,25 @@
       "items": [
         {
           "item": "0",
-          "number": "56",
-          "concept": "sat0100",
           "text": "We are interested in hearing how satisfied you are with the following areas of your life. How satisfied are you. . .",
           "text_de": "[IF age >=16] Wir interessieren uns auch dafuer, wie zufrieden Sie mit verschiedenen Bereichen Ihres Lebens sind. Wie zufrieden sind Sie. . . [IF age >=10 AND <= 15] Wir interessieren uns auch dafuer, wie zufrieden Du mit verschiedenen Bereichen Deines Lebens bist. Wie zufrieden bist du. . .",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "sat0100",
+          "scale": "txt",
+          "number": "56",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "57",
-          "concept": "sat0100",
           "text": ". . . your health?",
           "text_de": ". . .[IF age >=16] mit Ihrer Gesundheit? [IF age >=10 AND <= 15] mit Deiner Gesundheit?",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "sat0100",
+          "scale": "cat",
+          "number": "57",
           "answers": [
             {
               "value": -85,
@@ -2073,13 +2073,13 @@
         },
         {
           "item": "2",
-          "number": "58",
-          "concept": "sat0100",
           "text": "[IF age >=16] (if employed) . . . with your job?",
           "text_de": ". . .[IF age >=16] falls Sie erwerbstaetig sind: . . .mit Ihrer Arbeit?",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "sat0100",
+          "scale": "cat",
+          "number": "58",
           "answers": [
             {
               "value": -85,
@@ -2151,13 +2151,13 @@
         },
         {
           "item": "3",
-          "number": "59",
-          "concept": "sat0100",
           "text": "[IF age >=16]. . . in case you are still going to school: with school? [IF age >=10 AND <= 15] with school?",
           "text_de": ". . .[IF age >=16] falls Sie noch zur Schule gehen: . . .mit der Schule? [IF age >=10 AND <= 15] mit der Schule?",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "sat0100",
+          "scale": "cat",
+          "number": "59",
           "answers": [
             {
               "value": -85,
@@ -2229,13 +2229,13 @@
         },
         {
           "item": "4",
-          "number": "60",
-          "concept": "sat0100",
           "text": "[IF age >=16] . . . your personal income?",
           "text_de": ". . .[IF age >=16] mit Ihrem persoenlichen Einkommen?",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "sat0100",
+          "scale": "cat",
+          "number": "60",
           "answers": [
             {
               "value": -85,
@@ -2307,13 +2307,13 @@
         },
         {
           "item": "5",
-          "number": "61",
-          "concept": "sat0100",
           "text": ". . . your leisure time?",
           "text_de": ". . .[IF age >=16] mit Ihrer Freizeit? [IF age >=10 AND <= 15] mit Deiner Freizeit?",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "sat0100",
+          "scale": "cat",
+          "number": "61",
           "answers": [
             {
               "value": -85,
@@ -2385,13 +2385,13 @@
         },
         {
           "item": "6",
-          "number": "62",
-          "concept": "sat0100",
           "text": ". . . your family life?",
           "text_de": ". . .[IF age >=16] mit Ihrem Familienleben? [IF age >=10 AND <= 15] mit Deinem Familienleben?",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "sat0100",
+          "scale": "cat",
+          "number": "62",
           "answers": [
             {
               "value": -85,
@@ -2463,13 +2463,13 @@
         },
         {
           "item": "7",
-          "number": "63",
-          "concept": "sat0100",
           "text": "[IF age >=16] . . . with your partnership?",
           "text_de": ". . .[IF age >=16] mit Ihrer Partnerschaft?",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "sat0100",
+          "scale": "cat",
+          "number": "63",
           "answers": [
             {
               "value": -85,
@@ -2541,13 +2541,13 @@
         },
         {
           "item": "8",
-          "number": "64",
-          "concept": "sat0100",
           "text": ". . . [IF age> = 16] with your friends and acquaintances? [IF age> = 10 AND <= 15] with your friends?",
           "text_de": ". . .[IF age >=16] mit Ihrem Freundes- und Bekanntenkreis? [IF age >=10 AND <= 15] mit Deinem Freundeskreis?",
-          "scale": "cat",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "sat0100",
+          "scale": "cat",
+          "number": "64",
           "answers": [
             {
               "value": -85,
@@ -2630,25 +2630,25 @@
       "items": [
         {
           "item": "0",
-          "number": "65",
-          "concept": "lgd0101",
           "text": "Different things are important to different people. How important are the following things for you personally today?",
           "text_de": "Verschiedenen Menschen sind verschiedene Dinge wichtig. Wie wichtig sind fuer Sie persoenlich die folgenden Dinge heute?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "lgd0101",
+          "scale": "txt",
+          "number": "65",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "66",
-          "concept": "lgd0101",
           "text": "Being able to afford to buy things for myself.",
           "text_de": "Sich etwas leisten koennen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0101",
+          "scale": "cat",
+          "number": "66",
           "answers": [
             {
               "value": -85,
@@ -2680,13 +2680,13 @@
         },
         {
           "item": "2",
-          "number": "67",
-          "concept": "lgd0101",
           "text": "Being successful in my career.",
           "text_de": "Erfolg im Beruf haben",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0101",
+          "scale": "cat",
+          "number": "67",
           "answers": [
             {
               "value": -85,
@@ -2718,13 +2718,13 @@
         },
         {
           "item": "3",
-          "number": "68",
-          "concept": "lgd0101",
           "text": "Having a happy marriage / relationship.",
           "text_de": "Eine glueckliche Ehe/Partnerschaft haben",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0101",
+          "scale": "cat",
+          "number": "68",
           "answers": [
             {
               "value": -85,
@@ -2756,13 +2756,13 @@
         },
         {
           "item": "4",
-          "number": "69",
-          "concept": "lgd0101",
           "text": "Having children.",
           "text_de": "Kinder haben",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0101",
+          "scale": "cat",
+          "number": "69",
           "answers": [
             {
               "value": -85,
@@ -2794,13 +2794,13 @@
         },
         {
           "item": "5",
-          "number": "70",
-          "concept": "lgd0101",
           "text": "Seeing the world and/or traveling extensively.",
           "text_de": "Die Welt sehen, viele Reisen machen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0101",
+          "scale": "cat",
+          "number": "70",
           "answers": [
             {
               "value": -85,
@@ -2843,25 +2843,25 @@
       "items": [
         {
           "item": "0",
-          "number": "71",
-          "concept": "lgd0201",
           "text": "How likely do you think you are to achieve this goal in your lifetime? Please answer on a scale from 0 (very unlikely) to 10 (very likely). With the values in between you can graduate your opinion.",
           "text_de": "Fuer wie wahrscheinlich halten Sie es, dass Sie dieses Ziel in Ihrem Leben realisieren? Bitte antworten Sie auf einer Skala von 0 sehr unwahrscheinlich bis 10 sehr wahrscheinlich. Mit den Werten dazwischen koennen Sie Ihre Meinung abstufen.",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "lgd0201",
+          "scale": "txt",
+          "number": "71",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "72",
-          "concept": "lgd0201",
           "text": "To be able to afford things",
           "text_de": "Sich etwas leisten koennen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0201",
+          "scale": "cat",
+          "number": "72",
           "answers": [
             {
               "value": -85,
@@ -2928,13 +2928,13 @@
         },
         {
           "item": "2",
-          "number": "73",
-          "concept": "lgd0201",
           "text": "Be successful in your job",
           "text_de": "Erfolg im Beruf haben",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0201",
+          "scale": "cat",
+          "number": "73",
           "answers": [
             {
               "value": -85,
@@ -3001,13 +3001,13 @@
         },
         {
           "item": "3",
-          "number": "74",
-          "concept": "lgd0201",
           "text": "Have a happy marriage/relationship",
           "text_de": "Eine glueckliche Ehe/Partnerschaft haben",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0201",
+          "scale": "cat",
+          "number": "74",
           "answers": [
             {
               "value": -85,
@@ -3074,18 +3074,23 @@
         },
         {
           "item": "4",
-          "number": "75",
-          "concept": "lgd0201",
           "text": "Have children",
           "text_de": "Kinder haben",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0201",
+          "scale": "cat",
+          "number": "75",
           "answers": [
             {
               "value": -85,
               "label": "-85: information not evaluable",
               "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -81,
+              "label": "-81: I already have children",
+              "label_de": "-81: ich habe bereits Kinder"
             },
             {
               "value": 0,
@@ -3141,24 +3146,19 @@
               "value": 10,
               "label": "10: very likely",
               "label_de": "10: sehr wahrscheinlich"
-            },
-            {
-              "value": 96,
-              "label": "96: I already have children",
-              "label_de": "96: ich habe bereits Kinder"
             }
           ],
           "sn": 4
         },
         {
           "item": "5",
-          "number": "76",
-          "concept": "lgd0201",
           "text": "See the world, travel a lot",
           "text_de": "Die Welt sehen, viele Reisen machen",
-          "scale": "cat",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Household 2012",
           "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Haushaltfragebogen, Altstichproben. SOEP Survey Papers 159: Series A. Berlin: DIW/SOEP",
+          "concept": "lgd0201",
+          "scale": "cat",
+          "number": "76",
           "answers": [
             {
               "value": -85,
@@ -3236,25 +3236,25 @@
       "items": [
         {
           "item": "0",
-          "number": "77",
-          "concept": "lot0100",
           "text": "[IF age> = 16] To what extent do you think the following statements apply?",
           "text_de": "[IF age >= 16] Wie sehr treffen die folgenden Aussagen Ihrer Meinung nach zu?",
-          "scale": "txt",
+          "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31",
+          "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
-          "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
-          "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
+          "concept": "lot0100",
+          "scale": "txt",
+          "number": "77",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "78",
-          "concept": "lot0100",
           "text": "In uncertain times, I usually except the best.",
           "text_de": "Auch in ungewissen Zeiten erwarte ich normalerweise das Beste.",
+          "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31",
+          "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31",
+          "concept": "lot0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
-          "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
+          "number": "78",
           "answers": [
             {
               "value": -85,
@@ -3291,13 +3291,13 @@
         },
         {
           "item": "2",
-          "number": "79",
-          "concept": "lot0100",
           "text": "I am always optimistic about my future.",
           "text_de": "Meine Zukunft sehe ich immer optimistisch.",
+          "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31",
+          "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31",
+          "concept": "lot0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
-          "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
+          "number": "79",
           "answers": [
             {
               "value": -85,
@@ -3334,13 +3334,13 @@
         },
         {
           "item": "3",
-          "number": "80",
-          "concept": "lot0100",
           "text": "Overall, I expect more good things to happen to me than bad.",
           "text_de": "Alles in allem erwarte ich, dass mir mehr gute als schlechte Dinge widerfahren.",
+          "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31",
+          "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31",
+          "concept": "lot0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
-          "description_de": "Source: Adaptiert von: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die Deutsche Version des Life-Orientation Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift Fuer Gesundheitspsychologie, 16(1), 26-31.",
+          "number": "80",
           "answers": [
             {
               "value": -85,
@@ -3388,25 +3388,25 @@
       "items": [
         {
           "item": "0",
-          "number": "81",
-          "concept": "bdi0100",
           "text": "[IF age> = 16] Over the past two weeks, how often have the following statements applied to you?",
           "text_de": "[IF age >= 16] Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen auf Sie zu?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
-          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "bdi0100",
+          "scale": "txt",
+          "number": "81",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "82",
-          "concept": "bdi0100",
           "text": "I'm sad.",
           "text_de": "Ich bin traurig.",
-          "scale": "cat",
-          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
+          "concept": "bdi0100",
+          "scale": "cat",
+          "number": "82",
           "answers": [
             {
               "value": -85,
@@ -3438,13 +3438,13 @@
         },
         {
           "item": "2",
-          "number": "83",
-          "concept": "bdi0100",
           "text": "I am pessimistic about my future.",
           "text_de": "Ich sehe mutlos in die Zukunft.",
-          "scale": "cat",
-          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
+          "concept": "bdi0100",
+          "scale": "cat",
+          "number": "83",
           "answers": [
             {
               "value": -85,
@@ -3476,13 +3476,13 @@
         },
         {
           "item": "3",
-          "number": "84",
-          "concept": "bdi0100",
           "text": "I feel like a failure",
           "text_de": "Ich fuehle mich als Versager/in",
-          "scale": "cat",
-          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
+          "concept": "bdi0100",
+          "scale": "cat",
+          "number": "84",
           "answers": [
             {
               "value": -85,
@@ -3514,13 +3514,13 @@
         },
         {
           "item": "4",
-          "number": "85",
-          "concept": "bdi0100",
           "text": "I find it difficult to enjoy anything.",
           "text_de": "Es faellt mir schwer, etwas zu geniessen.",
-          "scale": "cat",
-          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
+          "concept": "bdi0100",
+          "scale": "cat",
+          "number": "85",
           "answers": [
             {
               "value": -85,
@@ -3552,13 +3552,13 @@
         },
         {
           "item": "5",
-          "number": "86",
-          "concept": "bdi0100",
           "text": "I am disappointed in myself.",
           "text_de": "Ich bin von mir enttaeuscht.",
-          "scale": "cat",
-          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
+          "concept": "bdi0100",
+          "scale": "cat",
+          "number": "86",
           "answers": [
             {
               "value": -85,
@@ -3590,13 +3590,13 @@
         },
         {
           "item": "6",
-          "number": "87",
-          "concept": "bdi0100",
           "text": "I blame myself for mistakes and weaknesses.",
           "text_de": "Ich werfe mir Fehler und Schwaechen vor.",
-          "scale": "cat",
-          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
+          "concept": "bdi0100",
+          "scale": "cat",
+          "number": "87",
           "answers": [
             {
               "value": -85,
@@ -3628,13 +3628,13 @@
         },
         {
           "item": "7",
-          "number": "88",
-          "concept": "bdi0100",
           "text": "I think about hurting myself.",
           "text_de": "Ich denke daran, mir etwas anzutun.",
-          "scale": "cat",
-          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation.",
+          "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
           "description_de": "Source: Adaptiert von: Beck, A. T., Steer, R. A., & Brown, G. K. (2000). Manual for the BDI-Fast Screen for Medical Patients. San Antonio, TX: Psychological Corporation",
+          "concept": "bdi0100",
+          "scale": "cat",
+          "number": "88",
           "answers": [
             {
               "value": -85,
@@ -3677,25 +3677,25 @@
       "items": [
         {
           "item": "0",
-          "number": "89",
-          "concept": "cis0100",
           "text": "Various types of behavior that people can use to respond to difficult, critical, or challenging events are listed below. Please indicate how well these statements describe how you deal with such events.",
           "text_de": "Im Folgenden werden verschiedene Verhaltensweisen aufgelistet, mit denen Menschen auf schwierige, kritische oder herausfordernde Ereignisse reagieren koennen. Bitte geben Sie an, wie gut diese Aussagen beschreiben, wie Sie mit solchen Ereignissen umgehen.",
-          "scale": "txt",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "concept": "cis0100",
+          "scale": "txt",
+          "number": "89",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "90",
-          "concept": "cis0100",
           "text": "I think about the event and learn from my mistakes.",
           "text_de": "Ich denke ueber das Ergebnis nach und lerne aus meinen Fehlern.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "90",
           "answers": [
             {
               "value": -85,
@@ -3732,13 +3732,13 @@
         },
         {
           "item": "2",
-          "number": "91",
-          "concept": "cis0100",
           "text": "I worry about what I should do.",
           "text_de": "Ich sorge mich darum, was ich als naechstes tun werde.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "91",
           "answers": [
             {
               "value": -85,
@@ -3775,13 +3775,13 @@
         },
         {
           "item": "3",
-          "number": "92",
-          "concept": "cis0100",
           "text": "I visit a friend.",
           "text_de": "Ich besuche einen Freund.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "92",
           "answers": [
             {
               "value": -85,
@@ -3818,13 +3818,13 @@
         },
         {
           "item": "4",
-          "number": "93",
-          "concept": "cis0100",
           "text": "I take corrective action immediately.",
           "text_de": "Ich leite sofort Massnahmen zur Korrektur ein.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "93",
           "answers": [
             {
               "value": -85,
@@ -3861,13 +3861,13 @@
         },
         {
           "item": "5",
-          "number": "94",
-          "concept": "cis0100",
           "text": "I blame myself for not knowing what to do.",
           "text_de": "Ich gebe mir die Schuld dafuer, dass ich nicht weiss, was zu tun ist.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "94",
           "answers": [
             {
               "value": -85,
@@ -3904,13 +3904,13 @@
         },
         {
           "item": "6",
-          "number": "95",
-          "concept": "cis0100",
           "text": "I buy myself something.",
           "text_de": "Ich kaufe mir etwas.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "95",
           "answers": [
             {
               "value": -85,
@@ -3947,13 +3947,13 @@
         },
         {
           "item": "7",
-          "number": "96",
-          "concept": "cis0100",
           "text": "I get control of the situation.",
           "text_de": "Ich versuche die Kontrolle ueber die Situation zu erlangen.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "96",
           "answers": [
             {
               "value": -85,
@@ -3990,13 +3990,13 @@
         },
         {
           "item": "8",
-          "number": "97",
-          "concept": "cis0100",
           "text": "I feel anxious about not being able to cope.",
           "text_de": "Ich habe Angst, nicht mit der Situation fertig zu werden.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "97",
           "answers": [
             {
               "value": -85,
@@ -4033,13 +4033,13 @@
         },
         {
           "item": "9",
-          "number": "98",
-          "concept": "cis0100",
           "text": "I go out for a snack or meal.",
           "text_de": "Ich gehe Essen.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems",
+          "concept": "cis0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
-          "description_de": "Source: Adaptiert von: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory for Stressful Situations (CISS): Manual. Toronto, Canada: Multi-Health Systems.",
+          "number": "98",
           "answers": [
             {
               "value": -85,
@@ -4087,25 +4087,25 @@
       "items": [
         {
           "item": "0",
-          "number": "99",
-          "concept": "sps0200",
           "text": "How well do the following statements apply to you personally? Please use the following scale from 1 to 7 where 1 is: does not apply at all and 7 is: fully applies. With the values in between you can graduate your opinion.",
           "text_de": "Wie gut treffen die folgenden Aussagen auf Sie persoenlich zu? Bitte benutzen Sie folgende Skala von 1 bis 7.Der Wert 1 bedeutet: Trifft ueberhaupt nicht zu. Der Wert 7 bedeutet: Trifft voellig zu. Mit den Werten dazwischen koennen Sie Ihre Meinung abstufen.",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
-          "description_de": "Source: Adaptiert von:   Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "description_de": "Source: Adaptiert von: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "sps0200",
+          "scale": "txt",
+          "number": "99",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "100",
-          "concept": "sps0200",
           "text": "I make a point to avoid violent movies and TV shows.",
           "text_de": "Filme und Fernsehsendungen mit Gewaltszenen meide ich prinzipiell.",
-          "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
-          "description_de": "Source: Adaptiert von:   Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "description_de": "Source: Adaptiert von: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "concept": "sps0200",
+          "scale": "cat",
+          "number": "100",
           "answers": [
             {
               "value": -85,
@@ -4152,13 +4152,13 @@
         },
         {
           "item": "2",
-          "number": "101",
-          "concept": "sps0200",
           "text": "I am deeply moved by the arts or music.",
           "text_de": "Kunst oder Musik bewegt mich oft zutiefst.",
-          "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
-          "description_de": "Source: Adaptiert von:   Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "description_de": "Source: Adaptiert von: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "concept": "sps0200",
+          "scale": "cat",
+          "number": "101",
           "answers": [
             {
               "value": -85,
@@ -4205,13 +4205,13 @@
         },
         {
           "item": "3",
-          "number": "102",
-          "concept": "sps0200",
           "text": "I get rattled when I have a lot to do in a short amount of time.",
           "text_de": "Ich werde nervoes, wenn ich in kurzer Zeit viel erledigen muss.",
-          "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
-          "description_de": "Source: Adaptiert von:   Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "description_de": "Source: Adaptiert von: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "concept": "sps0200",
+          "scale": "cat",
+          "number": "102",
           "answers": [
             {
               "value": -85,
@@ -4258,13 +4258,13 @@
         },
         {
           "item": "4",
-          "number": "103",
-          "concept": "sps0200",
           "text": "I notice and enjoy delicate or fine scents, tastes, sounds, works of art.",
           "text_de": "Ich bemerke und geniesse zarte Gerueche, Geschmackserlebnisse, Klaenge, Kunstwerke.",
-          "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
-          "description_de": "Source: Adaptiert von:   Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "description_de": "Source: Adaptiert von: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "concept": "sps0200",
+          "scale": "cat",
+          "number": "103",
           "answers": [
             {
               "value": -85,
@@ -4311,13 +4311,13 @@
         },
         {
           "item": "5",
-          "number": "104",
-          "concept": "sps0200",
           "text": "I find it unpleasant to have a lot going on at once.",
           "text_de": "Ich finde es unangenehm, viel um die Ohren zu haben.",
-          "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
-          "description_de": "Source: Adaptiert von:   Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "description_de": "Source: Adaptiert von: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "concept": "sps0200",
+          "scale": "cat",
+          "number": "104",
           "answers": [
             {
               "value": -85,
@@ -4364,13 +4364,13 @@
         },
         {
           "item": "6",
-          "number": "105",
-          "concept": "sps0200",
           "text": "I am bothered by intense stimuli, like loud noises or chaotic scenes.",
           "text_de": "Intensive Reize wie laute Geraeusche oder chaotische Vorgaenge stoeren mich.",
-          "scale": "cat",
           "description": "Source: Adapted from: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
-          "description_de": "Source: Adaptiert von:   Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "description_de": "Source: Adaptiert von: Aron, E. N., & Aron, A. (2013). Tips for SPS Researchers. Retrieved from Tips for SPS Researchers_Nov21_2013 website: http://hsperson.com/pdf/Tips_for_SPS_Researchers_Nov21_2013.pdf",
+          "concept": "sps0200",
+          "scale": "cat",
+          "number": "105",
           "answers": [
             {
               "value": -85,
@@ -4428,25 +4428,25 @@
       "items": [
         {
           "item": "0",
-          "number": "106",
-          "concept": "ebi0100",
           "text": "Please answer the following question only if you have children. When raising children there are certainly times when increased stresses and strains occur, which are very challenging for you as a parent. What is your experience of these multiple demands and how do they affect your personal lifestyle?",
           "text_de": "Bitte beantworten Sie die folgende Frage nur, falls Sie Kinder haben. In der Erziehung von Kindern gibt es sicher auch Zeiten, in denen besondere Belastungen auftreten, bei denen Sie als Mutter oder Vater sehr gefordert sind. Wie erleben Sie die zahl-reichen Anforderungen und wie wirken sich diese auf Ihre persoenliche Lebensfuehrung aus?",
-          "scale": "txt",
+          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
-          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
-          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
+          "concept": "ebi0100",
+          "scale": "txt",
+          "number": "106",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "107",
-          "concept": "ebi0100",
           "text": "I sometimes feel restricted by my responsibility as a mother/father.",
           "text_de": "Ich fuehle mich durch die Verantwortung als Mutter/Vater manchmal eingeengt.",
+          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "concept": "ebi0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
-          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
+          "number": "107",
           "answers": [
             {
               "value": -85,
@@ -4483,13 +4483,13 @@
         },
         {
           "item": "2",
-          "number": "108",
-          "concept": "ebi0100",
           "text": "The children have caused some problems in my relationship.",
           "text_de": "Durch die Kinder sind einige Probleme in meiner Partnerschaft entstanden.",
+          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "concept": "ebi0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
-          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
+          "number": "108",
           "answers": [
             {
               "value": -85,
@@ -4526,13 +4526,13 @@
         },
         {
           "item": "3",
-          "number": "109",
-          "concept": "ebi0100",
           "text": "In some situations I wished I could better understand what my children were going through.",
           "text_de": "In manchen Situationen wuenschte ich mir, ich koennte besser nachempfinden, was in meinen Kindern vorgeht.",
+          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "concept": "ebi0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
-          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
+          "number": "109",
           "answers": [
             {
               "value": -85,
@@ -4569,13 +4569,13 @@
         },
         {
           "item": "4",
-          "number": "110",
-          "concept": "ebi0100",
           "text": "It saddens me when I realize that I have reacted to my children irritably.",
           "text_de": "Es bedrueckt mich, wenn ich merke, dass ich gereizt auf meine Kinder reagiere.",
+          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "concept": "ebi0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
-          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
+          "number": "110",
           "answers": [
             {
               "value": -85,
@@ -4612,13 +4612,13 @@
         },
         {
           "item": "5",
-          "number": "111",
-          "concept": "ebi0100",
           "text": "Some aspects of raising my child have been harder than I expected.",
           "text_de": "Einige Dinge in der Erziehung meines Kindes fallen mir schwerer, als ich erwartet hatte.",
+          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "concept": "ebi0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
-          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
+          "number": "111",
           "answers": [
             {
               "value": -85,
@@ -4655,13 +4655,13 @@
         },
         {
           "item": "6",
-          "number": "112",
-          "concept": "ebi0100",
           "text": "Since I have been a mother/father, I have had fewer opportunities to meet my friends and make new friends.",
           "text_de": "Seit ich Mutter/Vater bin, habe ich weniger Gelegenheiten meine Freunde oder Freundinnen zu treffen und neue Freundschaften zu schliessen.",
+          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe",
+          "concept": "ebi0100",
           "scale": "cat",
-          "description": "Source: Adapted from: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
-          "description_de": "Source: Adaptiert von: Troester, H. (2011). Eltern-Belastungs-Inventar: EBI; deutsche Version des Parenting Stress Indey (PSI) von RR Abidin. Goettingen, Germany: Hogrefe.",
+          "number": "112",
           "answers": [
             {
               "value": -85,
@@ -4709,14 +4709,14 @@
       "items": [
         {
           "item": "1",
-          "number": "113",
-          "concept": "cul0301",
           "text": "[IF age> = 16] Do you listen to classical music? All situations where you can listen to classical music are meant here: at home, while traveling, or at a concert.",
           "text_de": "[IF age > = 16 ] Hoeren Sie klassische Musik? Hier sind alle Gelegenheiten gemeint, bei denen man klassische Musik hoeren kann: Bei Ihnen zu Hause, unterwegs oder im Konzert.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "cul0301",
+          "scale": "cat",
+          "number": "113",
           "answers": [
             {
               "value": -89,
@@ -4759,14 +4759,14 @@
       "items": [
         {
           "item": "1",
-          "number": "114",
-          "concept": "cul0302",
           "text": "[IF age> = 16] And, think back over the past week, how often did you listen to classical music during that period?",
           "text_de": "[IF age > = 16 ] Und wenn Sie an die vergangene Woche denken, wie oft haben Sie klassische Musik gehoert?",
-          "scale": "dec",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "cul0302",
+          "scale": "dec",
+          "number": "114",
           "answers": [
             {
               "value": -86,
@@ -4794,25 +4794,25 @@
       "items": [
         {
           "item": "0",
-          "number": "115",
-          "concept": "cul0401",
           "text": "[IF age> = 16] In general, how often do you discuss the following things with others?",
           "text_de": "[IF age > = 16 ] Wie oft kommt es im Allgemeinen vor, dass Sie mit anderen ueber folgende Dinge diskutieren?",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "cul0401",
+          "scale": "txt",
+          "number": "115",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "116",
-          "concept": "cul0401",
           "text": "About political or social issues",
           "text_de": "Ueber politische oder soziale Fragen",
-          "scale": "cat",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
+          "concept": "cul0401",
+          "scale": "cat",
+          "number": "116",
           "answers": [
             {
               "value": -85,
@@ -4849,13 +4849,13 @@
         },
         {
           "item": "2",
-          "number": "117",
-          "concept": "cul0401",
           "text": "About books",
           "text_de": "Ueber Buecher",
-          "scale": "cat",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
+          "concept": "cul0401",
+          "scale": "cat",
+          "number": "117",
           "answers": [
             {
               "value": -85,
@@ -4892,11 +4892,11 @@
         },
         {
           "item": "3",
-          "number": "118",
-          "concept": "cul0401",
           "text": "About works of art or art in general",
           "text_de": "Ueber Kunstwerke oder Kunst im Allgemeinen",
+          "concept": "cul0401",
           "scale": "cat",
+          "number": "118",
           "answers": [
             {
               "value": -85,
@@ -4933,13 +4933,13 @@
         },
         {
           "item": "4",
-          "number": "119",
-          "concept": "cul0401",
           "text": "About movies or TV shows",
           "text_de": "Ueber Filme oder Fernsehsendungen",
-          "scale": "cat",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS) Additional Surveys: Additional Study Thuringia: Curricular Reform Study in Thuringia (TH) SUF Version 2.0.0",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): Zusatzstudie Thueringen (TH) Wellen 1 und 2, SUF-Version 2.0.0 Erhebungsinstrumente (SUF-Version)",
+          "concept": "cul0401",
+          "scale": "cat",
+          "number": "119",
           "answers": [
             {
               "value": -85,
@@ -4987,25 +4987,25 @@
       "items": [
         {
           "item": "0",
-          "number": "120",
-          "concept": "cul0501",
           "text": "[IF age> = 16] Now we'd like to move on to other activities that you can do in your free time. It doesn't matter here whether you carried out this activity with someone else or alone. How often have you done the following in the past 12 months:",
           "text_de": "[IF age > = 16 ] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. Dabei ist es egal, ob Sie das mit jemandem zusammen oder alleine getan haben. Wie oft haben Sie in den letzten 12 Monaten folgende Dinge getan:",
-          "scale": "txt",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "cul0501",
+          "scale": "txt",
+          "number": "120",
           "sn": 0
         },
         {
           "item": "1",
-          "number": "121",
-          "concept": "cul0501",
           "text": "Been to a museum or art exhibition",
           "text_de": "Ein Museum oder eine Kunstausstellung besucht",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0501",
+          "scale": "cat",
+          "number": "121",
           "answers": [
             {
               "value": -85,
@@ -5042,13 +5042,13 @@
         },
         {
           "item": "2",
-          "number": "122",
-          "concept": "cul0501",
           "text": "Been to the movies",
           "text_de": "Im Kino einen Film gesehen",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0501",
+          "scale": "cat",
+          "number": "122",
           "answers": [
             {
               "value": -85,
@@ -5085,13 +5085,13 @@
         },
         {
           "item": "3",
-          "number": "123",
-          "concept": "cul0501",
           "text": "Been to an opera, ballet, or classical concert",
           "text_de": "Eine Oper, ein Ballett oder ein klassisches Konzert besucht",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0501",
+          "scale": "cat",
+          "number": "123",
           "answers": [
             {
               "value": -85,
@@ -5128,13 +5128,13 @@
         },
         {
           "item": "4",
-          "number": "124",
-          "concept": "cul0501",
           "text": "Been to the theater",
           "text_de": "Ein Theater besucht",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0501",
+          "scale": "cat",
+          "number": "124",
           "answers": [
             {
               "value": -85,
@@ -5171,13 +5171,13 @@
         },
         {
           "item": "5",
-          "number": "125",
-          "concept": "cul0501",
           "text": "Been to a rock or pop concert",
           "text_de": "Ein Rock- oder Popkonzert besucht",
-          "scale": "cat",
           "description": "Source: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
+          "concept": "cul0501",
+          "scale": "cat",
+          "number": "125",
           "answers": [
             {
               "value": -85,
@@ -5225,14 +5225,14 @@
       "items": [
         {
           "item": "1",
-          "number": "126",
-          "concept": "mus0100",
           "text": "[IF age> = 16] Do you currently actively play music. Here we mean playing a musical instrument or singing (individual lessons or in a choir)?",
           "text_de": "[IF age >= 16] Machen Sie zurzeit aktiv Musik, gemeint ist: Spielen eines Musikinstrumentes oder Gesang (Einzelunterricht oder Chor)?",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
+          "concept": "mus0100",
+          "scale": "cat",
+          "number": "126",
           "answers": [
             {
               "value": -85,
@@ -5265,14 +5265,14 @@
       "items": [
         {
           "item": "1",
-          "number": "127",
-          "concept": "mus0200",
           "text": "[IF age> = 16] For how many hours a week do you play music? Think of a typical week.",
           "text_de": "[IF age >= 16] Wie viele Stunden in der Woche machen Sie Musik? Denken Sie dabei an eine typische Woche.",
-          "scale": "cat",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0100==1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0100==1)",
+          "concept": "mus0200",
+          "scale": "cat",
+          "number": "127",
           "answers": [
             {
               "value": -85,
@@ -5325,14 +5325,14 @@
       "items": [
         {
           "item": "1",
-          "number": "128",
-          "concept": "mus0300",
           "text": "[IF age> = 16] At what age did you start learning a musical instrument or singing?",
           "text_de": "[IF age >= 16] In welchem Alter haben Sie begonnen, ein Musikinstrument oder Gesang zu lernen?",
-          "scale": "dec",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0100==1)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & (mus0100==1)",
+          "concept": "mus0300",
+          "scale": "dec",
+          "number": "128",
           "answers": [
             {
               "value": -86,

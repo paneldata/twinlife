@@ -1,0 +1,207 @@
+{
+  "study": "twinlife",
+  "name": "wid5_F2F3_module5",
+  "label": "F2F 3: child's medical records (CAPI)",
+  "description": "This questionnaire module contains questions on: Apgar-score; child's medical records U-Heft (photo or questionnaire): selected parameters from examination U1 to U9.",
+  "analysis_unit": "individual",
+  "period": 5,
+  "instrument": "wid5_F2F3_module5",
+  "questions": {
+    "nbi1300": {
+      "question": "nbi1300",
+      "name": "nbi1300",
+      "label": "[Interviewer Input] Are the child's medical records for <twin1, twin2, the sibling> available?",
+      "label_de": "[Interviewerangabe] Liegt das Untersuchungsheft fuer <Zwilling 1, Zwilling 2, das Geschwisterkind> vor?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[Interviewer Input] Are the child's medical records for <twin1, twin2, the sibling> available?",
+          "text_de": "[Interviewerangabe] Liegt das Untersuchungsheft fuer <Zwilling 1, Zwilling 2, das Geschwisterkind> vor?",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "filter": "(euek==1 & fpr0301==1 & mod0200_5==3) | (euek==1 & mod0200_5==3) | ()",
+          "concept": "nbi1300",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid5_F2F3_module5",
+      "study": "twinlife"
+    },
+    "nbi1400": {
+      "question": "nbi1400",
+      "name": "nbi1400",
+      "label": "[Interviewer Input] Please enter the Apgar score measured after one minute (1) for <twin1, twin2, the sibling>.",
+      "label_de": "[Interviewerangabe] Tragen Sie bitte die Apgar-Zahl ein die nach einer Minute (1) bei <Zwilling1, Zwilling2, dem Geschwisterkind> gemessen wurde.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[Interviewer Input] Please enter the Apgar score measured after one minute (1) for <twin1, twin2, the sibling>.",
+          "text_de": "[Interviewerangabe] Tragen Sie bitte die Apgar-Zahl ein die nach einer Minute (1) bei <Zwilling1, Zwilling2, dem Geschwisterkind> gemessen wurde.",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "concept": "nbi1400",
+          "number": "2",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: number not available",
+              "label_de": "-86: Wert ist nicht vorhanden"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid5_F2F3_module5",
+      "study": "twinlife"
+    },
+    "nbi1401": {
+      "question": "nbi1401",
+      "name": "nbi1401",
+      "label": "[Interviewer Input] Please enter the Apgar score measured after 5 minutes (5) for <twin1, twin2, the sibling>.",
+      "label_de": "[Interviewerangabe] Tragen Sie bitte die Apgar-Zahl ein die nach 5 Minuten (5) bei <Zwilling1, Zwilling2, dem Geschwisterkind> gemessen wurde.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[Interviewer Input] Please enter the Apgar score measured after 5 minutes (5) for <twin1, twin2, the sibling>.",
+          "text_de": "[Interviewerangabe] Tragen Sie bitte die Apgar-Zahl ein die nach 5 Minuten (5) bei <Zwilling1, Zwilling2, dem Geschwisterkind> gemessen wurde.",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "concept": "nbi1401",
+          "number": "3",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: number not available",
+              "label_de": "-86: Wert ist nicht vorhanden"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid5_F2F3_module5",
+      "study": "twinlife"
+    },
+    "nbi1402": {
+      "question": "nbi1402",
+      "name": "nbi1402",
+      "label": "[Interviewer Input] Please enter the Apgar score measured after 10 minutes (10) for <twin1, twin2, the sibling>.",
+      "label_de": "[Interviewerangabe] Tragen Sie bitte die Apgar-Zahl ein die nach 10 Minuten (10) bei <Zwilling1, Zwilling2, dem Geschwisterkind> gemessen wurde.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[Interviewer Input] Please enter the Apgar score measured after 10 minutes (10) for <twin1, twin2, the sibling>.",
+          "text_de": "[Interviewerangabe] Tragen Sie bitte die Apgar-Zahl ein die nach 10 Minuten (10) bei <Zwilling1, Zwilling2, dem Geschwisterkind> gemessen wurde.",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "concept": "nbi1402",
+          "number": "4",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: number not available",
+              "label_de": "-86: Wert ist nicht vorhanden"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid5_F2F3_module5",
+      "study": "twinlife"
+    },
+    "nbi1403": {
+      "question": "nbi1403",
+      "name": "nbi1403",
+      "label": "[Interviewer Input] If there is another Apgar value for <twin1, twin2, the sibling>, please enter that as well.",
+      "label_de": "[Interviewerangabe] Falls eine weitere Zahl fuer <Zwilling1, Zwilling2, das Geschwisterkind> und den Apgar-Wert vorhanden ist, tragen Sie bitte auch diese ein.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[Interviewer Input] If there is another Apgar value for <twin1, twin2, the sibling>, please enter that as well.",
+          "text_de": "[Interviewerangabe] Falls eine weitere Zahl fuer <Zwilling1, Zwilling2, das Geschwisterkind> und den Apgar-Wert vorhanden ist, tragen Sie bitte auch diese ein.",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "concept": "nbi1403",
+          "number": "5",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: number not available",
+              "label_de": "-86: Wert ist nicht vorhanden"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid5_F2F3_module5",
+      "study": "twinlife"
+    },
+    "nbi1404": {
+      "question": "nbi1404",
+      "name": "nbi1404",
+      "label": "[Interviewer Input] For which time interval (x) was the Apgar count determined?",
+      "label_de": "[Interviewerangabe] Fuer welches Zeitintervall (x) wurde die Apgar-Zahl bestimmt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[Interviewer Input] For which time interval (x) was the Apgar count determined?",
+          "text_de": "[Interviewerangabe] Fuer welches Zeitintervall (x) wurde die Apgar-Zahl bestimmt?",
+          "description": "Source: Item developed for TwinLife (form to fill-in on the basis of U-Heft)",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item (Eingabemaske zur Uebertragung der Informationen aus dem U-Heft)",
+          "filter": "(inrange(nbi1403s,0,10)) | (inrange(nbi1403t,0,10)) | (inrange(nbi1403u,0,10))",
+          "concept": "nbi1404",
+          "number": "6",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid5_F2F3_module5",
+      "study": "twinlife"
+    }
+  }
+}

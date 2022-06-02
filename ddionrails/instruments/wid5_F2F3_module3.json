@@ -1,0 +1,3482 @@
+{
+  "study": "twinlife",
+  "name": "wid5_F2F3_module3",
+  "label": "F2F 3: employment/education (CAPI)",
+  "description": "This questionnaire module contains questions on: after-school job; commuting; current employment; desired school-leaving qualification; expected probability to attain a degree; history of education and graduation: educational degrees, vocational training, year abroad; job autonomy; occupational status; perceived income equity; perceived job security and satisfaction; shiftwork; type of education / training; current status of education / qualification; wages, income; working time.",
+  "analysis_unit": "individual",
+  "period": 5,
+  "instrument": "wid5_F2F3_module3",
+  "questions": {
+    "edu0100": {
+      "question": "edu0100",
+      "name": "edu0100",
+      "label": "Do you go to school?",
+      "label_de": "[IF age >= 4 & age < =15]: Gehst Du in die Schule? [IF age>= 16 & age < 22]: Besuchen Sie derzeit eine allgemeinbildende Schule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you go to school?",
+          "text_de": "[IF age >= 4 & age < =15]: Gehst Du in die Schule? [IF age>= 16 & age < 22]: Besuchen Sie derzeit eine allgemeinbildende Schule?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "edu0100",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no, I don't go to school yet",
+              "label_de": "1: nein, ich gehe noch nicht in die Schule"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, I go to school",
+              "label_de": "2: ja, ich gehe in die Schule"
+            },
+            {
+              "value": 3,
+              "label": "3: no, I don't go to school any more",
+              "label_de": "3: nein, ich gehe nicht mehr in die Schule"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0200": {
+      "question": "edu0200",
+      "name": "edu0200",
+      "label": "Do you have an after-school job?",
+      "label_de": "[If age >= 16] Arbeiten Sie neben der Schule? [If age < 16] Arbeitest Du neben der Schule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you have an after-school job?",
+          "text_de": "[If age >= 16] Arbeiten Sie neben der Schule? [If age < 16] Arbeitest Du neben der Schule?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "edu0200",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, regularly",
+              "label_de": "1: ja, regelmaessig"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, occasionally",
+              "label_de": "2: ja, gelegentlich"
+            },
+            {
+              "value": 3,
+              "label": "3: no",
+              "label_de": "3: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0202": {
+      "question": "edu0202",
+      "name": "edu0202",
+      "label": "How many hours a week do you work in your job?",
+      "label_de": "[If age >= 16] Wie viel Stunden pro Woche arbeiten Sie normalerweise in Ihrem Schuelerjob? [If age < 16] Wie viel Stunden pro Woche arbeitest Du normalerweise in Deinem Schuelerjob?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many hours a week do you work in your job?",
+          "text_de": "[If age >= 16] Wie viel Stunden pro Woche arbeiten Sie normalerweise in Ihrem Schuelerjob? [If age < 16] Wie viel Stunden pro Woche arbeitest Du normalerweise in Deinem Schuelerjob?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "edu0202",
+          "scale": "dec",
+          "number": "3",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0400": {
+      "question": "edu0400",
+      "name": "edu0400",
+      "label": "What school are you currently attending?",
+      "label_de": "[IF age > 10 & age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age > = 16 & age < =20]: Welche Schule besuchen Sie zurzeit?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What school are you currently attending?",
+          "text_de": "[IF age > 10 & age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age > = 16 & age < =20]: Welche Schule besuchen Sie zurzeit?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "edu0400",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
+            },
+            {
+              "value": 2,
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
+            },
+            {
+              "value": 3,
+              "label": "3: lower secondary school",
+              "label_de": "3: Hauptschule"
+            },
+            {
+              "value": 4,
+              "label": "4: intermediate-level secondary school",
+              "label_de": "4: Realschule"
+            },
+            {
+              "value": 5,
+              "label": "5: integrated lower and intermediate-level secondary school",
+              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: Waldorf school (Rudolf Steiner school)",
+              "label_de": "7: Waldorfschule"
+            },
+            {
+              "value": 8,
+              "label": "8: upper secondary school",
+              "label_de": "8: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 9,
+              "label": "9: school for children with special needs",
+              "label_de": "9: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 10,
+              "label": "10: other school, namely",
+              "label_de": "10: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0402": {
+      "question": "edu0402",
+      "name": "edu0402",
+      "label": "What class do you go to at this school?",
+      "label_de": "[IF age > 10 & age < = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age > = 16 & age < =20]:Welche Klasse besuchen Sie auf dieser Schule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What class do you go to at this school?",
+          "text_de": "[IF age > 10 & age < = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age > = 16 & age < =20]:Welche Klasse besuchen Sie auf dieser Schule?",
+          "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
+          "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "concept": "edu0402",
+          "scale": "int",
+          "number": "5",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0300": {
+      "question": "edu0300",
+      "name": "edu0300",
+      "label": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
+      "label_de": "[IF age < 16 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age > = 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
+          "text_de": "[IF age < 16 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age > = 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "edu0300",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0301": {
+      "question": "edu0301",
+      "name": "edu0301",
+      "label": "What type of education or training are you pursuing?",
+      "label_de": "Was fuer eine Ausbildung oder Weiterbildung ist das genau?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of education or training are you pursuing?",
+          "text_de": "Was fuer eine Ausbildung oder Weiterbildung ist das genau?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "edu0301",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: general education",
+              "label_de": "1: Allgemeinbildende Schule"
+            },
+            {
+              "value": 2,
+              "label": "2: vocational education",
+              "label_de": "2: Berufliche Ausbildung"
+            },
+            {
+              "value": 3,
+              "label": "3: higher education",
+              "label_de": "3: Hochschule"
+            },
+            {
+              "value": 4,
+              "label": "4: further education",
+              "label_de": "4: Weiterbildung/Umschulung"
+            },
+            {
+              "value": 5,
+              "label": "5: other, please state [until CATI 1]",
+              "label_de": "5: sonstiges, bitte nennen [bis CATI 1]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0303": {
+      "question": "edu0303",
+      "name": "edu0303",
+      "label": "What type of higher education are you pursuing?",
+      "label_de": "Was fuer eine Hochschulausbildung ist das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of higher education are you pursuing?",
+          "text_de": "Was fuer eine Hochschulausbildung ist das?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "edu0303",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: university of applied sciences",
+              "label_de": "1: Fachhochschule"
+            },
+            {
+              "value": 2,
+              "label": "2: university, other higher educational institution (Bachelor or Master)",
+              "label_de": "2: Universitaet, sonstige Hochschule (Bachelor-, Master-Studiengang)"
+            },
+            {
+              "value": 3,
+              "label": "3: PhD",
+              "label_de": "3: Promotionsstudium"
+            },
+            {
+              "value": 4,
+              "label": "4: other, such as",
+              "label_de": "4: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0311": {
+      "question": "edu0311",
+      "name": "edu0311",
+      "label": "Do you and your twin study at the same university?",
+      "label_de": "[IF age > = 16 ] Studieren Sie und Ihr Zwilling an der gleichen Hochschule? [IF age < 16 ] Studieren Du und Dein Zwilling an der gleichen Hochschule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you and your twin study at the same university?",
+          "text_de": "[IF age > = 16 ] Studieren Sie und Ihr Zwilling an der gleichen Hochschule? [IF age < 16 ] Studieren Du und Dein Zwilling an der gleichen Hochschule?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "edu0311",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0312": {
+      "question": "edu0312",
+      "name": "edu0312",
+      "label": "Are you and your twin studying the same subject?",
+      "label_de": "[IF age > = 16 ] Studieren Sie und Ihr Zwilling das gleiche Fach? [IF age < 16 ] Studieren Du und Dein Zwilling das gleiche Fach?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you and your twin studying the same subject?",
+          "text_de": "[IF age > = 16 ] Studieren Sie und Ihr Zwilling das gleiche Fach? [IF age < 16 ] Studieren Du und Dein Zwilling das gleiche Fach?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "edu0312",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0305": {
+      "question": "edu0305",
+      "name": "edu0305",
+      "label": "What type of further training/retraining are you pursuing?",
+      "label_de": "Was fuer eine Weiterbildung/Umschulung ist das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of further training/retraining are you pursuing?",
+          "text_de": "Was fuer eine Weiterbildung/Umschulung ist das?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "edu0305",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: vocational re-training",
+              "label_de": "1: Berufliche Umschulung"
+            },
+            {
+              "value": 2,
+              "label": "2: further vocational training",
+              "label_de": "2: Berufliche Fortbildung"
+            },
+            {
+              "value": 3,
+              "label": "3: vocational rehabilitation",
+              "label_de": "3: Berufliche Rehabilitation"
+            },
+            {
+              "value": 4,
+              "label": "4: general or political further education",
+              "label_de": "4: Allgemeine oder politische Weiterbildung"
+            },
+            {
+              "value": 5,
+              "label": "5: other, such as",
+              "label_de": "5: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0307": {
+      "question": "edu0307",
+      "name": "edu0307",
+      "label": "What type of vocational training are you pursuing?",
+      "label_de": "Was fuer eine berufliche Ausbildung ist das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of vocational training are you pursuing?",
+          "text_de": "Was fuer eine berufliche Ausbildung ist das?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "edu0307",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: year of vocational preparation which is accountable for vocational training",
+              "label_de": "1: Berufsgrundbildungsjahr"
+            },
+            {
+              "value": 2,
+              "label": "2: year of vocational preparation which is not accountable for vocational training",
+              "label_de": "2: Berufsvorbereitungsjahr"
+            },
+            {
+              "value": 3,
+              "label": "3: vocational schooling without vocational training",
+              "label_de": "3: Berufsschule ohne Lehre"
+            },
+            {
+              "value": 4,
+              "label": "4: vocational training",
+              "label_de": "4: Lehre"
+            },
+            {
+              "value": 5,
+              "label": "5: full-time vocational school, business school",
+              "label_de": "5: Berufsfachschule, Handelsschule"
+            },
+            {
+              "value": 6,
+              "label": "6: health care school",
+              "label_de": "6: Schule des Gesundheitswesens"
+            },
+            {
+              "value": 7,
+              "label": "7: professional school, technical college, e.g., master craftsman's or technician's certificate",
+              "label_de": "7: Fachschule (z. B. Meister-, Technikerschule)"
+            },
+            {
+              "value": 8,
+              "label": "8: training for civil servants",
+              "label_de": "8: Beamtenausbildung"
+            },
+            {
+              "value": 9,
+              "label": "9: other, such as",
+              "label_de": "9: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "edu0310": {
+      "question": "edu0310",
+      "name": "edu0310",
+      "label": "Do you and your twin complete the same vocational training?",
+      "label_de": "[IF age > = 16 ] Absolvieren Sie und ihr Zwilling die gleiche berufliche Ausbildung? [IF age < 16 ] Absolvieren Du und Dein Zwilling die gleiche berufliche Ausbildung?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you and your twin complete the same vocational training?",
+          "text_de": "[IF age > = 16 ] Absolvieren Sie und ihr Zwilling die gleiche berufliche Ausbildung? [IF age < 16 ] Absolvieren Du und Dein Zwilling die gleiche berufliche Ausbildung?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "edu0310",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0900": {
+      "question": "eca0900",
+      "name": "eca0900",
+      "label": "Have you received a degree since the last interview, since <mon_fq><yea_fq>?",
+      "label_de": "[If age < 16] Hast Du seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben? [If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you received a degree since the last interview, since <mon_fq><yea_fq>?",
+          "text_de": "[If age < 16] Hast Du seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben? [If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0900",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0901": {
+      "question": "eca0901",
+      "name": "eca0901",
+      "label": "Which school-leaving qualification have you achieved?",
+      "label_de": "[If age < 16] Welchen Schulabschluss hast Du erreicht? [IF age >= 16 ] Welchen Schulabschluss haben Sie erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Which school-leaving qualification have you achieved?",
+          "text_de": "[If age < 16] Welchen Schulabschluss hast Du erreicht? [IF age >= 16 ] Welchen Schulabschluss haben Sie erreicht?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0901",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower secondary school-leaving certificate",
+              "label_de": "1: Hauptschulabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: intermediate secondary school-leaving certificate",
+              "label_de": "2: Mittlere Reife/ Realschulabschluss"
+            },
+            {
+              "value": 3,
+              "label": "3: university of applied sciences entrance diploma (leaving certificate from a technical school)",
+              "label_de": "3. Fach-Abitur (Fachhochschulreife)"
+            },
+            {
+              "value": 4,
+              "label": "4: Abitur/university entrance diploma",
+              "label_de": "4: Abitur (Hochschulreife)"
+            },
+            {
+              "value": 5,
+              "label": "5: other school-leaving certificate:",
+              "label_de": "5: Sonstiger Abschluss"
+            },
+            {
+              "value": 6,
+              "label": "6: no",
+              "label_de": "6: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0903": {
+      "question": "eca0903",
+      "name": "eca0903",
+      "label": "When did you reach the new graduation? Please tell me the month and year.",
+      "label_de": "[If age >= 16] Wann haben Sie den Schulabschluss erreicht? Bitte nennen Sie mir Monat und Jahr. [If age < 16] Wann hast Du den Schulabschluss erreicht? Bitte nenne mir Monat und Jahr.",
+      "items": [
+        {
+          "item": "0",
+          "text": "When did you reach the new graduation? Please tell me the month and year.",
+          "text_de": "[If age >= 16] Wann haben Sie den Schulabschluss erreicht? Bitte nennen Sie mir Monat und Jahr. [If age < 16] Wann hast Du den Schulabschluss erreicht? Bitte nenne mir Monat und Jahr.",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0903",
+          "scale": "txt",
+          "number": "16",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "month",
+          "text_de": "Monat",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0903",
+          "scale": "int",
+          "number": "17",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "year",
+          "text_de": "Jahr",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0903",
+          "scale": "int",
+          "number": "18",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 2
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0906": {
+      "question": "eca0906",
+      "name": "eca0906",
+      "label": "What grade point average you have in your diploma?",
+      "label_de": "[If age>= 16] Welchen Notendurchschnitt hatten Sie in Ihrem Abschlusszeugnis? [If age < 16] Welchen Notendurchschnitt hattest Du in Deinem Abschlusszeugnis?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What grade point average you have in your diploma?",
+          "text_de": "[If age>= 16] Welchen Notendurchschnitt hatten Sie in Ihrem Abschlusszeugnis? [If age < 16] Welchen Notendurchschnitt hattest Du in Deinem Abschlusszeugnis?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0906",
+          "scale": "int",
+          "number": "19",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0100": {
+      "question": "eca0100",
+      "name": "eca0100",
+      "label": "What is your highest school-leaving qualification?",
+      "label_de": "[If age < 16] Welchen hoechsten Schulabschluss hast Du erreicht? [IF age > = 16 ] Welchen hoechsten Schulabschluss haben Sie erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your highest school-leaving qualification?",
+          "text_de": "[If age < 16] Welchen hoechsten Schulabschluss hast Du erreicht? [IF age > = 16 ] Welchen hoechsten Schulabschluss haben Sie erreicht?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "eca0100",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: I don't have a school degree yet",
+              "label_de": "-81: ich habe noch keinen Schulabschluss"
+            },
+            {
+              "value": 1,
+              "label": "1: left school without school-leaving certificate",
+              "label_de": "1: Schule ohne Abschluss verlassen"
+            },
+            {
+              "value": 2,
+              "label": "2: primary/lower secondary school-leaving certificate (GDR: grade 8)",
+              "label_de": "2: Volks-/Hauptschulabschluss (DDR: 8. Klasse)"
+            },
+            {
+              "value": 3,
+              "label": "3: intermediate secondary school-leaving certificate (GDR: grade 10)",
+              "label_de": "3: Realschulabschluss/Mittlere Reife (DDR: 10. Klasse)"
+            },
+            {
+              "value": 4,
+              "label": "4: university of applied sciences entrance diploma (leaving certificate from a technical school)",
+              "label_de": "4: Fachhochschulreife (Abschluss einer Fachoberschule)"
+            },
+            {
+              "value": 5,
+              "label": "5: Abitur/university entrance diploma",
+              "label_de": "5: Abitur/Hochschulreife"
+            },
+            {
+              "value": 6,
+              "label": "6: other school-leaving certificate",
+              "label_de": "6: sonstiger Schulabschluss"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0102": {
+      "question": "eca0102",
+      "name": "eca0102",
+      "label": "What was the last school you attended?",
+      "label_de": "[If age < 16] Welche Schule hast Du zuletzt besucht? [IF age > = 16] Welche Schule haben Sie zuletzt besucht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What was the last school you attended?",
+          "text_de": "[If age < 16] Welche Schule hast Du zuletzt besucht? [IF age > = 16] Welche Schule haben Sie zuletzt besucht?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0102",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
+            },
+            {
+              "value": 2,
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
+            },
+            {
+              "value": 3,
+              "label": "3: lower secondary school",
+              "label_de": "3: Hauptschule"
+            },
+            {
+              "value": 4,
+              "label": "4: intermediate-level secondary school",
+              "label_de": "4: Realschule"
+            },
+            {
+              "value": 5,
+              "label": "5: integrated lower and intermediate-level secondary school",
+              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: Waldorf school (Rudolf Steiner school)",
+              "label_de": "7: Waldorfschule"
+            },
+            {
+              "value": 8,
+              "label": "8: upper secondary school",
+              "label_de": "8: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 9,
+              "label": "9: school for children with special needs",
+              "label_de": "9: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 10,
+              "label": "10: other school, namely",
+              "label_de": "10: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0104": {
+      "question": "eca0104",
+      "name": "eca0104",
+      "label": "What year did you leave secondary school?",
+      "label_de": "[If age < 16] In welchem Jahr hast Du die allgemeinbildende Schule beendet? [IF age > = 16 ]In welchem Jahr haben Sie die allgemeinbildende Schule beendet?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What year did you leave secondary school?",
+          "text_de": "[If age < 16] In welchem Jahr hast Du die allgemeinbildende Schule beendet? [IF age > = 16 ]In welchem Jahr haben Sie die allgemeinbildende Schule beendet?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0104",
+          "scale": "int",
+          "number": "22",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0105": {
+      "question": "eca0105",
+      "name": "eca0105",
+      "label": "Please specify your final grade of your highest school leaving certificate.",
+      "label_de": "[If age < 16] Bitte gib uns die Abschlussnote Deines hoechsten Schulabschlusses an. [IF age > = 16] Bitte geben Sie die Abschlussnote Ihres hoechsten Schulabschlusses an.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please specify your final grade of your highest school leaving certificate.",
+          "text_de": "[If age < 16] Bitte gib uns die Abschlussnote Deines hoechsten Schulabschlusses an. [IF age > = 16] Bitte geben Sie die Abschlussnote Ihres hoechsten Schulabschlusses an.",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0105",
+          "scale": "dec",
+          "number": "23",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0200": {
+      "question": "eca0200",
+      "name": "eca0200",
+      "label": "What educational degree / diploma / qualification did you attain? If you have attained more than one, please state the highest.",
+      "label_de": "[If age < 16] Was ist Dein hoechster Ausbildungs- oder Studienabschluss? [IF age > = 16 ] Was ist Ihr hoechster Ausbildungs- oder Studienabschluss?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What educational degree / diploma / qualification did you attain? If you have attained more than one, please state the highest.",
+          "text_de": "[If age < 16] Was ist Dein hoechster Ausbildungs- oder Studienabschluss? [IF age > = 16 ] Was ist Ihr hoechster Ausbildungs- oder Studienabschluss?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0200",
+          "scale": "cat",
+          "number": "24",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no vocational training or higher educational certificate (yet)",
+              "label_de": "1: (noch) keinen Ausbildungs- oder Studienabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: vocational training, vocational school, commercial school",
+              "label_de": "2: Lehre, Facharbeiterabschluss, Berufsschule, Handelsschule"
+            },
+            {
+              "value": 3,
+              "label": "3: schools for healthcare",
+              "label_de": "3: Schule des Gesundheitswesens"
+            },
+            {
+              "value": 4,
+              "label": "4: professional school, technical college, e.g., master craftsman's or technician's certificate",
+              "label_de": "4: Fachschule, z.B. Meister-, Technikerabschluss"
+            },
+            {
+              "value": 5,
+              "label": "5: training for civil servants",
+              "label_de": "5: Beamtenausbildung"
+            },
+            {
+              "value": 6,
+              "label": "6: university of applied sciences [from F2F 2]",
+              "label_de": "6: Fachhochschule [ab F2F 2]"
+            },
+            {
+              "value": 7,
+              "label": "7: university of cooperative education [from F2F 2]",
+              "label_de": "7: Berufsakademie [ab F2F 2]"
+            },
+            {
+              "value": 8,
+              "label": "8: university of applied sciences, university of cooperative education [only F2F 1]",
+              "label_de": "8: Fachhochschule, Berufsakademie [nur in F2F 1]"
+            },
+            {
+              "value": 9,
+              "label": "9: university, higher educational institution",
+              "label_de": "9: Universitaet, Hochschule"
+            },
+            {
+              "value": 10,
+              "label": "10: PhD",
+              "label_de": "10: Promotion"
+            },
+            {
+              "value": 11,
+              "label": "11: other qualification",
+              "label_de": "11: sonstiger Abschluss"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 21,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0201": {
+      "question": "eca0201",
+      "name": "eca0201",
+      "label": "What year did you earn your educational degree/diploma/qualification?",
+      "label_de": "[If age < 16] In welchem Jahr hast Du den Ausbildungs- oder Studienabschluss erreicht? [IF age > = 16] In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What year did you earn your educational degree/diploma/qualification?",
+          "text_de": "[If age < 16] In welchem Jahr hast Du den Ausbildungs- oder Studienabschluss erreicht? [IF age > = 16] In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "concept": "eca0201",
+          "scale": "int",
+          "number": "25",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 22,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0220": {
+      "question": "eca0220",
+      "name": "eca0220",
+      "label": "Did you attain another educational degree in addition to this highest educational qualification?",
+      "label_de": "Liegt neben diesem hoechsten Ausbildungs- oder Studienabschluss ein weiterer Ausbildungsabschluss vor?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did you attain another educational degree in addition to this highest educational qualification?",
+          "text_de": "Liegt neben diesem hoechsten Ausbildungs- oder Studienabschluss ein weiterer Ausbildungsabschluss vor?",
+          "concept": "eca0220",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 23,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0221": {
+      "question": "eca0221",
+      "name": "eca0221",
+      "label": "What educational qualification is that?",
+      "label_de": "Welcher Ausbildungs- oder Studienabschluss ist das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What educational qualification is that?",
+          "text_de": "Welcher Ausbildungs- oder Studienabschluss ist das?",
+          "concept": "eca0221",
+          "scale": "cat",
+          "number": "27",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no vocational training or higher educational certificate (yet)",
+              "label_de": "1: (noch) keinen Ausbildungs- oder Studienabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: vocational training, vocational school, commercial school",
+              "label_de": "2: Lehre, Facharbeiterabschluss, Berufsschule, Handelsschule"
+            },
+            {
+              "value": 3,
+              "label": "3: schools for healthcare",
+              "label_de": "3: Schule des Gesundheitswesens"
+            },
+            {
+              "value": 4,
+              "label": "4: professional school, technical college, e.g., master craftsman's or technician's certificate",
+              "label_de": "4: Fachschule, z.B. Meister-, Technikerabschluss"
+            },
+            {
+              "value": 5,
+              "label": "5: training for civil servants",
+              "label_de": "5: Beamtenausbildung"
+            },
+            {
+              "value": 6,
+              "label": "6: university of applied sciences [from F2F 2]",
+              "label_de": "6: Fachhochschule [ab F2F 2]"
+            },
+            {
+              "value": 7,
+              "label": "7: university of cooperative education [from F2F 2]",
+              "label_de": "7: Berufsakademie [ab F2F 2]"
+            },
+            {
+              "value": 8,
+              "label": "8: university of applied sciences, university of cooperative education [only F2F 1]",
+              "label_de": "8: Fachhochschule, Berufsakademie [nur in F2F 1]"
+            },
+            {
+              "value": 9,
+              "label": "9: university, higher educational institution",
+              "label_de": "9: Universitaet, Hochschule"
+            },
+            {
+              "value": 10,
+              "label": "10: PhD",
+              "label_de": "10: Promotion"
+            },
+            {
+              "value": 11,
+              "label": "11: other qualification",
+              "label_de": "11: sonstiger Abschluss"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 24,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca1000": {
+      "question": "eca1000",
+      "name": "eca1000",
+      "label": "Since the last interview: Did you achieve a new vocational training qualification or university degree?",
+      "label_de": "[If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [If age < 16] Hast Du seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Since the last interview: Did you achieve a new vocational training qualification or university degree?",
+          "text_de": "[If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [If age < 16] Hast Du seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1000",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 25,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca1001": {
+      "question": "eca1001",
+      "name": "eca1001",
+      "label": "What is your new vocational training qualification or university degree?",
+      "label_de": "[MFN] Um was fuer einen Abschluss handelt es sich?",
+      "items": [
+        {
+          "item": "0",
+          "text": "What is your new vocational training qualification or university degree?",
+          "text_de": "[MFN] Um was fuer einen Abschluss handelt es sich?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "txt",
+          "number": "29",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "vocational training qualification: apprenticeship",
+          "text_de": "Beruflicher Ausbildungsabschluss: Lehre",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "vocational training qualification: vocational school, business school",
+          "text_de": "Beruflicher Ausbildungsabschluss: Berufsfachschule, Handelsschule",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "31",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "vocational training qualification: school for healthcare",
+          "text_de": "Beruflicher Ausbildungsabschluss: Schule des Gesundheitswesens",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "32",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "vocational training qualification: technical school (e.g. master craftsman, technical school)",
+          "text_de": "Beruflicher Ausbildungsabschluss: Fachschule (z.B. Meister, Technikerschule)",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "33",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "vocational training qualification: civil service training",
+          "text_de": "Beruflicher Ausbildungsabschluss: Beamtenausbildung",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "34",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "vocational training qualification: occupational retraining",
+          "text_de": "Beruflicher Ausbildungsabschluss: Betriebliche Umschulung",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "higher education degree: university of applied sciences",
+          "text_de": "Hochschulabschluss: Fachhochschulabschluss",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "36",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "higher education degree: university / technical / other universities",
+          "text_de": "Hochschulabschluss: Universitaetsabschluss / Technische / sonstige Hochschule",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "37",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "higher education degree: doctoral degree / habilitation",
+          "text_de": "Hochschulabschluss: Promotion / Habilitation",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "38",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "text": "other degree",
+          "text_de": "Sonstiger Abschluss",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "39",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "12",
+          "text": "do not know",
+          "text_de": "Weiss nicht",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "40",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "13",
+          "text": "not specified",
+          "text_de": "Keine Angabe",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Youth 2014",
+          "description_de": "Source: Adaptiert von: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "41",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 12
+        }
+      ],
+      "sn": 26,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0200": {
+      "question": "emp0200",
+      "name": "emp0200",
+      "label": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
+      "label_de": "[IF age < 16 & sex=2] Bist Du zurzeit im Mutterschutz, in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age < 16 & sex=1] Bist Du zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age < 50 & age > = 16 & sex=2] Sind Sie zurzeit im Mutterschutz, in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age > = 50 & sex=2] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age > = 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
+          "text_de": "[IF age < 16 & sex=2] Bist Du zurzeit im Mutterschutz, in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age < 16 & sex=1] Bist Du zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age < 50 & age > = 16 & sex=2] Sind Sie zurzeit im Mutterschutz, in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age > = 50 & sex=2] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age > = 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0200",
+          "scale": "cat",
+          "number": "42",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: [for women only] yes, maternity leave",
+              "label_de": "1: [nur bei Frauen] Ja, Mutterschutz"
+            },
+            {
+              "value": 2,
+              "label": "2: parental leave (up to F2F 2)",
+              "label_de": "2: Elternzeit (bis F2F 2)"
+            },
+            {
+              "value": 3,
+              "label": "3: leave of absence/special leave for childcare",
+              "label_de": "3: Beurlaubung/Sonderurlaub wegen Kinderbetreuung"
+            },
+            {
+              "value": 4,
+              "label": "4: no",
+              "label_de": "4: nein"
+            },
+            {
+              "value": 5,
+              "label": "5: yes, parental leave with part-time employment (from F2F 3)",
+              "label_de": "5: Ja, Elternzeit mit Teilzeitbeschaeftigung (ab F2F 3)"
+            },
+            {
+              "value": 6,
+              "label": "6: yes, parental leave without part-time employment (from F2F 3)",
+              "label_de": "5: Ja, Elternzeit ohnw Teilzeitbeschaeftigung (ab F2F 3)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 27,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0300": {
+      "question": "emp0300",
+      "name": "emp0300",
+      "label": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
+      "label_de": "[IF age < 16] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age > = 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
+          "text_de": "[IF age < 16] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age > = 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0300",
+          "scale": "cat",
+          "number": "43",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 28,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0400": {
+      "question": "emp0400",
+      "name": "emp0400",
+      "label": "Are you currently employed? What applies to you? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+      "label_de": "[IF age < 16 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age < 16 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age < 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age < 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age > = 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age > = 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age > = 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age > = 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you currently employed? What applies to you? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+          "text_de": "[IF age < 16 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age < 16 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age < 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age < 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age > = 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age > = 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age > = 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age > = 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
+          "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
+          "concept": "emp0400",
+          "scale": "cat",
+          "number": "44",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: full-time employment",
+              "label_de": "1: voll erwerbstaetig"
+            },
+            {
+              "value": 2,
+              "label": "2: employed on a part-time basis (also with several part-time employments)",
+              "label_de": "2: in Teilzeitbeschaeftigung"
+            },
+            {
+              "value": 3,
+              "label": "3: in-company training/apprenticeship or vocational retraining",
+              "label_de": "3: in betrieblicher Ausbildung/Lehre oder betrieblicher Umschulung"
+            },
+            {
+              "value": 4,
+              "label": "4: marginally employed, Mini-jobs, One-Euro-jobs, e.g., when drawing unemployment benefit type 2",
+              "label_de": "4: geringfuegig erwerbstaetig, Mini Job, Ein-Euro-Job, z.B. bei Bezug von Arbeitslosengeld 2"
+            },
+            {
+              "value": 5,
+              "label": "5: occasionally or irregularly employed",
+              "label_de": "5: gelegentlich oder unregelmaessig beschaeftigt"
+            },
+            {
+              "value": 6,
+              "label": "6: voluntary military service",
+              "label_de": "6: freiwilliger Wehrdienst"
+            },
+            {
+              "value": 7,
+              "label": "7: voluntary social/ecological year, German federal volunteer service",
+              "label_de": "7: freiwilliges soziales/oekologisches Jahr, Bundesfreiwilligendienst"
+            },
+            {
+              "value": 8,
+              "label": "8: partial retirement with zero working hours",
+              "label_de": "8: in Altersteilzeit mit Arbeitszeit Null"
+            },
+            {
+              "value": 9,
+              "label": "9: early retirement, retirement, occupational disablity",
+              "label_de": "9: Vorruhestaendler, Rentner, erwerbsunfaehig"
+            },
+            {
+              "value": 10,
+              "label": "10: not gainfully employed",
+              "label_de": "10: nicht erwerbstaetig"
+            },
+            {
+              "value": 11,
+              "label": "11: other, such as",
+              "label_de": "11: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 29,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0600": {
+      "question": "emp0600",
+      "name": "emp0600",
+      "label": "In which professional position are you currently employed? If you perform more than one occupation, please decide which one you consider to be your main occupation and answer the following questions in reference to this main occupation.",
+      "label_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit beschaeftigt? Wenn Du mehr als eine berufliche Taetigkeit ausuebst, entscheide Dich bitte, welche Taetigkeit Du als Haupttaetigkeit ansiehst und beantworte die folgenden Fragen in Bezug auf diese Haupttaetigkeit. [IF age > = 16 ] In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
+      "items": [
+        {
+          "item": "1",
+          "text": "In which professional position are you currently employed? If you perform more than one occupation, please decide which one you consider to be your main occupation and answer the following questions in reference to this main occupation.",
+          "text_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit beschaeftigt? Wenn Du mehr als eine berufliche Taetigkeit ausuebst, entscheide Dich bitte, welche Taetigkeit Du als Haupttaetigkeit ansiehst und beantworte die folgenden Fragen in Bezug auf diese Haupttaetigkeit. [IF age > = 16 ] In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0600",
+          "scale": "cat",
+          "number": "45",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: blue-collar worker (Arbeiter) (also in agriculture)",
+              "label_de": "1: Arbeiter/in (auch in der Landwirtschaft)"
+            },
+            {
+              "value": 2,
+              "label": "2: white-collar worker (Angestellte)",
+              "label_de": "2: Angestellte/r"
+            },
+            {
+              "value": 3,
+              "label": "3: civil servant (including judges and professional soldiers)",
+              "label_de": "3: Beamte/r (einschliesslich Richter und Berufssoldaten)"
+            },
+            {
+              "value": 4,
+              "label": "4: self-employed (including family members working for the self-employed)",
+              "label_de": "4: Selbstaendige/r (einschl. mithelfende Familienangehoerige)"
+            },
+            {
+              "value": 5,
+              "label": "5: apprentices / trainees / interns",
+              "label_de": "5: Auszubildende und Praktikanten"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 30,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0601": {
+      "question": "emp0601",
+      "name": "emp0601",
+      "label": "What is your current occupational status as a blue-collar worker?",
+      "label_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit als Arbeiter/Arbeiterin beschaeftigt? [IF age > = 16 ] In welcher beruflichen Stellung sind Sie derzeit als Arbeiter/Arbeiterin beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as a blue-collar worker?",
+          "text_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit als Arbeiter/Arbeiterin beschaeftigt? [IF age > = 16 ] In welcher beruflichen Stellung sind Sie derzeit als Arbeiter/Arbeiterin beschaeftigt?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0601",
+          "scale": "cat",
+          "number": "46",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: unskilled laborer",
+              "label_de": "1: ungelernte Arbeiter"
+            },
+            {
+              "value": 2,
+              "label": "2: semi-skilled laborer",
+              "label_de": "2: angelernte Arbeiter"
+            },
+            {
+              "value": 3,
+              "label": "3: skilled laborer",
+              "label_de": "3: gelernte und Facharbeiter"
+            },
+            {
+              "value": 4,
+              "label": "4: foreman / forewoman",
+              "label_de": "4: Vorarbeiter, Kolonnenfuehrer"
+            },
+            {
+              "value": 5,
+              "label": "5: master craftsman, technician",
+              "label_de": "5: Meister, Polier"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 31,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0602": {
+      "question": "emp0602",
+      "name": "emp0602",
+      "label": "What is your current occupational status as a self-employed person?",
+      "label_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit als Selbststaendiger/Selbststaendige beschaeftigt? [IF age > = 16 ] In welcher beruflichen Stellung sind Sie derzeit als Selbststaendiger/Selbststaendige beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as a self-employed person?",
+          "text_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit als Selbststaendiger/Selbststaendige beschaeftigt? [IF age > = 16 ] In welcher beruflichen Stellung sind Sie derzeit als Selbststaendiger/Selbststaendige beschaeftigt?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0602",
+          "scale": "cat",
+          "number": "47",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: self-employed farmer",
+              "label_de": "1: selbstaendige Landwirte"
+            },
+            {
+              "value": 2,
+              "label": "2: freelance professional, self-employed academic",
+              "label_de": "2: freie Berufe, selbstaendige Akademiker"
+            },
+            {
+              "value": 3,
+              "label": "3: other self-employed",
+              "label_de": "3: sonstige Selbstaendige"
+            },
+            {
+              "value": 4,
+              "label": "4: family workers",
+              "label_de": "4: mithelfende Familienangehoerige"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 32,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0603": {
+      "question": "emp0603",
+      "name": "emp0603",
+      "label": "Please tell me the number of your employees.",
+      "label_de": "[IF age < 16 ] Bitte benenne die Anzahl Deiner Mitarbeiter und Angestellten. [IF age >= 16 ] Bitte benennen Sie die Anzahl Ihrer Mitarbeiter und Angestellten.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please tell me the number of your employees.",
+          "text_de": "[IF age < 16 ] Bitte benenne die Anzahl Deiner Mitarbeiter und Angestellten. [IF age >= 16 ] Bitte benennen Sie die Anzahl Ihrer Mitarbeiter und Angestellten.",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0603",
+          "scale": "cat",
+          "number": "48",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: none",
+              "label_de": "1: keine"
+            },
+            {
+              "value": 2,
+              "label": "2: 1 to 9",
+              "label_de": "2: 1 bis 9"
+            },
+            {
+              "value": 3,
+              "label": "3: 10 and more",
+              "label_de": "3: 10 und mehr"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 33,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0604": {
+      "question": "emp0604",
+      "name": "emp0604",
+      "label": "What is your current occupational status as an apprentice / trainee / intern.",
+      "label_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as an apprentice / trainee / intern.",
+          "text_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0604",
+          "scale": "cat",
+          "number": "49",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: apprentices, commercial-technical",
+              "label_de": "1: Auszubildende, gewerblich-technisch"
+            },
+            {
+              "value": 2,
+              "label": "2: apprentices, commercial",
+              "label_de": "2: Auszubildende, kaufmaennisch"
+            },
+            {
+              "value": 3,
+              "label": "3: interns",
+              "label_de": "3: Volontaere, Praktikanten und aehnliches"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 34,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0605": {
+      "question": "emp0605",
+      "name": "emp0605",
+      "label": "What is your current occupational status as a white-collar worker?",
+      "label_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du als Angestellter/Angestellte beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie als Angestellter/Angestellte beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as a white-collar worker?",
+          "text_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du als Angestellter/Angestellte beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie als Angestellter/Angestellte beschaeftigt?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0605",
+          "scale": "cat",
+          "number": "50",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: master craftsman or technician in white-collar position",
+              "label_de": "1: Industrie- und Werkmeister im Angestelltenverhaeltnis"
+            },
+            {
+              "value": 2,
+              "label": "2: unskilled employee",
+              "label_de": "2: Angestellte mit einfacher Taetigkeit ohne Ausbildungsabschluss"
+            },
+            {
+              "value": 3,
+              "label": "3: skilled employee",
+              "label_de": "3: Angestellte mit einfacher Taetigkeit mit Ausbildungsabschluss"
+            },
+            {
+              "value": 4,
+              "label": "4: employee in qualified position",
+              "label_de": "4: Angestellte mit qualifizierter Taetigkeit (z.B. Sachbearbeiter, Buchhalter oder tech. Zeichner)"
+            },
+            {
+              "value": 5,
+              "label": "5: employee in highly-qualified position",
+              "label_de": "5: Angestellte mit hochqualifizierter Taetigkeit (z.B. wiss. Mitarbeiter, Ingenieur, Abteilungsleiter)"
+            },
+            {
+              "value": 6,
+              "label": "6: employee in managerial position",
+              "label_de": "6: Angestellte mit Leitungsfunktionen (z.B. Abteilungsleiter)"
+            },
+            {
+              "value": 7,
+              "label": "7: employee with comprehensive managerial responsibilities",
+              "label_de": "7: Angestellte mit umf. Fuehrungsaufg. (z.B. Direktor, Geschaeftsfuehrer, Vorstand groesserer Betriebe/Verbaende)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 35,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0606": {
+      "question": "emp0606",
+      "name": "emp0606",
+      "label": "What kind of managerial position do you hold?",
+      "label_de": "[IF age >= 16 ] In welcher Art von Fuehrungsposition sind Sie? [IF age < 16 ] In welcher Art von Fuehrungsposition bist Du?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What kind of managerial position do you hold?",
+          "text_de": "[IF age >= 16 ] In welcher Art von Fuehrungsposition sind Sie? [IF age < 16 ] In welcher Art von Fuehrungsposition bist Du?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0606",
+          "scale": "cat",
+          "number": "51",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: top management",
+              "label_de": "1: im Topmanagement (z.B. Vorstand, Geschaeftsfuehrung, Ressortleitung)"
+            },
+            {
+              "value": 2,
+              "label": "2: middle management",
+              "label_de": "2: im Mittelmanagement (z.B. Abteilungsleitung, Regionalleitung)"
+            },
+            {
+              "value": 3,
+              "label": "3: lower management position",
+              "label_de": "3: im unteren Management (z.B. Gruppen- o. Referatsleitung, Leitung einer kleineren Filiale/eines kleinen Betriebs)"
+            },
+            {
+              "value": 4,
+              "label": "4: high-qualified specialist position (e.g., project management)",
+              "label_de": "4: in einer hochqualifizierten Fachposition (z.B. Projektleitung)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 36,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0607": {
+      "question": "emp0607",
+      "name": "emp0607",
+      "label": "What is your current occupational status as a civil servant?",
+      "label_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit als Beamte/Beamtinbeschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Beamte/Beamtin beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as a civil servant?",
+          "text_de": "[IF age < 16 ] In welcher beruflichen Stellung bist Du derzeit als Beamte/Beamtinbeschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Beamte/Beamtin beschaeftigt?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0607",
+          "scale": "cat",
+          "number": "52",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower civil service",
+              "label_de": "1: Einfacher Dienst"
+            },
+            {
+              "value": 2,
+              "label": "2: medium level civil service",
+              "label_de": "2: Mittlerer Dienst"
+            },
+            {
+              "value": 3,
+              "label": "3: senior civil service",
+              "label_de": "3: Gehobener Dienst"
+            },
+            {
+              "value": 4,
+              "label": "4: higher civil service",
+              "label_de": "4: Hoeherer Dienst"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 37,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0700": {
+      "question": "emp0700",
+      "name": "emp0700",
+      "label": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+      "label_de": "[IF age < 16 ] Seit wann bist Du bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Du selbstaendig bist, gebe bitte an, seit wann Du Deine jetzige Taetigkeit ausuebst. Bitte gib das Datum so genau wie moeglich an. [IF age >= 16 ] Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie selbststaendig sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
+      "items": [
+        {
+          "item": "0",
+          "text": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+          "text_de": "[IF age < 16 ] Seit wann bist Du bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Du selbstaendig bist, gebe bitte an, seit wann Du Deine jetzige Taetigkeit ausuebst. Bitte gib das Datum so genau wie moeglich an. [IF age >= 16 ] Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie selbststaendig sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0700",
+          "scale": "txt",
+          "number": "53",
+          "sn": 0
+        }
+      ],
+      "sn": 38,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0702": {
+      "question": "emp0702",
+      "name": "emp0702",
+      "label": "Do you work for a public sector employer?",
+      "label_de": "[IF age < 16 ] Gehoert der Betrieb, in dem Du arbeitest, zum oeffentlichen Dienst? [IF age >= 16 ] Gehoert der Betrieb, in dem Sie arbeiten, zum oeffentlichen Dienst?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you work for a public sector employer?",
+          "text_de": "[IF age < 16 ] Gehoert der Betrieb, in dem Du arbeitest, zum oeffentlichen Dienst? [IF age >= 16 ] Gehoert der Betrieb, in dem Sie arbeiten, zum oeffentlichen Dienst?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0702",
+          "scale": "cat",
+          "number": "54",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 39,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0703": {
+      "question": "emp0703",
+      "name": "emp0703",
+      "label": "Is this work temporary or on a contractual basis?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "1",
+          "text": "Is this work temporary or on a contractual basis?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0703",
+          "scale": "cat",
+          "number": "55",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 40,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0704": {
+      "question": "emp0704",
+      "name": "emp0704",
+      "label": "Do you have a fixed-term or permanent employment contract?",
+      "label_de": "[IF age < 16 ] Hast Du einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag? [IF age >= 16 ] Haben Sie einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you have a fixed-term or permanent employment contract?",
+          "text_de": "[IF age < 16 ] Hast Du einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag? [IF age >= 16 ] Haben Sie einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0704",
+          "scale": "cat",
+          "number": "56",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply to me",
+              "label_de": "-81: trifft auf mich nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: permanent contract",
+              "label_de": "1: unbefristet"
+            },
+            {
+              "value": 2,
+              "label": "2: fixed-term contract",
+              "label_de": "2: befristet"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 41,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0705": {
+      "question": "emp0705",
+      "name": "emp0705",
+      "label": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (. . .emp0400)",
+      "label_de": "[IF age < 16 ] Wie viele Wochenstunden betraegt Deine vereinbarte Arbeitszeit ohne Ueberstunden? [IF age >= 16 ] Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (. . .emp0400)",
+          "text_de": "[IF age < 16 ] Wie viele Wochenstunden betraegt Deine vereinbarte Arbeitszeit ohne Ueberstunden? [IF age >= 16 ] Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0705",
+          "scale": "dec",
+          "number": "57",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: only year specified",
+              "label_de": "-89: nur Jahresangabe vorhanden"
+            },
+            {
+              "value": -81,
+              "label": "-81: no contractually defined working hours",
+              "label_de": "-81: keine festgelegte Arbeitszeit"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 42,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0706": {
+      "question": "emp0706",
+      "name": "emp0706",
+      "label": "And how many hours do you generally work per week, including any overtime?",
+      "label_de": "[IF age < 16 ] Und wie viel betraegt im Durchschnitt Deine tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden? [IF age >= 16 ] Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
+      "items": [
+        {
+          "item": "1",
+          "text": "And how many hours do you generally work per week, including any overtime?",
+          "text_de": "[IF age < 16 ] Und wie viel betraegt im Durchschnitt Deine tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden? [IF age >= 16 ] Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0706",
+          "scale": "dec",
+          "number": "58",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 43,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp2300": {
+      "question": "emp2300",
+      "name": "emp2300",
+      "label": "Do you work shifts?",
+      "label_de": "[IF age < 16 ] Arbeitest Du in Schichtarbeit? [IF age >= 16 ] Arbeiten Sie in Schichtarbeit?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you work shifts?",
+          "text_de": "[IF age < 16 ] Arbeitest Du in Schichtarbeit? [IF age >= 16 ] Arbeiten Sie in Schichtarbeit?",
+          "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
+          "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "concept": "emp2300",
+          "scale": "cat",
+          "number": "59",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 44,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp2301": {
+      "question": "emp2301",
+      "name": "emp2301",
+      "label": "Please indicate whether you work continuously, regularly or occasionally in shifts?",
+      "label_de": "[IF age >= 16 ] Geben Sie bitte an, ob Sie staendig, regelmaessig oder gelegentlich in Schichten arbeiten. [IF age < 16 ] Gib bitte an, ob Du staendig, regelmaessig oder gelegentlich in Schichten arbeitest.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate whether you work continuously, regularly or occasionally in shifts?",
+          "text_de": "[IF age >= 16 ] Geben Sie bitte an, ob Sie staendig, regelmaessig oder gelegentlich in Schichten arbeiten. [IF age < 16 ] Gib bitte an, ob Du staendig, regelmaessig oder gelegentlich in Schichten arbeitest.",
+          "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
+          "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "concept": "emp2301",
+          "scale": "cat",
+          "number": "60",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: constantly",
+              "label_de": "1: staendig"
+            },
+            {
+              "value": 2,
+              "label": "2: regularly (in regular intervals)",
+              "label_de": "2: regelmaessig (in gleichbleibenden Zeitabstaenden)"
+            },
+            {
+              "value": 3,
+              "label": "3: occasionally (only every now and then/at irregular intervals)",
+              "label_de": "3: gelegentlich (nur hin und wieder/in unregelmaessigen Zeitabstaenden)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 45,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp2401": {
+      "question": "emp2401",
+      "name": "emp2401",
+      "label": "What shifts do you usually work? Please indicate all options that appear in your shift schedule.",
+      "label_de": "[If age >= 16] Welche Schichten uebernehmen Sie in der Regel? Bitte geben Sie alle Optionen an, die in Ihrem Schichtplan vorkommen. [IF age < 16] Welche Schichten uebernimmst Du in der Regel? Bitte gebe alle Optionen an, die in Deinem Schichtplan vorkommen.",
+      "items": [
+        {
+          "item": "0",
+          "text": "What shifts do you usually work? Please indicate all options that appear in your shift schedule.",
+          "text_de": "[If age >= 16] Welche Schichten uebernehmen Sie in der Regel? Bitte geben Sie alle Optionen an, die in Ihrem Schichtplan vorkommen. [IF age < 16] Welche Schichten uebernimmst Du in der Regel? Bitte gebe alle Optionen an, die in Deinem Schichtplan vorkommen.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "emp2401",
+          "scale": "txt",
+          "number": "61",
+          "sn": 0
+        }
+      ],
+      "sn": 46,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp2304": {
+      "question": "emp2304",
+      "name": "emp2304",
+      "label": "Do you work - albeit occasionally - on weekends or holidays?",
+      "label_de": "[If age >= 16] Arbeiten Sie - wenn auch gelegentlich - am Wochenende oder an Feiertagen? [IF age < 16] Arbeitest Du - wenn auch gelegentlich - am Wochenende oder an Feiertagen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you work - albeit occasionally - on weekends or holidays?",
+          "text_de": "[If age >= 16] Arbeiten Sie - wenn auch gelegentlich - am Wochenende oder an Feiertagen? [IF age < 16] Arbeitest Du - wenn auch gelegentlich - am Wochenende oder an Feiertagen?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "emp2304",
+          "scale": "cat",
+          "number": "62",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 47,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp2302": {
+      "question": "emp2302",
+      "name": "emp2302",
+      "label": "How often do you work on Sundays or public holidays?",
+      "label_de": "[If age >= 16] Wie haeufig kommt es vor, dass Sie sonn- oder feiertags arbeiten? [If age < 16] Wie haeufig kommt es vor, dass Du sonn- oder feiertags arbeitest",
+      "items": [
+        {
+          "item": "1",
+          "text": "How often do you work on Sundays or public holidays?",
+          "text_de": "[If age >= 16] Wie haeufig kommt es vor, dass Sie sonn- oder feiertags arbeiten? [If age < 16] Wie haeufig kommt es vor, dass Du sonn- oder feiertags arbeitest",
+          "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
+          "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "concept": "emp2302",
+          "scale": "cat",
+          "number": "63",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: every Sunday and public holiday",
+              "label_de": "1: jeden Sonn- und Feiertag"
+            },
+            {
+              "value": 2,
+              "label": "2: at least once a month",
+              "label_de": "2: mindestens einmal im Monat"
+            },
+            {
+              "value": 3,
+              "label": "3: in phases",
+              "label_de": "3: phasenweise"
+            },
+            {
+              "value": 4,
+              "label": "4: rarely",
+              "label_de": "4: selten"
+            },
+            {
+              "value": 5,
+              "label": "5: never",
+              "label_de": "5: nie"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 48,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp2305": {
+      "question": "emp2305",
+      "name": "emp2305",
+      "label": "What is the rhythm of the change of your shifts?",
+      "label_de": "[If age >= 16] In welchem Rhythmus erfolgt der Wechsel Ihrer Schichten? [IF age < 16] In welchem Rhythmus erfolgt der Wechsel Deiner Schichten?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is the rhythm of the change of your shifts?",
+          "text_de": "[If age >= 16] In welchem Rhythmus erfolgt der Wechsel Ihrer Schichten? [IF age < 16] In welchem Rhythmus erfolgt der Wechsel Deiner Schichten?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "emp2305",
+          "scale": "cat",
+          "number": "64",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: sequence early, late/lunch, night shift (forward)",
+              "label_de": "1: Abfolge Frueh-, Spaet-/Mittags-, Nachtschicht (vorwaerts)"
+            },
+            {
+              "value": 2,
+              "label": "2: sequence night, late/lunch, early shift (backward)",
+              "label_de": "2: Abfolge Nacht-, Spaet-/Mittags-, Fruehschicht (rueckwaerts)"
+            },
+            {
+              "value": 3,
+              "label": "3: irregular",
+              "label_de": "3: Unregelmaessig"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 49,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp0708": {
+      "question": "emp0708",
+      "name": "emp0708",
+      "label": "Is it considered marginal employment in accordance with the 450/850 euro rule (mini-/midi-job)?",
+      "label_de": "Ist das eine geringfuegige Beschaeftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Is it considered marginal employment in accordance with the 450/850 euro rule (mini-/midi-job)?",
+          "text_de": "Ist das eine geringfuegige Beschaeftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
+          "concept": "emp0708",
+          "scale": "cat",
+          "number": "65",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, Mini-job (up to 450 Euro)",
+              "label_de": "1: ja, Mini-Job (bis 450 Euro)"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, Midi-job (451 till 850 Euro)",
+              "label_de": "2: ja, Midi-Job (451 bis 850 Euro)"
+            },
+            {
+              "value": 3,
+              "label": "3: no",
+              "label_de": "3: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 50,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp1000": {
+      "question": "emp1000",
+      "name": "emp1000",
+      "label": "Do you currently work in the city where you live?",
+      "label_de": "[If age >= 16] Liegt Ihr derzeitiger Arbeitsplatz an Ihrem Wohnort? [IF age < 16] Liegt Dein derzeitiger Arbeitsplatz an Deinem Wohnort?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you currently work in the city where you live?",
+          "text_de": "[If age >= 16] Liegt Ihr derzeitiger Arbeitsplatz an Ihrem Wohnort? [IF age < 16] Liegt Dein derzeitiger Arbeitsplatz an Deinem Wohnort?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "concept": "emp1000",
+          "scale": "cat",
+          "number": "66",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 51,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp1001": {
+      "question": "emp1001",
+      "name": "emp1001",
+      "label": "How often do you commute from your dwelling to your place of work?",
+      "label_de": "[IF age < 16] Wie oft pendelst Du von Deiner Hauptwohnung zu Deinem Arbeitsplatz? [IF age >= 16] Wie oft pendeln Sie von Ihrer Hauptwohnung zu Ihrem Arbeitsplatz?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How often do you commute from your dwelling to your place of work?",
+          "text_de": "[IF age < 16] Wie oft pendelst Du von Deiner Hauptwohnung zu Deinem Arbeitsplatz? [IF age >= 16] Wie oft pendeln Sie von Ihrer Hauptwohnung zu Ihrem Arbeitsplatz?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "concept": "emp1001",
+          "scale": "cat",
+          "number": "67",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: daily",
+              "label_de": "1: taeglich"
+            },
+            {
+              "value": 2,
+              "label": "2: several times a week",
+              "label_de": "2: mehrmals pro Woche"
+            },
+            {
+              "value": 3,
+              "label": "3: once a week",
+              "label_de": "3: 1-mal pro Woche"
+            },
+            {
+              "value": 4,
+              "label": "4: less frequently",
+              "label_de": "4: seltener"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 52,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp1002": {
+      "question": "emp1002",
+      "name": "emp1002",
+      "label": "How many kilometers is your workplace away from your main apartment? [F emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+      "label_de": "[If age >= 16] Wie viele Kilometer ist Ihr Arbeitsplatz von Ihrer Hauptwohnung entfernt? [IF age < 16] Wie viele Kilometer ist Dein Arbeitsplatz von Deiner Hauptwohnung entfernt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many kilometers is your workplace away from your main apartment? [F emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+          "text_de": "[If age >= 16] Wie viele Kilometer ist Ihr Arbeitsplatz von Ihrer Hauptwohnung entfernt? [IF age < 16] Wie viele Kilometer ist Dein Arbeitsplatz von Deiner Hauptwohnung entfernt?",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "concept": "emp1002",
+          "scale": "int",
+          "number": "68",
+          "answers": [
+            {
+              "value": -82,
+              "label": "-82: not at all, I work at home",
+              "label_de": "-82: gar nicht, ich arbeite von zuhause aus"
+            },
+            {
+              "value": -81,
+              "label": "-81: can't tell, because of switching workplaces",
+              "label_de": "-81: nicht zu sagen, da wechselnder Arbeitsort"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 53,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp3001": {
+      "question": "emp3001",
+      "name": "emp3001",
+      "label": "[ITEMBAT] [if age >= 16 ] [NCS] For each of the following statements, please indicate whether the statement applies or does not apply to you",
+      "label_de": "[ITEMBAT] [if age >= 16 ] [NCS] Bitte geben Sie bei jeder der folgenden Aussagen an, ob die Aussage fuer Sie zutrifft oder nicht zutrifft [if age < 16 ] [NCS] Bitte gebe bei jeder der folgenden Aussagen an, ob die Aussage fuer Dich zutrifft oder nicht zutrifft",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] [if age >= 16 ] [NCS] For each of the following statements, please indicate whether the statement applies or does not apply to you",
+          "text_de": "[ITEMBAT] [if age >= 16 ] [NCS] Bitte geben Sie bei jeder der folgenden Aussagen an, ob die Aussage fuer Sie zutrifft oder nicht zutrifft [if age < 16 ] [NCS] Bitte gebe bei jeder der folgenden Aussagen an, ob die Aussage fuer Dich zutrifft oder nicht zutrifft",
+          "description": "Source: Adapted from: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "description_de": "Source: Adaptiert von: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "concept": "emp3001",
+          "scale": "txt",
+          "number": "69",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "I sometimes have the feeling that I simply can't cope with my work anymore.",
+          "text_de": "Ich habe manchmal das Gefuehl, dass ich mit meiner Arbeit einfach nicht mehr fertig werde.",
+          "description": "Source: Adapted from: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "description_de": "Source: Adaptiert von: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "concept": "emp3001",
+          "scale": "cat",
+          "number": "70",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does apply",
+              "label_de": "1: trifft zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "I feel under constant pressure at work.",
+          "text_de": "Bei meiner Arbeit fuehle ich mich einem staendigen Druck ausgesetzt.",
+          "description": "Source: Adapted from: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "description_de": "Source: Adaptiert von: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "concept": "emp3001",
+          "scale": "cat",
+          "number": "71",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does apply",
+              "label_de": "1: trifft zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I often feel a bit rushed at work.",
+          "text_de": "Ich fuehle mich oft etwas abgehetzt bei der Arbeit.",
+          "description": "Source: Adapted from: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "description_de": "Source: Adaptiert von: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "concept": "emp3001",
+          "scale": "cat",
+          "number": "72",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does apply",
+              "label_de": "1: trifft zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "I usually feel very tense at work.",
+          "text_de": "Bei der Arbeit bin ich meist sehr angespannt.",
+          "description": "Source: Adapted from: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "description_de": "Source: Adaptiert von: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "concept": "emp3001",
+          "scale": "cat",
+          "number": "73",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does apply",
+              "label_de": "1: trifft zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "Sometimes I don't feel up to the demands that work places on me.",
+          "text_de": "Manchma fuehle ich mich den Anforderungen, die die Arbeit an mich stellt, nicht gewachsen.",
+          "description": "Source: Adapted from: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "description_de": "Source: Adaptiert von: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "concept": "emp3001",
+          "scale": "cat",
+          "number": "74",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does apply",
+              "label_de": "1: trifft zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "I need more breathers at work.",
+          "text_de": "Ich braeuchte mehr Verschnaufpausen bei der Arbeit",
+          "description": "Source: Adapted from: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "description_de": "Source: Adaptiert von: Weyer, G., Hodapp, V., & Neuhaeuser, S. (2014). Subjektive Zufriedenheit und Belastung von Arbeit und Beruf. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). https://doi.org/10.6102/zis3",
+          "concept": "emp3001",
+          "scale": "cat",
+          "number": "75",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does apply",
+              "label_de": "1: trifft zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            }
+          ],
+          "sn": 6
+        }
+      ],
+      "sn": 54,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "aut0101": {
+      "question": "aut0101",
+      "name": "aut0101",
+      "label": "[ITEMBAT]] [NCS] On a scale of 1 to 5, please tell me to what extent the following statements apply to your work situation. 1 means that the statement 'does not apply at all', 5 means that the statement 'fully applies'. With the values in between you can graduate your assessment.",
+      "label_de": "[ITEMBAT] [if age >= 16 ] [NCS] Bitte nennen Sie mir auf einer Skala von 1 bis 5, wie sehr die folgenden Aussagen auf Ihre Arbeitssituation zutreffen. Die 1 bedeutet, dass die Aussage ueberhaupt nicht zutrifft, die 5 bedeutet, dass die Aussage voll und ganz zutrifft. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen. [if age < 16 ] [NCS] Bitte nenne mir auf einer Skala von 1 bis 5, wie sehr die folgenden Aussagen auf Deine Arbeitssituation zutrifft. Die 1 bedeutet, dass die Aussage ueberhaupt nicht zutrifft, die 5 bedeutet, dass die Aussage voll und ganz zutrifft. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT]] [NCS] On a scale of 1 to 5, please tell me to what extent the following statements apply to your work situation. 1 means that the statement 'does not apply at all', 5 means that the statement 'fully applies'. With the values in between you can graduate your assessment.",
+          "text_de": "[ITEMBAT] [if age >= 16 ] [NCS] Bitte nennen Sie mir auf einer Skala von 1 bis 5, wie sehr die folgenden Aussagen auf Ihre Arbeitssituation zutreffen. Die 1 bedeutet, dass die Aussage ueberhaupt nicht zutrifft, die 5 bedeutet, dass die Aussage voll und ganz zutrifft. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen. [if age < 16 ] [NCS] Bitte nenne mir auf einer Skala von 1 bis 5, wie sehr die folgenden Aussagen auf Deine Arbeitssituation zutrifft. Die 1 bedeutet, dass die Aussage ueberhaupt nicht zutrifft, die 5 bedeutet, dass die Aussage voll und ganz zutrifft. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "concept": "aut0101",
+          "scale": "txt",
+          "number": "76",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Within my working hours, I can decide for myself when I do which work tasks.",
+          "text_de": "Ich kann innerhalb meiner Arbeitszeit selbst entscheiden, wann ich welche Arbeitsaufgaben erledige.",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "concept": "aut0101",
+          "scale": "cat",
+          "number": "77",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: applies completely",
+              "label_de": "5: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "I can decide for myself how I carry out my work tasks.",
+          "text_de": "Ich kann selbst entscheiden, auf welche Weise ich meine Arbeitsaufgaben erledige.",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "concept": "aut0101",
+          "scale": "cat",
+          "number": "78",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: applies completely",
+              "label_de": "5: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Most of my work involves routine activities and I rarely learn anything new.",
+          "text_de": "Meine Arbeit beinhaltet groesstenteils Routinetaetigkeiten, durch die ich selten etwas Neues hinzu lerne.",
+          "description": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "description_de": "Source: Abendroth, A.-K., Melzer, S. M., Jacobebbinghaus, P., & Schlechter, F. (2014). Methodenbericht Beschaeftigten- und Partnerbefragung des Linked-Employer-Employee Panels (LEEP-B3) im Projekt B3: Wechselwirkung zwischen Verwirklichungschancen im Berufs- und Privatleben (S. Liebig & J. Vompras, Eds.). Bielefeld, Germany: DFG Research Center (SFB) 882 From Heterogenities to Inequalities",
+          "concept": "aut0101",
+          "scale": "cat",
+          "number": "79",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: doesn't apply at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: applies completely",
+              "label_de": "5: trifft voll und ganz zu"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 55,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp1100": {
+      "question": "emp1100",
+      "name": "emp1100",
+      "label": "How likely do you think you will be to lose your job in the next two years? Please answer on a scale from 1 to 5, where 1 means 'very unlikely' and 5 means 'very likely'. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions about your last job. If you are currently on parental leave and working at the same time, answer the questions about your current job.",
+      "label_de": "[If age >= 16] Fuer wie wahrscheinlich halten Sie es, dass Sie in den kommenden zwei Jahren Ihren Arbeitsplatz verlieren? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 sehr unwahrscheinlich bedeutet und 5 sehr wahrscheinlich. [IF age < 16] Fuer wie wahrscheinlich haeltst Du es, dass Du in den kommenden zwei Jahren deinen Arbeitsplatz verlierst? Bitte antworte auf einer Skala von 1 bis 5, wobei 1 sehr unwahrscheinlich bedeutet und 5 sehr wahrscheinlich.",
+      "items": [
+        {
+          "item": "1",
+          "text": "How likely do you think you will be to lose your job in the next two years? Please answer on a scale from 1 to 5, where 1 means 'very unlikely' and 5 means 'very likely'. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions about your last job. If you are currently on parental leave and working at the same time, answer the questions about your current job.",
+          "text_de": "[If age >= 16] Fuer wie wahrscheinlich halten Sie es, dass Sie in den kommenden zwei Jahren Ihren Arbeitsplatz verlieren? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 sehr unwahrscheinlich bedeutet und 5 sehr wahrscheinlich. [IF age < 16] Fuer wie wahrscheinlich haeltst Du es, dass Du in den kommenden zwei Jahren deinen Arbeitsplatz verlierst? Bitte antworte auf einer Skala von 1 bis 5, wobei 1 sehr unwahrscheinlich bedeutet und 5 sehr wahrscheinlich.",
+          "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2012",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2013. SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 157: Series A. Berlin: DIW/SOEP",
+          "concept": "emp1100",
+          "scale": "cat",
+          "number": "80",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: very unlikely",
+              "label_de": "1: sehr unwahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: very likely",
+              "label_de": "5: sehr wahrscheinlich"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 56,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "emp1200": {
+      "question": "emp1200",
+      "name": "emp1200",
+      "label": "Overall, is what you do at work and what you get for it in return generally balanced? Please answer on a scale of 1 to 5, where 1 means that it is completely unbalanced and 5 means that it is completely balanced. With the values in between you can graduate your assessment again. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+      "label_de": "[If age >= 16] Alles in allem: Ist das, was Sie an Ihrem Arbeitsplatz leisten, und das, was Sie dafuer bekommen, in der Regel ausgeglichen? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 bedeutet, dass es absolut unausgeglichen ist und 5 bedeutet, dass es absolut ausgeglichen ist. Mit den Werten dazwischen koennen Sie Ihre Meinung wieder abstufen. [IF age < 16] Alles in allem: Ist das, was Du an Deinem Arbeitsplatz leistest, und das, was Du dafuer bekommst, in der Regel ausgeglichen? Bitte antworte auf einer Skala von 1 bis 5, wobei 1 bedeutet, dass es absolut unausgeglichen ist und 5 bedeutet, dass es absolut ausgeglichen ist. Mit den Werten dazwischen kannst Du Deine Meinung wieder abstufen.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Overall, is what you do at work and what you get for it in return generally balanced? Please answer on a scale of 1 to 5, where 1 means that it is completely unbalanced and 5 means that it is completely balanced. With the values in between you can graduate your assessment again. [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave, or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and working at the same time, please answer the questions in reference to your current job.",
+          "text_de": "[If age >= 16] Alles in allem: Ist das, was Sie an Ihrem Arbeitsplatz leisten, und das, was Sie dafuer bekommen, in der Regel ausgeglichen? Bitte antworten Sie auf einer Skala von 1 bis 5, wobei 1 bedeutet, dass es absolut unausgeglichen ist und 5 bedeutet, dass es absolut ausgeglichen ist. Mit den Werten dazwischen koennen Sie Ihre Meinung wieder abstufen. [IF age < 16] Alles in allem: Ist das, was Du an Deinem Arbeitsplatz leistest, und das, was Du dafuer bekommst, in der Regel ausgeglichen? Bitte antworte auf einer Skala von 1 bis 5, wobei 1 bedeutet, dass es absolut unausgeglichen ist und 5 bedeutet, dass es absolut ausgeglichen ist. Mit den Werten dazwischen kannst Du Deine Meinung wieder abstufen.",
+          "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
+          "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "concept": "emp1200",
+          "scale": "cat",
+          "number": "81",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: completely imbalanced",
+              "label_de": "1: absolut unausgeglichen"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: completely balanced",
+              "label_de": "5: absolut ausgeglichen"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 57,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "inc0103": {
+      "question": "inc0103",
+      "name": "inc0103",
+      "label": "If you can't or do not wish to give an amount, then please indicate in which income group your monthly gross income can be classified. Firstly is your monthly gross income smaller or at least larger than 2000 Euro?",
+      "label_de": "[if age >= 16] Wenn Sie einen exakten Betrag nicht nennen koennen oder wollen, dann geben Sie bitte an, in welche Einkommenskategorie Ihr durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann. [if age < 16] Wenn Du einen exakten Betrag nicht nennen kannst oder willst, dann gib bitte an, in welche Einkommenskategorie Dein durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann.",
+      "items": [
+        {
+          "item": "1",
+          "text": "If you can't or do not wish to give an amount, then please indicate in which income group your monthly gross income can be classified. Firstly is your monthly gross income smaller or at least larger than 2000 Euro?",
+          "text_de": "[if age >= 16] Wenn Sie einen exakten Betrag nicht nennen koennen oder wollen, dann geben Sie bitte an, in welche Einkommenskategorie Ihr durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann. [if age < 16] Wenn Du einen exakten Betrag nicht nennen kannst oder willst, dann gib bitte an, in welche Einkommenskategorie Dein durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann.",
+          "description": "Source: TNS Infratest Sozialforschung. 2011. [SOEP 2005 Pretest Mother and child 2] SOEP 2005 - Pretestbericht zum Befragungsjahr 2005 (Welle 22) des Sozio-oekonomischen Panels - Mutter und Kind 2. SOEP Survey Papers 54: Series B. Berlin: DIW/SOEP",
+          "description_de": "Source: TNS Infratest Sozialforschung. 2011. SOEP 2005 - Pretestbericht zum Befragungsjahr 2005 (Welle 22) des Sozio-oekonomischen Panels - Mutter und Kind 2. SOEP Survey Papers 54: Series B. Berlin: DIW/SOEP",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inc0100==-98 | inc0100==-99 | inc0101==-98 | inc0101==-99)",
+          "concept": "inc0103",
+          "scale": "cat",
+          "number": "82",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: below 500 Euro",
+              "label_de": "1: unter 500 Euro"
+            },
+            {
+              "value": 2,
+              "label": "2: 500 up to below 1,000 Euro",
+              "label_de": "2: 500 bis unter 1.000 Euro"
+            },
+            {
+              "value": 3,
+              "label": "3: 1,000 up to below 1,500 Euro",
+              "label_de": "3: 1.000 bis unter 1.500 Euro"
+            },
+            {
+              "value": 4,
+              "label": "4: 1,500 up to below 2,000 Euro",
+              "label_de": "4: 1.500 bis unter 2.000 Euro"
+            },
+            {
+              "value": 5,
+              "label": "5: 2,000 up to below 2,500 Euro",
+              "label_de": "5: 2.000 bis unter 2.500 Euro"
+            },
+            {
+              "value": 6,
+              "label": "6: 2,500 up to below 3,000 Euro",
+              "label_de": "6: 2.500 bis unter 3.000 Euro"
+            },
+            {
+              "value": 7,
+              "label": "7: 3,000 up to below 4,000 Euro",
+              "label_de": "7: 3.000 bis unter 4.000 Euro"
+            },
+            {
+              "value": 8,
+              "label": "8: 4,000 up to below 5,000 Euro",
+              "label_de": "8: 4.000 bis unter 5.000 Euro"
+            },
+            {
+              "value": 9,
+              "label": "9: 5,000 up to below 6,000 Euro",
+              "label_de": "9: 5.000 bis unter 6.000 Euro"
+            },
+            {
+              "value": 10,
+              "label": "10: 6,000 up to below 7,000 Euro",
+              "label_de": "10: 6.000 bis unter 7.000 Euro"
+            },
+            {
+              "value": 11,
+              "label": "11: 7,000 up to below 8,000 Euro",
+              "label_de": "11: 7.000 bis unter 8.000 Euro"
+            },
+            {
+              "value": 12,
+              "label": "12: 8,000 up to below 10,000 Euro",
+              "label_de": "12: 8.000 bis unter 10.000 Euro"
+            },
+            {
+              "value": 13,
+              "label": "13: 10,000 up to below 20,000 Euro",
+              "label_de": "13: 10.000 bis unter 20.000 Euro"
+            },
+            {
+              "value": 14,
+              "label": "14: 20,000 Euro and above",
+              "label_de": "14: 20.000 Euro und mehr"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 58,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "inc0200": {
+      "question": "inc0200",
+      "name": "inc0200",
+      "label": "When you think about your current gross income, would you say that what you get paid is fair for the work you do, or is it above or below what you consider fair?",
+      "label_de": "[if age >= 16] Wenn Sie an Ihr gegenwaertiges Bruttoeinkommen denken, wuerden Sie sagen, dass es in Bezug auf Ihre Taetigkeit gerecht oder ungerechterweise zu hoch oder ungerechterweise zu niedrig ist? [if age < 16] Wenn Du an Dein gegenwaertiges Bruttoeinkommen denkst, wuerdest Du sagen, dass es in Bezug auf Deine Taetigkeit gerecht oder ungerechterweise zu hoch oder ungerechterweise zu niedrig ist?",
+      "items": [
+        {
+          "item": "1",
+          "text": "When you think about your current gross income, would you say that what you get paid is fair for the work you do, or is it above or below what you consider fair?",
+          "text_de": "[if age >= 16] Wenn Sie an Ihr gegenwaertiges Bruttoeinkommen denken, wuerden Sie sagen, dass es in Bezug auf Ihre Taetigkeit gerecht oder ungerechterweise zu hoch oder ungerechterweise zu niedrig ist? [if age < 16] Wenn Du an Dein gegenwaertiges Bruttoeinkommen denkst, wuerdest Du sagen, dass es in Bezug auf Deine Taetigkeit gerecht oder ungerechterweise zu hoch oder ungerechterweise zu niedrig ist?",
+          "description": "Source: Linked Employer-Employee Panel Survey (LEEP): LEEP-B3 Project Interactions Between Capabilities in Work and Private Life: A Study of Employees in Different Work Organizations Employee and Partner Survey 2012",
+          "description_de": "Source: Linked-Employer-Employee Panels (LEEP): LEEP-B3 Projekt Wechselwirkungen zwischen Verwirklichungschancen im Berufs- und Privatleben Beschaeftigten- und Partnerbefragung 2012",
+          "concept": "inc0200",
+          "scale": "cat",
+          "number": "83",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: unfairly low",
+              "label_de": "1: ungerechterweise zu niedrig"
+            },
+            {
+              "value": 2,
+              "label": "2: fair",
+              "label_de": "2: gerecht"
+            },
+            {
+              "value": 3,
+              "label": "3: unfairly high",
+              "label_de": "3: ungerechterweise zu hoch"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 59,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0700": {
+      "question": "eca0700",
+      "name": "eca0700",
+      "label": "What type of school-leaving qualification would you like to attain?",
+      "label_de": "[IF age >4 & age < =15]: Welchen Schulabschluss moechtest Du einmal erreichen? [IF age >15 ]: Welchen Schulabschluss moechten Sie einmal erreichen? .",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of school-leaving qualification would you like to attain?",
+          "text_de": "[IF age >4 & age < =15]: Welchen Schulabschluss moechtest Du einmal erreichen? [IF age >15 ]: Welchen Schulabschluss moechten Sie einmal erreichen? .",
+          "description": "Source: Adapted from: Deutsches Jugendinstitut (DJI), Muenchen (1995). DJI Youth Survey 1992 (Youth and Politics). GESIS Data Archive, Cologne",
+          "description_de": "Source: Adaptiert von: Deutsches Jugendinstitut (DJI), Muenchen (1995). DJI-Jugendsurvey 1992 (Jugend und Politik). GESIS Datenarchiv, Koeln",
+          "concept": "eca0700",
+          "scale": "cat",
+          "number": "84",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower secondary school leaving certificate",
+              "label_de": "1: Hauptschulabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: intermediate secondary school leaving certificate",
+              "label_de": "2: Realschulabschluss (Mittlere Reife)"
+            },
+            {
+              "value": 3,
+              "label": "3: upper secondary school leaving certificate (Abitur/university entrance certificate)",
+              "label_de": "3: Abitur"
+            },
+            {
+              "value": 4,
+              "label": "4: no (school leaving) certificate",
+              "label_de": "4: keinen (Schul-)Abschluss"
+            },
+            {
+              "value": 5,
+              "label": "5: no specific school leaving certificate [from F2F 2]",
+              "label_de": "5: keinen bestimmten Schulabschluss [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 60,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    },
+    "eca0701": {
+      "question": "eca0701",
+      "name": "eca0701",
+      "label": "How likely do you think is it that you will attain this school-leaving qualification? Please tell me a value between 0 and 100. Value 0 stands for 0% probability, value 100 stands for 100% probability.",
+      "label_de": "[IF age >= 4 & age < =15]: Fuer wie wahrscheinlich haeltst Du es, dass Du diesen Abschluss erreichst? Bitte nenne einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet 0 Prozent Wahrscheinlichkeit und der Wert 100 100 Prozent Wahrscheinlichkeit. [IF age >15 ]: Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss erreichen? Bitte nennen Sie mir einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet 0 Prozent Wahrscheinlichkeit und der Wert 100 100 Prozent Wahrscheinlichkeit.",
+      "items": [
+        {
+          "item": "1",
+          "text": "How likely do you think is it that you will attain this school-leaving qualification? Please tell me a value between 0 and 100. Value 0 stands for 0% probability, value 100 stands for 100% probability.",
+          "text_de": "[IF age >= 4 & age < =15]: Fuer wie wahrscheinlich haeltst Du es, dass Du diesen Abschluss erreichst? Bitte nenne einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet 0 Prozent Wahrscheinlichkeit und der Wert 100 100 Prozent Wahrscheinlichkeit. [IF age >15 ]: Fuer wie wahrscheinlich halten Sie es, dass Sie diesen Abschluss erreichen? Bitte nennen Sie mir einen Wert zwischen 0 und 100, wobei der Wert 0 bedeutet 0 Prozent Wahrscheinlichkeit und der Wert 100 100 Prozent Wahrscheinlichkeit.",
+          "description": "Source: Adapted from: Deutsches Jugendinstitut (DJI), Muenchen (1995). DJI Youth Survey 1992 (Youth and Politics). GESIS Data Archive, Cologne",
+          "description_de": "Source: Adaptiert von: Deutsches Jugendinstitut (DJI), Muenchen (1995). DJI-Jugendsurvey 1992 (Jugend und Politik). GESIS Datenarchiv, Koeln",
+          "concept": "eca0701",
+          "scale": "cat",
+          "number": "85",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: 0%",
+              "label_de": "0: 0%"
+            },
+            {
+              "value": 1,
+              "label": "1: 10%",
+              "label_de": "1: 10%"
+            },
+            {
+              "value": 2,
+              "label": "2: 20%",
+              "label_de": "2: 20%"
+            },
+            {
+              "value": 3,
+              "label": "3: 30%",
+              "label_de": "3: 30%"
+            },
+            {
+              "value": 4,
+              "label": "4: 40%",
+              "label_de": "4: 40%"
+            },
+            {
+              "value": 5,
+              "label": "5: 50%",
+              "label_de": "5: 50%"
+            },
+            {
+              "value": 6,
+              "label": "6: 60%",
+              "label_de": "6: 60%"
+            },
+            {
+              "value": 7,
+              "label": "7: 70%",
+              "label_de": "7: 70%"
+            },
+            {
+              "value": 8,
+              "label": "8: 80%",
+              "label_de": "8: 80%"
+            },
+            {
+              "value": 9,
+              "label": "9: 90%",
+              "label_de": "9: 90%"
+            },
+            {
+              "value": 10,
+              "label": "10: 100%",
+              "label_de": "10: 100%"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 61,
+      "instrument": "wid5_F2F3_module3",
+      "study": "twinlife"
+    }
+  }
+}
