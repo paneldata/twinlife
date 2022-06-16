@@ -358,115 +358,6 @@
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
-    "sre0400s": {
-      "question": "sre0400s",
-      "name": "sre0400s",
-      "label": "What's it like with you and [name of sibling]?",
-      "label_de": "[ITEMBAT] [IF age >= 16] [NCS] Wie ist es bei Ihnen und <NAME GESCHWISTER>?",
-      "items": [
-        {
-          "item": "0",
-          "text": "What's it like with you and [name of sibling]?",
-          "text_de": "[ITEMBAT] [IF age >= 16] [NCS] Wie ist es bei Ihnen und <NAME GESCHWISTER>?",
-          "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "filter": "(flm==1) & (age0110>=17) & (inlist(ptyp,1,2)) & fls==1",
-          "concept": "sre0400s",
-          "scale": "txt",
-          "number": "8",
-          "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Does [name] think your mother supports <him/her> or you more?",
-          "text_de": "[IF sex_geschwister = 1 and Mutter_Vorhanden=1] Meint <NAME GESCHWISTER>, Ihre Mutter unterstuetze ihn oder Sie mehr? [IF sex_geschwister = 2 and Mutter_Vorhanden=1] Meint <NAME GESCHWISTER>, Ihre Mutter unterstuetze sie oder Sie mehr?",
-          "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "concept": "sre0400s",
-          "scale": "cat",
-          "number": "9",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: my sibling thinks that I generally get more support.",
-              "label_de": "1: Mein Geschwister denkt, dass ich in der Regel mehr unterstuetzt werde."
-            },
-            {
-              "value": 2,
-              "label": "2: my sibling thinks that I sometimes get more support.",
-              "label_de": "2: Mein Geschwister denkt, dass ich manchmal mehr unterstuetzt werde."
-            },
-            {
-              "value": 3,
-              "label": "3: my sibling thinks that we get the same amount of support",
-              "label_de": "3: Mein Geschwister denkt, dass wir beide gleichermassen unterstuetzt werden."
-            },
-            {
-              "value": 4,
-              "label": "4: my sibling thinks that she/he sometimes gets more support.",
-              "label_de": "4: Mein Geschwister denkt, dass sie/er manchmal mehr unterstuetzt wird."
-            },
-            {
-              "value": 5,
-              "label": "5: my sibling thinks that she/he generally gets more support.",
-              "label_de": "5: Mein Geschwister denkt, dass sie/er in der Regel mehr unterstuetzt wird."
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Does [name] think your father supports him/her or you more?",
-          "text_de": "[IF sex _geschwister= 1 and Vater_Vorhanden=1] Meint <NAME GESCHWISTER>, Ihr Vater unterstuetze ihn oder Sie mehr? [IF sex_geschwister = 2 and Vater_Vorhanden=1] Meint <NAME GESCHWISTER>, Ihr Vater unterstuetze sie oder Sie mehr?",
-          "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "concept": "sre0400s",
-          "scale": "cat",
-          "number": "10",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: my sibling thinks that I generally get more support.",
-              "label_de": "1: Mein Geschwister denkt, dass ich in der Regel mehr unterstuetzt werde."
-            },
-            {
-              "value": 2,
-              "label": "2: my sibling thinks that I sometimes get more support.",
-              "label_de": "2: Mein Geschwister denkt, dass ich manchmal mehr unterstuetzt werde."
-            },
-            {
-              "value": 3,
-              "label": "3: my sibling thinks that we get the same amount of support",
-              "label_de": "3: Mein Geschwister denkt, dass wir beide gleichermassen unterstuetzt werden."
-            },
-            {
-              "value": 4,
-              "label": "4: my sibling thinks that she/he sometimes gets more support.",
-              "label_de": "4: Mein Geschwister denkt, dass sie/er manchmal mehr unterstuetzt wird."
-            },
-            {
-              "value": 5,
-              "label": "5: my sibling thinks that she/he generally gets more support.",
-              "label_de": "5: Mein Geschwister denkt, dass sie/er in der Regel mehr unterstuetzt wird."
-            }
-          ],
-          "sn": 2
-        }
-      ],
-      "sn": 5,
-      "instrument": "wid5_F2F3_module11",
-      "study": "twinlife"
-    },
     "sre0400t": {
       "question": "sre0400t",
       "name": "sre0400t",
@@ -482,7 +373,7 @@
           "filter": "(flm==1) & (age0110>=17) & ptyp==200",
           "concept": "sre0400t",
           "scale": "txt",
-          "number": "11",
+          "number": "8",
           "sn": 0
         },
         {
@@ -493,7 +384,7 @@
           "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
           "concept": "sre0400t",
           "scale": "cat",
-          "number": "12",
+          "number": "9",
           "answers": [
             {
               "value": -81,
@@ -536,7 +427,7 @@
           "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
           "concept": "sre0400t",
           "scale": "cat",
-          "number": "13",
+          "number": "10",
           "answers": [
             {
               "value": -81,
@@ -572,7 +463,7 @@
           "sn": 2
         }
       ],
-      "sn": 6,
+      "sn": 5,
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
@@ -591,7 +482,7 @@
           "filter": "(flm==1) & (age0110>=17) & ptyp==200",
           "concept": "sre0400u",
           "scale": "txt",
-          "number": "14",
+          "number": "11",
           "sn": 0
         },
         {
@@ -602,7 +493,7 @@
           "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
           "concept": "sre0400u",
           "scale": "cat",
-          "number": "15",
+          "number": "12",
           "answers": [
             {
               "value": -81,
@@ -644,6 +535,115 @@
           "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
           "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
           "concept": "sre0400u",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: doesn't apply (explicit response)",
+              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
+            },
+            {
+              "value": 1,
+              "label": "1: my sibling thinks that I generally get more support.",
+              "label_de": "1: Mein Geschwister denkt, dass ich in der Regel mehr unterstuetzt werde."
+            },
+            {
+              "value": 2,
+              "label": "2: my sibling thinks that I sometimes get more support.",
+              "label_de": "2: Mein Geschwister denkt, dass ich manchmal mehr unterstuetzt werde."
+            },
+            {
+              "value": 3,
+              "label": "3: my sibling thinks that we get the same amount of support",
+              "label_de": "3: Mein Geschwister denkt, dass wir beide gleichermassen unterstuetzt werden."
+            },
+            {
+              "value": 4,
+              "label": "4: my sibling thinks that she/he sometimes gets more support.",
+              "label_de": "4: Mein Geschwister denkt, dass sie/er manchmal mehr unterstuetzt wird."
+            },
+            {
+              "value": 5,
+              "label": "5: my sibling thinks that she/he generally gets more support.",
+              "label_de": "5: Mein Geschwister denkt, dass sie/er in der Regel mehr unterstuetzt wird."
+            }
+          ],
+          "sn": 2
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid5_F2F3_module11",
+      "study": "twinlife"
+    },
+    "sre0400s": {
+      "question": "sre0400s",
+      "name": "sre0400s",
+      "label": "What's it like with you and [name of sibling]?",
+      "label_de": "[ITEMBAT] [IF age >= 16] [NCS] Wie ist es bei Ihnen und <NAME GESCHWISTER>?",
+      "items": [
+        {
+          "item": "0",
+          "text": "What's it like with you and [name of sibling]?",
+          "text_de": "[ITEMBAT] [IF age >= 16] [NCS] Wie ist es bei Ihnen und <NAME GESCHWISTER>?",
+          "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
+          "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
+          "filter": "(flm==1) & (age0110>=17) & (inlist(ptyp,1,2)) & fls==1",
+          "concept": "sre0400s",
+          "scale": "txt",
+          "number": "14",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Does [name] think your mother supports <him/her> or you more?",
+          "text_de": "[IF sex_geschwister = 1 and Mutter_Vorhanden=1] Meint <NAME GESCHWISTER>, Ihre Mutter unterstuetze ihn oder Sie mehr? [IF sex_geschwister = 2 and Mutter_Vorhanden=1] Meint <NAME GESCHWISTER>, Ihre Mutter unterstuetze sie oder Sie mehr?",
+          "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
+          "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
+          "concept": "sre0400s",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: doesn't apply (explicit response)",
+              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
+            },
+            {
+              "value": 1,
+              "label": "1: my sibling thinks that I generally get more support.",
+              "label_de": "1: Mein Geschwister denkt, dass ich in der Regel mehr unterstuetzt werde."
+            },
+            {
+              "value": 2,
+              "label": "2: my sibling thinks that I sometimes get more support.",
+              "label_de": "2: Mein Geschwister denkt, dass ich manchmal mehr unterstuetzt werde."
+            },
+            {
+              "value": 3,
+              "label": "3: my sibling thinks that we get the same amount of support",
+              "label_de": "3: Mein Geschwister denkt, dass wir beide gleichermassen unterstuetzt werden."
+            },
+            {
+              "value": 4,
+              "label": "4: my sibling thinks that she/he sometimes gets more support.",
+              "label_de": "4: Mein Geschwister denkt, dass sie/er manchmal mehr unterstuetzt wird."
+            },
+            {
+              "value": 5,
+              "label": "5: my sibling thinks that she/he generally gets more support.",
+              "label_de": "5: Mein Geschwister denkt, dass sie/er in der Regel mehr unterstuetzt wird."
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "Does [name] think your father supports him/her or you more?",
+          "text_de": "[IF sex _geschwister= 1 and Vater_Vorhanden=1] Meint <NAME GESCHWISTER>, Ihr Vater unterstuetze ihn oder Sie mehr? [IF sex_geschwister = 2 and Vater_Vorhanden=1] Meint <NAME GESCHWISTER>, Ihr Vater unterstuetze sie oder Sie mehr?",
+          "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
+          "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
+          "concept": "sre0400s",
           "scale": "cat",
           "number": "16",
           "answers": [
@@ -740,20 +740,19 @@
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
-    "sre0402s": {
-      "question": "sre0402s",
-      "name": "sre0402s",
-      "label": "What's it like with you and [name of sibling]?",
-      "label_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME GESCHWISTER>?",
+    "sre0402t": {
+      "question": "sre0402t",
+      "name": "sre0402t",
+      "label": "What's it like with you and [name of twin 1]?",
+      "label_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME DES ZWILLINGS>?",
       "items": [
         {
           "item": "1",
-          "text": "What's it like with you and [name of sibling]?",
-          "text_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME GESCHWISTER>?",
+          "text": "What's it like with you and [name of twin 1]?",
+          "text_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME DES ZWILLINGS>?",
           "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
           "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "filter": "(flm==1) & (age0110>=17) & (inlist(ptyp,1,2)) & fls==1",
-          "concept": "sre0402s",
+          "concept": "sre0402t",
           "scale": "cat",
           "number": "18",
           "answers": [
@@ -795,19 +794,19 @@
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
-    "sre0402t": {
-      "question": "sre0402t",
-      "name": "sre0402t",
-      "label": "What's it like with you and [name of twin 1]?",
+    "sre0402u": {
+      "question": "sre0402u",
+      "name": "sre0402u",
+      "label": "What's it like with you and [name of twin 2]?",
       "label_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME DES ZWILLINGS>?",
       "items": [
         {
           "item": "1",
-          "text": "What's it like with you and [name of twin 1]?",
+          "text": "What's it like with you and [name of twin 2]?",
           "text_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME DES ZWILLINGS>?",
           "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
           "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "concept": "sre0402t",
+          "concept": "sre0402u",
           "scale": "cat",
           "number": "19",
           "answers": [
@@ -849,19 +848,20 @@
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
-    "sre0402u": {
-      "question": "sre0402u",
-      "name": "sre0402u",
-      "label": "What's it like with you and [name of twin 2]?",
-      "label_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME DES ZWILLINGS>?",
+    "sre0402s": {
+      "question": "sre0402s",
+      "name": "sre0402s",
+      "label": "What's it like with you and [name of sibling]?",
+      "label_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME GESCHWISTER>?",
       "items": [
         {
           "item": "1",
-          "text": "What's it like with you and [name of twin 2]?",
-          "text_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME DES ZWILLINGS>?",
+          "text": "What's it like with you and [name of sibling]?",
+          "text_de": "[IF age >= 16] Wie ist es bei Ihnen und <NAME GESCHWISTER>?",
           "description": "Source: Adapted from: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
           "description_de": "Source: Adaptiert von: Stocker, C. M., Lanthier, R. P., & Furman, W. (1997). Sibling relationships in Early Adulthood. Journal of Family Psychology, 11 (2), 210-221; Heyeres, U. (2006). Adult sibling relationship questionnaire. Gruppendynamik und Organisationsberatung, 37 (2), 215-225",
-          "concept": "sre0402u",
+          "filter": "(flm==1) & (age0110>=17) & (inlist(ptyp,1,2)) & fls==1",
+          "concept": "sre0402s",
           "scale": "cat",
           "number": "20",
           "answers": [
@@ -4312,47 +4312,15 @@
       "label_de": "[IF age < 16] In vielen Familien kommt es zumindest manchmal zu Streit zwischen den Eltern. Wie ist das bei deinen Eltern? [If age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden)] Wie oft streiten sich Deine Eltern? [If age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Deine leiblichen Eltern? [IF age >= 16] In vielen Familien kommt es zumindest manchmal zu Streit zwischen den Eltern. Wie ist das bei Ihren Eltern? IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (kein Stiefmutter OR kein Stiefvater vorhanden)])] Wie oft streiten sich Ihre Eltern? IF age >= 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Ihre leiblichen Eltern?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "In many families, parents quarrel at least sometimes. What is it like with your parents? [IF (mother present & father present) & (mother OR father live in same household as respondent) & (no stepmother OR no stepfather present)] How often do your parents quarrel? [IF ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in same household as respondent)] How often do your biological parents quarrel?",
           "text_de": "[IF age < 16] In vielen Familien kommt es zumindest manchmal zu Streit zwischen den Eltern. Wie ist das bei deinen Eltern? [If age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden)] Wie oft streiten sich Deine Eltern? [If age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Deine leiblichen Eltern? [IF age >= 16] In vielen Familien kommt es zumindest manchmal zu Streit zwischen den Eltern. Wie ist das bei Ihren Eltern? IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (kein Stiefmutter OR kein Stiefvater vorhanden)])] Wie oft streiten sich Ihre Eltern? IF age >= 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Ihre leiblichen Eltern?",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detaillierte Informationen); Adaptiert von: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572",
           "filter": "(inlist(ptyp,1,2,200)) & age0110>=11 & (flm==1 & flf==1) & (hlm==1 | hlf==1)",
           "concept": "bus0300",
-          "scale": "cat",
+          "scale": "txt",
           "number": "96",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply: grew up with only one parent / parents had little or no contact",
-              "label_de": "-81: trifft nicht zu: nur bei einem Elternteil aufgewachsen / Eltern hatten keinen/kaum Kontakt"
-            },
-            {
-              "value": 1,
-              "label": "1: less often or not at all",
-              "label_de": "1: seltener oder gar nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: about once a month",
-              "label_de": "2: etwa einmal im Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal in der Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: several times a week",
-              "label_de": "4: mehrmals in der Woche"
-            },
-            {
-              "value": 5,
-              "label": "5: (almost) daily",
-              "label_de": "5: (fast) taeglich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -4367,47 +4335,15 @@
       "label_de": "IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter & Vater leben NICHT im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden)] Wie oft haben sich ihre Eltern gestritten, als Sie noch zuhause gewohnt haben? IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter & Vater leben NICHT im selben Haushalt wie Befragungsperson) & (Stiefmutter OR Stiefvater vorhanden)] Wie oft haben sich ihre leiblichen Eltern gestritten, als Sie noch zuhause gewohnt haben?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "[IF age >= 16 & (mother present & father present) & (mother & father do NOT live in same household as respondent) & (no stepmother OR no stepfather present)] How often did your parents quarrel when you were living at home? [IF age >= 16 & (mother present & father present) & (mother & father do NOT live in same household as respondent) & (stepmother OR stepfather present)] How often did your biological parents quarrel when you were living at home?",
           "text_de": "IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter & Vater leben NICHT im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden)] Wie oft haben sich ihre Eltern gestritten, als Sie noch zuhause gewohnt haben? IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter & Vater leben NICHT im selben Haushalt wie Befragungsperson) & (Stiefmutter OR Stiefvater vorhanden)] Wie oft haben sich ihre leiblichen Eltern gestritten, als Sie noch zuhause gewohnt haben?",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detaillierte Informationen); Adaptiert von: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572",
           "filter": "(inlist(ptyp,1,2,200)) & age0110>=11 & (flm==1 & flf==1) & (hlm==0 & hlf==0)",
           "concept": "bus0330",
-          "scale": "cat",
+          "scale": "txt",
           "number": "97",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply: grew up with only one parent / parents had little or no contact",
-              "label_de": "-81: trifft nicht zu: nur bei einem Elternteil aufgewachsen / Eltern hatten keinen/kaum Kontakt"
-            },
-            {
-              "value": 1,
-              "label": "1: less often or not at all",
-              "label_de": "1: seltener oder gar nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: about once a month",
-              "label_de": "2: etwa einmal im Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal in der Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: several times a week",
-              "label_de": "4: mehrmals in der Woche"
-            },
-            {
-              "value": 5,
-              "label": "5: (almost) daily",
-              "label_de": "5: (fast) taeglich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -4422,72 +4358,15 @@
       "label_de": "[IF age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie belastet bist Du durch den Streit zwischen Deinen Eltern? [IF age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie belastet bist Du durch den Streit zwischen Deinen leiblichen Eltern? [IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie belastet sind Sie durch den Streit zwischen Ihren Eltern? [IF age >= 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie belastet sind Sie durch den Streit zwischen Ihren leiblichen Eltern?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "[IF (mother present & father present) & (mother OR father live in same household as respondent) & (no stepmother OR no stepfather present present)] Overall, how burdened are you by the quarrel between your parents? [IF ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in same household as respondent)] Overall, how burdened are you by the quarrel between your biological parents?",
           "text_de": "[IF age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie belastet bist Du durch den Streit zwischen Deinen Eltern? [IF age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie belastet bist Du durch den Streit zwischen Deinen leiblichen Eltern? [IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie belastet sind Sie durch den Streit zwischen Ihren Eltern? [IF age >= 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie belastet sind Sie durch den Streit zwischen Ihren leiblichen Eltern?",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detaillierte Informationen); Adaptiert von: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572",
           "filter": "(inlist(ptyp,1,2,200)) & age0110>=11 & bus0300 >0 & bus0300 !=-81 & bus0300 !=-98 & bus0300 !=-99 & (flm==1 & flf==1) & (hlm==1 | hlf==1)",
           "concept": "bus0311",
-          "scale": "cat",
+          "scale": "txt",
           "number": "98",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not stressed at all",
-              "label_de": "0: ueberhaupt nicht belastet"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very stressed",
-              "label_de": "10: sehr belastet"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -4502,72 +4381,15 @@
       "label_de": "[IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter & Vater leben nicht im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie belastet waren Sie durch den Streit zwischen Ihren Eltern, als Sie noch zuhause gewohnt haben? [IF age >= 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter & Vater leben nicht im selben Haushalt wie Befragungsperson)] Alles in allem, wie belastet waren Sie durch den Streit zwischen Ihren leiblichen Eltern, als Sie noch zuhause gewohnt haben?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "[IF age >= 16 & (mother present & father present) & (mother & father do not live in same household as respondent) & (no stepmother OR no stepfather present present)] Overall, how burdened were you by the quarrel between your parents when you were living at home? [IF age >= 16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother & father do not live in the same household as respondent)] Overall, how burdened were you by the quarrel between your biological parents when you were living at home?",
           "text_de": "[IF age >= 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter & Vater leben nicht im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie belastet waren Sie durch den Streit zwischen Ihren Eltern, als Sie noch zuhause gewohnt haben? [IF age >= 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter & Vater leben nicht im selben Haushalt wie Befragungsperson)] Alles in allem, wie belastet waren Sie durch den Streit zwischen Ihren leiblichen Eltern, als Sie noch zuhause gewohnt haben?",
           "description": "Source: Developed for the project children from addiction-affected families - risk and resilience factors (Contact E.Hahn for detailed information); Adapted from: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572",
           "description_de": "Source: Entwickelt fuer das Projekt Kinder aus suchtbelasteten Famlien - Risiko- und Resilienzfaktoren (Kontaktieren Sie E.Hahn fuer detaillierte Informationen); Adaptiert von: Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing marital conflict from the child's perspective: The Children's Perception of Interparental Conflict Scale. Child development, 63(3), 558-572",
           "filter": "(inlist(ptyp,1,2,200)) & age0110>=11 & bus0330 >0 & bus0330 !=-81 & bus0330 !=-98 & bus0330 !=-99 & (flm==1 & flf==1) & (hlm==0 & hlf==0)",
           "concept": "bus0331",
-          "scale": "cat",
+          "scale": "txt",
           "number": "99",
-          "answers": [
-            {
-              "value": 0,
-              "label": "0: not stressed at all",
-              "label_de": "0: ueberhaupt nicht belastet"
-            },
-            {
-              "value": 1,
-              "label": "1",
-              "label_de": "1"
-            },
-            {
-              "value": 2,
-              "label": "2",
-              "label_de": "2"
-            },
-            {
-              "value": 3,
-              "label": "3",
-              "label_de": "3"
-            },
-            {
-              "value": 4,
-              "label": "4",
-              "label_de": "4"
-            },
-            {
-              "value": 5,
-              "label": "5",
-              "label_de": "5"
-            },
-            {
-              "value": 6,
-              "label": "6",
-              "label_de": "6"
-            },
-            {
-              "value": 7,
-              "label": "7",
-              "label_de": "7"
-            },
-            {
-              "value": 8,
-              "label": "8",
-              "label_de": "8"
-            },
-            {
-              "value": 9,
-              "label": "9",
-              "label_de": "9"
-            },
-            {
-              "value": 10,
-              "label": "10: very stressed",
-              "label_de": "10: sehr belastet"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -4715,46 +4537,14 @@
       "label_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
           "text_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
           "description": "Source: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Parenting Wave 2 2009/2010",
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
           "concept": "acp0100t",
-          "scale": "cat",
+          "scale": "txt",
           "number": "102",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply (no activities)",
-              "label_de": "-81: trifft nicht zu (keine Aktivitaeten)"
-            },
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: gar nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: about once a month",
-              "label_de": "2: etwa 1-mal im Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa 1-mal in der Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: several times a week",
-              "label_de": "4: mehrmals in der Woche"
-            },
-            {
-              "value": 5,
-              "label": "5: (almost) daily",
-              "label_de": "5: (fast) taeglich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -4762,19 +4552,19 @@
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
-    "acp0101t": {
-      "question": "acp0101t",
-      "name": "acp0101t",
-      "label": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
-      "label_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
+    "acp0100s": {
+      "question": "acp0100s",
+      "name": "acp0100s",
+      "label": "singing and making music",
+      "label_de": "Singen oder musizieren",
       "items": [
         {
           "item": "1",
-          "text": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
-          "text_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
+          "text": "singing and making music",
+          "text_de": "Singen oder musizieren",
           "description": "Source: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Parenting Wave 2 2009/2010",
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
-          "concept": "acp0101t",
+          "concept": "acp0100s",
           "scale": "cat",
           "number": "103",
           "answers": [
@@ -4810,90 +4600,25 @@
             }
           ],
           "sn": 0
-        }
-      ],
-      "sn": 42,
-      "instrument": "wid5_F2F3_module11",
-      "study": "twinlife"
-    },
-    "acp0102t": {
-      "question": "acp0102t",
-      "name": "acp0102t",
-      "label": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
-      "label_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
-      "items": [
-        {
-          "item": "1",
-          "text": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
-          "text_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
-          "description": "Source: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Parenting Wave 2 2009/2010",
-          "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
-          "concept": "acp0102t",
-          "scale": "cat",
-          "number": "104",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply (no activities)",
-              "label_de": "-81: trifft nicht zu (keine Aktivitaeten)"
-            },
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: gar nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: about once a month",
-              "label_de": "2: etwa 1-mal im Monat"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa 1-mal in der Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: several times a week",
-              "label_de": "4: mehrmals in der Woche"
-            },
-            {
-              "value": 5,
-              "label": "5: (almost) daily",
-              "label_de": "5: (fast) taeglich"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 43,
-      "instrument": "wid5_F2F3_module11",
-      "study": "twinlife"
-    },
-    "acp0103t": {
-      "question": "acp0103t",
-      "name": "acp0103t",
-      "label": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
-      "label_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
-      "items": [
+        },
         {
           "item": "0",
           "text": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
           "text_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
           "description": "Source: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Parenting Wave 2 2009/2010",
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
-          "concept": "acp0103t",
+          "concept": "acp0100s",
           "scale": "txt",
           "number": "105",
-          "sn": 0
+          "sn": 1
         },
         {
-          "item": "1",
-          "text": "going to the playground, going for walks, going on a trip, visits by other families",
-          "text_de": "Auf den Spielplatz gehen, Spaziergaenge, Ausfluege, Besuche von anderen Familien",
+          "item": "2",
+          "text": "reading books or stories",
+          "text_de": "Buecher oder Geschichten vorlesen",
           "description": "Source: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Parenting Wave 2 2009/2010",
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
-          "concept": "acp0103t",
+          "concept": "acp0100s",
           "scale": "cat",
           "number": "106",
           "answers": [
@@ -4928,17 +4653,17 @@
               "label_de": "5: (fast) taeglich"
             }
           ],
-          "sn": 1
+          "sn": 2
         },
         {
-          "item": "2",
-          "text": "going to the playground, going for walks, going on a trip, visits by other families",
-          "text_de": "Auf den Spielplatz gehen, Spaziergaenge, Ausfluege, Besuche von anderen Familien",
+          "item": "3",
+          "text": "sporting activities",
+          "text_de": "Sportliche Aktivitaeten",
           "description": "Source: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Parenting Wave 2 2009/2010",
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
-          "concept": "acp0103t",
+          "concept": "acp0100s",
           "scale": "cat",
-          "number": "110",
+          "number": "107",
           "answers": [
             {
               "value": -81,
@@ -4974,14 +4699,14 @@
           "sn": 3
         },
         {
-          "item": "3",
+          "item": "4",
           "text": "going to the playground, going for walks, going on a trip, visits by other families",
           "text_de": "Auf den Spielplatz gehen, Spaziergaenge, Ausfluege, Besuche von anderen Familien",
           "description": "Source: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Parenting Wave 2 2009/2010",
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
-          "concept": "acp0103t",
+          "concept": "acp0100s",
           "scale": "cat",
-          "number": "114",
+          "number": "108",
           "answers": [
             {
               "value": -81,
@@ -5017,7 +4742,29 @@
           "sn": 4
         }
       ],
-      "sn": 44,
+      "sn": 42,
+      "instrument": "wid5_F2F3_module11",
+      "study": "twinlife"
+    },
+    "acp0100u": {
+      "question": "acp0100u",
+      "name": "acp0100u",
+      "label": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
+      "label_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
+      "items": [
+        {
+          "item": "0",
+          "text": "The following question is about activities or events you take part in with [name of the child]. How often did you or your partner or someone else in the family take part in one of the following activities with [name of the child] in the last four weeks?",
+          "text_de": "[ITEMBAT] [NCS] Die naechste Frage bezieht sich auf gemeinsame Aktivitaeten und Unternehmungen mit <NAME DES KINDES>. [NCS] Wie oft haben Sie oder Ihr/e Partner/in oder jemand anderes aus der Familie in den letzten 4 Wochen gemeinsam mit <NAME DES KINDES> folgende Aktivitaeten ausgefuehrt?",
+          "description": "Source: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Parenting Wave 2 2009/2010",
+          "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
+          "concept": "acp0100u",
+          "scale": "txt",
+          "number": "104",
+          "sn": 0
+        }
+      ],
+      "sn": 43,
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
@@ -5035,7 +4782,7 @@
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
           "concept": "acc0100",
           "scale": "txt",
-          "number": "115",
+          "number": "109",
           "sn": 0
         },
         {
@@ -5046,7 +4793,7 @@
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
           "concept": "acc0100",
           "scale": "cat",
-          "number": "116",
+          "number": "110",
           "answers": [
             {
               "value": 1,
@@ -5084,7 +4831,7 @@
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
           "concept": "acc0100",
           "scale": "cat",
-          "number": "117",
+          "number": "111",
           "answers": [
             {
               "value": 1,
@@ -5122,7 +4869,7 @@
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
           "concept": "acc0100",
           "scale": "cat",
-          "number": "118",
+          "number": "112",
           "answers": [
             {
               "value": 1,
@@ -5160,7 +4907,7 @@
           "description_de": "Source: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Erziehung Welle 2 2009/2010",
           "concept": "acc0100",
           "scale": "cat",
-          "number": "119",
+          "number": "113",
           "answers": [
             {
               "value": 1,
@@ -5191,7 +4938,7 @@
           "sn": 4
         }
       ],
-      "sn": 45,
+      "sn": 44,
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
@@ -5210,7 +4957,7 @@
           "filter": "(inlist(ptyp,1,2)) & age0110>=11 & f2f_mcasi==1",
           "concept": "tst1700",
           "scale": "cat",
-          "number": "120",
+          "number": "114",
           "answers": [
             {
               "value": 1,
@@ -5226,7 +4973,7 @@
           "sn": 0
         }
       ],
-      "sn": 46,
+      "sn": 45,
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
@@ -5245,7 +4992,7 @@
           "filter": "(inlist(ptyp,1,2)) & age0110>=11 & f2f_mcasi==1",
           "concept": "tst1701",
           "scale": "cat",
-          "number": "121",
+          "number": "115",
           "answers": [
             {
               "value": 1,
@@ -5276,7 +5023,7 @@
           "sn": 0
         }
       ],
-      "sn": 47,
+      "sn": 46,
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
@@ -5295,7 +5042,7 @@
           "filter": "(inlist(ptyp,1,2)) & age0110>=11 & f2f_mcasi==1",
           "concept": "tst1800",
           "scale": "cat",
-          "number": "122",
+          "number": "116",
           "answers": [
             {
               "value": 1,
@@ -5316,7 +5063,7 @@
           "sn": 0
         }
       ],
-      "sn": 48,
+      "sn": 47,
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
@@ -5334,7 +5081,56 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "tsp1900",
           "scale": "cat",
-          "number": "123",
+          "number": "117",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: easy",
+              "label_de": "1: leicht"
+            },
+            {
+              "value": 2,
+              "label": "2: rather easy",
+              "label_de": "2: eher leicht"
+            },
+            {
+              "value": 3,
+              "label": "3: neither",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: rather difficult",
+              "label_de": "4: eher schwer"
+            },
+            {
+              "value": 5,
+              "label": "5: difficult",
+              "label_de": "5: schwer"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 48,
+      "instrument": "wid5_F2F3_module11",
+      "study": "twinlife"
+    },
+    "tsp1901": {
+      "question": "tsp1901",
+      "name": "tsp1901",
+      "label": "And how do you feel about this planning today?",
+      "label_de": "Und wie empfinden Sie diese Planung heute?",
+      "items": [
+        {
+          "item": "1",
+          "text": "And how do you feel about this planning today?",
+          "text_de": "Und wie empfinden Sie diese Planung heute?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "tsp1901",
+          "scale": "cat",
+          "number": "118",
           "answers": [
             {
               "value": 1,
@@ -5369,55 +5165,6 @@
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
-    "tsp1901": {
-      "question": "tsp1901",
-      "name": "tsp1901",
-      "label": "And how do you feel about this planning today?",
-      "label_de": "Und wie empfinden Sie diese Planung heute?",
-      "items": [
-        {
-          "item": "1",
-          "text": "And how do you feel about this planning today?",
-          "text_de": "Und wie empfinden Sie diese Planung heute?",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "tsp1901",
-          "scale": "cat",
-          "number": "124",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: easy",
-              "label_de": "1: leicht"
-            },
-            {
-              "value": 2,
-              "label": "2: rather easy",
-              "label_de": "2: eher leicht"
-            },
-            {
-              "value": 3,
-              "label": "3: neither",
-              "label_de": "3: weder noch"
-            },
-            {
-              "value": 4,
-              "label": "4: rather difficult",
-              "label_de": "4: eher schwer"
-            },
-            {
-              "value": 5,
-              "label": "5: difficult",
-              "label_de": "5: schwer"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 50,
-      "instrument": "wid5_F2F3_module11",
-      "study": "twinlife"
-    },
     "tsp1800": {
       "question": "tsp1800",
       "name": "tsp1800",
@@ -5425,35 +5172,18 @@
       "label_de": "Wenn Sie die nachfolgenden Schaubilder betrachten, welche der drei Abbildungen spiegelt Ihrer Meinung nach am besten die Beziehung zwischen den beiden Zwillingen wider?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When you look at the charts below, which of the three figures do you think best reflects the relationship between the two twins?",
           "text_de": "Wenn Sie die nachfolgenden Schaubilder betrachten, welche der drei Abbildungen spiegelt Ihrer Meinung nach am besten die Beziehung zwischen den beiden Zwillingen wider?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "tsp1800",
-          "scale": "cat",
-          "number": "125",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: figure 1",
-              "label_de": "1: Abbildung 1"
-            },
-            {
-              "value": 2,
-              "label": "2: figure 2",
-              "label_de": "2: Abbildung 2"
-            },
-            {
-              "value": 3,
-              "label": "3: figure 3",
-              "label_de": "3: Abbildung 3"
-            }
-          ],
+          "scale": "txt",
+          "number": "119",
           "sn": 0
         }
       ],
-      "sn": 51,
+      "sn": 50,
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     },
@@ -5464,36 +5194,19 @@
       "label_de": "[IF age >= 11 and < 16]: Wenn Du die nachfolgenden Schaubilder betrachtest, welche der drei Abbildungen spiegelt Deiner Meinung nach am besten die Beziehung zwischen den beiden Zwillingen wider? [IF age >= 16]: Wenn Sie die nachfolgenden Schaubilder betrachten, welche der drei Abbildungen spiegelt Ihrer Meinung nach am besten die Beziehung zwischen den beiden Zwillingen wider?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When you look at the charts below, which of the three figures do you think best reflects the relationship between the two twins?",
           "text_de": "[IF age >= 11 and < 16]: Wenn Du die nachfolgenden Schaubilder betrachtest, welche der drei Abbildungen spiegelt Deiner Meinung nach am besten die Beziehung zwischen den beiden Zwillingen wider? [IF age >= 16]: Wenn Sie die nachfolgenden Schaubilder betrachten, welche der drei Abbildungen spiegelt Ihrer Meinung nach am besten die Beziehung zwischen den beiden Zwillingen wider?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "(ptyp==200) & age0110>=11 & f2f_mcasi==1",
           "concept": "tss1800",
-          "scale": "cat",
-          "number": "126",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: figure 1",
-              "label_de": "1: Abbildung 1"
-            },
-            {
-              "value": 2,
-              "label": "2: figure 2",
-              "label_de": "2: Abbildung 2"
-            },
-            {
-              "value": 3,
-              "label": "3: figure 3",
-              "label_de": "3: Abbildung 3"
-            }
-          ],
+          "scale": "txt",
+          "number": "120",
           "sn": 0
         }
       ],
-      "sn": 52,
+      "sn": 51,
       "instrument": "wid5_F2F3_module11",
       "study": "twinlife"
     }

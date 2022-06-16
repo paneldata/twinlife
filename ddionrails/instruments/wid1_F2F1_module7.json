@@ -689,14 +689,25 @@
           "scale": "txt",
           "number": "25",
           "sn": 0
-        },
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid1_F2F1_module7",
+      "study": "twinlife"
+    },
+    "dia1501": {
+      "question": "dia1501",
+      "name": "dia1501",
+      "label": "Illness has occurred from (month):",
+      "label_de": "Erkrankung ist aufgetreten von Monat:",
+      "items": [
         {
           "item": "1",
           "text": "Illness has occurred from (month):",
           "text_de": "Erkrankung ist aufgetreten von Monat:",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0101",
+          "concept": "dia1501",
           "scale": "int",
           "number": "26",
           "answers": [
@@ -711,121 +722,18 @@
               "label_de": "9999: leide immer noch an der Erkrankung"
             }
           ],
-          "sn": 1
+          "sn": 0
         },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0101",
-          "scale": "int",
-          "number": "27",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0101",
-          "scale": "cat",
-          "number": "28",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0101",
-          "scale": "cat",
-          "number": "29",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
-        }
-      ],
-      "sn": 6,
-      "instrument": "wid1_F2F1_module7",
-      "study": "twinlife"
-    },
-    "dia0201": {
-      "question": "dia0201",
-      "name": "dia0201",
-      "label": "You said you have been diagnosed with [insert disease from the previous question ]. During what period did the illness occur?",
-      "label_de": "Sie haben angegeben, dass bei Ihnen [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten?",
-      "items": [
         {
           "item": "0",
           "text": "You said you have been diagnosed with [insert disease from the previous question ]. During what period did the illness occur?",
           "text_de": "Sie haben angegeben, dass bei Ihnen [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten?",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "filter": "dia0200 == 1",
-          "concept": "dia0201",
+          "filter": "dia1500 == 1",
+          "concept": "dia1501",
           "scale": "txt",
-          "number": "30",
-          "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0201",
-          "scale": "int",
-          "number": "31",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
+          "number": "40",
           "sn": 1
         },
         {
@@ -834,9 +742,9 @@
           "text_de": "Erkrankung ist aufgetreten von Jahr:",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0201",
+          "concept": "dia1501",
           "scale": "int",
-          "number": "32",
+          "number": "41",
           "answers": [
             {
               "value": -89,
@@ -857,9 +765,9 @@
           "text_de": "bis Monat:",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0201",
+          "concept": "dia1501",
           "scale": "cat",
-          "number": "33",
+          "number": "42",
           "answers": [
             {
               "value": -89,
@@ -880,9 +788,9 @@
           "text_de": "bis Jahr:",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0201",
+          "concept": "dia1501",
           "scale": "cat",
-          "number": "34",
+          "number": "43",
           "answers": [
             {
               "value": -89,
@@ -902,6 +810,29 @@
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
+    "dia0201": {
+      "question": "dia0201",
+      "name": "dia0201",
+      "label": "You said you have been diagnosed with [insert disease from the previous question ]. During what period did the illness occur?",
+      "label_de": "Sie haben angegeben, dass bei Ihnen [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten?",
+      "items": [
+        {
+          "item": "0",
+          "text": "You said you have been diagnosed with [insert disease from the previous question ]. During what period did the illness occur?",
+          "text_de": "Sie haben angegeben, dass bei Ihnen [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten?",
+          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
+          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
+          "filter": "dia0200 == 1",
+          "concept": "dia0201",
+          "scale": "txt",
+          "number": "27",
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid1_F2F1_module7",
+      "study": "twinlife"
+    },
     "dia0301": {
       "question": "dia0301",
       "name": "dia0301",
@@ -917,103 +848,11 @@
           "filter": "dia0300 == 1",
           "concept": "dia0301",
           "scale": "txt",
-          "number": "35",
+          "number": "28",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0301",
-          "scale": "int",
-          "number": "36",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0301",
-          "scale": "int",
-          "number": "37",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0301",
-          "scale": "cat",
-          "number": "38",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0301",
-          "scale": "cat",
-          "number": "39",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 8,
+      "sn": 9,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1032,103 +871,11 @@
           "filter": "dia0400 == 1",
           "concept": "dia0401",
           "scale": "txt",
-          "number": "40",
+          "number": "29",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0401",
-          "scale": "int",
-          "number": "41",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0401",
-          "scale": "int",
-          "number": "42",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0401",
-          "scale": "cat",
-          "number": "43",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0401",
-          "scale": "cat",
-          "number": "44",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 9,
+      "sn": 10,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1147,103 +894,11 @@
           "filter": "dia0500 == 1",
           "concept": "dia0501",
           "scale": "txt",
-          "number": "45",
+          "number": "30",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0501",
-          "scale": "int",
-          "number": "46",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0501",
-          "scale": "int",
-          "number": "47",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0501",
-          "scale": "cat",
-          "number": "48",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0501",
-          "scale": "cat",
-          "number": "49",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 10,
+      "sn": 11,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1262,103 +917,11 @@
           "filter": "dia0600 == 1",
           "concept": "dia0601",
           "scale": "txt",
-          "number": "50",
+          "number": "31",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0601",
-          "scale": "int",
-          "number": "51",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0601",
-          "scale": "int",
-          "number": "52",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0601",
-          "scale": "cat",
-          "number": "53",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0601",
-          "scale": "cat",
-          "number": "54",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 11,
+      "sn": 12,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1377,103 +940,11 @@
           "filter": "dia0700 == 1",
           "concept": "dia0701",
           "scale": "txt",
-          "number": "55",
+          "number": "32",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0701",
-          "scale": "int",
-          "number": "56",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0701",
-          "scale": "int",
-          "number": "57",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0701",
-          "scale": "cat",
-          "number": "58",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0701",
-          "scale": "cat",
-          "number": "59",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 12,
+      "sn": 13,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1492,103 +963,11 @@
           "filter": "dia0800 == 1",
           "concept": "dia0801",
           "scale": "txt",
-          "number": "60",
+          "number": "33",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0801",
-          "scale": "int",
-          "number": "61",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0801",
-          "scale": "int",
-          "number": "62",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0801",
-          "scale": "cat",
-          "number": "63",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0801",
-          "scale": "cat",
-          "number": "64",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 13,
+      "sn": 14,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1607,103 +986,11 @@
           "filter": "dia0900 == 1",
           "concept": "dia0901",
           "scale": "txt",
-          "number": "65",
+          "number": "34",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0901",
-          "scale": "int",
-          "number": "66",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0901",
-          "scale": "int",
-          "number": "67",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0901",
-          "scale": "cat",
-          "number": "68",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia0901",
-          "scale": "cat",
-          "number": "69",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 14,
+      "sn": 15,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1722,103 +1009,11 @@
           "filter": "dia1000 == 1",
           "concept": "dia1001",
           "scale": "txt",
-          "number": "70",
+          "number": "35",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1001",
-          "scale": "int",
-          "number": "71",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1001",
-          "scale": "int",
-          "number": "72",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1001",
-          "scale": "cat",
-          "number": "73",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1001",
-          "scale": "cat",
-          "number": "74",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 15,
+      "sn": 16,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1837,103 +1032,11 @@
           "filter": "dia1100 == 1",
           "concept": "dia1101",
           "scale": "txt",
-          "number": "75",
+          "number": "36",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1101",
-          "scale": "int",
-          "number": "76",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1101",
-          "scale": "int",
-          "number": "77",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1101",
-          "scale": "cat",
-          "number": "78",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1101",
-          "scale": "cat",
-          "number": "79",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 16,
+      "sn": 17,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -1952,103 +1055,11 @@
           "filter": "dia1200 == 1",
           "concept": "dia1201",
           "scale": "txt",
-          "number": "80",
+          "number": "37",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1201",
-          "scale": "int",
-          "number": "81",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1201",
-          "scale": "int",
-          "number": "82",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1201",
-          "scale": "cat",
-          "number": "83",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1201",
-          "scale": "cat",
-          "number": "84",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 17,
+      "sn": 18,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -2067,103 +1078,11 @@
           "filter": "dia1300 == 1",
           "concept": "dia1301",
           "scale": "txt",
-          "number": "85",
+          "number": "38",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1301",
-          "scale": "int",
-          "number": "86",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1301",
-          "scale": "int",
-          "number": "87",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1301",
-          "scale": "cat",
-          "number": "88",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1301",
-          "scale": "cat",
-          "number": "89",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
-      "sn": 18,
+      "sn": 19,
       "instrument": "wid1_F2F1_module7",
       "study": "twinlife"
     },
@@ -2182,215 +1101,8 @@
           "filter": "dia1400 == 1",
           "concept": "dia1401",
           "scale": "txt",
-          "number": "90",
+          "number": "39",
           "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1401",
-          "scale": "int",
-          "number": "91",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1401",
-          "scale": "int",
-          "number": "92",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1401",
-          "scale": "cat",
-          "number": "93",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1401",
-          "scale": "cat",
-          "number": "94",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
-        }
-      ],
-      "sn": 19,
-      "instrument": "wid1_F2F1_module7",
-      "study": "twinlife"
-    },
-    "dia1501": {
-      "question": "dia1501",
-      "name": "dia1501",
-      "label": "You said you have been diagnosed with [insert disease from the previous question ]. During what period did the illness occur?",
-      "label_de": "Sie haben angegeben, dass bei Ihnen [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten?",
-      "items": [
-        {
-          "item": "0",
-          "text": "You said you have been diagnosed with [insert disease from the previous question ]. During what period did the illness occur?",
-          "text_de": "Sie haben angegeben, dass bei Ihnen [Erkrankung aus der vorhergehenden Frage einfuegen] festgestellt worden ist. In welchem Zeitraum ist die Erkrankung aufgetreten?",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "filter": "dia1500 == 1",
-          "concept": "dia1501",
-          "scale": "txt",
-          "number": "95",
-          "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "Illness has occurred from (month):",
-          "text_de": "Erkrankung ist aufgetreten von Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1501",
-          "scale": "int",
-          "number": "96",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "Illness has occurred from (year):",
-          "text_de": "Erkrankung ist aufgetreten von Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1501",
-          "scale": "int",
-          "number": "97",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "until (month):",
-          "text_de": "bis Monat:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1501",
-          "scale": "cat",
-          "number": "98",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 3
-        },
-        {
-          "item": "4",
-          "text": "until (year)",
-          "text_de": "bis Jahr:",
-          "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2011",
-          "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2011",
-          "concept": "dia1501",
-          "scale": "cat",
-          "number": "99",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: only year specified",
-              "label_de": "-89: nur Jahresangabe vorhanden"
-            },
-            {
-              "value": 9999,
-              "label": "9999: I am still suffering from this condition",
-              "label_de": "9999: leide immer noch an der Erkrankung"
-            }
-          ],
-          "sn": 4
         }
       ],
       "sn": 20,
@@ -2412,7 +1124,7 @@
           "filter": "age0110 >= 16",
           "concept": "hbe0100",
           "scale": "cat",
-          "number": "100",
+          "number": "44",
           "answers": [
             {
               "value": 1,
@@ -2467,7 +1179,7 @@
           "filter": "hbe0100 >= 1 & hbe0100 <= 5",
           "concept": "hbe0101",
           "scale": "cat",
-          "number": "101",
+          "number": "45",
           "answers": [
             {
               "value": -86,
@@ -2502,7 +1214,7 @@
           "filter": "hbe0100 >= 1 & hbe0100 <= 4",
           "concept": "hbe0102",
           "scale": "cat",
-          "number": "102",
+          "number": "46",
           "answers": [
             {
               "value": 1,
@@ -2542,7 +1254,7 @@
           "filter": "age0110 >= 16",
           "concept": "hbe0200",
           "scale": "cat",
-          "number": "103",
+          "number": "47",
           "answers": [
             {
               "value": -81,
@@ -2572,7 +1284,7 @@
           "filter": "hbe0200 >= 1 & hbe0200 < 97",
           "concept": "hbe0201",
           "scale": "cat",
-          "number": "104",
+          "number": "48",
           "answers": [
             {
               "value": 1,
@@ -2612,7 +1324,7 @@
           "filter": "hbe0200 >= 1 & hbe0200 < 97",
           "concept": "hbe0202",
           "scale": "cat",
-          "number": "105",
+          "number": "49",
           "answers": [
             {
               "value": 1,
@@ -2659,27 +1371,15 @@
       "label_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When you drink what you would describe as a lot in a day or in an evening, how much do you drink? Please state the number of glasses.",
           "text_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
           "filter": "hbe0202 >= 1 & hbe0202 <= 5",
           "concept": "hbe0210",
-          "scale": "int",
-          "number": "106",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
+          "scale": "txt",
+          "number": "50",
           "sn": 0
         }
       ],
@@ -2694,27 +1394,15 @@
       "label_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When you drink what you would describe as a lot in a day or in an evening, how much do you drink? Please state the number of glasses.",
           "text_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
           "filter": "hbe0202 >= 1 & hbe0202 <= 5",
           "concept": "hbe0220",
-          "scale": "int",
-          "number": "107",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
+          "scale": "txt",
+          "number": "51",
           "sn": 0
         }
       ],
@@ -2729,27 +1417,15 @@
       "label_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When you drink what you would describe as a lot in a day or in an evening, how much do you drink? Please state the number of glasses.",
           "text_de": "Wenn Sie an einem Tag oder Abend Ihrer Meinung nach 'viel' trinken, wieviel trinken Sie dann? Bitte geben Sie die Anzahl der Glaeser an.",
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2010",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
           "filter": "hbe0202 >= 1 & hbe0202 <= 5",
           "concept": "hbe0230",
-          "scale": "int",
-          "number": "108",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
+          "scale": "txt",
+          "number": "52",
           "sn": 0
         }
       ],
@@ -2772,7 +1448,7 @@
           "filter": "hbe0200 >= 1 & hbe0200 < 97",
           "concept": "hbe0240",
           "scale": "txt",
-          "number": "109",
+          "number": "53",
           "sn": 0
         },
         {
@@ -2783,7 +1459,7 @@
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
           "concept": "hbe0240",
           "scale": "cat",
-          "number": "110",
+          "number": "54",
           "answers": [
             {
               "value": 1,
@@ -2826,7 +1502,7 @@
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
           "concept": "hbe0240",
           "scale": "cat",
-          "number": "111",
+          "number": "55",
           "answers": [
             {
               "value": 1,
@@ -2869,7 +1545,7 @@
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2010",
           "concept": "hbe0240",
           "scale": "cat",
-          "number": "112",
+          "number": "56",
           "answers": [
             {
               "value": 1,
@@ -2924,7 +1600,7 @@
           "filter": "hbe0200 >= 1 & hbe0200 < 97",
           "concept": "hbe0250",
           "scale": "cat",
-          "number": "113",
+          "number": "57",
           "answers": [
             {
               "value": 1,
@@ -2974,7 +1650,7 @@
           "filter": "age0110 >= 16",
           "concept": "hbe0300",
           "scale": "cat",
-          "number": "114",
+          "number": "58",
           "answers": [
             {
               "value": -89,
@@ -3024,7 +1700,7 @@
           "filter": "age0110 >= 16",
           "concept": "hbe0400",
           "scale": "cat",
-          "number": "115",
+          "number": "59",
           "answers": [
             {
               "value": 1,
@@ -3069,7 +1745,7 @@
           "filter": "age0110 > 12 & ptyp != 1 & ptyp != 2",
           "concept": "bdy0100",
           "scale": "txt",
-          "number": "116",
+          "number": "60",
           "sn": 0
         },
         {
@@ -3080,7 +1756,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "bdy0100",
           "scale": "int",
-          "number": "117",
+          "number": "61",
           "answers": [
             {
               "value": -86,
@@ -3103,7 +1779,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "bdy0100",
           "scale": "int",
-          "number": "118",
+          "number": "62",
           "answers": [
             {
               "value": -86,
@@ -3138,7 +1814,7 @@
           "filter": "age0110 > 12 & (ptyp == 1 | ptyp == 2)",
           "concept": "bdy0200",
           "scale": "int",
-          "number": "119",
+          "number": "63",
           "answers": [
             {
               "value": -86,
@@ -3165,15 +1841,26 @@
       "label_de": "ab 16 Jahren: Im Folgenden wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen bzw. die Sie ablehnen koennen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "Below we would like to know how satisfied you are with your life in general. You can agree or disagree with the following statements.",
           "text_de": "ab 16 Jahren: Im Folgenden wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen bzw. die Sie ablehnen koennen.",
           "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
           "filter": "age0110 >= 16",
           "concept": "gls0100",
+          "scale": "txt",
+          "number": "64",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "In most ways my life is close to my ideal.",
+          "text_de": "In den meisten Punkten ist mein Leben meinem Ideal nahe.",
+          "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
           "scale": "cat",
-          "number": "120",
+          "number": "65",
           "answers": [
             {
               "value": -85,
@@ -3206,7 +1893,179 @@
               "label_de": "5: starke Zustimmung"
             }
           ],
-          "sn": 0
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "The conditions of my life are excellent.",
+          "text_de": "Meine Lebensbedingungen sind hervorragend.",
+          "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "66",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I am satisfied with my life.",
+          "text_de": "Ich bin zufrieden mit meinem Leben.",
+          "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "67",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "So far, I have gotten the important things I want in life.",
+          "text_de": "Ich habe bisher die wichtigen Dinge, die ich mir vom Leben wuensche, auch bekommen.",
+          "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "68",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "If I could live my life over, I would change almost nothing.",
+          "text_de": "Wenn ich mein Leben noch einmal leben koennte, wuerde ich fast nichts aendern.",
+          "description": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "description_de": "Source: Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction with Life Scale. Journal of Personality Assessment, 49 (1), 71-75",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "69",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 5
         }
       ],
       "sn": 36,
@@ -3228,7 +2087,7 @@
           "filter": "age0110 < 16",
           "concept": "gls0600",
           "scale": "txt",
-          "number": "121",
+          "number": "70",
           "sn": 0
         },
         {
@@ -3239,7 +2098,7 @@
           "description_de": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
           "concept": "gls0600",
           "scale": "cat",
-          "number": "122",
+          "number": "71",
           "answers": [
             {
               "value": -85,
@@ -3282,7 +2141,50 @@
           "description_de": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
           "concept": "gls0600",
           "scale": "cat",
-          "number": "124",
+          "number": "72",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I am happy with my life.",
+          "text_de": "Ich bin mit meinem Leben gluecklich.",
+          "description": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
+          "description_de": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "73",
           "answers": [
             {
               "value": -85,
@@ -3318,14 +2220,14 @@
           "sn": 3
         },
         {
-          "item": "3",
-          "text": "I am happy with my life.",
-          "text_de": "Ich bin mit meinem Leben gluecklich.",
+          "item": "4",
+          "text": "So far, I have gotten the important things I want in life.",
+          "text_de": "Ich habe bisher die wichtigen Dinge, die ich mir vom Leben wuensche, auch bekommen.",
           "description": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
           "description_de": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
           "concept": "gls0600",
           "scale": "cat",
-          "number": "126",
+          "number": "74",
           "answers": [
             {
               "value": -85,
@@ -3361,14 +2263,14 @@
           "sn": 4
         },
         {
-          "item": "4",
-          "text": "So far, I have gotten the important things I want in life.",
-          "text_de": "Ich habe bisher die wichtigen Dinge, die ich mir vom Leben wuensche, auch bekommen.",
+          "item": "5",
+          "text": "If I could live my life over, I would have it the same way.",
+          "text_de": "Wenn ich mein Leben noch einmal leben koennte, wuerde ich es mir genauso wuenschen.",
           "description": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
           "description_de": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
           "concept": "gls0600",
           "scale": "cat",
-          "number": "128",
+          "number": "75",
           "answers": [
             {
               "value": -85,
@@ -3402,49 +2304,6 @@
             }
           ],
           "sn": 5
-        },
-        {
-          "item": "5",
-          "text": "If I could live my life over, I would have it the same way.",
-          "text_de": "Wenn ich mein Leben noch einmal leben koennte, wuerde ich es mir genauso wuenschen.",
-          "description": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
-          "description_de": "Source: Satisfaction with Life Scale adapted for Children; Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating validity evidence of the Satisfaction with Life Scale adapted for children. Social Indicators Research, 96, 229-247",
-          "concept": "gls0600",
-          "scale": "cat",
-          "number": "130",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 1,
-              "label": "1: strong rejection",
-              "label_de": "1: starke Ablehnung"
-            },
-            {
-              "value": 2,
-              "label": "2: rather rejection",
-              "label_de": "2: leichte Ablehnung"
-            },
-            {
-              "value": 3,
-              "label": "3: neither rejection nor agreement",
-              "label_de": "3: weder Ablehnung noch Zustimmung"
-            },
-            {
-              "value": 4,
-              "label": "4: rather agreement",
-              "label_de": "4: leichte Zustimmung"
-            },
-            {
-              "value": 5,
-              "label": "5: strong agreement",
-              "label_de": "5: starke Zustimmung"
-            }
-          ],
-          "sn": 6
         }
       ],
       "sn": 37,
@@ -3466,7 +2325,7 @@
           "filter": "age0110 > 12",
           "concept": "sop0100",
           "scale": "txt",
-          "number": "131",
+          "number": "76",
           "sn": 0
         },
         {
@@ -3477,7 +2336,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "sop0100",
           "scale": "cat",
-          "number": "132",
+          "number": "77",
           "answers": [
             {
               "value": -85,
@@ -3515,7 +2374,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "sop0100",
           "scale": "cat",
-          "number": "133",
+          "number": "78",
           "answers": [
             {
               "value": -85,
@@ -3553,7 +2412,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "sop0100",
           "scale": "cat",
-          "number": "134",
+          "number": "79",
           "answers": [
             {
               "value": -85,
@@ -3591,7 +2450,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "sop0100",
           "scale": "cat",
-          "number": "135",
+          "number": "80",
           "answers": [
             {
               "value": -85,
@@ -3629,7 +2488,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "sop0100",
           "scale": "cat",
-          "number": "136",
+          "number": "81",
           "answers": [
             {
               "value": -85,
@@ -3667,7 +2526,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "sop0100",
           "scale": "cat",
-          "number": "137",
+          "number": "82",
           "answers": [
             {
               "value": -85,
@@ -3705,7 +2564,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "sop0100",
           "scale": "cat",
-          "number": "138",
+          "number": "83",
           "answers": [
             {
               "value": -85,
@@ -3743,7 +2602,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "sop0100",
           "scale": "cat",
-          "number": "139",
+          "number": "84",
           "answers": [
             {
               "value": -85,
@@ -3793,7 +2652,7 @@
           "filter": "(sop0100 > 0 & sop0100 < 4) | (sop0101 > 0 & sop0101 < 4) | (sop0102 > 0 & sop0102 < 4) | (sop0103 > 0 & sop0103 < 4) | (sop0104 > 0 & sop0104 < 4) | (sop0105 > 0 & sop0105 < 4) | (sop0106 > 0 & sop0106 < 4) | (sop0150 > 0 & sop0150 < 4)",
           "concept": "sop0200",
           "scale": "cat",
-          "number": "140",
+          "number": "85",
           "answers": [
             {
               "value": -89,
@@ -3843,7 +2702,7 @@
           "filter": "age0110 >= 10",
           "concept": "pop0100",
           "scale": "cat",
-          "number": "141",
+          "number": "86",
           "answers": [
             {
               "value": 1,
@@ -3888,7 +2747,7 @@
           "filter": "age0110 > 12",
           "concept": "pop0200",
           "scale": "txt",
-          "number": "142",
+          "number": "87",
           "sn": 0
         },
         {
@@ -3899,7 +2758,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "pop0200",
           "scale": "cat",
-          "number": "143",
+          "number": "88",
           "answers": [
             {
               "value": -89,
@@ -3937,7 +2796,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "pop0200",
           "scale": "cat",
-          "number": "144",
+          "number": "89",
           "answers": [
             {
               "value": -89,
@@ -3975,7 +2834,7 @@
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "concept": "pop0200",
           "scale": "cat",
-          "number": "145",
+          "number": "90",
           "answers": [
             {
               "value": -89,
@@ -4025,7 +2884,7 @@
           "filter": "age0110 >= 18",
           "concept": "pop0300",
           "scale": "cat",
-          "number": "146",
+          "number": "91",
           "answers": [
             {
               "value": 1,
@@ -4065,7 +2924,7 @@
           "filter": "age0110 > 12",
           "concept": "pop0301",
           "scale": "cat",
-          "number": "147",
+          "number": "92",
           "answers": [
             {
               "value": -89,
@@ -4115,7 +2974,7 @@
           "filter": "age0110 >= 10",
           "concept": "pop0302",
           "scale": "cat",
-          "number": "148",
+          "number": "93",
           "answers": [
             {
               "value": 1,
@@ -4200,7 +3059,7 @@
           "filter": "age0110 >= 13",
           "concept": "dis0100",
           "scale": "cat",
-          "number": "149",
+          "number": "94",
           "answers": [
             {
               "value": -89,
@@ -4250,7 +3109,7 @@
           "filter": "dis0100 == 1",
           "concept": "dis0200",
           "scale": "txt",
-          "number": "150",
+          "number": "95",
           "sn": 0
         },
         {
@@ -4261,7 +3120,7 @@
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "151",
+          "number": "96",
           "answers": [
             {
               "value": 0,
@@ -4284,7 +3143,7 @@
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "152",
+          "number": "97",
           "answers": [
             {
               "value": 0,
@@ -4307,7 +3166,7 @@
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "153",
+          "number": "98",
           "answers": [
             {
               "value": 0,
@@ -4330,7 +3189,7 @@
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "154",
+          "number": "99",
           "answers": [
             {
               "value": 0,
@@ -4353,7 +3212,7 @@
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "155",
+          "number": "100",
           "answers": [
             {
               "value": 0,
@@ -4376,7 +3235,7 @@
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "156",
+          "number": "101",
           "answers": [
             {
               "value": 0,
@@ -4399,7 +3258,7 @@
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "157",
+          "number": "102",
           "answers": [
             {
               "value": 0,
@@ -4426,37 +3285,15 @@
       "label_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
           "text_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "filter": "dis0200 == 1",
           "concept": "dis0201",
-          "scale": "cat",
-          "number": "158",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: not strongly",
-              "label_de": "2: nicht so stark"
-            },
-            {
-              "value": 3,
-              "label": "3: strongly",
-              "label_de": "3: stark"
-            },
-            {
-              "value": 4,
-              "label": "4: very strongly",
-              "label_de": "4: sehr stark"
-            }
-          ],
+          "scale": "txt",
+          "number": "103",
           "sn": 0
         }
       ],
@@ -4471,37 +3308,15 @@
       "label_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
           "text_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "filter": "dis0300 == 1",
           "concept": "dis0301",
-          "scale": "cat",
-          "number": "159",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: not strongly",
-              "label_de": "2: nicht so stark"
-            },
-            {
-              "value": 3,
-              "label": "3: strongly",
-              "label_de": "3: stark"
-            },
-            {
-              "value": 4,
-              "label": "4: very strongly",
-              "label_de": "4: sehr stark"
-            }
-          ],
+          "scale": "txt",
+          "number": "104",
           "sn": 0
         }
       ],
@@ -4516,37 +3331,15 @@
       "label_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
           "text_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "filter": "dis0400 == 1",
           "concept": "dis0401",
-          "scale": "cat",
-          "number": "160",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: not strongly",
-              "label_de": "2: nicht so stark"
-            },
-            {
-              "value": 3,
-              "label": "3: strongly",
-              "label_de": "3: stark"
-            },
-            {
-              "value": 4,
-              "label": "4: very strongly",
-              "label_de": "4: sehr stark"
-            }
-          ],
+          "scale": "txt",
+          "number": "105",
           "sn": 0
         }
       ],
@@ -4561,37 +3354,15 @@
       "label_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
           "text_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "filter": "dis0500 == 1",
           "concept": "dis0501",
-          "scale": "cat",
-          "number": "161",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: not strongly",
-              "label_de": "2: nicht so stark"
-            },
-            {
-              "value": 3,
-              "label": "3: strongly",
-              "label_de": "3: stark"
-            },
-            {
-              "value": 4,
-              "label": "4: very strongly",
-              "label_de": "4: sehr stark"
-            }
-          ],
+          "scale": "txt",
+          "number": "106",
           "sn": 0
         }
       ],
@@ -4606,37 +3377,15 @@
       "label_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
           "text_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "filter": "dis0600 == 1",
           "concept": "dis0601",
-          "scale": "cat",
-          "number": "162",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: not strongly",
-              "label_de": "2: nicht so stark"
-            },
-            {
-              "value": 3,
-              "label": "3: strongly",
-              "label_de": "3: stark"
-            },
-            {
-              "value": 4,
-              "label": "4: very strongly",
-              "label_de": "4: sehr stark"
-            }
-          ],
+          "scale": "txt",
+          "number": "107",
           "sn": 0
         }
       ],
@@ -4651,37 +3400,15 @@
       "label_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
           "text_de": "Alter 13 bis 15 Jahre: Wie sehr hat Dich die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet? / Alter ab 16 Jahre: Wie sehr hat Sie die Benachteiligung aufgrund von [angekreuzte Benachteiligung einblenden] belastet?",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen; Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37 (4), 183-190",
           "filter": "dis0700 == 1",
           "concept": "dis0701",
-          "scale": "cat",
-          "number": "163",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: not strongly",
-              "label_de": "2: nicht so stark"
-            },
-            {
-              "value": 3,
-              "label": "3: strongly",
-              "label_de": "3: stark"
-            },
-            {
-              "value": 4,
-              "label": "4: very strongly",
-              "label_de": "4: sehr stark"
-            }
-          ],
+          "scale": "txt",
+          "number": "108",
           "sn": 0
         }
       ],
@@ -4696,37 +3423,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0100",
-          "scale": "int",
-          "number": "164",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "109",
           "sn": 0
         }
       ],
@@ -4741,37 +3446,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0200",
-          "scale": "int",
-          "number": "165",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "110",
           "sn": 0
         }
       ],
@@ -4786,37 +3469,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0300",
-          "scale": "int",
-          "number": "166",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "111",
           "sn": 0
         }
       ],
@@ -4831,37 +3492,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0400",
-          "scale": "int",
-          "number": "167",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "112",
           "sn": 0
         }
       ],
@@ -4876,37 +3515,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0500",
-          "scale": "int",
-          "number": "168",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "113",
           "sn": 0
         }
       ],
@@ -4921,37 +3538,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0600",
-          "scale": "int",
-          "number": "169",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "114",
           "sn": 0
         }
       ],
@@ -4966,37 +3561,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0700",
-          "scale": "int",
-          "number": "170",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "115",
           "sn": 0
         }
       ],
@@ -5011,37 +3584,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0800",
-          "scale": "int",
-          "number": "171",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "116",
           "sn": 0
         }
       ],
@@ -5056,37 +3607,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med0900",
-          "scale": "int",
-          "number": "172",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "117",
           "sn": 0
         }
       ],
@@ -5101,37 +3630,15 @@
       "label_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "The next questions are about your media usage. How much time do you spend per day on the following devices or activities? Please state as precisely as possible how much time you spend on the activity outside of school or working hours.",
           "text_de": "Alter 10 bis 15 Jahre: Im Folgenden geht es um Deine Mediennutzung. Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringen. / Alter ab 16 Jahre: Im Folgenden geht es um Ihre Mediennutzung. Wie lange beschaeftigen Sie sich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Geben Sie bitte moeglichst genau an, wieviel Zeit Sie mit der jeweiligen Aktivitaet ausserhalb der Arbeits- oder Schulzeit verbringen.",
           "description": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "description_de": "Source: Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1). NEPS Working Paper. Bamberg: Otto-Friedrich-Universitaet, National Educational Panel Study",
           "filter": "age0110 >= 10",
           "concept": "med1000",
-          "scale": "int",
-          "number": "173",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": 0,
-              "label": "0: doesn't apply (device is not used)",
-              "label_de": "0: trifft nicht zu (Geraet wird nicht genutzt)"
-            }
-          ],
+          "scale": "txt",
+          "number": "118",
           "sn": 0
         }
       ],
@@ -5154,7 +3661,7 @@
           "filter": "age0110 >= 15",
           "concept": "net0100",
           "scale": "txt",
-          "number": "174",
+          "number": "119",
           "sn": 0
         },
         {
@@ -5165,7 +3672,7 @@
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
           "concept": "net0100",
           "scale": "cat",
-          "number": "175",
+          "number": "120",
           "answers": [
             {
               "value": 1,
@@ -5198,7 +3705,7 @@
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
           "concept": "net0100",
           "scale": "cat",
-          "number": "176",
+          "number": "121",
           "answers": [
             {
               "value": 1,
@@ -5231,7 +3738,7 @@
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. SOEP Survey Papers 238: Series A. Berlin: DIW/SOEP",
           "concept": "net0100",
           "scale": "cat",
-          "number": "177",
+          "number": "122",
           "answers": [
             {
               "value": 1,
@@ -5276,7 +3783,7 @@
           "filter": "age0110 >= 10",
           "concept": "net0200",
           "scale": "txt",
-          "number": "178",
+          "number": "123",
           "sn": 0
         },
         {
@@ -5287,7 +3794,7 @@
           "description_de": "Source: Panel Arbeitsmarkt und soziale Sicherung (PASS): PASS Personenfragebogen Welle 6 2013",
           "concept": "net0200",
           "scale": "cat",
-          "number": "179",
+          "number": "124",
           "answers": [
             {
               "value": -85,
@@ -5325,7 +3832,7 @@
           "description_de": "Source: Panel Arbeitsmarkt und soziale Sicherung (PASS): PASS Personenfragebogen Welle 6 2013",
           "concept": "net0200",
           "scale": "cat",
-          "number": "180",
+          "number": "125",
           "answers": [
             {
               "value": -85,
@@ -5363,7 +3870,7 @@
           "description_de": "Source: Panel Arbeitsmarkt und soziale Sicherung (PASS): PASS Personenfragebogen Welle 6 2013",
           "concept": "net0200",
           "scale": "cat",
-          "number": "181",
+          "number": "126",
           "answers": [
             {
               "value": -85,
@@ -5413,7 +3920,7 @@
           "filter": "age0110 >= 10",
           "concept": "net0203",
           "scale": "int",
-          "number": "182",
+          "number": "127",
           "answers": [
             {
               "value": -86,
@@ -5448,7 +3955,7 @@
           "filter": "net0203 >= 1",
           "concept": "net0204",
           "scale": "int",
-          "number": "183",
+          "number": "128",
           "answers": [
             {
               "value": -86,
@@ -5483,7 +3990,7 @@
           "filter": "age0110 >= 10",
           "concept": "net0300",
           "scale": "int",
-          "number": "184",
+          "number": "129",
           "answers": [
             {
               "value": -81,
@@ -5513,7 +4020,7 @@
           "filter": "net0300 >= 1",
           "concept": "net0301",
           "scale": "cat",
-          "number": "185",
+          "number": "130",
           "answers": [
             {
               "value": -81,
@@ -5553,7 +4060,7 @@
           "filter": "net0300 >= 1",
           "concept": "net0302",
           "scale": "cat",
-          "number": "186",
+          "number": "131",
           "answers": [
             {
               "value": 1,
@@ -5603,7 +4110,7 @@
           "filter": "net0302 == 1",
           "concept": "net0303",
           "scale": "cat",
-          "number": "187",
+          "number": "132",
           "answers": [
             {
               "value": 1,
@@ -5668,7 +4175,7 @@
           "filter": "age0110 >= 10 & net0300 != -81",
           "concept": "net0400",
           "scale": "int",
-          "number": "188",
+          "number": "133",
           "answers": [
             {
               "value": -81,
@@ -5698,7 +4205,7 @@
           "filter": "net0400 >= 1",
           "concept": "net0401",
           "scale": "cat",
-          "number": "189",
+          "number": "134",
           "answers": [
             {
               "value": -81,
@@ -5738,7 +4245,7 @@
           "filter": "net0400 >= 1",
           "concept": "net0402",
           "scale": "cat",
-          "number": "190",
+          "number": "135",
           "answers": [
             {
               "value": 1,
@@ -5788,7 +4295,7 @@
           "filter": "net0402 == 1",
           "concept": "net0403",
           "scale": "cat",
-          "number": "191",
+          "number": "136",
           "answers": [
             {
               "value": 1,
@@ -5853,7 +4360,7 @@
           "filter": "age0110 >= 10 & net0300 != -81 & net0400 != -81",
           "concept": "net0500",
           "scale": "int",
-          "number": "192",
+          "number": "137",
           "answers": [
             {
               "value": -81,
@@ -5883,7 +4390,7 @@
           "filter": "net0500 >= 1",
           "concept": "net0501",
           "scale": "cat",
-          "number": "193",
+          "number": "138",
           "answers": [
             {
               "value": -81,
@@ -5923,7 +4430,7 @@
           "filter": "net0500 >= 1",
           "concept": "net0502",
           "scale": "cat",
-          "number": "194",
+          "number": "139",
           "answers": [
             {
               "value": 1,
@@ -5973,7 +4480,7 @@
           "filter": "net0502 == 1",
           "concept": "net0503",
           "scale": "cat",
-          "number": "195",
+          "number": "140",
           "answers": [
             {
               "value": 1,
@@ -6038,7 +4545,7 @@
           "filter": "age0110 >= 10",
           "concept": "net0600",
           "scale": "cat",
-          "number": "196",
+          "number": "141",
           "answers": [
             {
               "value": -85,

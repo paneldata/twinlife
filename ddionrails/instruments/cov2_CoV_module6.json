@@ -149,46 +149,14 @@
       "label_de": "[IF age <= 15 & sex=2] Bist Du zurzeit im Mutterschutz, in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age <= 15 & sex=1] Bist Du zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age <= 15 & sex=3] Bist Du zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age < 50 & age >= 16 & sex=2] Sind Sie zurzeit im Mutterschutz, in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age >= 50 & sex=2] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age >= 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age >= 16 & sex=3] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
           "text_de": "[IF age <= 15 & sex=2] Bist Du zurzeit im Mutterschutz, in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age <= 15 & sex=1] Bist Du zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age <= 15 & sex=3] Bist Du zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age < 50 & age >= 16 & sex=2] Sind Sie zurzeit im Mutterschutz, in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age >= 50 & sex=2] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age >= 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung? [IF age >= 16 & sex=3] Sind Sie zurzeit in der gesetzlich geregelten Elternzeit oder beurlaubt wegen Kinderbetreuung?",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
           "concept": "emp0200",
-          "scale": "cat",
+          "scale": "txt",
           "number": "4",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: [for women only] yes, maternity leave",
-              "label_de": "1: [nur bei Frauen] Ja, Mutterschutz"
-            },
-            {
-              "value": 2,
-              "label": "2: parental leave (up to F2F 2)",
-              "label_de": "2: Elternzeit (bis F2F 2)"
-            },
-            {
-              "value": 3,
-              "label": "3: leave of absence/special leave for childcare",
-              "label_de": "3: Beurlaubung/Sonderurlaub wegen Kinderbetreuung"
-            },
-            {
-              "value": 4,
-              "label": "4: no",
-              "label_de": "4: nein"
-            },
-            {
-              "value": 5,
-              "label": "5: yes, parental leave with part-time employment (from F2F 3)",
-              "label_de": "5: Ja, Elternzeit mit Teilzeitbeschaeftigung (ab F2F 3)"
-            },
-            {
-              "value": 6,
-              "label": "6: yes, parental leave without part-time employment (from F2F 3)",
-              "label_de": "5: Ja, Elternzeit ohnw Teilzeitbeschaeftigung (ab F2F 3)"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -203,71 +171,14 @@
       "label_de": "[IF age = 15 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age = 15 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age >= 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "[IF age >= 16 & emp0300 != 1] Are you currently employed? What applies to you? [IF age >= 16 & emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
           "text_de": "[IF age = 15 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age = 15 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age >= 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
           "concept": "emp0400",
-          "scale": "cat",
+          "scale": "txt",
           "number": "5",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: full-time employment",
-              "label_de": "1: voll erwerbstaetig"
-            },
-            {
-              "value": 2,
-              "label": "2: employed on a part-time basis (also with several part-time employments)",
-              "label_de": "2: in Teilzeitbeschaeftigung"
-            },
-            {
-              "value": 3,
-              "label": "3: in-company training/apprenticeship or vocational retraining",
-              "label_de": "3: in betrieblicher Ausbildung/Lehre oder betrieblicher Umschulung"
-            },
-            {
-              "value": 4,
-              "label": "4: marginally employed, Mini-jobs, One-Euro-jobs, e.g., when drawing unemployment benefit type 2",
-              "label_de": "4: geringfuegig erwerbstaetig, Mini Job, Ein-Euro-Job, z.B. bei Bezug von Arbeitslosengeld 2"
-            },
-            {
-              "value": 5,
-              "label": "5: occasionally or irregularly employed",
-              "label_de": "5: gelegentlich oder unregelmaessig beschaeftigt"
-            },
-            {
-              "value": 6,
-              "label": "6: voluntary military service",
-              "label_de": "6: freiwilliger Wehrdienst"
-            },
-            {
-              "value": 7,
-              "label": "7: voluntary social/ecological year, German federal volunteer service",
-              "label_de": "7: freiwilliges soziales/oekologisches Jahr, Bundesfreiwilligendienst"
-            },
-            {
-              "value": 8,
-              "label": "8: partial retirement with zero working hours",
-              "label_de": "8: in Altersteilzeit mit Arbeitszeit Null"
-            },
-            {
-              "value": 9,
-              "label": "9: early retirement, retirement, occupational disablity",
-              "label_de": "9: Vorruhestaendler, Rentner, erwerbsunfaehig"
-            },
-            {
-              "value": 10,
-              "label": "10: not gainfully employed",
-              "label_de": "10: nicht erwerbstaetig"
-            },
-            {
-              "value": 11,
-              "label": "11: other, such as",
-              "label_de": "11: sonstiges, und zwar"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -282,41 +193,14 @@
       "label_de": "[IF age = 15] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age >= 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
           "text_de": "[IF age = 15] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age >= 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
           "concept": "emp0300",
-          "scale": "cat",
+          "scale": "txt",
           "number": "6",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": -84,
-              "label": "-84: unassignable",
-              "label_de": "-84: nicht zuzuordnen"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -331,41 +215,14 @@
       "label_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit beschaeftigt? Wenn Du mehr als eine berufliche Taetigkeit ausuebst, entscheide Dich bitte, welche Taetigkeit Du als Haupttaetigkeit ansiehst und beantworte die folgenden Fragen in Bezug auf diese Haupttaetigkeit. [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "In which professional position are you currently employed? If you perform more than one occupation, please decide which one you consider to be your main occupation and answer the following questions in reference to this main occupation.",
           "text_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit beschaeftigt? Wenn Du mehr als eine berufliche Taetigkeit ausuebst, entscheide Dich bitte, welche Taetigkeit Du als Haupttaetigkeit ansiehst und beantworte die folgenden Fragen in Bezug auf diese Haupttaetigkeit. [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2014",
           "description_de": "Source: TNS Infratest Sozialforschung. 2014. SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. SOEP Survey Papers 235: Series A. Berlin: DIW/SOEP",
           "concept": "emp0600",
-          "scale": "cat",
+          "scale": "txt",
           "number": "7",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: blue-collar worker (Arbeiter) (also in agriculture)",
-              "label_de": "1: Arbeiter/in (auch in der Landwirtschaft)"
-            },
-            {
-              "value": 2,
-              "label": "2: white-collar worker (Angestellte)",
-              "label_de": "2: Angestellte/r"
-            },
-            {
-              "value": 3,
-              "label": "3: civil servant (including judges and professional soldiers)",
-              "label_de": "3: Beamte/r (einschliesslich Richter und Berufssoldaten)"
-            },
-            {
-              "value": 4,
-              "label": "4: self-employed (including family members working for the self-employed)",
-              "label_de": "4: Selbstaendige/r (einschl. mithelfende Familienangehoerige)"
-            },
-            {
-              "value": 5,
-              "label": "5: apprentices / trainees / interns",
-              "label_de": "5: Auszubildende und Praktikanten"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -386,6 +243,7 @@
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
           "concept": "cov0101",
+          "scale": "cat",
           "number": "8",
           "answers": [
             {
@@ -419,6 +277,7 @@
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
           "concept": "cov0102",
+          "scale": "cat",
           "number": "9",
           "answers": [
             {
@@ -478,6 +337,7 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0200",
+          "scale": "cat",
           "number": "11",
           "answers": [
             {
@@ -500,6 +360,7 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0200",
+          "scale": "cat",
           "number": "12",
           "answers": [
             {
@@ -522,6 +383,7 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0200",
+          "scale": "cat",
           "number": "13",
           "answers": [
             {
@@ -544,6 +406,7 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0200",
+          "scale": "cat",
           "number": "14",
           "answers": [
             {
@@ -566,6 +429,7 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0200",
+          "scale": "cat",
           "number": "15",
           "answers": [
             {
@@ -610,6 +474,7 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0300",
+          "scale": "cat",
           "number": "17",
           "answers": [
             {
@@ -637,6 +502,7 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0300",
+          "scale": "cat",
           "number": "18",
           "answers": [
             {
@@ -665,28 +531,107 @@
     "cov0303": {
       "question": "cov0303",
       "name": "cov0303",
-      "label": "[ITEMBAT] [If age >= 16] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+      "label": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
       "label_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
       "items": [
         {
-          "item": "0",
-          "text": "[ITEMBAT] [If age >= 16] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+          "item": "1",
+          "text": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
           "text_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0303",
-          "scale": "txt",
+          "scale": "cat",
           "number": "19",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "cov2_CoV_module6",
+      "study": "twinlife"
+    },
+    "cov0304": {
+      "question": "cov0304",
+      "name": "cov0304",
+      "label": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+      "label_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+          "text_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cov0304",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "cov2_CoV_module6",
+      "study": "twinlife"
+    },
+    "cov0305": {
+      "question": "cov0305",
+      "name": "cov0305",
+      "label": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+      "label_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+          "text_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cov0305",
+          "scale": "txt",
+          "number": "21",
           "sn": 0
         },
         {
           "item": "1",
-          "text": "[age >= 18] I had to give up my business.",
-          "text_de": "[age >= 18] Ich musste meinen Betrieb aufgeben.",
+          "text": "[age >= 16] I am on short-time work.",
+          "text_de": "Ich befinde mich in Kurzarbeit.",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cov0303",
-          "number": "20",
+          "concept": "cov0305",
+          "scale": "cat",
+          "number": "22",
           "answers": [
             {
               "value": -81,
@@ -708,12 +653,13 @@
         },
         {
           "item": "2",
-          "text": "[age >= 18] My business was threatened in its existence.",
-          "text_de": "[age >= 18] Mein Betrieb war in der Existenz bedroht.",
+          "text": "[age >= 16] I have changed my occupation.",
+          "text_de": "Ich habe meine berufliche Taetigkeit gewechselt.",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cov0303",
-          "number": "21",
+          "concept": "cov0305",
+          "scale": "cat",
+          "number": "23",
           "answers": [
             {
               "value": -81,
@@ -732,9 +678,37 @@
             }
           ],
           "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "[age >= 16] I have taken up another occupation.",
+          "text_de": "Ich habe eine weitere Beschaeftigung aufgenommen.",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cov0305",
+          "scale": "cat",
+          "number": "24",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply",
+              "label_de": "-81: Trifft nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: Ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: Nein"
+            }
+          ],
+          "sn": 3
         }
       ],
-      "sn": 11,
+      "sn": 13,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -751,7 +725,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0310",
-          "number": "22",
+          "scale": "cat",
+          "number": "25",
           "answers": [
             {
               "value": -81,
@@ -787,110 +762,7 @@
           "sn": 0
         }
       ],
-      "sn": 12,
-      "instrument": "cov2_CoV_module6",
-      "study": "twinlife"
-    },
-    "cov0305": {
-      "question": "cov0305",
-      "name": "cov0305",
-      "label": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
-      "label_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
-      "items": [
-        {
-          "item": "0",
-          "text": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
-          "text_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cov0305",
-          "scale": "txt",
-          "number": "23",
-          "sn": 0
-        },
-        {
-          "item": "1",
-          "text": "[age >= 16] I am on short-time work.",
-          "text_de": "Ich befinde mich in Kurzarbeit.",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cov0305",
-          "number": "24",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: Ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: Nein"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "2",
-          "text": "[age >= 16] I have changed my occupation.",
-          "text_de": "Ich habe meine berufliche Taetigkeit gewechselt.",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cov0305",
-          "number": "25",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: Ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: Nein"
-            }
-          ],
-          "sn": 2
-        },
-        {
-          "item": "3",
-          "text": "[age >= 16] I have taken up another occupation.",
-          "text_de": "Ich habe eine weitere Beschaeftigung aufgenommen.",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cov0305",
-          "number": "26",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: Ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: Nein"
-            }
-          ],
-          "sn": 3
-        }
-      ],
-      "sn": 13,
+      "sn": 14,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -907,7 +779,8 @@
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
           "concept": "cov0400",
-          "number": "27",
+          "scale": "cat",
+          "number": "26",
           "answers": [
             {
               "value": -82,
@@ -958,7 +831,7 @@
           "sn": 0
         }
       ],
-      "sn": 14,
+      "sn": 15,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -976,7 +849,7 @@
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
           "concept": "cov0401",
           "scale": "txt",
-          "number": "28",
+          "number": "27",
           "sn": 0
         },
         {
@@ -986,7 +859,8 @@
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
           "concept": "cov0401",
-          "number": "29",
+          "scale": "cat",
+          "number": "28",
           "answers": [
             {
               "value": -82,
@@ -1043,7 +917,8 @@
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
           "concept": "cov0401",
-          "number": "30",
+          "scale": "cat",
+          "number": "29",
           "answers": [
             {
               "value": -82,
@@ -1100,7 +975,8 @@
           "description": "Source: Adapted from: The German Socio-Economic Panel Study (SOEP): Socio-economic factors and consequences of the spread of coronavirus in Germany (SOEP-CoV)",
           "description_de": "Source: Adaptiert von: Sozio-oekonomisches Panel (SOEP): Sozio-oekonomische Faktoren und Folgen der Verbreitung des Coronavirus in Deutschland (SOEP-CoV)",
           "concept": "cov0401",
-          "number": "31",
+          "scale": "cat",
+          "number": "30",
           "answers": [
             {
               "value": -82,
@@ -1151,7 +1027,7 @@
           "sn": 3
         }
       ],
-      "sn": 15,
+      "sn": 16,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1169,7 +1045,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0600",
           "scale": "txt",
-          "number": "32",
+          "number": "31",
           "sn": 0
         },
         {
@@ -1179,7 +1055,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0600",
-          "number": "33",
+          "scale": "cat",
+          "number": "32",
           "answers": [
             {
               "value": 1,
@@ -1201,7 +1078,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0600",
-          "number": "34",
+          "scale": "cat",
+          "number": "33",
           "answers": [
             {
               "value": 1,
@@ -1223,7 +1101,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0600",
-          "number": "35",
+          "scale": "cat",
+          "number": "34",
           "answers": [
             {
               "value": 1,
@@ -1239,7 +1118,7 @@
           "sn": 3
         }
       ],
-      "sn": 16,
+      "sn": 17,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1257,7 +1136,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0603",
           "scale": "txt",
-          "number": "36",
+          "number": "35",
           "sn": 0
         },
         {
@@ -1267,7 +1146,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0603",
-          "number": "37",
+          "scale": "cat",
+          "number": "36",
           "answers": [
             {
               "value": -81,
@@ -1284,7 +1164,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0603",
-          "number": "38",
+          "scale": "cat",
+          "number": "37",
           "answers": [
             {
               "value": -81,
@@ -1295,7 +1176,7 @@
           "sn": 2
         }
       ],
-      "sn": 17,
+      "sn": 18,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1306,39 +1187,18 @@
       "label_de": "Im Laufe der Corona-Pandemie waren oder sind die Schulen fuer laengere Zeit geschlossen. Findet bei Ihren Kindern aktuell normaler Unterricht statt?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "During the Corona pandemic, schools were or are closed for extended periods of time. Are your children currently attending normal classes?",
           "text_de": "Im Laufe der Corona-Pandemie waren oder sind die Schulen fuer laengere Zeit geschlossen. Findet bei Ihren Kindern aktuell normaler Unterricht statt?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0698",
-          "number": "39",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply (I do not have a school-age child).",
-              "label_de": "-81: Trifft nicht zu (ich habe kein schulpflichtiges Kind)"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: Ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no, only limited classes",
-              "label_de": "2: Nein, nur eingeschraenkter Unterricht"
-            },
-            {
-              "value": 3,
-              "label": "3: no, my childrens schools are closed",
-              "label_de": "3: Nein, die Schulen meiner Kinder sind geschlossen"
-            }
-          ],
+          "scale": "txt",
+          "number": "38",
           "sn": 0
         }
       ],
-      "sn": 18,
+      "sn": 19,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1349,39 +1209,18 @@
       "label_de": "Im Laufe der Corona-Pandemie waren oder sind die Schulen fuer laengere Zeit geschlossen. [if age <=15] Gehst Du gerade normal zum Unterricht? [if age >=16] Gehen Sie gerade normal zum Unterricht?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "During the Corona pandemic, schools were or are closed for extended periods of time. Are you attending classes normally right now?",
           "text_de": "Im Laufe der Corona-Pandemie waren oder sind die Schulen fuer laengere Zeit geschlossen. [if age <=15] Gehst Du gerade normal zum Unterricht? [if age >=16] Gehen Sie gerade normal zum Unterricht?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0699",
-          "number": "40",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply (I no longer go to school)",
-              "label_de": "-81: Trifft nicht zu (ich gehe nicht mehr in die Schule)"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: Ja"
-            },
-            {
-              "value": 2,
-              "label": "2: I am only allowed to go to school sometimes",
-              "label_de": "2: Ich darf nur manchmal zur Schule"
-            },
-            {
-              "value": 3,
-              "label": "3: no, schools are closed, I have to study from home",
-              "label_de": "3: Nein, die Schulen sind geschlossen, ich muss von zu Hause aus lernen"
-            }
-          ],
+          "scale": "txt",
+          "number": "39",
           "sn": 0
         }
       ],
-      "sn": 19,
+      "sn": 20,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1398,7 +1237,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0700",
-          "number": "41",
+          "scale": "cat",
+          "number": "40",
           "answers": [
             {
               "value": -81,
@@ -1439,7 +1279,7 @@
           "sn": 0
         }
       ],
-      "sn": 20,
+      "sn": 21,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1456,65 +1296,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0701",
-          "number": "42",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: does not apply (I had no schoolwork to do)",
-              "label_de": "-81: Trifft nicht zu (ich hatte keine Schulaufgaben auf)"
-            },
-            {
-              "value": 1,
-              "label": "1: less than half an hour",
-              "label_de": "1: weniger als eine halbe Stunde"
-            },
-            {
-              "value": 2,
-              "label": "2: half an hour to 1 hour",
-              "label_de": "2: eine halbe bis 1 Stunde"
-            },
-            {
-              "value": 3,
-              "label": "3: 1 to 2 hours",
-              "label_de": "3: 1 bis 2 Stunden"
-            },
-            {
-              "value": 4,
-              "label": "4: 2 to 3 hours",
-              "label_de": "4: 2 bis 3 Stunden"
-            },
-            {
-              "value": 5,
-              "label": "5: 3 to 4 hours",
-              "label_de": "5: 3 bis 4 Stunden"
-            },
-            {
-              "value": 6,
-              "label": "6: more than 4 hours",
-              "label_de": "6: mehr als 4 Stunden"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 21,
-      "instrument": "cov2_CoV_module6",
-      "study": "twinlife"
-    },
-    "cov0702": {
-      "question": "cov0702",
-      "name": "cov0702",
-      "label": "How much time do you usually sit at home on schoolwork in a day?",
-      "label_de": "Wie viel Zeit sitzt Du normalerweise an einem Tag zu Hause an Schulaufgaben?",
-      "items": [
-        {
-          "item": "1",
-          "text": "How much time do you usually sit at home on schoolwork in a day?",
-          "text_de": "Wie viel Zeit sitzt Du normalerweise an einem Tag zu Hause an Schulaufgaben?",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "concept": "cov0702",
-          "number": "43",
+          "scale": "cat",
+          "number": "41",
           "answers": [
             {
               "value": -81,
@@ -1559,6 +1342,65 @@
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
+    "cov0702": {
+      "question": "cov0702",
+      "name": "cov0702",
+      "label": "How much time do you usually sit at home on schoolwork in a day?",
+      "label_de": "Wie viel Zeit sitzt Du normalerweise an einem Tag zu Hause an Schulaufgaben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How much time do you usually sit at home on schoolwork in a day?",
+          "text_de": "Wie viel Zeit sitzt Du normalerweise an einem Tag zu Hause an Schulaufgaben?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cov0702",
+          "scale": "cat",
+          "number": "42",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply (I had no schoolwork to do)",
+              "label_de": "-81: Trifft nicht zu (ich hatte keine Schulaufgaben auf)"
+            },
+            {
+              "value": 1,
+              "label": "1: less than half an hour",
+              "label_de": "1: weniger als eine halbe Stunde"
+            },
+            {
+              "value": 2,
+              "label": "2: half an hour to 1 hour",
+              "label_de": "2: eine halbe bis 1 Stunde"
+            },
+            {
+              "value": 3,
+              "label": "3: 1 to 2 hours",
+              "label_de": "3: 1 bis 2 Stunden"
+            },
+            {
+              "value": 4,
+              "label": "4: 2 to 3 hours",
+              "label_de": "4: 2 bis 3 Stunden"
+            },
+            {
+              "value": 5,
+              "label": "5: 3 to 4 hours",
+              "label_de": "5: 3 bis 4 Stunden"
+            },
+            {
+              "value": 6,
+              "label": "6: more than 4 hours",
+              "label_de": "6: mehr als 4 Stunden"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 23,
+      "instrument": "cov2_CoV_module6",
+      "study": "twinlife"
+    },
     "cov0800": {
       "question": "cov0800",
       "name": "cov0800",
@@ -1572,7 +1414,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov0800",
-          "number": "44",
+          "scale": "cat",
+          "number": "43",
           "answers": [
             {
               "value": 1,
@@ -1603,7 +1446,7 @@
           "sn": 0
         }
       ],
-      "sn": 23,
+      "sn": 24,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1621,7 +1464,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1700",
           "scale": "txt",
-          "number": "45",
+          "number": "44",
           "sn": 0
         },
         {
@@ -1631,7 +1474,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1700",
-          "number": "46",
+          "scale": "cat",
+          "number": "45",
           "answers": [
             {
               "value": 1,
@@ -1663,7 +1507,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1700",
-          "number": "47",
+          "scale": "cat",
+          "number": "46",
           "answers": [
             {
               "value": 1,
@@ -1695,7 +1540,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1700",
-          "number": "48",
+          "scale": "cat",
+          "number": "47",
           "answers": [
             {
               "value": 1,
@@ -1727,7 +1573,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1700",
-          "number": "49",
+          "scale": "cat",
+          "number": "48",
           "answers": [
             {
               "value": 1,
@@ -1753,7 +1600,7 @@
           "sn": 4
         }
       ],
-      "sn": 24,
+      "sn": 25,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1770,7 +1617,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1704",
-          "number": "50",
+          "scale": "cat",
+          "number": "49",
           "answers": [
             {
               "value": 1,
@@ -1811,7 +1659,7 @@
           "sn": 0
         }
       ],
-      "sn": 25,
+      "sn": 26,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1828,7 +1676,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1705",
-          "number": "51",
+          "scale": "cat",
+          "number": "50",
           "answers": [
             {
               "value": 1,
@@ -1854,7 +1703,7 @@
           "sn": 0
         }
       ],
-      "sn": 26,
+      "sn": 27,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -1872,7 +1721,7 @@
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0900",
           "scale": "txt",
-          "number": "52",
+          "number": "51",
           "sn": 0
         },
         {
@@ -1882,7 +1731,8 @@
           "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0900",
-          "number": "53",
+          "scale": "cat",
+          "number": "52",
           "answers": [
             {
               "value": -81,
@@ -1909,7 +1759,8 @@
           "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0900",
-          "number": "54",
+          "scale": "cat",
+          "number": "53",
           "answers": [
             {
               "value": -81,
@@ -1936,7 +1787,8 @@
           "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0900",
-          "number": "55",
+          "scale": "cat",
+          "number": "54",
           "answers": [
             {
               "value": -81,
@@ -1963,7 +1815,8 @@
           "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0900",
-          "number": "56",
+          "scale": "cat",
+          "number": "55",
           "answers": [
             {
               "value": -81,
@@ -1990,7 +1843,8 @@
           "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0900",
-          "number": "57",
+          "scale": "cat",
+          "number": "56",
           "answers": [
             {
               "value": -81,
@@ -2011,7 +1865,7 @@
           "sn": 5
         }
       ],
-      "sn": 27,
+      "sn": 28,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -2029,7 +1883,7 @@
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0905",
           "scale": "txt",
-          "number": "58",
+          "number": "57",
           "sn": 0
         },
         {
@@ -2039,7 +1893,8 @@
           "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0905",
-          "number": "59",
+          "scale": "cat",
+          "number": "58",
           "answers": [
             {
               "value": -81,
@@ -2066,7 +1921,8 @@
           "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0905",
-          "number": "60",
+          "scale": "cat",
+          "number": "59",
           "answers": [
             {
               "value": -81,
@@ -2093,7 +1949,8 @@
           "description": "Source: Adapted from: German Internet Panel (GIP): Mannheim Corona Study (MCS)",
           "description_de": "Source: Adaptiert von: German Internet Panel (GIP): Mannheimer Corona-Studie (MCS)",
           "concept": "cov0905",
-          "number": "61",
+          "scale": "cat",
+          "number": "60",
           "answers": [
             {
               "value": -81,
@@ -2114,7 +1971,7 @@
           "sn": 3
         }
       ],
-      "sn": 28,
+      "sn": 29,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -2132,7 +1989,7 @@
           "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "concept": "cov1000",
           "scale": "txt",
-          "number": "62",
+          "number": "61",
           "sn": 0
         },
         {
@@ -2142,7 +1999,8 @@
           "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "concept": "cov1000",
-          "number": "63",
+          "scale": "cat",
+          "number": "62",
           "answers": [
             {
               "value": -81,
@@ -2169,7 +2027,8 @@
           "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "concept": "cov1000",
-          "number": "64",
+          "scale": "cat",
+          "number": "63",
           "answers": [
             {
               "value": -81,
@@ -2196,7 +2055,8 @@
           "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "concept": "cov1000",
-          "number": "65",
+          "scale": "cat",
+          "number": "64",
           "answers": [
             {
               "value": -81,
@@ -2223,7 +2083,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1000",
-          "number": "66",
+          "scale": "cat",
+          "number": "65",
           "answers": [
             {
               "value": -81,
@@ -2250,7 +2111,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1000",
-          "number": "67",
+          "scale": "cat",
+          "number": "66",
           "answers": [
             {
               "value": -81,
@@ -2277,7 +2139,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1000",
-          "number": "68",
+          "scale": "cat",
+          "number": "67",
           "answers": [
             {
               "value": -81,
@@ -2304,7 +2167,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1000",
-          "number": "69",
+          "scale": "cat",
+          "number": "68",
           "answers": [
             {
               "value": -81,
@@ -2331,7 +2195,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1000",
-          "number": "70",
+          "scale": "cat",
+          "number": "69",
           "answers": [
             {
               "value": -81,
@@ -2352,7 +2217,7 @@
           "sn": 8
         }
       ],
-      "sn": 29,
+      "sn": 30,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -2370,7 +2235,7 @@
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1008",
           "scale": "txt",
-          "number": "71",
+          "number": "70",
           "sn": 0
         },
         {
@@ -2380,7 +2245,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1008",
-          "number": "72",
+          "scale": "cat",
+          "number": "71",
           "answers": [
             {
               "value": -81,
@@ -2407,7 +2273,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1008",
-          "number": "73",
+          "scale": "cat",
+          "number": "72",
           "answers": [
             {
               "value": -81,
@@ -2434,7 +2301,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1008",
-          "number": "74",
+          "scale": "cat",
+          "number": "73",
           "answers": [
             {
               "value": -81,
@@ -2461,7 +2329,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1008",
-          "number": "75",
+          "scale": "cat",
+          "number": "74",
           "answers": [
             {
               "value": -81,
@@ -2482,7 +2351,7 @@
           "sn": 4
         }
       ],
-      "sn": 30,
+      "sn": 31,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -2500,7 +2369,7 @@
           "description_de": "Source: Adaptiert von: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening psychischer Stoerungen mit dem Gesundheitsfragebogen fuer Patienten (PHQ-D): Ergebnisse der deutschen Validierungsstudie. Diagnostica, 50(4), 171-181",
           "concept": "emi0120",
           "scale": "txt",
-          "number": "76",
+          "number": "75",
           "sn": 0
         },
         {
@@ -2510,7 +2379,8 @@
           "description": "Source: Adapted from: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening for psychiatric disorders with the Patient Health Questionnaire (PHQ). Results from the German validation study. Diagnostica, 50(4), 171-181",
           "description_de": "Source: Adaptiert von: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening psychischer Stoerungen mit dem Gesundheitsfragebogen fuer Patienten (PHQ-D): Ergebnisse der deutschen Validierungsstudie. Diagnostica, 50(4), 171-181",
           "concept": "emi0120",
-          "number": "77",
+          "scale": "cat",
+          "number": "76",
           "answers": [
             {
               "value": 1,
@@ -2542,7 +2412,8 @@
           "description": "Source: Adapted from: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening for psychiatric disorders with the Patient Health Questionnaire (PHQ). Results from the German validation study. Diagnostica, 50(4), 171-181",
           "description_de": "Source: Adaptiert von: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening psychischer Stoerungen mit dem Gesundheitsfragebogen fuer Patienten (PHQ-D): Ergebnisse der deutschen Validierungsstudie. Diagnostica, 50(4), 171-181",
           "concept": "emi0120",
-          "number": "78",
+          "scale": "cat",
+          "number": "77",
           "answers": [
             {
               "value": 1,
@@ -2574,7 +2445,8 @@
           "description": "Source: Adapted from: Spitzer, R.L., Kroenke, K., Williams, J.B., Loewe, B. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. May 22; 166 (10): 1092-7",
           "description_de": "Source: Adapted from: Spitzer, R.L., Kroenke, K., Williams, J.B., Loewe, B. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. May 22; 166 (10): 1092-7",
           "concept": "emi0120",
-          "number": "79",
+          "scale": "cat",
+          "number": "78",
           "answers": [
             {
               "value": 1,
@@ -2606,7 +2478,8 @@
           "description": "Source: Adapted from: Spitzer, R.L., Kroenke, K., Williams, J.B., Loewe, B. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. May 22; 166 (10): 1092-7",
           "description_de": "Source: Adapted from: Spitzer, R.L., Kroenke, K., Williams, J.B., Loewe, B. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. May 22; 166 (10): 1092-7",
           "concept": "emi0120",
-          "number": "80",
+          "scale": "cat",
+          "number": "79",
           "answers": [
             {
               "value": 1,
@@ -2638,7 +2511,8 @@
           "description": "Source: Adapted from: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening for psychiatric disorders with the Patient Health Questionnaire (PHQ). Results from the German validation study. Diagnostica, 50(4), 171-181",
           "description_de": "Source: Adaptiert von: Graefe, K., Zipfel, S., Herzog, W., & Loewe, B. (2004). Screening psychischer Stoerungen mit dem Gesundheitsfragebogen fuer Patienten (PHQ-D): Ergebnisse der deutschen Validierungsstudie. Diagnostica, 50(4), 171-181",
           "concept": "emi0120",
-          "number": "81",
+          "scale": "cat",
+          "number": "80",
           "answers": [
             {
               "value": 1,
@@ -2670,7 +2544,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "emi0120",
-          "number": "82",
+          "scale": "cat",
+          "number": "81",
           "answers": [
             {
               "value": 1,
@@ -2696,7 +2571,7 @@
           "sn": 6
         }
       ],
-      "sn": 31,
+      "sn": 32,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -2714,7 +2589,7 @@
           "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "concept": "cov1200",
           "scale": "txt",
-          "number": "83",
+          "number": "82",
           "sn": 0
         },
         {
@@ -2724,7 +2599,8 @@
           "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "concept": "cov1200",
-          "number": "84",
+          "scale": "cat",
+          "number": "83",
           "answers": [
             {
               "value": 1,
@@ -2761,7 +2637,8 @@
           "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (submitted). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "description_de": "Source: Adaptiert von: Witthoeft, M., Jungmann, S. M., Germer, S. & Braescher, A. (zur Publikation eingereicht). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey",
           "concept": "cov1200",
-          "number": "85",
+          "scale": "cat",
+          "number": "84",
           "answers": [
             {
               "value": 1,
@@ -2798,7 +2675,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1200",
-          "number": "86",
+          "scale": "cat",
+          "number": "85",
           "answers": [
             {
               "value": 1,
@@ -2835,7 +2713,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1200",
-          "number": "87",
+          "scale": "cat",
+          "number": "86",
           "answers": [
             {
               "value": 1,
@@ -2872,7 +2751,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1200",
-          "number": "88",
+          "scale": "cat",
+          "number": "87",
           "answers": [
             {
               "value": 1,
@@ -2909,7 +2789,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1200",
-          "number": "89",
+          "scale": "cat",
+          "number": "88",
           "answers": [
             {
               "value": 1,
@@ -2946,7 +2827,8 @@
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "concept": "cov1200",
-          "number": "90",
+          "scale": "cat",
+          "number": "89",
           "answers": [
             {
               "value": 1,
@@ -2977,7 +2859,7 @@
           "sn": 7
         }
       ],
-      "sn": 32,
+      "sn": 33,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -2985,18 +2867,18 @@
       "question": "hoe2200",
       "name": "hoe2200",
       "label": "[ITEMBAT] Please indicate how the following statements currently apply to your home. You can grade your answers from 1 not correct at all to 5 fully correct.",
-      "label_de": "[ITEMBAT] Bitte geben Sie an, inwiefern die nachfolgenden Aussagen bezogen auf Ihr Zuhause aktuell stimmen. Sie koennen Ihre Antworten von 1 Stimmt ueberhaupt nicht bis 5 Stimmt genau abstufen.",
+      "label_de": "[ITEMBAT]  [IF age0110>=16] Bitte geben Sie an, inwiefern die nachfolgenden Aussagen bezogen auf Ihr Zuhause aktuell stimmen. Sie koennen Ihre Antworten von 1 Stimmt ueberhaupt nicht bis 5 Stimmt genau abstufen.  [IF age0110<=15] Bitte gib an, inwiefern die nachfolgenden Aussagen bezogen auf Dein Zuhause aktuell stimmen. Du kannst Deine Antworten von 1 Stimmt ueberhaupt nicht bis 5 Stimmt genau abstufen.",
       "items": [
         {
           "item": "0",
           "text": "[ITEMBAT] Please indicate how the following statements currently apply to your home. You can grade your answers from 1 not correct at all to 5 fully correct.",
-          "text_de": "[ITEMBAT] Bitte gib an, inwiefern die nachfolgenden Aussagen bezogen auf Dein Zuhause aktuell stimmen. Du kannst Deine Antworten von 1 Stimmt ueberhaupt nicht bis 5 Stimmt genau abstufen.\n",
+          "text_de": "[ITEMBAT]  [IF age0110>=16] Bitte geben Sie an, inwiefern die nachfolgenden Aussagen bezogen auf Ihr Zuhause aktuell stimmen. Sie koennen Ihre Antworten von 1 Stimmt ueberhaupt nicht bis 5 Stimmt genau abstufen.  [IF age0110<=15] Bitte gib an, inwiefern die nachfolgenden Aussagen bezogen auf Dein Zuhause aktuell stimmen. Du kannst Deine Antworten von 1 Stimmt ueberhaupt nicht bis 5 Stimmt genau abstufen.",
           "description": "Source: Adapted from: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-454",
           "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
           "concept": "hoe2200",
           "scale": "txt",
-          "number": "96",
-          "sn": 5
+          "number": "90",
+          "sn": 0
         },
         {
           "item": "1",
@@ -3006,7 +2888,7 @@
           "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
           "concept": "hoe2200",
           "scale": "cat",
-          "number": "97",
+          "number": "91",
           "answers": [
             {
               "value": 1,
@@ -3034,7 +2916,7 @@
               "label_de": "5: stimmt genau"
             }
           ],
-          "sn": 5
+          "sn": 1
         },
         {
           "item": "2",
@@ -3044,7 +2926,7 @@
           "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
           "concept": "hoe2200",
           "scale": "cat",
-          "number": "98",
+          "number": "92",
           "answers": [
             {
               "value": 1,
@@ -3072,7 +2954,7 @@
               "label_de": "5: stimmt genau"
             }
           ],
-          "sn": 5
+          "sn": 2
         },
         {
           "item": "3",
@@ -3082,7 +2964,7 @@
           "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
           "concept": "hoe2200",
           "scale": "cat",
-          "number": "99",
+          "number": "93",
           "answers": [
             {
               "value": 1,
@@ -3110,7 +2992,7 @@
               "label_de": "5: stimmt genau"
             }
           ],
-          "sn": 5
+          "sn": 3
         },
         {
           "item": "4",
@@ -3120,7 +3002,7 @@
           "description_de": "Source: Adaptiert von: Matheny Jr, A. P., Wachs, T. D., Ludwig, J. L., & Phillips, K. (1995). Bringing order out of chaos: Psychometric characteristics of the confusion, hubbub, and order scale. Journal of Applied Developmental Psychology, 16 (3), 429-444",
           "concept": "hoe2200",
           "scale": "cat",
-          "number": "100",
+          "number": "94",
           "answers": [
             {
               "value": 1,
@@ -3148,10 +3030,10 @@
               "label_de": "5: stimmt genau"
             }
           ],
-          "sn": 5
+          "sn": 4
         }
       ],
-      "sn": 33,
+      "sn": 34,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -3169,7 +3051,7 @@
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1400",
           "scale": "txt",
-          "number": "101",
+          "number": "95",
           "sn": 0
         },
         {
@@ -3179,7 +3061,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1400",
-          "number": "102",
+          "scale": "cat",
+          "number": "96",
           "answers": [
             {
               "value": -82,
@@ -3236,7 +3119,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1400",
-          "number": "103",
+          "scale": "cat",
+          "number": "97",
           "answers": [
             {
               "value": -82,
@@ -3293,7 +3177,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1400",
-          "number": "104",
+          "scale": "cat",
+          "number": "98",
           "answers": [
             {
               "value": -82,
@@ -3350,7 +3235,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1400",
-          "number": "105",
+          "scale": "cat",
+          "number": "99",
           "answers": [
             {
               "value": -82,
@@ -3407,7 +3293,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1400",
-          "number": "106",
+          "scale": "cat",
+          "number": "100",
           "answers": [
             {
               "value": -82,
@@ -3464,7 +3351,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1400",
-          "number": "107",
+          "scale": "cat",
+          "number": "101",
           "answers": [
             {
               "value": -82,
@@ -3521,7 +3409,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1400",
-          "number": "108",
+          "scale": "cat",
+          "number": "102",
           "answers": [
             {
               "value": -82,
@@ -3572,7 +3461,7 @@
           "sn": 7
         }
       ],
-      "sn": 34,
+      "sn": 35,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -3590,7 +3479,7 @@
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1407",
           "scale": "txt",
-          "number": "109",
+          "number": "103",
           "sn": 0
         },
         {
@@ -3600,7 +3489,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1407",
-          "number": "110",
+          "scale": "cat",
+          "number": "104",
           "answers": [
             {
               "value": -82,
@@ -3657,7 +3547,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1407",
-          "number": "111",
+          "scale": "cat",
+          "number": "105",
           "answers": [
             {
               "value": -82,
@@ -3714,7 +3605,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1407",
-          "number": "112",
+          "scale": "cat",
+          "number": "106",
           "answers": [
             {
               "value": -82,
@@ -3771,7 +3663,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1407",
-          "number": "113",
+          "scale": "cat",
+          "number": "107",
           "answers": [
             {
               "value": -82,
@@ -3828,7 +3721,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1407",
-          "number": "114",
+          "scale": "cat",
+          "number": "108",
           "answers": [
             {
               "value": -82,
@@ -3885,7 +3779,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1407",
-          "number": "115",
+          "scale": "cat",
+          "number": "109",
           "answers": [
             {
               "value": -82,
@@ -3942,7 +3837,8 @@
           "description": "Source: Adapted from: Survey EMOTIONS-C (Westfaelische Wilhelms-Universitaet Muenster)",
           "description_de": "Source: Adaptiert von: EMOTIONS-C-Studie (Westfaelische Wilhelms-Universitaet Muenster)",
           "concept": "cov1407",
-          "number": "116",
+          "scale": "cat",
+          "number": "110",
           "answers": [
             {
               "value": -82,
@@ -3993,7 +3889,7 @@
           "sn": 7
         }
       ],
-      "sn": 35,
+      "sn": 36,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -4011,7 +3907,7 @@
           "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "concept": "cov1500",
           "scale": "txt",
-          "number": "117",
+          "number": "111",
           "sn": 0
         },
         {
@@ -4021,7 +3917,8 @@
           "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "concept": "cov1500",
-          "number": "118",
+          "scale": "cat",
+          "number": "112",
           "answers": [
             {
               "value": 1,
@@ -4043,7 +3940,8 @@
           "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "concept": "cov1500",
-          "number": "119",
+          "scale": "cat",
+          "number": "113",
           "answers": [
             {
               "value": 1,
@@ -4065,7 +3963,8 @@
           "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "concept": "cov1500",
-          "number": "120",
+          "scale": "cat",
+          "number": "114",
           "answers": [
             {
               "value": 1,
@@ -4087,7 +3986,8 @@
           "description": "Source: Adapted from: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "description_de": "Source: Adaptiert von: Jannes Jacobsen, Julius Klikar, Juergen Schupp. 2017. Scales Manual IAB-BAMF-SOEP Survey of Refugees in Germany - revised version. SOEP Survey Papers 475: Series C. Berlin: DIW/SOEP",
           "concept": "cov1500",
-          "number": "121",
+          "scale": "cat",
+          "number": "115",
           "answers": [
             {
               "value": 1,
@@ -4103,7 +4003,7 @@
           "sn": 4
         }
       ],
-      "sn": 36,
+      "sn": 37,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -4121,7 +4021,7 @@
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1600",
           "scale": "txt",
-          "number": "122",
+          "number": "116",
           "sn": 0
         },
         {
@@ -4131,7 +4031,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1600",
-          "number": "123",
+          "scale": "cat",
+          "number": "117",
           "answers": [
             {
               "value": 1,
@@ -4153,7 +4054,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1600",
-          "number": "124",
+          "scale": "cat",
+          "number": "118",
           "answers": [
             {
               "value": 1,
@@ -4175,7 +4077,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1600",
-          "number": "125",
+          "scale": "cat",
+          "number": "119",
           "answers": [
             {
               "value": 1,
@@ -4197,7 +4100,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1600",
-          "number": "126",
+          "scale": "cat",
+          "number": "120",
           "answers": [
             {
               "value": 1,
@@ -4219,7 +4123,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1600",
-          "number": "127",
+          "scale": "cat",
+          "number": "121",
           "answers": [
             {
               "value": 1,
@@ -4241,7 +4146,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1600",
-          "number": "128",
+          "scale": "cat",
+          "number": "122",
           "answers": [
             {
               "value": 1,
@@ -4257,7 +4163,7 @@
           "sn": 6
         }
       ],
-      "sn": 37,
+      "sn": 38,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     },
@@ -4275,7 +4181,7 @@
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1606",
           "scale": "txt",
-          "number": "129",
+          "number": "123",
           "sn": 0
         },
         {
@@ -4285,7 +4191,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1606",
-          "number": "130",
+          "scale": "cat",
+          "number": "124",
           "answers": [
             {
               "value": 1,
@@ -4307,7 +4214,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1606",
-          "number": "131",
+          "scale": "cat",
+          "number": "125",
           "answers": [
             {
               "value": 1,
@@ -4329,7 +4237,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1606",
-          "number": "132",
+          "scale": "cat",
+          "number": "126",
           "answers": [
             {
               "value": 1,
@@ -4351,7 +4260,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1606",
-          "number": "133",
+          "scale": "cat",
+          "number": "127",
           "answers": [
             {
               "value": 1,
@@ -4373,7 +4283,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1606",
-          "number": "134",
+          "scale": "cat",
+          "number": "128",
           "answers": [
             {
               "value": 1,
@@ -4395,7 +4306,8 @@
           "description": "Source: Adapted from: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "description_de": "Source: Adaptiert von: Ferring, D., & Filipp, S. H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 10, 189-199",
           "concept": "cov1606",
-          "number": "135",
+          "scale": "cat",
+          "number": "129",
           "answers": [
             {
               "value": 1,
@@ -4411,7 +4323,7 @@
           "sn": 6
         }
       ],
-      "sn": 38,
+      "sn": 39,
       "instrument": "cov2_CoV_module6",
       "study": "twinlife"
     }

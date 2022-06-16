@@ -1004,27 +1004,15 @@
       "label_de": "Wann hat <Twin1> sein/ihr letztes Jahreszeugnis erhalten?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When did <Twin1> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Twin1> sein/ihr letztes Jahreszeugnis erhalten?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "edu0402t >= 2",
           "concept": "cer0300t",
-          "scale": "int",
+          "scale": "txt",
           "number": "19",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -1039,66 +1027,19 @@
       "label_de": "Wann hat <Twin1> sein/ihr letztes Jahreszeugnis erhalten?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When did <Twin2> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Twin1> sein/ihr letztes Jahreszeugnis erhalten?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "edu0402u >= 2",
           "concept": "cer0300u",
-          "scale": "int",
+          "scale": "txt",
           "number": "20",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
           "sn": 0
         }
       ],
       "sn": 19,
-      "instrument": "wid2_CATI1_module3",
-      "study": "twinlife"
-    },
-    "cer0300s": {
-      "question": "cer0300s",
-      "name": "cer0300s",
-      "label": "When did <Sibling> receive his/her last annual certificate? Please tell me the month and year.",
-      "label_de": "Wann hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
-      "items": [
-        {
-          "item": "1",
-          "text": "When did <Sibling> receive his/her last annual certificate? Please tell me the month and year.",
-          "text_de": "Wann hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "edu0402s >= 2",
-          "concept": "cer0300s",
-          "scale": "int",
-          "number": "21",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 20,
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
@@ -1109,27 +1050,38 @@
       "label_de": "Wann hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When did <Twin1> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "edu0402t >= 2",
           "concept": "cer0301t",
-          "scale": "int",
+          "scale": "txt",
+          "number": "21",
+          "sn": 0
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid2_CATI1_module3",
+      "study": "twinlife"
+    },
+    "cer0300s": {
+      "question": "cer0300s",
+      "name": "cer0300s",
+      "label": "When did <Sibling> receive his/her last annual certificate? Please tell me the month and year.",
+      "label_de": "Wann hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
+      "items": [
+        {
+          "item": "0",
+          "text": "When did <Sibling> receive his/her last annual certificate? Please tell me the month and year.",
+          "text_de": "Wann hat <Twin2> sein/ihr letztes Jahreszeugnis erhalten?",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "edu0402s >= 2",
+          "concept": "cer0300s",
+          "scale": "txt",
           "number": "22",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -1144,27 +1096,15 @@
       "label_de": "Wann hat <Geschwister> sein/ihr letztes Jahreszeugnis erhalten?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When did <Twin2> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Geschwister> sein/ihr letztes Jahreszeugnis erhalten?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "edu0402u >= 2",
           "concept": "cer0301u",
-          "scale": "int",
+          "scale": "txt",
           "number": "23",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -1179,27 +1119,15 @@
       "label_de": "Wann hat <Geschwister> sein/ihr letztes Jahreszeugnis erhalten?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When did <Sibling> receive his/her last annual certificate? Please tell me the month and year.",
           "text_de": "Wann hat <Geschwister> sein/ihr letztes Jahreszeugnis erhalten?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "edu0402s >= 2",
           "concept": "cer0301s",
-          "scale": "int",
+          "scale": "txt",
           "number": "24",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -1949,36 +1877,42 @@
       "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "cer0100t == -81",
           "concept": "cer0105t",
-          "scale": "int",
+          "scale": "txt",
           "number": "40",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -88,
-              "label": "-88: subject legible but grade illegible",
-              "label_de": "-88: Fach erkennbar, aber Note nicht"
-            },
-            {
-              "value": -86,
-              "label": "-86: subject not on certificate",
-              "label_de": "-86: Fach nicht vorhanden"
-            }
-          ],
           "sn": 0
         }
       ],
       "sn": 39,
+      "instrument": "wid2_CATI1_module3",
+      "study": "twinlife"
+    },
+    "cer0205t": {
+      "question": "cer0205t",
+      "name": "cer0205t",
+      "label": "Comparable classes in another language, grade:  (open statement)",
+      "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+      "items": [
+        {
+          "item": "0",
+          "text": "Comparable classes in another language, grade:  (open statement)",
+          "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200t == -81",
+          "concept": "cer0205t",
+          "scale": "txt",
+          "number": "41",
+          "sn": 0
+        }
+      ],
+      "sn": 40,
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
@@ -1989,36 +1923,42 @@
       "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "cer0100u == -81",
           "concept": "cer0105u",
-          "scale": "int",
-          "number": "41",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -88,
-              "label": "-88: subject legible but grade illegible",
-              "label_de": "-88: Fach erkennbar, aber Note nicht"
-            },
-            {
-              "value": -86,
-              "label": "-86: subject not on certificate",
-              "label_de": "-86: Fach nicht vorhanden"
-            }
-          ],
+          "scale": "txt",
+          "number": "42",
           "sn": 0
         }
       ],
-      "sn": 40,
+      "sn": 41,
+      "instrument": "wid2_CATI1_module3",
+      "study": "twinlife"
+    },
+    "cer0205u": {
+      "question": "cer0205u",
+      "name": "cer0205u",
+      "label": "Comparable classes in another language, grade:  (open statement)",
+      "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+      "items": [
+        {
+          "item": "0",
+          "text": "Comparable classes in another language, grade:  (open statement)",
+          "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200u == -81",
+          "concept": "cer0205u",
+          "scale": "txt",
+          "number": "43",
+          "sn": 0
+        }
+      ],
+      "sn": 42,
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
@@ -2029,36 +1969,42 @@
       "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "Comparable classes in another language, grade:  (open statement)",
           "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "cer0100s == -81",
           "concept": "cer0105s",
-          "scale": "int",
-          "number": "42",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -88,
-              "label": "-88: subject legible but grade illegible",
-              "label_de": "-88: Fach erkennbar, aber Note nicht"
-            },
-            {
-              "value": -86,
-              "label": "-86: subject not on certificate",
-              "label_de": "-86: Fach nicht vorhanden"
-            }
-          ],
+          "scale": "txt",
+          "number": "44",
           "sn": 0
         }
       ],
-      "sn": 41,
+      "sn": 43,
+      "instrument": "wid2_CATI1_module3",
+      "study": "twinlife"
+    },
+    "cer0205s": {
+      "question": "cer0205s",
+      "name": "cer0205s",
+      "label": "Comparable classes in another language, grade:  (open statement)",
+      "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+      "items": [
+        {
+          "item": "0",
+          "text": "Comparable classes in another language, grade:  (open statement)",
+          "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+          "description": "Source: Item developed for TwinLife",
+          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "filter": "cer0200s == -81",
+          "concept": "cer0205s",
+          "scale": "txt",
+          "number": "45",
+          "sn": 0
+        }
+      ],
+      "sn": 44,
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
@@ -2077,7 +2023,7 @@
           "filter": "edu0402t >= 2",
           "concept": "cer0200t",
           "scale": "int",
-          "number": "43",
+          "number": "46",
           "answers": [
             {
               "value": -83,
@@ -2098,7 +2044,7 @@
           "sn": 0
         }
       ],
-      "sn": 42,
+      "sn": 45,
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
@@ -2117,7 +2063,7 @@
           "filter": "edu0402u >= 2",
           "concept": "cer0200u",
           "scale": "int",
-          "number": "44",
+          "number": "47",
           "answers": [
             {
               "value": -83,
@@ -2138,7 +2084,7 @@
           "sn": 0
         }
       ],
-      "sn": 43,
+      "sn": 46,
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
@@ -2157,7 +2103,7 @@
           "filter": "edu0402s >= 2",
           "concept": "cer0200s",
           "scale": "int",
-          "number": "45",
+          "number": "48",
           "answers": [
             {
               "value": -83,
@@ -2178,7 +2124,7 @@
           "sn": 0
         }
       ],
-      "sn": 44,
+      "sn": 47,
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
@@ -2197,126 +2143,6 @@
           "filter": "cer0200t == -81",
           "concept": "cer0203t",
           "scale": "cat",
-          "number": "46",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -88,
-              "label": "-88: subject legible but grade illegible",
-              "label_de": "-88: Fach erkennbar, aber Note nicht"
-            },
-            {
-              "value": -86,
-              "label": "-86: subject not on certificate",
-              "label_de": "-86: Fach nicht vorhanden"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 45,
-      "instrument": "wid2_CATI1_module3",
-      "study": "twinlife"
-    },
-    "cer0203u": {
-      "question": "cer0203u",
-      "name": "cer0203u",
-      "label": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Twin2> receive?",
-      "label_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Twin2> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-      "items": [
-        {
-          "item": "1",
-          "text": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Twin2> receive?",
-          "text_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Twin2> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "cer0200u == -81",
-          "concept": "cer0203u",
-          "scale": "cat",
-          "number": "47",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -88,
-              "label": "-88: subject legible but grade illegible",
-              "label_de": "-88: Fach erkennbar, aber Note nicht"
-            },
-            {
-              "value": -86,
-              "label": "-86: subject not on certificate",
-              "label_de": "-86: Fach nicht vorhanden"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 46,
-      "instrument": "wid2_CATI1_module3",
-      "study": "twinlife"
-    },
-    "cer0203s": {
-      "question": "cer0203s",
-      "name": "cer0203s",
-      "label": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Sibling> receive?",
-      "label_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Geschwister> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-      "items": [
-        {
-          "item": "1",
-          "text": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Sibling> receive?",
-          "text_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Geschwister> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "cer0200s == -81",
-          "concept": "cer0203s",
-          "scale": "cat",
-          "number": "48",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -88,
-              "label": "-88: subject legible but grade illegible",
-              "label_de": "-88: Fach erkennbar, aber Note nicht"
-            },
-            {
-              "value": -86,
-              "label": "-86: subject not on certificate",
-              "label_de": "-86: Fach nicht vorhanden"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 47,
-      "instrument": "wid2_CATI1_module3",
-      "study": "twinlife"
-    },
-    "cer0205t": {
-      "question": "cer0205t",
-      "name": "cer0205t",
-      "label": "Comparable classes in another language, grade:  (open statement)",
-      "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
-      "items": [
-        {
-          "item": "1",
-          "text": "Comparable classes in another language, grade:  (open statement)",
-          "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "filter": "cer0200t == -81",
-          "concept": "cer0205t",
-          "scale": "int",
           "number": "49",
           "answers": [
             {
@@ -2342,21 +2168,21 @@
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
-    "cer0205u": {
-      "question": "cer0205u",
-      "name": "cer0205u",
-      "label": "Comparable classes in another language, grade:  (open statement)",
-      "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+    "cer0203u": {
+      "question": "cer0203u",
+      "name": "cer0203u",
+      "label": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Twin2> receive?",
+      "label_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Twin2> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
       "items": [
         {
           "item": "1",
-          "text": "Comparable classes in another language, grade:  (open statement)",
-          "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+          "text": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Twin2> receive?",
+          "text_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Twin2> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "cer0200u == -81",
-          "concept": "cer0205u",
-          "scale": "int",
+          "concept": "cer0203u",
+          "scale": "cat",
           "number": "50",
           "answers": [
             {
@@ -2382,21 +2208,21 @@
       "instrument": "wid2_CATI1_module3",
       "study": "twinlife"
     },
-    "cer0205s": {
-      "question": "cer0205s",
-      "name": "cer0205s",
-      "label": "Comparable classes in another language, grade:  (open statement)",
-      "label_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+    "cer0203s": {
+      "question": "cer0203s",
+      "name": "cer0203s",
+      "label": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Sibling> receive?",
+      "label_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Geschwister> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
       "items": [
         {
           "item": "1",
-          "text": "Comparable classes in another language, grade:  (open statement)",
-          "text_de": "Vergleichbarer Unterricht in einer anderen Sprache, Note:  (offene Angabe)",
+          "text": "Is there or has there been a subject which is comparable to German? If so, how is this subject called and what grade did <Sibling> receive?",
+          "text_de": "Gibt es einen dem Fach Deutsch vergleichbaren Unterricht? Wenn ja, wie heisst dieses Fach und welche Note hat <Geschwister> in seinem/ihrem letzten Jahreszeugnis darin erworben?",
           "description": "Source: Item developed for TwinLife",
           "description_de": "Source: Fuer TwinLife entwickeltes Item",
           "filter": "cer0200s == -81",
-          "concept": "cer0205s",
-          "scale": "int",
+          "concept": "cer0203s",
+          "scale": "cat",
           "number": "51",
           "answers": [
             {
@@ -2954,47 +2780,15 @@
       "label_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How would you describe the state of health of <Twin1> during the last 12 months, in general?",
           "text_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
           "description": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "description_de": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "filter": "age0110t < 10",
           "concept": "she0100t",
-          "scale": "cat",
+          "scale": "txt",
           "number": "67",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: excellent",
-              "label_de": "1: ausgezeichnet"
-            },
-            {
-              "value": 2,
-              "label": "2: very good",
-              "label_de": "2: sehr gut"
-            },
-            {
-              "value": 3,
-              "label": "3: good",
-              "label_de": "3: gut"
-            },
-            {
-              "value": 4,
-              "label": "4: less good",
-              "label_de": "4: maessig / weniger gut"
-            },
-            {
-              "value": 5,
-              "label": "5: poor",
-              "label_de": "5: schlecht"
-            },
-            {
-              "value": 6,
-              "label": "6: very poor",
-              "label_de": "6: sehr schlecht"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -3009,47 +2803,15 @@
       "label_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How would you describe the state of health of <Twin2> during the last 12 months, in general?",
           "text_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
           "description": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "description_de": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "filter": "age0110t < 10",
           "concept": "she0100u",
-          "scale": "cat",
+          "scale": "txt",
           "number": "68",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: excellent",
-              "label_de": "1: ausgezeichnet"
-            },
-            {
-              "value": 2,
-              "label": "2: very good",
-              "label_de": "2: sehr gut"
-            },
-            {
-              "value": 3,
-              "label": "3: good",
-              "label_de": "3: gut"
-            },
-            {
-              "value": 4,
-              "label": "4: less good",
-              "label_de": "4: maessig / weniger gut"
-            },
-            {
-              "value": 5,
-              "label": "5: poor",
-              "label_de": "5: schlecht"
-            },
-            {
-              "value": 6,
-              "label": "6: very poor",
-              "label_de": "6: sehr schlecht"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -3064,47 +2826,15 @@
       "label_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How would you describe the state of health of <Sibling> during the last 12 months, in general?",
           "text_de": "Wie wuerden Sie den Gesundheitszustand von <Twin1> in den letzten 12 Monaten im Allgemeinen beschreiben?",
           "description": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "description_de": "Source: Ellert, U., Lampert, T., & Ravens-Sieberer U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8. Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48 (12), 1330-1337",
           "filter": "age0110s < 10",
           "concept": "she0100s",
-          "scale": "cat",
+          "scale": "txt",
           "number": "69",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: excellent",
-              "label_de": "1: ausgezeichnet"
-            },
-            {
-              "value": 2,
-              "label": "2: very good",
-              "label_de": "2: sehr gut"
-            },
-            {
-              "value": 3,
-              "label": "3: good",
-              "label_de": "3: gut"
-            },
-            {
-              "value": 4,
-              "label": "4: less good",
-              "label_de": "4: maessig / weniger gut"
-            },
-            {
-              "value": 5,
-              "label": "5: poor",
-              "label_de": "5: schlecht"
-            },
-            {
-              "value": 6,
-              "label": "6: very poor",
-              "label_de": "6: sehr schlecht"
-            }
-          ],
           "sn": 0
         }
       ],

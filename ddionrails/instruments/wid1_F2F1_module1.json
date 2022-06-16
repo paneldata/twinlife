@@ -104,43 +104,24 @@
       "label_de": "Seit wann lebt die leibliche Mutter nicht mehr mit den Zwillingen in einem Haushalt?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "Since when has the biological mother not been living with the twins?",
           "text_de": "Seit wann lebt die leibliche Mutter nicht mehr mit den Zwillingen in einem Haushalt?",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
           "filter": "(fpr0400m == 1 | fpr0400m == 2) & (fpr1102 == 1 | fpr1103 == 1)",
           "concept": "fpr0403m",
-          "scale": "int",
+          "scale": "txt",
           "number": "3",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: never lived the same household as the twins",
-              "label_de": "-81: hat noch nie mit den Zwillingen in einem Haushalt zusammen gelebt"
-            }
-          ],
           "sn": 0
-        }
-      ],
-      "sn": 2,
-      "instrument": "wid1_F2F1_module1",
-      "study": "twinlife"
-    },
-    "fpr0404m": {
-      "question": "fpr0404m",
-      "name": "fpr0404m",
-      "label": "Since when has the biological mother not been living with the twins?",
-      "label_de": "Seit wann lebt die leibliche Mutter nicht mehr mit den Zwillingen in einem Haushalt?",
-      "items": [
+        },
         {
           "item": "1",
-          "text": "Since when has the biological mother not been living with the twins?",
-          "text_de": "Seit wann lebt die leibliche Mutter nicht mehr mit den Zwillingen in einem Haushalt?",
+          "text": "month",
+          "text_de": "Monat",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "filter": "(fpr0400m == 1 | fpr0400m == 2) & (fpr1102 == 1 | fpr1103 == 1)",
-          "concept": "fpr0404m",
+          "concept": "fpr0403m",
           "scale": "int",
           "number": "4",
           "answers": [
@@ -150,10 +131,28 @@
               "label_de": "-81: hat noch nie mit den Zwillingen in einem Haushalt zusammen gelebt"
             }
           ],
-          "sn": 0
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "year",
+          "text_de": "Jahr",
+          "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
+          "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "concept": "fpr0403m",
+          "scale": "int",
+          "number": "5",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: never lived the same household as the twins",
+              "label_de": "-81: hat noch nie mit den Zwillingen in einem Haushalt zusammen gelebt"
+            }
+          ],
+          "sn": 2
         }
       ],
-      "sn": 3,
+      "sn": 2,
       "instrument": "wid1_F2F1_module1",
       "study": "twinlife"
     },
@@ -164,50 +163,26 @@
       "label_de": "Wann ist die leibliche Mutter der Zwillinge gestorben?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When did the biological mother die?",
           "text_de": "Wann ist die leibliche Mutter der Zwillinge gestorben?",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
           "filter": "fpr0400m == 3",
           "concept": "fpr0405m",
-          "scale": "int",
-          "number": "5",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
+          "scale": "txt",
+          "number": "6",
           "sn": 0
-        }
-      ],
-      "sn": 4,
-      "instrument": "wid1_F2F1_module1",
-      "study": "twinlife"
-    },
-    "fpr0406m": {
-      "question": "fpr0406m",
-      "name": "fpr0406m",
-      "label": "When did the biological mother die?",
-      "label_de": "Wann ist die leibliche Mutter der Zwillinge gestorben?",
-      "items": [
+        },
         {
           "item": "1",
-          "text": "When did the biological mother die?",
-          "text_de": "Wann ist die leibliche Mutter der Zwillinge gestorben?",
+          "text": "month",
+          "text_de": "Monat",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "filter": "fpr0400m == 3",
-          "concept": "fpr0406m",
+          "concept": "fpr0405m",
           "scale": "int",
-          "number": "6",
+          "number": "7",
           "answers": [
             {
               "value": -86,
@@ -220,10 +195,33 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "year",
+          "text_de": "Jahr",
+          "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
+          "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "concept": "fpr0405m",
+          "scale": "int",
+          "number": "8",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 2
         }
       ],
-      "sn": 5,
+      "sn": 3,
       "instrument": "wid1_F2F1_module1",
       "study": "twinlife"
     },
@@ -242,7 +240,7 @@
           "filter": "fpr1101 == 2",
           "concept": "fpr0400f",
           "scale": "cat",
-          "number": "7",
+          "number": "9",
           "answers": [
             {
               "value": 1,
@@ -263,7 +261,7 @@
           "sn": 0
         }
       ],
-      "sn": 6,
+      "sn": 4,
       "instrument": "wid1_F2F1_module1",
       "study": "twinlife"
     },
@@ -282,7 +280,7 @@
           "filter": "(fpr0400f == 1 | fpr0400f == 2) & (fpr1102 == 1 | fpr1103 == 1)",
           "concept": "fpr0401f",
           "scale": "cat",
-          "number": "8",
+          "number": "10",
           "answers": [
             {
               "value": -89,
@@ -313,7 +311,7 @@
           "sn": 0
         }
       ],
-      "sn": 7,
+      "sn": 5,
       "instrument": "wid1_F2F1_module1",
       "study": "twinlife"
     },
@@ -324,45 +322,26 @@
       "label_de": "Seit wann lebt der leibliche Vater nicht mehr mit den Zwillingen in einem Haushalt?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "Since when has the biological father not been living with the twins?",
           "text_de": "Seit wann lebt der leibliche Vater nicht mehr mit den Zwillingen in einem Haushalt?",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
           "filter": "(fpr0400f == 1 | fpr0400f == 2) & (fpr1102 == 1 | fpr1103 == 1)",
           "concept": "fpr0403f",
-          "scale": "int",
-          "number": "9",
-          "answers": [
-            {
-              "value": -81,
-              "label": "-81: never lived the same household as the twins",
-              "label_de": "-81: hat noch nie mit den Zwillingen in einem Haushalt zusammen gelebt"
-            }
-          ],
+          "scale": "txt",
+          "number": "11",
           "sn": 0
-        }
-      ],
-      "sn": 8,
-      "instrument": "wid1_F2F1_module1",
-      "study": "twinlife"
-    },
-    "fpr0404f": {
-      "question": "fpr0404f",
-      "name": "fpr0404f",
-      "label": "Since when has the biological father not been living with the twins?",
-      "label_de": "Seit wann lebt der leibliche Vater nicht mehr mit den Zwillingen in einem Haushalt?",
-      "items": [
+        },
         {
           "item": "1",
-          "text": "Since when has the biological father not been living with the twins?",
-          "text_de": "Seit wann lebt der leibliche Vater nicht mehr mit den Zwillingen in einem Haushalt?",
+          "text": "month",
+          "text_de": "Monat",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "filter": "(fpr0400f == 1 | fpr0400f == 2) & (fpr1102 == 1 | fpr1103 == 1)",
-          "concept": "fpr0404f",
+          "concept": "fpr0403f",
           "scale": "int",
-          "number": "10",
+          "number": "12",
           "answers": [
             {
               "value": -81,
@@ -370,10 +349,28 @@
               "label_de": "-81: hat noch nie mit den Zwillingen in einem Haushalt zusammen gelebt"
             }
           ],
-          "sn": 0
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "year",
+          "text_de": "Jahr",
+          "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
+          "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "concept": "fpr0403f",
+          "scale": "int",
+          "number": "13",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: never lived the same household as the twins",
+              "label_de": "-81: hat noch nie mit den Zwillingen in einem Haushalt zusammen gelebt"
+            }
+          ],
+          "sn": 2
         }
       ],
-      "sn": 9,
+      "sn": 6,
       "instrument": "wid1_F2F1_module1",
       "study": "twinlife"
     },
@@ -384,50 +381,26 @@
       "label_de": "Wann ist der leibliche Vater der Zwillinge gestorben?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "When did the biological father die?",
           "text_de": "Wann ist der leibliche Vater der Zwillinge gestorben?",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
           "filter": "fpr0400f == 3",
           "concept": "fpr0405f",
-          "scale": "int",
-          "number": "11",
-          "answers": [
-            {
-              "value": -86,
-              "label": "-86: not available/empty/not codable",
-              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
+          "scale": "txt",
+          "number": "14",
           "sn": 0
-        }
-      ],
-      "sn": 10,
-      "instrument": "wid1_F2F1_module1",
-      "study": "twinlife"
-    },
-    "fpr0406f": {
-      "question": "fpr0406f",
-      "name": "fpr0406f",
-      "label": "When did the biological father die?",
-      "label_de": "Wann ist der leibliche Vater der Zwillinge gestorben?",
-      "items": [
+        },
         {
           "item": "1",
-          "text": "When did the biological father die?",
-          "text_de": "Wann ist der leibliche Vater der Zwillinge gestorben?",
+          "text": "month",
+          "text_de": "Monat",
           "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
           "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
-          "filter": "fpr0400f == 3",
-          "concept": "fpr0406f",
+          "concept": "fpr0405f",
           "scale": "int",
-          "number": "12",
+          "number": "15",
           "answers": [
             {
               "value": -86,
@@ -440,10 +413,33 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "year",
+          "text_de": "Jahr",
+          "description": "Source: Adapted from: Panel analysis of intimate relationships and family dynamics (pairfam): Pairfam Codebook Child Wave 4 2011/12",
+          "description_de": "Source: Adaptiert von: Beziehungs- und Familienpanel (pairfam): Pairfam Codebuch Kind Welle 4 2011/12",
+          "concept": "fpr0405f",
+          "scale": "int",
+          "number": "16",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 2
         }
       ],
-      "sn": 11,
+      "sn": 7,
       "instrument": "wid1_F2F1_module1",
       "study": "twinlife"
     }

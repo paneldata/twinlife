@@ -10,18 +10,373 @@
     "att0300": {
       "question": "att0300",
       "name": "att0300",
-      "label": "[IF Zwilling1 age >= 16] How do you rate the physical attractiveness of <NAME ZWILLING1> compared to other people of the same age and gender? [IF Zwilling1 age >= 12 and Zwilling1 age <16] How do you rate the physical attractiveness of <NAME ZWILLING1> compared to other young people of the same age and gender? [IF Zwilling1 age <12] How do you rate the physical attractiveness of <NAME ZWILLING1> compared to other children of the same age and gender?",
-      "label_de": "[IF Zwilling1 age >= 16] Wie beurteilen Sie die physische Attraktivitaet von <NAME ZWILLING1> im Vergleich zu anderen Menschen desselben Alters und Geschlechts? [IF Zwilling1 age>= 12 and Zwilling1 age< 16] Wie beurteilen Sie die physische Attraktivitaet von <NAME ZWILLING1> im Vergleich zu anderen Jugendlichen desselben Alters und Geschlechts? [IF Zwilling1 age < 12] Wie beurteilen Sie die physische Attraktivitaet von <NAME ZWILLING1> im Vergleich zu anderen Kindern desselben Alters und Geschlechts?",
+      "label": "How do you rate the physical attractiveness of...",
+      "label_de": "Wie beurteilen Sie die physische Attraktivitaet von...",
       "items": [
         {
           "item": "0",
-          "text": "How do you rate the physical attractiveness of <NAME VATER> compared to other men of his age?",
-          "text_de": "Wie beurteilen Sie die physische Attraktivitaet von <NAME VATER> im Vergleich zu anderen Maennern seines Alters?",
-          "filter": "hlf==1 & fpr0107==22",
+          "text": "How do you rate the physical attractiveness of...",
+          "text_de": "Wie beurteilen Sie die physische Attraktivitaet von...",
+          "filter": "hlt==1",
           "concept": "att0300",
           "scale": "txt",
-          "number": "5",
+          "number": "1",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "[IF age0100t >= 16] <NAME TWIN1> compared to other people of the same age and gender? [IF age0100t >= 12 and age0100t < 16] <NAME TWIN1> compared to other young people of the same age and gender? [IF age0100t < 12] <NAME TWIN1> compared to other children of the same age and gender?",
+          "text_de": "[IF age0100t >= 16] <NAME ZWILLING1> im Vergleich zu anderen Menschen desselben Alters und Geschlechts? [IF age0100t >= 12 and age0100t < 16] <NAME ZWILLING1> im Vergleich zu anderen Jugendlichen desselben Alters und Geschlechts? [IF age0100t < 12] <NAME ZWILLING1> im Vergleich zu anderen Kindern desselben Alters und Geschlechts?",
+          "concept": "att0300",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: person was not present",
+              "label_de": "-81: Person war nicht anwesend"
+            },
+            {
+              "value": -5,
+              "label": "-5: much less attractive",
+              "label_de": "-5: viel unattraktiver"
+            },
+            {
+              "value": -4,
+              "label": "-4",
+              "label_de": "-4"
+            },
+            {
+              "value": -3,
+              "label": "-3",
+              "label_de": "-3"
+            },
+            {
+              "value": -2,
+              "label": "-2",
+              "label_de": "-2"
+            },
+            {
+              "value": -1,
+              "label": "-1",
+              "label_de": "-1"
+            },
+            {
+              "value": 0,
+              "label": "0: equally attractive",
+              "label_de": "0: gleich attraktiv"
+            },
+            {
+              "value": 1,
+              "label": "1",
+              "label_de": "1"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: much more attractive",
+              "label_de": "5: viel attraktiver"
+            }
+          ],
           "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "[IF age0100t >= 16] <NAME TWIN2> compared to other people of the same age and gender? [IF age0100t >= 12 and age0100t < 16] <NAME TWIN2> compared to other young people of the same age and gender? [IF age0100t < 12] <NAME TWIN2> compared to other children of the same age and gender?",
+          "text_de": "[IF age0100t >= 16] <NAME ZWILLING2> im Vergleich zu anderen Menschen desselben Alters und Geschlechts? [IF age0100t >= 12 and age0100t < 16] <NAME ZWILLING2> im Vergleich zu anderen Jugendlichen desselben Alters und Geschlechts? [IF age0100t < 12] <NAME ZWILLING2> im Vergleich zu anderen Kindern desselben Alters und Geschlechts?",
+          "concept": "att0300",
+          "scale": "cat",
+          "number": "3",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: person was not present",
+              "label_de": "-81: Person war nicht anwesend"
+            },
+            {
+              "value": -5,
+              "label": "-5: much less attractive",
+              "label_de": "-5: viel unattraktiver"
+            },
+            {
+              "value": -4,
+              "label": "-4",
+              "label_de": "-4"
+            },
+            {
+              "value": -3,
+              "label": "-3",
+              "label_de": "-3"
+            },
+            {
+              "value": -2,
+              "label": "-2",
+              "label_de": "-2"
+            },
+            {
+              "value": -1,
+              "label": "-1",
+              "label_de": "-1"
+            },
+            {
+              "value": 0,
+              "label": "0: equally attractive",
+              "label_de": "0: gleich attraktiv"
+            },
+            {
+              "value": 1,
+              "label": "1",
+              "label_de": "1"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: much more attractive",
+              "label_de": "5: viel attraktiver"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "[IF age0100s >= 16] <NAME SIBLING> compared to other people of the same age and gender? [IF age0100s >= 12 and age0100s < 16] <NAME SIBLING> compared to other young people of the same age and gender? [IF age0100s < 12] <NAME SIBLING> compared to other children of the same age and gender?",
+          "text_de": "[IF age0100s >= 16] <NAME GESCHWISTER> im Vergleich zu anderen Menschen desselben Alters und Geschlechts? [IF age0100s >= 12 and age0100s < 16] <NAME GESCHWISTER> im Vergleich zu anderen Jugendlichen desselben Alters und Geschlechts? [IF age0100s < 12] <NAME GESCHWISTER> im Vergleich zu anderen Kindern desselben Alters und Geschlechts?",
+          "concept": "att0300",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: person was not present",
+              "label_de": "-81: Person war nicht anwesend"
+            },
+            {
+              "value": -5,
+              "label": "-5: much less attractive",
+              "label_de": "-5: viel unattraktiver"
+            },
+            {
+              "value": -4,
+              "label": "-4",
+              "label_de": "-4"
+            },
+            {
+              "value": -3,
+              "label": "-3",
+              "label_de": "-3"
+            },
+            {
+              "value": -2,
+              "label": "-2",
+              "label_de": "-2"
+            },
+            {
+              "value": -1,
+              "label": "-1",
+              "label_de": "-1"
+            },
+            {
+              "value": 0,
+              "label": "0: equally attractive",
+              "label_de": "0: gleich attraktiv"
+            },
+            {
+              "value": 1,
+              "label": "1",
+              "label_de": "1"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: much more attractive",
+              "label_de": "5: viel attraktiver"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "<NAME MOTHER> compared to other females of her age?",
+          "text_de": "<NAME MUTTER> im Vergleich zu anderen Frauen ihres Alters?",
+          "concept": "att0300",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: person was not present",
+              "label_de": "-81: Person war nicht anwesend"
+            },
+            {
+              "value": -5,
+              "label": "-5: much less attractive",
+              "label_de": "-5: viel unattraktiver"
+            },
+            {
+              "value": -4,
+              "label": "-4",
+              "label_de": "-4"
+            },
+            {
+              "value": -3,
+              "label": "-3",
+              "label_de": "-3"
+            },
+            {
+              "value": -2,
+              "label": "-2",
+              "label_de": "-2"
+            },
+            {
+              "value": -1,
+              "label": "-1",
+              "label_de": "-1"
+            },
+            {
+              "value": 0,
+              "label": "0: equally attractive",
+              "label_de": "0: gleich attraktiv"
+            },
+            {
+              "value": 1,
+              "label": "1",
+              "label_de": "1"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: much more attractive",
+              "label_de": "5: viel attraktiver"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "<NAME FATHER> compared to other males of his age?",
+          "text_de": "<NAME VATER> im Vergleich zu anderen Maennern seines Alters?",
+          "concept": "att0300",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: person was not present",
+              "label_de": "-81: Person war nicht anwesend"
+            },
+            {
+              "value": -5,
+              "label": "-5: much less attractive",
+              "label_de": "-5: viel unattraktiver"
+            },
+            {
+              "value": -4,
+              "label": "-4",
+              "label_de": "-4"
+            },
+            {
+              "value": -3,
+              "label": "-3",
+              "label_de": "-3"
+            },
+            {
+              "value": -2,
+              "label": "-2",
+              "label_de": "-2"
+            },
+            {
+              "value": -1,
+              "label": "-1",
+              "label_de": "-1"
+            },
+            {
+              "value": 0,
+              "label": "0: equally attractive",
+              "label_de": "0: gleich attraktiv"
+            },
+            {
+              "value": 1,
+              "label": "1",
+              "label_de": "1"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: much more attractive",
+              "label_de": "5: viel attraktiver"
+            }
+          ],
+          "sn": 5
         }
       ],
       "sn": 0,
@@ -40,7 +395,7 @@
           "text_de": "Haben Sie mindestens eine Person in diesem Haushalt bereits in der vorherigen Befragungswelle von TwinLife befragt?",
           "concept": "iva1000",
           "scale": "cat",
-          "number": "6",
+          "number": "7",
           "answers": [
             {
               "value": -89,
@@ -90,7 +445,7 @@
           "filter": "iva0900!=-81",
           "concept": "iva0901",
           "scale": "cat",
-          "number": "7",
+          "number": "8",
           "answers": [
             {
               "value": -89,
@@ -160,7 +515,7 @@
           "filter": "iva0900!=-81",
           "concept": "iva0902",
           "scale": "cat",
-          "number": "8",
+          "number": "9",
           "answers": [
             {
               "value": -89,
@@ -210,7 +565,7 @@
           "filter": "iva0900!=-81",
           "concept": "iva0903",
           "scale": "cat",
-          "number": "9",
+          "number": "10",
           "answers": [
             {
               "value": -89,
@@ -260,7 +615,7 @@
           "filter": "iva0900!=-81",
           "concept": "iva0904",
           "scale": "cat",
-          "number": "10",
+          "number": "11",
           "answers": [
             {
               "value": -89,
@@ -320,7 +675,7 @@
           "filter": "iva0900!=-81",
           "concept": "iva0905",
           "scale": "cat",
-          "number": "11",
+          "number": "12",
           "answers": [
             {
               "value": -89,
@@ -367,15 +722,26 @@
       "label_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "What is your general impression of the home?",
           "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "filter": "iva0900!=-81",
           "concept": "iva0100",
+          "scale": "txt",
+          "number": "13",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "tidy - untidy",
+          "text_de": "aufgeraeumt / unaufgeraeumt",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
+          "concept": "iva0100",
           "scale": "cat",
-          "number": "12",
+          "number": "14",
           "answers": [
             {
               "value": -85,
@@ -408,29 +774,17 @@
               "label_de": "5: unaufgeraeumt"
             }
           ],
-          "sn": 0
-        }
-      ],
-      "sn": 7,
-      "instrument": "wid3_F2F2_module9",
-      "study": "twinlife"
-    },
-    "iva0101": {
-      "question": "iva0101",
-      "name": "iva0101",
-      "label": "What is your general impression of the home?",
-      "label_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
-      "items": [
+          "sn": 1
+        },
         {
-          "item": "1",
-          "text": "What is your general impression of the home?",
-          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
+          "item": "2",
+          "text": "cheap furnishings - expensive furnishings",
+          "text_de": "billige Ausstattung / teure Ausstattung",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "filter": "iva0900!=-81",
-          "concept": "iva0101",
+          "concept": "iva0100",
           "scale": "cat",
-          "number": "13",
+          "number": "15",
           "answers": [
             {
               "value": -85,
@@ -463,29 +817,17 @@
               "label_de": "5: teure Ausstattung"
             }
           ],
-          "sn": 0
-        }
-      ],
-      "sn": 8,
-      "instrument": "wid3_F2F2_module9",
-      "study": "twinlife"
-    },
-    "iva0102": {
-      "question": "iva0102",
-      "name": "iva0102",
-      "label": "What is your general impression of the home?",
-      "label_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
-      "items": [
+          "sn": 2
+        },
         {
-          "item": "1",
-          "text": "What is your general impression of the home?",
-          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
+          "item": "3",
+          "text": "tidy - neglected",
+          "text_de": "gepflegt / vernachlaessigt",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "filter": "iva0900!=-81",
-          "concept": "iva0102",
+          "concept": "iva0100",
           "scale": "cat",
-          "number": "14",
+          "number": "16",
           "answers": [
             {
               "value": -85,
@@ -518,29 +860,17 @@
               "label_de": "5: vernachlaessigt"
             }
           ],
-          "sn": 0
-        }
-      ],
-      "sn": 9,
-      "instrument": "wid3_F2F2_module9",
-      "study": "twinlife"
-    },
-    "iva0103": {
-      "question": "iva0103",
-      "name": "iva0103",
-      "label": "What is your general impression of the home?",
-      "label_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
-      "items": [
+          "sn": 3
+        },
         {
-          "item": "1",
-          "text": "What is your general impression of the home?",
-          "text_de": "Wie ist Ihr Gesamteindruck von der Wohnung?",
+          "item": "4",
+          "text": "restricted - roomy",
+          "text_de": "beengt / geraeumig",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
           "description_de": "Source: Adaptiert von: Motel-Klingebiel, A., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., Wiest, M., & Tesch-Roemer, C. (2009). Deutscher Alterssurvey: Die zweite Lebenshaelfte. Erhebungsdesign und Instrumente der dritten Befragungswelle. Berlin: Deutsches Zentrum fuer Altersfragen",
-          "filter": "iva0900!=-81",
-          "concept": "iva0103",
+          "concept": "iva0100",
           "scale": "cat",
-          "number": "15",
+          "number": "17",
           "answers": [
             {
               "value": -85,
@@ -573,10 +903,10 @@
               "label_de": "5: geraeumig"
             }
           ],
-          "sn": 0
+          "sn": 4
         }
       ],
-      "sn": 10,
+      "sn": 7,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
@@ -587,61 +917,12 @@
       "label_de": "Wie viele Buecher befinden sich wohl in dem Haushalt?",
       "items": [
         {
-          "item": "0",
+          "item": "1",
           "text": "How many books would you estimate are in the house?",
           "text_de": "Wie viele Buecher befinden sich wohl in dem Haushalt?",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS): NEPS SC4 Starting Cohort 4: Klasse 9 Wave 1 and 2 2013",
           "description_de": "Source: Adaptiert von: Nationales Bildungspanel (NEPS): NEPS SC4 Startkohorte 4: Klasse 9 Wellen 1 und 2 2013",
           "filter": "iva0900!=-81",
-          "concept": "iva0104",
-          "scale": "txt",
-          "number": "16",
-          "sn": 0
-        },
-        {
-          "item": "3",
-          "text": "By the children among each other",
-          "text_de": "Von den Kindern untereinander",
-          "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
-          "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
-          "concept": "iva0104",
-          "scale": "cat",
-          "number": "17",
-          "answers": [
-            {
-              "value": -85,
-              "label": "-85: no information available",
-              "label_de": "-85: keine Information vorhanden"
-            },
-            {
-              "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
-            },
-            {
-              "value": 1,
-              "label": "1: yes, often",
-              "label_de": "1: ja, haeufig"
-            },
-            {
-              "value": 2,
-              "label": "2: yes, sometimes",
-              "label_de": "2: ja, manchmal"
-            },
-            {
-              "value": 3,
-              "label": "3: no",
-              "label_de": "3: nein"
-            }
-          ],
-          "sn": 1
-        },
-        {
-          "item": "4",
-          "text": "By the parents among each other",
-          "text_de": "Von den Eltern untereinander",
-          "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
-          "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
           "concept": "iva0104",
           "scale": "cat",
           "number": "18",
@@ -653,29 +934,44 @@
             },
             {
               "value": -81,
-              "label": "-81: doesn't apply (explicit response)",
-              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
+              "label": "-81: can't give an answer",
+              "label_de": "-81: kann keine Angabe dazu machen"
             },
             {
               "value": 1,
-              "label": "1: yes, often",
-              "label_de": "1: ja, haeufig"
+              "label": "1: none or very few",
+              "label_de": "1: keine oder nur sehr wenige"
             },
             {
               "value": 2,
-              "label": "2: yes, sometimes",
-              "label_de": "2: ja, manchmal"
+              "label": "2: enough to fill one shelf",
+              "label_de": "2: genug, um ein Regalbrett zu fuellen"
             },
             {
               "value": 3,
-              "label": "3: no",
-              "label_de": "3: nein"
+              "label": "3: enough to fill several shelves",
+              "label_de": "3: genug, um mehrere Regalbretter zu fuellen"
+            },
+            {
+              "value": 4,
+              "label": "4: enough to fill a small book cabinet",
+              "label_de": "4: genug, um ein kleines Regal zu fuellen"
+            },
+            {
+              "value": 5,
+              "label": "5: enough to fill a large book cabinet",
+              "label_de": "5: genug, um ein grosses Regal zu fuellen"
+            },
+            {
+              "value": 6,
+              "label": "6: enough to fill a wall-sized bookcase",
+              "label_de": "6: genug, um eine Regelwand zu fuellen"
             }
           ],
-          "sn": 2
+          "sn": 0
         }
       ],
-      "sn": 11,
+      "sn": 8,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
@@ -765,9 +1061,85 @@
             }
           ],
           "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "By the children among each other",
+          "text_de": "Von den Kindern untereinander",
+          "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
+          "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
+          "concept": "iva0404",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: no information available",
+              "label_de": "-85: keine Information vorhanden"
+            },
+            {
+              "value": -81,
+              "label": "-81: doesn't apply (explicit response)",
+              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
+            },
+            {
+              "value": 1,
+              "label": "1: yes, often",
+              "label_de": "1: ja, haeufig"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, sometimes",
+              "label_de": "2: ja, manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: no",
+              "label_de": "3: nein"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "By the parents among each other",
+          "text_de": "Von den Eltern untereinander",
+          "description": "Source: Engstler, H., Groh, A., Klaus, D., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). German Ageing Survey (DEAS). Instruments of the Fifth Wave 2014. German Centre of Gerontology, Deutsches Zentrum fuer Altersfragen (DZA)",
+          "description_de": "Source: Engstler, H., Klaus, D., Lejeune, C., Mahne, K., Spuling, S., Wetzel, M., Wolff, J.K., Tesch-Roemer, C. (2015). Deutscher Alterssurvey (DEAS). Instrumente der DEAS-Erhebung 2014. Deutsches Zentrum fuer Altersfragen (DZA)",
+          "concept": "iva0404",
+          "scale": "cat",
+          "number": "23",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: no information available",
+              "label_de": "-85: keine Information vorhanden"
+            },
+            {
+              "value": -81,
+              "label": "-81: doesn't apply (explicit response)",
+              "label_de": "-81: trifft nicht zu (explizite Auskunft)"
+            },
+            {
+              "value": 1,
+              "label": "1: yes, often",
+              "label_de": "1: ja, haeufig"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, sometimes",
+              "label_de": "2: ja, manchmal"
+            },
+            {
+              "value": 3,
+              "label": "3: no",
+              "label_de": "3: nein"
+            }
+          ],
+          "sn": 4
         }
       ],
-      "sn": 12,
+      "sn": 9,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
@@ -783,7 +1155,7 @@
           "text_de": "Hat einer oder mehrere der Befragungspersonen waehrend Ihres jetzigen Besuchs den Selbstausfuellerfragebogen auf dem Tablet abgebrochen, also nicht bis zum Ende beantwortet? Hier ist nicht gemeint, ob einzelne Fragen von der Befragungsperson verweigert bzw. nicht beantwortet wurden!",
           "concept": "iva0500",
           "scale": "cat",
-          "number": "22",
+          "number": "24",
           "answers": [
             {
               "value": -88,
@@ -794,7 +1166,7 @@
           "sn": 0
         }
       ],
-      "sn": 13,
+      "sn": 10,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
@@ -810,7 +1182,7 @@
           "text_de": "Wie leicht ist es Ihnen gefallen, die verschiedenen Befragungsmodule mit den Befragungspersonen durchzufuehren?",
           "concept": "iva1100",
           "scale": "cat",
-          "number": "23",
+          "number": "25",
           "answers": [
             {
               "value": 1,
@@ -836,7 +1208,7 @@
           "sn": 0
         }
       ],
-      "sn": 14,
+      "sn": 11,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     },
@@ -852,7 +1224,7 @@
           "text_de": "Wie oft ist es Ihnen bei diesem Interview passiert, dass die beiden Zwillinge versucht haben Sie zu taeuschen, wer wer sei?",
           "concept": "iva1300",
           "scale": "cat",
-          "number": "24",
+          "number": "26",
           "answers": [
             {
               "value": 1,
@@ -883,7 +1255,7 @@
           "sn": 0
         }
       ],
-      "sn": 15,
+      "sn": 12,
       "instrument": "wid3_F2F2_module9",
       "study": "twinlife"
     }

@@ -6704,37 +6704,15 @@
       "label_de": "[IF age >= 10 and age <= 15] Wie oft hat Dich in letzter Zeit jemand gehaenselt oder beschimpft? [IF age >= 16 and edu0100 = 2] Wie oft hat Sie in letzter Zeit jemand gehaenselt oder beschimpft?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How often has anyone teased you or called you names recently?",
           "text_de": "[IF age >= 10 and age <= 15] Wie oft hat Dich in letzter Zeit jemand gehaenselt oder beschimpft? [IF age >= 16 and edu0100 = 2] Wie oft hat Sie in letzter Zeit jemand gehaenselt oder beschimpft?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "age0110>=10 & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0100==2",
           "concept": "bul0100",
-          "scale": "cat",
+          "scale": "txt",
           "number": "173",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: less than once a week",
-              "label_de": "2: weniger als einmal pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: most days",
-              "label_de": "4: an den meisten Tagen"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -6749,37 +6727,15 @@
       "label_de": "[IF age >= 16 and edu0100!=2] Wie oft hat Sie waehrend Ihrer Schulzeit jemand gehaenselt oder beschimpft?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "During your school years, how often did anyone tease you or call you names?",
           "text_de": "[IF age >= 16 and edu0100!=2] Wie oft hat Sie waehrend Ihrer Schulzeit jemand gehaenselt oder beschimpft?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & edu0100 != 2",
           "concept": "bul0110",
-          "scale": "cat",
+          "scale": "txt",
           "number": "174",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: less than once a week",
-              "label_de": "2: weniger als einmal pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: most days",
-              "label_de": "4: an den meisten Tagen"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -6794,32 +6750,15 @@
       "label_de": "[IF age >= 10 and age <= 15] Wie belastend waren diese Haenseleien fuer Dich? [IF age >= 16] Wie belastend waren diese Haenseleien fuer Sie?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How upsetting was it when you were teased?",
           "text_de": "[IF age >= 10 and age <= 15] Wie belastend waren diese Haenseleien fuer Dich? [IF age >= 16] Wie belastend waren diese Haenseleien fuer Sie?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "age0110>=10 & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0100==2 & bul0100>1",
           "concept": "bul0101",
-          "scale": "cat",
+          "scale": "txt",
           "number": "175",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: a little",
-              "label_de": "2: ein wenig"
-            },
-            {
-              "value": 3,
-              "label": "3: I was quite upset",
-              "label_de": "3: ziemlich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -6834,32 +6773,15 @@
       "label_de": "[IF age >= 16] Wie belastend waren diese Haenseleien fuer Sie?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How upsetting was it when you were teased?",
           "text_de": "[IF age >= 16] Wie belastend waren diese Haenseleien fuer Sie?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & edu0100 != 2 & (bul0110 >1)",
           "concept": "bul0111",
-          "scale": "cat",
+          "scale": "txt",
           "number": "176",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: a little",
-              "label_de": "2: ein wenig"
-            },
-            {
-              "value": 3,
-              "label": "3: I was quite upset",
-              "label_de": "3: ziemlich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -6874,37 +6796,15 @@
       "label_de": "[IF age >= 10 and age <= 15] Wie oft hat in letzter Zeit jemand Geruechte ueber Dich verbreitet? (hiermit sind auch Geruechte im Internet gemeint) [IF age >= 16 and edu0100 = 2] Wie oft hat in letzter Zeit jemand Geruechte ueber Sie verbreitet? (hiermit sind auch Geruechte im Internet gemeint)",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How often has anyone spread rumors about you recently? (This includes rumors on the internet)",
           "text_de": "[IF age >= 10 and age <= 15] Wie oft hat in letzter Zeit jemand Geruechte ueber Dich verbreitet? (hiermit sind auch Geruechte im Internet gemeint) [IF age >= 16 and edu0100 = 2] Wie oft hat in letzter Zeit jemand Geruechte ueber Sie verbreitet? (hiermit sind auch Geruechte im Internet gemeint)",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "age0110>=10 & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0100==2",
           "concept": "bul0200",
-          "scale": "cat",
+          "scale": "txt",
           "number": "177",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: less than once a week",
-              "label_de": "2: weniger als einmal pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: most days",
-              "label_de": "4: an den meisten Tagen"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -6919,37 +6819,15 @@
       "label_de": "[IF age >= 16 and edu0100!=2] Wie oft hat waehrend Ihrer Schulzeit jemand Geruechte ueber Sie verbreitet? (hiermit sind auch Geruechte im Internet gemeint)",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "During your school years, how often did anyone spread rumors about you? (This includes rumors on the internet).",
           "text_de": "[IF age >= 16 and edu0100!=2] Wie oft hat waehrend Ihrer Schulzeit jemand Geruechte ueber Sie verbreitet? (hiermit sind auch Geruechte im Internet gemeint)",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & edu0100 != 2",
           "concept": "bul0210",
-          "scale": "cat",
+          "scale": "txt",
           "number": "178",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: less than once a week",
-              "label_de": "2: weniger als einmal pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: most days",
-              "label_de": "4: an den meisten Tagen"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -6964,32 +6842,15 @@
       "label_de": "[IF age >= 10 and age <= 15] Wie belastend waren diese Geruechte fuer Dich? [IF age >= 16] Wie belastend waren diese Geruechte fuer Sie?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How upsetting were the rumors?",
           "text_de": "[IF age >= 10 and age <= 15] Wie belastend waren diese Geruechte fuer Dich? [IF age >= 16] Wie belastend waren diese Geruechte fuer Sie?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "age0110>=10 & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0100==2 & bul0200>1",
           "concept": "bul0201",
-          "scale": "cat",
+          "scale": "txt",
           "number": "179",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: a little",
-              "label_de": "2: ein wenig"
-            },
-            {
-              "value": 3,
-              "label": "3: I was quite upset",
-              "label_de": "3: ziemlich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7004,32 +6865,15 @@
       "label_de": "[IF age >= 16] Wie belastend waren diese Geruechte fuer Sie?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How upsetting were the rumors?",
           "text_de": "[IF age >= 16] Wie belastend waren diese Geruechte fuer Sie?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & edu0100 != 2 & (bul0210 >1)",
           "concept": "bul0211",
-          "scale": "cat",
+          "scale": "txt",
           "number": "180",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: a little",
-              "label_de": "2: ein wenig"
-            },
-            {
-              "value": 3,
-              "label": "3: I was quite upset",
-              "label_de": "3: ziemlich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7044,37 +6888,15 @@
       "label_de": "[IF age >= 10 and age <= 15] Wie oft wurdest Du in letzter Zeit absichtlich von anderen aus bestimmten Sachen ausgeschlossen? [IF age >= 16 and edu0100 = 2] Wie oft wurden Sie in letzter Zeit absichtlich von anderen aus bestimmten Sachen ausgeschlossen?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How often have you been deliberately left out of things recently?",
           "text_de": "[IF age >= 10 and age <= 15] Wie oft wurdest Du in letzter Zeit absichtlich von anderen aus bestimmten Sachen ausgeschlossen? [IF age >= 16 and edu0100 = 2] Wie oft wurden Sie in letzter Zeit absichtlich von anderen aus bestimmten Sachen ausgeschlossen?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "age0110>=10 & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0100==2",
           "concept": "bul0300",
-          "scale": "cat",
+          "scale": "txt",
           "number": "181",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: less than once a week",
-              "label_de": "2: weniger als einmal pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: most days",
-              "label_de": "4: an den meisten Tagen"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7089,37 +6911,15 @@
       "label_de": "[IF age >= 16 and edu0100!=2] Wie oft wurden Sie waehrend Ihrer Schulzeit absichtlich von anderen aus bestimmten Sachen ausgeschlossen?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "During your school years, how often were you deliberately left out of things?",
           "text_de": "[IF age >= 16 and edu0100!=2] Wie oft wurden Sie waehrend Ihrer Schulzeit absichtlich von anderen aus bestimmten Sachen ausgeschlossen?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & edu0100 != 2",
           "concept": "bul0310",
-          "scale": "cat",
+          "scale": "txt",
           "number": "182",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: less than once a week",
-              "label_de": "2: weniger als einmal pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: most days",
-              "label_de": "4: an den meisten Tagen"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7134,32 +6934,15 @@
       "label_de": "[IF age >= 10 and age <= 15] Wie belastend war es fuer Dich, ausgeschlossen zu werden? [IF age >= 16] Wie belastend war es fuer Sie, ausgeschlossen zu werden?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How upsetting was it being left out of things?",
           "text_de": "[IF age >= 10 and age <= 15] Wie belastend war es fuer Dich, ausgeschlossen zu werden? [IF age >= 16] Wie belastend war es fuer Sie, ausgeschlossen zu werden?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "age0110>=10 & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0100==2 & bul0300>1",
           "concept": "bul0301",
-          "scale": "cat",
+          "scale": "txt",
           "number": "183",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: a little",
-              "label_de": "2: ein wenig"
-            },
-            {
-              "value": 3,
-              "label": "3: I was quite upset",
-              "label_de": "3: ziemlich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7174,32 +6957,15 @@
       "label_de": "[IF age >= 16] Wie belastend war es fuer Sie, ausgeschlossen zu werden?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How upsetting was it being left out of things?",
           "text_de": "[IF age >= 16] Wie belastend war es fuer Sie, ausgeschlossen zu werden?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & edu0100 != 2 & (bul0310 >1)",
           "concept": "bul0311",
-          "scale": "cat",
+          "scale": "txt",
           "number": "184",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: a little",
-              "label_de": "2: ein wenig"
-            },
-            {
-              "value": 3,
-              "label": "3: I was quite upset",
-              "label_de": "3: ziemlich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7214,37 +6980,15 @@
       "label_de": "[IF age >= 10 and age <= 15] Wie oft wurdest Du in letzter Zeit von einem Mitschueler koerperlich bedroht oder sogar verletzt? [IF age >= 16 and edu0100 = 2] Wie oft wurden Sie in letzter Zeit von einem Mitschueler koerperlich bedroht oder sogar verletzt?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How often have you been threatened physically or actually hurt by another student recently?",
           "text_de": "[IF age >= 10 and age <= 15] Wie oft wurdest Du in letzter Zeit von einem Mitschueler koerperlich bedroht oder sogar verletzt? [IF age >= 16 and edu0100 = 2] Wie oft wurden Sie in letzter Zeit von einem Mitschueler koerperlich bedroht oder sogar verletzt?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "age0110>=10 & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0100==2",
           "concept": "bul0400",
-          "scale": "cat",
+          "scale": "txt",
           "number": "185",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: less than once a week",
-              "label_de": "2: weniger als einmal pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: most days",
-              "label_de": "4: an den meisten Tagen"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7259,37 +7003,15 @@
       "label_de": "[IF age >= 16 and edu0100!=2] Wie oft wurden Sie waehrend Ihrer Schulzeit von einem Mitschueler koerperlich bedroht oder sogar verletzt?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "During your school years, how often were you threatened physically or actually hurt by another student?",
           "text_de": "[IF age >= 16 and edu0100!=2] Wie oft wurden Sie waehrend Ihrer Schulzeit von einem Mitschueler koerperlich bedroht oder sogar verletzt?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & edu0100 != 2",
           "concept": "bul0410",
-          "scale": "cat",
+          "scale": "txt",
           "number": "186",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: never",
-              "label_de": "1: nie"
-            },
-            {
-              "value": 2,
-              "label": "2: less than once a week",
-              "label_de": "2: weniger als einmal pro Woche"
-            },
-            {
-              "value": 3,
-              "label": "3: about once a week",
-              "label_de": "3: etwa einmal pro Woche"
-            },
-            {
-              "value": 4,
-              "label": "4: most days",
-              "label_de": "4: an den meisten Tagen"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7304,32 +7026,15 @@
       "label_de": "[IF age >= 10 and age <= 15] Wie belastend war diese Bedrohung/ Verletzung fuer Dich? [IF age >= 16] Wie belastend war diese Bedrohung/ Verletzung fuer Sie?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How upsetting was it being threatened or hurt?",
           "text_de": "[IF age >= 10 and age <= 15] Wie belastend war diese Bedrohung/ Verletzung fuer Dich? [IF age >= 16] Wie belastend war diese Bedrohung/ Verletzung fuer Sie?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "age0110>=10 & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & edu0100==2 & bul0400>1",
           "concept": "bul0401",
-          "scale": "cat",
+          "scale": "txt",
           "number": "187",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: a little",
-              "label_de": "2: ein wenig"
-            },
-            {
-              "value": 3,
-              "label": "3: I was quite upset",
-              "label_de": "3: ziemlich"
-            }
-          ],
           "sn": 0
         }
       ],
@@ -7344,32 +7049,15 @@
       "label_de": "[IF age >= 16] Wie belastend war diese Bedrohung/ Verletzung fuer Sie?",
       "items": [
         {
-          "item": "1",
+          "item": "0",
           "text": "How upsetting was it being threatened or hurt?",
           "text_de": "[IF age >= 16] Wie belastend war diese Bedrohung/ Verletzung fuer Sie?",
           "description": "Source: Adapted from: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "description_de": "Source: Adaptiert von: Bond, L., Wolfe, S., Tollit, M., Butler, H., & Patton, G. (2007). A comparison of the Gatehouse Bullying Scale and the Peer Relations Questionnaire for students in secondary school. Journal of School Health, 77, 75-79",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16) & edu0100 != 2 & (bul0410 >1)",
           "concept": "bul0411",
-          "scale": "cat",
+          "scale": "txt",
           "number": "188",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1: not at all",
-              "label_de": "1: ueberhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2: a little",
-              "label_de": "2: ein wenig"
-            },
-            {
-              "value": 3,
-              "label": "3: I was quite upset",
-              "label_de": "3: ziemlich"
-            }
-          ],
           "sn": 0
         }
       ],

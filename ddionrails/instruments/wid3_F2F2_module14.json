@@ -262,14 +262,25 @@
           "scale": "txt",
           "number": "9",
           "sn": 0
-        },
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid3_F2F2_module14",
+      "study": "twinlife"
+    },
+    "sop0200": {
+      "question": "sop0200",
+      "name": "sop0200",
+      "label": "Sports club",
+      "label_de": "Sportverein",
+      "items": [
         {
           "item": "1",
           "text": "Sports club",
           "text_de": "Sportverein",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "concept": "sop0100",
+          "concept": "sop0200",
           "scale": "cat",
           "number": "10",
           "answers": [
@@ -299,6 +310,18 @@
               "label_de": "4: nie"
             }
           ],
+          "sn": 0
+        },
+        {
+          "item": "0",
+          "text": "Do you have a (volunteer) position in one of these associations or groups?",
+          "text_de": "[IF age >= 10 AND age <= 15] Falls Du in einer der oben genannten Gruppen aktiv bist: Hast Du in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder bist Du regelmaessig fuer besondere Aufgaben verantwortlich?",
+          "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(sop0100,1,3) | inrange(sop0101,1,3) | inrange(sop0102,1,3) | inrange(sop0103,1,3) | inrange(sop0104,1,3) | inrange(sop0105,1,3) | inrange(sop0106,1,3) | inrange(sop0150,1,3)) & inrange(age0110,10,15)",
+          "concept": "sop0200",
+          "scale": "txt",
+          "number": "11",
           "sn": 1
         },
         {
@@ -307,9 +330,9 @@
           "text_de": "Gesangs-/Musikverein/Theatergruppe o.ae.",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "concept": "sop0100",
+          "concept": "sop0200",
           "scale": "cat",
-          "number": "11",
+          "number": "12",
           "answers": [
             {
               "value": -85,
@@ -345,9 +368,9 @@
           "text_de": "Kirchliche/religioese Gruppe",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "concept": "sop0100",
+          "concept": "sop0200",
           "scale": "cat",
-          "number": "12",
+          "number": "13",
           "answers": [
             {
               "value": -85,
@@ -383,9 +406,9 @@
           "text_de": "Gewerkschaft/Berufsverband/Schuelervertretung",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "concept": "sop0100",
+          "concept": "sop0200",
           "scale": "cat",
-          "number": "13",
+          "number": "14",
           "answers": [
             {
               "value": -85,
@@ -421,9 +444,9 @@
           "text_de": "Freiwillige Feuerwehr/Technisches Hilfswerk/DLRG, o.ae.",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "concept": "sop0100",
+          "concept": "sop0200",
           "scale": "cat",
-          "number": "14",
+          "number": "15",
           "answers": [
             {
               "value": -85,
@@ -459,9 +482,9 @@
           "text_de": "Heimat-/Buerger-/Schuetzenverein",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "concept": "sop0100",
+          "concept": "sop0200",
           "scale": "cat",
-          "number": "15",
+          "number": "16",
           "answers": [
             {
               "value": -85,
@@ -497,9 +520,9 @@
           "text_de": "Politische Organisation/Partei/Buergerinitiative",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "concept": "sop0100",
+          "concept": "sop0200",
           "scale": "cat",
-          "number": "16",
+          "number": "17",
           "answers": [
             {
               "value": -85,
@@ -535,9 +558,9 @@
           "text_de": "Anderer Verein/Verband",
           "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
           "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "concept": "sop0100",
+          "concept": "sop0200",
           "scale": "cat",
-          "number": "17",
+          "number": "18",
           "answers": [
             {
               "value": -85,
@@ -566,56 +589,6 @@
             }
           ],
           "sn": 8
-        }
-      ],
-      "sn": 4,
-      "instrument": "wid3_F2F2_module14",
-      "study": "twinlife"
-    },
-    "sop0200": {
-      "question": "sop0200",
-      "name": "sop0200",
-      "label": "Do you have a (volunteer) position in one of these associations or groups?",
-      "label_de": "[IF age >= 10 AND age <= 15] Falls Du in einer der oben genannten Gruppen aktiv bist: Hast Du in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder bist Du regelmaessig fuer besondere Aufgaben verantwortlich?",
-      "items": [
-        {
-          "item": "1",
-          "text": "Do you have a (volunteer) position in one of these associations or groups?",
-          "text_de": "[IF age >= 10 AND age <= 15] Falls Du in einer der oben genannten Gruppen aktiv bist: Hast Du in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder bist Du regelmaessig fuer besondere Aufgaben verantwortlich?",
-          "description": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "description_de": "Source: Rauschenbach, T., & Bien, W. (2012). Aufwachsen in Deutschland. Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey. Weinheim/Basel: Beltz Juventa, 7-27",
-          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(sop0100,1,3) | inrange(sop0101,1,3) | inrange(sop0102,1,3) | inrange(sop0103,1,3) | inrange(sop0104,1,3) | inrange(sop0105,1,3) | inrange(sop0106,1,3) | inrange(sop0150,1,3)) & inrange(age0110,10,15)",
-          "concept": "sop0200",
-          "scale": "cat",
-          "number": "18",
-          "answers": [
-            {
-              "value": -89,
-              "label": "-89: illegible",
-              "label_de": "-89: nicht erkennbar/lesbar"
-            },
-            {
-              "value": -85,
-              "label": "-85: information not evaluable",
-              "label_de": "-85: nicht auswertbar"
-            },
-            {
-              "value": -84,
-              "label": "-84: unassignable",
-              "label_de": "-84: nicht zuzuordnen"
-            },
-            {
-              "value": 1,
-              "label": "1: yes",
-              "label_de": "1: ja"
-            },
-            {
-              "value": 2,
-              "label": "2: no",
-              "label_de": "2: nein"
-            }
-          ],
-          "sn": 0
         }
       ],
       "sn": 5,
@@ -1233,7 +1206,7 @@
         },
         {
           "item": "1",
-          "text": ". . . your health?",
+          "text": ". . . with your health?",
           "text_de": ". . .[IF age >=16] mit Ihrer Gesundheit? [IF age >=10 AND <= 15] mit Deiner Gesundheit?",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -1311,7 +1284,7 @@
         },
         {
           "item": "3",
-          "text": "[IF age >=16]. . . in case you are still going to school: with school? [IF age >=10 AND <= 15] with school?",
+          "text": ". . .[IF age >=16] if you are still in school: . . .with school? [IF age >=10 AND <= 15] with school?",
           "text_de": ". . .[IF age >=16] falls Sie noch zur Schule gehen: . . .mit der Schule? [IF age >=10 AND <= 15] mit der Schule?",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -1389,7 +1362,7 @@
         },
         {
           "item": "5",
-          "text": ". . . your leisure time?",
+          "text": ". . . with your leisure time?",
           "text_de": ". . .[IF age >=16] mit Ihrer Freizeit? [IF age >=10 AND <= 15] mit Deiner Freizeit?",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",
@@ -1467,7 +1440,7 @@
         },
         {
           "item": "6",
-          "text": ". . . your family life?",
+          "text": ". . . with your family life?",
           "text_de": ". . .[IF age >=16] mit Ihrem Familienleben? [IF age >=10 AND <= 15] mit Deinem Familienleben?",
           "description": "Source: The German Socio-Economic Panel Study (SOEP): SOEP Core Study Individual 2003",
           "description_de": "Source: Sozio-oekonomisches Panel (SOEP): SOEP Personenfragebogen 2003",

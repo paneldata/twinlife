@@ -19,6 +19,7 @@
           "text_de": "Sie haben bei der letzten Befragung im [INTDATM/INTDATY] gesagt, dass Sie als [emp0500_2[Preload]] taetig waren. Trifft dies aktuell immer noch zu?",
           "filter": "(hpr0104==1 | hpr0105==1 | hpr0107==1) & !missing(emp0500_3) & proxy != 1",
           "concept": "emp0520",
+          "scale": "cat",
           "number": "1",
           "answers": [
             {
@@ -56,6 +57,7 @@
           "text_de": "Im letzten Interview haben wir notiert, dass Sie im [INTDATM/INTDATY] als [emp0600_2[Preload]] taetig waren. Trifft das aktuell immer noch zu?",
           "filter": "(hpr0104==1 | hpr0105==1 | hpr0107==1) & inrange(emp0600_3,1,5) & proxy != 1",
           "concept": "emp0620",
+          "scale": "cat",
           "number": "2",
           "answers": [
             {
