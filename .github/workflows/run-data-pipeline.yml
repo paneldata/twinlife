@@ -25,7 +25,7 @@ jobs:
                 python3 -m pip install goodtables
             - name: Test
               run: |
-                python3 -m goodtables ddionrails/datapackage.json
+                python3 -m goodtables validate --skip-checks extra-header ddionrails/datapackage.json
             - name: Update file and push to remote
               run: |
                 echo "Stage new files."
