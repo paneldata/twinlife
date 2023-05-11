@@ -10,266 +10,311 @@ config:
 
 ## Citation
 
-* **Title:** TwinLife  - A genetically informative, longitudinal study about the development of social    
-    inequality
-* **Principle Investigators:** Prof. Dr. Martin Diewald (martin.diewald[at]uni-bielefeld.de);    
-    Prof. Dr. Rainer Riemann (rainer.riemann[at]uni-bielefeld.de);    
-    Prof. Dr. Frank M. Spinath (f.spinath[at]mx.uni-saarland.de)
+* **Title:** TwinLife  - A genetically informative, longitudinal study about the development of social inequality
+* **Principle Investigators:** Prof. Dr. Martin Diewald (<martin.diewald@uni-bielefeld.de>);    
+	Prof. Dr. Christian Kandler (since 07/2021) (<ckandler@uni-bremen.de>);   
+    Prof. Dr. Rainer Riemann (until 07/2021) (<rainer.riemann@uni-bielefeld.de>);      
+    Prof. Dr. Frank M. Spinath (<f.spinath@mx.uni-saarland.de>)
 * **URL:** [https://www.twin-life.de/documentation/](https://www.twin-life.de/documentation/)
 
-Please cite both the dataset (Diewald, Martin et al. 2021: TwinLife. GESIS Datenarchiv, Köln. ZA6701 Datenfile Version 5.0.0, https://doi.org/10.4232/1.13747.) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
+Please cite both the dataset (Diewald et al., 2023: TwinLife. GESIS, Cologne. ZA6701 Data file Version 7.0.0, [https://doi.org/10.4232/1.13932](https://doi.org/10.4232/1.13932).) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
 
 ## Study info
 
 TwinLife is a 12-year representative behavior genetic study investigating the emergence and development of social inequalities over the life course.
 
-The long-term project began in 2014 and surveys more than 4,000 pairs of twins and their families in different stages of life on a yearly basis. All of the subjects reside in Germany. 
-Not only social, but also genetic mechanisms as well as covariations and interactions between these two factors can be examined with the help of identical and fraternal same-sex twins.
+The long-term project began in 2014 and surveys more than 4,000 pairs of twins and their families in different stages of life on a yearly basis. All of the subjects reside in Germany. Not only social, but also genetic mechanisms as well as covariations and interactions between these two factors can be examined with the help of identical and fraternal same-sex twins.
 
-In order to document the individual development of different aspects it is important to examine the families extensively over the course of several years. Six important contextual domains 
-are focused on: 1.) Education and academic performance / skill development, 2.) career and labor market attainment, 3.) integration and participation in social, cultural and political life, 
-4.) quality of life and perceived capabilities, 5.) physical and psychological health and 6.) behavioral problems and deviant behavior.
+It is essential to follow families closely over several years to see how different aspects develop and change over time. TwinLife is designed to examine not only different etiological factors, but also different indicators of personal and social success or failure, in order to understand how social inequalities develop. Conditional factors include genetic predisposition and aspects of the environment in which children and youth live. In terms of outcomes, both subjective and objective information are considered. Children are born into an environment that affects them, but they also react and interact differently according to their individual characteristics, thus shaping their environment. In order to be able to examine in detail the reciprocal processes by which individual dispositions and environmental conditions influence each other, data on the relevant characteristics are collected over a period of twelve years.
 
-In order to take a close look at the development of social inequalities, TwinLife does not only examine different etiological factors, but also different indicators of personal and social 
-success and failure respectively. On part of the conditional factors genetic disposition as well as aspects of the environment that the children and adolescents are living in are considered. 
-On part of the consequences not only objective but also subjective information is observed. Children are born into an environment which influences them, but on the other hand they react and 
-interact differently depending on their individual characteristics and thereby shape their environment. To allow for an accurate examination of the reciprocal processes by which individual 
-dispositions and environmental conditions influence each other, data on the illustrated characteristics will be collected over a period of twelve years.
+Following important contextual domains are focused on in TwinLife:
 
-In the following, the contents of the TwinLife Data are described in more detail by the life domains outlined above:
+**1. Skill Formation and Education**
 
-**1. Skill formation and education**
+1.1 Educational attainment and success
+- photos of school reports, self-report on school grades (current school marks, marks of highest graduation) (cer)
+- history of education and graduation: educational degrees, vocational training, year abroad (eca)
+- history of education and graduation: skipping/repeating a grade (eca)
+- recommendation for secondary education (eca)
+- desired school-leaving qualification (eca)
+- expected probability to attain a degree (eca)
+- type of education / training; current status of education / qualification (edu)
+- after-school job (edu)
+- school climate / student-teacher-interaction (edu)
+- pressure and stress at school (edu)
+- school report card (generated) (src)
 
-1.1 Educational success
+1.2 Cognitive abilities
+- subtests matrices, series and classification (CFT-1R) (igf)
+- subtests matrices, series, reasoning and classification (CFT-20R) (igf)
+- self assessment on cognitive ability (igf)
 
-- School report; if not available: supplementary questions
-- Current school marks or rather marks of highest graduation
-- School climate/student-teacher-interaction
-- Pressure and stress at school  
-          
-1.2 Intelligence
+1.3 Private tutoring / Utilization of special support
+- parental report: extracurricular activities (e.g., help with homework, remedial groups, leisure activites, etc.) (aas)
+- extracurricular activities (e.g., early music education, drawing, etc.) (eac)
 
-- Subtests Matrices, Series, and Classification
-- Subtests Matrices, Series, Reasoning, Classification
+1.4 Cognitive development
+- competence rating of social skills, oral skills, concentration ability, communications skills, mathematic ability, general knowledge (com)
+- interviewer rating on task orientation and oral skills following intelligence test (ctb)
 
-1.3 Cognitive development   
+1.5 Acadamic self-concept
+- academic self-concept: verbal and spatial skill (preschool) (asc)
+- academic self concept: anticipated self-perceived ability (spa)
+- academic self concept: general self-perceived ability (spa)
+- academic self concept: self-perceived ability in math and German (spa)
+- academic self concept: self-perceived job ability (spa)
+
+1.6 Motivation
+- anticipated intrinsic motivation (imo)
+- intrinsic motivation for school in general (imo)
+- intrinsic motivation for math and German (imo)
+- anticipated learning motivation (imo)
+- learning motivation for school in general (imo)
+- job learning motivation (imo)
+- achievement motivation in school 
+ (imo)
+- achievement motivation in general
+ (imo)
  
-- General information derived from "U-Heft"; if not available: supplementary questions
-- Interviewer rating on task orientation and oral skills following intelligence test
-- Tutoring and homework help/special educational treatment/attendance of special school
-- Competence rating of social skills, oral skills, concentration ability, communications skills, mathematic ability, general knowledge
+**2. Career, Labor Market Attainment, and Welfare**
 
-1.4 Media use
+2.1 Employment status of household members
+- educational and employment status of all household members (employment / education / vocational training / parental leave / pension) (hpr)
 
-- Frequency and duration of media use (e.g., Internet, Laptop, TV, games console etc.)
+2.2 Employment status, current position and job-related burden
+- current employment (emp)
+- classification of occupation (emp)
+- occupational status (emp)
+- required qualification for occupation (emp)
+- working time (emp)
+- commuting (emp)
+- shiftwork (emp)
+- previous employment (emp)
+- perceived job security and satisfaction (emp)
 
-1.5 Academic self-concept
+2.3 Wages, income, welfare dependency
+- wages, income (inc)
+- welfare dependency (inc)
+- perceived income equity (inc)
 
-- Verbal and spatial skills, spatial and general
-- Verbal, mathematic, and general academic ability
-- Perceived competence
+2.4 Job autonomy
+- job autonomy (aut)
 
-1.6 Intrinsic motivation, learning motivation, achievement motivation
+**3. Political and Social Integration and Participation**
 
-- Educational values of German, maths, and school in general
-- Learning and achievement motivation in German, maths, and school in general
-- Learning goals
+3.1 Social participation
+- social participation: frequency of attendance in sports clubs, theatre, music groups or volunteer organizations (sop)
 
-1.7 Self-efficacy
+3.2 Political orientation and participation
+- political activity, political interest, party identification (pop)
+- right wing authoritarianism (RWA; short version) (rwa)
+- social dominance orientation (SDO; short version) (sdo)
 
-- General self-efficacy
+3.3 Social networks
+- social capital of individuals, e.g., close friends, loneliness (net)
 
-1.8	Self-esteem
+3.4 Religion
+- religious affiliation; church attendance; religiosity / spirituality (rel)
 
-- General self-esteem
+3.5 Cultural capital
+- cultural capital: reading, classical music, cultural discussion, cultural participation (cul)
+- cultural capital: availability of cultural property (cul)
+- music lessons (mus)
 
-1.9	Self-regulation
+**4. Personality and Individual Characteristics**
 
-- Consistency of interest, self-control
-- Gummy bear test 
+4.1 Personality / Temperament
+- Ballon Analogue Risk Task (BART) (brt)
+- narcissism (nar)
+- personality measures (BIG5) (per)
+- risk aversion (per)
+- patience (per)
+- gambeling question (ris)
 
-1.10 Personality
+4.2 Self-esteem
+- self esteem (ses)
 
-- Neuroticism, extraversion, openness, agreeableness, conscientiousness
+4.3 Self-regulation
+- self-control: gummy bear test (gex)
+- self-regulation: consistency of interest, self-control (srg)
 
+4.4 Optimism
+- optimism (lot)
 
-**2. Career and labor market attainment**
+4.5 Fear of failure
+- fear of failure (fof)
 
-2.1	Employment status
+4.6 Self-efficacy
+- perceived self-efficacy (sef)
 
-- Current employment status/changes regarding employment
+4.7 Sensory-processing sensitivity
+- sensory-processing sensitivity (sps)
 
-2.2	Education
+4.8 Locus of control and coping
+- stress regulation and coping (cis)
+- locus of control (loc)
+- stress regulation and coping (svk)
 
-- History of education
-- Education and qualification
-- Educational and career aspirations
+**5. Subjective Perceptions of Quality of Life**
 
-2.3	Information on current job
+5.1 Global life satisfaction
+- global life satisfaction (gls)
 
-- Perceived job security and satisfaction
-- Wages/income/welfare dependency
-- Job-related burden (i.e. shiftwork)
+5.2 Domains of life satisfaction
+- domain-specific satisfaction (health, work/school, income/pocket money, leisure time, family life, partnership, friendships) (sat)
+- satisfaction with sibling relationship (sat)
 
-2.4 Economic preferences
+5.3 Burden and stress
+- frequency of arguments with partner, frequency of arguments of parents, subjective burden and coping (bus)
+- interfamilial and extrafamilial: subjective evaluation of burden and stress and related coping capacities, burden and stress related to parenthood (ebi)
+- stress symptoms (str)
 
-- Risk aversion
+5.4 Life Goals
+- life goals: importance and progress (lgd)
 
-2.5 Job autonomy
+5.5 Subjective perceptions of inequality
+- subjective perception of inequality in private life and in society (ugs)
 
-
-**3. Integration and participation in social, cultural, and political life**
-
-3.1 Migration background and citizenship
-
-- Current status of citizenship and changes of citizenship
-- Migration
-
-3.2 Discrimination
-
-- Experiences with discrimination
-
-3.3 Social participation
-
-- Frequency of attendance in sports clubs, theatre, music groups or volunteer organizations
-
-3.4 Social networks
-
-- Social capital of individuals, e.g., close friends, frequency of social contacts
-- Loneliness
-
-3.5 Political participation
-
-- Interest in politics, political preferences, voting behavior
-
-3.6 Religion
-
-- Religious affiliation, church attendance, religiosity/spirituality
-
-3.7 Cultural capital
-
-- Cultural participation, reading, classical music
-- Availability of cultural property
-- Music lessons
-
-
-**4.	Subjective perceptions of quality of life**
-
-4.1 Life satisfaction
-
-- Global life satisfaction 
-- Domain satisfaction (health, work life, family life, leisure time, school, romantic relationship, friendships, income)
-- Satisfaction with sibling relationship
-- Optimism
-
-4.2 Burden and stress
-
-- frequency of arguments with partner or parents
-- Stress regulation and coping
-- interfamiliar and extrafamiliar: subjective evaluation
-
-4.3 Life Goals: importance and progress
-
-4.4 Sensory-processing sensitivity
-
-4.5 Bullying
-
-- in the childhood and adolescence
-
-
-**5. Physical and psychological health**
-
-5.1 Subjective health
-
-5.2 Objective health and diagnosis
-
-- Measures of height and weight child´s medical records
-- Depression
-- Pregnancy
-- Puberty
-
-5.3 Health-related behavior
-
-- alcohol consumption, smoking, medication, medical checkups
-- sexual behavior
-
-
-**6. Deviant behavior and behavioral problems**
-
-6.1 Internalizing
-
-- Emotional symptoms, problems with peers, social difficulties
-
-6.2 Externalizing
-
-- Hyperactivity, attention problems, behavioral difficulties
-
-6.3 Deviant and delinquent behavior
-
-- Occurrence and frequency of problematic behavior (e.g., fare evasion, skip school, drug use, thieving, property damage, physical assault)
-- Supplementary questions on e.g., impulse control and rebellious behavior
-- Short version of deviant/delinquent behavior measure
-
-
-**7. Demographics**
-
-7.1 Information on household
-
-- Household questionnaire (persons in the household, household grid, type of dwelling, income), information on assets
-
+5.6 Subjective social status
+- subjective social status (sss)
+
+**6. Physical and Psychological Health**
+
+6.1 Subjective physical health
+- current subjective health (she)
+
+6.2 Objective physical health / Diagnoses
+- heigth, weight, bmi (bdy)
+- diagnoses (adults and children) (dia)
+- impairment caused by diseases (imp)
+- child's medical records U-Heft (photo or questionnaire): selected parameters from examination U1 to U9 (nbi)
+- Apgar-score (nbi)
+
+6.3 Depression
+- depression screening (bdi)
+
+6.4 Health-related behavior
+- doctor's visit (doc)
+- smoking (hbe)
+- alcohol consumption (hbe)
+- medication (hbe)
+- preventive medical checkup (hbe)
+- physical activies (pac)
+
+6.5 Pregnancy
+- information on pregnancy and in-vitro-fertilization of the twin pregnancy (prg)
+
+6.6 Puberty
+- beginning of physical and psychological changes, evaluation of changes (pub)
+
+6.7 Sexual behavior
+- sexual attraction to males and females, sexual labeling, sexual behavior (seo)
+
+6.8 Emotional impairment
+- worrying (emi)
+- depressive symptoms, lack of focus (emi)
+
+**7. Psychopathology and Deviant Behavior**
+
+7.1 Internalizing problem behavior
+- occurence of internalising problem behavior (e.g. headaches
+ and nausea, nervousness, and being easily scared) (int)
+ 
+7.2 Externalizing problem behavior
+- occurence of externalising problem behavior (e.g. being restless and easily distracted, having tantrums, lying and cheating) (ext)
+
+7.3 Deviant and delinquent Behavior
+- long/short version of deviant-delinquent behaviour measure (del)
+- deviant behavior young children (e.g. lying/cheating, fighting with other children) (dev)
+
+7.4 Counterproductive work behavior
+- withdrawal (being late at work, calling in sick) (cwb)
 
 **8. Environment**
 
-8.1 Activities with children
+8.1 Parental behavior and involvement
+- involvement of (step-) parents (expectations, support, encouragement and punishment) (inv)
+- parenting style of mother, father, partner of father, partner of mother (parental self-report) (par)
+- parenting style of mother, father, partner of father, partner of mother (child report) (pas)
 
-- Occurrence and frequency of e.g., singing and making music together; story time; doing sports; cultural activities
+8.2 Sibling relationship quality
+- twin relationship: warmth, conflict, affection, hostility, rivalry (sre)
 
-8.2 Nursery
+8.3 Quality of home environment
+- quality of familial environment (existence of bedtime routine, general atmosphere at home) (hoe)
 
-- Detailed information on nursery and daycare institutions
+8.4 Family activities
+- freetime and cultural activities with family members (self-report) (acc)
+- freetime and cultural activities with family members (parental report) (acp)
 
-8.3 Grand-parents
+8.5 Grandparents
+- general information onf twins' grandparents (bpa)
+- existence of grandparents and frequency of meetings (gre)
 
-- Relationship: contact frequency, quality of relationship
+8.6 Childcare and care characteristics
+- characteristics of childcare institution and group (cai)
+- childcare from age 0 to 6 (institutional childcare, private arrangements) (car)
+- twins in same childcare institution (cat)
+- kindergarten (structure, concept) (kgc)
+- twins in same institution or school (twt)
 
-8.4 Parenting style
+8.7 Media use
+- use of electronic media devices (time spent with, e.g., computer, internet, etc.), rules for media use (med)
+- smartphone-use
+ (med)
+ 
+8.8 Experiences of discrimination
+- discrimination on grounds of ethnic or cultural background, sex, religion, age, sexual identity, or disability, and burden of discrimination (dis)
+- discrimination on grounds of sexual orientation (dis)
 
-- Monitoring, warmth, rules, negative communication, control (child and parent report on parental behavior)
+8.9 Bullying
+- verbal and physical bullying experience in childhood and adolescence (bul)
 
-8.5 Quality of home environment
+8.10 Contact to other family members
+- contact and contact frequency to biological parents, twins, siblings not living  in the  household (anymore) (con)
+- parent living elsewhere (ple)
+- sibling living elsewhere (sle)
 
-- Characteristics of a chaotic, disorganized, and hurried home
-- Interviewer ratings on the home environment (household)
+8.11 Life events
+- occurence and subjective evaluation of different life events (e.g., marriage, death, unemployment) (lev)
 
-8.6 Involvement
+8.12 Life transitions
+- occurrence and subjective evaluation of important life transitions and developmental tasks (e.g. school enrolment, stays abroad, entering labor market, romantic relationships, change of social environment) (tra)
 
-- Autonomy, structure, control, emotional support
+8.13 Family stresses
+- care burden on household level (nur)
 
-8.7 Sibling relationship
+8.14 Intentional level
+- intension to achieve certain life events (e.g. marriage, building a house) (ile)
 
-- Warmth, conflict, rivalry of sibling relationship
-- Affection, hostility, rivalry of sibling relationship
+8.15 Stays abroad
+- stays abroad (sab)
 
-8.8 Family stresses
+**9. Saliva Sample**
 
-- Care burden on household level
+9.1 Saliva Sample
+- saliva sample (sal)
 
-8.9 Intentional level to achieve certain life events
+**10. COVID-19**
 
-8.10 Stays abroad
+10.1 COVID-19 supplementary survey: retrospective assessment of socio-economic changes, behavior and health
 
-8.11 Information on twins' children
+- retrospective: behavior, attitudes, stresses, and constraints during the Covid-19 pandemic (cor)
+- retrospective: health during COVID-19 pandemic (cor)
+- retrospective: socioeconomic changes (cor)
+- retrospective: COVID-19-related behavioral changes, resilience, coping (cor)
+- retrospective: perceived threat, stress and burden, psychological impairment (cor)
+- retrospective: evaluation of governmental restrictions (cor)
 
+10.2 COVID-19 supplementary survey: current socio-economic situation, behavior and health
 
-**9. Zygosity and twin specific items**
-
-9.1 Zygosity
-
-- Ratings of physical twin similarity in childhood (e.g., eye color, hair structure, time of getting first teeth)
-
-9.2 Twin specific questions
-
-- E.g., same or different clothing, confusion of the twins, undertakings with twins
+- behavior, attitudes, stresses, and constraints during the Covid-19 pandemic (cov)
+- health during COVID-19 pandemic (cov)
+- socioeconomic changes (cov)
+- COVID-19-related behavioral changes, resilience, coping (cov)
+- perceived threat, stress and burden, psychological impairment (cov)
+- evaluation of governmental restrictions (cov)
+- corona survey wave identifier (cov)
 
 
 ## Method
@@ -303,7 +348,7 @@ people with the same date of birth lived in the same household. Then, it was che
 *CATI data collection:* Telephone interview with one family member (from second CATI wave onwards; before: telephone interview with each family member above the age of 10 that participated in the preceding Face-to-Face wave)
  
 **Survey institute:** TNS Infratest / Kantar TNS (first Face-to-Face household survey, parts of the first telephone survey); infas Institut für angewandte Sozialwissenschaft 
-(parts of the first telephone survey, second Face-to-Face household survey) 
+(parts of the first telephone survey, second Face-to-Face household survey and subsequent survey waves) 
  
 **Dates of Data Collections:**
 
@@ -323,16 +368,28 @@ data collection 4 (CATI 2a)		Oct 11, 2017 to May 12, 2018
 	
 data collection 4 (CATI 2b)		Nov 06, 2018 to Apr 16, 2019
 
-COVID-19 Supplementary Survey (Cov 1)		Jul 24, 2020 to Nov 15, 2020
+data collection 5 (F2F 3a) 		Nov 26, 2018 to July 06, 2019
+
+data collection 5 (F2F 3b) 		Sep 16, 2019 to June 06, 2020
+
+data collection 6 (CATI 3a)		Oct 18, 2019 to April, 2020	
+	
+data collection 6 (CATI 3b)		Feb 18, 2021 to Aug 01, 2021
+
+COVID-19 Supplementary Survey (CoV 1)		Jul 24, 2020 to Nov 15, 2020
+
+COVID-19 Supplementary Survey (CoV 2a) 		Nov 30, 2020 to Apr 20, 2021
+
+COVID-19 Supplementary Survey (CoV 2b) 		Feb 18, 2021 to Aug 01, 2021
+
+COVID-19 Supplementary Survey (CoV 3)		Sep 25, 2021 to Dec 01, 2021
 
 
-
-
-## Scientific use files (current version: v5-0-0)
+## Scientific use files (current version: v7-0-0)
 
 ### Data description
 
-For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method reports of the first three data collections see the TwinLife Technical Reports 05, 09, and 10 at 
+For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method reports of the first four data collections see the TwinLife Technical Reports 05, 09, 10, and 12 at 
 [https://www.twin-life.de/twinlife-series](https://www.twin-life.de/twinlife-series).
 
 
@@ -340,39 +397,49 @@ For a description of the structure of the TwinLife sample see the TwinLife Techn
 
 - **Master data (ZA6701_master_v$)**: Includes information on the gross sample, such as consistency checked variables that are stable over time (sex, year of birth, relation to the twins, zygosity, migration background) and wave-specific variables (person type, response status) about all individuals included in TwinLife in each wave.
 
-- **Survey data in person format with filter error adjustment (ZA6701_person_wid$_v$)**: There is one data set for each regular data collection (F2F 1, CATI 1, F2F 2, CATI 2) and the supplementary COVID-19 survey (CoV1). The data collection identifier is the variable wid. The additional survey identifier for the supplementary COVID-19 survey is cov. Each surveyed person has one data row (pid). The data were filter-cleaned, i.e. data were deleted if the question was not intended for a person according to the filter instructions. These datasets are documented on paneldata.org.
+- **Survey data in person format with filter error adjustment (ZA6701_person_wid$_v$)**: There is one data set for each data collection. Each surveyed person has one data row (pid). The data collection identifier is the variable wid. The data were filter-cleaned, i.e. data were deleted if the question was not intended for a person according to the filter instructions. These datasets are documented on paneldata.org.
 
-- **Survey data in person format without filter error adjustment (ZA6701_person_unadj_wid$_v$.dta)**: There is one data file for each F2F data collection including all variables that were at least partially collected in PAPI mode (self-administered) *without filter error adjustment*. It is up to the users to decide how to handle the information provided by the respondents.
+- **Data of covid supplementary surveys (ZA6701_person_cov$_v$)**: There is one data set for each covid supplementary survey. Each surveyed person has one data row (pid). The data collection identifier is the variable cov.
 
-- **Survey data in family format (ZA6701_family_wide_wid$_v$.dta)**: There is one data set for each data collection (F2F 1, CATI 1, F2F 2, CATI 2). Each family has one data row with information of each participating person in the family being stored in separate variables/columns). Person format and family format data sets contain the same data using different structures.
+- **Survey data in person format without filter error adjustment (ZA6701_person_unadj_wid$_v$)**: There is one data file for each F2F data collection including all variables that were at least partially collected in PAPI mode (self-administered) *without filter error adjustment*. It is up to the users to decide how to handle the information provided by the respondents.
+
+- **Survey data in family format (ZA6701_family_wide_wid$_v$)**: There is one data set for each data collection. Each family has one data row with information of each participating person in the family being stored in separate variables/columns. Person format and family format data sets contain the same data using different structures.
 
 - **Twin zygosity assessment (ZA6701_zygosity_v$)**: A data file with the information of the twin zygosity assessment in F2F 1.
 
-- **Survey mode (ZA6701_mode_wid1_v$.dta)**: Contains information on survey mode for each variable in F2F 1.
+- **Survey mode (ZA6701_mode_wid1_v$)**: A data file with information on the survey mode for each variable in F2F 1.
+
+- **Survey weights (ZA6701_weights_v$)**: A data file containing the survey weights (design, non-response, and panel weights).
 
 
-All data is provided with English and German variable descriptions. In Stata, these languages are included in one data set while in SPSS, these are separate data files. Variables and instruments are documented at http://www.paneldata.org. Detailed information on the study and special features can be found at https://www.twin-life.de/documentation/. For questions regarding the content of the data, please contact data(at)twin-life.de. 
+All data is provided with English and German variable descriptions. In Stata, these languages are included in one data set while in SPSS, these are separate data files. Variables and instruments are documented at http://www.paneldata.org. Detailed information on the study and special features can be found at https://www.twin-life.de/documentation/. For questions regarding the content of the data, please contact <data@twin-life.de>. 
 
 
 ### Study units
 
 Number of Units:
 
-21262 individuals, 4096 families
+- 18,108 individuals with at least one personal interview
+- 4096 families
  
 Number of Variables:
 
-2,509 (F2F 1 [wid1] person-format)
-611 (CATI 1 [wid2] person-format)
-2,320 (F2F 2 [wid3] person-format)
-120 (CATI 2 [wid4] person-format)
-119 (CoV 1 [cov1/wid10] person-format)
+- 2,515 (F2F 1 [wid1] person-format)
+- 611 (CATI 1 [wid2] person-format)
+- 2,347 (F2F 2 [wid3] person-format)
+- 123 (CATI 2 [wid4] person-format)
+- 1,341 (F2F 3 [wid5] person-format)
+- 239 (CATI 3 [wid6] person-format)
+- 121 (CoV 1 [cov1/wid10] person-format)
+- 131 (CoV 2 [cov2/wid11] person-format)
+- 134 (CoV 3 [cov3/wid12] person-format)
+
 
 ### Data access 
 
-Data can be accessed via the GESIS Data Catalogue: [https://dbk.gesis.org/dbksearch/index.asp](https://dbk.gesis.org/dbksearch/index.asp) 
+Data can be accessed via the GESIS Data Catalogue: [https://search.gesis.org/research_data/ZA6701](https://search.gesis.org/research_data/ZA6701) 
 
 Charges for downloading this data will be paid by the TwinLife project, so the use of the data is **free of charge**!
 
 Note on availability: Data and documents are only released for academic research and teaching after the data depositor's written authorization. For this purpose the Gesis Data Archive obtains a written permission 
-with specification of the user and the analysis intention.
+with specification of the user and the analysis intention. To get access to the TwinLife data, please fill in the [Data Use Agreement](https://dbk.gesis.org/dbksearch/download.asp?id=60842).
