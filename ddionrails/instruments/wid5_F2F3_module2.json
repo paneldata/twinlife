@@ -1,0 +1,664 @@
+{
+  "study": "twinlife",
+  "name": "wid5_F2F3_module2",
+  "label": "F2F 3: household questionnaire (CAPI)",
+  "description": "This questionnaire module contains questions on: housing characteristics; welfare dependency.",
+  "analysis_unit": "household",
+  "period": 5,
+  "instrument": "wid5_F2F3_module2",
+  "questions": {
+    "ptyp_hq": {
+      "question": "ptyp_hq",
+      "name": "ptyp_hq",
+      "label": "<<Interviewer question: Who is the person that fills in the household questionnaire?>>",
+      "label_de": "<<Interviewer: Mit wem wird dieser Haushaltsbogen ausgefuellt?>>",
+      "items": [
+        {
+          "item": "1",
+          "text": "<<Interviewer question: Who is the person that fills in the household questionnaire?>>",
+          "text_de": "<<Interviewer: Mit wem wird dieser Haushaltsbogen ausgefuellt?>>",
+          "concept": "ptyp_hq",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: firstborn twin - t",
+              "label_de": "1: erstgeborener Zwilling - t"
+            },
+            {
+              "value": 2,
+              "label": "2: secondborn twin - u",
+              "label_de": "2: zweitgeborener Zwilling - u"
+            },
+            {
+              "value": 110,
+              "label": "110: partner of first interviewed twin - p",
+              "label_de": "110: Partner des erstbefragten Zwillings - p"
+            },
+            {
+              "value": 120,
+              "label": "120: partner of second interviewed twin - q",
+              "label_de": "120: Partner des zweitbefragten Zwillings - q"
+            },
+            {
+              "value": 200,
+              "label": "200: sibling - s",
+              "label_de": "200: Geschwister - s"
+            },
+            {
+              "value": 201,
+              "label": "201: sibling not participating",
+              "label_de": "201: nicht teilnehmendes Geschwister"
+            },
+            {
+              "value": 300,
+              "label": "300: mother - m",
+              "label_de": "300: Mutter - m"
+            },
+            {
+              "value": 400,
+              "label": "400: father - f",
+              "label_de": "400: Vater - f"
+            },
+            {
+              "value": 500,
+              "label": "500: partner of mother - g",
+              "label_de": "500: Partner der Mutter - g"
+            },
+            {
+              "value": 600,
+              "label": "600: partner of father - n",
+              "label_de": "600: Partner des Vaters - n"
+            },
+            {
+              "value": 700,
+              "label": "700: other person (not surveyed)",
+              "label_de": "700: and. Person (nicht befr.relevant)"
+            },
+            {
+              "value": 800,
+              "label": "800: unknown person type",
+              "label_de": "800: unbekannter Personentyp"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid5_F2F3_module2",
+      "study": "twinlife"
+    },
+    "liv0700": {
+      "question": "liv0700",
+      "name": "liv0700",
+      "label": "Do you have internet access in your household?",
+      "label_de": "Haben Sie in Ihrem Haushalt einen Internetzugang?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you have internet access in your household?",
+          "text_de": "Haben Sie in Ihrem Haushalt einen Internetzugang?",
+          "concept": "liv0700",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, slowly",
+              "label_de": "1: ja, mit langsamer Geschwindigkeit"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, at an adequate pace",
+              "label_de": "2: ja, mit ausreichender Geschwindigkeit"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, quickly",
+              "label_de": "3: ja, mit schneller Geschwindigkeit"
+            },
+            {
+              "value": 4,
+              "label": "4: no",
+              "label_de": "4: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid5_F2F3_module2",
+      "study": "twinlife"
+    },
+    "inc0300": {
+      "question": "inc0300",
+      "name": "inc0300",
+      "label": "Are you or another household member currently receiving one ore more of the following government benefits?",
+      "label_de": "[MFN] Erhalten Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen?",
+      "items": [
+        {
+          "item": "0",
+          "text": "Are you or another household member currently receiving one ore more of the following government benefits?",
+          "text_de": "[MFN] Erhalten Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "filter": "(haushalt==1)",
+          "concept": "inc0300",
+          "scale": "txt",
+          "number": "3",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Child benefit",
+          "text_de": "Kindergeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "Supplementary child benefit (Kinderzuschlag which is paid to low-income earners in addition to the child allowance, Kindergeld)",
+          "text_de": "Kinderzuschlag, also zusaetzlich zum Kindergeld beantragte Leistung fuer Geringverdiener",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Parental benefit",
+          "text_de": "Elterngeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "Continued pay in maternity leave",
+          "text_de": "Lohnfortzahlung im Mutterschutz",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "Short-time working allowance",
+          "text_de": "Kurzarbeitergeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "Unemployment benefit type I",
+          "text_de": "Arbeitslosengeld ALG I",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "Unemployment benefit II (Harz IV), including social unemployment benefit II (Harz IV), including social benefit and accomodation expenses",
+          "text_de": "Arbeitslosengeld II einschliesslich Sozialgeld und Unterkunftskosten",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "Monthly subsistence allowance / assistance in special circumstances",
+          "text_de": "Laufende Hilfe zum Lebensunterhalt oder Hilfe in besonderen Lebenslagen",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "Basic income support for the elderly and those with reduced earning capacity",
+          "text_de": "Grundsicherung im Alter und bei Erwerbsminderung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "text": "Housing allowance if not included in the unemployment benefit II / social assistance",
+          "text_de": "Wohngeld oder Lastenzuschuss, die nicht im Arbeitslosengeld II oder der Sozialhilfe enthalten sind",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "text": "Other social allowances",
+          "text_de": "Sonstige Sozialhilfe",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "text": "Long-term care insurance benefits (Pflegevers.)",
+          "text_de": "Leistungen der Pflegeversicherung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "text": "Child care subsidy",
+          "text_de": "Betreuungsgeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "16",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "14",
+          "text": "Alimony payment for children",
+          "text_de": "Gesetzliche Unterhaltszahlungen fuer Kinder",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "15",
+          "text": "Alimony payment by former partner (not for children)",
+          "text_de": "Gesetzliche Unterhaltszahlungen von ehemaligem/r Partner/in (nicht fuer Kinder)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 15
+        },
+        {
+          "item": "16",
+          "text": "Retirement pension",
+          "text_de": "Rente",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 16
+        },
+        {
+          "item": "17",
+          "text": "Sick allowance",
+          "text_de": "Krankengeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 17
+        },
+        {
+          "item": "18",
+          "text": "Alimony advance",
+          "text_de": "Unterhaltsvorschuss",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 18
+        },
+        {
+          "item": "19",
+          "text": "Other allowances",
+          "text_de": "Sonstiges",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 19
+        },
+        {
+          "item": "21",
+          "text": "None",
+          "text_de": "Weder ich noch ein anderes Haushaltsmitglied erhalten eine dieser staatlichen Leistungen.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "23",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 20
+        },
+        {
+          "item": "22",
+          "text": "Do not know",
+          "text_de": "Weiss nicht",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "24",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 21
+        },
+        {
+          "item": "23",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "25",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 22
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid5_F2F3_module2",
+      "study": "twinlife"
+    }
+  }
+}

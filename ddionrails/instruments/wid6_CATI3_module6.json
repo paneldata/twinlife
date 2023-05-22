@@ -1,0 +1,913 @@
+{
+  "study": "twinlife",
+  "name": "wid6_CATI3_module6",
+  "label": "CATI 3: health (CATI)",
+  "description": "This questionnaire module contains questions on: current subjective health; doctor's visit; global life satisfaction.",
+  "analysis_unit": "individual",
+  "period": 6,
+  "instrument": "wid6_CATI3_module6",
+  "questions": {
+    "she0100": {
+      "question": "she0100",
+      "name": "she0100",
+      "label": "[If age < 16] Now it's about your health. How would you describe your state of health during the past 12 months, in general? [IF age >= 16] In this part of the survey, you will be asked a few questions about your health. How would you describe your state of health during the past 12 months, in general?",
+      "label_de": "[If age < 16] Jetzt geht es um Deine Gesundheit. Wie wuerdest Du Deine Gesundheit in den letzten 12 Monaten im Allgemeinen beschreiben? [IF age >= 16] In diesem Teil der Befragung erhalten Sie ein paar Fragen zu Ihrer Gesundheit. Wie wuerden Sie Ihren Gesundheitszustand in den letzten 12 Monaten im Allgemeinen beschreiben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[If age < 16] Now it's about your health. How would you describe your state of health during the past 12 months, in general? [IF age >= 16] In this part of the survey, you will be asked a few questions about your health. How would you describe your state of health during the past 12 months, in general?",
+          "text_de": "[If age < 16] Jetzt geht es um Deine Gesundheit. Wie wuerdest Du Deine Gesundheit in den letzten 12 Monaten im Allgemeinen beschreiben? [IF age >= 16] In diesem Teil der Befragung erhalten Sie ein paar Fragen zu Ihrer Gesundheit. Wie wuerden Sie Ihren Gesundheitszustand in den letzten 12 Monaten im Allgemeinen beschreiben?",
+          "description": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
+          "description_de": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
+          "concept": "she0100",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: excellent",
+              "label_de": "1: ausgezeichnet"
+            },
+            {
+              "value": 2,
+              "label": "2: very good",
+              "label_de": "2: sehr gut"
+            },
+            {
+              "value": 3,
+              "label": "3: good",
+              "label_de": "3: gut"
+            },
+            {
+              "value": 4,
+              "label": "4: less good",
+              "label_de": "4: maessig / weniger gut"
+            },
+            {
+              "value": 5,
+              "label": "5: poor",
+              "label_de": "5: schlecht"
+            },
+            {
+              "value": 6,
+              "label": "6: very poor",
+              "label_de": "6: sehr schlecht"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "doc0100": {
+      "question": "doc0100",
+      "name": "doc0100",
+      "label": "Have you visited doctors (incl. dentists) in the last 12 months?",
+      "label_de": "[If age >= 16] Haben Sie in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? [If age < 16] Hast Du in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you visited doctors (incl. dentists) in the last 12 months?",
+          "text_de": "[If age >= 16] Haben Sie in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? [If age < 16] Hast Du in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "doc0100",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "doc0101": {
+      "question": "doc0101",
+      "name": "doc0101",
+      "label": "Please indicate how often this happened.",
+      "label_de": "[If age < 16] Gib bitte an, wie haeufig das war. [If age >= 16] Geben Sie bitte an, wie haeufig das war.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate how often this happened.",
+          "text_de": "[If age < 16] Gib bitte an, wie haeufig das war. [If age >= 16] Geben Sie bitte an, wie haeufig das war.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "doc0101",
+          "scale": "cat",
+          "number": "3",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "she0100t": {
+      "question": "she0100t",
+      "name": "she0100t",
+      "label": "How would you describe the state of [name of child]'s health during the last 12 months in general?",
+      "label_de": "Wie wuerden Sie den Gesundheitszustand von <NAME DES KINDES> in den letzten 12 Monaten im Allgemeinen beschreiben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How would you describe the state of [name of child]'s health during the last 12 months in general?",
+          "text_de": "Wie wuerden Sie den Gesundheitszustand von <NAME DES KINDES> in den letzten 12 Monaten im Allgemeinen beschreiben?",
+          "description": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
+          "description_de": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
+          "concept": "she0100t",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: excellent",
+              "label_de": "1: ausgezeichnet"
+            },
+            {
+              "value": 2,
+              "label": "2: very good",
+              "label_de": "2: sehr gut"
+            },
+            {
+              "value": 3,
+              "label": "3: good",
+              "label_de": "3: gut"
+            },
+            {
+              "value": 4,
+              "label": "4: less good",
+              "label_de": "4: maessig / weniger gut"
+            },
+            {
+              "value": 5,
+              "label": "5: poor",
+              "label_de": "5: schlecht"
+            },
+            {
+              "value": 6,
+              "label": "6: very poor",
+              "label_de": "6: sehr schlecht"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "she0100u": {
+      "question": "she0100u",
+      "name": "she0100u",
+      "label": "How would you describe the state of [name of child]'s health during the last 12 months in general?",
+      "label_de": "Wie wuerden Sie den Gesundheitszustand von <NAME DES KINDES> in den letzten 12 Monaten im Allgemeinen beschreiben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How would you describe the state of [name of child]'s health during the last 12 months in general?",
+          "text_de": "Wie wuerden Sie den Gesundheitszustand von <NAME DES KINDES> in den letzten 12 Monaten im Allgemeinen beschreiben?",
+          "description": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
+          "description_de": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
+          "concept": "she0100u",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: excellent",
+              "label_de": "1: ausgezeichnet"
+            },
+            {
+              "value": 2,
+              "label": "2: very good",
+              "label_de": "2: sehr gut"
+            },
+            {
+              "value": 3,
+              "label": "3: good",
+              "label_de": "3: gut"
+            },
+            {
+              "value": 4,
+              "label": "4: less good",
+              "label_de": "4: maessig / weniger gut"
+            },
+            {
+              "value": 5,
+              "label": "5: poor",
+              "label_de": "5: schlecht"
+            },
+            {
+              "value": 6,
+              "label": "6: very poor",
+              "label_de": "6: sehr schlecht"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "doc0100t": {
+      "question": "doc0100t",
+      "name": "doc0100t",
+      "label": "Have you visited doctors (incl. dentists) with <name of child> during the last 12 months?",
+      "label_de": "Haben Sie mit <NAME DES KINDES> in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you visited doctors (incl. dentists) with <name of child> during the last 12 months?",
+          "text_de": "Haben Sie mit <NAME DES KINDES> in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "doc0100t",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "doc0100u": {
+      "question": "doc0100u",
+      "name": "doc0100u",
+      "label": "Have you visited doctors (incl. dentists) with <name of child> during the last 12 months?",
+      "label_de": "Haben Sie mit <NAME DES KINDES> in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you visited doctors (incl. dentists) with <name of child> during the last 12 months?",
+          "text_de": "Haben Sie mit <NAME DES KINDES> in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "doc0100u",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "doc0101t": {
+      "question": "doc0101t",
+      "name": "doc0101t",
+      "label": "Please indicate how often this happened.",
+      "label_de": "Bitte geben Sie an, wie haeufig das war.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate how often this happened.",
+          "text_de": "Bitte geben Sie an, wie haeufig das war.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "doc0101t",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "doc0101u": {
+      "question": "doc0101u",
+      "name": "doc0101u",
+      "label": "Please indicate how often this happened.",
+      "label_de": "Bitte geben Sie an, wie haeufig das war.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate how often this happened.",
+          "text_de": "Bitte geben Sie an, wie haeufig das war.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "doc0101u",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "gls0100": {
+      "question": "gls0100",
+      "name": "gls0100",
+      "label": "[ITEMBAT] Finally, we would like to know how satisfied you are with your life in general. Below are some statements about this that you may agree or disagree with. Please answer on a scale from 1 to 5, where 1 means 'strongly disagree' and 5 means 'strongly agree'.",
+      "label_de": "[ITEMBAT] [If age >= 16 & wav0100 = 1] Zum Abschluss wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen oder die Sie ablehnen koennen. Antworten Sie bitte auf einer Skala von 1 bis 5, wobei 1 'starke Ablehnung' und 5 'starke Zustimmung' bedeutet. [If age <= 15 & wav0100 = 1] Zum Abschluss wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen einige Aussagen dazu, denen Du zustimmen oder die Du ablehnen kannst. Antworte bitte auf einer Skala von 1 bis 5, wobei 1 'starke Ablehnung' und 5 'starke Zustimmung' bedeutet. [If age >= 16 & wav0100 = 2] Nun wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen oder die Sie ablehnen koennen. Antworten Sie bitte auf einer Skala von 1 bis 5, wobei 1 'Starke Ablehnung' und 5 'Starke Zustimmung' bedeutet. [If age <= 15 & wav0100 = 2] Nun wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen einige Aussagen dazu, denen Du zustimmen oder die Du ablehnen kannst. Antworte bitte auf einer Skala von 1 bis 5, wobei 1 'Starke Ablehnung' und 5 'Starke Zustimmung' bedeutet.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] Finally, we would like to know how satisfied you are with your life in general. Below are some statements about this that you may agree or disagree with. Please answer on a scale from 1 to 5, where 1 means 'strongly disagree' and 5 means 'strongly agree'.",
+          "text_de": "[ITEMBAT] [If age >= 16 & wav0100 = 1] Zum Abschluss wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen oder die Sie ablehnen koennen. Antworten Sie bitte auf einer Skala von 1 bis 5, wobei 1 'starke Ablehnung' und 5 'starke Zustimmung' bedeutet. [If age <= 15 & wav0100 = 1] Zum Abschluss wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen einige Aussagen dazu, denen Du zustimmen oder die Du ablehnen kannst. Antworte bitte auf einer Skala von 1 bis 5, wobei 1 'starke Ablehnung' und 5 'starke Zustimmung' bedeutet. [If age >= 16 & wav0100 = 2] Nun wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Es folgen einige Aussagen dazu, denen Sie zustimmen oder die Sie ablehnen koennen. Antworten Sie bitte auf einer Skala von 1 bis 5, wobei 1 'Starke Ablehnung' und 5 'Starke Zustimmung' bedeutet. [If age <= 15 & wav0100 = 2] Nun wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen einige Aussagen dazu, denen Du zustimmen oder die Du ablehnen kannst. Antworte bitte auf einer Skala von 1 bis 5, wobei 1 'Starke Ablehnung' und 5 'Starke Zustimmung' bedeutet.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "filter": "inlist(ptyp,1,2) & age0110>=15",
+          "concept": "gls0100",
+          "scale": "txt",
+          "number": "10",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "In most ways my life is close to my ideal.",
+          "text_de": "In den meisten Punkten ist mein Leben meinem Ideal nahe.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "The conditions of my life are excellent.",
+          "text_de": "Meine Lebensbedingungen sind hervorragend.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I am satisfied with my life.",
+          "text_de": "Ich bin zufrieden mit meinem Leben.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "So far I have gotten the important things I want in life.",
+          "text_de": "Ich habe bisher die wichtigen Dinge, die ich mir vom Leben wuensche, auch bekommen.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "If I could live my life over, I would change almost nothing.",
+          "text_de": "Wenn ich mein Leben noch einmal leben koennte, wuerde ich fast nichts aendern.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 5
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    },
+    "gls0600": {
+      "question": "gls0600",
+      "name": "gls0600",
+      "label": "[ITEMBAT] [If age < 16] Finally, we would like to know how satisfied you are with your life in general. Here are a few statements. For each statement, please tell us how strongly you agree. Please use a scale from 1 to 5, where 1 means 'strongly disagree' and 5 means 'strongly agree'.",
+      "label_de": "[ITEMBAT] [If age < 16 & wav0100 = 1] Zum Abschluss wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen hierzu nun ein paar Aussagen. Sag bitte zu jeder Aussage, wie stark Du zustimmst. Benutze dabei bitte eine Skala von 1 bis 5, wobei 1 'starke Ablehnung' und 5 'starke Zustimmung' bedeutet. [If age < 16 & wav0100 = 2] Nun wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen hierzu nun ein paar Aussagen. Sag bitte zu jeder Aussage, wie stark Du zustimmst. Benutze dabei bitte eine Skala von 1 bis 5, wobei 1 'starke Ablehnung' und 5 'starke Zustimmung' bedeutet.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] [If age < 16] Finally, we would like to know how satisfied you are with your life in general. Here are a few statements. For each statement, please tell us how strongly you agree. Please use a scale from 1 to 5, where 1 means 'strongly disagree' and 5 means 'strongly agree'.",
+          "text_de": "[ITEMBAT] [If age < 16 & wav0100 = 1] Zum Abschluss wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen hierzu nun ein paar Aussagen. Sag bitte zu jeder Aussage, wie stark Du zustimmst. Benutze dabei bitte eine Skala von 1 bis 5, wobei 1 'starke Ablehnung' und 5 'starke Zustimmung' bedeutet. [If age < 16 & wav0100 = 2] Nun wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen hierzu nun ein paar Aussagen. Sag bitte zu jeder Aussage, wie stark Du zustimmst. Benutze dabei bitte eine Skala von 1 bis 5, wobei 1 'starke Ablehnung' und 5 'starke Zustimmung' bedeutet.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "filter": "inlist(ptyp,1,2) & age0110>=9 & age0110 <15",
+          "concept": "gls0600",
+          "scale": "txt",
+          "number": "16",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "In most ways, my life is close to the way I would want it to be.",
+          "text_de": "Im Grossen und Ganzen ist mein Leben so, wie ich es mir wuensche.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "The things in my life are excellent.",
+          "text_de": "Mein Leben ist grossartig.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I am happy with my life.",
+          "text_de": "Ich bin mit meinem Leben gluecklich.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "So far, I have gotten the important things I want in life.",
+          "text_de": "Ich habe bisher die wichtigen Dinge, die ich mir vom Leben wuensche, auch bekommen.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "If I could live my life over, I would have it the same way.",
+          "text_de": "Wenn ich mein Leben noch einmal leben koennte, wuerde ich es mir genauso wuenschen.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 5
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid6_CATI3_module6",
+      "study": "twinlife"
+    }
+  }
+}

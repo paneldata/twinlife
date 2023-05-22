@@ -15,11 +15,11 @@
       "items": [
         {
           "item": "1",
-          "number": "1",
-          "concept": "sex",
           "text": "Interviewer: Please record:",
           "text_de": "Interviewer: Bitte eintragen:",
+          "concept": "sex",
           "scale": "cat",
+          "number": "1",
           "answers": [
             {
               "value": 1,
@@ -42,18 +42,18 @@
     "cer1000": {
       "question": "cer1000",
       "name": "cer1000",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
+      "label": "Interviewer: please enter whether person goes to school or not!",
+      "label_de": "Interviewer: bitte eingeben, ob Person in die Schule geht oder nicht!",
       "items": [
         {
           "item": "1",
-          "number": "2",
+          "text": "Interviewer: please enter whether person goes to school or not!",
+          "text_de": "Interviewer: bitte eingeben, ob Person in die Schule geht oder nicht!",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
           "concept": "cer1000",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
           "scale": "cat",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "number": "2",
           "answers": [
             {
               "value": 1,
@@ -81,24 +81,28 @@
     "cer1001": {
       "question": "cer1001",
       "name": "cer1001",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
+      "label": "We would like to ask you to provide us with your last annual report card from general education school so that we can photograph it. Do you agree with this?",
+      "label_de": "[IF age>15] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [IF age<=15] Wir moechten Dich bitten, uns Dein letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Bist Du damit einverstanden?",
       "items": [
         {
           "item": "1",
-          "number": "3",
+          "text": "We would like to ask you to provide us with your last annual report card from general education school so that we can photograph it. Do you agree with this?",
+          "text_de": "[IF age>15] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [IF age<=15] Wir moechten Dich bitten, uns Dein letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Bist Du damit einverstanden?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
           "concept": "cer1001",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
           "scale": "cat",
-          "filter": "ptyp == 1 | ptyp == 2 | ptyp == 200",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "number": "3",
           "answers": [
             {
               "value": -89,
               "label": "-89: illegible",
               "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
             },
             {
               "value": -85,
@@ -131,19 +135,30 @@
     "cer1100": {
       "question": "cer1100",
       "name": "cer1100",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
+      "label": "Please indicate the grade of the highest school-leaving qualification.",
+      "label_de": "[IF age>15] Bitte geben Sie die Note des hoechsten allgemeinbildenden Schulabschlusses an. [IF age<=15] Bitte gib die Note des hoechsten allgemeinbildenden Schulabschlusses an.",
       "items": [
         {
-          "item": "1",
-          "number": "4",
-          "concept": "cer1100",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "scale": "int",
+          "item": "0",
+          "text": "Please indicate the grade of the highest school-leaving qualification.",
+          "text_de": "[IF age>15] Bitte geben Sie die Note des hoechsten allgemeinbildenden Schulabschlusses an. [IF age<=15] Bitte gib die Note des hoechsten allgemeinbildenden Schulabschlusses an.",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
           "filter": "cer1000 == 2",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cer1100",
+          "scale": "txt",
+          "number": "4",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "pre-decimal place",
+          "text_de": "Vorkommastelle",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "cer1100",
+          "scale": "int",
+          "number": "5",
           "answers": [
             {
               "value": -86,
@@ -156,7 +171,53 @@
               "label_de": "-85: unbekannt"
             }
           ],
-          "sn": 0
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "decimal place",
+          "text_de": "Nachkommastelle",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "cer1100",
+          "scale": "int",
+          "number": "6",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "not specified",
+          "text_de": "Keine Angabe",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "cer1100",
+          "scale": "int",
+          "number": "7",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 3
         }
       ],
       "sn": 3,
@@ -166,74 +227,53 @@
     "cer9000": {
       "question": "cer9000",
       "name": "cer9000",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
+      "label": "What is the type of school-leaving qualification?",
+      "label_de": "Welcher Art ist der Schulabschluss?",
       "items": [
         {
           "item": "1",
-          "number": "5",
+          "text": "What is the type of school-leaving qualification?",
+          "text_de": "Welcher Art ist der Schulabschluss?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
           "concept": "cer9000",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
           "scale": "cat",
-          "filter": "cer1000 == 2",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "number": "8",
           "answers": [
             {
               "value": 1,
-              "label": "1: primary school",
-              "label_de": "1: Grundschule"
+              "label": "1: lower secondary school",
+              "label_de": "1: Hauptschule"
             },
             {
               "value": 2,
-              "label": "2: orientation level for secondary education",
-              "label_de": "2: Orientierungsschule"
+              "label": "2: intermediate level secondary school",
+              "label_de": "2: Realschule"
             },
             {
               "value": 3,
-              "label": "3: lower secondary school",
-              "label_de": "3: Hauptschule"
+              "label": "3: integrated lower and intermediate level secondary school",
+              "label_de": "3: Verbundene Haupt- und Realschule"
             },
             {
               "value": 4,
-              "label": "4: intermediate level secondary school",
-              "label_de": "4: Realschule"
+              "label": "4: higher secondary school",
+              "label_de": "4: Gymnasium (auch Kolleg)"
             },
             {
               "value": 5,
-              "label": "5: integrated lower and intermediate level secondary school",
-              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+              "label": "5: comprehensive secondary school",
+              "label_de": "5: Gesamtschule"
             },
             {
               "value": 6,
-              "label": "6: comprehensive secondary school",
-              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+              "label": "6: school for handicaped children",
+              "label_de": "6: Sonderschule / Foerderschule"
             },
             {
               "value": 7,
-              "label": "7: Waldorf school (Rudolf Steiner school)",
-              "label_de": "7: Waldorfschule"
-            },
-            {
-              "value": 8,
-              "label": "8: higher secondary school",
-              "label_de": "8: Gymnasium (auch Kolleg)"
-            },
-            {
-              "value": 9,
-              "label": "9: school for handicaped children",
-              "label_de": "9: Sonderschule/Foerderschule"
-            },
-            {
-              "value": 10,
-              "label": "10: other school, such as",
-              "label_de": "10: andere Schule, und zwar"
-            },
-            {
-              "value": 11,
-              "label": "11: higher secondary vocational school [from F2F 2]",
-              "label_de": "11: Fachoberschule [ab F2F 2]"
+              "label": "7: other school, such as",
+              "label_de": "7: andere Schule, und zwar:"
             }
           ],
           "sn": 0
@@ -246,19 +286,18 @@
     "cer1300": {
       "question": "cer1300",
       "name": "cer1300",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
+      "label": "year of graduation",
+      "label_de": "Jahr des Abschlusses",
       "items": [
         {
           "item": "1",
-          "number": "6",
+          "text": "year of graduation",
+          "text_de": "Jahr des Abschlusses",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
           "concept": "cer1300",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
           "scale": "int",
-          "filter": "cer1000 == 2",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "number": "9",
           "answers": [
             {
               "value": -96,
@@ -269,6 +308,11 @@
               "value": -85,
               "label": "-85: unknown",
               "label_de": "-85: unbekannt"
+            },
+            {
+              "value": -83,
+              "label": "-83: no grades",
+              "label_de": "-83: keine Schulnoten"
             }
           ],
           "sn": 0
@@ -281,19 +325,30 @@
     "cer1400": {
       "question": "cer1400",
       "name": "cer1400",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
+      "label": "Please indicate what school grade you had on your last report card in the following subjects:",
+      "label_de": "[IF age>15] Bitte geben Sie an, welche Schulnote Sie auf dem letzten Zeugnis in folgenden Faechern hatten: [IF age<=15] Bitte gib an, welche Schulnote Du auf dem letzten Zeugnis in folgenden Faechern hattest:",
       "items": [
         {
-          "item": "1",
-          "number": "7",
-          "concept": "cer1400",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "scale": "dec",
+          "item": "0",
+          "text": "Please indicate what school grade you had on your last report card in the following subjects:",
+          "text_de": "[IF age>15] Bitte geben Sie an, welche Schulnote Sie auf dem letzten Zeugnis in folgenden Faechern hatten: [IF age<=15] Bitte gib an, welche Schulnote Du auf dem letzten Zeugnis in folgenden Faechern hattest:",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
           "filter": "cer1000 == 1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "concept": "cer1400",
+          "scale": "txt",
+          "number": "10",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "maths",
+          "text_de": "Mathematik",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "cer1400",
+          "scale": "dec",
+          "number": "11",
           "answers": [
             {
               "value": -96,
@@ -304,31 +359,63 @@
               "value": -85,
               "label": "-85: unknown",
               "label_de": "-85: unbekannt"
+            },
+            {
+              "value": -83,
+              "label": "-83: no grades",
+              "label_de": "-83: keine Schulnoten"
             }
           ],
-          "sn": 0
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "german",
+          "text_de": "Deutsch",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "cer1400",
+          "scale": "dec",
+          "number": "12",
+          "answers": [
+            {
+              "value": -96,
+              "label": "-96: don't know/not specified",
+              "label_de": "-96: weiss nicht/keine Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            },
+            {
+              "value": -83,
+              "label": "-83: no grades",
+              "label_de": "-83: keine Schulnoten"
+            }
+          ],
+          "sn": 2
         }
       ],
       "sn": 6,
       "instrument": "wid1_F2F1_module12",
       "study": "twinlife"
     },
-    "cer1500": {
-      "question": "cer1500",
-      "name": "cer1500",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
+    "cer1600": {
+      "question": "cer1600",
+      "name": "cer1600",
+      "label": "From which grade is the last report card?",
+      "label_de": "Von welcher Klasse ist das letzte Zeugnis?",
       "items": [
         {
           "item": "1",
-          "number": "8",
-          "concept": "cer1500",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
+          "text": "From which grade is the last report card?",
+          "text_de": "Von welcher Klasse ist das letzte Zeugnis?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "cer1600",
           "scale": "dec",
-          "filter": "cer1000 == 1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "number": "13",
           "answers": [
             {
               "value": -96,
@@ -339,6 +426,11 @@
               "value": -85,
               "label": "-85: unknown",
               "label_de": "-85: unbekannt"
+            },
+            {
+              "value": -83,
+              "label": "-83: no grades",
+              "label_de": "-83: keine Schulnoten"
             }
           ],
           "sn": 0
@@ -348,57 +440,21 @@
       "instrument": "wid1_F2F1_module12",
       "study": "twinlife"
     },
-    "cer1600": {
-      "question": "cer1600",
-      "name": "cer1600",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
-      "items": [
-        {
-          "item": "1",
-          "number": "9",
-          "concept": "cer1600",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
-          "scale": "dec",
-          "filter": "cer1000 == 1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
-          "answers": [
-            {
-              "value": -96,
-              "label": "-96: don't know/not specified",
-              "label_de": "-96: weiss nicht/keine Angabe"
-            },
-            {
-              "value": -85,
-              "label": "-85: unknown",
-              "label_de": "-85: unbekannt"
-            }
-          ],
-          "sn": 0
-        }
-      ],
-      "sn": 8,
-      "instrument": "wid1_F2F1_module12",
-      "study": "twinlife"
-    },
     "cer1700": {
       "question": "cer1700",
       "name": "cer1700",
-      "label": "Interviewer: Please record:",
-      "label_de": "Interviewer: Bitte eintragen:",
+      "label": "In which type of school was the last report card awarded?",
+      "label_de": "In welcher Schulart wurde das letzte Zeugnis vergeben?",
       "items": [
         {
           "item": "1",
-          "number": "10",
+          "text": "In which type of school was the last report card awarded?",
+          "text_de": "In welcher Schulart wurde das letzte Zeugnis vergeben?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
           "concept": "cer1700",
-          "text": "Interviewer: Please record:",
-          "text_de": "Interviewer: Bitte eintragen:",
           "scale": "cat",
-          "filter": "cer1000 == 1",
-          "description": "Source: Item developed for TwinLife",
-          "description_de": "Source: Fuer TwinLife entwickeltes Item",
+          "number": "14",
           "answers": [
             {
               "value": 1,
@@ -439,12 +495,27 @@
               "value": 8,
               "label": "8: other school, such as",
               "label_de": "8: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: technical secondary school (from F2F2)",
+              "label_de": "11: Fachoberschule (ab F2F2)"
+            },
+            {
+              "value": 12,
+              "label": "12: waldorf school/Rudolf Steiner school  (from F2F2)",
+              "label_de": "12: Waldorfschule (ab F2F2)"
+            },
+            {
+              "value": 13,
+              "label": "13: orientation school (from F2F2)",
+              "label_de": "13: Orientierungsschule (ab F2F2)"
             }
           ],
           "sn": 0
         }
       ],
-      "sn": 9,
+      "sn": 8,
       "instrument": "wid1_F2F1_module12",
       "study": "twinlife"
     }

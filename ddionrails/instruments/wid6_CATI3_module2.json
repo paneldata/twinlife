@@ -1,0 +1,129 @@
+{
+  "study": "twinlife",
+  "name": "wid6_CATI3_module2",
+  "label": "CATI 3: household questionnaire (CATI)",
+  "description": "This questionnaire module contains questions on: partnership and marital status.",
+  "analysis_unit": "household",
+  "period": 6,
+  "instrument": "wid6_CATI3_module2",
+  "questions": {
+    "hpc0100": {
+      "question": "hpc0100",
+      "name": "hpc0100",
+      "label": "How many people in total live in your household? In addition to the persons mentioned previously, please include yourself and other members of the household not mentioned previously.",
+      "label_de": "Wie viele Personen leben insgesamt in Ihrem Haushalt? Zaehlen Sie neben den eben genannten Personen bitte sich selbst und sonstige eben nicht genannte Haushaltsmitglieder mit dazu.",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many people in total live in your household? In addition to the persons mentioned previously, please include yourself and other members of the household not mentioned previously.",
+          "text_de": "Wie viele Personen leben insgesamt in Ihrem Haushalt? Zaehlen Sie neben den eben genannten Personen bitte sich selbst und sonstige eben nicht genannte Haushaltsmitglieder mit dazu.",
+          "concept": "hpc0100",
+          "scale": "int",
+          "number": "1",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid6_CATI3_module2",
+      "study": "twinlife"
+    },
+    "hpc0101": {
+      "question": "hpc0101",
+      "name": "hpc0101",
+      "label": "How many of the people in this household are younger than 14? If there are no persons under the age of 14 in your household, please enter '0'.",
+      "label_de": "Wie viele der Personen in diesem Haushalt sind juenger als 14 Jahre? Sollten keine Personen unter 14 Jahren in Ihrem Haushalt sein, geben Sie bitte eine '0' an.",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many of the people in this household are younger than 14? If there are no persons under the age of 14 in your household, please enter '0'.",
+          "text_de": "Wie viele der Personen in diesem Haushalt sind juenger als 14 Jahre? Sollten keine Personen unter 14 Jahren in Ihrem Haushalt sein, geben Sie bitte eine '0' an.",
+          "concept": "hpc0101",
+          "scale": "int",
+          "number": "2",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid6_CATI3_module2",
+      "study": "twinlife"
+    },
+    "fam0200": {
+      "question": "fam0200",
+      "name": "fam0200",
+      "label": "[if age > 15] Are you in a serious / permanent relationship? [if age < 16] Do you currently have a steady boyfriend or girlfriend?",
+      "label_de": "[if age > 15] Haben Sie derzeit eine feste Partnerschaft? [if age < 16] Hast Du derzeit einen festen Freund oder eine feste Freundin?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[if age > 15] Are you in a serious / permanent relationship? [if age < 16] Do you currently have a steady boyfriend or girlfriend?",
+          "text_de": "[if age > 15] Haben Sie derzeit eine feste Partnerschaft? [if age < 16] Hast Du derzeit einen festen Freund oder eine feste Freundin?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "fam0200",
+          "scale": "cat",
+          "number": "3",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid6_CATI3_module2",
+      "study": "twinlife"
+    }
+  }
+}

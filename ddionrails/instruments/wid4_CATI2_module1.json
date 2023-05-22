@@ -15,11 +15,11 @@
       "items": [
         {
           "item": "1",
-          "number": "1",
-          "concept": "fpr0107",
           "text": "[1st loop] I would now like to go through all the people with you that we have not yet recorded. Let's start with the oldest person. What is the relationship of this person to [IF fpr0002!=5 & fpr0002 !=6: the twins] [IF fpr0002=5 OR fpr0002 =6: you]? [2nd And subsequent loops] And the next oldest person? What is the relationship of this person to [IF fpr0002!=5 &\nfpr0002 !=6: the twins] [IF fpr0002 =5 OR fpr0002 =6: you]?\n",
           "text_de": "[1. Schleife] Ich wuerde nun gerne alle Personen mit Ihnen durchgehen, die wir bisher noch nicht aufgenommen haben. Beginnen wir mit der aeltesten Person. In welcher verwandtschaftlichen Beziehung steht diese Person zu [IF fpr0002!=5 & fpr0002 !=6: den Zwillingen] [IF fpr0002=5 OR fpr0002 =6: Ihnen]? [2. Und nachfolgende Schleifen]  Und die naechstaelteste Person? In welcher verwandtschaftlichen Beziehung steht diese Person zu [IF fpr0002!=5 & fpr0002 !=6: den Zwillingen] [IF fpr0002 =5 OR fpr0002 =6: Ihnen]?",
+          "concept": "fpr0107",
           "scale": "cat",
+          "number": "1",
           "answers": [
             {
               "value": 11,
@@ -161,6 +161,38 @@
         }
       ],
       "sn": 0,
+      "instrument": "wid4_CATI2_module1",
+      "study": "twinlife"
+    },
+    "sex": {
+      "question": "sex",
+      "name": "sex",
+      "label": "And is <name of person (fpr0011)> ...",
+      "label_de": "Und ist <Name der Person (fpr0011)> ...",
+      "items": [
+        {
+          "item": "1",
+          "text": "And is <name of person (fpr0011)> ...",
+          "text_de": "Und ist <Name der Person (fpr0011)> ...",
+          "concept": "sex",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: male",
+              "label_de": "1: maennlich"
+            },
+            {
+              "value": 2,
+              "label": "2: female",
+              "label_de": "2: weiblich"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
       "instrument": "wid4_CATI2_module1",
       "study": "twinlife"
     }
