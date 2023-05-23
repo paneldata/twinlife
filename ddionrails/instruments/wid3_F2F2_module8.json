@@ -4760,13 +4760,13 @@
     "svk0100": {
       "question": "svk0100",
       "name": "svk0100",
-      "label": "[ITEMBAT] [IF age<=9] This is about how you deal with situations that put you under pressure, those that are difficult, and in which you don't feel comfortable. [NCS] When other kids put pressure on me and I'm very nervous, then . . .",
-      "label_de": "[ITEMBAT] [IF age<=9] Hier geht es darum, wie Du mit Situationen umgehst, die Dich unter Druck setzen, d.h. die schwierig sind und in denen du dich nicht wohl fuehlst. [NCS] Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
+      "label": "[ITEMBAT] [IF age[=9] This is about how you deal with situations that put you under pressure, those that are difficult, and in which you don't feel comfortable. [NCS] When other kids put pressure on me and I'm very nervous, then . . .",
+      "label_de": "[ITEMBAT] [IF age[=9] Hier geht es darum, wie Du mit Situationen umgehst, die Dich unter Druck setzen, d.h. die schwierig sind und in denen du dich nicht wohl fuehlst. [NCS] Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] [IF age<=9] This is about how you deal with situations that put you under pressure, those that are difficult, and in which you don't feel comfortable. [NCS] When other kids put pressure on me and I'm very nervous, then . . .",
-          "text_de": "[ITEMBAT] [IF age<=9] Hier geht es darum, wie Du mit Situationen umgehst, die Dich unter Druck setzen, d.h. die schwierig sind und in denen du dich nicht wohl fuehlst. [NCS] Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
+          "text": "[ITEMBAT] [IF age[=9] This is about how you deal with situations that put you under pressure, those that are difficult, and in which you don't feel comfortable. [NCS] When other kids put pressure on me and I'm very nervous, then . . .",
+          "text_de": "[ITEMBAT] [IF age[=9] Hier geht es darum, wie Du mit Situationen umgehst, die Dich unter Druck setzen, d.h. die schwierig sind und in denen du dich nicht wohl fuehlst. [NCS] Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
           "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
           "filter": "(inlist(ptyp,1,2,200)) & (age0110<=9 & age0110 >=6)",
@@ -5170,13 +5170,13 @@
     "bus0300": {
       "question": "bus0300",
       "name": "bus0300",
-      "label": "[If age <16 & (mother present & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother & no stepfather present)] How often do your parents quarrel? [If age <16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] How often do your biological parents quarrel?",
-      "label_de": "[If age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Wie oft streiten sich Deine Eltern? [If age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Deine leiblichen Eltern?",
+      "label": "[If age [16 & (mother present & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother & no stepfather present)] How often do your parents quarrel? [If age [16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] How often do your biological parents quarrel?",
+      "label_de": "[If age [ 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Wie oft streiten sich Deine Eltern? [If age [ 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Deine leiblichen Eltern?",
       "items": [
         {
           "item": "1",
-          "text": "[If age <16 & (mother present & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother & no stepfather present)] How often do your parents quarrel? [If age <16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] How often do your biological parents quarrel?",
-          "text_de": "[If age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Wie oft streiten sich Deine Eltern? [If age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Deine leiblichen Eltern?",
+          "text": "[If age [16 & (mother present & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother & no stepfather present)] How often do your parents quarrel? [If age [16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] How often do your biological parents quarrel?",
+          "text_de": "[If age [ 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Wie oft streiten sich Deine Eltern? [If age [ 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Wie oft streiten sich Deine leiblichen Eltern?",
           "description": "Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing Marital Conflict from the Child's Perspective: The Children's Perception of Interparental Conflict Scale. Child Development, 63(3), 558-572. [[URL link]](https://doi.org/10.2307/1131346)",
           "description_de": "Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing Marital Conflict from the Child's Perspective: The Children's Perception of Interparental Conflict Scale. Child Development, 63(3), 558-572. [[URL link]](https://doi.org/10.2307/1131346)",
           "concept": "bus0300",
@@ -5224,13 +5224,13 @@
     "bus0400": {
       "question": "bus0400",
       "name": "bus0400",
-      "label": "[Stepfather present] How often do your mother and> stepfather's name <quarrel? [Stepmother present] How often do your father and> NAME OF THE STEPMOTHER <quarrel?",
-      "label_de": "[Stiefvater vorhanden] Wie oft streiten sich Deine Mutter und >NAME DES STIEFVATERS<? [Stiefmutter vorhanden] Wie oft streiten sich Dein Vater und >NAME DER STIEFMUTTER<?",
+      "label": "[Stepfather present] How often do your mother and] stepfather's name [quarrel? [Stepmother present] How often do your father and] NAME OF THE STEPMOTHER [quarrel?",
+      "label_de": "[Stiefvater vorhanden] Wie oft streiten sich Deine Mutter und ]NAME DES STIEFVATERS[? [Stiefmutter vorhanden] Wie oft streiten sich Dein Vater und ]NAME DER STIEFMUTTER[?",
       "items": [
         {
           "item": "1",
-          "text": "[Stepfather present] How often do your mother and> stepfather's name <quarrel? [Stepmother present] How often do your father and> NAME OF THE STEPMOTHER <quarrel?",
-          "text_de": "[Stiefvater vorhanden] Wie oft streiten sich Deine Mutter und >NAME DES STIEFVATERS<? [Stiefmutter vorhanden] Wie oft streiten sich Dein Vater und >NAME DER STIEFMUTTER<?",
+          "text": "[Stepfather present] How often do your mother and] stepfather's name [quarrel? [Stepmother present] How often do your father and] NAME OF THE STEPMOTHER [quarrel?",
+          "text_de": "[Stiefvater vorhanden] Wie oft streiten sich Deine Mutter und ]NAME DES STIEFVATERS[? [Stiefmutter vorhanden] Wie oft streiten sich Dein Vater und ]NAME DER STIEFMUTTER[?",
           "description": "Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing Marital Conflict from the Child's Perspective: The Children's Perception of Interparental Conflict Scale. Child Development, 63(3), 558-572. [[URL link]](https://doi.org/10.2307/1131346)",
           "description_de": "Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing Marital Conflict from the Child's Perspective: The Children's Perception of Interparental Conflict Scale. Child Development, 63(3), 558-572. [[URL link]](https://doi.org/10.2307/1131346)",
           "concept": "bus0400",
@@ -5278,13 +5278,13 @@
     "bus0301": {
       "question": "bus0301",
       "name": "bus0301",
-      "label": "[If age <16 & (mother & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother OR stepfather present)] Overall, how much does it bother you when your parents quarrel? [If age <16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] Overall, how much does it bother you when your biological parents quarrel?",
-      "label_de": "[If age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie viel macht dir der Streit zwischen Deinen Eltern aus? [If age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie viel macht dir der Streit zwischen Deinen leiblichen Eltern aus?",
+      "label": "[If age [16 & (mother & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother OR stepfather present)] Overall, how much does it bother you when your parents quarrel? [If age [16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] Overall, how much does it bother you when your biological parents quarrel?",
+      "label_de": "[If age [ 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie viel macht dir der Streit zwischen Deinen Eltern aus? [If age [ 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie viel macht dir der Streit zwischen Deinen leiblichen Eltern aus?",
       "items": [
         {
           "item": "1",
-          "text": "[If age <16 & (mother & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother OR stepfather present)] Overall, how much does it bother you when your parents quarrel? [If age <16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] Overall, how much does it bother you when your biological parents quarrel?",
-          "text_de": "[If age < 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie viel macht dir der Streit zwischen Deinen Eltern aus? [If age < 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie viel macht dir der Streit zwischen Deinen leiblichen Eltern aus?",
+          "text": "[If age [16 & (mother & father present) & (mother OR father live in the same household as the interviewee) & (no stepmother OR stepfather present)] Overall, how much does it bother you when your parents quarrel? [If age [16 & ((mother present & father present) & (stepmother OR stepfather present)) & (mother OR father live in the same household as the interviewee)] Overall, how much does it bother you when your biological parents quarrel?",
+          "text_de": "[If age [ 16 & (Mutter vorhanden & Vater vorhanden) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson) & (keine Stiefmutter OR kein Stiefvater vorhanden vorhanden)] Alles in allem, wie viel macht dir der Streit zwischen Deinen Eltern aus? [If age [ 16 & ((Mutter vorhanden & Vater vorhanden) & (Stiefmutter OR Stiefvater vorhanden)) & (Mutter OR Vater leben im selben Haushalt wie Befragungsperson)] Alles in allem, wie viel macht dir der Streit zwischen Deinen leiblichen Eltern aus?",
           "description": "Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing Marital Conflict from the Child's Perspective: The Children's Perception of Interparental Conflict Scale. Child Development, 63(3), 558-572. [[URL link]](https://doi.org/10.2307/1131346)",
           "description_de": "Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing Marital Conflict from the Child's Perspective: The Children's Perception of Interparental Conflict Scale. Child Development, 63(3), 558-572. [[URL link]](https://doi.org/10.2307/1131346)",
           "concept": "bus0301",
@@ -5312,13 +5312,13 @@
     "bus0401": {
       "question": "bus0401",
       "name": "bus0401",
-      "label": "[Stepfather present] Overall, how much does it bother you when your mother and> NAME OF THE STEPFATHER < quarrel? [Stepmother present] Overall, how much does it bother you when your father and> NAME OF THE STEPMOTHER < quarrel? [Stepfather present] Overall, how much does it bother you when your mother and> NAME OF THE STEPFATHER < quarrel? [Stepmother present] Overall, how much does it bother you when your father and> NAME OF THE STEPMOTHER < quarrel?",
-      "label_de": "[Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und >NAME DES STIEFVATERS< aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und >NAME DER STIEFMUTTER< aus? [Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und >NAME DES STIEFVATERS< aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und >NAME DER STIEFMUTTER< aus?",
+      "label": "[Stepfather present] Overall, how much does it bother you when your mother and] NAME OF THE STEPFATHER [ quarrel? [Stepmother present] Overall, how much does it bother you when your father and] NAME OF THE STEPMOTHER [ quarrel? [Stepfather present] Overall, how much does it bother you when your mother and] NAME OF THE STEPFATHER [ quarrel? [Stepmother present] Overall, how much does it bother you when your father and] NAME OF THE STEPMOTHER [ quarrel?",
+      "label_de": "[Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und ]NAME DES STIEFVATERS[ aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und ]NAME DER STIEFMUTTER[ aus? [Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und ]NAME DES STIEFVATERS[ aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und ]NAME DER STIEFMUTTER[ aus?",
       "items": [
         {
           "item": "1",
-          "text": "[Stepfather present] Overall, how much does it bother you when your mother and> NAME OF THE STEPFATHER < quarrel? [Stepmother present] Overall, how much does it bother you when your father and> NAME OF THE STEPMOTHER < quarrel? [Stepfather present] Overall, how much does it bother you when your mother and> NAME OF THE STEPFATHER < quarrel? [Stepmother present] Overall, how much does it bother you when your father and> NAME OF THE STEPMOTHER < quarrel?",
-          "text_de": "[Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und >NAME DES STIEFVATERS< aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und >NAME DER STIEFMUTTER< aus? [Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und >NAME DES STIEFVATERS< aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und >NAME DER STIEFMUTTER< aus?",
+          "text": "[Stepfather present] Overall, how much does it bother you when your mother and] NAME OF THE STEPFATHER [ quarrel? [Stepmother present] Overall, how much does it bother you when your father and] NAME OF THE STEPMOTHER [ quarrel? [Stepfather present] Overall, how much does it bother you when your mother and] NAME OF THE STEPFATHER [ quarrel? [Stepmother present] Overall, how much does it bother you when your father and] NAME OF THE STEPMOTHER [ quarrel?",
+          "text_de": "[Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und ]NAME DES STIEFVATERS[ aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und ]NAME DER STIEFMUTTER[ aus? [Stiefvater vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deiner Mutter und ]NAME DES STIEFVATERS[ aus? [Stiefmutter vorhanden] Alles in allem, wie viel macht dir der Streit zwischen Deinem Vater und ]NAME DER STIEFMUTTER[ aus?",
           "description": "Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing Marital Conflict from the Child's Perspective: The Children's Perception of Interparental Conflict Scale. Child Development, 63(3), 558-572. [[URL link]](https://doi.org/10.2307/1131346)",
           "description_de": "Grych, J. H., Seid, M., & Fincham, F. D. (1992). Assessing Marital Conflict from the Child's Perspective: The Children's Perception of Interparental Conflict Scale. Child Development, 63(3), 558-572. [[URL link]](https://doi.org/10.2307/1131346)",
           "concept": "bus0401",
@@ -6950,13 +6950,13 @@
     "tst1100": {
       "question": "tst1100",
       "name": "tst1100",
-      "label": "[IF ptyp = 001] Do you and <NAME ZWILLING2> mostly have the same or rather different friends? [IF ptyp = 002] Do you and <NAME ZWILLING1> mainly have the same or rather different friends?",
-      "label_de": "[IF ptyp = 001] Haben Du und <NAME TWIN2> vor allem die gleichen oder eher verschiedene Freunde? [IF ptyp = 002] Haben Du und <NAME TWIN1> vor allem die gleichen oder eher verschiedene Freunde?",
+      "label": "[IF ptyp = 001] Do you and [NAME ZWILLING2] mostly have the same or rather different friends? [IF ptyp = 002] Do you and [NAME ZWILLING1] mainly have the same or rather different friends?",
+      "label_de": "[IF ptyp = 001] Haben Du und [NAME TWIN2] vor allem die gleichen oder eher verschiedene Freunde? [IF ptyp = 002] Haben Du und [NAME TWIN1] vor allem die gleichen oder eher verschiedene Freunde?",
       "items": [
         {
           "item": "1",
-          "text": "[IF ptyp = 001] Do you and <NAME ZWILLING2> mostly have the same or rather different friends? [IF ptyp = 002] Do you and <NAME ZWILLING1> mainly have the same or rather different friends?",
-          "text_de": "[IF ptyp = 001] Haben Du und <NAME TWIN2> vor allem die gleichen oder eher verschiedene Freunde? [IF ptyp = 002] Haben Du und <NAME TWIN1> vor allem die gleichen oder eher verschiedene Freunde?",
+          "text": "[IF ptyp = 001] Do you and [NAME ZWILLING2] mostly have the same or rather different friends? [IF ptyp = 002] Do you and [NAME ZWILLING1] mainly have the same or rather different friends?",
+          "text_de": "[IF ptyp = 001] Haben Du und [NAME TWIN2] vor allem die gleichen oder eher verschiedene Freunde? [IF ptyp = 002] Haben Du und [NAME TWIN1] vor allem die gleichen oder eher verschiedene Freunde?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "tst1100",

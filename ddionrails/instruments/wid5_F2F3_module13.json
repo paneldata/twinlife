@@ -984,12 +984,12 @@
       "question": "rwa0100",
       "name": "rwa0100",
       "label": "Now we would like to know how much you agree with the following statements.",
-      "label_de": "[IF age < 16] Nun wuerden wir gerne wissen, wie sehr Du den folgenden Aussagen zustimmst. [IF age >= 16] Nun wuerden wir gerne wissen, wie sehr Sie den folgenden Aussagen zustimmen.",
+      "label_de": "[IF age [ 16] Nun wuerden wir gerne wissen, wie sehr Du den folgenden Aussagen zustimmst. [IF age ]= 16] Nun wuerden wir gerne wissen, wie sehr Sie den folgenden Aussagen zustimmen.",
       "items": [
         {
           "item": "0",
           "text": "Now we would like to know how much you agree with the following statements.",
-          "text_de": "[IF age < 16] Nun wuerden wir gerne wissen, wie sehr Du den folgenden Aussagen zustimmst. [IF age >= 16] Nun wuerden wir gerne wissen, wie sehr Sie den folgenden Aussagen zustimmen.",
+          "text_de": "[IF age [ 16] Nun wuerden wir gerne wissen, wie sehr Du den folgenden Aussagen zustimmst. [IF age ]= 16] Nun wuerden wir gerne wissen, wie sehr Sie den folgenden Aussagen zustimmen.",
           "description": "Source: Adapted from: Funke, F. (2005). The Dimensionality of Right-Wing Authoritarianism: Lessons from the Dilemma between Theory and Measurement. Political Psychology, 26(2), 195-218. [[URL link]](https://doi.org/10.1111/j.1467-9221.2005.00415.x); Hebler, M., Booh, A. T., Wieczorek, S., & Schneider, J. F. (2001). Right-Wing Autoritarismus. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). [[URL link]](https://doi.org/10.6102/ZIS81)",
           "description_de": "Source: Adapted from: Funke, F. (2005). The Dimensionality of Right-Wing Authoritarianism: Lessons from the Dilemma between Theory and Measurement. Political Psychology, 26(2), 195-218. [[URL link]](https://doi.org/10.1111/j.1467-9221.2005.00415.x); Hebler, M., Booh, A. T., Wieczorek, S., & Schneider, J. F. (2001). Right-Wing Autoritarismus. Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). [[URL link]](https://doi.org/10.6102/ZIS81)",
           "filter": "age0110>=13",
@@ -1311,12 +1311,12 @@
       "question": "ugs0100",
       "name": "ugs0100",
       "label": "[ITEMBAT] Now we would like to know what you think about the following statements.",
-      "label_de": "[ITEMBAT] [IF age < 16] Nun wuerden wir gerne wissen, wie Du ueber folgende Aussagen denkst. [IF age >= 16] Nun wuerden wir gerne wissen, wie Sie ueber folgende Aussagen denken.",
+      "label_de": "[ITEMBAT] [IF age [ 16] Nun wuerden wir gerne wissen, wie Du ueber folgende Aussagen denkst. [IF age ]= 16] Nun wuerden wir gerne wissen, wie Sie ueber folgende Aussagen denken.",
       "items": [
         {
           "item": "0",
           "text": "[ITEMBAT] Now we would like to know what you think about the following statements.",
-          "text_de": "[ITEMBAT] [IF age < 16] Nun wuerden wir gerne wissen, wie Du ueber folgende Aussagen denkst. [IF age >= 16] Nun wuerden wir gerne wissen, wie Sie ueber folgende Aussagen denken.",
+          "text_de": "[ITEMBAT] [IF age [ 16] Nun wuerden wir gerne wissen, wie Du ueber folgende Aussagen denkst. [IF age ]= 16] Nun wuerden wir gerne wissen, wie Sie ueber folgende Aussagen denken.",
           "description": "Beierlein, C., Baumert, A., Schmitt, M., Kemper, C. J., Kovaleva, A., & Rammstedt, B. (2014). Ungerechtigkeitssensibiliaet-Skalen-8 (USS-8). Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). [[URL link]](https://doi.org/10.6102/ZIS36)",
           "description_de": "Beierlein, C., Baumert, A., Schmitt, M., Kemper, C. J., Kovaleva, A., & Rammstedt, B. (2014). Ungerechtigkeitssensibiliaet-Skalen-8 (USS-8). Zusammenstellung sozialwissenschaftlicher Items und Skalen (ZIS). [[URL link]](https://doi.org/10.6102/ZIS36)",
           "filter": "age0110>=13",
@@ -1420,12 +1420,12 @@
       "question": "ugs0200",
       "name": "ugs0200",
       "label": "Societies can differ in how wealth and resources are distributed among social classes. What do you think: Which illustration most closely represents the social structure of our country?",
-      "label_de": "[IF age >= 16] Gesellschaften koennen sich darin unterscheiden, wie Reichtuemer und Ressourcen unter den sozialen Schichten verteilt sind. Was glauben Sie: welches Schaubild zeigt die Gesellschaftsstruktur unseres Landes am ehesten? [IF age < 16] Gesellschaften koennen sich darin unterscheiden, wie Reichtuemer und Ressourcen unter den sozialen Schichten verteilt sind. Was glaubst Du: Welches Schaubild zeigt die Gesellschaftsstruktur unseres Landes am ehesten?",
+      "label_de": "[IF age ]= 16] Gesellschaften koennen sich darin unterscheiden, wie Reichtuemer und Ressourcen unter den sozialen Schichten verteilt sind. Was glauben Sie: welches Schaubild zeigt die Gesellschaftsstruktur unseres Landes am ehesten? [IF age [ 16] Gesellschaften koennen sich darin unterscheiden, wie Reichtuemer und Ressourcen unter den sozialen Schichten verteilt sind. Was glaubst Du: Welches Schaubild zeigt die Gesellschaftsstruktur unseres Landes am ehesten?",
       "items": [
         {
           "item": "1",
           "text": "Societies can differ in how wealth and resources are distributed among social classes. What do you think: Which illustration most closely represents the social structure of our country?",
-          "text_de": "[IF age >= 16] Gesellschaften koennen sich darin unterscheiden, wie Reichtuemer und Ressourcen unter den sozialen Schichten verteilt sind. Was glauben Sie: welches Schaubild zeigt die Gesellschaftsstruktur unseres Landes am ehesten? [IF age < 16] Gesellschaften koennen sich darin unterscheiden, wie Reichtuemer und Ressourcen unter den sozialen Schichten verteilt sind. Was glaubst Du: Welches Schaubild zeigt die Gesellschaftsstruktur unseres Landes am ehesten?",
+          "text_de": "[IF age ]= 16] Gesellschaften koennen sich darin unterscheiden, wie Reichtuemer und Ressourcen unter den sozialen Schichten verteilt sind. Was glauben Sie: welches Schaubild zeigt die Gesellschaftsstruktur unseres Landes am ehesten? [IF age [ 16] Gesellschaften koennen sich darin unterscheiden, wie Reichtuemer und Ressourcen unter den sozialen Schichten verteilt sind. Was glaubst Du: Welches Schaubild zeigt die Gesellschaftsstruktur unseres Landes am ehesten?",
           "description": "Source: Adapted from: ISSP Research Group. (2017). International Social Survey Programme: Social Inequality IV - ISSP 2009International Social Survey Programme: Social Inequality IV - ISSP 2009 (4.0.0) [Data set]. GESIS Data Archive. [[URL link]](https://doi.org/10.4232/1.12777)",
           "description_de": "Source: Adapted from: ISSP Research Group. (2017). International Social Survey Programme: Social Inequality IV - ISSP 2009International Social Survey Programme: Social Inequality IV - ISSP 2009 (4.0.0) [Data set]. GESIS Data Archive. [[URL link]](https://doi.org/10.4232/1.12777)",
           "concept": "ugs0200",
@@ -1469,12 +1469,12 @@
       "question": "dis0100",
       "name": "dis0100",
       "label": "Now we have some questions about your personal experiences. During the last 12 months, have you felt that you were disadvantaged or discriminated against due to any personal characteristics (e.g., your ethnic or cultural background, gender, religious beliefs)?",
-      "label_de": "[IF age >= 13 AND age <= 15] Im Folgenden geht es um Deine persoenlichen Erfahrungen. Hast Du in den vergangenen 12 Monaten erlebt, dass Du aufgrund eines persoenlichen Merkmals (z.B. Deiner Herkunft, Deines Geschlechts, Deiner Religionszugehoerigkeit/Weltanschauung) durch Andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurdest? [IF age >= 16] Im Folgenden geht es um Ihre persoenlichen Erfahrungen. Haben Sie in den vergangenen 12 Monaten erlebt, dass Sie aufgrund eines persoenlichen Merkmals (z.B. Ihrer Herkunft, Ihres Geschlechts, Ihrer Religionszugehoerigkeit/Weltanschauung) durch Andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurden?",
+      "label_de": "[IF age ]= 13 AND age [= 15] Im Folgenden geht es um Deine persoenlichen Erfahrungen. Hast Du in den vergangenen 12 Monaten erlebt, dass Du aufgrund eines persoenlichen Merkmals (z.B. Deiner Herkunft, Deines Geschlechts, Deiner Religionszugehoerigkeit/Weltanschauung) durch Andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurdest? [IF age ]= 16] Im Folgenden geht es um Ihre persoenlichen Erfahrungen. Haben Sie in den vergangenen 12 Monaten erlebt, dass Sie aufgrund eines persoenlichen Merkmals (z.B. Ihrer Herkunft, Ihres Geschlechts, Ihrer Religionszugehoerigkeit/Weltanschauung) durch Andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurden?",
       "items": [
         {
           "item": "1",
           "text": "Now we have some questions about your personal experiences. During the last 12 months, have you felt that you were disadvantaged or discriminated against due to any personal characteristics (e.g., your ethnic or cultural background, gender, religious beliefs)?",
-          "text_de": "[IF age >= 13 AND age <= 15] Im Folgenden geht es um Deine persoenlichen Erfahrungen. Hast Du in den vergangenen 12 Monaten erlebt, dass Du aufgrund eines persoenlichen Merkmals (z.B. Deiner Herkunft, Deines Geschlechts, Deiner Religionszugehoerigkeit/Weltanschauung) durch Andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurdest? [IF age >= 16] Im Folgenden geht es um Ihre persoenlichen Erfahrungen. Haben Sie in den vergangenen 12 Monaten erlebt, dass Sie aufgrund eines persoenlichen Merkmals (z.B. Ihrer Herkunft, Ihres Geschlechts, Ihrer Religionszugehoerigkeit/Weltanschauung) durch Andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurden?",
+          "text_de": "[IF age ]= 13 AND age [= 15] Im Folgenden geht es um Deine persoenlichen Erfahrungen. Hast Du in den vergangenen 12 Monaten erlebt, dass Du aufgrund eines persoenlichen Merkmals (z.B. Deiner Herkunft, Deines Geschlechts, Deiner Religionszugehoerigkeit/Weltanschauung) durch Andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurdest? [IF age ]= 16] Im Folgenden geht es um Ihre persoenlichen Erfahrungen. Haben Sie in den vergangenen 12 Monaten erlebt, dass Sie aufgrund eines persoenlichen Merkmals (z.B. Ihrer Herkunft, Ihres Geschlechts, Ihrer Religionszugehoerigkeit/Weltanschauung) durch Andere benachteiligt oder gegenueber anderen Menschen schlechter gestellt wurden?",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0100",
@@ -1523,12 +1523,12 @@
       "question": "dis0200",
       "name": "dis0200",
       "label": "If so, what do you think was the reason for the discrimination? Multiple answers possible.",
-      "label_de": "[MFN] [IF age >= 13 AND age <= 15] Wenn ja, aus welchem Grund wurdest Du Deiner Meinung nach benachteiligt? [IF age >= 16] Wenn ja, aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt?",
+      "label_de": "[MFN] [IF age ]= 13 AND age [= 15] Wenn ja, aus welchem Grund wurdest Du Deiner Meinung nach benachteiligt? [IF age ]= 16] Wenn ja, aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt?",
       "items": [
         {
           "item": "0",
           "text": "If so, what do you think was the reason for the discrimination? Multiple answers possible.",
-          "text_de": "[MFN] [IF age >= 13 AND age <= 15] Wenn ja, aus welchem Grund wurdest Du Deiner Meinung nach benachteiligt? [IF age >= 16] Wenn ja, aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt?",
+          "text_de": "[MFN] [IF age ]= 13 AND age [= 15] Wenn ja, aus welchem Grund wurdest Du Deiner Meinung nach benachteiligt? [IF age ]= 16] Wenn ja, aus welchem Grund wurden Sie Ihrer Meinung nach benachteiligt?",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "filter": "age0110>=13 & dis0100==1",
@@ -1729,13 +1729,13 @@
     "dis0201": {
       "question": "dis0201",
       "name": "dis0201",
-      "label": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
-      "label_de": "[IF age>= 13 AND age <= 15] Wie sehr hat Dich die Benachteiligung aufgrund von <ART DER DISKRIMINIERUNG> belastet? [IF age >= 16] Wie sehr hat Sie die Benachteiligung aufgrund von <ART DER DISKRIMINIERUNG> belastet? PROG: Wobei Einblendung je nach SchleIFe:",
+      "label": "How much stress did the disadvantage due to [[mentioned disadvantage]] cause you?",
+      "label_de": "[IF age]= 13 AND age [= 15] Wie sehr hat Dich die Benachteiligung aufgrund von [ART DER DISKRIMINIERUNG] belastet? [IF age ]= 16] Wie sehr hat Sie die Benachteiligung aufgrund von [ART DER DISKRIMINIERUNG] belastet? PROG: Wobei Einblendung je nach SchleIFe:",
       "items": [
         {
           "item": "0",
-          "text": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
-          "text_de": "[IF age>= 13 AND age <= 15] Wie sehr hat Dich die Benachteiligung aufgrund von <ART DER DISKRIMINIERUNG> belastet? [IF age >= 16] Wie sehr hat Sie die Benachteiligung aufgrund von <ART DER DISKRIMINIERUNG> belastet? PROG: Wobei Einblendung je nach SchleIFe:",
+          "text": "How much stress did the disadvantage due to [[mentioned disadvantage]] cause you?",
+          "text_de": "[IF age]= 13 AND age [= 15] Wie sehr hat Dich die Benachteiligung aufgrund von [ART DER DISKRIMINIERUNG] belastet? [IF age ]= 16] Wie sehr hat Sie die Benachteiligung aufgrund von [ART DER DISKRIMINIERUNG] belastet? PROG: Wobei Einblendung je nach SchleIFe:",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "filter": "age0110 >=13 & dis0799!=1 & dis0200==1",
@@ -1747,7 +1747,7 @@
         {
           "item": "1",
           "text": "Origin (e.g. nationality, skin color)",
-          "text_de": "[IF age <= 15] Deiner Herkunft (zB. Nationalitaet, Hautfarbe) [IF age >= 16] Ihrer Herkunft (zB. Nationalitaet, Hautfarbe)",
+          "text_de": "[IF age [= 15] Deiner Herkunft (zB. Nationalitaet, Hautfarbe) [IF age ]= 16] Ihrer Herkunft (zB. Nationalitaet, Hautfarbe)",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
@@ -1780,7 +1780,7 @@
         {
           "item": "2",
           "text": "Sex",
-          "text_de": "[IF age <= 15] Deines Geschlechts [IF age >= 16] Ihrer Geschlecht",
+          "text_de": "[IF age [= 15] Deines Geschlechts [IF age ]= 16] Ihrer Geschlecht",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
@@ -1813,7 +1813,7 @@
         {
           "item": "3",
           "text": "Religion/beliefs",
-          "text_de": "[IF age <= 15] Deiner Religionszugehoerigkeit/Weltanschauung [IF age >= 16] Ihrer Religionszugehoerigkeit/Weltanschauung",
+          "text_de": "[IF age [= 15] Deiner Religionszugehoerigkeit/Weltanschauung [IF age ]= 16] Ihrer Religionszugehoerigkeit/Weltanschauung",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
@@ -1846,7 +1846,7 @@
         {
           "item": "4",
           "text": "Age",
-          "text_de": "[IF age <= 15] Deines Alters [IF age >= 16] Ihres Alters",
+          "text_de": "[IF age [= 15] Deines Alters [IF age ]= 16] Ihres Alters",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
@@ -1879,7 +1879,7 @@
         {
           "item": "5",
           "text": "Sexual identity (e.g. homosexuality)",
-          "text_de": "[IF age <= 15] Deiner sexuellen Identitaet (z.B Homosexualitaet) [IF age >= 16] Ihrer sexuellen Identitaet (z.B. Homosexualitaet)",
+          "text_de": "[IF age [= 15] Deiner sexuellen Identitaet (z.B Homosexualitaet) [IF age ]= 16] Ihrer sexuellen Identitaet (z.B. Homosexualitaet)",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
@@ -1912,7 +1912,7 @@
         {
           "item": "6",
           "text": "disability",
-          "text_de": "[IF age <= 15] Deiner Behinderung [IF age >= 16] Ihrer Behinderung",
+          "text_de": "[IF age [= 15] Deiner Behinderung [IF age ]= 16] Ihrer Behinderung",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
@@ -1984,12 +1984,12 @@
       "question": "seo0100",
       "name": "seo0100",
       "label": "In the following, we would like to ask you some questions that concern your sexuality. Do you consent to this?",
-      "label_de": "[IF age >= 16] Im Folgenden wuerden wir Ihnen gerne einige Fragen stellen, die Ihre Sexualitaet betreffen. Sind Sie damit einverstanden? [IF age < 16] Im Folgenden wuerden wir Dir gerne einige Fragen stellen, die Deine Sexualitaet betreffen. Bist Du damit einverstanden?",
+      "label_de": "[IF age ]= 16] Im Folgenden wuerden wir Ihnen gerne einige Fragen stellen, die Ihre Sexualitaet betreffen. Sind Sie damit einverstanden? [IF age [ 16] Im Folgenden wuerden wir Dir gerne einige Fragen stellen, die Deine Sexualitaet betreffen. Bist Du damit einverstanden?",
       "items": [
         {
           "item": "1",
           "text": "In the following, we would like to ask you some questions that concern your sexuality. Do you consent to this?",
-          "text_de": "[IF age >= 16] Im Folgenden wuerden wir Ihnen gerne einige Fragen stellen, die Ihre Sexualitaet betreffen. Sind Sie damit einverstanden? [IF age < 16] Im Folgenden wuerden wir Dir gerne einige Fragen stellen, die Deine Sexualitaet betreffen. Bist Du damit einverstanden?",
+          "text_de": "[IF age ]= 16] Im Folgenden wuerden wir Ihnen gerne einige Fragen stellen, die Ihre Sexualitaet betreffen. Sind Sie damit einverstanden? [IF age [ 16] Im Folgenden wuerden wir Dir gerne einige Fragen stellen, die Deine Sexualitaet betreffen. Bist Du damit einverstanden?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "seo0100",
@@ -2018,12 +2018,12 @@
       "question": "seo0200",
       "name": "seo0200",
       "label": "People differ in who they feel sexually attracted to. What best describes your feelings? Are you feeling:",
-      "label_de": "[IF age >= 16] Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Ihre Gefuehle am besten? Fuehlen Sie sich: [IF age < 16] Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Deine Gefuehle am besten? Fuehlst Du dich:",
+      "label_de": "[IF age ]= 16] Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Ihre Gefuehle am besten? Fuehlen Sie sich: [IF age [ 16] Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Deine Gefuehle am besten? Fuehlst Du dich:",
       "items": [
         {
           "item": "1",
           "text": "People differ in who they feel sexually attracted to. What best describes your feelings? Are you feeling:",
-          "text_de": "[IF age >= 16] Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Ihre Gefuehle am besten? Fuehlen Sie sich: [IF age < 16] Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Deine Gefuehle am besten? Fuehlst Du dich:",
+          "text_de": "[IF age ]= 16] Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Ihre Gefuehle am besten? Fuehlen Sie sich: [IF age [ 16] Menschen unterscheiden sich darin, von welchen Personen sie sich sexuell angezogen fuehlen. Was beschreibt Deine Gefuehle am besten? Fuehlst Du dich:",
           "description": "Source: Adapted from: Gates, G. J., & Badgett, L. (2009). Best Practices for Asking Questions about Sexual Orientation on Surveys. (UCLA CCPR Population Working Papers). [[URL link]](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Best-Practices-SO-Surveys-Nov-2009.pdf)",
           "description_de": "Source: Adapted from: Gates, G. J., & Badgett, L. (2009). Best Practices for Asking Questions about Sexual Orientation on Surveys. (UCLA CCPR Population Working Papers). [[URL link]](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Best-Practices-SO-Surveys-Nov-2009.pdf)",
           "concept": "seo0200",
@@ -2072,12 +2072,12 @@
       "question": "dis0610",
       "name": "dis0610",
       "label": "In which of the following settings have you experienced discrimination?",
-      "label_de": "[IF age >= 16] [MFN] In welchen der folgenden Bereiche haben Sie Diskriminierungserfahrungen gemacht? [IF age < 16] [MFN] In welchen der folgenden Bereiche hast Du Diskriminierungserfahrungen gemacht?",
+      "label_de": "[IF age ]= 16] [MFN] In welchen der folgenden Bereiche haben Sie Diskriminierungserfahrungen gemacht? [IF age [ 16] [MFN] In welchen der folgenden Bereiche hast Du Diskriminierungserfahrungen gemacht?",
       "items": [
         {
           "item": "0",
           "text": "In which of the following settings have you experienced discrimination?",
-          "text_de": "[IF age >= 16] [MFN] In welchen der folgenden Bereiche haben Sie Diskriminierungserfahrungen gemacht? [IF age < 16] [MFN] In welchen der folgenden Bereiche hast Du Diskriminierungserfahrungen gemacht?",
+          "text_de": "[IF age ]= 16] [MFN] In welchen der folgenden Bereiche haben Sie Diskriminierungserfahrungen gemacht? [IF age [ 16] [MFN] In welchen der folgenden Bereiche hast Du Diskriminierungserfahrungen gemacht?",
           "description": "Source: Adapted from: Krieger, N., Smith, K., Naishadham, D., Hartman, C., & Barbeau, E. M. (2005). Experiences of discrimination: Validity and reliability of a self-report measure for population health research on racism and health. Social Science & Medicine, 61(7), 1576-1596. [[URL link]](https://doi.org/10.1016/j.socscimed.2005.03.006)",
           "description_de": "Source: Adapted from: Krieger, N., Smith, K., Naishadham, D., Hartman, C., & Barbeau, E. M. (2005). Experiences of discrimination: Validity and reliability of a self-report measure for population health research on racism and health. Social Science & Medicine, 61(7), 1576-1596. [[URL link]](https://doi.org/10.1016/j.socscimed.2005.03.006)",
           "filter": "age0110>=14 & dis0600==1",
@@ -2233,12 +2233,12 @@
       "question": "dis0620",
       "name": "dis0620",
       "label": "How did you react to these experiences?",
-      "label_de": "[IF age >= 16] [MFN] Wie haben Sie auf diese Erfahrungen reagiert? [IF age < 16] [MFN] Wie hast Du auf diese Erfahrungen reagiert?",
+      "label_de": "[IF age ]= 16] [MFN] Wie haben Sie auf diese Erfahrungen reagiert? [IF age [ 16] [MFN] Wie hast Du auf diese Erfahrungen reagiert?",
       "items": [
         {
           "item": "0",
           "text": "How did you react to these experiences?",
-          "text_de": "[IF age >= 16] [MFN] Wie haben Sie auf diese Erfahrungen reagiert? [IF age < 16] [MFN] Wie hast Du auf diese Erfahrungen reagiert?",
+          "text_de": "[IF age ]= 16] [MFN] Wie haben Sie auf diese Erfahrungen reagiert? [IF age [ 16] [MFN] Wie hast Du auf diese Erfahrungen reagiert?",
           "description": "Source: Adapted from: Krieger, N., Smith, K., Naishadham, D., Hartman, C., & Barbeau, E. M. (2005). Experiences of discrimination: Validity and reliability of a self-report measure for population health research on racism and health. Social Science & Medicine, 61(7), 1576-1596. [[URL link]](https://doi.org/10.1016/j.socscimed.2005.03.006)",
           "description_de": "Source: Adapted from: Krieger, N., Smith, K., Naishadham, D., Hartman, C., & Barbeau, E. M. (2005). Experiences of discrimination: Validity and reliability of a self-report measure for population health research on racism and health. Social Science & Medicine, 61(7), 1576-1596. [[URL link]](https://doi.org/10.1016/j.socscimed.2005.03.006)",
           "filter": "age0110>=14 & dis0600==1",
@@ -2394,12 +2394,12 @@
       "question": "int0100",
       "name": "int0100",
       "label": "To what extent do the following statements apply to you?",
-      "label_de": "[IF age >= 11 and age <= 15] Nun folgen einige Fragen ueber Dein Wohlbefinden, Dein Auskommen mit anderen Menschen und Deine Konzentrationsfaehigkeit. Wie gut treffen folgende Aussagen auf Dich zu? [IF age >= 16] Nun folgen einige Fragen ueber Ihr Wohlbefinden, Ihr Auskommen mit anderen Menschen und Ihre Konzentrationsfaehigkeit. Wie gut treffen folgende Aussagen auf Sie zu?",
+      "label_de": "[IF age ]= 11 and age [= 15] Nun folgen einige Fragen ueber Dein Wohlbefinden, Dein Auskommen mit anderen Menschen und Deine Konzentrationsfaehigkeit. Wie gut treffen folgende Aussagen auf Dich zu? [IF age ]= 16] Nun folgen einige Fragen ueber Ihr Wohlbefinden, Ihr Auskommen mit anderen Menschen und Ihre Konzentrationsfaehigkeit. Wie gut treffen folgende Aussagen auf Sie zu?",
       "items": [
         {
           "item": "0",
           "text": "To what extent do the following statements apply to you?",
-          "text_de": "[IF age >= 11 and age <= 15] Nun folgen einige Fragen ueber Dein Wohlbefinden, Dein Auskommen mit anderen Menschen und Deine Konzentrationsfaehigkeit. Wie gut treffen folgende Aussagen auf Dich zu? [IF age >= 16] Nun folgen einige Fragen ueber Ihr Wohlbefinden, Ihr Auskommen mit anderen Menschen und Ihre Konzentrationsfaehigkeit. Wie gut treffen folgende Aussagen auf Sie zu?",
+          "text_de": "[IF age ]= 11 and age [= 15] Nun folgen einige Fragen ueber Dein Wohlbefinden, Dein Auskommen mit anderen Menschen und Deine Konzentrationsfaehigkeit. Wie gut treffen folgende Aussagen auf Dich zu? [IF age ]= 16] Nun folgen einige Fragen ueber Ihr Wohlbefinden, Ihr Auskommen mit anderen Menschen und Ihre Konzentrationsfaehigkeit. Wie gut treffen folgende Aussagen auf Sie zu?",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110>=11)",
@@ -2411,7 +2411,7 @@
         {
           "item": "1",
           "text": "I often have headaches, stomach aches or feelings of sickness.",
-          "text_de": "[IF age <16] Ich habe haeufig Kopfschmerzen oder Bauchschmerzen; mir wird oft schlecht. [IF age >= 16] Ich habe haeufig Kopfschmerzen, Magenschmerzen oder Uebelkeit.",
+          "text_de": "[IF age [16] Ich habe haeufig Kopfschmerzen oder Bauchschmerzen; mir wird oft schlecht. [IF age ]= 16] Ich habe haeufig Kopfschmerzen, Magenschmerzen oder Uebelkeit.",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "concept": "int0100",
@@ -2606,8 +2606,8 @@
         },
         {
           "item": "8",
-          "text": "[If age < 18] Other people my age generally like me. [If age >= 18] Other people generally like me.",
-          "text_de": "[If age < 18] Im Allgemeinen bin ich bei Gleichaltrigen beliebt. [If age >= 18] Im Allgemeinen bin ich bei anderen beliebt.",
+          "text": "[If age [ 18] Other people my age generally like me. [If age ]= 18] Other people generally like me.",
+          "text_de": "[If age [ 18] Im Allgemeinen bin ich bei Gleichaltrigen beliebt. [If age ]= 18] Im Allgemeinen bin ich bei anderen beliebt.",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "concept": "int0100",
@@ -2634,8 +2634,8 @@
         },
         {
           "item": "9",
-          "text": "[If age < 18] Other children or young people pick on me or bully me. (Age 10 - 17)",
-          "text_de": "[If age < 18] Ich werde von anderen gehaenselt oder schikaniert.",
+          "text": "[If age [ 18] Other children or young people pick on me or bully me. (Age 10 - 17)",
+          "text_de": "[If age [ 18] Ich werde von anderen gehaenselt oder schikaniert.",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "concept": "int0100",
@@ -2662,8 +2662,8 @@
         },
         {
           "item": "10",
-          "text": "[If age < 18] I get on better with adults than with people my own age.",
-          "text_de": "[If age < 18] Ich komme besser mit Erwachsenen aus als mit Gleichaltrigen.",
+          "text": "[If age [ 18] I get on better with adults than with people my own age.",
+          "text_de": "[If age [ 18] Ich komme besser mit Erwachsenen aus als mit Gleichaltrigen.",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "concept": "int0100",
@@ -2690,8 +2690,8 @@
         },
         {
           "item": "11",
-          "text": "[If age >= 18] I am very reserved; I work out things by myself.",
-          "text_de": "[If age >= 18] Ich bin verschlossen; mache Dinge mit mir aus.",
+          "text": "[If age ]= 18] I am very reserved; I work out things by myself.",
+          "text_de": "[If age ]= 18] Ich bin verschlossen; mache Dinge mit mir aus.",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "concept": "int0100",
@@ -2718,8 +2718,8 @@
         },
         {
           "item": "12",
-          "text": "[If age >= 18] Other people pick on me or bully me.",
-          "text_de": "[If age >= 18] Ich werde von anderen nicht ernst genommen, oder sogar gemobbt.",
+          "text": "[If age ]= 18] Other people pick on me or bully me.",
+          "text_de": "[If age ]= 18] Ich werde von anderen nicht ernst genommen, oder sogar gemobbt.",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "concept": "int0100",
@@ -2753,12 +2753,12 @@
       "question": "ext0100",
       "name": "ext0100",
       "label": "To what extent do the following statements apply to you?",
-      "label_de": "[IF age >= 11 AND age <= 15] Wie gut treffen folgende Aussagen auf Dich zu? [IF age >= 16] Wie gut treffen folgende Aussagen auf Sie zu?",
+      "label_de": "[IF age ]= 11 AND age [= 15] Wie gut treffen folgende Aussagen auf Dich zu? [IF age ]= 16] Wie gut treffen folgende Aussagen auf Sie zu?",
       "items": [
         {
           "item": "0",
           "text": "To what extent do the following statements apply to you?",
-          "text_de": "[IF age >= 11 AND age <= 15] Wie gut treffen folgende Aussagen auf Dich zu? [IF age >= 16] Wie gut treffen folgende Aussagen auf Sie zu?",
+          "text_de": "[IF age ]= 11 AND age [= 15] Wie gut treffen folgende Aussagen auf Dich zu? [IF age ]= 16] Wie gut treffen folgende Aussagen auf Sie zu?",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110>=11)",
@@ -2993,8 +2993,8 @@
         },
         {
           "item": "9",
-          "text": "[age < 18] Others often say that I lie or cheat. [age >=18] Others often claim that I am not telling the truth.",
-          "text_de": "[age < 18] Andere behaupten oft, dass ich luege oder mogele. [age >=18] Andere behaupten oft, dass ich nicht die Wahrheit sage.",
+          "text": "[age [ 18] Others often say that I lie or cheat. [age ]=18] Others often claim that I am not telling the truth.",
+          "text_de": "[age [ 18] Andere behaupten oft, dass ich luege oder mogele. [age ]=18] Andere behaupten oft, dass ich nicht die Wahrheit sage.",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "concept": "ext0100",
@@ -3022,7 +3022,7 @@
         {
           "item": "10",
           "text": "I take things that do not belong to me.",
-          "text_de": "[age < 18] Ich nehme Dinge, die mir nicht gehoeren (von zu Hause, in der Schule oder anderswo). [age >=18] Ich nehme Dinge, die mir nicht gehoeren.",
+          "text_de": "[age [ 18] Ich nehme Dinge, die mir nicht gehoeren (von zu Hause, in der Schule oder anderswo). [age ]=18] Ich nehme Dinge, die mir nicht gehoeren.",
           "description": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "description_de": "Goodman, R., Meltzer, H., & Bailey, V. (1998). The strengths and difficulties questionnaire: A pilot study on the validity of the self-report version. European Child & Adolescent Psychiatry, 7(3), 125-130. [[URL link]](https://doi.org/10.1007/s007870050057)",
           "concept": "ext0100",
