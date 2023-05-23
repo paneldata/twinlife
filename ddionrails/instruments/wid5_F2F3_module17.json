@@ -11,12 +11,12 @@
       "question": "cul0100",
       "name": "cul0100",
       "label": "How much time, on average, do you spend reading in your free time each day? Please consider all possible occasions when you read, not only books or magazines, but also e-mails or material on the Internet.",
-      "label_de": "[IF age [= 16 ] Wie viel Zeit verbringst Du im Durchschnitt taeglich damit, in Deiner Freizeit zu lesen? Denke dabei bitte an alle moeglichen Gelegenheiten, bei denen Du liest, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
+      "label_de": "[IF age <= 16 ] Wie viel Zeit verbringst Du im Durchschnitt taeglich damit, in Deiner Freizeit zu lesen? Denke dabei bitte an alle moeglichen Gelegenheiten, bei denen Du liest, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
       "items": [
         {
           "item": "0",
           "text": "How much time, on average, do you spend reading in your free time each day? Please consider all possible occasions when you read, not only books or magazines, but also e-mails or material on the Internet.",
-          "text_de": "[IF age [= 16 ] Wie viel Zeit verbringst Du im Durchschnitt taeglich damit, in Deiner Freizeit zu lesen? Denke dabei bitte an alle moeglichen Gelegenheiten, bei denen Du liest, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
+          "text_de": "[IF age <= 16 ] Wie viel Zeit verbringst Du im Durchschnitt taeglich damit, in Deiner Freizeit zu lesen? Denke dabei bitte an alle moeglichen Gelegenheiten, bei denen Du liest, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
           "description": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -80,12 +80,12 @@
       "question": "cul0501",
       "name": "cul0501",
       "label": "Now we'd like to move on to other activities that you can do in your free time. It doesn't matter here whether you carried out this activity with someone else or alone. How often have you done the following in the past 12 months:",
-      "label_de": "[ITEMBAT] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. [IF age [= 16 ] Dabei ist es egal, ob Du das mit jemandem zusammen oder alleine getan hast. Wie oft hast Du in den letzten 12 Monaten folgende Dinge getan:",
+      "label_de": "[ITEMBAT] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. [IF age <= 16 ] Dabei ist es egal, ob Du das mit jemandem zusammen oder alleine getan hast. Wie oft hast Du in den letzten 12 Monaten folgende Dinge getan:",
       "items": [
         {
           "item": "0",
           "text": "Now we'd like to move on to other activities that you can do in your free time. It doesn't matter here whether you carried out this activity with someone else or alone. How often have you done the following in the past 12 months:",
-          "text_de": "[ITEMBAT] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. [IF age [= 16 ] Dabei ist es egal, ob Du das mit jemandem zusammen oder alleine getan hast. Wie oft hast Du in den letzten 12 Monaten folgende Dinge getan:",
+          "text_de": "[ITEMBAT] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. [IF age <= 16 ] Dabei ist es egal, ob Du das mit jemandem zusammen oder alleine getan hast. Wie oft hast Du in den letzten 12 Monaten folgende Dinge getan:",
           "description": "National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "description_de": "National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -318,12 +318,12 @@
       "question": "pop0100",
       "name": "pop0100",
       "label": "Generally speaking, how interested are you in politics?",
-      "label_de": "[IF age ]= 11 AND age [= 16] Nun zu einem ganz anderen Thema. Einmal ganz allgemein gesprochen, wie stark interessierst Du Dich fuer Politik?",
+      "label_de": "[IF age >= 11 AND age <= 16] Nun zu einem ganz anderen Thema. Einmal ganz allgemein gesprochen, wie stark interessierst Du Dich fuer Politik?",
       "items": [
         {
           "item": "1",
           "text": "Generally speaking, how interested are you in politics?",
-          "text_de": "[IF age ]= 11 AND age [= 16] Nun zu einem ganz anderen Thema. Einmal ganz allgemein gesprochen, wie stark interessierst Du Dich fuer Politik?",
+          "text_de": "[IF age >= 11 AND age <= 16] Nun zu einem ganz anderen Thema. Einmal ganz allgemein gesprochen, wie stark interessierst Du Dich fuer Politik?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "pop0100",
@@ -362,12 +362,12 @@
       "question": "pop0200",
       "name": "pop0200",
       "label": "Which of the following activities did you take part in within the last 12 months?",
-      "label_de": "[IF age ]= 11 AND age [= 16] Welche der folgenden Aktivitaeten hast Du in den letzten 12 Monaten ausgeuebt?",
+      "label_de": "[IF age >= 11 AND age <= 16] Welche der folgenden Aktivitaeten hast Du in den letzten 12 Monaten ausgeuebt?",
       "items": [
         {
           "item": "0",
           "text": "Which of the following activities did you take part in within the last 12 months?",
-          "text_de": "[IF age ]= 11 AND age [= 16] Welche der folgenden Aktivitaeten hast Du in den letzten 12 Monaten ausgeuebt?",
+          "text_de": "[IF age >= 11 AND age <= 16] Welche der folgenden Aktivitaeten hast Du in den letzten 12 Monaten ausgeuebt?",
           "description": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -514,12 +514,12 @@
       "question": "pop0301",
       "name": "pop0301",
       "label": "Let's assume you were eligible to vote: If there were an election for federal parliament next Sunday, would you vote?",
-      "label_de": "[IF age ]= 11 AND age [= 16] Mal angenommen, Du waerst wahlberechtigt: Wenn am naechsten Sonntag Bundestagswahl waere, wuerdest Du an der Wahl teilnehmen?",
+      "label_de": "[IF age >= 11 AND age <= 16] Mal angenommen, Du waerst wahlberechtigt: Wenn am naechsten Sonntag Bundestagswahl waere, wuerdest Du an der Wahl teilnehmen?",
       "items": [
         {
           "item": "1",
           "text": "Let's assume you were eligible to vote: If there were an election for federal parliament next Sunday, would you vote?",
-          "text_de": "[IF age ]= 11 AND age [= 16] Mal angenommen, Du waerst wahlberechtigt: Wenn am naechsten Sonntag Bundestagswahl waere, wuerdest Du an der Wahl teilnehmen?",
+          "text_de": "[IF age >= 11 AND age <= 16] Mal angenommen, Du waerst wahlberechtigt: Wenn am naechsten Sonntag Bundestagswahl waere, wuerdest Du an der Wahl teilnehmen?",
           "description": "Sonntagsfrage-Opinion poll question asking who people would vote for if an election were to be held next Sunday. [[URL link]](http://www.wahlrecht.de/umfragen/)",
           "description_de": "Sonntagsfrage-Opinion poll question asking who people would vote for if an election were to be held next Sunday. [[URL link]](http://www.wahlrecht.de/umfragen/)",
           "concept": "pop0301",
@@ -568,12 +568,12 @@
       "question": "pop0302",
       "name": "pop0302",
       "label": "Do you usually think of yourself as close to any particular party? Which party do you feel closest to?",
-      "label_de": "[IF age ]= 11 AND age [= 16] Neigst Du einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigst Du am ehesten zu?",
+      "label_de": "[IF age >= 11 AND age <= 16] Neigst Du einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigst Du am ehesten zu?",
       "items": [
         {
           "item": "1",
           "text": "Do you usually think of yourself as close to any particular party? Which party do you feel closest to?",
-          "text_de": "[IF age ]= 11 AND age [= 16] Neigst Du einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigst Du am ehesten zu?",
+          "text_de": "[IF age >= 11 AND age <= 16] Neigst Du einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigst Du am ehesten zu?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "pop0302",
@@ -652,12 +652,12 @@
       "question": "pac0200",
       "name": "pac0200",
       "label": "On how many days in a usual week do you cover longer distances on foot or by bicycle (for example, to go grocery shopping or on the way from home to school or for a walk)?",
-      "label_de": "[IF age ]= 11 & [= 16] An wie vielen Tagen einer gewoehnlichen Woche legst Du laengere Strecken zu Fuss oder mit dem Fahrrad zurueck (zum Beispiel zum Einkaufen oder auf dem Weg von zu Hause zur Schule oder fuer einen Spaziergang)?",
+      "label_de": "[IF age >= 11 & <= 16] An wie vielen Tagen einer gewoehnlichen Woche legst Du laengere Strecken zu Fuss oder mit dem Fahrrad zurueck (zum Beispiel zum Einkaufen oder auf dem Weg von zu Hause zur Schule oder fuer einen Spaziergang)?",
       "items": [
         {
           "item": "1",
           "text": "On how many days in a usual week do you cover longer distances on foot or by bicycle (for example, to go grocery shopping or on the way from home to school or for a walk)?",
-          "text_de": "[IF age ]= 11 & [= 16] An wie vielen Tagen einer gewoehnlichen Woche legst Du laengere Strecken zu Fuss oder mit dem Fahrrad zurueck (zum Beispiel zum Einkaufen oder auf dem Weg von zu Hause zur Schule oder fuer einen Spaziergang)?",
+          "text_de": "[IF age >= 11 & <= 16] An wie vielen Tagen einer gewoehnlichen Woche legst Du laengere Strecken zu Fuss oder mit dem Fahrrad zurueck (zum Beispiel zum Einkaufen oder auf dem Weg von zu Hause zur Schule oder fuer einen Spaziergang)?",
           "description": "Source: Adapted from: Armstrong, T., & Bull, F. (2006). Development of the World Health Organization Global Physical Activity Questionnaire (GPAQ). Journal of Public Health, 14(2), 66-70. [[URL link]](https://doi.org/10.1007/s10389-006-0024-x)",
           "description_de": "Source: Adapted from: Armstrong, T., & Bull, F. (2006). Development of the World Health Organization Global Physical Activity Questionnaire (GPAQ). Journal of Public Health, 14(2), 66-70. [[URL link]](https://doi.org/10.1007/s10389-006-0024-x)",
           "concept": "pac0200",
@@ -686,12 +686,12 @@
       "question": "pac0201",
       "name": "pac0201",
       "label": "How much time do you usually need to cover these distances on such a day?",
-      "label_de": "[IF age ]= 11 & [= 16] Wie viel Zeit verbringst Du gewoehnlich an solch einem Tag beim Zuruecklegen dieser Strecken?",
+      "label_de": "[IF age >= 11 & <= 16] Wie viel Zeit verbringst Du gewoehnlich an solch einem Tag beim Zuruecklegen dieser Strecken?",
       "items": [
         {
           "item": "0",
           "text": "How much time do you usually need to cover these distances on such a day?",
-          "text_de": "[IF age ]= 11 & [= 16] Wie viel Zeit verbringst Du gewoehnlich an solch einem Tag beim Zuruecklegen dieser Strecken?",
+          "text_de": "[IF age >= 11 & <= 16] Wie viel Zeit verbringst Du gewoehnlich an solch einem Tag beim Zuruecklegen dieser Strecken?",
           "description": "Source: Adapted from: Armstrong, T., & Bull, F. (2006). Development of the World Health Organization Global Physical Activity Questionnaire (GPAQ). Journal of Public Health, 14(2), 66-70. [[URL link]](https://doi.org/10.1007/s10389-006-0024-x)",
           "description_de": "Source: Adapted from: Armstrong, T., & Bull, F. (2006). Development of the World Health Organization Global Physical Activity Questionnaire (GPAQ). Journal of Public Health, 14(2), 66-70. [[URL link]](https://doi.org/10.1007/s10389-006-0024-x)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16)) & inrange(pac0200,0.5,7)",
@@ -755,12 +755,12 @@
       "question": "pac0300",
       "name": "pac0300",
       "label": "On how many days of a usual week do you engage in physical activity in your free time (e.g., through sports such as soccer, tennis, weight training, jogging, swimming, bicycling, or through other activities such as gardening)?",
-      "label_de": "[IF age ]= 11 & [= 16] An wie vielen Tagen einer gewoehnlichen Woche betaetigst Du Dich in Deiner Freizeit koerperlich (z.B. durch Sport wie Fussball, Tennis, Krafttraining, Joggen, Schwimmen, Radfahren oder durch andere Taetigkeiten wie Gartenarbeit)?",
+      "label_de": "[IF age >= 11 & <= 16] An wie vielen Tagen einer gewoehnlichen Woche betaetigst Du Dich in Deiner Freizeit koerperlich (z.B. durch Sport wie Fussball, Tennis, Krafttraining, Joggen, Schwimmen, Radfahren oder durch andere Taetigkeiten wie Gartenarbeit)?",
       "items": [
         {
           "item": "1",
           "text": "On how many days of a usual week do you engage in physical activity in your free time (e.g., through sports such as soccer, tennis, weight training, jogging, swimming, bicycling, or through other activities such as gardening)?",
-          "text_de": "[IF age ]= 11 & [= 16] An wie vielen Tagen einer gewoehnlichen Woche betaetigst Du Dich in Deiner Freizeit koerperlich (z.B. durch Sport wie Fussball, Tennis, Krafttraining, Joggen, Schwimmen, Radfahren oder durch andere Taetigkeiten wie Gartenarbeit)?",
+          "text_de": "[IF age >= 11 & <= 16] An wie vielen Tagen einer gewoehnlichen Woche betaetigst Du Dich in Deiner Freizeit koerperlich (z.B. durch Sport wie Fussball, Tennis, Krafttraining, Joggen, Schwimmen, Radfahren oder durch andere Taetigkeiten wie Gartenarbeit)?",
           "description": "Source: Adapted from: Armstrong, T., & Bull, F. (2006). Development of the World Health Organization Global Physical Activity Questionnaire (GPAQ). Journal of Public Health, 14(2), 66-70. [[URL link]](https://doi.org/10.1007/s10389-006-0024-x)",
           "description_de": "Source: Adapted from: Armstrong, T., & Bull, F. (2006). Development of the World Health Organization Global Physical Activity Questionnaire (GPAQ). Journal of Public Health, 14(2), 66-70. [[URL link]](https://doi.org/10.1007/s10389-006-0024-x)",
           "concept": "pac0300",
@@ -789,12 +789,12 @@
       "question": "pac0301",
       "name": "pac0301",
       "label": "How much time do you usually spend on these activities on such a day?",
-      "label_de": "[IF age ]= 11 & [= 16] Wie viel Zeit verbringst Du gewoehnlich an solch einem Tag mit diesen Taetigkeiten?",
+      "label_de": "[IF age >= 11 & <= 16] Wie viel Zeit verbringst Du gewoehnlich an solch einem Tag mit diesen Taetigkeiten?",
       "items": [
         {
           "item": "0",
           "text": "How much time do you usually spend on these activities on such a day?",
-          "text_de": "[IF age ]= 11 & [= 16] Wie viel Zeit verbringst Du gewoehnlich an solch einem Tag mit diesen Taetigkeiten?",
+          "text_de": "[IF age >= 11 & <= 16] Wie viel Zeit verbringst Du gewoehnlich an solch einem Tag mit diesen Taetigkeiten?",
           "description": "Source: Adapted from: Armstrong, T., & Bull, F. (2006). Development of the World Health Organization Global Physical Activity Questionnaire (GPAQ). Journal of Public Health, 14(2), 66-70. [[URL link]](https://doi.org/10.1007/s10389-006-0024-x)",
           "description_de": "Source: Adapted from: Armstrong, T., & Bull, F. (2006). Development of the World Health Organization Global Physical Activity Questionnaire (GPAQ). Journal of Public Health, 14(2), 66-70. [[URL link]](https://doi.org/10.1007/s10389-006-0024-x)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16)) & inrange(pac0300,0.5,7)",
@@ -858,12 +858,12 @@
       "question": "med1100",
       "name": "med1100",
       "label": "Do you own a cell phone/smartphone?",
-      "label_de": "[IF age[=16]: Besitzt Du ein Handy/Smartphone?",
+      "label_de": "[IF age<=16]: Besitzt Du ein Handy/Smartphone?",
       "items": [
         {
           "item": "0",
           "text": "Do you own a cell phone/smartphone?",
-          "text_de": "[IF age[=16]: Besitzt Du ein Handy/Smartphone?",
+          "text_de": "[IF age<=16]: Besitzt Du ein Handy/Smartphone?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -875,7 +875,7 @@
         {
           "item": "1",
           "text": "Do you own a cell phone/smartphone?",
-          "text_de": "[IF age[=16]: Besitzt Du ein Handy/Smartphone?",
+          "text_de": "[IF age<=16]: Besitzt Du ein Handy/Smartphone?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "med1100",
@@ -947,12 +947,12 @@
       "question": "med1200",
       "name": "med1200",
       "label": "A number of statements are presented to you below. How much do you agree with each of the following statements? Please answer using the scale from 1 I strongly disagree to 6 I strongly agree. Do you partially agree, use a value in between.",
-      "label_de": "[IF age[=16]: Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu? Antworte bitte anhand der Skala von 1 Ich stimme ueberhaupt nicht zu bis 6 Ich stimme stark zu. Stimmst Du teilweise zu, nutze einen Wert dazwischen. [IF age]=17]: Im Folgenden werden Ihnen eine Reihe von Aussagen praesentiert. Wie sehr stimmen Sie den folgenden Aussagen zu? Antworten Sie bitte anhand der Skala von 1 Ich stimme ueberhaupt nicht zu bis 6 Ich stimme stark zu. Stimmen Sie teilweise zu, nutzen Sie einen Wert dazwischen.",
+      "label_de": "[IF age<=16]: Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu? Antworte bitte anhand der Skala von 1 Ich stimme ueberhaupt nicht zu bis 6 Ich stimme stark zu. Stimmst Du teilweise zu, nutze einen Wert dazwischen. [IF age>=17]: Im Folgenden werden Ihnen eine Reihe von Aussagen praesentiert. Wie sehr stimmen Sie den folgenden Aussagen zu? Antworten Sie bitte anhand der Skala von 1 Ich stimme ueberhaupt nicht zu bis 6 Ich stimme stark zu. Stimmen Sie teilweise zu, nutzen Sie einen Wert dazwischen.",
       "items": [
         {
           "item": "0",
           "text": "A number of statements are presented to you below. How much do you agree with each of the following statements? Please answer using the scale from 1 I strongly disagree to 6 I strongly agree. Do you partially agree, use a value in between.",
-          "text_de": "[IF age[=16]: Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu? Antworte bitte anhand der Skala von 1 Ich stimme ueberhaupt nicht zu bis 6 Ich stimme stark zu. Stimmst Du teilweise zu, nutze einen Wert dazwischen. [IF age]=17]: Im Folgenden werden Ihnen eine Reihe von Aussagen praesentiert. Wie sehr stimmen Sie den folgenden Aussagen zu? Antworten Sie bitte anhand der Skala von 1 Ich stimme ueberhaupt nicht zu bis 6 Ich stimme stark zu. Stimmen Sie teilweise zu, nutzen Sie einen Wert dazwischen.",
+          "text_de": "[IF age<=16]: Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu? Antworte bitte anhand der Skala von 1 Ich stimme ueberhaupt nicht zu bis 6 Ich stimme stark zu. Stimmst Du teilweise zu, nutze einen Wert dazwischen. [IF age>=17]: Im Folgenden werden Ihnen eine Reihe von Aussagen praesentiert. Wie sehr stimmen Sie den folgenden Aussagen zu? Antworten Sie bitte anhand der Skala von 1 Ich stimme ueberhaupt nicht zu bis 6 Ich stimme stark zu. Stimmen Sie teilweise zu, nutzen Sie einen Wert dazwischen.",
           "description": "Source: Adapted from: Montag, C. (2018). Appendix: Schnelltest Smartphone-Sucht. In C. Montag, Homo Digitalis (pp. 45-49). Springer Fachmedien Wiesbaden. [[URL link]](http://link.springer.com/10.1007/978-3-658-20026-8_10)",
           "description_de": "Source: Adapted from: Montag, C. (2018). Appendix: Schnelltest Smartphone-Sucht. In C. Montag, Homo Digitalis (pp. 45-49). Springer Fachmedien Wiesbaden. [[URL link]](http://link.springer.com/10.1007/978-3-658-20026-8_10)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16)) & med1100==1",
@@ -2066,12 +2066,12 @@
       "question": "per0200",
       "name": "per0200",
       "label": "Would you describe yourself as someone who is willing to take risks or as someone who tries to avoid risks? In other words, do you often try things that could go wrong, or do you prefer to play it safe? The value 1 means: Not at all willing to take risks, the value 11 means: Very willing to take risks. With the values in between you can grade your assessment.",
-      "label_de": "[IF age [ 17] Wie schaetzt Du Dich ein? Bist Du im Allgemeinen ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? Das heisst, unternimmst Du haeufig Dinge, die moeglicherweise schiefgehen koennen, oder versuchst Du eher auf Nummer sicher zu gehen? Der Wert 1 bedeutet Gar nicht risikobereit, der Wert 11 bedeutet: Sehr risikobereit. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
+      "label_de": "[IF age < 17] Wie schaetzt Du Dich ein? Bist Du im Allgemeinen ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? Das heisst, unternimmst Du haeufig Dinge, die moeglicherweise schiefgehen koennen, oder versuchst Du eher auf Nummer sicher zu gehen? Der Wert 1 bedeutet Gar nicht risikobereit, der Wert 11 bedeutet: Sehr risikobereit. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
       "items": [
         {
           "item": "1",
           "text": "Would you describe yourself as someone who is willing to take risks or as someone who tries to avoid risks? In other words, do you often try things that could go wrong, or do you prefer to play it safe? The value 1 means: Not at all willing to take risks, the value 11 means: Very willing to take risks. With the values in between you can grade your assessment.",
-          "text_de": "[IF age [ 17] Wie schaetzt Du Dich ein? Bist Du im Allgemeinen ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? Das heisst, unternimmst Du haeufig Dinge, die moeglicherweise schiefgehen koennen, oder versuchst Du eher auf Nummer sicher zu gehen? Der Wert 1 bedeutet Gar nicht risikobereit, der Wert 11 bedeutet: Sehr risikobereit. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
+          "text_de": "[IF age < 17] Wie schaetzt Du Dich ein? Bist Du im Allgemeinen ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? Das heisst, unternimmst Du haeufig Dinge, die moeglicherweise schiefgehen koennen, oder versuchst Du eher auf Nummer sicher zu gehen? Der Wert 1 bedeutet Gar nicht risikobereit, der Wert 11 bedeutet: Sehr risikobereit. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2008 - Erhebungsinstrumente 2008 (Welle 25) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2008 (wave 25) of the Socio-Economic Panel. Individual Questionnaire] (109: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570630.de/diw_ssp0109.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2008 - Erhebungsinstrumente 2008 (Welle 25) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2008 (wave 25) of the Socio-Economic Panel. Individual Questionnaire] (109: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570630.de/diw_ssp0109.pdf)",
           "concept": "per0200",
@@ -2150,12 +2150,12 @@
       "question": "per0300",
       "name": "per0300",
       "label": "Would you describe yourself in general as an impatient person, or as someone who is always very patient? The value 1 means: Not at all willing to take risks, the value 11 means: Very willing to take risks. With the values in between you can grade your assessment.",
-      "label_de": "[IF age [ 17] Bist Du im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt? Der Wert 1 bedeutet Sehr ungeduldig, der Wert 11 bedeute Sehr geduldig. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
+      "label_de": "[IF age < 17] Bist Du im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt? Der Wert 1 bedeutet Sehr ungeduldig, der Wert 11 bedeute Sehr geduldig. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
       "items": [
         {
           "item": "1",
           "text": "Would you describe yourself in general as an impatient person, or as someone who is always very patient? The value 1 means: Not at all willing to take risks, the value 11 means: Very willing to take risks. With the values in between you can grade your assessment.",
-          "text_de": "[IF age [ 17] Bist Du im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt? Der Wert 1 bedeutet Sehr ungeduldig, der Wert 11 bedeute Sehr geduldig. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
+          "text_de": "[IF age < 17] Bist Du im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt? Der Wert 1 bedeutet Sehr ungeduldig, der Wert 11 bedeute Sehr geduldig. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen.",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2008 - Erhebungsinstrumente 2008 (Welle 25) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2008 (wave 25) of the Socio-Economic Panel. Individual Questionnaire] (109: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570630.de/diw_ssp0109.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2008 - Erhebungsinstrumente 2008 (Welle 25) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2008 (wave 25) of the Socio-Economic Panel. Individual Questionnaire] (109: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570630.de/diw_ssp0109.pdf)",
           "concept": "per0300",
@@ -2409,12 +2409,12 @@
       "question": "bdi0100",
       "name": "bdi0100",
       "label": "Sometimes you feel down, sad or tense. We are interested in what this is like for you. Over the past two weeks, how often have the following statements applied to you?",
-      "label_de": "[IF age[17] Manchmal fuehlt man sich niedergeschlagen, traurig oder angespannt. Wir interessien uns dafuer, wie das bei Dir ist. Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen zu?",
+      "label_de": "[IF age<17] Manchmal fuehlt man sich niedergeschlagen, traurig oder angespannt. Wir interessien uns dafuer, wie das bei Dir ist. Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen zu?",
       "items": [
         {
           "item": "0",
           "text": "Sometimes you feel down, sad or tense. We are interested in what this is like for you. Over the past two weeks, how often have the following statements applied to you?",
-          "text_de": "[IF age[17] Manchmal fuehlt man sich niedergeschlagen, traurig oder angespannt. Wir interessien uns dafuer, wie das bei Dir ist. Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen zu?",
+          "text_de": "[IF age<17] Manchmal fuehlt man sich niedergeschlagen, traurig oder angespannt. Wir interessien uns dafuer, wie das bei Dir ist. Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen zu?",
           "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (1996). Manual for the Beck Depression Inventory-II. TX: Psychological Corporation.; Beck, Aaron T., Steer, R. A., & Brown, G. K. (2012). BDI - FastScreen for Medical Patients. American Psychological Association. [[URL link]](http://doi.apa.org/getdoi.cfm?doi=10.1037/t14984-000)",
           "description_de": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (1996). Manual for the Beck Depression Inventory-II. TX: Psychological Corporation.; Beck, Aaron T., Steer, R. A., & Brown, G. K. (2012). BDI - FastScreen for Medical Patients. American Psychological Association. [[URL link]](http://doi.apa.org/getdoi.cfm?doi=10.1037/t14984-000)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -2747,12 +2747,12 @@
       "question": "emi0102",
       "name": "emi0102",
       "label": "During the last two weeks, how often did you feel affected by the following complaints?",
-      "label_de": "[IF age [ 17 ] Wie oft fuehltest Du Dich im Verlauf der letzten zwei Wochen durch die folgenden Beschwerden beeintraechtigt?",
+      "label_de": "[IF age < 17 ] Wie oft fuehltest Du Dich im Verlauf der letzten zwei Wochen durch die folgenden Beschwerden beeintraechtigt?",
       "items": [
         {
           "item": "0",
           "text": "During the last two weeks, how often did you feel affected by the following complaints?",
-          "text_de": "[IF age [ 17 ] Wie oft fuehltest Du Dich im Verlauf der letzten zwei Wochen durch die folgenden Beschwerden beeintraechtigt?",
+          "text_de": "[IF age < 17 ] Wie oft fuehltest Du Dich im Verlauf der letzten zwei Wochen durch die folgenden Beschwerden beeintraechtigt?",
           "description": "Source: Adapted from: Spitzer, R. L., Kroenke, K., Williams, J. B. W., & Loewe, B. (2006). A Brief Measure for Assessing Generalized Anxiety Disorder: The GAD-7. Archives of Internal Medicine, 166(10), 1092. [[URL link]](https://doi.org/10.1001/archinte.166.10.1092)",
           "description_de": "Source: Adapted from: Spitzer, R. L., Kroenke, K., Williams, J. B. W., & Loewe, B. (2006). A Brief Measure for Assessing Generalized Anxiety Disorder: The GAD-7. Archives of Internal Medicine, 166(10), 1092. [[URL link]](https://doi.org/10.1001/archinte.166.10.1092)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -2846,12 +2846,12 @@
       "question": "fof0100",
       "name": "fof0100",
       "label": "Sometimes things in life don't go smoothly. Something you set out to do didn't work out. In the following, we want to learn how you deal with such setbacks.",
-      "label_de": "[IF age [ 17 ] Manchmal laufen die Dinge im Leben nicht rund. Etwas, das man sich vorgenommen hat, hat nicht funktioniert. Im Folgenden wollen wir erfahren, wie Du mit solchen Rueckschlaegen umgehst.",
+      "label_de": "[IF age < 17 ] Manchmal laufen die Dinge im Leben nicht rund. Etwas, das man sich vorgenommen hat, hat nicht funktioniert. Im Folgenden wollen wir erfahren, wie Du mit solchen Rueckschlaegen umgehst.",
       "items": [
         {
           "item": "0",
           "text": "Sometimes things in life don't go smoothly. Something you set out to do didn't work out. In the following, we want to learn how you deal with such setbacks.",
-          "text_de": "[IF age [ 17 ] Manchmal laufen die Dinge im Leben nicht rund. Etwas, das man sich vorgenommen hat, hat nicht funktioniert. Im Folgenden wollen wir erfahren, wie Du mit solchen Rueckschlaegen umgehst.",
+          "text_de": "[IF age < 17 ] Manchmal laufen die Dinge im Leben nicht rund. Etwas, das man sich vorgenommen hat, hat nicht funktioniert. Im Folgenden wollen wir erfahren, wie Du mit solchen Rueckschlaegen umgehst.",
           "description": "Conroy, D. E. (2003). The Performance Failure Appraisal Inventory. [[URL link]](http://www.personal.psu.edu/dec9/oldweb/lab/reprints/pfai_man_brf_03a.pdf); Conroy, D. E., Willow, J. P., & Metzler, J. N. (2002). Multidimensional Fear of Failure Measurement: The Performance Failure Appraisal Inventory. Journal of Applied Sport Psychology, 14(2), 76-90. [[URL link]](https://doi.org/10.1080/10413200252907752)",
           "description_de": "Conroy, D. E. (2003). The Performance Failure Appraisal Inventory. [[URL link]](http://www.personal.psu.edu/dec9/oldweb/lab/reprints/pfai_man_brf_03a.pdf); Conroy, D. E., Willow, J. P., & Metzler, J. N. (2002). Multidimensional Fear of Failure Measurement: The Performance Failure Appraisal Inventory. Journal of Applied Sport Psychology, 14(2), 76-90. [[URL link]](https://doi.org/10.1080/10413200252907752)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -3084,12 +3084,12 @@
       "question": "ses0100",
       "name": "ses0100",
       "label": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
-      "label_de": "[IF age [ 17 ] Wie sehr stimmst Du den folgenden Aussagen zu?",
+      "label_de": "[IF age < 17 ] Wie sehr stimmst Du den folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
           "text": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
-          "text_de": "[IF age [ 17 ] Wie sehr stimmst Du den folgenden Aussagen zu?",
+          "text_de": "[IF age < 17 ] Wie sehr stimmst Du den folgenden Aussagen zu?",
           "description": "Thoennissen, C., Wilhelm, B., Friedrich, S., Alt, P., & Walper, S. (2014). Scales Manual of the German Family Panel: Wave 1 to 6. Panel Analysis of Intimate Relationships and Family Dynamics (pairfam). [[URL link]](http://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Manuals/Scales_Manual_pairfam_6.0.pdf)",
           "description_de": "Thoennissen, C., Wilhelm, B., Friedrich, S., Alt, P., & Walper, S. (2014). Scales Manual of the German Family Panel: Wave 1 to 6. Panel Analysis of Intimate Relationships and Family Dynamics (pairfam). [[URL link]](http://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Manuals/Scales_Manual_pairfam_6.0.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -3236,12 +3236,12 @@
       "question": "sef0100",
       "name": "sef0100",
       "label": "Sometimes people doubt their own abilities in difficult situations. In the following, we would like to know how you cope with difficult situations. How much do you agree with the following statements?",
-      "label_de": "[IF age [ 17 ] Manchmal zweifelt man in schwierigen Situationen an den eigenen Faehigkeiten. Im Folgenden wuerden wir gerne wissen, wie Du mit schwierigen Situationen zurecht kommst. Wie sehr stimmst Du den folgenden Aussagen zu?",
+      "label_de": "[IF age < 17 ] Manchmal zweifelt man in schwierigen Situationen an den eigenen Faehigkeiten. Im Folgenden wuerden wir gerne wissen, wie Du mit schwierigen Situationen zurecht kommst. Wie sehr stimmst Du den folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
           "text": "Sometimes people doubt their own abilities in difficult situations. In the following, we would like to know how you cope with difficult situations. How much do you agree with the following statements?",
-          "text_de": "[IF age [ 17 ] Manchmal zweifelt man in schwierigen Situationen an den eigenen Faehigkeiten. Im Folgenden wuerden wir gerne wissen, wie Du mit schwierigen Situationen zurecht kommst. Wie sehr stimmst Du den folgenden Aussagen zu?",
+          "text_de": "[IF age < 17 ] Manchmal zweifelt man in schwierigen Situationen an den eigenen Faehigkeiten. Im Folgenden wuerden wir gerne wissen, wie Du mit schwierigen Situationen zurecht kommst. Wie sehr stimmst Du den folgenden Aussagen zu?",
           "description": "Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen: Allgemeine Selbstwirksamkeit Kurzskala (ASKU) (No. 17; GESIS Working Paper, p. 24). GESIS - Leibniz-Institut fuer Sozialwissenschaften. [[URL link]](https://psycharchives.org/bitstream/20.500.12034/431/1/PT_9006490_ASKU-Manual_2012.PDF)",
           "description_de": "Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen: Allgemeine Selbstwirksamkeit Kurzskala (ASKU) (No. 17; GESIS Working Paper, p. 24). GESIS - Leibniz-Institut fuer Sozialwissenschaften. [[URL link]](https://psycharchives.org/bitstream/20.500.12034/431/1/PT_9006490_ASKU-Manual_2012.PDF)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",
@@ -3388,12 +3388,12 @@
       "question": "gls0600",
       "name": "gls0600",
       "label": "Finally, we would like to know how satisfied you are with your life in general. How much do you agree with the following statements?",
-      "label_de": "[IF age [ 17 ] Zuletzt wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Wie sehr stimmst Du den folgenden Aussagen zu?",
+      "label_de": "[IF age < 17 ] Zuletzt wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Wie sehr stimmst Du den folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
           "text": "Finally, we would like to know how satisfied you are with your life in general. How much do you agree with the following statements?",
-          "text_de": "[IF age [ 17 ] Zuletzt wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Wie sehr stimmst Du den folgenden Aussagen zu?",
+          "text_de": "[IF age < 17 ] Zuletzt wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Wie sehr stimmst Du den folgenden Aussagen zu?",
           "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
           "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,11,16))",

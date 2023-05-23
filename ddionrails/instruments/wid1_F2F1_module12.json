@@ -82,12 +82,12 @@
       "question": "cer1001",
       "name": "cer1001",
       "label": "We would like to ask you to provide us with your last annual report card from general education school so that we can photograph it. Do you agree with this?",
-      "label_de": "[IF age]15] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [IF age[=15] Wir moechten Dich bitten, uns Dein letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Bist Du damit einverstanden?",
+      "label_de": "[IF age>15] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [IF age<=15] Wir moechten Dich bitten, uns Dein letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Bist Du damit einverstanden?",
       "items": [
         {
           "item": "1",
           "text": "We would like to ask you to provide us with your last annual report card from general education school so that we can photograph it. Do you agree with this?",
-          "text_de": "[IF age]15] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [IF age[=15] Wir moechten Dich bitten, uns Dein letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Bist Du damit einverstanden?",
+          "text_de": "[IF age>15] Wir moechten Sie bitten, uns Ihr letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Sind Sie damit einverstanden? [IF age<=15] Wir moechten Dich bitten, uns Dein letztes Jahreszeugnis der allgemein bildenden Schule zur Verfuegung zu stellen, damit wir dieses fotografieren koennen. Bist Du damit einverstanden?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "cer1001",
@@ -136,12 +136,12 @@
       "question": "cer1100",
       "name": "cer1100",
       "label": "Please indicate the grade of the highest school-leaving qualification.",
-      "label_de": "[IF age]15] Bitte geben Sie die Note des hoechsten allgemeinbildenden Schulabschlusses an. [IF age[=15] Bitte gib die Note des hoechsten allgemeinbildenden Schulabschlusses an.",
+      "label_de": "[IF age>15] Bitte geben Sie die Note des hoechsten allgemeinbildenden Schulabschlusses an. [IF age<=15] Bitte gib die Note des hoechsten allgemeinbildenden Schulabschlusses an.",
       "items": [
         {
           "item": "0",
           "text": "Please indicate the grade of the highest school-leaving qualification.",
-          "text_de": "[IF age]15] Bitte geben Sie die Note des hoechsten allgemeinbildenden Schulabschlusses an. [IF age[=15] Bitte gib die Note des hoechsten allgemeinbildenden Schulabschlusses an.",
+          "text_de": "[IF age>15] Bitte geben Sie die Note des hoechsten allgemeinbildenden Schulabschlusses an. [IF age<=15] Bitte gib die Note des hoechsten allgemeinbildenden Schulabschlusses an.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "filter": "cer1000 == 2",
@@ -326,12 +326,12 @@
       "question": "cer1400",
       "name": "cer1400",
       "label": "Please indicate what school grade you had on your last report card in the following subjects:",
-      "label_de": "[IF age]15] Bitte geben Sie an, welche Schulnote Sie auf dem letzten Zeugnis in folgenden Faechern hatten: [IF age[=15] Bitte gib an, welche Schulnote Du auf dem letzten Zeugnis in folgenden Faechern hattest:",
+      "label_de": "[IF age>15] Bitte geben Sie an, welche Schulnote Sie auf dem letzten Zeugnis in folgenden Faechern hatten: [IF age<=15] Bitte gib an, welche Schulnote Du auf dem letzten Zeugnis in folgenden Faechern hattest:",
       "items": [
         {
           "item": "0",
           "text": "Please indicate what school grade you had on your last report card in the following subjects:",
-          "text_de": "[IF age]15] Bitte geben Sie an, welche Schulnote Sie auf dem letzten Zeugnis in folgenden Faechern hatten: [IF age[=15] Bitte gib an, welche Schulnote Du auf dem letzten Zeugnis in folgenden Faechern hattest:",
+          "text_de": "[IF age>15] Bitte geben Sie an, welche Schulnote Sie auf dem letzten Zeugnis in folgenden Faechern hatten: [IF age<=15] Bitte gib an, welche Schulnote Du auf dem letzten Zeugnis in folgenden Faechern hattest:",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "filter": "cer1000 == 1",

@@ -11,12 +11,12 @@
       "question": "she0200",
       "name": "she0200",
       "label": "How would you describe your state of health during the past 24 months, in general?",
-      "label_de": "[IF age ]= 11 AND age [= 15] Wie wuerdest Du Deine Gesundheit in den letzten 24 Monaten im Allgemeinen beschreiben? [IF age ]= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 24 Monaten im Allgemeinen beschreiben?",
+      "label_de": "[IF age >= 11 AND age <= 15] Wie wuerdest Du Deine Gesundheit in den letzten 24 Monaten im Allgemeinen beschreiben? [IF age >= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 24 Monaten im Allgemeinen beschreiben?",
       "items": [
         {
           "item": "1",
           "text": "How would you describe your state of health during the past 24 months, in general?",
-          "text_de": "[IF age ]= 11 AND age [= 15] Wie wuerdest Du Deine Gesundheit in den letzten 24 Monaten im Allgemeinen beschreiben? [IF age ]= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 24 Monaten im Allgemeinen beschreiben?",
+          "text_de": "[IF age >= 11 AND age <= 15] Wie wuerdest Du Deine Gesundheit in den letzten 24 Monaten im Allgemeinen beschreiben? [IF age >= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 24 Monaten im Allgemeinen beschreiben?",
           "description": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
           "description_de": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
           "concept": "she0200",
@@ -65,12 +65,12 @@
       "question": "doc0200",
       "name": "doc0200",
       "label": "Have you visited a doctor (or dentist) in the last 24 months? (This includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
-      "label_de": "[IF age ]= 16] Haben Sie in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae. [IF age [ 16] Hast Du in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
+      "label_de": "[IF age >= 16] Haben Sie in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae. [IF age < 16] Hast Du in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
       "items": [
         {
           "item": "1",
           "text": "Have you visited a doctor (or dentist) in the last 24 months? (This includes check-ups, visits to psychotherapists, health practitioners, chiropractors, etc.)",
-          "text_de": "[IF age ]= 16] Haben Sie in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae. [IF age [ 16] Hast Du in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
+          "text_de": "[IF age >= 16] Haben Sie in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae. [IF age < 16] Hast Du in den letzten 24 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "doc0200",
@@ -119,12 +119,12 @@
       "question": "doc0201",
       "name": "doc0201",
       "label": "Please indicate how often this happened.",
-      "label_de": "[IF age [ 16] Gib bitte an, wie haeufig das war. [IF age ]= 16] Geben Sie bitte an, wie haeufig das war.",
+      "label_de": "[IF age < 16] Gib bitte an, wie haeufig das war. [IF age >= 16] Geben Sie bitte an, wie haeufig das war.",
       "items": [
         {
           "item": "1",
           "text": "Please indicate how often this happened.",
-          "text_de": "[IF age [ 16] Gib bitte an, wie haeufig das war. [IF age ]= 16] Geben Sie bitte an, wie haeufig das war.",
+          "text_de": "[IF age < 16] Gib bitte an, wie haeufig das war. [IF age >= 16] Geben Sie bitte an, wie haeufig das war.",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "doc0201",
@@ -153,12 +153,12 @@
       "question": "dia3110",
       "name": "dia3110",
       "label": "[MFN] Has a doctor diagnosed you with one or more of the following illnesses in the last 24 months?",
-      "label_de": "[MFN] [IF age ]= 16] Hat ein Arzt bei Ihnen in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [IF age [ 16] Hat ein Arzt bei Dir in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [END IF]",
+      "label_de": "[MFN] [IF age >= 16] Hat ein Arzt bei Ihnen in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [IF age < 16] Hat ein Arzt bei Dir in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [END IF]",
       "items": [
         {
           "item": "0",
           "text": "[MFN] Has a doctor diagnosed you with one or more of the following illnesses in the last 24 months?",
-          "text_de": "[MFN] [IF age ]= 16] Hat ein Arzt bei Ihnen in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [IF age [ 16] Hat ein Arzt bei Dir in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [END IF]",
+          "text_de": "[MFN] [IF age >= 16] Hat ein Arzt bei Ihnen in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [IF age < 16] Hat ein Arzt bei Dir in den letzten 24 Monaten eine oder mehrere der folgenden Krankheiten festgestellt? [END IF]",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110>=14) & (doc0100==1 | doc0100==-99)",
@@ -774,12 +774,12 @@
       "question": "imp0100",
       "name": "imp0100",
       "label": "To what extent would you say your illness limits you in your everyday life?",
-      "label_de": "[IF age ]= 16] In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt? [IF age [ 16] In welchem Ausmass fuehlst Du Dich in Deinem Alltag durch Erkrankungen beeintraechtigt?",
+      "label_de": "[IF age >= 16] In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt? [IF age < 16] In welchem Ausmass fuehlst Du Dich in Deinem Alltag durch Erkrankungen beeintraechtigt?",
       "items": [
         {
           "item": "1",
           "text": "To what extent would you say your illness limits you in your everyday life?",
-          "text_de": "[IF age ]= 16] In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt? [IF age [ 16] In welchem Ausmass fuehlst Du Dich in Deinem Alltag durch Erkrankungen beeintraechtigt?",
+          "text_de": "[IF age >= 16] In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt? [IF age < 16] In welchem Ausmass fuehlst Du Dich in Deinem Alltag durch Erkrankungen beeintraechtigt?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "imp0100",
@@ -828,12 +828,12 @@
       "question": "pub0100",
       "name": "pub0100",
       "label": "[IF sex = 2] In puberty you get hair under your armpits and in the pubic area. For girls, the breasts begin to grow and they get their period (menstrual bleeding). Have you noticed whether any of these changes have already started for you? [IF sex = 1] In puberty you get hair under your armpits and in the pubic area. For boys, facial hair starts to grow and the voice changes. Have you noticed whether any of these changes have already started for you?",
-      "label_de": "[IF age ]= 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF age [ 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Dir einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Dir einige dieser Veraenderungen schon begonnen?",
+      "label_de": "[IF age >= 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF age < 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Dir einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Dir einige dieser Veraenderungen schon begonnen?",
       "items": [
         {
           "item": "1",
           "text": "[IF sex = 2] In puberty you get hair under your armpits and in the pubic area. For girls, the breasts begin to grow and they get their period (menstrual bleeding). Have you noticed whether any of these changes have already started for you? [IF sex = 1] In puberty you get hair under your armpits and in the pubic area. For boys, facial hair starts to grow and the voice changes. Have you noticed whether any of these changes have already started for you?",
-          "text_de": "[IF age ]= 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF age [ 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Dir einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Dir einige dieser Veraenderungen schon begonnen?",
+          "text_de": "[IF age >= 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Ihnen einige dieser Veraenderungen schon begonnen? [IF age < 16] [IF sex = 2] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Frauen beginnt das Wachstum der Brueste und sie bekommen ihre Tage (Monatsblutung). Haben bei Dir einige dieser Veraenderungen schon begonnen? [IF sex = 1] In der Pubertaet bekommt man Haare unter den Achseln und im Schambereich, bei Maennern beginnt das Wachsen der Barthaare und sie kommen in den Stimmbruch. Haben bei Dir einige dieser Veraenderungen schon begonnen?",
           "description": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale: Erste Schritte zur Evaluation einer deutschen Uebersetzung. Diagnostica, 55(1), 55-65. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.55)",
           "description_de": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale: Erste Schritte zur Evaluation einer deutschen Uebersetzung. Diagnostica, 55(1), 55-65. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.55)",
           "concept": "pub0100",
@@ -872,12 +872,12 @@
       "question": "pub0200",
       "name": "pub0200",
       "label": "How are or were these physical changes for you?",
-      "label_de": "[IF age ]= 16] Wie sind oder waren diese Veraenderungen Ihres Koerpers fuer Sie? [IF age [ 16] Wie sind oder waren diese Veraenderungen Deines Koerpers fuer Dich?",
+      "label_de": "[IF age >= 16] Wie sind oder waren diese Veraenderungen Ihres Koerpers fuer Sie? [IF age < 16] Wie sind oder waren diese Veraenderungen Deines Koerpers fuer Dich?",
       "items": [
         {
           "item": "1",
           "text": "How are or were these physical changes for you?",
-          "text_de": "[IF age ]= 16] Wie sind oder waren diese Veraenderungen Ihres Koerpers fuer Sie? [IF age [ 16] Wie sind oder waren diese Veraenderungen Deines Koerpers fuer Dich?",
+          "text_de": "[IF age >= 16] Wie sind oder waren diese Veraenderungen Ihres Koerpers fuer Sie? [IF age < 16] Wie sind oder waren diese Veraenderungen Deines Koerpers fuer Dich?",
           "description": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale: Erste Schritte zur Evaluation einer deutschen Uebersetzung. Diagnostica, 55(1), 55-65. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.55)",
           "description_de": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale: Erste Schritte zur Evaluation einer deutschen Uebersetzung. Diagnostica, 55(1), 55-65. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.55)",
           "concept": "pub0200",
@@ -931,12 +931,12 @@
       "question": "pub0300",
       "name": "pub0300",
       "label": "These physical changes are often accompanied by changes in how you think and feel, for example, new interests develop and mood swings can occur. Have you noticed changes like this in yourself?",
-      "label_de": "[IF age ]= 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Haben Sie solche Veraenderungen bei Ihnen schon bemerkt? [IF age [ 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Hast Du solche Veraenderungen bei Dir schon bemerkt?",
+      "label_de": "[IF age >= 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Haben Sie solche Veraenderungen bei Ihnen schon bemerkt? [IF age < 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Hast Du solche Veraenderungen bei Dir schon bemerkt?",
       "items": [
         {
           "item": "1",
           "text": "These physical changes are often accompanied by changes in how you think and feel, for example, new interests develop and mood swings can occur. Have you noticed changes like this in yourself?",
-          "text_de": "[IF age ]= 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Haben Sie solche Veraenderungen bei Ihnen schon bemerkt? [IF age [ 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Hast Du solche Veraenderungen bei Dir schon bemerkt?",
+          "text_de": "[IF age >= 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Haben Sie solche Veraenderungen bei Ihnen schon bemerkt? [IF age < 16] Mit diesen koerperlichen Veraenderungen gehen haeufig auch Veraenderungen im Denken und Fuehlen einher, zum Beispiel entwickeln sich neue Interessen und Stimmungsschwankungen koennen auftreten. Hast Du solche Veraenderungen bei Dir schon bemerkt?",
           "description": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale: Erste Schritte zur Evaluation einer deutschen Uebersetzung. Diagnostica, 55(1), 55-65. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.55)",
           "description_de": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale: Erste Schritte zur Evaluation einer deutschen Uebersetzung. Diagnostica, 55(1), 55-65. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.55)",
           "concept": "pub0300",
@@ -985,12 +985,12 @@
       "question": "pub0301",
       "name": "pub0301",
       "label": "How did you feel about these changes in your thoughts and feelings?",
-      "label_de": "[IF age ]= 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Sie? [IF age [ 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Dich?",
+      "label_de": "[IF age >= 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Sie? [IF age < 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Dich?",
       "items": [
         {
           "item": "1",
           "text": "How did you feel about these changes in your thoughts and feelings?",
-          "text_de": "[IF age ]= 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Sie? [IF age [ 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Dich?",
+          "text_de": "[IF age >= 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Sie? [IF age < 16] Wie sind oder waren diese Veraenderungen im Denken und Fuehlen fuer Dich?",
           "description": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale: Erste Schritte zur Evaluation einer deutschen Uebersetzung. Diagnostica, 55(1), 55-65. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.55)",
           "description_de": "Source: Adapted from: Watzlawik, M. (2009). Die Erfassung des Pubertaetsstatus anhand der Pubertal Development Scale: Erste Schritte zur Evaluation einer deutschen Uebersetzung. Diagnostica, 55(1), 55-65. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.55)",
           "concept": "pub0301",
@@ -1044,12 +1044,12 @@
       "question": "pub0400",
       "name": "pub0400",
       "label": "Menstrual periods start at very different times in women when they are young. How about you: Have you already had your first menstrual period?",
-      "label_de": "[IF age ]= 10 & [16] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Dir: Hattest Du schon Deine erste Regelblutung? [IF age = 16] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Ihnen: Hatten Sie schon Ihre erste Regelblutung?",
+      "label_de": "[IF age >= 10 & <16] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Dir: Hattest Du schon Deine erste Regelblutung? [IF age = 16] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Ihnen: Hatten Sie schon Ihre erste Regelblutung?",
       "items": [
         {
           "item": "1",
           "text": "Menstrual periods start at very different times in women when they are young. How about you: Have you already had your first menstrual period?",
-          "text_de": "[IF age ]= 10 & [16] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Dir: Hattest Du schon Deine erste Regelblutung? [IF age = 16] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Ihnen: Hatten Sie schon Ihre erste Regelblutung?",
+          "text_de": "[IF age >= 10 & <16] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Dir: Hattest Du schon Deine erste Regelblutung? [IF age = 16] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. Wie ist das bei Ihnen: Hatten Sie schon Ihre erste Regelblutung?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "pub0400",
@@ -1083,12 +1083,12 @@
       "question": "pub0401",
       "name": "pub0401",
       "label": "At which age did you have your first menstruation?",
-      "label_de": "[IF age ]= 10 and [ 16] In welchem Alter hattest Du Deine erste Periode? [IF age = 16] In welchem Alter hatten Sie Ihre erste Periode? [IF age ]= 17] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. In welchem Alter hatten Sie Ihre erste Periode?",
+      "label_de": "[IF age >= 10 and < 16] In welchem Alter hattest Du Deine erste Periode? [IF age = 16] In welchem Alter hatten Sie Ihre erste Periode? [IF age >= 17] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. In welchem Alter hatten Sie Ihre erste Periode?",
       "items": [
         {
           "item": "1",
           "text": "At which age did you have your first menstruation?",
-          "text_de": "[IF age ]= 10 and [ 16] In welchem Alter hattest Du Deine erste Periode? [IF age = 16] In welchem Alter hatten Sie Ihre erste Periode? [IF age ]= 17] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. In welchem Alter hatten Sie Ihre erste Periode?",
+          "text_de": "[IF age >= 10 and < 16] In welchem Alter hattest Du Deine erste Periode? [IF age = 16] In welchem Alter hatten Sie Ihre erste Periode? [IF age >= 17] ] Bei Frauen beginnen die Regelblutungen in der Jugend zu sehr unterschiedlichen Zeitpunkten. In welchem Alter hatten Sie Ihre erste Periode?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "pub0401",

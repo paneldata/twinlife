@@ -10,13 +10,13 @@
     "cul0100": {
       "question": "cul0100",
       "name": "cul0100",
-      "label": "[IF age [= 15] How much time, on average, do you spend reading in your free time each day? Please consider all possible occasions when you read, not only books or magazines, but also e-mails or material on the Internet.",
-      "label_de": "[IF age [= 15 ] Wie viel Zeit verbringst Du im Durchschnitt taeglich damit, in Deiner Freizeit zu lesen? Denke dabei bitte an alle moeglichen Gelegenheiten, bei denen Du liest, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
+      "label": "[IF age <= 15] How much time, on average, do you spend reading in your free time each day? Please consider all possible occasions when you read, not only books or magazines, but also e-mails or material on the Internet.",
+      "label_de": "[IF age <= 15 ] Wie viel Zeit verbringst Du im Durchschnitt taeglich damit, in Deiner Freizeit zu lesen? Denke dabei bitte an alle moeglichen Gelegenheiten, bei denen Du liest, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
       "items": [
         {
           "item": "0",
-          "text": "[IF age [= 15] How much time, on average, do you spend reading in your free time each day? Please consider all possible occasions when you read, not only books or magazines, but also e-mails or material on the Internet.",
-          "text_de": "[IF age [= 15 ] Wie viel Zeit verbringst Du im Durchschnitt taeglich damit, in Deiner Freizeit zu lesen? Denke dabei bitte an alle moeglichen Gelegenheiten, bei denen Du liest, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
+          "text": "[IF age <= 15] How much time, on average, do you spend reading in your free time each day? Please consider all possible occasions when you read, not only books or magazines, but also e-mails or material on the Internet.",
+          "text_de": "[IF age <= 15 ] Wie viel Zeit verbringst Du im Durchschnitt taeglich damit, in Deiner Freizeit zu lesen? Denke dabei bitte an alle moeglichen Gelegenheiten, bei denen Du liest, also nicht nur Buecher oder Zeitschriften, sondern auch E-Mails oder im Internet.",
           "description": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -79,13 +79,13 @@
     "mus0101": {
       "question": "mus0101",
       "name": "mus0101",
-      "label": "[IF age] = 10 AND age [= 15] Have you ever actively played music? (By this, we mean playing a musical instrument or singing).",
-      "label_de": "[IF age ]= 10 AND age [= 15] Hast Du jemals aktiv Musik ausgeuebt? (Gemeint ist: Gesang oder Spielen eines Musikinstrumentes)",
+      "label": "[IF age> = 10 AND age <= 15] Have you ever actively played music? (By this, we mean playing a musical instrument or singing).",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du jemals aktiv Musik ausgeuebt? (Gemeint ist: Gesang oder Spielen eines Musikinstrumentes)",
       "items": [
         {
           "item": "1",
-          "text": "[IF age] = 10 AND age [= 15] Have you ever actively played music? (By this, we mean playing a musical instrument or singing).",
-          "text_de": "[IF age ]= 10 AND age [= 15] Hast Du jemals aktiv Musik ausgeuebt? (Gemeint ist: Gesang oder Spielen eines Musikinstrumentes)",
+          "text": "[IF age> = 10 AND age <= 15] Have you ever actively played music? (By this, we mean playing a musical instrument or singing).",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du jemals aktiv Musik ausgeuebt? (Gemeint ist: Gesang oder Spielen eines Musikinstrumentes)",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "mus0101",
@@ -118,13 +118,13 @@
     "mus0201": {
       "question": "mus0201",
       "name": "mus0201",
-      "label": "[IF age] = 10 AND age [= 15] For how many hours a week did you play music back then? Think of a typical week.",
-      "label_de": "[IF age ]= 10 AND age [= 15] Wie viele Stunden in der Woche hast Du frueher Musik ge-macht? Denke dabei an eine typische Woche.",
+      "label": "[IF age> = 10 AND age <= 15] For how many hours a week did you play music back then? Think of a typical week.",
+      "label_de": "[IF age >= 10 AND age <= 15] Wie viele Stunden in der Woche hast Du frueher Musik ge-macht? Denke dabei an eine typische Woche.",
       "items": [
         {
           "item": "1",
-          "text": "[IF age] = 10 AND age [= 15] For how many hours a week did you play music back then? Think of a typical week.",
-          "text_de": "[IF age ]= 10 AND age [= 15] Wie viele Stunden in der Woche hast Du frueher Musik ge-macht? Denke dabei an eine typische Woche.",
+          "text": "[IF age> = 10 AND age <= 15] For how many hours a week did you play music back then? Think of a typical week.",
+          "text_de": "[IF age >= 10 AND age <= 15] Wie viele Stunden in der Woche hast Du frueher Musik ge-macht? Denke dabei an eine typische Woche.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "mus0201",
@@ -177,13 +177,13 @@
     "mus0301": {
       "question": "mus0301",
       "name": "mus0301",
-      "label": "[IF age] = 10 AND age [= 15] At what age did you learn a musical instrument or to sing?",
-      "label_de": "[IF age ]= 10 AND age [= 15] In welchem Alter hast Du ein Musikinstrument oder Gesang gelernt?",
+      "label": "[IF age> = 10 AND age <= 15] At what age did you learn a musical instrument or to sing?",
+      "label_de": "[IF age >= 10 AND age <= 15] In welchem Alter hast Du ein Musikinstrument oder Gesang gelernt?",
       "items": [
         {
           "item": "0",
-          "text": "[IF age] = 10 AND age [= 15] At what age did you learn a musical instrument or to sing?",
-          "text_de": "[IF age ]= 10 AND age [= 15] In welchem Alter hast Du ein Musikinstrument oder Gesang gelernt?",
+          "text": "[IF age> = 10 AND age <= 15] At what age did you learn a musical instrument or to sing?",
+          "text_de": "[IF age >= 10 AND age <= 15] In welchem Alter hast Du ein Musikinstrument oder Gesang gelernt?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15) & (mus0101==1)",
@@ -246,13 +246,13 @@
     "sop0100": {
       "question": "sop0100",
       "name": "sop0100",
-      "label": "[IF age] = 10 AND age [= 15] Below you can see a number of groups in which it is possible to participate. Please indicate to what extent you are active in the respective groups.",
-      "label_de": "[IF age ]= 10 AND age [= 15] Im Folgenden siehst Du eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte gib an, in welchem Ausmass Du in den jeweiligen Gruppen aktiv bist.",
+      "label": "[IF age> = 10 AND age <= 15] Below you can see a number of groups in which it is possible to participate. Please indicate to what extent you are active in the respective groups.",
+      "label_de": "[IF age >= 10 AND age <= 15] Im Folgenden siehst Du eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte gib an, in welchem Ausmass Du in den jeweiligen Gruppen aktiv bist.",
       "items": [
         {
           "item": "0",
-          "text": "[IF age] = 10 AND age [= 15] Below you can see a number of groups in which it is possible to participate. Please indicate to what extent you are active in the respective groups.",
-          "text_de": "[IF age ]= 10 AND age [= 15] Im Folgenden siehst Du eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte gib an, in welchem Ausmass Du in den jeweiligen Gruppen aktiv bist.",
+          "text": "[IF age> = 10 AND age <= 15] Below you can see a number of groups in which it is possible to participate. Please indicate to what extent you are active in the respective groups.",
+          "text_de": "[IF age >= 10 AND age <= 15] Im Folgenden siehst Du eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte gib an, in welchem Ausmass Du in den jeweiligen Gruppen aktiv bist.",
           "description": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -573,13 +573,13 @@
     "sop0200": {
       "question": "sop0200",
       "name": "sop0200",
-      "label": "[IF age ]= 10 AND age [= 15] If you are active in any of the above groups: Do you have a (voluntary) function in one or more of these associations or groups, or are you regularly responsible for specific tasks?",
-      "label_de": "[IF age ]= 10 AND age [= 15] Falls Du in einer der oben genannten Gruppen aktiv bist: Hast Du in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder bist Du regelmaessig fuer besondere Aufgaben verantwortlich?",
+      "label": "[IF age >= 10 AND age <= 15] If you are active in any of the above groups: Do you have a (voluntary) function in one or more of these associations or groups, or are you regularly responsible for specific tasks?",
+      "label_de": "[IF age >= 10 AND age <= 15] Falls Du in einer der oben genannten Gruppen aktiv bist: Hast Du in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder bist Du regelmaessig fuer besondere Aufgaben verantwortlich?",
       "items": [
         {
           "item": "1",
-          "text": "[IF age ]= 10 AND age [= 15] If you are active in any of the above groups: Do you have a (voluntary) function in one or more of these associations or groups, or are you regularly responsible for specific tasks?",
-          "text_de": "[IF age ]= 10 AND age [= 15] Falls Du in einer der oben genannten Gruppen aktiv bist: Hast Du in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder bist Du regelmaessig fuer besondere Aufgaben verantwortlich?",
+          "text": "[IF age >= 10 AND age <= 15] If you are active in any of the above groups: Do you have a (voluntary) function in one or more of these associations or groups, or are you regularly responsible for specific tasks?",
+          "text_de": "[IF age >= 10 AND age <= 15] Falls Du in einer der oben genannten Gruppen aktiv bist: Hast Du in einem oder mehreren dieser Vereine oder Gruppen eine (ehrenamtliche) Funktion inne oder bist Du regelmaessig fuer besondere Aufgaben verantwortlich?",
           "description": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "concept": "sop0200",
@@ -627,13 +627,13 @@
     "med0100": {
       "question": "med0100",
       "name": "med0100",
-      "label": "[IF age] = 10 AND [= 15] How long do you spend, on average, per day with the following devices or activities? Please indicate how much time you spend on the respective activity outside school in as much detail as possible.",
-      "label_de": "[IF age ]= 10 AND [=15] Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringst.",
+      "label": "[IF age> = 10 AND <= 15] How long do you spend, on average, per day with the following devices or activities? Please indicate how much time you spend on the respective activity outside school in as much detail as possible.",
+      "label_de": "[IF age >= 10 AND <=15] Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringst.",
       "items": [
         {
           "item": "0",
-          "text": "[IF age] = 10 AND [= 15] How long do you spend, on average, per day with the following devices or activities? Please indicate how much time you spend on the respective activity outside school in as much detail as possible.",
-          "text_de": "[IF age ]= 10 AND [=15] Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringst.",
+          "text": "[IF age> = 10 AND <= 15] How long do you spend, on average, per day with the following devices or activities? Please indicate how much time you spend on the respective activity outside school in as much detail as possible.",
+          "text_de": "[IF age >= 10 AND <=15] Wie lange beschaeftigst Du Dich durchschnittlich pro Tag mit folgenden Geraeten bzw. Aktivitaeten? Gib bitte moeglichst genau an, wieviel Zeit Du mit der jeweiligen Aktivitaet ausserhalb der Schulzeit verbringst.",
           "description": "Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1; NEPS Working Papers). Otto-Friedrich-University, German National Educational Panel Study (NEPS). [[URL link]](https://www.uni-bamberg.de/fileadmin/inbil/Publikationen/Working-Papers/WP_I.pdf)",
           "description_de": "Blossfeld, H. P., von Maurice, J., & Schneider, T. (2011). Grundidee, Konzeption und Design des Nationalen Bildungspanels fuer Deutschland (No. 1; NEPS Working Papers). Otto-Friedrich-University, German National Educational Panel Study (NEPS). [[URL link]](https://www.uni-bamberg.de/fileadmin/inbil/Publikationen/Working-Papers/WP_I.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -981,12 +981,12 @@
       "question": "gls0600",
       "name": "gls0600",
       "label": "Below we would like to know how satisfied you are with your life in general. You can agree or disagree with the following statements. Please answer on a scale of 1 to 5, where 1 is strongly disagree and 5 means strongly agree.",
-      "label_de": "[IF age ]=10 AND [= 15] Im Folgenden wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen einige Aussagen dazu, denen Du zustimmen bzw. die Du ablehnen kannst.",
+      "label_de": "[IF age >=10 AND <= 15] Im Folgenden wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen einige Aussagen dazu, denen Du zustimmen bzw. die Du ablehnen kannst.",
       "items": [
         {
           "item": "0",
           "text": "Below we would like to know how satisfied you are with your life in general. You can agree or disagree with the following statements. Please answer on a scale of 1 to 5, where 1 is strongly disagree and 5 means strongly agree.",
-          "text_de": "[IF age ]=10 AND [= 15] Im Folgenden wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen einige Aussagen dazu, denen Du zustimmen bzw. die Du ablehnen kannst.",
+          "text_de": "[IF age >=10 AND <= 15] Im Folgenden wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Es folgen einige Aussagen dazu, denen Du zustimmen bzw. die Du ablehnen kannst.",
           "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
           "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
           "filter": "(inlist(ptyp,1,2,200)) & inrange(age0110,10,15)",
@@ -1219,12 +1219,12 @@
       "question": "sat0100",
       "name": "sat0100",
       "label": "We are interested in hearing how satisfied you are with the following areas of your life. How satisfied are you. . .",
-      "label_de": "[IF age ]=16] Wir interessieren uns auch dafuer, wie zufrieden Sie mit verschiedenen Bereichen Ihres Lebens sind. Wie zufrieden sind Sie. . . [IF age ]=10 AND [= 15] Wir interessieren uns auch dafuer, wie zufrieden Du mit verschiedenen Bereichen Deines Lebens bist. Wie zufrieden bist du. . .",
+      "label_de": "[IF age >=16] Wir interessieren uns auch dafuer, wie zufrieden Sie mit verschiedenen Bereichen Ihres Lebens sind. Wie zufrieden sind Sie. . . [IF age >=10 AND <= 15] Wir interessieren uns auch dafuer, wie zufrieden Du mit verschiedenen Bereichen Deines Lebens bist. Wie zufrieden bist du. . .",
       "items": [
         {
           "item": "0",
           "text": "We are interested in hearing how satisfied you are with the following areas of your life. How satisfied are you. . .",
-          "text_de": "[IF age ]=16] Wir interessieren uns auch dafuer, wie zufrieden Sie mit verschiedenen Bereichen Ihres Lebens sind. Wie zufrieden sind Sie. . . [IF age ]=10 AND [= 15] Wir interessieren uns auch dafuer, wie zufrieden Du mit verschiedenen Bereichen Deines Lebens bist. Wie zufrieden bist du. . .",
+          "text_de": "[IF age >=16] Wir interessieren uns auch dafuer, wie zufrieden Sie mit verschiedenen Bereichen Ihres Lebens sind. Wie zufrieden sind Sie. . . [IF age >=10 AND <= 15] Wir interessieren uns auch dafuer, wie zufrieden Du mit verschiedenen Bereichen Deines Lebens bist. Wie zufrieden bist du. . .",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -1236,7 +1236,7 @@
         {
           "item": "1",
           "text": ". . . with your health?",
-          "text_de": ". . .[IF age ]=16] mit Ihrer Gesundheit? [IF age ]=10 AND [= 15] mit Deiner Gesundheit?",
+          "text_de": ". . .[IF age >=16] mit Ihrer Gesundheit? [IF age >=10 AND <= 15] mit Deiner Gesundheit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "concept": "sat0100",
@@ -1313,8 +1313,8 @@
         },
         {
           "item": "3",
-          "text": ". . .[IF age ]=16] if you are still in school: . . .with school? [IF age ]=10 AND [= 15] with school?",
-          "text_de": ". . .[IF age ]=16] falls Sie noch zur Schule gehen: . . .mit der Schule? [IF age ]=10 AND [= 15] mit der Schule?",
+          "text": ". . .[IF age >=16] if you are still in school: . . .with school? [IF age >=10 AND <= 15] with school?",
+          "text_de": ". . .[IF age >=16] falls Sie noch zur Schule gehen: . . .mit der Schule? [IF age >=10 AND <= 15] mit der Schule?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "concept": "sat0100",
@@ -1392,7 +1392,7 @@
         {
           "item": "5",
           "text": ". . . with your leisure time?",
-          "text_de": ". . .[IF age ]=16] mit Ihrer Freizeit? [IF age ]=10 AND [= 15] mit Deiner Freizeit?",
+          "text_de": ". . .[IF age >=16] mit Ihrer Freizeit? [IF age >=10 AND <= 15] mit Deiner Freizeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "concept": "sat0100",
@@ -1470,7 +1470,7 @@
         {
           "item": "6",
           "text": ". . . with your family life?",
-          "text_de": ". . .[IF age ]=16] mit Ihrem Familienleben? [IF age ]=10 AND [= 15] mit Deinem Familienleben?",
+          "text_de": ". . .[IF age >=16] mit Ihrem Familienleben? [IF age >=10 AND <= 15] mit Deinem Familienleben?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "concept": "sat0100",
@@ -1547,8 +1547,8 @@
         },
         {
           "item": "8",
-          "text": ". . . [IF age] = 16] with your friends and acquaintances? [IF age] = 10 AND [= 15] with your friends?",
-          "text_de": ". . .[IF age ]=16] mit Ihrem Freundes- und Bekanntenkreis? [IF age ]=10 AND [= 15] mit Deinem Freundeskreis?",
+          "text": ". . . [IF age> = 16] with your friends and acquaintances? [IF age> = 10 AND <= 15] with your friends?",
+          "text_de": ". . .[IF age >=16] mit Ihrem Freundes- und Bekanntenkreis? [IF age >=10 AND <= 15] mit Deinem Freundeskreis?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "concept": "sat0100",
@@ -1631,13 +1631,13 @@
     "lot0100": {
       "question": "lot0100",
       "name": "lot0100",
-      "label": "[IF age] = 10 AND [16] To what extent do you think the following statements apply?",
-      "label_de": "[IF age ]= 10 AND [ 16] Wie sehr treffen die folgenden Aussagen Deiner Meinung nach zu?",
+      "label": "[IF age> = 10 AND <16] To what extent do you think the following statements apply?",
+      "label_de": "[IF age >= 10 AND < 16] Wie sehr treffen die folgenden Aussagen Deiner Meinung nach zu?",
       "items": [
         {
           "item": "0",
-          "text": "[IF age] = 10 AND [16] To what extent do you think the following statements apply?",
-          "text_de": "[IF age ]= 10 AND [ 16] Wie sehr treffen die folgenden Aussagen Deiner Meinung nach zu?",
+          "text": "[IF age> = 10 AND <16] To what extent do you think the following statements apply?",
+          "text_de": "[IF age >= 10 AND < 16] Wie sehr treffen die folgenden Aussagen Deiner Meinung nach zu?",
           "description": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die deutsche Version des Life-Orientation-Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift fuer Gesundheitspsychologie, 16(1), 26-31. [[URL link]](https://doi.org/10.1026/0943-8149.16.1.26)",
           "description_de": "Source: Adapted from: Glaesmer, H., Hoyer, J., Klotsche, J., & Herzberg, P. Y. (2008). Die deutsche Version des Life-Orientation-Tests (LOT-R) zum dispositionellen Optimismus und Pessimismus. Zeitschrift fuer Gesundheitspsychologie, 16(1), 26-31. [[URL link]](https://doi.org/10.1026/0943-8149.16.1.26)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -1783,13 +1783,13 @@
     "bdi0100": {
       "question": "bdi0100",
       "name": "bdi0100",
-      "label": "[IF age] = 10 AND [= 15] Over the past two weeks, how often have the following statements applied to you?",
-      "label_de": "[IF age ]= 10 AND [= 15] Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen auf Dich zu?",
+      "label": "[IF age> = 10 AND <= 15] Over the past two weeks, how often have the following statements applied to you?",
+      "label_de": "[IF age >= 10 AND <= 15] Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen auf Dich zu?",
       "items": [
         {
           "item": "0",
-          "text": "[IF age] = 10 AND [= 15] Over the past two weeks, how often have the following statements applied to you?",
-          "text_de": "[IF age ]= 10 AND [= 15] Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen auf Dich zu?",
+          "text": "[IF age> = 10 AND <= 15] Over the past two weeks, how often have the following statements applied to you?",
+          "text_de": "[IF age >= 10 AND <= 15] Wie haeufig treffen folgende Aussagen bezogen auf die letzten zwei Wochen auf Dich zu?",
           "description": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (1996). Manual for the Beck Depression Inventory-II. TX: Psychological Corporation.; Beck, Aaron T., Steer, R. A., & Brown, G. K. (2012). BDI - FastScreen for Medical Patients. American Psychological Association. [[URL link]](http://doi.apa.org/getdoi.cfm?doi=10.1037/t14984-000)",
           "description_de": "Source: Adapted from: Beck, A. T., Steer, R. A., & Brown, G. K. (1996). Manual for the Beck Depression Inventory-II. TX: Psychological Corporation.; Beck, Aaron T., Steer, R. A., & Brown, G. K. (2012). BDI - FastScreen for Medical Patients. American Psychological Association. [[URL link]](http://doi.apa.org/getdoi.cfm?doi=10.1037/t14984-000)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -2072,13 +2072,13 @@
     "cul0201": {
       "question": "cul0201",
       "name": "cul0201",
-      "label": "[IF age [= 15] Do you have . . . at home?",
-      "label_de": "[IF age [= 15 ] Gibt es bei Dir zu Hause. . . ?",
+      "label": "[IF age <= 15] Do you have . . . at home?",
+      "label_de": "[IF age <= 15 ] Gibt es bei Dir zu Hause. . . ?",
       "items": [
         {
           "item": "0",
-          "text": "[IF age [= 15] Do you have . . . at home?",
-          "text_de": "[IF age [= 15 ] Gibt es bei Dir zu Hause. . . ?",
+          "text": "[IF age <= 15] Do you have . . . at home?",
+          "text_de": "[IF age <= 15 ] Gibt es bei Dir zu Hause. . . ?",
           "description": "National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "description_de": "National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -2310,13 +2310,13 @@
     "svk0100": {
       "question": "svk0100",
       "name": "svk0100",
-      "label": "[IF age]=10 & age[=15] We are now going to talk about how you deal with situations that put you under pressure. When other children put me under pressure and I'm very anxious, then . . .",
-      "label_de": "[IF age]=10 & age[=15] Hier geht es darum, wie du mit Situationen umgehst, die Dich unter Druck setzen. Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
+      "label": "[IF age>=10 & age<=15] We are now going to talk about how you deal with situations that put you under pressure. When other children put me under pressure and I'm very anxious, then . . .",
+      "label_de": "[IF age>=10 & age<=15] Hier geht es darum, wie du mit Situationen umgehst, die Dich unter Druck setzen. Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
       "items": [
         {
           "item": "0",
-          "text": "[IF age]=10 & age[=15] We are now going to talk about how you deal with situations that put you under pressure. When other children put me under pressure and I'm very anxious, then . . .",
-          "text_de": "[IF age]=10 & age[=15] Hier geht es darum, wie du mit Situationen umgehst, die Dich unter Druck setzen. Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
+          "text": "[IF age>=10 & age<=15] We are now going to talk about how you deal with situations that put you under pressure. When other children put me under pressure and I'm very anxious, then . . .",
+          "text_de": "[IF age>=10 & age<=15] Hier geht es darum, wie du mit Situationen umgehst, die Dich unter Druck setzen. Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann. . .",
           "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
           "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
           "filter": "(inlist(ptyp,1,2,200)) & (inrange(age0110,10,15))",
@@ -3111,12 +3111,12 @@
       "question": "ses0100",
       "name": "ses0100",
       "label": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
-      "label_de": "[IF age [16 & age]=10] Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu?",
+      "label_de": "[IF age <16 & age>=10] Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
           "text": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
-          "text_de": "[IF age [16 & age]=10] Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu?",
+          "text_de": "[IF age <16 & age>=10] Im Folgenden werden Dir eine Reihe von Aussagen praesentiert. Wie sehr stimmst Du folgenden Aussagen zu?",
           "description": "Thoennissen, C., Wilhelm, B., Friedrich, S., Alt, P., & Walper, S. (2014). Scales Manual of the German Family Panel: Wave 1 to 6. Panel Analysis of Intimate Relationships and Family Dynamics (pairfam). [[URL link]](http://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Manuals/Scales_Manual_pairfam_6.0.pdf)",
           "description_de": "Thoennissen, C., Wilhelm, B., Friedrich, S., Alt, P., & Walper, S. (2014). Scales Manual of the German Family Panel: Wave 1 to 6. Panel Analysis of Intimate Relationships and Family Dynamics (pairfam). [[URL link]](http://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Manuals/Scales_Manual_pairfam_6.0.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -3263,12 +3263,12 @@
       "question": "sef0100",
       "name": "sef0100",
       "label": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
-      "label_de": "[IF age [16]: Wie sehr stimmst Du folgenden Aussagen zu?",
+      "label_de": "[IF age <16]: Wie sehr stimmst Du folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
           "text": "In the following, a number of statements will be presented. To what extent do you agree with these statements?",
-          "text_de": "[IF age [16]: Wie sehr stimmst Du folgenden Aussagen zu?",
+          "text_de": "[IF age <16]: Wie sehr stimmst Du folgenden Aussagen zu?",
           "description": "Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen: Allgemeine Selbstwirksamkeit Kurzskala (ASKU) (No. 17; GESIS Working Paper, p. 24). GESIS - Leibniz-Institut fuer Sozialwissenschaften. [[URL link]](https://psycharchives.org/bitstream/20.500.12034/431/1/PT_9006490_ASKU-Manual_2012.PDF)",
           "description_de": "Beierlein, C., Kovaleva, A., Kemper, C. J., & Rammstedt, B. (2012). Ein Messinstrument zur Erfassung subjektiver Kompetenzerwartungen: Allgemeine Selbstwirksamkeit Kurzskala (ASKU) (No. 17; GESIS Working Paper, p. 24). GESIS - Leibniz-Institut fuer Sozialwissenschaften. [[URL link]](https://psycharchives.org/bitstream/20.500.12034/431/1/PT_9006490_ASKU-Manual_2012.PDF)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -3414,13 +3414,13 @@
     "loc0100": {
       "question": "loc0100",
       "name": "loc0100",
-      "label": "[IF age [16]: To what extent do you agree with the following statements?",
-      "label_de": "[IF age [16]: Wie sehr stimmst Du folgenden Aussagen zu?",
+      "label": "[IF age <16]: To what extent do you agree with the following statements?",
+      "label_de": "[IF age <16]: Wie sehr stimmst Du folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
-          "text": "[IF age [16]: To what extent do you agree with the following statements?",
-          "text_de": "[IF age [16]: Wie sehr stimmst Du folgenden Aussagen zu?",
+          "text": "[IF age <16]: To what extent do you agree with the following statements?",
+          "text_de": "[IF age <16]: Wie sehr stimmst Du folgenden Aussagen zu?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inrange(age0110,10,15))",
@@ -4701,13 +4701,13 @@
     "cul0301": {
       "question": "cul0301",
       "name": "cul0301",
-      "label": "[IF age [= 15] Do you listen to classical music? This refers to all situations when you can listen to classical music: at your home, while traveling, or at a concert.",
-      "label_de": "[IF age [= 15 ] Hoerst Du klassische Musik? Hier sind alle Gelegenheiten gemeint, bei denen man klassische Musik hoeren kann: Bei Dir zu Hause, unterwegs oder im Konzert.",
+      "label": "[IF age <= 15] Do you listen to classical music? This refers to all situations when you can listen to classical music: at your home, while traveling, or at a concert.",
+      "label_de": "[IF age <= 15 ] Hoerst Du klassische Musik? Hier sind alle Gelegenheiten gemeint, bei denen man klassische Musik hoeren kann: Bei Dir zu Hause, unterwegs oder im Konzert.",
       "items": [
         {
           "item": "1",
-          "text": "[IF age [= 15] Do you listen to classical music? This refers to all situations when you can listen to classical music: at your home, while traveling, or at a concert.",
-          "text_de": "[IF age [= 15 ] Hoerst Du klassische Musik? Hier sind alle Gelegenheiten gemeint, bei denen man klassische Musik hoeren kann: Bei Dir zu Hause, unterwegs oder im Konzert.",
+          "text": "[IF age <= 15] Do you listen to classical music? This refers to all situations when you can listen to classical music: at your home, while traveling, or at a concert.",
+          "text_de": "[IF age <= 15 ] Hoerst Du klassische Musik? Hier sind alle Gelegenheiten gemeint, bei denen man klassische Musik hoeren kann: Bei Dir zu Hause, unterwegs oder im Konzert.",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "description_de": "Source: Adapted from: National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "concept": "cul0301",
@@ -4755,13 +4755,13 @@
     "cul0302": {
       "question": "cul0302",
       "name": "cul0302",
-      "label": "[IF age [= 15] And when you think about the past week, how often have you listened to classical music?",
-      "label_de": "[IF age [= 15 ] Und wenn Du an die vergangene Woche denkst, wie oft hast Du klassische Musik gehoert?",
+      "label": "[IF age <= 15] And when you think about the past week, how often have you listened to classical music?",
+      "label_de": "[IF age <= 15 ] Und wenn Du an die vergangene Woche denkst, wie oft hast Du klassische Musik gehoert?",
       "items": [
         {
           "item": "1",
-          "text": "[IF age [= 15] And when you think about the past week, how often have you listened to classical music?",
-          "text_de": "[IF age [= 15 ] Und wenn Du an die vergangene Woche denkst, wie oft hast Du klassische Musik gehoert?",
+          "text": "[IF age <= 15] And when you think about the past week, how often have you listened to classical music?",
+          "text_de": "[IF age <= 15 ] Und wenn Du an die vergangene Woche denkst, wie oft hast Du klassische Musik gehoert?",
           "description": "Source: Adapted from: National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "description_de": "Source: Adapted from: National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "concept": "cul0302",
@@ -4789,13 +4789,13 @@
     "cul0401": {
       "question": "cul0401",
       "name": "cul0401",
-      "label": "[IF age [= 15] In general, how often do you discuss the following things with others?",
-      "label_de": "[IF age [= 15 ] Wie oft kommt es im Allgemeinen vor, dass Du mit anderen ueber folgende Dinge diskutierst?",
+      "label": "[IF age <= 15] In general, how often do you discuss the following things with others?",
+      "label_de": "[IF age <= 15 ] Wie oft kommt es im Allgemeinen vor, dass Du mit anderen ueber folgende Dinge diskutierst?",
       "items": [
         {
           "item": "0",
-          "text": "[IF age [= 15] In general, how often do you discuss the following things with others?",
-          "text_de": "[IF age [= 15 ] Wie oft kommt es im Allgemeinen vor, dass Du mit anderen ueber folgende Dinge diskutierst?",
+          "text": "[IF age <= 15] In general, how often do you discuss the following things with others?",
+          "text_de": "[IF age <= 15 ] Wie oft kommt es im Allgemeinen vor, dass Du mit anderen ueber folgende Dinge diskutierst?",
           "description": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -4982,13 +4982,13 @@
     "cul0501": {
       "question": "cul0501",
       "name": "cul0501",
-      "label": "[IF age [= 15] Now we'd like to move on to other activities that you can do in your free time. It doesn't matter here whether you carried out this activity with someone else or alone. How often have you done the following in the past 12 months:",
-      "label_de": "[IF age [= 15 ] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. Dabei ist es egal, ob Du das mit jemandem zusammen oder alleine getan hast. Wie oft hast Du in den letzten 12 Monaten folgende Dinge getan:",
+      "label": "[IF age <= 15] Now we'd like to move on to other activities that you can do in your free time. It doesn't matter here whether you carried out this activity with someone else or alone. How often have you done the following in the past 12 months:",
+      "label_de": "[IF age <= 15 ] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. Dabei ist es egal, ob Du das mit jemandem zusammen oder alleine getan hast. Wie oft hast Du in den letzten 12 Monaten folgende Dinge getan:",
       "items": [
         {
           "item": "0",
-          "text": "[IF age [= 15] Now we'd like to move on to other activities that you can do in your free time. It doesn't matter here whether you carried out this activity with someone else or alone. How often have you done the following in the past 12 months:",
-          "text_de": "[IF age [= 15 ] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. Dabei ist es egal, ob Du das mit jemandem zusammen oder alleine getan hast. Wie oft hast Du in den letzten 12 Monaten folgende Dinge getan:",
+          "text": "[IF age <= 15] Now we'd like to move on to other activities that you can do in your free time. It doesn't matter here whether you carried out this activity with someone else or alone. How often have you done the following in the past 12 months:",
+          "text_de": "[IF age <= 15 ] Nun geht es um weitere Aktivitaeten, die man in seiner Freizeit ausueben kann. Dabei ist es egal, ob Du das mit jemandem zusammen oder alleine getan hast. Wie oft hast Du in den letzten 12 Monaten folgende Dinge getan:",
           "description": "National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "description_de": "National Educational Panel Study (NEPS). (2013). Staring Cohort 4: 9th Grade (SC4) Waves 1 and 2 Questionnaires (SUF Version 1.1.0). University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC4/1-1-0/SC4_1-1-0_Q_w1_2_en.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & inrange(age0110,10,15)",
@@ -5220,13 +5220,13 @@
     "mus0100": {
       "question": "mus0100",
       "name": "mus0100",
-      "label": "[IF age] = 10 AND age [= 15] Do you currently play music? Here we mean playing a musical instrument or singing (individual lessons or in a choir).",
-      "label_de": "[IF age ]= 10 AND age [= 15] Machst Du zurzeit aktiv Musik, gemeint ist: Spielen eines Musikinstrumentes oder Gesang (Einzelunterricht oder Chor)?",
+      "label": "[IF age> = 10 AND age <= 15] Do you currently play music? Here we mean playing a musical instrument or singing (individual lessons or in a choir).",
+      "label_de": "[IF age >= 10 AND age <= 15] Machst Du zurzeit aktiv Musik, gemeint ist: Spielen eines Musikinstrumentes oder Gesang (Einzelunterricht oder Chor)?",
       "items": [
         {
           "item": "1",
-          "text": "[IF age] = 10 AND age [= 15] Do you currently play music? Here we mean playing a musical instrument or singing (individual lessons or in a choir).",
-          "text_de": "[IF age ]= 10 AND age [= 15] Machst Du zurzeit aktiv Musik, gemeint ist: Spielen eines Musikinstrumentes oder Gesang (Einzelunterricht oder Chor)?",
+          "text": "[IF age> = 10 AND age <= 15] Do you currently play music? Here we mean playing a musical instrument or singing (individual lessons or in a choir).",
+          "text_de": "[IF age >= 10 AND age <= 15] Machst Du zurzeit aktiv Musik, gemeint ist: Spielen eines Musikinstrumentes oder Gesang (Einzelunterricht oder Chor)?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "mus0100",
@@ -5259,13 +5259,13 @@
     "mus0200": {
       "question": "mus0200",
       "name": "mus0200",
-      "label": "[IF age] = 10 AND age [= 15] How many hours a week do you spend playing music? Think of a typical week.",
-      "label_de": "[IF age ]= 10 AND age [= 15] Wie viele Stunden in der Woche machst Du Musik? Denke dabei an eine typische Woche.",
+      "label": "[IF age> = 10 AND age <= 15] How many hours a week do you spend playing music? Think of a typical week.",
+      "label_de": "[IF age >= 10 AND age <= 15] Wie viele Stunden in der Woche machst Du Musik? Denke dabei an eine typische Woche.",
       "items": [
         {
           "item": "1",
-          "text": "[IF age] = 10 AND age [= 15] How many hours a week do you spend playing music? Think of a typical week.",
-          "text_de": "[IF age ]= 10 AND age [= 15] Wie viele Stunden in der Woche machst Du Musik? Denke dabei an eine typische Woche.",
+          "text": "[IF age> = 10 AND age <= 15] How many hours a week do you spend playing music? Think of a typical week.",
+          "text_de": "[IF age >= 10 AND age <= 15] Wie viele Stunden in der Woche machst Du Musik? Denke dabei an eine typische Woche.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "mus0200",
@@ -5318,13 +5318,13 @@
     "mus0300": {
       "question": "mus0300",
       "name": "mus0300",
-      "label": "[IF age] = 10 AND age [= 15] At what age did you start learning a musical instrument or to sing?",
-      "label_de": "[IF age ]= 10 AND age [= 15] In welchem Alter hast Du begonnen, ein Musikinstrument oder Gesang zu lernen?",
+      "label": "[IF age> = 10 AND age <= 15] At what age did you start learning a musical instrument or to sing?",
+      "label_de": "[IF age >= 10 AND age <= 15] In welchem Alter hast Du begonnen, ein Musikinstrument oder Gesang zu lernen?",
       "items": [
         {
           "item": "1",
-          "text": "[IF age] = 10 AND age [= 15] At what age did you start learning a musical instrument or to sing?",
-          "text_de": "[IF age ]= 10 AND age [= 15] In welchem Alter hast Du begonnen, ein Musikinstrument oder Gesang zu lernen?",
+          "text": "[IF age> = 10 AND age <= 15] At what age did you start learning a musical instrument or to sing?",
+          "text_de": "[IF age >= 10 AND age <= 15] In welchem Alter hast Du begonnen, ein Musikinstrument oder Gesang zu lernen?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "mus0300",

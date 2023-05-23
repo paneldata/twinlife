@@ -11,12 +11,12 @@
       "question": "hpr0102",
       "name": "hpr0102",
       "label": "General school (for example: elementary school, comprehensive school, high school, junior high school)",
-      "label_de": "[IF age ] 4] Allgemeinbildende Schule (zum Beispiel: Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule, Kolleg)",
+      "label_de": "[IF age > 4] Allgemeinbildende Schule (zum Beispiel: Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule, Kolleg)",
       "items": [
         {
           "item": "0",
           "text": "General school (for example: elementary school, comprehensive school, high school, junior high school)",
-          "text_de": "[IF age ] 4] Allgemeinbildende Schule (zum Beispiel: Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule, Kolleg)",
+          "text_de": "[IF age > 4] Allgemeinbildende Schule (zum Beispiel: Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule, Kolleg)",
           "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "hpr0102",
@@ -168,12 +168,12 @@
       "question": "edu0420",
       "name": "edu0420",
       "label": "[IF edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: You said you attended [edu0400_5[Preload]] when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0400_5 = 10 ]: You said you attended [edu0401_5[Preload]] when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true?",
-      "label_de": "[IF age [ = 15 & edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: Du hast bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Du (die) [edu0400_5[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age ] = 16 & edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11]: Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie (die) [edu0400_5[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF age [ = 15 & edu0400_5 = 10 ]: Du hast bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Du (die) [edu0401_5[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age ] = 16 & edu0400_5 = 10]: Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie (die) [edu0401_5[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
+      "label_de": "[IF age < = 15 & edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: Du hast bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Du (die) [edu0400_5[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age > = 16 & edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11]: Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie (die) [edu0400_5[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF age < = 15 & edu0400_5 = 10 ]: Du hast bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Du (die) [edu0401_5[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age > = 16 & edu0400_5 = 10]: Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie (die) [edu0401_5[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
       "items": [
         {
           "item": "1",
           "text": "[IF edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: You said you attended [edu0400_5[Preload]] when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0400_5 = 10 ]: You said you attended [edu0401_5[Preload]] when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true?",
-          "text_de": "[IF age [ = 15 & edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: Du hast bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Du (die) [edu0400_5[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age ] = 16 & edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11]: Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie (die) [edu0400_5[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF age [ = 15 & edu0400_5 = 10 ]: Du hast bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Du (die) [edu0401_5[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age ] = 16 & edu0400_5 = 10]: Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie (die) [edu0401_5[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
+          "text_de": "[IF age < = 15 & edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: Du hast bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Du (die) [edu0400_5[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age > = 16 & edu0400_5 = 1, 3, 4, 5, 6, 7, 8, 9, 11]: Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie (die) [edu0400_5[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF age < = 15 & edu0400_5 = 10 ]: Du hast bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Du (die) [edu0401_5[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age > = 16 & edu0400_5 = 10]: Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie (die) [edu0401_5[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
           "concept": "edu0420",
           "scale": "cat",
           "number": "5",
@@ -204,13 +204,13 @@
     "edu0400": {
       "question": "edu0400",
       "name": "edu0400",
-      "label": "[IF age [=20] What school are you currently attending?",
-      "label_de": "[IF age [ = 15 ]: Welche Schule besuchst Du zurzeit? [IF age ] = 16 & age [=20]: Welche Schule besuchen Sie zurzeit?",
+      "label": "[IF age <=20] What school are you currently attending?",
+      "label_de": "[IF age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age > = 16 & age <=20]: Welche Schule besuchen Sie zurzeit?",
       "items": [
         {
           "item": "1",
-          "text": "[IF age [=20] What school are you currently attending?",
-          "text_de": "[IF age [ = 15 ]: Welche Schule besuchst Du zurzeit? [IF age ] = 16 & age [=20]: Welche Schule besuchen Sie zurzeit?",
+          "text": "[IF age <=20] What school are you currently attending?",
+          "text_de": "[IF age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age > = 16 & age <=20]: Welche Schule besuchen Sie zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "concept": "edu0400",
@@ -283,13 +283,13 @@
     "edu0402": {
       "question": "edu0402",
       "name": "edu0402",
-      "label": "[IF age [=20] What class do you go to at this school?",
-      "label_de": "[IF age [ = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age ] = 16 & age [ =20]: Welche Klasse besuchen Sie auf dieser Schule?",
+      "label": "[IF age <=20] What class do you go to at this school?",
+      "label_de": "[IF age < = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age > = 16 & age < =20]: Welche Klasse besuchen Sie auf dieser Schule?",
       "items": [
         {
           "item": "1",
-          "text": "[IF age [=20] What class do you go to at this school?",
-          "text_de": "[IF age [ = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age ] = 16 & age [ =20]: Welche Klasse besuchen Sie auf dieser Schule?",
+          "text": "[IF age <=20] What class do you go to at this school?",
+          "text_de": "[IF age < = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age > = 16 & age < =20]: Welche Klasse besuchen Sie auf dieser Schule?",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "concept": "edu0402",
@@ -398,13 +398,13 @@
     "edu0330": {
       "question": "edu0330",
       "name": "edu0330",
-      "label": "[IF edu0307_5[Preload] = 1,2,4,8] You said you were doing a [IF edu0307_5[Preload] = 1,2 / IF edu0307_5[Preload] = 4,8] [edu0307_5[Preload]] when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0307_5[Preload] = 3,5,6,7] You said you were attending a [edu0307_5[Preload]] when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0307_5[Preload] = 9] We recorded the following response to the question about what kind of vocational training you are doing when you were last interviewed in [mon_pq_5 yea_pq_5]: [edu0308_5[Preload]]. Is this still currently true?",
-      "label_de": "[IF edu0307_5[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie [IF edu0307_5[Preload] = 1,2 ein/ IF edu0307_5[Preload] = 4,8 eine] [edu0307_5[Preload]] machen. Trifft dies aktuell immer noch zu? [IF edu0307_5[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie eine [edu0307_5[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_5[Preload] = 9] Bei der letzten Befragung im [mon_pq_5 yea_pq_5] haben wir uns zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: [edu0308_5[Preload]]. Trifft dies aktuell immer noch zu?",
+      "label": "[IF edu0307_5[Preload] = 1,2,4,8] You said you were doing a [IF edu0307_5[Preload] = 1,2 / IF edu0307_5[Preload] = 4,8] <edu0307_5[Preload]> when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0307_5[Preload] = 3,5,6,7] You said you were attending a <edu0307_5[Preload]> when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0307_5[Preload] = 9] We recorded the following response to the question about what kind of vocational training you are doing when you were last interviewed in [mon_pq_5 yea_pq_5]: <edu0308_5[Preload]>. Is this still currently true?",
+      "label_de": "[IF edu0307_5[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie [IF edu0307_5[Preload] = 1,2 ein/ IF edu0307_5[Preload] = 4,8 eine] <edu0307_5[Preload]> machen. Trifft dies aktuell immer noch zu? [IF edu0307_5[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie eine <edu0307_5[Preload]> besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_5[Preload] = 9] Bei der letzten Befragung im [mon_pq_5 yea_pq_5] haben wir uns zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: <edu0308_5[Preload]>. Trifft dies aktuell immer noch zu?",
       "items": [
         {
           "item": "1",
-          "text": "[IF edu0307_5[Preload] = 1,2,4,8] You said you were doing a [IF edu0307_5[Preload] = 1,2 / IF edu0307_5[Preload] = 4,8] [edu0307_5[Preload]] when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0307_5[Preload] = 3,5,6,7] You said you were attending a [edu0307_5[Preload]] when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0307_5[Preload] = 9] We recorded the following response to the question about what kind of vocational training you are doing when you were last interviewed in [mon_pq_5 yea_pq_5]: [edu0308_5[Preload]]. Is this still currently true?",
-          "text_de": "[IF edu0307_5[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie [IF edu0307_5[Preload] = 1,2 ein/ IF edu0307_5[Preload] = 4,8 eine] [edu0307_5[Preload]] machen. Trifft dies aktuell immer noch zu? [IF edu0307_5[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie eine [edu0307_5[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_5[Preload] = 9] Bei der letzten Befragung im [mon_pq_5 yea_pq_5] haben wir uns zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: [edu0308_5[Preload]]. Trifft dies aktuell immer noch zu?",
+          "text": "[IF edu0307_5[Preload] = 1,2,4,8] You said you were doing a [IF edu0307_5[Preload] = 1,2 / IF edu0307_5[Preload] = 4,8] <edu0307_5[Preload]> when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0307_5[Preload] = 3,5,6,7] You said you were attending a <edu0307_5[Preload]> when you were last interviewed in [mon_pq_5 yea_pq_5]. Is this still currently true? [IF edu0307_5[Preload] = 9] We recorded the following response to the question about what kind of vocational training you are doing when you were last interviewed in [mon_pq_5 yea_pq_5]: <edu0308_5[Preload]>. Is this still currently true?",
+          "text_de": "[IF edu0307_5[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie [IF edu0307_5[Preload] = 1,2 ein/ IF edu0307_5[Preload] = 4,8 eine] <edu0307_5[Preload]> machen. Trifft dies aktuell immer noch zu? [IF edu0307_5[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [mon_pq_5 yea_pq_5] gesagt, dass Sie eine <edu0307_5[Preload]> besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_5[Preload] = 9] Bei der letzten Befragung im [mon_pq_5 yea_pq_5] haben wir uns zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: <edu0308_5[Preload]>. Trifft dies aktuell immer noch zu?",
           "concept": "edu0330",
           "scale": "cat",
           "number": "10",
@@ -504,13 +504,13 @@
     "eca0900": {
       "question": "eca0900",
       "name": "eca0900",
-      "label": "Have you received a degree since the last interview, since [mon_pq_preload yea_pq_preload]?",
-      "label_de": "[if age ] 15] Haben Sie seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], einen Schulabschluss erworben? [if age [ 16] Hast Du seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], einen Schulabschluss erworben?",
+      "label": "Have you received a degree since the last interview, since <mon_pq_preload yea_pq_preload>?",
+      "label_de": "[if age > 15] Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, einen Schulabschluss erworben? [if age < 16] Hast Du seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, einen Schulabschluss erworben?",
       "items": [
         {
           "item": "1",
-          "text": "Have you received a degree since the last interview, since [mon_pq_preload yea_pq_preload]?",
-          "text_de": "[if age ] 15] Haben Sie seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], einen Schulabschluss erworben? [if age [ 16] Hast Du seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], einen Schulabschluss erworben?",
+          "text": "Have you received a degree since the last interview, since <mon_pq_preload yea_pq_preload>?",
+          "text_de": "[if age > 15] Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, einen Schulabschluss erworben? [if age < 16] Hast Du seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, einen Schulabschluss erworben?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "concept": "eca0900",
@@ -559,12 +559,12 @@
       "question": "eca0901",
       "name": "eca0901",
       "label": "Which school-leaving qualification have you achieved?",
-      "label_de": "[if age ] 15] Welchen Schulabschluss haben Sie erreicht? [if age [ 16] Welchen Schulabschluss hast Du erreicht?",
+      "label_de": "[if age > 15] Welchen Schulabschluss haben Sie erreicht? [if age < 16] Welchen Schulabschluss hast Du erreicht?",
       "items": [
         {
           "item": "1",
           "text": "Which school-leaving qualification have you achieved?",
-          "text_de": "[if age ] 15] Welchen Schulabschluss haben Sie erreicht? [if age [ 16] Welchen Schulabschluss hast Du erreicht?",
+          "text_de": "[if age > 15] Welchen Schulabschluss haben Sie erreicht? [if age < 16] Welchen Schulabschluss hast Du erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "concept": "eca0901",
@@ -612,13 +612,13 @@
     "eca1000": {
       "question": "eca1000",
       "name": "eca1000",
-      "label": "Did you achieve a new vocational training qualification or university degree since the last interview, i.e., since [mon_pq_preload yea_pq_preload]?",
-      "label_de": "[if age ] 15] Haben Sie seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [if age [ 16] Hast Du seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
+      "label": "Did you achieve a new vocational training qualification or university degree since the last interview, i.e., since <mon_pq_preload yea_pq_preload>?",
+      "label_de": "[if age > 15] Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [if age < 16] Hast Du seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
       "items": [
         {
           "item": "1",
-          "text": "Did you achieve a new vocational training qualification or university degree since the last interview, i.e., since [mon_pq_preload yea_pq_preload]?",
-          "text_de": "[if age ] 15] Haben Sie seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [if age [ 16] Hast Du seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
+          "text": "Did you achieve a new vocational training qualification or university degree since the last interview, i.e., since <mon_pq_preload yea_pq_preload>?",
+          "text_de": "[if age > 15] Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [if age < 16] Hast Du seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "concept": "eca1000",
@@ -667,12 +667,12 @@
       "question": "eca1100",
       "name": "eca1100",
       "label": "Have you obtained a degree or training qualification?",
-      "label_de": "[if age ] 15] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [if age [ 16] Hast Du einen Studien- oder einen Ausbildungsabschluss erworben?",
+      "label_de": "[if age > 15] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [if age < 16] Hast Du einen Studien- oder einen Ausbildungsabschluss erworben?",
       "items": [
         {
           "item": "1",
           "text": "Have you obtained a degree or training qualification?",
-          "text_de": "[if age ] 15] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [if age [ 16] Hast Du einen Studien- oder einen Ausbildungsabschluss erworben?",
+          "text_de": "[if age > 15] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [if age < 16] Hast Du einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
           "number": "15",
@@ -698,13 +698,13 @@
     "eca1200": {
       "question": "eca1200",
       "name": "eca1200",
-      "label": "Have you dropped out of school, training, or college since the last interview, i.e., since the [mon_pq_preload yea_pq_preload]?",
-      "label_de": "[if age ] 15] Haben Sie seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], die Schule, eine Ausbildung oder ein Studium abgebrochen? [if age [ 16] Hast Du seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+      "label": "Have you dropped out of school, training, or college since the last interview, i.e., since the <mon_pq_preload yea_pq_preload>?",
+      "label_de": "[if age > 15] Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, die Schule, eine Ausbildung oder ein Studium abgebrochen? [if age < 16] Hast Du seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, die Schule, eine Ausbildung oder ein Studium abgebrochen?",
       "items": [
         {
           "item": "1",
-          "text": "Have you dropped out of school, training, or college since the last interview, i.e., since the [mon_pq_preload yea_pq_preload]?",
-          "text_de": "[if age ] 15] Haben Sie seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], die Schule, eine Ausbildung oder ein Studium abgebrochen? [if age [ 16] Hast Du seit dem letzten Interview, d.h. seit [mon_pq_preload yea_pq_preload], die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+          "text": "Have you dropped out of school, training, or college since the last interview, i.e., since the <mon_pq_preload yea_pq_preload>?",
+          "text_de": "[if age > 15] Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, die Schule, eine Ausbildung oder ein Studium abgebrochen? [if age < 16] Hast Du seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1200",
           "scale": "cat",
           "number": "16",
@@ -751,12 +751,12 @@
       "question": "eca1201",
       "name": "eca1201",
       "label": "Did you drop out of school, training, or college?",
-      "label_de": "[if age ] 15] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [if age [ 16] Hast Du die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+      "label_de": "[if age > 15] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [if age < 16] Hast Du die Schule, eine Ausbildung oder ein Studium abgebrochen?",
       "items": [
         {
           "item": "1",
           "text": "Did you drop out of school, training, or college?",
-          "text_de": "[if age ] 15] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [if age [ 16] Hast Du die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+          "text_de": "[if age > 15] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [if age < 16] Hast Du die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
           "number": "17",
@@ -788,12 +788,12 @@
       "question": "sop0100",
       "name": "sop0100",
       "label": "Below is a list of groups that one might be active in. Please indicate the extent to which you are active in the respective groups.",
-      "label_de": "[IF age [= 15] Im Folgenden geht es um eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte gib an, in welchem Ausmass Du in den jeweiligen Gruppen aktiv bist. [IF age ]= 16] Im Folgenden geht es um eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass Sie in den jeweiligen Gruppen aktiv sind.",
+      "label_de": "[IF age <= 15] Im Folgenden geht es um eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte gib an, in welchem Ausmass Du in den jeweiligen Gruppen aktiv bist. [IF age >= 16] Im Folgenden geht es um eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass Sie in den jeweiligen Gruppen aktiv sind.",
       "items": [
         {
           "item": "0",
           "text": "Below is a list of groups that one might be active in. Please indicate the extent to which you are active in the respective groups.",
-          "text_de": "[IF age [= 15] Im Folgenden geht es um eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte gib an, in welchem Ausmass Du in den jeweiligen Gruppen aktiv bist. [IF age ]= 16] Im Folgenden geht es um eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass Sie in den jeweiligen Gruppen aktiv sind.",
+          "text_de": "[IF age <= 15] Im Folgenden geht es um eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte gib an, in welchem Ausmass Du in den jeweiligen Gruppen aktiv bist. [IF age >= 16] Im Folgenden geht es um eine Reihe von Gruppen, in denen man aktiv sein kann. Bitte geben Sie an, in welchem Ausmass Sie in den jeweiligen Gruppen aktiv sind.",
           "description": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "filter": "age0110>=9",

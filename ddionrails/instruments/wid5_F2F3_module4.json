@@ -11,12 +11,12 @@
       "question": "spa0500",
       "name": "spa0500",
       "label": "Please rate the extent to which each statement applies to you.",
-      "label_de": "[ITEMBAT] Nun geht es um Ihren Beruf. [age ]= 16] [NCS] Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 kannst Du Deine Meinung abstufen. [age [ 16] [NCS] Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
+      "label_de": "[ITEMBAT] Nun geht es um Ihren Beruf. [age >= 16] [NCS] Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 kannst Du Deine Meinung abstufen. [age < 16] [NCS] Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
       "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies to you.",
-          "text_de": "[ITEMBAT] Nun geht es um Ihren Beruf. [age ]= 16] [NCS] Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 kannst Du Deine Meinung abstufen. [age [ 16] [NCS] Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
+          "text_de": "[ITEMBAT] Nun geht es um Ihren Beruf. [age >= 16] [NCS] Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 kannst Du Deine Meinung abstufen. [age < 16] [NCS] Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
           "description": "McAuley, E., Duncan, T., & Tammen, V. V. (1989). Psychometric Properties of the Intrinsic Motivation Inventory in a Competitive Sport Setting: A Confirmatory Factor Analysis. Research Quarterly for Exercise and Sport, 60(1), 48-58. [[URL link]](https://doi.org/10.1080/02701367.1989.10607413); Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. [[URL link]](https://doi.org/10.1037/0003-066X.55.1.68)",
           "description_de": "McAuley, E., Duncan, T., & Tammen, V. V. (1989). Psychometric Properties of the Intrinsic Motivation Inventory in a Competitive Sport Setting: A Confirmatory Factor Analysis. Research Quarterly for Exercise and Sport, 60(1), 48-58. [[URL link]](https://doi.org/10.1080/02701367.1989.10607413); Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. [[URL link]](https://doi.org/10.1037/0003-066X.55.1.68)",
           "filter": "inlist(emp0400,1,2,3,4)",
@@ -249,12 +249,12 @@
       "question": "imo0200",
       "name": "imo0200",
       "label": "Now it's back to school in general. Please rate the extent to which each statement applies to you.",
-      "label_de": "[ITEMBAT][NCS][IF age ]=16] Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. [IF age[16]  Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft.",
+      "label_de": "[ITEMBAT][NCS][IF age >=16] Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. [IF age<16]  Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft.",
       "items": [
         {
           "item": "0",
           "text": "Now it's back to school in general. Please rate the extent to which each statement applies to you.",
-          "text_de": "[ITEMBAT][NCS][IF age ]=16] Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. [IF age[16]  Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft.",
+          "text_de": "[ITEMBAT][NCS][IF age >=16] Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. [IF age<16]  Jetzt geht es wieder um die Schule im Allgemeinen. Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft.",
           "description": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "description_de": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "filter": "(age0110>=11) & (edu0100==2 | edu0301==1)",
@@ -386,12 +386,12 @@
       "question": "imo0500",
       "name": "imo0500",
       "label": "Please rate the extent to which each statement applies to you. At school, I am interested in . . .",
-      "label_de": "[ITEMBAT] [IF age [16] [NCS] Bitte gib an, wie gut die Angabe auf Dich zutrifft. In der Schule geht es mir darum [IF age ]= 16] [NCS] Bitte geben Sie an, wie gut die Angabe auf Sie zutrifft. In der Schule geht es mir darum",
+      "label_de": "[ITEMBAT] [IF age <16] [NCS] Bitte gib an, wie gut die Angabe auf Dich zutrifft. In der Schule geht es mir darum [IF age >= 16] [NCS] Bitte geben Sie an, wie gut die Angabe auf Sie zutrifft. In der Schule geht es mir darum",
       "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies to you. At school, I am interested in . . .",
-          "text_de": "[ITEMBAT] [IF age [16] [NCS] Bitte gib an, wie gut die Angabe auf Dich zutrifft. In der Schule geht es mir darum [IF age ]= 16] [NCS] Bitte geben Sie an, wie gut die Angabe auf Sie zutrifft. In der Schule geht es mir darum",
+          "text_de": "[ITEMBAT] [IF age <16] [NCS] Bitte gib an, wie gut die Angabe auf Dich zutrifft. In der Schule geht es mir darum [IF age >= 16] [NCS] Bitte geben Sie an, wie gut die Angabe auf Sie zutrifft. In der Schule geht es mir darum",
           "description": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "filter": "(age0110>=11) & (edu0100==2 | edu0301==1)",
@@ -523,12 +523,12 @@
       "question": "imo0600",
       "name": "imo0600",
       "label": "Please rate the extent to which each statement applies to you. It is important for me in the context of my professional work . . .",
-      "label_de": "[ITEMBAT] [age ]= 16] [NCS] Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen [age [ 16] [NCS] Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 kannst Du Deine Meinung abstufen.",
+      "label_de": "[ITEMBAT] [age >= 16] [NCS] Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen [age < 16] [NCS] Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 kannst Du Deine Meinung abstufen.",
       "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies to you. It is important for me in the context of my professional work . . .",
-          "text_de": "[ITEMBAT] [age ]= 16] [NCS] Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen [age [ 16] [NCS] Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 kannst Du Deine Meinung abstufen.",
+          "text_de": "[ITEMBAT] [age >= 16] [NCS] Bitte schaetzen Sie ein, wie gut jede der folgenden Aussagen auf Sie zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen [age < 16] [NCS] Bitte schaetze ein, wie gut jede der folgenden Aussagen auf Dich zutrifft. Mir ist es wichtig, im Rahmen meiner beruflichen Taetigkeit Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 kannst Du Deine Meinung abstufen.",
           "description": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "filter": "inlist(emp0400,1,2,3,4)",
@@ -660,12 +660,12 @@
       "question": "edu0511",
       "name": "edu0511",
       "label": "Do you and your twin attend the same school?",
-      "label_de": "[IF age ]= 13 and age [ = 15] Gehst Du mit deinem Zwilling in die gleiche Schule? [IF age ]= 16 ] Gehen Sie mit Ihrem Zwilling in die gleiche Schule?",
+      "label_de": "[IF age >= 13 and age < = 15] Gehst Du mit deinem Zwilling in die gleiche Schule? [IF age >= 16 ] Gehen Sie mit Ihrem Zwilling in die gleiche Schule?",
       "items": [
         {
           "item": "1",
           "text": "Do you and your twin attend the same school?",
-          "text_de": "[IF age ]= 13 and age [ = 15] Gehst Du mit deinem Zwilling in die gleiche Schule? [IF age ]= 16 ] Gehen Sie mit Ihrem Zwilling in die gleiche Schule?",
+          "text_de": "[IF age >= 13 and age < = 15] Gehst Du mit deinem Zwilling in die gleiche Schule? [IF age >= 16 ] Gehen Sie mit Ihrem Zwilling in die gleiche Schule?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "edu0511",
@@ -714,12 +714,12 @@
       "question": "edu0521",
       "name": "edu0521",
       "label": "How long have you and your twin been in the same school?",
-      "label_de": "[IF age [ 16] Seit wann gehen Du und Dein Zwilling in die gleiche Schule? [IF age ]= 16] Seit wann gehen Sie mit Ihrem Zwilling in die gleiche Schule?",
+      "label_de": "[IF age < 16] Seit wann gehen Du und Dein Zwilling in die gleiche Schule? [IF age >= 16] Seit wann gehen Sie mit Ihrem Zwilling in die gleiche Schule?",
       "items": [
         {
           "item": "1",
           "text": "How long have you and your twin been in the same school?",
-          "text_de": "[IF age [ 16] Seit wann gehen Du und Dein Zwilling in die gleiche Schule? [IF age ]= 16] Seit wann gehen Sie mit Ihrem Zwilling in die gleiche Schule?",
+          "text_de": "[IF age < 16] Seit wann gehen Du und Dein Zwilling in die gleiche Schule? [IF age >= 16] Seit wann gehen Sie mit Ihrem Zwilling in die gleiche Schule?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "edu0521",
@@ -748,12 +748,12 @@
       "question": "edu0523",
       "name": "edu0523",
       "label": "Since when are you and your twin not in the same school?",
-      "label_de": "[IF age [ 16] Seit wann gehen Du und Dein Zwilling nicht in die gleiche Schule? [IF age ]= 16] Seit wann gehen Sie mit Ihrem Zwilling nicht in die gleiche Schule?",
+      "label_de": "[IF age < 16] Seit wann gehen Du und Dein Zwilling nicht in die gleiche Schule? [IF age >= 16] Seit wann gehen Sie mit Ihrem Zwilling nicht in die gleiche Schule?",
       "items": [
         {
           "item": "1",
           "text": "Since when are you and your twin not in the same school?",
-          "text_de": "[IF age [ 16] Seit wann gehen Du und Dein Zwilling nicht in die gleiche Schule? [IF age ]= 16] Seit wann gehen Sie mit Ihrem Zwilling nicht in die gleiche Schule?",
+          "text_de": "[IF age < 16] Seit wann gehen Du und Dein Zwilling nicht in die gleiche Schule? [IF age >= 16] Seit wann gehen Sie mit Ihrem Zwilling nicht in die gleiche Schule?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "edu0523",
@@ -782,12 +782,12 @@
       "question": "edu0512",
       "name": "edu0512",
       "label": "Are you and your twin in the same class?",
-      "label_de": "[IF age ]= 13 and age [= 15] Gehst Du mit deinem Zwilling in die gleiche Klasse? [IF age ]= 16 ] Gehen Sie mit Ihrem Zwilling in die gleiche Klasse?",
+      "label_de": "[IF age >= 13 and age <= 15] Gehst Du mit deinem Zwilling in die gleiche Klasse? [IF age >= 16 ] Gehen Sie mit Ihrem Zwilling in die gleiche Klasse?",
       "items": [
         {
           "item": "1",
           "text": "Are you and your twin in the same class?",
-          "text_de": "[IF age ]= 13 and age [= 15] Gehst Du mit deinem Zwilling in die gleiche Klasse? [IF age ]= 16 ] Gehen Sie mit Ihrem Zwilling in die gleiche Klasse?",
+          "text_de": "[IF age >= 13 and age <= 15] Gehst Du mit deinem Zwilling in die gleiche Klasse? [IF age >= 16 ] Gehen Sie mit Ihrem Zwilling in die gleiche Klasse?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "edu0512",
@@ -836,12 +836,12 @@
       "question": "edu0531",
       "name": "edu0531",
       "label": "How long have you and your twin been in the same class?",
-      "label_de": "[IF age [ 16] Seit wann gehen Du und Dein Zwilling in die gleiche Klasse? [IF age ]= 16] Seit wann gehen Sie mit Ihrem Zwilling in die gleiche Klasse?",
+      "label_de": "[IF age < 16] Seit wann gehen Du und Dein Zwilling in die gleiche Klasse? [IF age >= 16] Seit wann gehen Sie mit Ihrem Zwilling in die gleiche Klasse?",
       "items": [
         {
           "item": "1",
           "text": "How long have you and your twin been in the same class?",
-          "text_de": "[IF age [ 16] Seit wann gehen Du und Dein Zwilling in die gleiche Klasse? [IF age ]= 16] Seit wann gehen Sie mit Ihrem Zwilling in die gleiche Klasse?",
+          "text_de": "[IF age < 16] Seit wann gehen Du und Dein Zwilling in die gleiche Klasse? [IF age >= 16] Seit wann gehen Sie mit Ihrem Zwilling in die gleiche Klasse?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "edu0531",
@@ -870,12 +870,12 @@
       "question": "edu0533",
       "name": "edu0533",
       "label": "Since when are you and your twin not in the same class?",
-      "label_de": "[IF age [ 16] Seit wann gehen Du und Dein Zwilling nicht in die gleiche Klasse? [IF age ]= 16] Seit wann gehen Sie mit Ihrem Zwilling nicht in die gleiche Klasse?",
+      "label_de": "[IF age < 16] Seit wann gehen Du und Dein Zwilling nicht in die gleiche Klasse? [IF age >= 16] Seit wann gehen Sie mit Ihrem Zwilling nicht in die gleiche Klasse?",
       "items": [
         {
           "item": "1",
           "text": "Since when are you and your twin not in the same class?",
-          "text_de": "[IF age [ 16] Seit wann gehen Du und Dein Zwilling nicht in die gleiche Klasse? [IF age ]= 16] Seit wann gehen Sie mit Ihrem Zwilling nicht in die gleiche Klasse?",
+          "text_de": "[IF age < 16] Seit wann gehen Du und Dein Zwilling nicht in die gleiche Klasse? [IF age >= 16] Seit wann gehen Sie mit Ihrem Zwilling nicht in die gleiche Klasse?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "edu0533",
@@ -904,12 +904,12 @@
       "question": "edu0700",
       "name": "edu0700",
       "label": "[ITEMBAT] [NCS] Now please think about the teachers at your school. To what extent do you agree with the following statements?",
-      "label_de": "[ITEMBAT] [NCS][IF age ]= 13 and age [ = 15]:Nun denk bitte an die Lehrerinnen und Lehrer an deiner Schule: Wie sehr stimmst Du den folgenden Aussagen zu? [NCS][IF age ] = 16]: Denken Sie an die Lehrerinnen und Lehrer an Ihrer Schule: Wie sehr stimmen Sie den folgenden Aussagen zu?",
+      "label_de": "[ITEMBAT] [NCS][IF age >= 13 and age < = 15]:Nun denk bitte an die Lehrerinnen und Lehrer an deiner Schule: Wie sehr stimmst Du den folgenden Aussagen zu? [NCS][IF age > = 16]: Denken Sie an die Lehrerinnen und Lehrer an Ihrer Schule: Wie sehr stimmen Sie den folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
           "text": "[ITEMBAT] [NCS] Now please think about the teachers at your school. To what extent do you agree with the following statements?",
-          "text_de": "[ITEMBAT] [NCS][IF age ]= 13 and age [ = 15]:Nun denk bitte an die Lehrerinnen und Lehrer an deiner Schule: Wie sehr stimmst Du den folgenden Aussagen zu? [NCS][IF age ] = 16]: Denken Sie an die Lehrerinnen und Lehrer an Ihrer Schule: Wie sehr stimmen Sie den folgenden Aussagen zu?",
+          "text_de": "[ITEMBAT] [NCS][IF age >= 13 and age < = 15]:Nun denk bitte an die Lehrerinnen und Lehrer an deiner Schule: Wie sehr stimmst Du den folgenden Aussagen zu? [NCS][IF age > = 16]: Denken Sie an die Lehrerinnen und Lehrer an Ihrer Schule: Wie sehr stimmen Sie den folgenden Aussagen zu?",
           "description": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "description_de": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "filter": "(inlist(ptyp,1,2,200)) & age0110>=13 & (edu0100==2 | edu0301==1)",
@@ -993,12 +993,12 @@
       "question": "edu0800",
       "name": "edu0800",
       "label": "[ITEMBAT] [NCS] Now please think about the teachers you are taught by. To what extent do you agree with the following statements?",
-      "label_de": "[ITEMBAT] [NCS] [IF age ]= 13 and age [ = 15]: Jetzt denk bitte an die Lehrerinnen und Lehrer, von denen Du unterrichtet wirst: Wie sehr stimmst Du den folgenden Aussagen zu?[NCS] [IF age ] = 16]: Denken Sie an die Lehrerinnen und Lehrer, von denen Sie unterrichtet werden: Wie sehr stimmen Sie den folgenden Aussagen zu?",
+      "label_de": "[ITEMBAT] [NCS] [IF age >= 13 and age < = 15]: Jetzt denk bitte an die Lehrerinnen und Lehrer, von denen Du unterrichtet wirst: Wie sehr stimmst Du den folgenden Aussagen zu?[NCS] [IF age > = 16]: Denken Sie an die Lehrerinnen und Lehrer, von denen Sie unterrichtet werden: Wie sehr stimmen Sie den folgenden Aussagen zu?",
       "items": [
         {
           "item": "0",
           "text": "[ITEMBAT] [NCS] Now please think about the teachers you are taught by. To what extent do you agree with the following statements?",
-          "text_de": "[ITEMBAT] [NCS] [IF age ]= 13 and age [ = 15]: Jetzt denk bitte an die Lehrerinnen und Lehrer, von denen Du unterrichtet wirst: Wie sehr stimmst Du den folgenden Aussagen zu?[NCS] [IF age ] = 16]: Denken Sie an die Lehrerinnen und Lehrer, von denen Sie unterrichtet werden: Wie sehr stimmen Sie den folgenden Aussagen zu?",
+          "text_de": "[ITEMBAT] [NCS] [IF age >= 13 and age < = 15]: Jetzt denk bitte an die Lehrerinnen und Lehrer, von denen Du unterrichtet wirst: Wie sehr stimmst Du den folgenden Aussagen zu?[NCS] [IF age > = 16]: Denken Sie an die Lehrerinnen und Lehrer, von denen Sie unterrichtet werden: Wie sehr stimmen Sie den folgenden Aussagen zu?",
           "description": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "description_de": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "filter": "(inlist(ptyp,1,2,200)) & age0110>=13 & (edu0100==2 | edu0301==1)",
@@ -1115,12 +1115,12 @@
       "question": "edu0901",
       "name": "edu0901",
       "label": "[ITEMBAT] [NCS]: In the following I have a few questions about your day-to-day school life in general. Again, I would like to know from you to what extent you agree with the statements.",
-      "label_de": "[ITEMBAT] [NCS] [IF age ]= 13 and age [ = 15]: Im Folgenden habe ich noch ein paar Fragen zu Deinem Schulalltag allgemein. Auch hier moechte ich wieder von Dir wissen, wie sehr Du den Aussagen zustimmst. [NCS] [IF age ] = 16]: Im Folgenden habe ich noch ein paar Fragen zu Ihrem Schulalltag allgemein. Auch hier moechte ich wieder von Ihnen wissen, wie sehr Sie den Aussagen zustimmen.",
+      "label_de": "[ITEMBAT] [NCS] [IF age >= 13 and age < = 15]: Im Folgenden habe ich noch ein paar Fragen zu Deinem Schulalltag allgemein. Auch hier moechte ich wieder von Dir wissen, wie sehr Du den Aussagen zustimmst. [NCS] [IF age > = 16]: Im Folgenden habe ich noch ein paar Fragen zu Ihrem Schulalltag allgemein. Auch hier moechte ich wieder von Ihnen wissen, wie sehr Sie den Aussagen zustimmen.",
       "items": [
         {
           "item": "0",
           "text": "[ITEMBAT] [NCS]: In the following I have a few questions about your day-to-day school life in general. Again, I would like to know from you to what extent you agree with the statements.",
-          "text_de": "[ITEMBAT] [NCS] [IF age ]= 13 and age [ = 15]: Im Folgenden habe ich noch ein paar Fragen zu Deinem Schulalltag allgemein. Auch hier moechte ich wieder von Dir wissen, wie sehr Du den Aussagen zustimmst. [NCS] [IF age ] = 16]: Im Folgenden habe ich noch ein paar Fragen zu Ihrem Schulalltag allgemein. Auch hier moechte ich wieder von Ihnen wissen, wie sehr Sie den Aussagen zustimmen.",
+          "text_de": "[ITEMBAT] [NCS] [IF age >= 13 and age < = 15]: Im Folgenden habe ich noch ein paar Fragen zu Deinem Schulalltag allgemein. Auch hier moechte ich wieder von Dir wissen, wie sehr Du den Aussagen zustimmst. [NCS] [IF age > = 16]: Im Folgenden habe ich noch ein paar Fragen zu Ihrem Schulalltag allgemein. Auch hier moechte ich wieder von Ihnen wissen, wie sehr Sie den Aussagen zustimmen.",
           "description": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "filter": "(inlist(ptyp,1,2,200)) & age0110>=13 & edu0100==2",
@@ -1369,12 +1369,12 @@
       "question": "net0203",
       "name": "net0203",
       "label": "[ITEMBAT] [NCS]: How many close friends do you have? This also includes family members with whom you have a close relationship. This does not include people with whom you are !!! only !!! Facebook friends.",
-      "label_de": "[ITEMBAT] [NCS][IF age ]= 8 and age [ =15]: Wie viele enge Freundinnen und Freunde hast du? Dazu zaehlen auch Familienmitglieder, zu denen eine enge Beziehung besteht. Personen, mit denen man !!!nur!!! ueber Facebook oder andere soziale Netzwerke befreundet ist, sind hier nicht gemeint. [NCS][IF age ] 15]: Wie viele enge Freundinnen und Freunde haben Sie? Dazu zaehlen auch Partner und Familienmitglieder, zu denen eine enge Beziehung besteht. Personen, mit denen man !!!nur!!! ueber Facebook oder andere soziale Netzwerke befreundet ist, sind hier nicht gemeint.",
+      "label_de": "[ITEMBAT] [NCS][IF age >= 8 and age < =15]: Wie viele enge Freundinnen und Freunde hast du? Dazu zaehlen auch Familienmitglieder, zu denen eine enge Beziehung besteht. Personen, mit denen man !!!nur!!! ueber Facebook oder andere soziale Netzwerke befreundet ist, sind hier nicht gemeint. [NCS][IF age > 15]: Wie viele enge Freundinnen und Freunde haben Sie? Dazu zaehlen auch Partner und Familienmitglieder, zu denen eine enge Beziehung besteht. Personen, mit denen man !!!nur!!! ueber Facebook oder andere soziale Netzwerke befreundet ist, sind hier nicht gemeint.",
       "items": [
         {
           "item": "1",
           "text": "[ITEMBAT] [NCS]: How many close friends do you have? This also includes family members with whom you have a close relationship. This does not include people with whom you are !!! only !!! Facebook friends.",
-          "text_de": "[ITEMBAT] [NCS][IF age ]= 8 and age [ =15]: Wie viele enge Freundinnen und Freunde hast du? Dazu zaehlen auch Familienmitglieder, zu denen eine enge Beziehung besteht. Personen, mit denen man !!!nur!!! ueber Facebook oder andere soziale Netzwerke befreundet ist, sind hier nicht gemeint. [NCS][IF age ] 15]: Wie viele enge Freundinnen und Freunde haben Sie? Dazu zaehlen auch Partner und Familienmitglieder, zu denen eine enge Beziehung besteht. Personen, mit denen man !!!nur!!! ueber Facebook oder andere soziale Netzwerke befreundet ist, sind hier nicht gemeint.",
+          "text_de": "[ITEMBAT] [NCS][IF age >= 8 and age < =15]: Wie viele enge Freundinnen und Freunde hast du? Dazu zaehlen auch Familienmitglieder, zu denen eine enge Beziehung besteht. Personen, mit denen man !!!nur!!! ueber Facebook oder andere soziale Netzwerke befreundet ist, sind hier nicht gemeint. [NCS][IF age > 15]: Wie viele enge Freundinnen und Freunde haben Sie? Dazu zaehlen auch Partner und Familienmitglieder, zu denen eine enge Beziehung besteht. Personen, mit denen man !!!nur!!! ueber Facebook oder andere soziale Netzwerke befreundet ist, sind hier nicht gemeint.",
           "description": "Berg, M., Cramer, R., Dickmann, C., Gilberg, R., Jesske, B., Kleudgen, M., Bethmann, A., Fuchs, B., Trappmann, M., & Wurdack, A. (2013). Codebuch und Dokumentation des Panel Arbeitsmarkt und soziale Sicherung (PASS) Band I: Datenreport Welle 6 [Panel Study Labour Market and Social Security (PASS): PASS personal questionnaire wave 6 2013]. 6, 1. [[URL link]](http://doku.iab.de/fdz/reporte/2013/DR_06-13_I.pdf)",
           "description_de": "Berg, M., Cramer, R., Dickmann, C., Gilberg, R., Jesske, B., Kleudgen, M., Bethmann, A., Fuchs, B., Trappmann, M., & Wurdack, A. (2013). Codebuch und Dokumentation des Panel Arbeitsmarkt und soziale Sicherung (PASS) Band I: Datenreport Welle 6 [Panel Study Labour Market and Social Security (PASS): PASS personal questionnaire wave 6 2013]. 6, 1. [[URL link]](http://doku.iab.de/fdz/reporte/2013/DR_06-13_I.pdf)",
           "concept": "net0203",
@@ -1403,12 +1403,12 @@
       "question": "net0209",
       "name": "net0209",
       "label": "And how many of those live in your household?",
-      "label_de": "[IF age ]= 8 and age [ =15]: Und wie viele davon leben bei Dir im Haushalt? [IF age ]15]: Und wie viele davon leben bei Ihnen im Haushalt?",
+      "label_de": "[IF age >= 8 and age < =15]: Und wie viele davon leben bei Dir im Haushalt? [IF age >15]: Und wie viele davon leben bei Ihnen im Haushalt?",
       "items": [
         {
           "item": "1",
           "text": "And how many of those live in your household?",
-          "text_de": "[IF age ]= 8 and age [ =15]: Und wie viele davon leben bei Dir im Haushalt? [IF age ]15]: Und wie viele davon leben bei Ihnen im Haushalt?",
+          "text_de": "[IF age >= 8 and age < =15]: Und wie viele davon leben bei Dir im Haushalt? [IF age >15]: Und wie viele davon leben bei Ihnen im Haushalt?",
           "description": "Item developed for TwinLife (form to fill-in on the basis of U-Heft).",
           "description_de": "Item developed for TwinLife (form to fill-in on the basis of U-Heft).",
           "concept": "net0209",
@@ -1437,12 +1437,12 @@
       "question": "edu0100t",
       "name": "edu0100t",
       "label": "Does your child go to school?",
-      "label_de": "Besucht [NAME DES KINDES] eine allgemeinbildende Schule?",
+      "label_de": "Besucht <NAME DES KINDES> eine allgemeinbildende Schule?",
       "items": [
         {
           "item": "1",
           "text": "Does your child go to school?",
-          "text_de": "Besucht [NAME DES KINDES] eine allgemeinbildende Schule?",
+          "text_de": "Besucht <NAME DES KINDES> eine allgemeinbildende Schule?",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "concept": "edu0100t",
@@ -1476,12 +1476,12 @@
       "question": "edu0100u",
       "name": "edu0100u",
       "label": "Does your child go to school?",
-      "label_de": "Besucht [NAME DES KINDES] eine allgemeinbildende Schule?",
+      "label_de": "Besucht <NAME DES KINDES> eine allgemeinbildende Schule?",
       "items": [
         {
           "item": "2",
           "text": "Does your child go to school?",
-          "text_de": "Besucht [NAME DES KINDES] eine allgemeinbildende Schule?",
+          "text_de": "Besucht <NAME DES KINDES> eine allgemeinbildende Schule?",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "concept": "edu0100u",
@@ -1515,12 +1515,12 @@
       "question": "edu0100s",
       "name": "edu0100s",
       "label": "Does your child go to school?",
-      "label_de": "Besucht [NAME DES KINDES] eine allgemeinbildende Schule?",
+      "label_de": "Besucht <NAME DES KINDES> eine allgemeinbildende Schule?",
       "items": [
         {
           "item": "3",
           "text": "Does your child go to school?",
-          "text_de": "Besucht [NAME DES KINDES] eine allgemeinbildende Schule?",
+          "text_de": "Besucht <NAME DES KINDES> eine allgemeinbildende Schule?",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "concept": "edu0100s",
@@ -1554,12 +1554,12 @@
       "question": "imo0100s",
       "name": "imo0100s",
       "label": "Please rate the extent to which each statement applies.",
-      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen. [Nach 2. Item gruen] Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen. [Nach 2. Item gruen] Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
       "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies.",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen. [Nach 2. Item gruen] Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen. [Nach 2. Item gruen] Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "filter": "inrange(age0110s,5,7) & edu0100s==1",
@@ -1609,7 +1609,7 @@
         {
           "item": "2",
           "text": "I believe that [name of the child] will like what he/she will learn at school.",
-          "text_de": "[If sexchild = 1] Ich glaube, [NAME DES KINDES] wird das, was er in der Schule lernt, moegen. [If sexchild = 2] Ich glaube, [NAME DES KINDES] wird das, was sie in der Schule lernt, moegen.",
+          "text_de": "[If sexchild = 1] Ich glaube, <NAME DES KINDES> wird das, was er in der Schule lernt, moegen. [If sexchild = 2] Ich glaube, <NAME DES KINDES> wird das, was sie in der Schule lernt, moegen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "concept": "imo0100s",
@@ -1691,12 +1691,12 @@
       "question": "spa0100s",
       "name": "spa0100s",
       "label": "Please rate the extent to which each statement applies.",
-      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen. [Nach 2. Item gruen] Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen. [Nach 2. Item gruen] Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
       "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies.",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen. [Nach 2. Item gruen] Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen. [Nach 2. Item gruen] Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft gar nicht zu. Der Wert 5 bedeutet: trifft genau zu. Mit den Werten zwischen 1 und 5 koennen Sie Ihre Meinung abstufen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "filter": "inrange(age0110s,5,7) & edu0100s==1",
@@ -1746,7 +1746,7 @@
         {
           "item": "2",
           "text": "I believe that the things that will be expected of him/her at school will come easy to him/her.",
-          "text_de": "[If sexchild=1] Ich glaube, dass [NAME DES KINDES] die Dinge, die in der Schule von ihm erwartet werden, leicht fallen werden. [If sexchild=2] Ich glaube, dass [NAME DES KINDES] die Dinge, die in der Schule von ihr erwartet werden, leicht fallen werden.",
+          "text_de": "[If sexchild=1] Ich glaube, dass <NAME DES KINDES> die Dinge, die in der Schule von ihm erwartet werden, leicht fallen werden. [If sexchild=2] Ich glaube, dass <NAME DES KINDES> die Dinge, die in der Schule von ihr erwartet werden, leicht fallen werden.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "concept": "spa0100s",
@@ -1789,13 +1789,13 @@
     "imo0701t": {
       "question": "imo0701t",
       "name": "imo0701t",
-      "label": "It is important for me that [name child] gets good grades.",
-      "label_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+      "label": "It is important for me that <name child> gets good grades.",
+      "label_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
       "items": [
         {
           "item": "1",
-          "text": "It is important for me that [name child] gets good grades.",
-          "text_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+          "text": "It is important for me that <name child> gets good grades.",
+          "text_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "imo0701t",
@@ -1838,13 +1838,13 @@
     "imo0701u": {
       "question": "imo0701u",
       "name": "imo0701u",
-      "label": "It is important for me that [name child] gets good grades.",
-      "label_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+      "label": "It is important for me that <name child> gets good grades.",
+      "label_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
       "items": [
         {
           "item": "1",
-          "text": "It is important for me that [name child] gets good grades.",
-          "text_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+          "text": "It is important for me that <name child> gets good grades.",
+          "text_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "imo0701u",
@@ -1887,13 +1887,13 @@
     "imo0701s": {
       "question": "imo0701s",
       "name": "imo0701s",
-      "label": "It is important for me that [name child] gets good grades.",
-      "label_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+      "label": "It is important for me that <name child> gets good grades.",
+      "label_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
       "items": [
         {
           "item": "1",
-          "text": "It is important for me that [name child] gets good grades.",
-          "text_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+          "text": "It is important for me that <name child> gets good grades.",
+          "text_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "imo0701s",
