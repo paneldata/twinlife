@@ -686,35 +686,24 @@
       "instrument": "wid3_F2F2_module4",
       "study": "twinlife"
     },
-    "imo0100t": {
-      "question": "imo0100t",
-      "name": "imo0100t",
+    "imo0100s": {
+      "question": "imo0100s",
+      "name": "imo0100s",
       "label": "Please rate the extent to which each statement applies.",
-      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
       "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies.",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
-          "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110t,5,7) & edu0100t==1)",
-          "concept": "imo0100t",
+          "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110s,5,7) & edu0100s==1)",
+          "concept": "imo0100s",
           "scale": "txt",
           "number": "16",
           "sn": 0
-        }
-      ],
-      "sn": 10,
-      "instrument": "wid3_F2F2_module4",
-      "study": "twinlife"
-    },
-    "imo0100s": {
-      "question": "imo0100s",
-      "name": "imo0100s",
-      "label": "I believe that [name of the child] will like school.",
-      "label_de": "Ich glaube, [Name des Kindes] wird die Schule moegen.",
-      "items": [
+        },
         {
           "item": "1",
           "text": "I believe that [name of the child] will like school.",
@@ -751,29 +740,17 @@
               "label_de": "5: trifft genau zu"
             }
           ],
-          "sn": 0
-        },
-        {
-          "item": "0",
-          "text": "Please rate the extent to which each statement applies.",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
-          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
-          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
-          "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110s,5,7) & edu0100s==1)",
-          "concept": "imo0100s",
-          "scale": "txt",
-          "number": "19",
           "sn": 1
         },
         {
           "item": "2",
           "text": "I believe that [name of the child] will like what he/she will learn at school.",
-          "text_de": "[If sexchild = 1] Ich glaube, [NAME DES KINDES] wird das, was er in der Schule lernt, moegen. [If sexchild = 2] Ich glaube, [NAME DES KINDES] wird das, was sie in der Schule lernt, moegen.",
+          "text_de": "[If sexchild = 1] Ich glaube, <NAME DES KINDES> wird das, was er in der Schule lernt, moegen. [If sexchild = 2] Ich glaube, <NAME DES KINDES> wird das, was sie in der Schule lernt, moegen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "concept": "imo0100s",
           "scale": "cat",
-          "number": "20",
+          "number": "18",
           "answers": [
             {
               "value": 1,
@@ -811,7 +788,144 @@
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "concept": "imo0100s",
           "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid3_F2F2_module4",
+      "study": "twinlife"
+    },
+    "imo0100t": {
+      "question": "imo0100t",
+      "name": "imo0100t",
+      "label": "Please rate the extent to which each statement applies.",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
+      "items": [
+        {
+          "item": "0",
+          "text": "Please rate the extent to which each statement applies.",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110t,5,7) & edu0100t==1)",
+          "concept": "imo0100t",
+          "scale": "txt",
+          "number": "20",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "I believe that [name of the child] will like school.",
+          "text_de": "Ich glaube, [Name des Kindes] wird die Schule moegen.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "imo0100t",
+          "scale": "cat",
           "number": "21",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "I believe that [name of the child] will like what he/she will learn at school.",
+          "text_de": "[If sexchild = 1] Ich glaube, <NAME DES KINDES> wird das, was er in der Schule lernt, moegen. [If sexchild = 2] Ich glaube, <NAME DES KINDES> wird das, was sie in der Schule lernt, moegen.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "imo0100t",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "[Name of the child] is looking forward to school.",
+          "text_de": "[Name des Kindes] freut sich auf die Schule.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "imo0100t",
+          "scale": "cat",
+          "number": "23",
           "answers": [
             {
               "value": 1,
@@ -850,63 +964,29 @@
       "question": "imo0100u",
       "name": "imo0100u",
       "label": "Please rate the extent to which each statement applies.",
-      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
       "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies.",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110t,5,7) & edu0100u==1)",
           "concept": "imo0100u",
           "scale": "txt",
-          "number": "18",
+          "number": "24",
           "sn": 0
-        }
-      ],
-      "sn": 12,
-      "instrument": "wid3_F2F2_module4",
-      "study": "twinlife"
-    },
-    "spa0100t": {
-      "question": "spa0100t",
-      "name": "spa0100t",
-      "label": "Please rate the extent to which each statement applies.",
-      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
-      "items": [
-        {
-          "item": "0",
-          "text": "Please rate the extent to which each statement applies.",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
-          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
-          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
-          "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110t,5,7) & edu0100t==1)",
-          "concept": "spa0100t",
-          "scale": "txt",
-          "number": "22",
-          "sn": 0
-        }
-      ],
-      "sn": 13,
-      "instrument": "wid3_F2F2_module4",
-      "study": "twinlife"
-    },
-    "spa0100s": {
-      "question": "spa0100s",
-      "name": "spa0100s",
-      "label": "I believe that [name of the child] will do generally well at school.",
-      "label_de": "Ich glaube, dass [Name des Kindes] in der Schule ganz allgemein gut sein wird.",
-      "items": [
+        },
         {
           "item": "1",
-          "text": "I believe that [name of the child] will do generally well at school.",
-          "text_de": "Ich glaube, dass [Name des Kindes] in der Schule ganz allgemein gut sein wird.",
+          "text": "I believe that [name of the child] will like school.",
+          "text_de": "Ich glaube, [Name des Kindes] wird die Schule moegen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
-          "concept": "spa0100s",
+          "concept": "imo0100u",
           "scale": "cat",
-          "number": "23",
+          "number": "25",
           "answers": [
             {
               "value": 1,
@@ -934,29 +1014,253 @@
               "label_de": "5: trifft genau zu"
             }
           ],
-          "sn": 0
+          "sn": 1
         },
+        {
+          "item": "2",
+          "text": "I believe that [name of the child] will like what he/she will learn at school.",
+          "text_de": "[If sexchild = 1] Ich glaube, <NAME DES KINDES> wird das, was er in der Schule lernt, moegen. [If sexchild = 2] Ich glaube, <NAME DES KINDES> wird das, was sie in der Schule lernt, moegen.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "imo0100u",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "[Name of the child] is looking forward to school.",
+          "text_de": "[Name des Kindes] freut sich auf die Schule.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "imo0100u",
+          "scale": "cat",
+          "number": "27",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid3_F2F2_module4",
+      "study": "twinlife"
+    },
+    "spa0100s": {
+      "question": "spa0100s",
+      "name": "spa0100s",
+      "label": "Please rate the extent to which each statement applies.",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
+      "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies.",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110s,5,7) & edu0100s==1)",
           "concept": "spa0100s",
           "scale": "txt",
-          "number": "25",
+          "number": "28",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "I believe that [name of the child] will do generally well at school.",
+          "text_de": "Ich glaube, dass [Name des Kindes] in der Schule ganz allgemein gut sein wird.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "spa0100s",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
           "sn": 1
         },
         {
           "item": "2",
           "text": "I believe that the things that will be expected of him/her at school will come easy to him/her.",
-          "text_de": "[If sexchild=1] Ich glaube, dass [NAME DES KINDES] die Dinge, die in der Schule von ihm erwartet werden, leicht fallen werden. [If sexchild=2] Ich glaube, dass [NAME DES KINDES] die Dinge, die in der Schule von ihr erwartet werden, leicht fallen werden.",
+          "text_de": "[If sexchild=1] Ich glaube, dass <NAME DES KINDES> die Dinge, die in der Schule von ihm erwartet werden, leicht fallen werden. [If sexchild=2] Ich glaube, dass <NAME DES KINDES> die Dinge, die in der Schule von ihr erwartet werden, leicht fallen werden.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "concept": "spa0100s",
           "scale": "cat",
-          "number": "26",
+          "number": "30",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 2
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid3_F2F2_module4",
+      "study": "twinlife"
+    },
+    "spa0100t": {
+      "question": "spa0100t",
+      "name": "spa0100t",
+      "label": "Please rate the extent to which each statement applies.",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
+      "items": [
+        {
+          "item": "0",
+          "text": "Please rate the extent to which each statement applies.",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110t,5,7) & edu0100t==1)",
+          "concept": "spa0100t",
+          "scale": "txt",
+          "number": "31",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "I believe that [name of the child] will do generally well at school.",
+          "text_de": "Ich glaube, dass [Name des Kindes] in der Schule ganz allgemein gut sein wird.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "spa0100t",
+          "scale": "cat",
+          "number": "32",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "I believe that the things that will be expected of him/her at school will come easy to him/her.",
+          "text_de": "[If sexchild=1] Ich glaube, dass <NAME DES KINDES> die Dinge, die in der Schule von ihm erwartet werden, leicht fallen werden. [If sexchild=2] Ich glaube, dass <NAME DES KINDES> die Dinge, die in der Schule von ihr erwartet werden, leicht fallen werden.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "spa0100t",
+          "scale": "cat",
+          "number": "33",
           "answers": [
             {
               "value": 1,
@@ -995,19 +1299,95 @@
       "question": "spa0100u",
       "name": "spa0100u",
       "label": "Please rate the extent to which each statement applies.",
-      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
+      "label_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
       "items": [
         {
           "item": "0",
           "text": "Please rate the extent to which each statement applies.",
-          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf [NAME DES KINDES] zutreffen.",
+          "text_de": "[ITEMBAT] [NCS] Bitte geben Sie an, wie gut folgende Angaben auf <NAME DES KINDES> zutreffen.",
           "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
           "filter": "(inlist(ptyp,300,400,500,600)) & (inrange(age0110t,5,7) & edu0100u==1)",
           "concept": "spa0100u",
           "scale": "txt",
-          "number": "24",
+          "number": "34",
           "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "I believe that [name of the child] will do generally well at school.",
+          "text_de": "Ich glaube, dass [Name des Kindes] in der Schule ganz allgemein gut sein wird.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "spa0100u",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "I believe that the things that will be expected of him/her at school will come easy to him/her.",
+          "text_de": "[If sexchild=1] Ich glaube, dass <NAME DES KINDES> die Dinge, die in der Schule von ihm erwartet werden, leicht fallen werden. [If sexchild=2] Ich glaube, dass <NAME DES KINDES> die Dinge, die in der Schule von ihr erwartet werden, leicht fallen werden.",
+          "description": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "description_de": "Source: Adapted from: Dickhaeuser, O., Schoene, C., Spinath, B., & Stiensmeier-Pelster, J. (2002). Die Skalen zum akademischen Selbstkonzept. Zeitschrift fuer Differentielle und Diagnostische Psychologie, 23(4), 393-405. [[URL link]](https://doi.org/10.1024//0170-1789.23.4.393)",
+          "concept": "spa0100u",
+          "scale": "cat",
+          "number": "36",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: does not apply",
+              "label_de": "2: trifft nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: nor",
+              "label_de": "3: weder noch"
+            },
+            {
+              "value": 4,
+              "label": "4: does apply",
+              "label_de": "4: trifft zu"
+            },
+            {
+              "value": 5,
+              "label": "5: does apply exactly",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 2
         }
       ],
       "sn": 15,
@@ -1029,7 +1409,7 @@
           "filter": "(inlist(ptyp,1,2,200,300,400,500,600)) & age0110 >=10 & (edu0100==2 | edu0301==1)",
           "concept": "imo0200",
           "scale": "txt",
-          "number": "27",
+          "number": "37",
           "sn": 0
         },
         {
@@ -1040,7 +1420,7 @@
           "description_de": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "concept": "imo0200",
           "scale": "cat",
-          "number": "28",
+          "number": "38",
           "answers": [
             {
               "value": 1,
@@ -1078,7 +1458,7 @@
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "concept": "imo0200",
           "scale": "cat",
-          "number": "29",
+          "number": "39",
           "answers": [
             {
               "value": 1,
@@ -1116,7 +1496,7 @@
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "concept": "imo0200",
           "scale": "cat",
-          "number": "30",
+          "number": "40",
           "answers": [
             {
               "value": 1,
@@ -1166,7 +1546,7 @@
           "filter": "(inlist(ptyp,1,2,200,300,400,500,600)) & age0110 >=10 & (edu0100==2 | edu0301==1)",
           "concept": "imo0300",
           "scale": "txt",
-          "number": "31",
+          "number": "41",
           "sn": 0
         },
         {
@@ -1177,7 +1557,7 @@
           "description_de": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "concept": "imo0300",
           "scale": "cat",
-          "number": "32",
+          "number": "42",
           "answers": [
             {
               "value": 1,
@@ -1215,7 +1595,7 @@
           "description_de": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "concept": "imo0300",
           "scale": "cat",
-          "number": "33",
+          "number": "43",
           "answers": [
             {
               "value": 1,
@@ -1253,7 +1633,7 @@
           "description_de": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "concept": "imo0300",
           "scale": "cat",
-          "number": "34",
+          "number": "44",
           "answers": [
             {
               "value": 1,
@@ -1291,7 +1671,7 @@
           "description_de": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "concept": "imo0300",
           "scale": "cat",
-          "number": "35",
+          "number": "45",
           "answers": [
             {
               "value": 1,
@@ -1329,7 +1709,7 @@
           "description_de": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "concept": "imo0300",
           "scale": "cat",
-          "number": "36",
+          "number": "46",
           "answers": [
             {
               "value": 1,
@@ -1367,7 +1747,7 @@
           "description_de": "Source: Adapted from: Steinmayr, R., & Spinath, B. (2010). Konstruktion und erste Validierung einer Skala zur Erfassung subjektiver schulischer Werte (SESSW). Diagnostica, 56(4), 195-211. [[URL link]](https://doi.org/10.1026/0012-1924/a000023)",
           "concept": "imo0300",
           "scale": "cat",
-          "number": "37",
+          "number": "47",
           "answers": [
             {
               "value": 1,
@@ -1417,7 +1797,7 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=10 & (edu0100==2 | edu0301==1)",
           "concept": "imo0500",
           "scale": "txt",
-          "number": "38",
+          "number": "48",
           "sn": 0
         },
         {
@@ -1428,7 +1808,7 @@
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "concept": "imo0500",
           "scale": "cat",
-          "number": "39",
+          "number": "49",
           "answers": [
             {
               "value": 1,
@@ -1466,7 +1846,7 @@
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "concept": "imo0500",
           "scale": "cat",
-          "number": "40",
+          "number": "50",
           "answers": [
             {
               "value": 1,
@@ -1504,7 +1884,7 @@
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "concept": "imo0500",
           "scale": "cat",
-          "number": "41",
+          "number": "51",
           "answers": [
             {
               "value": 1,
@@ -1554,7 +1934,7 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (inlist(emp0200,1,2,3) | inlist(emp0400,1,2,3,4,6))",
           "concept": "imo0600",
           "scale": "txt",
-          "number": "42",
+          "number": "52",
           "sn": 0
         },
         {
@@ -1565,7 +1945,7 @@
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "concept": "imo0600",
           "scale": "cat",
-          "number": "43",
+          "number": "53",
           "answers": [
             {
               "value": 1,
@@ -1603,7 +1983,7 @@
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "concept": "imo0600",
           "scale": "cat",
-          "number": "44",
+          "number": "54",
           "answers": [
             {
               "value": 1,
@@ -1641,7 +2021,7 @@
           "description_de": "Spinath, B., Stiensmeier-Pelster, J., Schoene, C., & Dickhaeuser, O. (2002). Skalen zur Erfassung der Lern- und Leistungsmotivation. SELLMO. Hogrefe. [[URL link]](https://www.testzentrale.de/shop/skalen-zur-erfassung-der-lern-und-leistungsmotivation.html#1+1)",
           "concept": "imo0600",
           "scale": "cat",
-          "number": "45",
+          "number": "55",
           "answers": [
             {
               "value": 1,
@@ -1691,7 +2071,7 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110 >=16)",
           "concept": "imo0700",
           "scale": "txt",
-          "number": "46",
+          "number": "56",
           "sn": 0
         },
         {
@@ -1702,7 +2082,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "imo0700",
           "scale": "cat",
-          "number": "47",
+          "number": "57",
           "answers": [
             {
               "value": -85,
@@ -1745,7 +2125,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "imo0700",
           "scale": "cat",
-          "number": "48",
+          "number": "58",
           "answers": [
             {
               "value": -85,
@@ -1788,7 +2168,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "imo0700",
           "scale": "cat",
-          "number": "49",
+          "number": "59",
           "answers": [
             {
               "value": -85,
@@ -1828,21 +2208,21 @@
       "instrument": "wid3_F2F2_module4",
       "study": "twinlife"
     },
-    "imo0701t": {
-      "question": "imo0701t",
-      "name": "imo0701t",
-      "label": "It is important for me that [name child] gets good grades.",
-      "label_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+    "imo0701s": {
+      "question": "imo0701s",
+      "name": "imo0701s",
+      "label": "It is important for me that <name child> gets good grades.",
+      "label_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
       "items": [
         {
           "item": "1",
-          "text": "It is important for me that [name child] gets good grades.",
-          "text_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+          "text": "It is important for me that <name child> gets good grades.",
+          "text_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
-          "concept": "imo0701t",
+          "concept": "imo0701s",
           "scale": "cat",
-          "number": "50",
+          "number": "60",
           "answers": [
             {
               "value": 1,
@@ -1877,21 +2257,21 @@
       "instrument": "wid3_F2F2_module4",
       "study": "twinlife"
     },
-    "imo0701u": {
-      "question": "imo0701u",
-      "name": "imo0701u",
-      "label": "It is important for me that [name child] gets good grades.",
-      "label_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+    "imo0701t": {
+      "question": "imo0701t",
+      "name": "imo0701t",
+      "label": "It is important for me that <name child> gets good grades.",
+      "label_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
       "items": [
         {
           "item": "1",
-          "text": "It is important for me that [name child] gets good grades.",
-          "text_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+          "text": "It is important for me that <name child> gets good grades.",
+          "text_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
-          "concept": "imo0701u",
+          "concept": "imo0701t",
           "scale": "cat",
-          "number": "51",
+          "number": "61",
           "answers": [
             {
               "value": 1,
@@ -1926,21 +2306,21 @@
       "instrument": "wid3_F2F2_module4",
       "study": "twinlife"
     },
-    "imo0701s": {
-      "question": "imo0701s",
-      "name": "imo0701s",
-      "label": "It is important for me that [name child] gets good grades.",
-      "label_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+    "imo0701u": {
+      "question": "imo0701u",
+      "name": "imo0701u",
+      "label": "It is important for me that <name child> gets good grades.",
+      "label_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
       "items": [
         {
           "item": "1",
-          "text": "It is important for me that [name child] gets good grades.",
-          "text_de": "Mir ist es wichtig, dass [NAME DES KINDES] gute Noten bekommt.",
+          "text": "It is important for me that <name child> gets good grades.",
+          "text_de": "Mir ist es wichtig, dass <NAME DES KINDES> gute Noten bekommt.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
-          "concept": "imo0701s",
+          "concept": "imo0701u",
           "scale": "cat",
-          "number": "52",
+          "number": "62",
           "answers": [
             {
               "value": 1,
@@ -1989,7 +2369,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "edu0511",
           "scale": "cat",
-          "number": "53",
+          "number": "63",
           "answers": [
             {
               "value": -89,
@@ -2043,7 +2423,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "edu0512",
           "scale": "cat",
-          "number": "54",
+          "number": "64",
           "answers": [
             {
               "value": -89,
@@ -2098,7 +2478,7 @@
           "filter": "(inlist(ptyp,1,2,200)) & age0110 >=13 & (edu0100==2 | edu0301==1)",
           "concept": "edu0700",
           "scale": "txt",
-          "number": "55",
+          "number": "65",
           "sn": 0
         },
         {
@@ -2109,7 +2489,7 @@
           "description_de": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "concept": "edu0700",
           "scale": "cat",
-          "number": "56",
+          "number": "66",
           "answers": [
             {
               "value": 1,
@@ -2142,7 +2522,7 @@
           "description_de": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "concept": "edu0700",
           "scale": "cat",
-          "number": "57",
+          "number": "67",
           "answers": [
             {
               "value": 1,
@@ -2187,7 +2567,7 @@
           "filter": "(inlist(ptyp,1,2,200)) & age0110 >=13 & (edu0100==2 | edu0301==1)",
           "concept": "edu0800",
           "scale": "txt",
-          "number": "58",
+          "number": "68",
           "sn": 0
         },
         {
@@ -2198,7 +2578,7 @@
           "description_de": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "concept": "edu0800",
           "scale": "cat",
-          "number": "59",
+          "number": "69",
           "answers": [
             {
               "value": 1,
@@ -2231,7 +2611,7 @@
           "description_de": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "concept": "edu0800",
           "scale": "cat",
-          "number": "60",
+          "number": "70",
           "answers": [
             {
               "value": 1,
@@ -2264,7 +2644,7 @@
           "description_de": "Source: Adapted from: Hertel, S., Hochweber, J., Mildner, D., Steinert, B., & Jude, N. (2014). PISA 2009 Skalenhandbuch. Waxmann. [[URL link]](https://www.pedocs.de/volltexte/2014/9554/pdf/Hertel_et_al_2014_PISA_2009_Skalenhandbuch.pdf)",
           "concept": "edu0800",
           "scale": "cat",
-          "number": "61",
+          "number": "71",
           "answers": [
             {
               "value": 1,
@@ -2309,7 +2689,7 @@
           "filter": "(inlist(ptyp,1,2,200)) & inrange(age0110,10,20) & (edu0100==2 | edu0301==1)",
           "concept": "inv0100",
           "scale": "txt",
-          "number": "62",
+          "number": "72",
           "sn": 0
         },
         {
@@ -2320,7 +2700,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "63",
+          "number": "73",
           "answers": [
             {
               "value": 1,
@@ -2358,7 +2738,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "64",
+          "number": "74",
           "answers": [
             {
               "value": 1,
@@ -2396,7 +2776,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "65",
+          "number": "75",
           "answers": [
             {
               "value": 1,
@@ -2434,7 +2814,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "66",
+          "number": "76",
           "answers": [
             {
               "value": 1,
@@ -2472,7 +2852,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "67",
+          "number": "77",
           "answers": [
             {
               "value": 1,
@@ -2510,7 +2890,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "68",
+          "number": "78",
           "answers": [
             {
               "value": 1,
@@ -2548,7 +2928,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "69",
+          "number": "79",
           "answers": [
             {
               "value": 1,
@@ -2586,7 +2966,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "70",
+          "number": "80",
           "answers": [
             {
               "value": 1,
@@ -2624,7 +3004,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "71",
+          "number": "81",
           "answers": [
             {
               "value": 1,
@@ -2662,7 +3042,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "72",
+          "number": "82",
           "answers": [
             {
               "value": 1,
@@ -2700,7 +3080,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "73",
+          "number": "83",
           "answers": [
             {
               "value": 1,
@@ -2738,7 +3118,7 @@
           "description_de": "Source: Adapted from: Spinath, F. M., & Wolf, H. (2006). CoSMoS and TwinPaW: Initial Report on Two New German Twin Studies. Twin Research and Human Genetics, 9(6), 787-790. [[URL link]](https://doi.org/10.1375/twin.9.6.787)",
           "concept": "inv0100",
           "scale": "cat",
-          "number": "74",
+          "number": "84",
           "answers": [
             {
               "value": 1,
@@ -2788,7 +3168,7 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=13",
           "concept": "net0710",
           "scale": "txt",
-          "number": "75",
+          "number": "85",
           "sn": 0
         },
         {
@@ -2799,7 +3179,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0710",
           "scale": "cat",
-          "number": "76",
+          "number": "86",
           "answers": [
             {
               "value": -81,
@@ -2947,7 +3327,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0710",
           "scale": "cat",
-          "number": "77",
+          "number": "87",
           "answers": [
             {
               "value": -81,
@@ -3095,7 +3475,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0710",
           "scale": "cat",
-          "number": "78",
+          "number": "88",
           "answers": [
             {
               "value": -81,
@@ -3243,7 +3623,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0710",
           "scale": "cat",
-          "number": "79",
+          "number": "89",
           "answers": [
             {
               "value": -81,
@@ -3391,7 +3771,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0710",
           "scale": "cat",
-          "number": "80",
+          "number": "90",
           "answers": [
             {
               "value": -81,
@@ -3551,7 +3931,7 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=13",
           "concept": "net0100",
           "scale": "txt",
-          "number": "81",
+          "number": "91",
           "sn": 0
         },
         {
@@ -3562,7 +3942,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "concept": "net0100",
           "scale": "cat",
-          "number": "82",
+          "number": "92",
           "answers": [
             {
               "value": 1,
@@ -3595,7 +3975,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "concept": "net0100",
           "scale": "cat",
-          "number": "83",
+          "number": "93",
           "answers": [
             {
               "value": 1,
@@ -3628,7 +4008,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "concept": "net0100",
           "scale": "cat",
-          "number": "84",
+          "number": "94",
           "answers": [
             {
               "value": 1,
@@ -3673,7 +4053,7 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=10",
           "concept": "net0200",
           "scale": "txt",
-          "number": "85",
+          "number": "95",
           "sn": 0
         },
         {
@@ -3684,7 +4064,7 @@
           "description_de": "Berg, M., Cramer, R., Dickmann, C., Gilberg, R., Jesske, B., Kleudgen, M., Bethmann, A., Fuchs, B., Trappmann, M., & Wurdack, A. (2013). Codebuch und Dokumentation des Panel Arbeitsmarkt und soziale Sicherung (PASS) Band I: Datenreport Welle 6 [Panel Study Labour Market and Social Security (PASS): PASS personal questionnaire wave 6 2013]. 6, 1. [[URL link]](http://doku.iab.de/fdz/reporte/2013/DR_06-13_I.pdf)",
           "concept": "net0200",
           "scale": "cat",
-          "number": "86",
+          "number": "96",
           "answers": [
             {
               "value": -85,
@@ -3722,7 +4102,7 @@
           "description_de": "Berg, M., Cramer, R., Dickmann, C., Gilberg, R., Jesske, B., Kleudgen, M., Bethmann, A., Fuchs, B., Trappmann, M., & Wurdack, A. (2013). Codebuch und Dokumentation des Panel Arbeitsmarkt und soziale Sicherung (PASS) Band I: Datenreport Welle 6 [Panel Study Labour Market and Social Security (PASS): PASS personal questionnaire wave 6 2013]. 6, 1. [[URL link]](http://doku.iab.de/fdz/reporte/2013/DR_06-13_I.pdf)",
           "concept": "net0200",
           "scale": "cat",
-          "number": "87",
+          "number": "97",
           "answers": [
             {
               "value": -85,
@@ -3760,7 +4140,7 @@
           "description_de": "Berg, M., Cramer, R., Dickmann, C., Gilberg, R., Jesske, B., Kleudgen, M., Bethmann, A., Fuchs, B., Trappmann, M., & Wurdack, A. (2013). Codebuch und Dokumentation des Panel Arbeitsmarkt und soziale Sicherung (PASS) Band I: Datenreport Welle 6 [Panel Study Labour Market and Social Security (PASS): PASS personal questionnaire wave 6 2013]. 6, 1. [[URL link]](http://doku.iab.de/fdz/reporte/2013/DR_06-13_I.pdf)",
           "concept": "net0200",
           "scale": "cat",
-          "number": "88",
+          "number": "98",
           "answers": [
             {
               "value": -85,
@@ -3809,7 +4189,7 @@
           "description_de": "Berg, M., Cramer, R., Dickmann, C., Gilberg, R., Jesske, B., Kleudgen, M., Bethmann, A., Fuchs, B., Trappmann, M., & Wurdack, A. (2013). Codebuch und Dokumentation des Panel Arbeitsmarkt und soziale Sicherung (PASS) Band I: Datenreport Welle 6 [Panel Study Labour Market and Social Security (PASS): PASS personal questionnaire wave 6 2013]. 6, 1. [[URL link]](http://doku.iab.de/fdz/reporte/2013/DR_06-13_I.pdf)",
           "concept": "net0203",
           "scale": "int",
-          "number": "89",
+          "number": "99",
           "answers": [
             {
               "value": -86,
@@ -3843,7 +4223,7 @@
           "description_de": "Berg, M., Cramer, R., Dickmann, C., Gilberg, R., Jesske, B., Kleudgen, M., Bethmann, A., Fuchs, B., Trappmann, M., & Wurdack, A. (2013). Codebuch und Dokumentation des Panel Arbeitsmarkt und soziale Sicherung (PASS) Band I: Datenreport Welle 6 [Panel Study Labour Market and Social Security (PASS): PASS personal questionnaire wave 6 2013]. 6, 1. [[URL link]](http://doku.iab.de/fdz/reporte/2013/DR_06-13_I.pdf)",
           "concept": "net0204",
           "scale": "int",
-          "number": "90",
+          "number": "100",
           "answers": [
             {
               "value": -86,
@@ -3877,7 +4257,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0300",
           "scale": "int",
-          "number": "91",
+          "number": "101",
           "answers": [
             {
               "value": -81,
@@ -3906,7 +4286,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0301",
           "scale": "cat",
-          "number": "92",
+          "number": "102",
           "answers": [
             {
               "value": -81,
@@ -3945,7 +4325,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0302",
           "scale": "cat",
-          "number": "93",
+          "number": "103",
           "answers": [
             {
               "value": 1,
@@ -3994,7 +4374,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0303",
           "scale": "cat",
-          "number": "94",
+          "number": "104",
           "answers": [
             {
               "value": 1,
@@ -4058,7 +4438,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0400",
           "scale": "int",
-          "number": "95",
+          "number": "105",
           "answers": [
             {
               "value": -81,
@@ -4087,7 +4467,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0401",
           "scale": "cat",
-          "number": "96",
+          "number": "106",
           "answers": [
             {
               "value": -81,
@@ -4126,7 +4506,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0402",
           "scale": "cat",
-          "number": "97",
+          "number": "107",
           "answers": [
             {
               "value": 1,
@@ -4175,7 +4555,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0403",
           "scale": "cat",
-          "number": "98",
+          "number": "108",
           "answers": [
             {
               "value": 1,
@@ -4239,7 +4619,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0500",
           "scale": "int",
-          "number": "99",
+          "number": "109",
           "answers": [
             {
               "value": -81,
@@ -4268,7 +4648,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0501",
           "scale": "cat",
-          "number": "100",
+          "number": "110",
           "answers": [
             {
               "value": -81,
@@ -4307,7 +4687,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0502",
           "scale": "cat",
-          "number": "101",
+          "number": "111",
           "answers": [
             {
               "value": 1,
@@ -4356,7 +4736,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0503",
           "scale": "cat",
-          "number": "102",
+          "number": "112",
           "answers": [
             {
               "value": 1,
@@ -4420,7 +4800,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0100",
           "scale": "cat",
-          "number": "103",
+          "number": "113",
           "answers": [
             {
               "value": -89,
@@ -4475,7 +4855,7 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=13 & dis0100==1",
           "concept": "dis0200",
           "scale": "txt",
-          "number": "104",
+          "number": "114",
           "sn": 0
         },
         {
@@ -4486,7 +4866,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "105",
+          "number": "115",
           "answers": [
             {
               "value": 0,
@@ -4509,7 +4889,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "106",
+          "number": "116",
           "answers": [
             {
               "value": 0,
@@ -4532,7 +4912,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "107",
+          "number": "117",
           "answers": [
             {
               "value": 0,
@@ -4555,7 +4935,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "108",
+          "number": "118",
           "answers": [
             {
               "value": 0,
@@ -4578,7 +4958,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "109",
+          "number": "119",
           "answers": [
             {
               "value": 0,
@@ -4601,7 +4981,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "110",
+          "number": "120",
           "answers": [
             {
               "value": 0,
@@ -4624,7 +5004,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "111",
+          "number": "121",
           "answers": [
             {
               "value": 0,
@@ -4647,7 +5027,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0200",
           "scale": "cat",
-          "number": "112",
+          "number": "122",
           "answers": [
             {
               "value": 0,
@@ -4670,19 +5050,19 @@
     "dis0201": {
       "question": "dis0201",
       "name": "dis0201",
-      "label": "How much stress did the disadvantage due to [[mentioned disadvantage]] cause you?",
-      "label_de": "[IF age>= 13 and age <= 15] Wie sehr hat Dich die Benachteiligung aufgrund von [[genannte Benachteiligung]] belastet? [IF age >= 16] Wie sehr hat Sie die Benachteiligung aufgrund von [[genannte Benachteiligung]] belastet?",
+      "label": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
+      "label_de": "[IF age>= 13 and age <= 15] Wie sehr hat Dich die Benachteiligung aufgrund von [<genannte Benachteiligung>] belastet? [IF age >= 16] Wie sehr hat Sie die Benachteiligung aufgrund von [<genannte Benachteiligung>] belastet?",
       "items": [
         {
           "item": "0",
-          "text": "How much stress did the disadvantage due to [[mentioned disadvantage]] cause you?",
-          "text_de": "[IF age>= 13 and age <= 15] Wie sehr hat Dich die Benachteiligung aufgrund von [[genannte Benachteiligung]] belastet? [IF age >= 16] Wie sehr hat Sie die Benachteiligung aufgrund von [[genannte Benachteiligung]] belastet?",
+          "text": "How much stress did the disadvantage due to [<mentioned disadvantage>] cause you?",
+          "text_de": "[IF age>= 13 and age <= 15] Wie sehr hat Dich die Benachteiligung aufgrund von [<genannte Benachteiligung>] belastet? [IF age >= 16] Wie sehr hat Sie die Benachteiligung aufgrund von [<genannte Benachteiligung>] belastet?",
           "description": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=13 & dis0799!=1 & dis0200==1",
           "concept": "dis0201",
           "scale": "txt",
-          "number": "113",
+          "number": "123",
           "sn": 0
         },
         {
@@ -4693,7 +5073,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
           "scale": "cat",
-          "number": "114",
+          "number": "124",
           "answers": [
             {
               "value": 1,
@@ -4726,7 +5106,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
           "scale": "cat",
-          "number": "115",
+          "number": "125",
           "answers": [
             {
               "value": 1,
@@ -4759,7 +5139,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
           "scale": "cat",
-          "number": "116",
+          "number": "126",
           "answers": [
             {
               "value": 1,
@@ -4792,7 +5172,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
           "scale": "cat",
-          "number": "117",
+          "number": "127",
           "answers": [
             {
               "value": 1,
@@ -4825,7 +5205,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
           "scale": "cat",
-          "number": "118",
+          "number": "128",
           "answers": [
             {
               "value": 1,
@@ -4858,7 +5238,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
           "scale": "cat",
-          "number": "119",
+          "number": "129",
           "answers": [
             {
               "value": 1,
@@ -4891,7 +5271,7 @@
           "description_de": "Source: Adapted from: Igel, U., Braehler, E., & Grande, G. (2010). Der Einfluss von Diskriminierungserfahrungen auf die Gesundheit von MigrantInnen. Psychiatrische Praxis, 37(04), 183-190. [[URL link]](https://doi.org/10.1055/s-0029-1223508); Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
           "concept": "dis0201",
           "scale": "cat",
-          "number": "120",
+          "number": "130",
           "answers": [
             {
               "value": 1,
@@ -4935,7 +5315,7 @@
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "pop0100",
           "scale": "cat",
-          "number": "121",
+          "number": "131",
           "answers": [
             {
               "value": 1,
@@ -4980,7 +5360,7 @@
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=13",
           "concept": "pop0200",
           "scale": "txt",
-          "number": "122",
+          "number": "132",
           "sn": 0
         },
         {
@@ -4991,7 +5371,7 @@
           "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "concept": "pop0200",
           "scale": "cat",
-          "number": "123",
+          "number": "133",
           "answers": [
             {
               "value": -89,
@@ -5034,7 +5414,7 @@
           "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "concept": "pop0200",
           "scale": "cat",
-          "number": "124",
+          "number": "134",
           "answers": [
             {
               "value": -89,
@@ -5077,7 +5457,7 @@
           "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
           "concept": "pop0200",
           "scale": "cat",
-          "number": "125",
+          "number": "135",
           "answers": [
             {
               "value": -89,
@@ -5131,7 +5511,7 @@
           "description_de": "Source: Adapted from: Harris, K. M., & National Longitudinal Study of Adolescent Health. (2009). Waves I & II, 1994-1996; Wave III, 2001-2002; Wave IV, 2007-2009 [machine-readable data file and documentation] (p. 10). Carolina Population Center, University of North Carolina at Chapel Hill. [[URL link]](DOI: 10.3886/ICPSR27021.v9)",
           "concept": "pop0300",
           "scale": "cat",
-          "number": "126",
+          "number": "136",
           "answers": [
             {
               "value": 1,
@@ -5170,7 +5550,7 @@
           "description_de": "Sonntagsfrage-Opinion poll question asking who people would vote for if an election were to be held next Sunday. [[URL link]](http://www.wahlrecht.de/umfragen/)",
           "concept": "pop0301",
           "scale": "cat",
-          "number": "127",
+          "number": "137",
           "answers": [
             {
               "value": -89,
@@ -5224,7 +5604,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "pop0302",
           "scale": "cat",
-          "number": "128",
+          "number": "138",
           "answers": [
             {
               "value": 1,
@@ -5308,7 +5688,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0100",
           "scale": "cat",
-          "number": "129",
+          "number": "139",
           "answers": [
             {
               "value": 1,
@@ -5342,7 +5722,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0101",
           "scale": "cat",
-          "number": "130",
+          "number": "140",
           "answers": [
             {
               "value": 1,
@@ -5386,7 +5766,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0200",
           "scale": "cat",
-          "number": "131",
+          "number": "141",
           "answers": [
             {
               "value": 1,
@@ -5425,7 +5805,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0201",
           "scale": "cat",
-          "number": "132",
+          "number": "142",
           "answers": [
             {
               "value": 1,
@@ -5469,7 +5849,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0300",
           "scale": "cat",
-          "number": "133",
+          "number": "143",
           "answers": [
             {
               "value": 1,
@@ -5508,7 +5888,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0301",
           "scale": "cat",
-          "number": "134",
+          "number": "144",
           "answers": [
             {
               "value": 1,
@@ -5552,7 +5932,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0400",
           "scale": "cat",
-          "number": "135",
+          "number": "145",
           "answers": [
             {
               "value": -89,
@@ -5606,7 +5986,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0401",
           "scale": "cat",
-          "number": "136",
+          "number": "146",
           "answers": [
             {
               "value": 1,
@@ -5650,7 +6030,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0500",
           "scale": "cat",
-          "number": "137",
+          "number": "147",
           "answers": [
             {
               "value": -89,
@@ -5704,7 +6084,7 @@
           "description_de": "Item developed for TwinLife.",
           "concept": "ile0501",
           "scale": "cat",
-          "number": "138",
+          "number": "148",
           "answers": [
             {
               "value": 1,
@@ -5734,21 +6114,21 @@
       "instrument": "wid3_F2F2_module4",
       "study": "twinlife"
     },
-    "edu0100t": {
-      "question": "edu0100t",
-      "name": "edu0100t",
+    "edu0100s": {
+      "question": "edu0100s",
+      "name": "edu0100s",
       "label": "Does your child go to school?",
-      "label_de": "Besucht [NAME DES KINDES] bereits eine allgemeinbildende Schule?",
+      "label_de": "Besucht <NAME DES KINDES> bereits eine allgemeinbildende Schule?",
       "items": [
         {
           "item": "1",
           "text": "Does your child go to school?",
-          "text_de": "Besucht [NAME DES KINDES] bereits eine allgemeinbildende Schule?",
+          "text_de": "Besucht <NAME DES KINDES> bereits eine allgemeinbildende Schule?",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
-          "concept": "edu0100t",
+          "concept": "edu0100s",
           "scale": "cat",
-          "number": "139",
+          "number": "149",
           "answers": [
             {
               "value": 1,
@@ -5773,21 +6153,21 @@
       "instrument": "wid3_F2F2_module4",
       "study": "twinlife"
     },
-    "edu0100u": {
-      "question": "edu0100u",
-      "name": "edu0100u",
+    "edu0100t": {
+      "question": "edu0100t",
+      "name": "edu0100t",
       "label": "Does your child go to school?",
-      "label_de": "Besucht [NAME DES KINDES] bereits eine allgemeinbildende Schule?",
+      "label_de": "Besucht <NAME DES KINDES> bereits eine allgemeinbildende Schule?",
       "items": [
         {
           "item": "1",
           "text": "Does your child go to school?",
-          "text_de": "Besucht [NAME DES KINDES] bereits eine allgemeinbildende Schule?",
+          "text_de": "Besucht <NAME DES KINDES> bereits eine allgemeinbildende Schule?",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
-          "concept": "edu0100u",
+          "concept": "edu0100t",
           "scale": "cat",
-          "number": "140",
+          "number": "150",
           "answers": [
             {
               "value": 1,
@@ -5812,21 +6192,21 @@
       "instrument": "wid3_F2F2_module4",
       "study": "twinlife"
     },
-    "edu0100s": {
-      "question": "edu0100s",
-      "name": "edu0100s",
+    "edu0100u": {
+      "question": "edu0100u",
+      "name": "edu0100u",
       "label": "Does your child go to school?",
-      "label_de": "Besucht [NAME DES KINDES] bereits eine allgemeinbildende Schule?",
+      "label_de": "Besucht <NAME DES KINDES> bereits eine allgemeinbildende Schule?",
       "items": [
         {
           "item": "1",
           "text": "Does your child go to school?",
-          "text_de": "Besucht [NAME DES KINDES] bereits eine allgemeinbildende Schule?",
+          "text_de": "Besucht <NAME DES KINDES> bereits eine allgemeinbildende Schule?",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
-          "concept": "edu0100s",
+          "concept": "edu0100u",
           "scale": "cat",
-          "number": "141",
+          "number": "151",
           "answers": [
             {
               "value": 1,
@@ -5866,7 +6246,7 @@
           "filter": "(inlist(ptyp,1,2,200)) & age0110 >=13 & edu0100==2",
           "concept": "edu0901",
           "scale": "txt",
-          "number": "142",
+          "number": "152",
           "sn": 0
         },
         {
@@ -5877,7 +6257,7 @@
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "concept": "edu0901",
           "scale": "cat",
-          "number": "143",
+          "number": "153",
           "answers": [
             {
               "value": 1,
@@ -5910,7 +6290,7 @@
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "concept": "edu0901",
           "scale": "cat",
-          "number": "144",
+          "number": "154",
           "answers": [
             {
               "value": 1,
@@ -5943,7 +6323,7 @@
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "concept": "edu0901",
           "scale": "cat",
-          "number": "145",
+          "number": "155",
           "answers": [
             {
               "value": 1,
@@ -5976,7 +6356,7 @@
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "concept": "edu0901",
           "scale": "cat",
-          "number": "146",
+          "number": "156",
           "answers": [
             {
               "value": 1,
@@ -6009,7 +6389,7 @@
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "concept": "edu0901",
           "scale": "cat",
-          "number": "147",
+          "number": "157",
           "answers": [
             {
               "value": 1,
@@ -6042,7 +6422,7 @@
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "concept": "edu0901",
           "scale": "cat",
-          "number": "148",
+          "number": "158",
           "answers": [
             {
               "value": 1,
@@ -6075,7 +6455,7 @@
           "description_de": "Source: Adapted from: NEPS National Education Panel Study. (2014). NEPS Additional Study Thuringia: Organizational Reform Study in Thuringia (TH 2.0.0) NEPS-Zusatzstudie Thueringen: Organisatorische Reform der Oberstufe in Thueringen (TH 2.0.0). NEPS National Education Panel Study. [[URL link]](https://www.neps-data.de/default.aspx?tabid=2418)",
           "concept": "edu0901",
           "scale": "cat",
-          "number": "149",
+          "number": "159",
           "answers": [
             {
               "value": 1,
@@ -6108,19 +6488,19 @@
     "net0720": {
       "question": "net0720",
       "name": "net0720",
-      "label": "[PROG: If: Loop 1] [IF age> = 16]: With whom do you occasionally have disputes or conflicts that cause you stress? Again, please indicate up to 5 people from the list. << Int: Only if necessary >> If the people are (close) friends, please assign them to this group. If there are several people from the same group, please specify them individually (e.g. 5 x colleagues from work). [IF age> = 13 and age <16]: With whom do you occasionally have fights or conflicts that cause you stress? Again, please indicate up to five people from the list << Int: only if necessary >> If the people are (close) friends, please assign them to the relevant group. If there are several people from the same group, please specify them individually (e.g. 5 x people from school). [PROG: IF loop 2] With whom do you occasionally have fights or conflicts that cause you stress?",
-      "label_de": "[PROG: If: Schleife 1] [IF age>= 16]: Mit wem haben Sie gelegentlich Streit oder Konflikte, die belastend fuer Sie sind? Bitte nennen Sie mir wieder bis zu 5 Personen von der Liste. <<Int: Nur bei Bedarf>> Wenn es sich bei den Personen um (enge) Freunde handelt, ordnen Sie diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Kollegen aus der Arbeit]. [IF age >=13 and age <16]: Mit wem hast Du gelegentlich Streit oder Konflikte, die belastend fuer Dich sind? Bitte nenne mir wieder bis zu 5 Personen von der Liste <<Int: Nur bei Bedarf>> Wenn es sich bei den Personen um (enge) Freunde handelt, ordne diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Personen aus der Schule]. [PROG: IF Schleife 2] [IF age>= 16]: Und mit wem haben Sie ausserdem noch gelegentlich Streit oder Konflikte, die belastend fuer Sie sind? [IF age >=13 and age <16]: Und mit wem hast Du ausserdem noch gelegentlich Streit oder Konflikte, die belastend fuer Dich sind?",
+      "label": "[PROG: If: Loop 1] [IF age> = 16]: With whom do you occasionally have disputes or conflicts that cause you stress? Again, please indicate up to 5 people from the list. [Int: Only if necessary] If the people are (close) friends, please assign them to this group. If there are several people from the same group, please specify them individually (e.g. 5 x colleagues from work). [IF age> = 13 and age <16]: With whom do you occasionally have fights or conflicts that cause you stress? Again, please indicate up to five people from the list [Int: Only if necessary] If the people are (close) friends, please assign them to the relevant group. If there are several people from the same group, please specify them individually (e.g. 5 x people from school). [PROG: IF loop 2] With whom do you occasionally have fights or conflicts that cause you stress?",
+      "label_de": "[PROG: If: Schleife 1] [IF age>= 16]: Mit wem haben Sie gelegentlich Streit oder Konflikte, die belastend fuer Sie sind? Bitte nennen Sie mir wieder bis zu 5 Personen von der Liste. [Int: Nur bei Bedarf] Wenn es sich bei den Personen um (enge) Freunde handelt, ordnen Sie diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Kollegen aus der Arbeit]. [IF age >=13 and age <16]: Mit wem hast Du gelegentlich Streit oder Konflikte, die belastend fuer Dich sind? Bitte nenne mir wieder bis zu 5 Personen von der Liste [Int: Nur bei Bedarf] Wenn es sich bei den Personen um (enge) Freunde handelt, ordne diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Personen aus der Schule]. [PROG: IF Schleife 2] [IF age>= 16]: Und mit wem haben Sie ausserdem noch gelegentlich Streit oder Konflikte, die belastend fuer Sie sind? [IF age >=13 and age <16]: Und mit wem hast Du ausserdem noch gelegentlich Streit oder Konflikte, die belastend fuer Dich sind?",
       "items": [
         {
           "item": "0",
-          "text": "[PROG: If: Loop 1] [IF age> = 16]: With whom do you occasionally have disputes or conflicts that cause you stress? Again, please indicate up to 5 people from the list. << Int: Only if necessary >> If the people are (close) friends, please assign them to this group. If there are several people from the same group, please specify them individually (e.g. 5 x colleagues from work). [IF age> = 13 and age <16]: With whom do you occasionally have fights or conflicts that cause you stress? Again, please indicate up to five people from the list << Int: only if necessary >> If the people are (close) friends, please assign them to the relevant group. If there are several people from the same group, please specify them individually (e.g. 5 x people from school). [PROG: IF loop 2] With whom do you occasionally have fights or conflicts that cause you stress?",
-          "text_de": "[PROG: If: Schleife 1] [IF age>= 16]: Mit wem haben Sie gelegentlich Streit oder Konflikte, die belastend fuer Sie sind? Bitte nennen Sie mir wieder bis zu 5 Personen von der Liste. <<Int: Nur bei Bedarf>> Wenn es sich bei den Personen um (enge) Freunde handelt, ordnen Sie diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Kollegen aus der Arbeit]. [IF age >=13 and age <16]: Mit wem hast Du gelegentlich Streit oder Konflikte, die belastend fuer Dich sind? Bitte nenne mir wieder bis zu 5 Personen von der Liste <<Int: Nur bei Bedarf>> Wenn es sich bei den Personen um (enge) Freunde handelt, ordne diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Personen aus der Schule]. [PROG: IF Schleife 2] [IF age>= 16]: Und mit wem haben Sie ausserdem noch gelegentlich Streit oder Konflikte, die belastend fuer Sie sind? [IF age >=13 and age <16]: Und mit wem hast Du ausserdem noch gelegentlich Streit oder Konflikte, die belastend fuer Dich sind?",
+          "text": "[PROG: If: Loop 1] [IF age> = 16]: With whom do you occasionally have disputes or conflicts that cause you stress? Again, please indicate up to 5 people from the list. [Int: Only if necessary] If the people are (close) friends, please assign them to this group. If there are several people from the same group, please specify them individually (e.g. 5 x colleagues from work). [IF age> = 13 and age <16]: With whom do you occasionally have fights or conflicts that cause you stress? Again, please indicate up to five people from the list [Int: Only if necessary] If the people are (close) friends, please assign them to the relevant group. If there are several people from the same group, please specify them individually (e.g. 5 x people from school). [PROG: IF loop 2] With whom do you occasionally have fights or conflicts that cause you stress?",
+          "text_de": "[PROG: If: Schleife 1] [IF age>= 16]: Mit wem haben Sie gelegentlich Streit oder Konflikte, die belastend fuer Sie sind? Bitte nennen Sie mir wieder bis zu 5 Personen von der Liste. [Int: Nur bei Bedarf] Wenn es sich bei den Personen um (enge) Freunde handelt, ordnen Sie diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Kollegen aus der Arbeit]. [IF age >=13 and age <16]: Mit wem hast Du gelegentlich Streit oder Konflikte, die belastend fuer Dich sind? Bitte nenne mir wieder bis zu 5 Personen von der Liste [Int: Nur bei Bedarf] Wenn es sich bei den Personen um (enge) Freunde handelt, ordne diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Personen aus der Schule]. [PROG: IF Schleife 2] [IF age>= 16]: Und mit wem haben Sie ausserdem noch gelegentlich Streit oder Konflikte, die belastend fuer Sie sind? [IF age >=13 and age <16]: Und mit wem hast Du ausserdem noch gelegentlich Streit oder Konflikte, die belastend fuer Dich sind?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=13",
           "concept": "net0720",
           "scale": "txt",
-          "number": "150",
+          "number": "160",
           "sn": 0
         },
         {
@@ -6131,7 +6511,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0720",
           "scale": "cat",
-          "number": "151",
+          "number": "161",
           "answers": [
             {
               "value": -81,
@@ -6279,7 +6659,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0720",
           "scale": "cat",
-          "number": "152",
+          "number": "162",
           "answers": [
             {
               "value": -81,
@@ -6427,7 +6807,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0720",
           "scale": "cat",
-          "number": "153",
+          "number": "163",
           "answers": [
             {
               "value": -81,
@@ -6575,7 +6955,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0720",
           "scale": "cat",
-          "number": "154",
+          "number": "164",
           "answers": [
             {
               "value": -81,
@@ -6723,7 +7103,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0720",
           "scale": "cat",
-          "number": "155",
+          "number": "165",
           "answers": [
             {
               "value": -81,
@@ -6871,19 +7251,19 @@
     "net0730": {
       "question": "net0730",
       "name": "net0730",
-      "label": "[PROG: If: Loop 1] Who sometimes tells you unpleasant truths? Again, please give me the names of up to five people from the list. << Int: Only if necessary >> If the people are (close) friends, please assign them to the relevant group. If there are several people from the same group, please specify them individually (e.g. 5 x work colleagues). [PROG: IF loop 2] And are there other people who sometimes tell you unpleasant truths?",
-      "label_de": "[PROG: If: Schleife 1] [IF age>= 16]: Wer kann Ihnen auch mal unangenehme Wahrheiten sagen? Bitte nennen Sie mir wieder bis zu 5 Personen von der Liste. <<Int: Nur bei Bedarf>> Wenn es sich bei den Personen um (enge) Freunde handelt, ordnen Sie diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Kollegen aus der Arbeit]. [IF age >=13 and age <16]: Wer kann Dir auch mal unangenehme Wahrheiten sagen? Bitte nenne mir wieder bis zu 5 Personen von der Liste <<Int: Nur bei Bedarf>> Wenn es sich bei den Personen um (enge) Freunde handelt, ordne diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Personen aus der Schule]. [PROG: IF Schleife 2] [IF age>= 16]: Und gibt es weitere Personen, die Ihnen auch mal unangenehme Wahrheiten sagen koennen? [IF age >=13 and age <16]: Und gibt es weitere Personen, die Dir auch mal unangenehme Wahrheiten sagen koennen?",
+      "label": "[PROG: If: Loop 1] Who sometimes tells you unpleasant truths? Again, please give me the names of up to five people from the list. [Int: Only if necessary] If the people are (close) friends, please assign them to the relevant group. If there are several people from the same group, please specify them individually (e.g. 5 x work colleagues). [PROG: IF loop 2] And are there other people who sometimes tell you unpleasant truths?",
+      "label_de": "[PROG: If: Schleife 1] [IF age>= 16]: Wer kann Ihnen auch mal unangenehme Wahrheiten sagen? Bitte nennen Sie mir wieder bis zu 5 Personen von der Liste. [Int: Nur bei Bedarf] Wenn es sich bei den Personen um (enge) Freunde handelt, ordnen Sie diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Kollegen aus der Arbeit]. [IF age >=13 and age <16]: Wer kann Dir auch mal unangenehme Wahrheiten sagen? Bitte nenne mir wieder bis zu 5 Personen von der Liste [Int: Nur bei Bedarf] Wenn es sich bei den Personen um (enge) Freunde handelt, ordne diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Personen aus der Schule]. [PROG: IF Schleife 2] [IF age>= 16]: Und gibt es weitere Personen, die Ihnen auch mal unangenehme Wahrheiten sagen koennen? [IF age >=13 and age <16]: Und gibt es weitere Personen, die Dir auch mal unangenehme Wahrheiten sagen koennen?",
       "items": [
         {
           "item": "0",
-          "text": "[PROG: If: Loop 1] Who sometimes tells you unpleasant truths? Again, please give me the names of up to five people from the list. << Int: Only if necessary >> If the people are (close) friends, please assign them to the relevant group. If there are several people from the same group, please specify them individually (e.g. 5 x work colleagues). [PROG: IF loop 2] And are there other people who sometimes tell you unpleasant truths?",
-          "text_de": "[PROG: If: Schleife 1] [IF age>= 16]: Wer kann Ihnen auch mal unangenehme Wahrheiten sagen? Bitte nennen Sie mir wieder bis zu 5 Personen von der Liste. <<Int: Nur bei Bedarf>> Wenn es sich bei den Personen um (enge) Freunde handelt, ordnen Sie diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Kollegen aus der Arbeit]. [IF age >=13 and age <16]: Wer kann Dir auch mal unangenehme Wahrheiten sagen? Bitte nenne mir wieder bis zu 5 Personen von der Liste <<Int: Nur bei Bedarf>> Wenn es sich bei den Personen um (enge) Freunde handelt, ordne diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Personen aus der Schule]. [PROG: IF Schleife 2] [IF age>= 16]: Und gibt es weitere Personen, die Ihnen auch mal unangenehme Wahrheiten sagen koennen? [IF age >=13 and age <16]: Und gibt es weitere Personen, die Dir auch mal unangenehme Wahrheiten sagen koennen?",
+          "text": "[PROG: If: Loop 1] Who sometimes tells you unpleasant truths? Again, please give me the names of up to five people from the list. [Int: Only if necessary] If the people are (close) friends, please assign them to the relevant group. If there are several people from the same group, please specify them individually (e.g. 5 x work colleagues). [PROG: IF loop 2] And are there other people who sometimes tell you unpleasant truths?",
+          "text_de": "[PROG: If: Schleife 1] [IF age>= 16]: Wer kann Ihnen auch mal unangenehme Wahrheiten sagen? Bitte nennen Sie mir wieder bis zu 5 Personen von der Liste. [Int: Nur bei Bedarf] Wenn es sich bei den Personen um (enge) Freunde handelt, ordnen Sie diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Kollegen aus der Arbeit]. [IF age >=13 and age <16]: Wer kann Dir auch mal unangenehme Wahrheiten sagen? Bitte nenne mir wieder bis zu 5 Personen von der Liste [Int: Nur bei Bedarf] Wenn es sich bei den Personen um (enge) Freunde handelt, ordne diese bitte zu den Personengruppen zu. Wenn es sich um mehrere Personen aus der gleichen Personengruppe handelt, bitte diese einzeln angeben (z.B. 5 x Personen aus der Schule]. [PROG: IF Schleife 2] [IF age>= 16]: Und gibt es weitere Personen, die Ihnen auch mal unangenehme Wahrheiten sagen koennen? [IF age >=13 and age <16]: Und gibt es weitere Personen, die Dir auch mal unangenehme Wahrheiten sagen koennen?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110 >=13",
           "concept": "net0730",
           "scale": "txt",
-          "number": "156",
+          "number": "166",
           "sn": 0
         },
         {
@@ -6894,7 +7274,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0730",
           "scale": "cat",
-          "number": "157",
+          "number": "167",
           "answers": [
             {
               "value": -81,
@@ -7042,7 +7422,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0730",
           "scale": "cat",
-          "number": "158",
+          "number": "168",
           "answers": [
             {
               "value": -81,
@@ -7190,7 +7570,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0730",
           "scale": "cat",
-          "number": "159",
+          "number": "169",
           "answers": [
             {
               "value": -81,
@@ -7338,7 +7718,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0730",
           "scale": "cat",
-          "number": "160",
+          "number": "170",
           "answers": [
             {
               "value": -81,
@@ -7486,7 +7866,7 @@
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
           "concept": "net0730",
           "scale": "cat",
-          "number": "161",
+          "number": "171",
           "answers": [
             {
               "value": -81,
