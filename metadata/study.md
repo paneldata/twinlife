@@ -17,7 +17,7 @@ config:
     Prof. Dr. Frank M. Spinath (<f.spinath@mx.uni-saarland.de>)
 * **URL:** [https://www.twin-life.de/documentation/](https://www.twin-life.de/documentation/)
 
-Please cite both the dataset (Diewald et al., 2023: TwinLife. GESIS, Cologne. ZA6701 Data file Version 7.0.0, [https://doi.org/10.4232/1.14118](https://doi.org/10.4232/1.14118).) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
+Please cite both the dataset (Diewald et al., 2023: TwinLife. GESIS, Cologne. ZA6701 Data file Version 7.1.0, [https://doi.org/10.4232/1.14186](https://doi.org/10.4232/1.14186)) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
 
 ## Study info
 
@@ -424,14 +424,14 @@ Number of Units:
  
 Number of Variables:
 
-- 2,515 (F2F 1 [wid1] person-format)
-- 611 (CATI 1 [wid2] person-format)
-- 2,347 (F2F 2 [wid3] person-format)
-- 123 (CATI 2 [wid4] person-format)
-- 1,341 (F2F 3 [wid5] person-format)
+- 2,527 (F2F 1 [wid1] person-format)
+- 619 (CATI 1 [wid2] person-format)
+- 2,362 (F2F 2 [wid3] person-format)
+- 132 (CATI 2 [wid4] person-format)
+- 1,351 (F2F 3 [wid5] person-format)
 - 238 (CATI 3 [wid6] person-format)
-- 121 (CoV 1 [cov1/wid10] person-format)
-- 131 (CoV 2 [cov2/wid11] person-format)
+- 127 (CoV 1 [cov1/wid10] person-format)
+- 137 (CoV 2 [cov2/wid11] person-format)
 - 134 (CoV 3 [cov3/wid12] person-format)
 
 
