@@ -88,6 +88,29 @@
         ]
     },
     {
+        "file": "instruments.csv",
+        "fields": [
+            "study",
+            "name"
+        ],
+        "relations_from": [
+            {
+                "file": "questions.csv",
+                "fields": [
+                    "study",
+                    "instrument"
+                ]
+            },
+            {
+                "file": "questions_variables.csv",
+                "fields": [
+                    "study",
+                    "instrument"
+                ]
+            }
+        ]
+    },
+    {
         "file": "periods.csv",
         "fields": [
             "name"
