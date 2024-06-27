@@ -1593,7 +1593,7 @@
         },
         {
           "item": "1",
-          "text": "[IF ptyp != 1] <name twin 1>",
+          "text": "[IF ptyp != 1] [name twin 1]",
           "text_de": "[IF ptyp != 1] <Name Zwilling 1>",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -1616,7 +1616,7 @@
         },
         {
           "item": "2",
-          "text": "[IF ptyp != 2] <name twin 2>",
+          "text": "[IF ptyp != 2] [name twin 2]",
           "text_de": "[IF ptyp != 2] <Name Zwilling 2>",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -4413,12 +4413,12 @@
       "question": "del1200",
       "name": "del1200",
       "label": "Have you ever smoked cigarettes?",
-      "label_de": "Es geht um: Verletzung anderer bei Schlaegerei. Wie oft war das in den letzten 24 Monaten? ---in: [IF del1400=1] Wenn dies in den letzten 24 Monaten nicht vorgekommen ist, hier bitte eine 0 eingeben.",
+      "label_de": "[IF age < 16] Hast Du schon einmal Zigaretten geraucht? [IF age >= 16] Haben Sie schon einmal Zigaretten geraucht?",
       "items": [
         {
           "item": "1",
           "text": "Have you ever smoked cigarettes?",
-          "text_de": "Es geht um: Verletzung anderer bei Schlaegerei. Wie oft war das in den letzten 24 Monaten? ---in: [IF del1400=1] Wenn dies in den letzten 24 Monaten nicht vorgekommen ist, hier bitte eine 0 eingeben.",
+          "text_de": "[IF age < 16] Hast Du schon einmal Zigaretten geraucht? [IF age >= 16] Haben Sie schon einmal Zigaretten geraucht?",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
           "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
           "concept": "del1200",
@@ -5013,12 +5013,12 @@
     "del1500": {
       "question": "del1500",
       "name": "del1500",
-      "label": "Have you ever taken drugs (e.g., marijuana, hash, ecstasy, cocaine, etc.)? We're not referring to cigarettes or alcohol. / Have you ever taken or smoked drugs like ecstasy, hash, marijuana, heroin, cocaine, etc. (we're not referring to cigarettes or alcohol. )?",
+      "label": "[age >= 11 and age < 18] Have you ever taken drugs (e.g., marijuana, hash, ecstasy, cocaine, etc.)? We're not referring to cigarettes or alcohol. / [age >= 18] Have you ever taken or smoked drugs like ecstasy, hash, marijuana, heroin, cocaine, etc. (we're not referring to cigarettes or alcohol. )?",
       "label_de": "[IF age >= 11 AND age <= 15] Hast du schon einmal Drogen genommen (z.B. Marihuana, Haschisch, Ecstasy, Kokain usw.)? Zigaretten und Alkohol meinen wir hier nicht. [IF age >= 16 AND age <= 17] Haben Sie schon einmal Drogen genommen (z.B. Marihuana, Haschisch, Ecstasy, Kokain usw.)? Zigaretten und Alkohol meinen wir hier nicht. [IF age >= 18] Haben Sie jemals Drogen wie Ecstasy, Haschisch, Marihuana, Heroin, Kokain usw. genommen oder geraucht (Alkohol und Zigaretten sind hier nicht gemeint)?",
       "items": [
         {
           "item": "1",
-          "text": "Have you ever taken drugs (e.g., marijuana, hash, ecstasy, cocaine, etc.)? We're not referring to cigarettes or alcohol. / Have you ever taken or smoked drugs like ecstasy, hash, marijuana, heroin, cocaine, etc. (we're not referring to cigarettes or alcohol. )?",
+          "text": "[age >= 11 and age < 18] Have you ever taken drugs (e.g., marijuana, hash, ecstasy, cocaine, etc.)? We're not referring to cigarettes or alcohol. / [age >= 18] Have you ever taken or smoked drugs like ecstasy, hash, marijuana, heroin, cocaine, etc. (we're not referring to cigarettes or alcohol. )?",
           "text_de": "[IF age >= 11 AND age <= 15] Hast du schon einmal Drogen genommen (z.B. Marihuana, Haschisch, Ecstasy, Kokain usw.)? Zigaretten und Alkohol meinen wir hier nicht. [IF age >= 16 AND age <= 17] Haben Sie schon einmal Drogen genommen (z.B. Marihuana, Haschisch, Ecstasy, Kokain usw.)? Zigaretten und Alkohol meinen wir hier nicht. [IF age >= 18] Haben Sie jemals Drogen wie Ecstasy, Haschisch, Marihuana, Heroin, Kokain usw. genommen oder geraucht (Alkohol und Zigaretten sind hier nicht gemeint)?",
           "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
           "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",

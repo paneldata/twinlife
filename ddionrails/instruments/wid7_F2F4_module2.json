@@ -1,0 +1,1153 @@
+{
+  "study": "twinlife",
+  "name": "wid7_F2F4_module2",
+  "label": "F2F 4: household questionnaire (CAPI-phone)",
+  "description": "This questionnaire module contains questions on: assets; educational and employment status of all household members (employment / education / vocational training / parental leave / pension); housing characteristics; welfare dependency.",
+  "analysis_unit": "household",
+  "period": 7,
+  "instrument": "wid7_F2F4_module2",
+  "questions": {
+    "ptyp_hq": {
+      "question": "ptyp_hq",
+      "name": "ptyp_hq",
+      "label": "Interviewer: Who is the person that fills in the household questionnaire? Note to interviewer: If both parents or one of the parents live in this household, please ask one of the parents to complete the household form as a preference.",
+      "label_de": "Interviewer: Mit wem wird dieser Haushaltsbogen ausgefuellt? Hinweis fuer Interviewer: Wenn die Eltern oder ein Elternteil in diesem Haushalt leben, bitte den Haushaltsbogen bevorzugt von einem Elternteil ausfuellen lassen.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Interviewer: Who is the person that fills in the household questionnaire? Note to interviewer: If both parents or one of the parents live in this household, please ask one of the parents to complete the household form as a preference.",
+          "text_de": "Interviewer: Mit wem wird dieser Haushaltsbogen ausgefuellt? Hinweis fuer Interviewer: Wenn die Eltern oder ein Elternteil in diesem Haushalt leben, bitte den Haushaltsbogen bevorzugt von einem Elternteil ausfuellen lassen.",
+          "concept": "ptyp_hq",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: firstborn twin - t",
+              "label_de": "1: erstgeborener Zwilling - t"
+            },
+            {
+              "value": 2,
+              "label": "2: secondborn twin - u",
+              "label_de": "2: zweitgeborener Zwilling - u"
+            },
+            {
+              "value": 110,
+              "label": "110: partner of first interviewed twin - p",
+              "label_de": "110: Partner des erstbefragten Zwillings - p"
+            },
+            {
+              "value": 120,
+              "label": "120: partner of second interviewed twin - q",
+              "label_de": "120: Partner des zweitbefragten Zwillings - q"
+            },
+            {
+              "value": 200,
+              "label": "200: sibling - s",
+              "label_de": "200: Geschwister - s"
+            },
+            {
+              "value": 201,
+              "label": "201: sibling not participating",
+              "label_de": "201: nicht teilnehmendes Geschwister"
+            },
+            {
+              "value": 300,
+              "label": "300: mother - m",
+              "label_de": "300: Mutter - m"
+            },
+            {
+              "value": 400,
+              "label": "400: father - f",
+              "label_de": "400: Vater - f"
+            },
+            {
+              "value": 500,
+              "label": "500: partner of mother - g",
+              "label_de": "500: Partner der Mutter - g"
+            },
+            {
+              "value": 600,
+              "label": "600: partner of father - n",
+              "label_de": "600: Partner des Vaters - n"
+            },
+            {
+              "value": 700,
+              "label": "700: other person (not surveyed)",
+              "label_de": "700: and. Person (nicht befr.relevant)"
+            },
+            {
+              "value": 800,
+              "label": "800: unknown person type",
+              "label_de": "800: unbekannter Personentyp"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid7_F2F4_module2",
+      "study": "twinlife"
+    },
+    "liv0700": {
+      "question": "liv0700",
+      "name": "liv0700",
+      "label": "Do you have internet access in your household?",
+      "label_de": "Haben Sie in Ihrem Haushalt einen Internetzugang?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you have internet access in your household?",
+          "text_de": "Haben Sie in Ihrem Haushalt einen Internetzugang?",
+          "concept": "liv0700",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, slowly",
+              "label_de": "1: ja, mit langsamer Geschwindigkeit"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, at an adequate pace",
+              "label_de": "2: ja, mit ausreichender Geschwindigkeit"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, quickly",
+              "label_de": "3: ja, mit schneller Geschwindigkeit"
+            },
+            {
+              "value": 4,
+              "label": "4: no",
+              "label_de": "4: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid7_F2F4_module2",
+      "study": "twinlife"
+    },
+    "inc0300": {
+      "question": "inc0300",
+      "name": "inc0300",
+      "label": "Are you or another household member currently receiving one ore more of the following government benefits?",
+      "label_de": "[MFN] Erhalten Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen?",
+      "items": [
+        {
+          "item": "0",
+          "text": "Are you or another household member currently receiving one ore more of the following government benefits?",
+          "text_de": "[MFN] Erhalten Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "filter": "(haushalt==1)",
+          "concept": "inc0300",
+          "scale": "txt",
+          "number": "3",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Child benefit",
+          "text_de": "Kindergeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "Supplementary child benefit (Kinderzuschlag which is paid to low-income earners in addition to the child allowance, Kindergeld)",
+          "text_de": "Kinderzuschlag, also zusaetzlich zum Kindergeld beantragte Leistung fuer Geringverdiener",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Parental benefit",
+          "text_de": "Elterngeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "Continued pay in maternity leave",
+          "text_de": "Lohnfortzahlung im Mutterschutz",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "Short-time working allowance",
+          "text_de": "Kurzarbeitergeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "Unemployment benefit type I",
+          "text_de": "Arbeitslosengeld ALG I",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "Unemployment benefit II (Harz IV), including social unemployment benefit II (Harz IV), including social benefit and accomodation expenses",
+          "text_de": "Arbeitslosengeld II einschliesslich Sozialgeld und Unterkunftskosten",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "Monthly subsistence allowance / assistance in special circumstances",
+          "text_de": "Laufende Hilfe zum Lebensunterhalt oder Hilfe in besonderen Lebenslagen",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "Basic income support for the elderly and those with reduced earning capacity",
+          "text_de": "Grundsicherung im Alter und bei Erwerbsminderung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "text": "Housing allowance if not included in the unemployment benefit II / social assistance",
+          "text_de": "Wohngeld oder Lastenzuschuss, die nicht im Arbeitslosengeld II oder der Sozialhilfe enthalten sind",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "text": "Other social allowances",
+          "text_de": "Sonstige Sozialhilfe",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "text": "Long-term care insurance benefits (Pflegevers.)",
+          "text_de": "Leistungen der Pflegeversicherung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "text": "Child care subsidy",
+          "text_de": "Betreuungsgeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "16",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "14",
+          "text": "Alimony payment for children",
+          "text_de": "Gesetzliche Unterhaltszahlungen fuer Kinder",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "15",
+          "text": "Alimony payment by former partner (not for children)",
+          "text_de": "Gesetzliche Unterhaltszahlungen von ehemaligem/r Partner/in (nicht fuer Kinder)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 15
+        },
+        {
+          "item": "16",
+          "text": "Retirement pension",
+          "text_de": "Rente",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 16
+        },
+        {
+          "item": "17",
+          "text": "Sick allowance",
+          "text_de": "Krankengeld",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 17
+        },
+        {
+          "item": "18",
+          "text": "Alimony advance",
+          "text_de": "Unterhaltsvorschuss",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 18
+        },
+        {
+          "item": "19",
+          "text": "Other: [OPEN, Format: string]",
+          "text_de": "Sonstiges : [OPEN, Format: string]",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 19
+        },
+        {
+          "item": "20",
+          "text_de": "Keine",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Haushaltsfragebogen, Altstichproben.[Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Household Questionnaire, Age Samples] (236: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0236.pdf)",
+          "concept": "inc0300",
+          "scale": "cat",
+          "number": "23",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 20
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid7_F2F4_module2",
+      "study": "twinlife"
+    },
+    "ass0100": {
+      "question": "ass0100",
+      "name": "ass0100",
+      "label": "Before we move on, one more question about your household's net worth: What do you estimate your household's net worth to be? Net worth is the value of everything that belongs to the household members minus all liabilities. Please assign your household's net worth to one of the following categories. Please think of the following asset components: real estate, vehicles, investments in businesses, financial assets, insurances, LESS debts and liabilities",
+      "label_de": "Bevor wir weitermachen, noch eine Frage zu dem Vermoegen Ihres Haushalts: Wie hoch, schaetzen Sie, ist das Reinvermoegen Ihres Haushalts? Das Reinvermoegen ist der Wert all dessen, was den Haushaltsmitgliedern gehoert abzueglich aller Verbindlichkeiten. Bitte ordnen Sie das Vermoegen Ihres Haushalts einer der folgenden Kategorien zu. Denken Sie dabei bitte an folgende Vermoegensbestandteile. Immobilien Fahrzeuge Beteiligungen an Unternehmen Finanzanlagen Versicherungen ABZUeGLICH Schulden und Verbindlichkeiten",
+      "items": [
+        {
+          "item": "1",
+          "text": "Before we move on, one more question about your household's net worth: What do you estimate your household's net worth to be? Net worth is the value of everything that belongs to the household members minus all liabilities. Please assign your household's net worth to one of the following categories. Please think of the following asset components: real estate, vehicles, investments in businesses, financial assets, insurances, LESS debts and liabilities",
+          "text_de": "Bevor wir weitermachen, noch eine Frage zu dem Vermoegen Ihres Haushalts: Wie hoch, schaetzen Sie, ist das Reinvermoegen Ihres Haushalts? Das Reinvermoegen ist der Wert all dessen, was den Haushaltsmitgliedern gehoert abzueglich aller Verbindlichkeiten. Bitte ordnen Sie das Vermoegen Ihres Haushalts einer der folgenden Kategorien zu. Denken Sie dabei bitte an folgende Vermoegensbestandteile. Immobilien Fahrzeuge Beteiligungen an Unternehmen Finanzanlagen Versicherungen ABZUeGLICH Schulden und Verbindlichkeiten",
+          "description": "Source: Adapted from: Deutsche Bundesbank. (2019). Codebook-3. Welle, Fragenprogramm Private Haushalte und ihre Finanzen [Question programme: Panel on Household Finances (PHF)]. [[URL link]](https://www.bundesbank.de/resource/blob/798118/1442a34fd0a8636b271478c1855d68a4/mL/phf-codebook-wave3-de-data.pdf)",
+          "description_de": "Source: Adapted from: Deutsche Bundesbank. (2019). Codebook-3. Welle, Fragenprogramm Private Haushalte und ihre Finanzen [Question programme: Panel on Household Finances (PHF)]. [[URL link]](https://www.bundesbank.de/resource/blob/798118/1442a34fd0a8636b271478c1855d68a4/mL/phf-codebook-wave3-de-data.pdf)",
+          "concept": "ass0100",
+          "number": "24",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: debts",
+              "label_de": "1: Schulden"
+            },
+            {
+              "value": 2,
+              "label": "2: no assets",
+              "label_de": "2: Kein Vermoegen"
+            },
+            {
+              "value": 3,
+              "label": "3: less than 1,000 euro",
+              "label_de": "3: weniger als 1.000 Euro"
+            },
+            {
+              "value": 4,
+              "label": "4: 1,000 up to below 5,000 euro",
+              "label_de": "4: 1.000 bis unter 5.000 Euro"
+            },
+            {
+              "value": 5,
+              "label": "5: 5,000 up to below 10,000 euro",
+              "label_de": "5: 5.000 bis unter 10.000 Euro"
+            },
+            {
+              "value": 6,
+              "label": "6: 10,000 up to below 25,000 euro",
+              "label_de": "6: 10.000 bis unter 25.000 Euro"
+            },
+            {
+              "value": 7,
+              "label": "7: 25,000 up to below 50,000 euro",
+              "label_de": "7: 25.000 bis unter 50.000 Euro"
+            },
+            {
+              "value": 8,
+              "label": "8: 50,000 up to below 75,000 euro",
+              "label_de": "8: 50.000 bis unter 75.000 Euro"
+            },
+            {
+              "value": 9,
+              "label": "9: 75,000 up to below 100,000 euro",
+              "label_de": "9: 75.000 bis unter 100.000 Euro"
+            },
+            {
+              "value": 10,
+              "label": "10: 100,000 up to below 150,000 euro",
+              "label_de": "10: 100.000 bis unter 150.000 Euro"
+            },
+            {
+              "value": 11,
+              "label": "11: 150,000 euro and more",
+              "label_de": "11: 150.000 Euro und mehr"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid7_F2F4_module2",
+      "study": "twinlife"
+    },
+    "hpr0101": {
+      "question": "hpr0101",
+      "name": "hpr0101",
+      "label": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+      "label_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. [Wenn Person=Befragungsperson] [MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft.",
+      "items": [
+        {
+          "item": "0",
+          "text": "[MCQ][LOOP] Please indicate what currently applies to these people concerning school or employment. <NAME PERSON>",
+          "text_de": "[MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf diese Personen zutrifft. [Wenn Person=Befragungsperson] [MFN] Bitte geben Sie an, was in Bezug auf Schule oder Erwerbstaetigkeit aktuell auf Sie zutrifft.",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "filter": "(haushalt==1)",
+          "concept": "hpr0101",
+          "scale": "txt",
+          "number": "25",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Kindergarten / day care center",
+          "text_de": "Kindergarten / KITA, Tagesmutter",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "General School (standard education path)",
+          "text_de": "Allgemeinbildende Schule (Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule)",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "27",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "Training, higher education institution, further training, other schools (e.g. second chance education)",
+          "text_de": "Ausbildung an einer Hochschule",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "Full-time employment",
+          "text_de": "Vollzeit erwerbstaetig (mindestens 35 Wochenstunden)",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "Employed on a part-time basis (also with several part-time employments)",
+          "text_de": "In Teilzeitbeschaeftigung (auch bei parallelen Teilzeittaetigkeiten) (mindestens 16 und weniger als 35 Wochenstunden)",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "In-company training/apprenticeship or vocational retraining",
+          "text_de": "In betrieblicher Ausbildung/Lehre oder betrieblicher Umschulung",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "31",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "Marginally employed, in mini-jobs, one-Euro-jobs (when drawing unemployment benefit type 2)",
+          "text_de": "Geringfuegig erwerbstaetig, Mini Job, Ein-Euro-Job (bei Bezug von Arbeitslosengeld 2) (weniger als 16 Wochenstunden)",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "32",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "Voluntary military service",
+          "text_de": "Freiwilliger Wehrdienst",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "33",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "Voluntary social/ecological year, German federal volunteer service",
+          "text_de": "Freiwilliges Jahr, z.B. soziales oder oekologisches Jahr, Bundesfreiwilligendienst",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "34",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "text": "Unemployed, registered as searching for employment (at job centre)",
+          "text_de": "Arbeitslos, arbeitsuchend gemeldet (bei der Agentur fuer Arbeit, Arbeitsamt, Jobcenter)",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "text": "Maternity leave, paternal leave, on leave of absence / Special leave for childcare",
+          "text_de": "Mutterschutz, Elternzeit, Beurlaubung",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "36",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "text": "Housewife/Houseman",
+          "text_de": "Hausfrau / Hausmann",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "37",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "text": "In (early) retirement, disabled",
+          "text_de": "Vorruhestaendler, Rentner, erwerbsunfaehig",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "38",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "14",
+          "text": "In early retirement with zero working hours",
+          "text_de": "In Altersteilzeit mit Arbeitszeit Null",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "39",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "15",
+          "text": "Not gainfully employed",
+          "text_de": "sonstige Nichterwerbstaetigkeit",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "40",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 15
+        },
+        {
+          "item": "16",
+          "text": "child is in private care",
+          "text_de": "Kind wird noch privat betreut",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "41",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 16
+        },
+        {
+          "item": "17",
+          "text": "Other",
+          "text_de": "Sonstiges",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "42",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 17
+        },
+        {
+          "item": "18",
+          "text": "Do not know",
+          "text_de": "Weiss nicht",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "43",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 18
+        },
+        {
+          "item": "19",
+          "text": "Not specified (refused to answer)",
+          "text_de": "Keine Angabe",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0101",
+          "scale": "cat",
+          "number": "44",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 19
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid7_F2F4_module2",
+      "study": "twinlife"
+    }
+  }
+}

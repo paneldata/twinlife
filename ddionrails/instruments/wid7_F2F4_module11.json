@@ -1,0 +1,3711 @@
+{
+  "study": "twinlife",
+  "name": "wid7_F2F4_module11",
+  "label": "F2F 4: life events, deviance (CAWI)",
+  "description": "This questionnaire module contains questions on: long/short version of deviant-delinquent behaviour measure; occurence and subjective evaluation of different life events (e.g., marriage, death, unemployment).",
+  "analysis_unit": "individual",
+  "period": 7,
+  "instrument": "wid7_F2F4_module11",
+  "questions": {
+    "lev2100": {
+      "question": "lev2100",
+      "name": "lev2100",
+      "label": "Did a family member or another important person pass away in the last 12 months?",
+      "label_de": "[IF age >= 10 AND <= 15] Ist jemand aus Deiner Familie oder eine andere Dir wichtige Person in den letzten 12 Monaten gestorben? [IF age >= 16] Ist jemand aus Ihrer Familie oder eine andere Ihnen wichtige Person in den letzten 12 Monaten gestorben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did a family member or another important person pass away in the last 12 months?",
+          "text_de": "[IF age >= 10 AND <= 15] Ist jemand aus Deiner Familie oder eine andere Dir wichtige Person in den letzten 12 Monaten gestorben? [IF age >= 16] Ist jemand aus Ihrer Familie oder eine andere Ihnen wichtige Person in den letzten 12 Monaten gestorben?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2100",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev2101": {
+      "question": "lev2101",
+      "name": "lev2101",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2101",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev2111": {
+      "question": "lev2111",
+      "name": "lev2111",
+      "label": "Who was that?",
+      "label_de": "Wer war das?",
+      "items": [
+        {
+          "item": "0",
+          "text": "Who was that?",
+          "text_de": "Wer war das?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "filter": "(age0110>=14) & (inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (lev2100==1 | lev2101==1)",
+          "concept": "lev2111",
+          "scale": "txt",
+          "number": "3",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "[IF ptyp != 1] [name twin 1]",
+          "text_de": "[ptyp!=1] <NAME_ZWILLING1>",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "[IF ptyp != 2] [name twin 2]",
+          "text_de": "[ptyp!=2] <NAME_ZWILLING2>",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "(other) sibling (step-sibling, adoptive sibling)",
+          "text_de": "(anderes) Geschwister/ Stief-/ Adoptivgeschwister",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "(other) child (step-child, adoptive child)",
+          "text_de": "(anderes) Kind / Stiefkind/ Adoptivkind",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "parents",
+          "text_de": "Eltern",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "step-parents, adoptive parents",
+          "text_de": "Stiefeltern/Adoptiveltern",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "parents-in-law, parents of partner",
+          "text_de": "Schwiegereltern/ Eltern des Partners",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "grandparents",
+          "text_de": "Grosseltern",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "grandparents of partner",
+          "text_de": "Grosseltern des Partners",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "text": "aunt, uncle",
+          "text_de": "Tante/Onkel",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "text": "partner",
+          "text_de": "Partner*in",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "text": "other person within family",
+          "text_de": "Andere Person innerhalb der Familie",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "text": "important person outside family",
+          "text_de": "Wichtige Person ausserhalb der Familie",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "16",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "14",
+          "text": "cannot be allocated",
+          "text_de": "Nicht zuzuordnen",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "15",
+          "text": "not specified",
+          "text_de": "keine Angabe",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2111",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 15
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev2103": {
+      "question": "lev2103",
+      "name": "lev2103",
+      "label": "How was it for you?",
+      "label_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How was it for you?",
+          "text_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2103",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0100": {
+      "question": "lev0100",
+      "name": "lev0100",
+      "label": "Have you and your partner separated or divorced from each other in the last 12 months ?",
+      "label_de": "[IF age >= 10 und <= 15] Haben Du und Dein*e Freund*in in den letzten 12 Monaten miteinander Schluss gemacht oder habt Ihr Euch voneinander getrennt? [IF age >=16] Haben Sie und Ihr*e Partner*in sich in den letzten 12 Monaten voneinander getrennt oder voneinander scheiden lassen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you and your partner separated or divorced from each other in the last 12 months ?",
+          "text_de": "[IF age >= 10 und <= 15] Haben Du und Dein*e Freund*in in den letzten 12 Monaten miteinander Schluss gemacht oder habt Ihr Euch voneinander getrennt? [IF age >=16] Haben Sie und Ihr*e Partner*in sich in den letzten 12 Monaten voneinander getrennt oder voneinander scheiden lassen?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0100",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce (asked for >= 16 yrs)",
+              "label_de": "2: ja, scheiden lassen (>= 16 Jahren abgefragt)"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated (asked for >= 16 yrs)",
+              "label_de": "3: ja, getrennt (>= 16 Jahren abgefragt)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated (asked for >= 16 yrs)",
+              "label_de": "4: ja, sowohl als auch (>= 16 Jahren abgefragt)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I have / had no boyfriend or partner / no girlfriend or partner",
+              "label_de": "6: nein, ich habe/hatte keinen Freund bzw. Partner/keine Freundin bzw. Partnerin"
+            },
+            {
+              "value": 7,
+              "label": "7: no, I've never had a boyfriend or partner / girlfriend or partner",
+              "label_de": "7: nein, ich hatte noch nie einen Freund bzw. Partner/eine Freundin bzw. Partnerin"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0101": {
+      "question": "lev0101",
+      "name": "lev0101",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0101",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0103": {
+      "question": "lev0103",
+      "name": "lev0103",
+      "label": "How was it for you?",
+      "label_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How was it for you?",
+          "text_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0103",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0300": {
+      "question": "lev0300",
+      "name": "lev0300",
+      "label": "Have your parents or one of your parents separated or divorced from each other in the last 12 months ?",
+      "label_de": "[IF age >= 10 AND <= 15] Haben sich Deine Eltern in den letzten 12 Monaten scheiden lassen oder haben sich getrennt? [IF age >= 16] Haben sich Ihre Eltern in den letzten 12 Monaten scheiden lassen bzw. getrennt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have your parents or one of your parents separated or divorced from each other in the last 12 months ?",
+          "text_de": "[IF age >= 10 AND <= 15] Haben sich Deine Eltern in den letzten 12 Monaten scheiden lassen oder haben sich getrennt? [IF age >= 16] Haben sich Ihre Eltern in den letzten 12 Monaten scheiden lassen bzw. getrennt?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0300",
+          "scale": "cat",
+          "number": "23",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, divorce",
+              "label_de": "2: ja, scheiden lassen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, separated",
+              "label_de": "3: ja, getrennt"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well divoced as separated",
+              "label_de": "4: ja, sowohl als auch"
+            },
+            {
+              "value": 5,
+              "label": "5: no, neither nor",
+              "label_de": "5: nein, weder noch"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0301": {
+      "question": "lev0301",
+      "name": "lev0301",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0301",
+          "scale": "cat",
+          "number": "24",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0303": {
+      "question": "lev0303",
+      "name": "lev0303",
+      "label": "How was it for you?",
+      "label_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How was it for you?",
+          "text_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0303",
+          "scale": "cat",
+          "number": "25",
+          "answers": [
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0500": {
+      "question": "lev0500",
+      "name": "lev0500",
+      "label": "Have you started a new relationship or got married in the last 12 months?",
+      "label_de": "[IF age >= 10 AND <= 15] Bist Du in den letzten 12 Monaten mit einem neuen Freund/einer neuen Freundin zusammen gekommen? [IF age >= 16] Sind Sie selbst in den letzten 12 Monaten eine neue Beziehung eingegangen oder haben geheiratet?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you started a new relationship or got married in the last 12 months?",
+          "text_de": "[IF age >= 10 AND <= 15] Bist Du in den letzten 12 Monaten mit einem neuen Freund/einer neuen Freundin zusammen gekommen? [IF age >= 16] Sind Sie selbst in den letzten 12 Monaten eine neue Beziehung eingegangen oder haben geheiratet?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0500",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, new relationship (asked for >= 16 yrs)",
+              "label_de": "2: ja, neue Beziehung (>= 16 Jahren abgefragt)"
+            },
+            {
+              "value": 3,
+              "label": "3. yes, married (asked for >= 16 yrs)",
+              "label_de": "3. ja, geheiratet (>= 16 Jahren abgefragt)"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, as well new relationship as married (asked for >= 16 yrs)",
+              "label_de": "4: ja, sowohl als auch (>= 16 Jahren abgefragt)"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0501": {
+      "question": "lev0501",
+      "name": "lev0501",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0501",
+          "scale": "cat",
+          "number": "27",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0503": {
+      "question": "lev0503",
+      "name": "lev0503",
+      "label": "How was it for you?",
+      "label_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How was it for you?",
+          "text_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0503",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1100": {
+      "question": "lev1100",
+      "name": "lev1100",
+      "label": "[IF sex = 2] Have you given birth to a child yourself in the last 12 months or were you pregnant during that time? [IF sex = 1] If you have had a partner in the last 12 months, has your partner given birth to a child or been pregnant during that period? [IF sex = 3] Have you given birth to a child in the last 12 months or were you or your partner pregnant during that time?",
+      "label_de": "[IF sex = 2] Haben Sie selbst in den letzten 12 Monaten ein Kind bekommen bzw. waren oder sind Sie schwanger? [IF sex =1] Wenn Sie in den letzten 12 Monaten eine Partnerin hatten, hat diese Partnerin im genannten Zeitraum ein Kind bekommen bzw. war oder ist sie schwanger? [IF sex =3] Haben Sie in den letzten 12 Monaten ein Kind bekommen bzw. waren oder sind Sie oder Ihr*e Partner*in schwanger?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF sex = 2] Have you given birth to a child yourself in the last 12 months or were you pregnant during that time? [IF sex = 1] If you have had a partner in the last 12 months, has your partner given birth to a child or been pregnant during that period? [IF sex = 3] Have you given birth to a child in the last 12 months or were you or your partner pregnant during that time?",
+          "text_de": "[IF sex = 2] Haben Sie selbst in den letzten 12 Monaten ein Kind bekommen bzw. waren oder sind Sie schwanger? [IF sex =1] Wenn Sie in den letzten 12 Monaten eine Partnerin hatten, hat diese Partnerin im genannten Zeitraum ein Kind bekommen bzw. war oder ist sie schwanger? [IF sex =3] Haben Sie in den letzten 12 Monaten ein Kind bekommen bzw. waren oder sind Sie oder Ihr*e Partner*in schwanger?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1100",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, had no partner",
+              "label_de": "-81: trifft nicht zu, hatte keine Partnerin"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, had a child",
+              "label_de": "2: ja, Kind bekommen"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, was pregnant",
+              "label_de": "3: ja, schwanger gewesen"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, at the start of a pregnancy",
+              "label_de": "4: ja, gerade schwanger"
+            },
+            {
+              "value": 5,
+              "label": "5: no",
+              "label_de": "5: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1101": {
+      "question": "lev1101",
+      "name": "lev1101",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1101",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1103": {
+      "question": "lev1103",
+      "name": "lev1103",
+      "label": "How was it or how is it for you?",
+      "label_de": "Wie war oder ist das fuer Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How was it or how is it for you?",
+          "text_de": "Wie war oder ist das fuer Sie?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1103",
+          "scale": "cat",
+          "number": "31",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: I have not had a pregnancy or childbirth.",
+              "label_de": "-81: ich habe keine Schwangerschaft oder Geburt erlebt"
+            },
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0900": {
+      "question": "lev0900",
+      "name": "lev0900",
+      "label": "Did you or have you had financial worries or serious financial problems in the last 12 months?",
+      "label_de": "[IF age >= 16] Hatten oder haben Sie selbst in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? [IF age <= 15] Hattest oder hast Du selbst in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did you or have you had financial worries or serious financial problems in the last 12 months?",
+          "text_de": "[IF age >= 16] Hatten oder haben Sie selbst in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? [IF age <= 15] Hattest oder hast Du selbst in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0900",
+          "scale": "cat",
+          "number": "32",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev0901": {
+      "question": "lev0901",
+      "name": "lev0901",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev0901",
+          "scale": "cat",
+          "number": "33",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1000": {
+      "question": "lev1000",
+      "name": "lev1000",
+      "label": "[IF age >= 10 AND <= 15] Has anyone in your family experienced significant financial difficulties or serious financial problems in the last 12 months? By family, we mean your closest relatives, such as your parents and siblings. [IF age >= 16 AND IF ptyp = 1, 2, 110, 120 OR 200] Has anyone in your family experienced significant financial difficulties or serious financial problems in the last 12 months? By family, we mean your closest relatives, such as parents, siblings, and your partner. [IF age >= 16 AND IF ptyp = 300, 400, 500 OR 600] Has anyone in your family experienced significant financial difficulties or serious financial problems in the last 12 months? By family, we mean your closest relatives, such as parents, children, siblings, and your partner.",
+      "label_de": "[IF age >= 10 AND <= 15] Hat oder hatte jemand in Deiner Familie in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? Mit Deiner Familie sind Deine engsten Angehoerigen, wie Deine Eltern und Geschwister gemeint. [IF age >= 16 AND IF ptyp = 1, 2, 110, 120 OR 200 ] Hat oder hatte jemand aus Ihrer Familie in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? Mit Ihrer Familie sind Ihre engsten Angehoerigen, wie Eltern, Geschwister und Ihre Partnerin bzw. Ihr Partner gemeint [IF age >= 16 AND IF ptyp = 300, 400, 500 OR 600 ] Hat oder hatte jemand aus Ihrer Familie in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? Mit Ihrer Familie sind Ihre engsten Angehoerigen, wie Eltern, Kinder, Geschwister und Ihre Partnerin bzw. Ihr Partner gemeint.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 AND <= 15] Has anyone in your family experienced significant financial difficulties or serious financial problems in the last 12 months? By family, we mean your closest relatives, such as your parents and siblings. [IF age >= 16 AND IF ptyp = 1, 2, 110, 120 OR 200] Has anyone in your family experienced significant financial difficulties or serious financial problems in the last 12 months? By family, we mean your closest relatives, such as parents, siblings, and your partner. [IF age >= 16 AND IF ptyp = 300, 400, 500 OR 600] Has anyone in your family experienced significant financial difficulties or serious financial problems in the last 12 months? By family, we mean your closest relatives, such as parents, children, siblings, and your partner.",
+          "text_de": "[IF age >= 10 AND <= 15] Hat oder hatte jemand in Deiner Familie in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? Mit Deiner Familie sind Deine engsten Angehoerigen, wie Deine Eltern und Geschwister gemeint. [IF age >= 16 AND IF ptyp = 1, 2, 110, 120 OR 200 ] Hat oder hatte jemand aus Ihrer Familie in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? Mit Ihrer Familie sind Ihre engsten Angehoerigen, wie Eltern, Geschwister und Ihre Partnerin bzw. Ihr Partner gemeint [IF age >= 16 AND IF ptyp = 300, 400, 500 OR 600 ] Hat oder hatte jemand aus Ihrer Familie in den letzten 12 Monaten grosse Geldsorgen oder schwere finanzielle Probleme? Mit Ihrer Familie sind Ihre engsten Angehoerigen, wie Eltern, Kinder, Geschwister und Ihre Partnerin bzw. Ihr Partner gemeint.",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1000",
+          "scale": "cat",
+          "number": "34",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1001": {
+      "question": "lev1001",
+      "name": "lev1001",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals so gewesen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals so gewesen?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1001",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1800": {
+      "question": "lev1800",
+      "name": "lev1800",
+      "label": "Did you lose your job in the last 12 months?",
+      "label_de": "[IF age >= 16] Haben Sie selbst in den letzten 12 Monaten Ihre Arbeit verloren? [IF age <= 15] Hast Du selbst in den letzten 12 Monaten Deine Arbeit verloren?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did you lose your job in the last 12 months?",
+          "text_de": "[IF age >= 16] Haben Sie selbst in den letzten 12 Monaten Ihre Arbeit verloren? [IF age <= 15] Hast Du selbst in den letzten 12 Monaten Deine Arbeit verloren?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1800",
+          "scale": "cat",
+          "number": "36",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1801": {
+      "question": "lev1801",
+      "name": "lev1801",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1801",
+          "scale": "cat",
+          "number": "37",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply, I did not work",
+              "label_de": "-81: trifft nicht zu, habe nicht gearbeitet"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 21,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1803": {
+      "question": "lev1803",
+      "name": "lev1803",
+      "label": "How was it for you?",
+      "label_de": "[IF age >= 16] Wie war das fuer Sie? [IF age <= 15] Wie war das fuer Dich?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How was it for you?",
+          "text_de": "[IF age >= 16] Wie war das fuer Sie? [IF age <= 15] Wie war das fuer Dich?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1803",
+          "scale": "cat",
+          "number": "38",
+          "answers": [
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 22,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev2600": {
+      "question": "lev2600",
+      "name": "lev2600",
+      "label": "Have you had to repeat a class or school year in the past 12 months?",
+      "label_de": "[IF age >= 10 AND <= 15] Hast Du in den letzten 12 Monaten eine Klasse bzw. ein Schuljahr wiederholt? [IF age >= 16] Haben Sie in den letzten 12 Monaten eine Klasse bzw. ein Schuljahr wiederholt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you had to repeat a class or school year in the past 12 months?",
+          "text_de": "[IF age >= 10 AND <= 15] Hast Du in den letzten 12 Monaten eine Klasse bzw. ein Schuljahr wiederholt? [IF age >= 16] Haben Sie in den letzten 12 Monaten eine Klasse bzw. ein Schuljahr wiederholt?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2600",
+          "scale": "cat",
+          "number": "39",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: doesn't apply, didn't go to school (anymore)",
+              "label_de": "-81: trifft nicht zu, bin nicht (mehr) zur Schule gegangen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 23,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev2601": {
+      "question": "lev2601",
+      "name": "lev2601",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2601",
+          "scale": "cat",
+          "number": "40",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 24,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev2603": {
+      "question": "lev2603",
+      "name": "lev2603",
+      "label": "How was it for you?",
+      "label_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How was it for you?",
+          "text_de": "[IF age >= 10 AND <= 15] Wie war das fuer Dich? [IF age >= 16] Wie war das fuer Sie?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev2603",
+          "scale": "cat",
+          "number": "41",
+          "answers": [
+            {
+              "value": -3,
+              "label": "-3: very negative",
+              "label_de": "-3: sehr negativ"
+            },
+            {
+              "value": -2,
+              "label": "-2: negative",
+              "label_de": "-2: negativ"
+            },
+            {
+              "value": -1,
+              "label": "-1: rather negative",
+              "label_de": "-1: eher negativ"
+            },
+            {
+              "value": 0,
+              "label": "0: neither negative nor positive",
+              "label_de": "0: weder negativ noch positiv"
+            },
+            {
+              "value": 1,
+              "label": "1: rather positive",
+              "label_de": "1: eher positiv"
+            },
+            {
+              "value": 2,
+              "label": "2: positive",
+              "label_de": "2: positiv"
+            },
+            {
+              "value": 3,
+              "label": "3: very positive",
+              "label_de": "3: sehr positiv"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 25,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1600": {
+      "question": "lev1600",
+      "name": "lev1600",
+      "label": "Did you have a serious accident, a serious injury, or a sudden serious illness in the last 12 months?",
+      "label_de": "[IF age >= 10 AND <= 15] Hattest Du selbst in den letzten 12 Monaten einen schweren Unfall, eine Verletzung oder wurdest Du ploetzlich schwer krank? [IF age >= 16] Hatten Sie selbst in den letzten 12 Monaten einen schweren Unfall, eine schwere Verletzung oder eine ploetzliche schwere Erkrankung?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did you have a serious accident, a serious injury, or a sudden serious illness in the last 12 months?",
+          "text_de": "[IF age >= 10 AND <= 15] Hattest Du selbst in den letzten 12 Monaten einen schweren Unfall, eine Verletzung oder wurdest Du ploetzlich schwer krank? [IF age >= 16] Hatten Sie selbst in den letzten 12 Monaten einen schweren Unfall, eine schwere Verletzung oder eine ploetzliche schwere Erkrankung?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1600",
+          "scale": "cat",
+          "number": "42",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 26,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "lev1601": {
+      "question": "lev1601",
+      "name": "lev1601",
+      "label": "Has it ever happened before?",
+      "label_de": "Ist das davor jemals passiert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Has it ever happened before?",
+          "text_de": "Ist das davor jemals passiert?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "lev1601",
+          "scale": "cat",
+          "number": "43",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 27,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0100": {
+      "question": "del0100",
+      "name": "del0100",
+      "label": "Have you ever taken the tram or bus without paying?",
+      "label_de": "[IF age >= 10 AND age <= 15] Bist Du schon einmal mit der Strassenbahn oder dem Bus gefahren, ohne zu bezahlen? [IF age >= 16 AND age <= 18] Sind Sie schon einmal mit der Strassenbahn oder dem Bus gefahren, ohne zu bezahlen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever taken the tram or bus without paying?",
+          "text_de": "[IF age >= 10 AND age <= 15] Bist Du schon einmal mit der Strassenbahn oder dem Bus gefahren, ohne zu bezahlen? [IF age >= 16 AND age <= 18] Sind Sie schon einmal mit der Strassenbahn oder dem Bus gefahren, ohne zu bezahlen?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0100",
+          "scale": "cat",
+          "number": "44",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 28,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0104": {
+      "question": "del0104",
+      "name": "del0104",
+      "label": "In the last 24 months, have you taken the tram or bus without paying?",
+      "label_de": "[IF age >= 10 and age <= 15] Bist Du in den letzten 24 Monaten mit der Strassenbahn oder dem Bus gefahren, ohne zu bezahlen? [IF age >= 16 and age <= 18] Sind Sie in den letzten 24 Monaten mit der Strassenbahn oder dem Bus gefahren, ohne zu bezahlen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the last 24 months, have you taken the tram or bus without paying?",
+          "text_de": "[IF age >= 10 and age <= 15] Bist Du in den letzten 24 Monaten mit der Strassenbahn oder dem Bus gefahren, ohne zu bezahlen? [IF age >= 16 and age <= 18] Sind Sie in den letzten 24 Monaten mit der Strassenbahn oder dem Bus gefahren, ohne zu bezahlen?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0104",
+          "scale": "cat",
+          "number": "45",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 29,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0200": {
+      "question": "del0200",
+      "name": "del0200",
+      "label": "Did you ever spend a night away from home without your family knowing where you were?",
+      "label_de": "[IF age >= 10 AND age <= 15] Warst Du schon einmal eine Nacht von zu Hause fort, ohne dass deine Familie wusste, wo Du bist? [IF age >= 16 AND age <= 18] Waren Sie schon einmal eine Nacht von zu Hause fort, ohne dass Ihre Familie wusste, wo Sie sind?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did you ever spend a night away from home without your family knowing where you were?",
+          "text_de": "[IF age >= 10 AND age <= 15] Warst Du schon einmal eine Nacht von zu Hause fort, ohne dass deine Familie wusste, wo Du bist? [IF age >= 16 AND age <= 18] Waren Sie schon einmal eine Nacht von zu Hause fort, ohne dass Ihre Familie wusste, wo Sie sind?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0200",
+          "scale": "cat",
+          "number": "46",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 30,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0204": {
+      "question": "del0204",
+      "name": "del0204",
+      "label": "In the last 24 months, have you spent a night away from home without your family knowing where you are?",
+      "label_de": "[IF age >= 10 and age <= 15] Warst Du in den letzten 24 Monaten eine Nacht von zu Hause fort, ohne dass deine Familie wusste, wo Du bist? [IF age >= 16 and age <= 18] Waren Sie in den letzten 24 Monaten eine Nacht von zu Hause fort, ohne dass Ihre Familie wusste, wo Sie sind?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the last 24 months, have you spent a night away from home without your family knowing where you are?",
+          "text_de": "[IF age >= 10 and age <= 15] Warst Du in den letzten 24 Monaten eine Nacht von zu Hause fort, ohne dass deine Familie wusste, wo Du bist? [IF age >= 16 and age <= 18] Waren Sie in den letzten 24 Monaten eine Nacht von zu Hause fort, ohne dass Ihre Familie wusste, wo Sie sind?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0204",
+          "scale": "cat",
+          "number": "47",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 31,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0300": {
+      "question": "del0300",
+      "name": "del0300",
+      "label": "Have you ever skipped a whole day of school?",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal in der Schule einen ganzen Tag lang geschwaenzt? [IF age >= 16 AND age <= 18] Haben Sie schon einmal in der Schule einen ganzen Tag lang geschwaenzt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever skipped a whole day of school?",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal in der Schule einen ganzen Tag lang geschwaenzt? [IF age >= 16 AND age <= 18] Haben Sie schon einmal in der Schule einen ganzen Tag lang geschwaenzt?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0300",
+          "scale": "cat",
+          "number": "48",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 32,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0304": {
+      "question": "del0304",
+      "name": "del0304",
+      "label": "Have you skipped a whole day of school in the last 24 months?",
+      "label_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten in der Schule einen ganzen Tag lang geschwaenzt? [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten in der Schule einen ganzen Tag lang geschwaenzt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you skipped a whole day of school in the last 24 months?",
+          "text_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten in der Schule einen ganzen Tag lang geschwaenzt? [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten in der Schule einen ganzen Tag lang geschwaenzt?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0304",
+          "scale": "cat",
+          "number": "49",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 33,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0400": {
+      "question": "del0400",
+      "name": "del0400",
+      "label": "[IF age >= 10 AND age <= 18] Have you ever attempted to take something from a kiosk, department store, or shop without paying for it? [IF age >= 19] Have you ever taken something from a supermarket, store, or department store without paying for it?",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal versucht etwas in einem Kiosk, Kaufhaus oder Geschaeft mitzunehmen, ohne zu bezahlen? [IF age >= 16 AND age <= 18] Haben Sie schon einmal versucht etwas in einem Kiosk, Kaufhaus oder Geschaeft mitzunehmen, ohne zu bezahlen? [IF age >= 19] Haben Sie jemals etwas aus einem Supermarkt, einem Laden oder Kaufhaus mitgenommen, ohne zu bezahlen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 AND age <= 18] Have you ever attempted to take something from a kiosk, department store, or shop without paying for it? [IF age >= 19] Have you ever taken something from a supermarket, store, or department store without paying for it?",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal versucht etwas in einem Kiosk, Kaufhaus oder Geschaeft mitzunehmen, ohne zu bezahlen? [IF age >= 16 AND age <= 18] Haben Sie schon einmal versucht etwas in einem Kiosk, Kaufhaus oder Geschaeft mitzunehmen, ohne zu bezahlen? [IF age >= 19] Haben Sie jemals etwas aus einem Supermarkt, einem Laden oder Kaufhaus mitgenommen, ohne zu bezahlen?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0400",
+          "scale": "cat",
+          "number": "50",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 34,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0404": {
+      "question": "del0404",
+      "name": "del0404",
+      "label": "[IF age >= 10 and age <= 18] Have you attempted to take something from a kiosk, department store, or shop without paying for it in the last 24 months? [IF age >= 19] Have you taken something from a supermarket, store, or department store without paying for it in the last 24 months?",
+      "label_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten versucht etwas in einem Kiosk, Kaufhaus oder Geschaeft mitzunehmen, ohne zu bezahlen? [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten versucht etwas in einem Kiosk, Kaufhaus oder Geschaeft mitzunehmen, ohne zu bezahlen? [IF age >= 19] Haben Sie in den letzten 24 Monaten etwas aus einem Supermarkt, einem Laden oder Kaufhaus mitgenommen, ohne zu bezahlen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 and age <= 18] Have you attempted to take something from a kiosk, department store, or shop without paying for it in the last 24 months? [IF age >= 19] Have you taken something from a supermarket, store, or department store without paying for it in the last 24 months?",
+          "text_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten versucht etwas in einem Kiosk, Kaufhaus oder Geschaeft mitzunehmen, ohne zu bezahlen? [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten versucht etwas in einem Kiosk, Kaufhaus oder Geschaeft mitzunehmen, ohne zu bezahlen? [IF age >= 19] Haben Sie in den letzten 24 Monaten etwas aus einem Supermarkt, einem Laden oder Kaufhaus mitgenommen, ohne zu bezahlen?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0404",
+          "scale": "cat",
+          "number": "51",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 35,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0500": {
+      "question": "del0500",
+      "name": "del0500",
+      "label": "[IF age >= 10 AND age <= 18] Have you ever stolen something from a classmate? [IF age >=19] Have you ever stolen something from another person? (e.g., mobile phone, money, handbag, bike)?",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal einem Mitschueler/einer Mitschuelerin etwas gestohlen? [IF age >= 16 AND age <= 18] Haben Sie schon einmal einem Mitschueler/einer Mitschuelerin etwas gestohlen? [IF age >=19] Haben Sie jemals einer Person etwas gestohlen (z.B. Handy, Geld, Handtasche, Fahrrad)?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 AND age <= 18] Have you ever stolen something from a classmate? [IF age >=19] Have you ever stolen something from another person? (e.g., mobile phone, money, handbag, bike)?",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal einem Mitschueler/einer Mitschuelerin etwas gestohlen? [IF age >= 16 AND age <= 18] Haben Sie schon einmal einem Mitschueler/einer Mitschuelerin etwas gestohlen? [IF age >=19] Haben Sie jemals einer Person etwas gestohlen (z.B. Handy, Geld, Handtasche, Fahrrad)?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0500",
+          "scale": "cat",
+          "number": "52",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 36,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0504": {
+      "question": "del0504",
+      "name": "del0504",
+      "label": "[IF age >= 10 AND age <= 18] In the last 24 months, have you stolen something from a classmate? [IF age >=19] In the last 24 months, have you stolen something from another person? (e.g., mobile phone, money, handbag, bike)?",
+      "label_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten einem Mitschueler/einer Mitschuelerin etwas gestohlen? [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten einem Mitschueler/einer Mitschuelerin etwas gestohlen? [IF age >=19] Haben Sie in den letzten 24 Monaten einer Person etwas gestohlen (z.B. Handy, Geld, Handtasche, Fahrrad)?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 AND age <= 18] In the last 24 months, have you stolen something from a classmate? [IF age >=19] In the last 24 months, have you stolen something from another person? (e.g., mobile phone, money, handbag, bike)?",
+          "text_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten einem Mitschueler/einer Mitschuelerin etwas gestohlen? [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten einem Mitschueler/einer Mitschuelerin etwas gestohlen? [IF age >=19] Haben Sie in den letzten 24 Monaten einer Person etwas gestohlen (z.B. Handy, Geld, Handtasche, Fahrrad)?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0504",
+          "scale": "cat",
+          "number": "53",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 37,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0600": {
+      "question": "del0600",
+      "name": "del0600",
+      "label": "Have you ever sprayed graffiti in places where this is forbidden or intentionally scratched something to cause damage (scratching)?",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal an verbotenen Orten Graffitis gesprayt oder absichtlich etwas zerkratzt, um es zu zerstoeren oder zu beschaedigen (scratchen?) [IF age >= 16] Haben Sie schon einmal an verbotenen Orten Graffitis gesprayt oder absichtlich etwas zerkratzt, um es zu zerstoeren oder zu beschaedigen (scratchen?)",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever sprayed graffiti in places where this is forbidden or intentionally scratched something to cause damage (scratching)?",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal an verbotenen Orten Graffitis gesprayt oder absichtlich etwas zerkratzt, um es zu zerstoeren oder zu beschaedigen (scratchen?) [IF age >= 16] Haben Sie schon einmal an verbotenen Orten Graffitis gesprayt oder absichtlich etwas zerkratzt, um es zu zerstoeren oder zu beschaedigen (scratchen?)",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0600",
+          "scale": "cat",
+          "number": "54",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 38,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0604": {
+      "question": "del0604",
+      "name": "del0604",
+      "label": "In the last 24 months, have you sprayed graffiti in places where this is forbidden or intentionally scratched something to cause damage (scratching)?",
+      "label_de": "[IF age >= 10 and age <= 15] Hast du in den letzten 24 Monaten an verbotenen Orten Graffitis gesprayt oder absichtlich etwas zerkratzt, um es zu zerstoeren oder zu beschaedigen (scratchen)? [IF age >= 16] Haben Sie in den letzten 24 Monaten an verbotenen Orten Graffitis gesprayt oder absichtlich etwas zerkratzt, um es zu zerstoeren oder zu beschaedigen (scratchen)?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the last 24 months, have you sprayed graffiti in places where this is forbidden or intentionally scratched something to cause damage (scratching)?",
+          "text_de": "[IF age >= 10 and age <= 15] Hast du in den letzten 24 Monaten an verbotenen Orten Graffitis gesprayt oder absichtlich etwas zerkratzt, um es zu zerstoeren oder zu beschaedigen (scratchen)? [IF age >= 16] Haben Sie in den letzten 24 Monaten an verbotenen Orten Graffitis gesprayt oder absichtlich etwas zerkratzt, um es zu zerstoeren oder zu beschaedigen (scratchen)?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0604",
+          "scale": "cat",
+          "number": "55",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 39,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0700": {
+      "question": "del0700",
+      "name": "del0700",
+      "label": "Sometimes cars, mailboxes, seats of buses or trains, park benches, windows, and similar things are damaged or destroyed. Have you ever intentionally damaged or destroyed such items or other things that did not belong to you?",
+      "label_de": "Es kommt vor, dass Fahrzeuge, Briefkaesten, Sitze in Bus oder Bahn, Parkbaenke, Fenster oder aehnliches beschaedigt oder zerstoert werden. [IF age >= 10 AND age <= 15] Hast Du jemals solche oder auch andere Sachen, die Dir nicht gehoerten, absichtlich beschaedigt oder zerstoert? [IF age >= 16] Haben Sie jemals solche oder auch andere Sachen, die Ihnen nicht gehoerten, absichtlich beschaedigt oder zerstoert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Sometimes cars, mailboxes, seats of buses or trains, park benches, windows, and similar things are damaged or destroyed. Have you ever intentionally damaged or destroyed such items or other things that did not belong to you?",
+          "text_de": "Es kommt vor, dass Fahrzeuge, Briefkaesten, Sitze in Bus oder Bahn, Parkbaenke, Fenster oder aehnliches beschaedigt oder zerstoert werden. [IF age >= 10 AND age <= 15] Hast Du jemals solche oder auch andere Sachen, die Dir nicht gehoerten, absichtlich beschaedigt oder zerstoert? [IF age >= 16] Haben Sie jemals solche oder auch andere Sachen, die Ihnen nicht gehoerten, absichtlich beschaedigt oder zerstoert?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0700",
+          "scale": "cat",
+          "number": "56",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 40,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0704": {
+      "question": "del0704",
+      "name": "del0704",
+      "label": "Sometimes cars, mailboxes, seats of buses or trains, park benches, windows, and similar things are damaged or destroyed. In the last 24 months, have you ever intentionally damaged or destroyed such items or other things that did not belong to you?",
+      "label_de": "Es kommt vor, dass Fahrzeuge, Briefkaesten, Sitze in Bus oder Bahn, Parkbaenke, Fenster oder aehnliches beschaedigt oder zerstoert werden. [IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten solche oder auch andere Sachen, die Dir nicht gehoerten, absichtlich beschaedigt oder zerstoert? [IF age >= 16] Haben Sie in den letzten 24 Monaten solche oder auch andere Sachen, die Ihnen nicht gehoerten, absichtlich beschaedigt oder zerstoert?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Sometimes cars, mailboxes, seats of buses or trains, park benches, windows, and similar things are damaged or destroyed. In the last 24 months, have you ever intentionally damaged or destroyed such items or other things that did not belong to you?",
+          "text_de": "Es kommt vor, dass Fahrzeuge, Briefkaesten, Sitze in Bus oder Bahn, Parkbaenke, Fenster oder aehnliches beschaedigt oder zerstoert werden. [IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten solche oder auch andere Sachen, die Dir nicht gehoerten, absichtlich beschaedigt oder zerstoert? [IF age >= 16] Haben Sie in den letzten 24 Monaten solche oder auch andere Sachen, die Ihnen nicht gehoerten, absichtlich beschaedigt oder zerstoert?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0704",
+          "scale": "cat",
+          "number": "57",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 41,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0800": {
+      "question": "del0800",
+      "name": "del0800",
+      "label": "Have you ever used the internet to insult or threaten someone, to spread gossip, to make someone look bad, or to make fun of someone?",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal jemanden ueber das Internet beleidigt, bedroht, ueber ihn/sie Geruechte verbreitet, ihn/sie blossgestellt oder laecherlich gemacht? [IF age >= 16] Haben Sie schon einmal jemanden ueber das Internet beleidigt, bedroht, ueber ihn/sie Geruechte verbreitet, ihn/sie blossgestellt oder laecherlich gemacht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever used the internet to insult or threaten someone, to spread gossip, to make someone look bad, or to make fun of someone?",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal jemanden ueber das Internet beleidigt, bedroht, ueber ihn/sie Geruechte verbreitet, ihn/sie blossgestellt oder laecherlich gemacht? [IF age >= 16] Haben Sie schon einmal jemanden ueber das Internet beleidigt, bedroht, ueber ihn/sie Geruechte verbreitet, ihn/sie blossgestellt oder laecherlich gemacht?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0800",
+          "scale": "cat",
+          "number": "58",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 42,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0804": {
+      "question": "del0804",
+      "name": "del0804",
+      "label": "In the last 24 months, have you used the internet to insult or threaten someone, to spread gossip, to make someone look bad, or to make fun of someone?",
+      "label_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten jemanden ueber das Internet beleidigt, bedroht, ueber ihn/sie Geruechte verbreitet, ihn/sie blossgestellt oder laecherlich gemacht? [IF age >= 16] Haben Sie in den letzten 24 Monaten jemanden ueber das Internet beleidigt, bedroht, ueber ihn/sie Geruechte verbreitet, ihn/sie blossgestellt oder laecherlich gemacht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the last 24 months, have you used the internet to insult or threaten someone, to spread gossip, to make someone look bad, or to make fun of someone?",
+          "text_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten jemanden ueber das Internet beleidigt, bedroht, ueber ihn/sie Geruechte verbreitet, ihn/sie blossgestellt oder laecherlich gemacht? [IF age >= 16] Haben Sie in den letzten 24 Monaten jemanden ueber das Internet beleidigt, bedroht, ueber ihn/sie Geruechte verbreitet, ihn/sie blossgestellt oder laecherlich gemacht?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0804",
+          "scale": "cat",
+          "number": "59",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 43,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0900": {
+      "question": "del0900",
+      "name": "del0900",
+      "label": "Have you ever downloaded pirated copies (e.g., movies, music, computer games) from the Internet?",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du jemals Raubkopien (z.B. Filme, Musik, Computerspiele) aus dem Internet heruntergeladen? [IF age >= 16] Haben Sie jemals Raubkopien (z.B. Filme, Musik, Computerspiele) aus dem Internet heruntergeladen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever downloaded pirated copies (e.g., movies, music, computer games) from the Internet?",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du jemals Raubkopien (z.B. Filme, Musik, Computerspiele) aus dem Internet heruntergeladen? [IF age >= 16] Haben Sie jemals Raubkopien (z.B. Filme, Musik, Computerspiele) aus dem Internet heruntergeladen?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0900",
+          "scale": "cat",
+          "number": "60",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 44,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del0904": {
+      "question": "del0904",
+      "name": "del0904",
+      "label": "In the last 24 months, have you downloaded pirated copies (e.g., movies, music, computer games) from the Internet?",
+      "label_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten Raubkopien (z.B. Filme, Musik, Computerspiele) aus dem Internet heruntergeladen? [IF age >= 16] Haben Sie in den letzten 24 Monaten Raubkopien (z.B. Filme, Musik, Computerspiele) aus dem Internet heruntergeladen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the last 24 months, have you downloaded pirated copies (e.g., movies, music, computer games) from the Internet?",
+          "text_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten Raubkopien (z.B. Filme, Musik, Computerspiele) aus dem Internet heruntergeladen? [IF age >= 16] Haben Sie in den letzten 24 Monaten Raubkopien (z.B. Filme, Musik, Computerspiele) aus dem Internet heruntergeladen?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del0904",
+          "scale": "cat",
+          "number": "61",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 45,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1000": {
+      "question": "del1000",
+      "name": "del1000",
+      "label": "Have you ever - maybe together with others - teased, intimidated or threatened a classmate?",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal einen Mitschueler/eine Mitschuelerin - vielleicht auch zusammen mit anderen - gehaenselt, eingeschuechtert oder bedroht? [IF age >= 16 AND age <= 18] Haben Sie schon einmal einen Mitschueler/eine Mitschuelerin - vielleicht auch zusammen mit anderen - gehaenselt, eingeschuechtert oder bedroht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever - maybe together with others - teased, intimidated or threatened a classmate?",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal einen Mitschueler/eine Mitschuelerin - vielleicht auch zusammen mit anderen - gehaenselt, eingeschuechtert oder bedroht? [IF age >= 16 AND age <= 18] Haben Sie schon einmal einen Mitschueler/eine Mitschuelerin - vielleicht auch zusammen mit anderen - gehaenselt, eingeschuechtert oder bedroht?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1000",
+          "scale": "cat",
+          "number": "62",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 46,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1004": {
+      "question": "del1004",
+      "name": "del1004",
+      "label": "In the last 24 months, have you - maybe together with others - teased, intimidated or threatened a classmate?",
+      "label_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten einen Mitschueler/eine Mitschuelerin - vielleicht auch zusammen mit anderen - gehaenselt, eingeschuechtert oder bedroht? [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten einen Mitschueler/eine Mitschuelerin - vielleicht auch zusammen mit anderen - gehaenselt, eingeschuechtert oder bedroht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the last 24 months, have you - maybe together with others - teased, intimidated or threatened a classmate?",
+          "text_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten einen Mitschueler/eine Mitschuelerin - vielleicht auch zusammen mit anderen - gehaenselt, eingeschuechtert oder bedroht? [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten einen Mitschueler/eine Mitschuelerin - vielleicht auch zusammen mit anderen - gehaenselt, eingeschuechtert oder bedroht?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1004",
+          "scale": "cat",
+          "number": "63",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 47,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1100": {
+      "question": "del1100",
+      "name": "del1100",
+      "label": "[IF age >= 10 AND age <= 18] Have you ever threatened someone with violence to make them give you something? This includes fleecing. [IF age >= 19] Have you ever forcibly taken money or items from someone or coerced someone into giving you money or items? This also includes fleecing.",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal einem Menschen mit Gewalt gedroht, damit er/sie Dir etwas von sich gibt? Hier ist auch Abziehen gemeint. [IF age >= 16 AND age <= 18] Haben Sie schon einmal einem Menschen mit Gewalt gedroht, damit er/sie Ihnen etwas von sich gibt? Hier ist auch Abziehen gemeint. [IF age >= 19] Haben Sie jemals jemandem mit Gewalt Geld oder irgendwelche Sachen abgenommen oder jemanden gezwungen, Geld oder Sachen herauszugeben? Damit ist auch das Abziehen gemeint.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 AND age <= 18] Have you ever threatened someone with violence to make them give you something? This includes fleecing. [IF age >= 19] Have you ever forcibly taken money or items from someone or coerced someone into giving you money or items? This also includes fleecing.",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal einem Menschen mit Gewalt gedroht, damit er/sie Dir etwas von sich gibt? Hier ist auch Abziehen gemeint. [IF age >= 16 AND age <= 18] Haben Sie schon einmal einem Menschen mit Gewalt gedroht, damit er/sie Ihnen etwas von sich gibt? Hier ist auch Abziehen gemeint. [IF age >= 19] Haben Sie jemals jemandem mit Gewalt Geld oder irgendwelche Sachen abgenommen oder jemanden gezwungen, Geld oder Sachen herauszugeben? Damit ist auch das Abziehen gemeint.",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1100",
+          "scale": "cat",
+          "number": "64",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 48,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1104": {
+      "question": "del1104",
+      "name": "del1104",
+      "label": "[IF age >= 10 and age <= 18] Have you threatened someone with violence in the last 24 months to make them give you something? This includes fleecing. [IF age >= 19] Have you forcibly taken money or items from someone or coerced someone into giving you money or items in the last 24 months? This also includes fleecing.",
+      "label_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten einem Menschen mit Gewalt gedroht, damit er/sie Dir etwas von sich gibt? Hier ist auch Abziehen gemeint. [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten einem Menschen mit Gewalt gedroht, damit er/sie Ihnen etwas von sich gibt? Hier ist auch Abziehen gemeint. [IF age >= 19] Haben Sie in den letzten 24 Monaten jemandem mit Gewalt Geld oder irgendwelche Sachen abgenommen oder jemanden gezwungen, Geld oder Sachen herauszugeben? Damit ist auch das Abziehen gemeint.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 and age <= 18] Have you threatened someone with violence in the last 24 months to make them give you something? This includes fleecing. [IF age >= 19] Have you forcibly taken money or items from someone or coerced someone into giving you money or items in the last 24 months? This also includes fleecing.",
+          "text_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten einem Menschen mit Gewalt gedroht, damit er/sie Dir etwas von sich gibt? Hier ist auch Abziehen gemeint. [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten einem Menschen mit Gewalt gedroht, damit er/sie Ihnen etwas von sich gibt? Hier ist auch Abziehen gemeint. [IF age >= 19] Haben Sie in den letzten 24 Monaten jemandem mit Gewalt Geld oder irgendwelche Sachen abgenommen oder jemanden gezwungen, Geld oder Sachen herauszugeben? Damit ist auch das Abziehen gemeint.",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1104",
+          "scale": "cat",
+          "number": "65",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 49,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1400": {
+      "question": "del1400",
+      "name": "del1400",
+      "label": "[IF age >= 10 AND age <= 18] Have you ever injured another person in a fight? We do not mean situations where teenagers playfully wrestle. [IF age >= 19] Have you ever struck or kicked someone in a way that caused injury, but without using a weapon or another object? However, we do not mean situations where people playfully wrestle with each other.",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal einen anderen Menschen bei einer Schlaegerei verletzt? Damit meinen wir nicht solche Situationen, in denen Jugendliche nur aus Spass miteinander raufen. [IF age >= 16 AND age <= 18] Haben Sie schon einmal einen anderen Menschen bei einer Schlaegerei verletzt? Damit meinen wir nicht solche Situationen, in denen Jugendliche nur aus Spass miteinander raufen. [IF age >= 19] Haben Sie jemals jemanden so geschlagen oder getreten, dass er/sie verletzt wurde, aber ohne eine Waffe oder einen anderen Gegenstand zu benutzen? Damit meinen wir jedoch nicht solche Situationen, bei denen man nur aus Spass miteinander rauft.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 AND age <= 18] Have you ever injured another person in a fight? We do not mean situations where teenagers playfully wrestle. [IF age >= 19] Have you ever struck or kicked someone in a way that caused injury, but without using a weapon or another object? However, we do not mean situations where people playfully wrestle with each other.",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast Du schon einmal einen anderen Menschen bei einer Schlaegerei verletzt? Damit meinen wir nicht solche Situationen, in denen Jugendliche nur aus Spass miteinander raufen. [IF age >= 16 AND age <= 18] Haben Sie schon einmal einen anderen Menschen bei einer Schlaegerei verletzt? Damit meinen wir nicht solche Situationen, in denen Jugendliche nur aus Spass miteinander raufen. [IF age >= 19] Haben Sie jemals jemanden so geschlagen oder getreten, dass er/sie verletzt wurde, aber ohne eine Waffe oder einen anderen Gegenstand zu benutzen? Damit meinen wir jedoch nicht solche Situationen, bei denen man nur aus Spass miteinander rauft.",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1400",
+          "scale": "cat",
+          "number": "66",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 50,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1404": {
+      "question": "del1404",
+      "name": "del1404",
+      "label": "[IF age >= 10 and age <= 18] Have you injured another person in a fight in the last 24 months? We do not mean situations where teenagers playfully wrestle with each other. [IF age >= 19] Have you struck or kicked someone in a way that caused injury in the last 24 months, but without using a weapon or another object? However, we do not mean situations where people playfully wrestle with each other.",
+      "label_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten einen anderen Menschen bei einer Schlaegerei verletzt? Damit meinen wir nicht solche Situationen, in denen Jugendliche nur aus Spass miteinander raufen. [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten einen anderen Menschen bei einer Schlaegerei verletzt? Damit meinen wir nicht solche Situationen, in denen Jugendliche nur aus Spass miteinander raufen. [IF age >= 19] Haben Sie in den letzten 24 Monaten jemanden so geschlagen oder getreten, dass er/sie verletzt wurde, aber ohne eine Waffe oder einen anderen Gegenstand zu benutzen? Damit meinen wir jedoch nicht solche Situationen, bei denen man nur aus Spass miteinander rauft.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 and age <= 18] Have you injured another person in a fight in the last 24 months? We do not mean situations where teenagers playfully wrestle with each other. [IF age >= 19] Have you struck or kicked someone in a way that caused injury in the last 24 months, but without using a weapon or another object? However, we do not mean situations where people playfully wrestle with each other.",
+          "text_de": "[IF age >= 10 and age <= 15] Hast Du in den letzten 24 Monaten einen anderen Menschen bei einer Schlaegerei verletzt? Damit meinen wir nicht solche Situationen, in denen Jugendliche nur aus Spass miteinander raufen. [IF age >= 16 and age <= 18] Haben Sie in den letzten 24 Monaten einen anderen Menschen bei einer Schlaegerei verletzt? Damit meinen wir nicht solche Situationen, in denen Jugendliche nur aus Spass miteinander raufen. [IF age >= 19] Haben Sie in den letzten 24 Monaten jemanden so geschlagen oder getreten, dass er/sie verletzt wurde, aber ohne eine Waffe oder einen anderen Gegenstand zu benutzen? Damit meinen wir jedoch nicht solche Situationen, bei denen man nur aus Spass miteinander rauft.",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1404",
+          "scale": "cat",
+          "number": "67",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 51,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1200": {
+      "question": "del1200",
+      "name": "del1200",
+      "label": "Have you ever smoked cigarettes?",
+      "label_de": "Hast Du schon einmal Zigaretten geraucht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever smoked cigarettes?",
+          "text_de": "Hast Du schon einmal Zigaretten geraucht?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1200",
+          "scale": "cat",
+          "number": "68",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 52,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1201": {
+      "question": "del1201",
+      "name": "del1201",
+      "label": "How old were you when you smoked for the first time?",
+      "label_de": "Wie alt warst Du, als Du zum ersten Mal geraucht hast?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How old were you when you smoked for the first time?",
+          "text_de": "Wie alt warst Du, als Du zum ersten Mal geraucht hast?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1201",
+          "scale": "cat",
+          "number": "69",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 53,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1300": {
+      "question": "del1300",
+      "name": "del1300",
+      "label": "Have you ever drunk alcohol?",
+      "label_de": "Hast Du schon einmal Alkohol getrunken?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever drunk alcohol?",
+          "text_de": "Hast Du schon einmal Alkohol getrunken?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1300",
+          "scale": "cat",
+          "number": "70",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 54,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1301": {
+      "question": "del1301",
+      "name": "del1301",
+      "label": "How old were you when you drank alcohol for the first time?",
+      "label_de": "Wie alt warst Du, als Du zum ersten Mal Alkohol getrunken hast?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How old were you when you drank alcohol for the first time?",
+          "text_de": "Wie alt warst Du, als Du zum ersten Mal Alkohol getrunken hast?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1301",
+          "scale": "cat",
+          "number": "71",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 55,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1302": {
+      "question": "del1302",
+      "name": "del1302",
+      "label": "Have you drunk alcohol often (i.e., more than once or twice)?",
+      "label_de": "Hast Du schon oefter Alkohol getrunken (d.h. mehr als ein- bis zweimal)?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you drunk alcohol often (i.e., more than once or twice)?",
+          "text_de": "Hast Du schon oefter Alkohol getrunken (d.h. mehr als ein- bis zweimal)?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1302",
+          "scale": "cat",
+          "number": "72",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 56,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1304": {
+      "question": "del1304",
+      "name": "del1304",
+      "label": "Have you ever gotten really drunk?",
+      "label_de": "Warst Du schon einmal richtig betrunken?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever gotten really drunk?",
+          "text_de": "Warst Du schon einmal richtig betrunken?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1304",
+          "scale": "cat",
+          "number": "73",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 57,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1305": {
+      "question": "del1305",
+      "name": "del1305",
+      "label": "How old were you when you got really drunk for the first time?",
+      "label_de": "Wie alt warst Du, als Du zum ersten Mal richtig betrunken warst?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How old were you when you got really drunk for the first time?",
+          "text_de": "Wie alt warst Du, als Du zum ersten Mal richtig betrunken warst?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1305",
+          "scale": "cat",
+          "number": "74",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 58,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1500": {
+      "question": "del1500",
+      "name": "del1500",
+      "label": "[IF age >= 10 AND age <= 17] Have you ever taken drugs (e.g., marijuana, hashish, ecstasy, cocaine, etc.)? We're not referring to cigarettes or alcohol. [IF age >= 18] Have you ever used drugs such as ecstasy, hashish, marijuana, heroin, cocaine, etc., or smoked them? (We're not referring to cigarettes or alcohol.)",
+      "label_de": "[IF age >= 10 AND age <= 15] Hast du schon einmal Drogen genommen (z.B. Marihuana, Haschisch, Ecstasy, Kokain usw.)? Zigaretten und Alkohol meinen wir hier nicht. [IF age >= 16 AND age <= 17] Haben Sie schon einmal Drogen genommen (z.B. Marihuana, Haschisch, Ecstasy, Kokain usw.)? Zigaretten und Alkohol meinen wir hier nicht. [IF age >= 18] Haben Sie jemals Drogen wie Ecstasy, Haschisch, Marihuana, Heroin, Kokain usw. genommen oder geraucht (Alkohol und Zigaretten sind hier nicht gemeint)?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >= 10 AND age <= 17] Have you ever taken drugs (e.g., marijuana, hashish, ecstasy, cocaine, etc.)? We're not referring to cigarettes or alcohol. [IF age >= 18] Have you ever used drugs such as ecstasy, hashish, marijuana, heroin, cocaine, etc., or smoked them? (We're not referring to cigarettes or alcohol.)",
+          "text_de": "[IF age >= 10 AND age <= 15] Hast du schon einmal Drogen genommen (z.B. Marihuana, Haschisch, Ecstasy, Kokain usw.)? Zigaretten und Alkohol meinen wir hier nicht. [IF age >= 16 AND age <= 17] Haben Sie schon einmal Drogen genommen (z.B. Marihuana, Haschisch, Ecstasy, Kokain usw.)? Zigaretten und Alkohol meinen wir hier nicht. [IF age >= 18] Haben Sie jemals Drogen wie Ecstasy, Haschisch, Marihuana, Heroin, Kokain usw. genommen oder geraucht (Alkohol und Zigaretten sind hier nicht gemeint)?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1500",
+          "scale": "cat",
+          "number": "75",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 59,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1600": {
+      "question": "del1600",
+      "name": "del1600",
+      "label": "Have you ever operated a motor vehicle (car, motorcycle, moped) without the necessary driver's license, excluding driving lessons or practice (e.g., with parents) on private property?",
+      "label_de": "[IF age >= 10 AND age <= 15] Bist Du schon einmal mit einem Kraftfahrzeug (Auto, Motorrad, Moped) gefahren, obwohl Du den hierfuer notwendigen Fuehrerschein nicht hattest? Fahrten im Rahmen der Fahrschule oder das Ueben (z.B. mit den Eltern) auf einem privaten Grundstueck sind hier nicht gemeint. [IF age >= 16] Sind Sie schon einmal mit einem Kraftfahrzeug (Auto, Motorrad, Moped) gefahren, obwohl Sie den hierfuer notwendigen Fuehrerschein nicht hatten? Fahrten im Rahmen der Fahrschule oder das Ueben (z.B. mit den Eltern) auf einem privaten Grundstueck sind hier nicht gemeint.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever operated a motor vehicle (car, motorcycle, moped) without the necessary driver's license, excluding driving lessons or practice (e.g., with parents) on private property?",
+          "text_de": "[IF age >= 10 AND age <= 15] Bist Du schon einmal mit einem Kraftfahrzeug (Auto, Motorrad, Moped) gefahren, obwohl Du den hierfuer notwendigen Fuehrerschein nicht hattest? Fahrten im Rahmen der Fahrschule oder das Ueben (z.B. mit den Eltern) auf einem privaten Grundstueck sind hier nicht gemeint. [IF age >= 16] Sind Sie schon einmal mit einem Kraftfahrzeug (Auto, Motorrad, Moped) gefahren, obwohl Sie den hierfuer notwendigen Fuehrerschein nicht hatten? Fahrten im Rahmen der Fahrschule oder das Ueben (z.B. mit den Eltern) auf einem privaten Grundstueck sind hier nicht gemeint.",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1600",
+          "scale": "cat",
+          "number": "76",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 60,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1604": {
+      "question": "del1604",
+      "name": "del1604",
+      "label": "Have you driven a motor vehicle (car, motorcycle, moped) in the last 24 months without the necessary driver's license, excluding driving lessons or practice (e.g., with parents) on private property?",
+      "label_de": "[IF age >= 10 and age <= 15] Bist Du in den letzten 24 Monaten mit einem Kraftfahrzeug (Auto, Motorrad, Moped) gefahren, obwohl Du den hierfuer notwendigen Fuehrerschein nicht hattest? Fahrten im Rahmen der Fahrschule oder das Ueben (z.B. mit den Eltern) auf einem privaten Grundstueck sind hier nicht gemeint. [IF age >= 16] Sind Sie in den letzten 24 Monaten mit einem Kraftfahrzeug (Auto, Motorrad, Moped) gefahren, obwohl Sie den hierfuer notwendigen Fuehrerschein nicht hatten? Fahrten im Rahmen der Fahrschule oder das Ueben (z.B. mit den Eltern) auf einem privaten Grundstueck sind hier nicht gemeint.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you driven a motor vehicle (car, motorcycle, moped) in the last 24 months without the necessary driver's license, excluding driving lessons or practice (e.g., with parents) on private property?",
+          "text_de": "[IF age >= 10 and age <= 15] Bist Du in den letzten 24 Monaten mit einem Kraftfahrzeug (Auto, Motorrad, Moped) gefahren, obwohl Du den hierfuer notwendigen Fuehrerschein nicht hattest? Fahrten im Rahmen der Fahrschule oder das Ueben (z.B. mit den Eltern) auf einem privaten Grundstueck sind hier nicht gemeint. [IF age >= 16] Sind Sie in den letzten 24 Monaten mit einem Kraftfahrzeug (Auto, Motorrad, Moped) gefahren, obwohl Sie den hierfuer notwendigen Fuehrerschein nicht hatten? Fahrten im Rahmen der Fahrschule oder das Ueben (z.B. mit den Eltern) auf einem privaten Grundstueck sind hier nicht gemeint.",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1604",
+          "scale": "cat",
+          "number": "77",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 61,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1700": {
+      "question": "del1700",
+      "name": "del1700",
+      "label": "Have you ever driven a car, motorcycle, scooter, or moped when you were drunk after taking drugs?",
+      "label_de": "[IF age >= 10 AND age <= 15] Bist Du jemals in betrunkenem Zustand oder nach dem Konsum von Drogen Auto, Motorrad, Roller oder Mofa gefahren? [IF age >= 16] Sind Sie jemals in betrunkenem Zustand oder nach dem Konsum von Drogen Auto, Motorrad, Roller oder Mofa gefahren?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever driven a car, motorcycle, scooter, or moped when you were drunk after taking drugs?",
+          "text_de": "[IF age >= 10 AND age <= 15] Bist Du jemals in betrunkenem Zustand oder nach dem Konsum von Drogen Auto, Motorrad, Roller oder Mofa gefahren? [IF age >= 16] Sind Sie jemals in betrunkenem Zustand oder nach dem Konsum von Drogen Auto, Motorrad, Roller oder Mofa gefahren?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1700",
+          "scale": "cat",
+          "number": "78",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 62,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    },
+    "del1704": {
+      "question": "del1704",
+      "name": "del1704",
+      "label": "In the last 24 months, have you driven a car, motorcycle, scooter, or moped when you were drunk after taking drugs?",
+      "label_de": "[IF age >= 10 and age <= 15] Bist Du in den letzten 24 Monaten in betrunkenem Zustand oder nach dem Konsum von Drogen Auto, Motorrad, Roller oder Mofa gefahren? [IF age >= 16] Sind Sie in den letzten 24 Monaten in betrunkenem Zustand oder nach dem Konsum von Drogen Auto, Motorrad, Roller oder Mofa gefahren?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the last 24 months, have you driven a car, motorcycle, scooter, or moped when you were drunk after taking drugs?",
+          "text_de": "[IF age >= 10 and age <= 15] Bist Du in den letzten 24 Monaten in betrunkenem Zustand oder nach dem Konsum von Drogen Auto, Motorrad, Roller oder Mofa gefahren? [IF age >= 16] Sind Sie in den letzten 24 Monaten in betrunkenem Zustand oder nach dem Konsum von Drogen Auto, Motorrad, Roller oder Mofa gefahren?",
+          "description": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "description_de": "Source: Adapted from: Reinecke, J., Stemmler, L., Suenkel, Z., Schepers, D., Weiss, M., Arnis, M., Meinert, J., Kucur-Uysal, B., Poege, A., Wallner, S., & Wittenberg, J. (2013). The Development of Deviant and Delinquent Behavior over the Life Course in the Context of Processes of Social Inequalities (No. 17; SFB 882 Working Paper Series). DFG Research Center (SFB) 882 From Heterogeneities to Inequalities. [[URL link]](https://pub.uni-bielefeld.de/download/2563479/2563484/SFB_882_WP_0017_Reinecke_Stemmler_Suenkel_Schepers_Weiss_Arnis_Meinert_Kucur-Uysal_Poege_Wallner_Wittenberg.pdf)",
+          "concept": "del1704",
+          "scale": "cat",
+          "number": "79",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 63,
+      "instrument": "wid7_F2F4_module11",
+      "study": "twinlife"
+    }
+  }
+}

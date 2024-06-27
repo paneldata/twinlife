@@ -1,0 +1,1458 @@
+{
+  "study": "twinlife",
+  "name": "wid7_F2F4_module13",
+  "label": "F2F 4: health (CAWI)",
+  "description": "This questionnaire module contains questions on: alcohol consumption; current subjective health; diagnoses (adults and children); doctor's visit; heigth, weight, bmi; impairment caused by diseases; medication; preventive medical checkup; smoking.",
+  "analysis_unit": "individual",
+  "period": 7,
+  "instrument": "wid7_F2F4_module13",
+  "questions": {
+    "she0100": {
+      "question": "she0100",
+      "name": "she0100",
+      "label": "How would you describe your general health condition in the last 12 months?",
+      "label_de": "[IF age >= 10 AND age <= 15] Wie wuerdest Du Deine Gesundheit in den letzten 12 Monaten im Allgemeinen beschreiben? [IF age >= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 12 Monaten im Allgemeinen beschreiben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How would you describe your general health condition in the last 12 months?",
+          "text_de": "[IF age >= 10 AND age <= 15] Wie wuerdest Du Deine Gesundheit in den letzten 12 Monaten im Allgemeinen beschreiben? [IF age >= 16] Wie wuerden Sie Ihren Gesundheitszustand in den letzten 12 Monaten im Allgemeinen beschreiben?",
+          "description": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
+          "description_de": "Ellert, U., Lampert, T., & Ravens-Sieberer, U. (2005). Messung der gesundheitsbezogenen Lebensqualitaet mit dem SF-8: Eine Normstichprobe fuer Deutschland. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 48(12), 1330-1337. [[URL link]](https://doi.org/10.1007/s00103-005-1168-5)",
+          "concept": "she0100",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: excellent",
+              "label_de": "1: ausgezeichnet"
+            },
+            {
+              "value": 2,
+              "label": "2: very good",
+              "label_de": "2: sehr gut"
+            },
+            {
+              "value": 3,
+              "label": "3: good",
+              "label_de": "3: gut"
+            },
+            {
+              "value": 4,
+              "label": "4: less good",
+              "label_de": "4: maessig / weniger gut"
+            },
+            {
+              "value": 5,
+              "label": "5: poor",
+              "label_de": "5: schlecht"
+            },
+            {
+              "value": 6,
+              "label": "6: very poor",
+              "label_de": "6: sehr schlecht"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "doc0100": {
+      "question": "doc0100",
+      "name": "doc0100",
+      "label": "Have you visited doctors (including dentists) in the last 12 months? This also includes preventive check-ups and visits to psychotherapists, alternative medicine practitioners, chiropractors, etc.",
+      "label_de": "[IF age >= 16] Haben Sie in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae. [IF age <= 15] Hast Du in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht?  Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you visited doctors (including dentists) in the last 12 months? This also includes preventive check-ups and visits to psychotherapists, alternative medicine practitioners, chiropractors, etc.",
+          "text_de": "[IF age >= 16] Haben Sie in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht? Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae. [IF age <= 15] Hast Du in den letzten 12 Monaten Aerzte (inkl. Zahnarzt) aufgesucht?  Hiermit sind auch Vorsorgeuntersuchungen gemeint, sowie Besuche bei Psychotherapeuten, Heilpraktikern, Chiropraktikern o.ae.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "doc0100",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "doc0101": {
+      "question": "doc0101",
+      "name": "doc0101",
+      "label": "Please indicate how often this happened.",
+      "label_de": "[IF age <= 15] Gib bitte an, wie haeufig das war. [IF age >= 16] Geben Sie bitte an, wie haeufig das war.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please indicate how often this happened.",
+          "text_de": "[IF age <= 15] Gib bitte an, wie haeufig das war. [IF age >= 16] Geben Sie bitte an, wie haeufig das war.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "doc0101",
+          "scale": "cat",
+          "number": "3",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "dia3100": {
+      "question": "dia3100",
+      "name": "dia3100",
+      "label": "[MFN] Has a doctor diagnosed you with one or more of the following diseases in the last 12 months?",
+      "label_de": "[MFN] Hat ein Arzt/eine Aerztin bei Ihnen in den letzten 12 Monaten eine oder mehrere der folgenden Krankheiten festgestellt?",
+      "items": [
+        {
+          "item": "0",
+          "text": "[MFN] Has a doctor diagnosed you with one or more of the following diseases in the last 12 months?",
+          "text_de": "[MFN] Hat ein Arzt/eine Aerztin bei Ihnen in den letzten 12 Monaten eine oder mehrere der folgenden Krankheiten festgestellt?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110>=16) & (doc0100==1 | doc0100==-99)",
+          "concept": "dia3100",
+          "scale": "txt",
+          "number": "4",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "sleeping disorder",
+          "text_de": "Schlafstoerung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "diabetes",
+          "text_de": "Diabetes",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "respiratory diseases (asthma, bronchitis, etc.)",
+          "text_de": "Atemwegserkrankungen (Asthma, Bronchitis o.Ae.)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "allergies",
+          "text_de": "Allergien",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "skin disease (e.g. neurodermatitis, psoriasis)",
+          "text_de": "Hauterkrankungen (z.B. Neurodermitis, Psoriasis)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "defective vision (e.g. strong near or distance vision [from +/- 2.5 diopters], colour deficiency, blindness)",
+          "text_de": "Fehlsichtigkeit (z.B. starke Kurz- oder Weitsichtigkeit [ab +/- 2,5 Dioptrien], Farbschwaeche, Blindheit)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "heart problems (also heart failure, congestive heart failure)",
+          "text_de": "Herzkrankheit (auch Herzinsuffizienz, Herzschwaeche)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "cancer",
+          "text_de": "Krebserkrankungen",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "stroke",
+          "text_de": "Schlaganfall",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "text": "migraine",
+          "text_de": "Migraene",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "text": "high blood pressure",
+          "text_de": "Bluthochdruck",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "text": "increased blood fats / cholesterol level",
+          "text_de": "Erhoehte Blutfette/Cholesterin",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "16",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "text": "anxiety disorders",
+          "text_de": "Angsterkrankung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "14",
+          "text": "alcohol addiction",
+          "text_de": "Alkoholerkrankung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "15",
+          "text": "depression",
+          "text_de": "Depressive Erkrankung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 15
+        },
+        {
+          "item": "16",
+          "text": "attention disorders (hyper activity (adhs/ads)",
+          "text_de": "Aufmerksamkeitsstoerung, Hyperaktivitaet (ADHS/ADS)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 16
+        },
+        {
+          "item": "17",
+          "text": "reading/spelling problems",
+          "text_de": "Lese-/Rechtschreibschwaeche",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 17
+        },
+        {
+          "item": "18",
+          "text": "dyscalculia (problems with numbers and counting)",
+          "text_de": "Rechenschwaeche",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 18
+        },
+        {
+          "item": "19",
+          "text": "thyroid disease (including hashimoto's thyroiditis, basedow-graves disease)",
+          "text_de": "Schilddruesenerkrankungen (auch Hashimoto, Morbus Basedow)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "23",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 19
+        },
+        {
+          "item": "20",
+          "text": "joint diseases (also arthrosis, rhematism)",
+          "text_de": "Gelenkerkrankung (auch Arthrose, Rheuma)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "24",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 20
+        },
+        {
+          "item": "21",
+          "text": "chronic back pains",
+          "text_de": "Chronische Rueckenbeschwerden",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "25",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 21
+        },
+        {
+          "item": "22",
+          "text": "physical disability",
+          "text_de": "Koerperbehinderung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 22
+        },
+        {
+          "item": "23",
+          "text": "other physical or mental illness, namely:",
+          "text_de": "Sonstige koerperliche oder psychische Erkrankungen, und zwar:",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "27",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 23
+        },
+        {
+          "item": "25",
+          "text": "no illness diagnosed",
+          "text_de": "Keine Erkrankung festgestellt",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 24
+        },
+        {
+          "item": "26",
+          "text": "don't know",
+          "text_de": "Weiss nicht",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 25
+        },
+        {
+          "item": "27",
+          "text": "not specified (refused to answer)",
+          "text_de": "Keine Angabe",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "dia3100",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 26
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "imp0100": {
+      "question": "imp0100",
+      "name": "imp0100",
+      "label": "To what extent would you say your illness limits you in your everyday life?",
+      "label_de": "[IF age >= 16] In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt? [IF age <= 15] In welchem Ausmass fuehlst Du Dich in Deinem Alltag durch Erkrankungen beeintraechtigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "To what extent would you say your illness limits you in your everyday life?",
+          "text_de": "[IF age >= 16] In welchem Ausmass fuehlen Sie sich in Ihrem Alltag durch Erkrankungen beeintraechtigt? [IF age <= 15] In welchem Ausmass fuehlst Du Dich in Deinem Alltag durch Erkrankungen beeintraechtigt?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "imp0100",
+          "scale": "cat",
+          "number": "31",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: only very slightly",
+              "label_de": "2: sehr leicht"
+            },
+            {
+              "value": 3,
+              "label": "3: slightly",
+              "label_de": "3: leicht"
+            },
+            {
+              "value": 4,
+              "label": "4: moderately",
+              "label_de": "4: maessig"
+            },
+            {
+              "value": 5,
+              "label": "5: strongly",
+              "label_de": "5: stark"
+            },
+            {
+              "value": 6,
+              "label": "6: very strongly",
+              "label_de": "6: sehr stark"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0100": {
+      "question": "hbe0100",
+      "name": "hbe0100",
+      "label": "Do you smoke?",
+      "label_de": "Rauchen Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you smoke?",
+          "text_de": "Rauchen Sie?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0100",
+          "scale": "cat",
+          "number": "32",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, I'm a heavy smoker",
+              "label_de": "1: ja, ich bin starker Raucher"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, I'm a smoker",
+              "label_de": "2: ja, ich bin maessiger Raucher"
+            },
+            {
+              "value": 3,
+              "label": "3: yes, I'm a light smoker",
+              "label_de": "3: ja, ich bin Wenig-Raucher"
+            },
+            {
+              "value": 4,
+              "label": "4: yes, I'm a social smoker",
+              "label_de": "4: ja, ich bin Gelegenheits-Raucher"
+            },
+            {
+              "value": 5,
+              "label": "5: no, I'm a former smoker (I don't smoke anymore, but I did smoke)",
+              "label_de": "5: nein, ich bin Ex-Raucher (rauche nicht mehr, habe aber frueher geraucht)"
+            },
+            {
+              "value": 6,
+              "label": "6: no, I never smoked (I don't smoke and I never smoked in the past)",
+              "label_de": "6: nein, ich bin Nie-Raucher (rauche jetzt nicht und habe frueher nicht geraucht)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0101": {
+      "question": "hbe0101",
+      "name": "hbe0101",
+      "label": "How old were you when you started smoking (even if you didn't smoke much)?",
+      "label_de": "Wie alt waren Sie, als Sie mit dem Rauchen begonnen haben (wenn auch nur in kleinen Mengen)?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How old were you when you started smoking (even if you didn't smoke much)?",
+          "text_de": "Wie alt waren Sie, als Sie mit dem Rauchen begonnen haben (wenn auch nur in kleinen Mengen)?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0101",
+          "scale": "cat",
+          "number": "33",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0200": {
+      "question": "hbe0200",
+      "name": "hbe0200",
+      "label": "Have you ever drunk alcohol, and if so, how old were you when you drank alcohol for the first time? If you don't remember exactly, please estimate.",
+      "label_de": "Haben Sie jemals Alkohol getrunken bzw. wie alt waren Sie, als Sie zum ersten Mal Alkohol getrunken haben? Wenn Sie das Alter nicht genau wissen, geben Sie bitte das ungefaehre Alter an.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you ever drunk alcohol, and if so, how old were you when you drank alcohol for the first time? If you don't remember exactly, please estimate.",
+          "text_de": "Haben Sie jemals Alkohol getrunken bzw. wie alt waren Sie, als Sie zum ersten Mal Alkohol getrunken haben? Wenn Sie das Alter nicht genau wissen, geben Sie bitte das ungefaehre Alter an.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0200",
+          "scale": "cat",
+          "number": "34",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: I did never drink alcohol",
+              "label_de": "-81: ich habe noch nie Alkohol getrunken"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0202": {
+      "question": "hbe0202",
+      "name": "hbe0202",
+      "label": "[If hbe0200_preload != Missing] Now we will focus on your alcohol consumption. [ALL] How often does it happen that you drink a lot of alcohol?",
+      "label_de": "[If hbe0200_preload != Missing] Nun geht es um Ihren Alkoholkonsum. [ALL] Wie haeufig kommt es vor, dass Sie viel Alkohol trinken?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[If hbe0200_preload != Missing] Now we will focus on your alcohol consumption. [ALL] How often does it happen that you drink a lot of alcohol?",
+          "text_de": "[If hbe0200_preload != Missing] Nun geht es um Ihren Alkoholkonsum. [ALL] Wie haeufig kommt es vor, dass Sie viel Alkohol trinken?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0202",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: daily",
+              "label_de": "1: taeglich"
+            },
+            {
+              "value": 2,
+              "label": "2: several times per week",
+              "label_de": "2: mehrmals pro Woche"
+            },
+            {
+              "value": 3,
+              "label": "3: once a week",
+              "label_de": "3: 1-mal pro Woche"
+            },
+            {
+              "value": 4,
+              "label": "4: 1 to 3 times per month",
+              "label_de": "4: 1 bis 3-mal im Monat"
+            },
+            {
+              "value": 5,
+              "label": "5: less frequently",
+              "label_de": "5: seltener"
+            },
+            {
+              "value": 6,
+              "label": "6: never",
+              "label_de": "6: nie"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0210": {
+      "question": "hbe0210",
+      "name": "hbe0210",
+      "label": "If you think you drink a lot, how much do you drink?",
+      "label_de": "Wenn Sie Ihrer Meinung nach viel Alkohol trinken, wieviel trinken Sie dann?",
+      "items": [
+        {
+          "item": "0",
+          "text": "If you think you drink a lot, how much do you drink?",
+          "text_de": "Wenn Sie Ihrer Meinung nach viel Alkohol trinken, wieviel trinken Sie dann?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110>=16) & (hbe0200!=-81) & (hbe0202!=6)",
+          "concept": "hbe0210",
+          "scale": "txt",
+          "number": "36",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "number of beers (0.3l)",
+          "text_de": "Anzahl Bier (0,3l)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0210",
+          "scale": "int",
+          "number": "37",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "4",
+          "text": "number of glasses of wine (0.2l)",
+          "text_de": "Anzahl Wein (0,2l)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0210",
+          "scale": "int",
+          "number": "38",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "7",
+          "text": "number of high-proof alcoholic beverages (e.g. schnapps (2cl))",
+          "text_de": "Anzahl hochprozentige alkoholische Getraenke (z.B. Schnaps (2cl))",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0210",
+          "scale": "int",
+          "number": "39",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0240": {
+      "question": "hbe0240",
+      "name": "hbe0240",
+      "label": "[ITEMBAT] [NCS] To what extent have you consumed the following alcoholic beverages over the past 12 months?",
+      "label_de": "[ITEMBAT] [NCS]  In welchem Ausmass haben Sie waehrend der letzten 12 Monate folgende alkoholische Getraenke konsumiert?",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] [NCS] To what extent have you consumed the following alcoholic beverages over the past 12 months?",
+          "text_de": "[ITEMBAT] [NCS]  In welchem Ausmass haben Sie waehrend der letzten 12 Monate folgende alkoholische Getraenke konsumiert?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110>=16) & (hbe0200!=-81)",
+          "concept": "hbe0240",
+          "scale": "txt",
+          "number": "40",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "beer",
+          "text_de": "Bier",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0240",
+          "scale": "cat",
+          "number": "41",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: daily",
+              "label_de": "1: taeglich"
+            },
+            {
+              "value": 2,
+              "label": "2: several times per week",
+              "label_de": "2: mehrmals pro Woche"
+            },
+            {
+              "value": 3,
+              "label": "3: once a week",
+              "label_de": "3: 1-mal pro Woche"
+            },
+            {
+              "value": 4,
+              "label": "4: 1 to 3 times per month",
+              "label_de": "4: 1 bis 3-mal im Monat"
+            },
+            {
+              "value": 5,
+              "label": "5: less frequently",
+              "label_de": "5: seltener"
+            },
+            {
+              "value": 6,
+              "label": "6: never",
+              "label_de": "6: nie"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "wine, sparkling wine",
+          "text_de": "Wein, Sekt",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0240",
+          "scale": "cat",
+          "number": "42",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: daily",
+              "label_de": "1: taeglich"
+            },
+            {
+              "value": 2,
+              "label": "2: several times per week",
+              "label_de": "2: mehrmals pro Woche"
+            },
+            {
+              "value": 3,
+              "label": "3: once a week",
+              "label_de": "3: 1-mal pro Woche"
+            },
+            {
+              "value": 4,
+              "label": "4: 1 to 3 times per month",
+              "label_de": "4: 1 bis 3-mal im Monat"
+            },
+            {
+              "value": 5,
+              "label": "5: less frequently",
+              "label_de": "5: seltener"
+            },
+            {
+              "value": 6,
+              "label": "6: never",
+              "label_de": "6: nie"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "drinks with high alcohol content (e.g. schnaps/spirits (2 cl), longdrinks, cocktails (0.3 l))",
+          "text_de": "Hochprozentige alkoholische Getraenke (z.B. Schnaps, Longdrinks)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0240",
+          "scale": "cat",
+          "number": "43",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: daily",
+              "label_de": "1: taeglich"
+            },
+            {
+              "value": 2,
+              "label": "2: several times per week",
+              "label_de": "2: mehrmals pro Woche"
+            },
+            {
+              "value": 3,
+              "label": "3: once a week",
+              "label_de": "3: 1-mal pro Woche"
+            },
+            {
+              "value": 4,
+              "label": "4: 1 to 3 times per month",
+              "label_de": "4: 1 bis 3-mal im Monat"
+            },
+            {
+              "value": 5,
+              "label": "5: less frequently",
+              "label_de": "5: seltener"
+            },
+            {
+              "value": 6,
+              "label": "6: never",
+              "label_de": "6: nie"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0250": {
+      "question": "hbe0250",
+      "name": "hbe0250",
+      "label": "How often in the last 12 months did you not do your work as well as usual because you had consumed alcohol?",
+      "label_de": "Wie oft kam es in den letzten 12 Monaten vor, dass Sie wegen des Konsums von Alkohol Ihre Arbeit oder Taetigkeit schlechter als sonst gemacht haben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How often in the last 12 months did you not do your work as well as usual because you had consumed alcohol?",
+          "text_de": "Wie oft kam es in den letzten 12 Monaten vor, dass Sie wegen des Konsums von Alkohol Ihre Arbeit oder Taetigkeit schlechter als sonst gemacht haben?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2010 - Erhebungsinstrumente 2010 (Welle 27) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2010 (wave 27) of the Socio-Economic Panel. Individual Questionnaire] (107: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570652.de/diw_ssp0107.pdf)",
+          "concept": "hbe0250",
+          "scale": "cat",
+          "number": "44",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: always",
+              "label_de": "1: immer"
+            },
+            {
+              "value": 2,
+              "label": "2: often",
+              "label_de": "2: oft"
+            },
+            {
+              "value": 3,
+              "label": "3: sometimes",
+              "label_de": "3: manchmal"
+            },
+            {
+              "value": 4,
+              "label": "4: almost never",
+              "label_de": "4: fast nie"
+            },
+            {
+              "value": 5,
+              "label": "5: never",
+              "label_de": "5: nie"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0300": {
+      "question": "hbe0300",
+      "name": "hbe0300",
+      "label": "Do you regularly take medication that adversely affect your ability to think or your emotions or cause other serious side effects?",
+      "label_de": "Nehmen Sie regelmaessig Medikamente ein, die Ihr Denken und Fuehlen beeintraechtigen oder andere gravierende Nebenwirkungen bei Ihnen hervorrufen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you regularly take medication that adversely affect your ability to think or your emotions or cause other serious side effects?",
+          "text_de": "Nehmen Sie regelmaessig Medikamente ein, die Ihr Denken und Fuehlen beeintraechtigen oder andere gravierende Nebenwirkungen bei Ihnen hervorrufen?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "hbe0300",
+          "scale": "cat",
+          "number": "45",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "hbe0400": {
+      "question": "hbe0400",
+      "name": "hbe0400",
+      "label": "In the following we would like to know what you do to care for your health. To what extent does this statement apply to you personally: I take active steps to stay healthy (e.g., go to regular checkups, follow a healthy diet, and avoid unhealthy behavior, etc.).",
+      "label_de": "Im Folgenden moechten wir erfahren, inwieweit Sie fuer Ihre Gesundheit vorsorgen. Inwieweit trifft folgende Aussage auf Sie persoenlich zu? Ich sorge fuer die Erhaltung meiner Gesundheit aktiv vor (z.B. durch regelmaessige Vorsorgeuntersuchungen, gesunde Ernaehrung, Vermeidung von gesundheitsschaedlichem Verhalten, etc.).",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the following we would like to know what you do to care for your health. To what extent does this statement apply to you personally: I take active steps to stay healthy (e.g., go to regular checkups, follow a healthy diet, and avoid unhealthy behavior, etc.).",
+          "text_de": "Im Folgenden moechten wir erfahren, inwieweit Sie fuer Ihre Gesundheit vorsorgen. Inwieweit trifft folgende Aussage auf Sie persoenlich zu? Ich sorge fuer die Erhaltung meiner Gesundheit aktiv vor (z.B. durch regelmaessige Vorsorgeuntersuchungen, gesunde Ernaehrung, Vermeidung von gesundheitsschaedlichem Verhalten, etc.).",
+          "description": "Source: Adapted from: Kornadt, A. E., & Rothermund, K. (2014). Preparation for old age in different life domains: Dimensions and age differences. International Journal of Behavioral Development, 38(3), 228-238. [[URL link]](https://doi.org/10.1177/0165025413512065)",
+          "description_de": "Source: Adapted from: Kornadt, A. E., & Rothermund, K. (2014). Preparation for old age in different life domains: Dimensions and age differences. International Journal of Behavioral Development, 38(3), 228-238. [[URL link]](https://doi.org/10.1177/0165025413512065)",
+          "concept": "hbe0400",
+          "scale": "cat",
+          "number": "46",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: gar nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: a bit",
+              "label_de": "2: ein wenig"
+            },
+            {
+              "value": 3,
+              "label": "3: rather a lot",
+              "label_de": "3: eher viel"
+            },
+            {
+              "value": 4,
+              "label": "4: a lot",
+              "label_de": "4: sehr viel"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "bdy0100": {
+      "question": "bdy0100",
+      "name": "bdy0100",
+      "label": "[IF age> = 16] Please enter your height. If you do not know your exact height, you are welcome to measure yourself now, otherwise please estimate. [IF age> = 10 and age <16] Please tell us how tall you are. If you do not know exactly how tall you are, you are welcome to measure yourself now, otherwise please estimate your height.",
+      "label_de": "[IF age >= 16] Bitte geben Sie Ihre Koerpergroesse an. Wenn Sie es nicht genau wissen, koennen Sie sich gerne jetzt messen, ansonsten schaetzen Sie bitte. [IF age  >= 10 and age <=15] Bitte gib an, wie gross Du bist. Wenn Du es nicht genau weisst, kannst Du Dich gerne jetzt messen, ansonsten schaetze deine Groesse bitte.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age> = 16] Please enter your height. If you do not know your exact height, you are welcome to measure yourself now, otherwise please estimate. [IF age> = 10 and age <16] Please tell us how tall you are. If you do not know exactly how tall you are, you are welcome to measure yourself now, otherwise please estimate your height.",
+          "text_de": "[IF age >= 16] Bitte geben Sie Ihre Koerpergroesse an. Wenn Sie es nicht genau wissen, koennen Sie sich gerne jetzt messen, ansonsten schaetzen Sie bitte. [IF age  >= 10 and age <=15] Bitte gib an, wie gross Du bist. Wenn Du es nicht genau weisst, kannst Du Dich gerne jetzt messen, ansonsten schaetze deine Groesse bitte.",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "bdy0100",
+          "scale": "int",
+          "number": "47",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    },
+    "bdy0200": {
+      "question": "bdy0200",
+      "name": "bdy0200",
+      "label": "What is your current weight in kilos? If you do not know your current weight, you are welcome to weigh yourself now, otherwise please estimate.",
+      "label_de": "[IF age >= 16] Wieviel Kilogramm wiegen Sie gegenwaertig? Wenn Sie Ihr aktuelles Gewicht nicht wissen, koennen Sie sich gerne jetzt wiegen, ansonsten schaetzen Sie bitte. [IF age >= 10 and age <=15] Bitte gib an, wie viel Du wiegst. Wenn Du es nicht genau weisst, kannst Du Dich gerne jetzt wiegen, ansonsten schaetze dein Gewicht bitte.",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current weight in kilos? If you do not know your current weight, you are welcome to weigh yourself now, otherwise please estimate.",
+          "text_de": "[IF age >= 16] Wieviel Kilogramm wiegen Sie gegenwaertig? Wenn Sie Ihr aktuelles Gewicht nicht wissen, koennen Sie sich gerne jetzt wiegen, ansonsten schaetzen Sie bitte. [IF age >= 10 and age <=15] Bitte gib an, wie viel Du wiegst. Wenn Du es nicht genau weisst, kannst Du Dich gerne jetzt wiegen, ansonsten schaetze dein Gewicht bitte.",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "bdy0200",
+          "scale": "int",
+          "number": "48",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid7_F2F4_module13",
+      "study": "twinlife"
+    }
+  }
+}

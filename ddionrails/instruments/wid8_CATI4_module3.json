@@ -1,0 +1,1491 @@
+{
+  "study": "twinlife",
+  "name": "wid8_CATI4_module3",
+  "label": "CATI 4: employment/education (CATI)",
+  "description": "This questionnaire module contains questions on: classification of occupation; educational and employment status of all household members (employment / education / vocational training / parental leave / pension); history of education and graduation: educational degrees, vocational training, year abroad; occupational status; recommendation for secondary education; type of education / training; current status of education / qualification.",
+  "analysis_unit": "individual",
+  "period": 8,
+  "instrument": "wid8_CATI4_module3",
+  "questions": {
+    "hpr0102": {
+      "question": "hpr0102",
+      "name": "hpr0102",
+      "label": "General school (for example: elementary school, comprehensive school, high school, junior high school)",
+      "label_de": "[IF age > 4] Allgemeinbildende Schule (zum Beispiel: Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule, Kolleg)",
+      "items": [
+        {
+          "item": "0",
+          "text": "General school (for example: elementary school, comprehensive school, high school, junior high school)",
+          "text_de": "[IF age > 4] Allgemeinbildende Schule (zum Beispiel: Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule, Kolleg)",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0102",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "General school (for example: elementary school, comprehensive school, high school, junior high school)",
+          "text_de": "Allgemeinbildende Schule (zum Beispiel: Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule, Kolleg)",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0102",
+          "number": "18",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "General school (for example: elementary school, comprehensive school, high school, junior high school)",
+          "text_de": "Allgemeinbildende Schule (zum Beispiel: Grundschule, Gesamtschule, Gymnasium, Hauptschule, Realschule, Kolleg)",
+          "description": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "description_de": "Source: Adapted from: Motel-Klingebiel, A., Tesch-Roemer, C., Wurm, S., Engstler, H., Huxhold, O., Juergens, O., Mahne, K., Schoellgen, I., & Wiest, M. (2010). German Ageing Survey (DEAS): The second half of life. Research Instruments of the Third Wave. 52. [[URL link]](https://doi.org/10.5156/DEAS.2008.D.001)",
+          "concept": "hpr0102",
+          "number": "25",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "emp0520": {
+      "question": "emp0520",
+      "name": "emp0520",
+      "label": "You said you worked as a [emp0500_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true?",
+      "label_de": "Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie als [emp0500_7[Preload]] taetig waren. Trifft dies aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "text": "You said you worked as a [emp0500_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true?",
+          "text_de": "Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie als [emp0500_7[Preload]] taetig waren. Trifft dies aktuell immer noch zu?",
+          "concept": "emp0520",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect occupation information",
+              "label_de": "-81: Angaben zum Beruf nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "emp0620": {
+      "question": "emp0620",
+      "name": "emp0620",
+      "label": "In the last interview, we noted that you worked in [mon_pq_7 yea_pq_7] as [emp0600_7[Preload]]. Is that still true at the moment?",
+      "label_de": "Im letzten Interview haben wir notiert, dass Sie im [mon_pq_7 yea_pq_7] als [emp0600_7[Preload]] taetig waren. Trifft das aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In the last interview, we noted that you worked in [mon_pq_7 yea_pq_7] as [emp0600_7[Preload]]. Is that still true at the moment?",
+          "text_de": "Im letzten Interview haben wir notiert, dass Sie im [mon_pq_7 yea_pq_7] als [emp0600_7[Preload]] taetig waren. Trifft das aktuell immer noch zu?",
+          "concept": "emp0620",
+          "scale": "cat",
+          "number": "3",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect occupation information",
+              "label_de": "-81: Angaben zum Beruf nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "emp0600": {
+      "question": "emp0600",
+      "name": "emp0600",
+      "label": "In what professional position are you currently employed?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In what professional position are you currently employed?",
+          "text_de": "In welcher beruflichen Stellung sind Sie derzeit beschaeftigt?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0600",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: blue-collar worker (Arbeiter) (also in agriculture)",
+              "label_de": "1: Arbeiter/in (auch in der Landwirtschaft)"
+            },
+            {
+              "value": 2,
+              "label": "2: white-collar worker (Angestellte)",
+              "label_de": "2: Angestellte/r"
+            },
+            {
+              "value": 3,
+              "label": "3: civil servant (including judges and professional soldiers)",
+              "label_de": "3: Beamte/r (einschliesslich Richter und Berufssoldaten)"
+            },
+            {
+              "value": 4,
+              "label": "4: self-employed (including family members working for the self-employed)",
+              "label_de": "4: Selbstaendige/r (einschl. mithelfende Familienangehoerige)"
+            },
+            {
+              "value": 5,
+              "label": "5: apprentices / trainees / interns",
+              "label_de": "5: Auszubildende und Praktikanten"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0420": {
+      "question": "edu0420",
+      "name": "edu0420",
+      "label": "[IF edu0400_7 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: You said you attended [edu0400_7[Preload]]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0400_7 = 10 ]: You said you attended [edu0401_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true?",
+      "label_de": "[IF age < = 15 & edu0400_7 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: Du hast bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Du (die) [edu0400_7[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age > = 16 & edu0400_7 = 1, 3, 4, 5, 6, 7, 8, 9, 11]: Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie (die) [edu0400_7[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF age < = 15 & edu0400_7 = 10 ]: Du hast bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Du (die) [edu0401_7[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age > = 16 & edu0400_7 = 10]: Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie (die) [edu0401_7[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF edu0400_7 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: You said you attended [edu0400_7[Preload]]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0400_7 = 10 ]: You said you attended [edu0401_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true?",
+          "text_de": "[IF age < = 15 & edu0400_7 = 1, 3, 4, 5, 6, 7, 8, 9, 11 ]: Du hast bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Du (die) [edu0400_7[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age > = 16 & edu0400_7 = 1, 3, 4, 5, 6, 7, 8, 9, 11]: Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie (die) [edu0400_7[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF age < = 15 & edu0400_7 = 10 ]: Du hast bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Du (die) [edu0401_7[Preload]] besuchst. Trifft dies aktuell immer noch zu? [IF age > = 16 & edu0400_7 = 10]: Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie (die) [edu0401_7[Preload]] besuchen. Trifft dies aktuell immer noch zu?",
+          "concept": "edu0420",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect information on school attendance",
+              "label_de": "-81: Angaben zur Schule nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0400": {
+      "question": "edu0400",
+      "name": "edu0400",
+      "label": "[IF age <=20] What school are you currently attending?",
+      "label_de": "[IF age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age > = 16 & age <=20]: Welche Schule besuchen Sie zurzeit?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age <=20] What school are you currently attending?",
+          "text_de": "[IF age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age > = 16 & age <=20]: Welche Schule besuchen Sie zurzeit?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "edu0400",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
+            {
+              "value": 1,
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
+            },
+            {
+              "value": 2,
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
+            },
+            {
+              "value": 3,
+              "label": "3: lower secondary school",
+              "label_de": "3: Hauptschule"
+            },
+            {
+              "value": 4,
+              "label": "4: intermediate-level secondary school",
+              "label_de": "4: Realschule"
+            },
+            {
+              "value": 5,
+              "label": "5: integrated lower and intermediate-level secondary school",
+              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: Waldorf school (Rudolf Steiner school)",
+              "label_de": "7: Waldorfschule"
+            },
+            {
+              "value": 8,
+              "label": "8: upper secondary school",
+              "label_de": "8: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 9,
+              "label": "9: school for children with special needs",
+              "label_de": "9: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 10,
+              "label": "10: other school, namely",
+              "label_de": "10: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0402": {
+      "question": "edu0402",
+      "name": "edu0402",
+      "label": "[IF age <=20] What class do you go to at this school?",
+      "label_de": "[IF age < = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age > = 16 & age < =20]: Welche Klasse besuchen Sie auf dieser Schule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age <=20] What class do you go to at this school?",
+          "text_de": "[IF age < = 15 ]: Welche Klasse besuchst Du auf dieser Schule? [IF age > = 16 & age < =20]: Welche Klasse besuchen Sie auf dieser Schule?",
+          "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
+          "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
+          "concept": "edu0402",
+          "scale": "int",
+          "number": "7",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0320": {
+      "question": "edu0320",
+      "name": "edu0320",
+      "label": "[IF edu0303_7=1,2] You said you attended [edu0303_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0303_5=3] You said you attended [edu0303_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0303_5=4] You said you attended [edu0304_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true?",
+      "label_de": "[IF edu0303_7=1,2] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie die [edu0303_7[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF edu0303_7=3] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie folgende Hochschulausbildung absolvieren: [edu0303_7[Preload]]. Trifft dies aktuell immer noch zu? [IF edu0303_7=4] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie folgende Hochschulausbildung absolvieren: [edu0304_7[Preload]]. Trifft dies aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF edu0303_7=1,2] You said you attended [edu0303_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0303_5=3] You said you attended [edu0303_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0303_5=4] You said you attended [edu0304_7[Preload]] when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true?",
+          "text_de": "[IF edu0303_7=1,2] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie die [edu0303_7[Preload]] besuchen. Trifft dies aktuell immer noch zu? [IF edu0303_7=3] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie folgende Hochschulausbildung absolvieren: [edu0303_7[Preload]]. Trifft dies aktuell immer noch zu? [IF edu0303_7=4] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie folgende Hochschulausbildung absolvieren: [edu0304_7[Preload]]. Trifft dies aktuell immer noch zu?",
+          "concept": "edu0320",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect information on university attendance",
+              "label_de": "-81: Angaben zum Hochschulbesuch nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0303": {
+      "question": "edu0303",
+      "name": "edu0303",
+      "label": "What type of higher education are you currently pursuing?",
+      "label_de": "Welche Hochschulausbildung absolvieren Sie zurzeit?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of higher education are you currently pursuing?",
+          "text_de": "Welche Hochschulausbildung absolvieren Sie zurzeit?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "edu0303",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: university of applied sciences",
+              "label_de": "1: Fachhochschule"
+            },
+            {
+              "value": 2,
+              "label": "2: university, other higher educational institution (Bachelor or Master)",
+              "label_de": "2: Universitaet, sonstige Hochschule (Bachelor-, Master-Studiengang)"
+            },
+            {
+              "value": 3,
+              "label": "3: PhD",
+              "label_de": "3: Promotionsstudium"
+            },
+            {
+              "value": 4,
+              "label": "4: other, such as",
+              "label_de": "4: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0330": {
+      "question": "edu0330",
+      "name": "edu0330",
+      "label": "[IF edu0307_7[Preload] = 1,2,4,8] You said you were doing a [IF edu0307_7[Preload] = 1,2 / IF edu0307_7[Preload] = 4,8] <edu0307_7[Preload]> when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0307_7[Preload] = 3,5,6,7] You said you were attending a <edu0307_7[Preload]> when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0307_7[Preload] = 9] We recorded the following response to the question about what kind of vocational training you are doing when you were last interviewed in [mon_pq_7 yea_pq_7]: <edu0308_7[Preload]>. Is this still currently true?",
+      "label_de": "[IF edu0307_7[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie [IF edu0307_7[Preload] = 1,2 ein/ IF edu0307_7[Preload] = 4,8 eine] <edu0307_7[Preload]> machen. Trifft dies aktuell immer noch zu? [IF edu0307_7[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie eine <edu0307_7[Preload]> besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_7[Preload] = 9] Bei der letzten Befragung im [mon_pq_7 yea_pq_7] haben wir uns zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: <edu0308_7[Preload]>. Trifft dies aktuell immer noch zu?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF edu0307_7[Preload] = 1,2,4,8] You said you were doing a [IF edu0307_7[Preload] = 1,2 / IF edu0307_7[Preload] = 4,8] <edu0307_7[Preload]> when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0307_7[Preload] = 3,5,6,7] You said you were attending a <edu0307_7[Preload]> when you were last interviewed in [mon_pq_7 yea_pq_7]. Is this still currently true? [IF edu0307_7[Preload] = 9] We recorded the following response to the question about what kind of vocational training you are doing when you were last interviewed in [mon_pq_7 yea_pq_7]: <edu0308_7[Preload]>. Is this still currently true?",
+          "text_de": "[IF edu0307_7[Preload] = 1,2,4,8] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie [IF edu0307_7[Preload] = 1,2 ein/ IF edu0307_7[Preload] = 4,8 eine] <edu0307_7[Preload]> machen. Trifft dies aktuell immer noch zu? [IF edu0307_7[Preload] = 3,5,6,7] Sie haben bei der letzten Befragung im [mon_pq_7 yea_pq_7] gesagt, dass Sie eine <edu0307_7[Preload]> besuchen. Trifft dies aktuell immer noch zu? [IF edu0307_7[Preload] = 9] Bei der letzten Befragung im [mon_pq_7 yea_pq_7] haben wir uns zu der Frage, was Sie fuer eine berufliche Ausbildung machen, folgendes notiert: <edu0308_7[Preload]>. Trifft dies aktuell immer noch zu?",
+          "concept": "edu0330",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: incorrect information on apprenticeship",
+              "label_de": "-81: Angaben zur Ausbildung nicht korrekt"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0307": {
+      "question": "edu0307",
+      "name": "edu0307",
+      "label": "What type of vocational training are you currently pursuing?",
+      "label_de": "Welcher beruflichen Ausbildung gehen Sie zurzeit nach?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of vocational training are you currently pursuing?",
+          "text_de": "Welcher beruflichen Ausbildung gehen Sie zurzeit nach?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "edu0307",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: year of vocational preparation which is accountable for vocational training",
+              "label_de": "1: Berufsgrundbildungsjahr"
+            },
+            {
+              "value": 2,
+              "label": "2: year of vocational preparation which is not accountable for vocational training",
+              "label_de": "2: Berufsvorbereitungsjahr"
+            },
+            {
+              "value": 3,
+              "label": "3: vocational schooling without vocational training",
+              "label_de": "3: Berufsschule ohne Lehre"
+            },
+            {
+              "value": 4,
+              "label": "4: vocational training",
+              "label_de": "4: Lehre"
+            },
+            {
+              "value": 5,
+              "label": "5: full-time vocational school, business school",
+              "label_de": "5: Berufsfachschule, Handelsschule"
+            },
+            {
+              "value": 6,
+              "label": "6: health care school",
+              "label_de": "6: Schule des Gesundheitswesens"
+            },
+            {
+              "value": 7,
+              "label": "7: professional school, technical college, e.g., master craftsman's or technician's certificate",
+              "label_de": "7: Fachschule (z. B. Meister-, Technikerschule)"
+            },
+            {
+              "value": 8,
+              "label": "8: training for civil servants",
+              "label_de": "8: Beamtenausbildung"
+            },
+            {
+              "value": 9,
+              "label": "9: other, such as",
+              "label_de": "9: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0900": {
+      "question": "eca0900",
+      "name": "eca0900",
+      "label": "Have you received a school-leaving degree since the last interview, since <mon_pq_preload yea_pq_preload>?",
+      "label_de": "Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, einen Schulabschluss erworben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you received a school-leaving degree since the last interview, since <mon_pq_preload yea_pq_preload>?",
+          "text_de": "Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, einen Schulabschluss erworben?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0900",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0901": {
+      "question": "eca0901",
+      "name": "eca0901",
+      "label": "Which school-leaving qualification have you achieved?",
+      "label_de": "Welchen Schulabschluss haben Sie erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Which school-leaving qualification have you achieved?",
+          "text_de": "Welchen Schulabschluss haben Sie erreicht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0901",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower secondary school-leaving certificate",
+              "label_de": "1: Hauptschulabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: intermediate secondary school-leaving certificate",
+              "label_de": "2: Mittlere Reife/ Realschulabschluss"
+            },
+            {
+              "value": 3,
+              "label": "3: university of applied sciences entrance diploma (leaving certificate from a technical school)",
+              "label_de": "3. Fach-Abitur (Fachhochschulreife)"
+            },
+            {
+              "value": 4,
+              "label": "4: Abitur/university entrance diploma",
+              "label_de": "4: Abitur (Hochschulreife)"
+            },
+            {
+              "value": 5,
+              "label": "5: other school-leaving certificate:",
+              "label_de": "5: Sonstiger Abschluss"
+            },
+            {
+              "value": 6,
+              "label": "6: no",
+              "label_de": "6: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca1000": {
+      "question": "eca1000",
+      "name": "eca1000",
+      "label": "Since the last interview, i.e. <mon_pq_preload yea_pq_preload>, have you completed any vocational training or university studies?",
+      "label_de": "Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Since the last interview, i.e. <mon_pq_preload yea_pq_preload>, have you completed any vocational training or university studies?",
+          "text_de": "Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1000",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca1100": {
+      "question": "eca1100",
+      "name": "eca1100",
+      "label": "Have you obtained a degree or training qualification?",
+      "label_de": "Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you obtained a degree or training qualification?",
+          "text_de": "Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben?",
+          "concept": "eca1100",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: vocational training certificate",
+              "label_de": "1: Ausbildungsabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: higher educational/university certificate",
+              "label_de": "2: Hochschulabschluss"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca1200": {
+      "question": "eca1200",
+      "name": "eca1200",
+      "label": "Have you dropped out of school, training, or college since the last interview, i.e., since the <mon_pq_preload yea_pq_preload>?",
+      "label_de": "Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you dropped out of school, training, or college since the last interview, i.e., since the <mon_pq_preload yea_pq_preload>?",
+          "text_de": "Haben Sie seit dem letzten Interview, d.h. seit <mon_pq_preload yea_pq_preload>, die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+          "concept": "eca1200",
+          "scale": "cat",
+          "number": "16",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca1201": {
+      "question": "eca1201",
+      "name": "eca1201",
+      "label": "Did you drop out of school, training, or college?",
+      "label_de": "Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did you drop out of school, training, or college?",
+          "text_de": "Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen?",
+          "concept": "eca1201",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: School",
+              "label_de": "1: Schule"
+            },
+            {
+              "value": 2,
+              "label": "2: Training",
+              "label_de": "2: Ausbildung"
+            },
+            {
+              "value": 3,
+              "label": "3: Study",
+              "label_de": "3: Studium"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0400t": {
+      "question": "edu0400t",
+      "name": "edu0400t",
+      "label": "What type of school does [name twin 1] (ptyp) attend?",
+      "label_de": "Welche Schule besucht <Name[001]> (ptyp) zurzeit?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of school does [name twin 1] (ptyp) attend?",
+          "text_de": "Welche Schule besucht <Name[001]> (ptyp) zurzeit?",
+          "description": "National Educational Panel Study (NEPS). (2018). Erhebungsinstrumente (Feldversion) NEPS Startkohorte 2-Kindergarten Fruehe Bildung in Kindergarten und Grundschule Welle 2 [NEPS SC2 Starting Cohort 2: Kindergarten Wave 2]. University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC2/Feldversionen/SC2_Q_w2_de.pdf)",
+          "description_de": "National Educational Panel Study (NEPS). (2018). Erhebungsinstrumente (Feldversion) NEPS Startkohorte 2-Kindergarten Fruehe Bildung in Kindergarten und Grundschule Welle 2 [NEPS SC2 Starting Cohort 2: Kindergarten Wave 2]. University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC2/Feldversionen/SC2_Q_w2_de.pdf)",
+          "concept": "edu0400t",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
+            {
+              "value": 1,
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
+            },
+            {
+              "value": 2,
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
+            },
+            {
+              "value": 3,
+              "label": "3: lower secondary school",
+              "label_de": "3: Hauptschule"
+            },
+            {
+              "value": 4,
+              "label": "4: intermediate-level secondary school",
+              "label_de": "4: Realschule"
+            },
+            {
+              "value": 5,
+              "label": "5: integrated lower and intermediate-level secondary school",
+              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: Waldorf school (Rudolf Steiner school)",
+              "label_de": "7: Waldorfschule"
+            },
+            {
+              "value": 8,
+              "label": "8: upper secondary school",
+              "label_de": "8: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 9,
+              "label": "9: school for children with special needs",
+              "label_de": "9: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 10,
+              "label": "10: other school, namely",
+              "label_de": "10: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0402t": {
+      "question": "edu0402t",
+      "name": "edu0402t",
+      "label": "What grade level does [name twin 1] attend at this school?",
+      "label_de": "Welche Klasse besucht <Zwilling 1> auf dieser Schule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What grade level does [name twin 1] attend at this school?",
+          "text_de": "Welche Klasse besucht <Zwilling 1> auf dieser Schule?",
+          "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
+          "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
+          "concept": "edu0402t",
+          "scale": "int",
+          "number": "20",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0600t": {
+      "question": "eca0600t",
+      "name": "eca0600t",
+      "label": "Did <Twin 1> receive a recommendation for a lower secondary school, an intermediate level secondary school, or an upper secondary school?",
+      "label_de": "Hatte <Zwilling 1> eine Hauptschul-, Realschul- oder eine Gymnasialempfehlung?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did <Twin 1> receive a recommendation for a lower secondary school, an intermediate level secondary school, or an upper secondary school?",
+          "text_de": "Hatte <Zwilling 1> eine Hauptschul-, Realschul- oder eine Gymnasialempfehlung?",
+          "description": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0600t",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower secondary school",
+              "label_de": "1: Hauptschule"
+            },
+            {
+              "value": 2,
+              "label": "2: intermediate level secondary school",
+              "label_de": "2: Realschule"
+            },
+            {
+              "value": 3,
+              "label": "3: upper secondary school",
+              "label_de": "3: Gymnasium"
+            },
+            {
+              "value": 4,
+              "label": "4: our school did not give any recommendations",
+              "label_de": "4: an unserer Schule gab es keine Uebergangsempfehlung"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0601t": {
+      "question": "eca0601t",
+      "name": "eca0601t",
+      "label": "Did <Twin 2> receive a recommendation for a lower secondary school, an intermediate level secondary school, or an upper secondary school?",
+      "label_de": "Wer hat die Entscheidung getroffen, dass <Name[001]> (ptyp) diese Art von weiterfuehrender Schule besucht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did <Twin 2> receive a recommendation for a lower secondary school, an intermediate level secondary school, or an upper secondary school?",
+          "text_de": "Wer hat die Entscheidung getroffen, dass <Name[001]> (ptyp) diese Art von weiterfuehrender Schule besucht?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "eca0601t",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I made the decision",
+              "label_de": "1: Ich habe diese Entscheidung getroffen"
+            },
+            {
+              "value": 2,
+              "label": "2: The other parent made the decision.",
+              "label_de": "2: Das andere Elternteil hat die Entscheidung getroffen"
+            },
+            {
+              "value": 3,
+              "label": "3: We, i.e. both parents, made the decision together.",
+              "label_de": "3: Wir, also beide Elternteile, haben gemeinsam die Entscheidung getroffen"
+            },
+            {
+              "value": 4,
+              "label": "4: The child primarily decided what kind of secondary school he/she wanted to go to.",
+              "label_de": "4: Das Kind hat vornehmlich bestimmt, in welche Art von weiterfuehrender Schule es gehen wollte"
+            },
+            {
+              "value": 5,
+              "label": "5: The decision was made together with the child and one or both parents.",
+              "label_de": "5: Die Entscheidung ist zusammen mit dem Kind und einem Elternteil/beiden Elternteilen getroffen worden"
+            },
+            {
+              "value": 6,
+              "label": "6: There was no possibility to decide, the recommendation was binding.",
+              "label_de": "6: Es gab keine Entscheidungsmoeglichkeit, die Empfehlung war bindend"
+            },
+            {
+              "value": 7,
+              "label": "7: other",
+              "label_de": "7: Sonstiges"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0900t": {
+      "question": "eca0900t",
+      "name": "eca0900t",
+      "label": "Did [name twin 1] (ptyp) receive a school-leaving degree since the last interview, i.e., since <mon_fq_preload yea_fq_preload>?",
+      "label_de": "Hat <Name[001]> (ptyp) seit dem letzten Interview, d.h. seit dem <mon_fq_preload yea_fq_preload>, einen Schulabschluss erworben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did [name twin 1] (ptyp) receive a school-leaving degree since the last interview, i.e., since <mon_fq_preload yea_fq_preload>?",
+          "text_de": "Hat <Name[001]> (ptyp) seit dem letzten Interview, d.h. seit dem <mon_fq_preload yea_fq_preload>, einen Schulabschluss erworben?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0900t",
+          "number": "23",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 21,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0901t": {
+      "question": "eca0901t",
+      "name": "eca0901t",
+      "label": "What type of school-leaving qualification did [name twin 1] (ptyp) obtain?",
+      "label_de": "Welchen Schulabschluss hat <Name[001]> (ptyp) erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of school-leaving qualification did [name twin 1] (ptyp) obtain?",
+          "text_de": "Welchen Schulabschluss hat <Name[001]> (ptyp) erreicht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0901t",
+          "number": "24",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower secondary school-leaving certificate",
+              "label_de": "1: Hauptschulabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: intermediate secondary school-leaving certificate",
+              "label_de": "2: Mittlere Reife/ Realschulabschluss"
+            },
+            {
+              "value": 3,
+              "label": "3: university of applied sciences entrance diploma (leaving certificate from a technical school)",
+              "label_de": "3. Fach-Abitur (Fachhochschulreife)"
+            },
+            {
+              "value": 4,
+              "label": "4: Abitur/university entrance diploma",
+              "label_de": "4: Abitur (Hochschulreife)"
+            },
+            {
+              "value": 5,
+              "label": "5: other school-leaving certificate:",
+              "label_de": "5: Sonstiger Abschluss"
+            },
+            {
+              "value": 6,
+              "label": "6: no",
+              "label_de": "6: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 22,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0400u": {
+      "question": "edu0400u",
+      "name": "edu0400u",
+      "label": "What type of school does [name twin 2] (ptyp) attend?",
+      "label_de": "Welche Schule besucht <Name[002]> (ptyp) zurzeit?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of school does [name twin 2] (ptyp) attend?",
+          "text_de": "Welche Schule besucht <Name[002]> (ptyp) zurzeit?",
+          "description": "National Educational Panel Study (NEPS). (2018). Erhebungsinstrumente (Feldversion) NEPS Startkohorte 2-Kindergarten Fruehe Bildung in Kindergarten und Grundschule Welle 2 [NEPS SC2 Starting Cohort 2: Kindergarten Wave 2]. University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC2/Feldversionen/SC2_Q_w2_de.pdf)",
+          "description_de": "National Educational Panel Study (NEPS). (2018). Erhebungsinstrumente (Feldversion) NEPS Startkohorte 2-Kindergarten Fruehe Bildung in Kindergarten und Grundschule Welle 2 [NEPS SC2 Starting Cohort 2: Kindergarten Wave 2]. University of Bamberg, National Educational Panel Study (NEPS). [[URL link]](https://www.neps-data.de/Portals/0/NEPS/Datenzentrum/Forschungsdaten/SC2/Feldversionen/SC2_Q_w2_de.pdf)",
+          "concept": "edu0400u",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
+            {
+              "value": 1,
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
+            },
+            {
+              "value": 2,
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
+            },
+            {
+              "value": 3,
+              "label": "3: lower secondary school",
+              "label_de": "3: Hauptschule"
+            },
+            {
+              "value": 4,
+              "label": "4: intermediate-level secondary school",
+              "label_de": "4: Realschule"
+            },
+            {
+              "value": 5,
+              "label": "5: integrated lower and intermediate-level secondary school",
+              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: Waldorf school (Rudolf Steiner school)",
+              "label_de": "7: Waldorfschule"
+            },
+            {
+              "value": 8,
+              "label": "8: upper secondary school",
+              "label_de": "8: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 9,
+              "label": "9: school for children with special needs",
+              "label_de": "9: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 10,
+              "label": "10: other school, namely",
+              "label_de": "10: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 23,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "edu0402u": {
+      "question": "edu0402u",
+      "name": "edu0402u",
+      "label": "What grade level does [name twin 2] attend at this school?",
+      "label_de": "Welche Klasse besucht <Zwilling 2> auf dieser Schule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What grade level does [name twin 2] attend at this school?",
+          "text_de": "Welche Klasse besucht <Zwilling 2> auf dieser Schule?",
+          "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
+          "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
+          "concept": "edu0402u",
+          "scale": "int",
+          "number": "27",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 24,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0600u": {
+      "question": "eca0600u",
+      "name": "eca0600u",
+      "label": "Did <Twin 2> receive a recommendation for a lower secondary school, an intermediate level secondary school, or an upper secondary school?",
+      "label_de": "Hatte <Zwilling 2> eine Hauptschul-, Realschul- oder eine Gymnasialempfehlung?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did <Twin 2> receive a recommendation for a lower secondary school, an intermediate level secondary school, or an upper secondary school?",
+          "text_de": "Hatte <Zwilling 2> eine Hauptschul-, Realschul- oder eine Gymnasialempfehlung?",
+          "description": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0600u",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower secondary school",
+              "label_de": "1: Hauptschule"
+            },
+            {
+              "value": 2,
+              "label": "2: intermediate level secondary school",
+              "label_de": "2: Realschule"
+            },
+            {
+              "value": 3,
+              "label": "3: upper secondary school",
+              "label_de": "3: Gymnasium"
+            },
+            {
+              "value": 4,
+              "label": "4: our school did not give any recommendations",
+              "label_de": "4: an unserer Schule gab es keine Uebergangsempfehlung"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 25,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0601u": {
+      "question": "eca0601u",
+      "name": "eca0601u",
+      "label": "Who decided that [name twin 2] (ptyp) should attend this type of secondary school?",
+      "label_de": "Wer hat die Entscheidung getroffen, dass <Name[002]> (ptyp) diese Art von weiterfuehrender Schule besucht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Who decided that [name twin 2] (ptyp) should attend this type of secondary school?",
+          "text_de": "Wer hat die Entscheidung getroffen, dass <Name[002]> (ptyp) diese Art von weiterfuehrender Schule besucht?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "eca0601u",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: I made the decision",
+              "label_de": "1: Ich habe diese Entscheidung getroffen"
+            },
+            {
+              "value": 2,
+              "label": "2: The other parent made the decision.",
+              "label_de": "2: Das andere Elternteil hat die Entscheidung getroffen"
+            },
+            {
+              "value": 3,
+              "label": "3: We, i.e. both parents, made the decision together.",
+              "label_de": "3: Wir, also beide Elternteile, haben gemeinsam die Entscheidung getroffen"
+            },
+            {
+              "value": 4,
+              "label": "4: The child primarily decided what kind of secondary school he/she wanted to go to.",
+              "label_de": "4: Das Kind hat vornehmlich bestimmt, in welche Art von weiterfuehrender Schule es gehen wollte"
+            },
+            {
+              "value": 5,
+              "label": "5: The decision was made together with the child and one or both parents.",
+              "label_de": "5: Die Entscheidung ist zusammen mit dem Kind und einem Elternteil/beiden Elternteilen getroffen worden"
+            },
+            {
+              "value": 6,
+              "label": "6: There was no possibility to decide, the recommendation was binding.",
+              "label_de": "6: Es gab keine Entscheidungsmoeglichkeit, die Empfehlung war bindend"
+            },
+            {
+              "value": 7,
+              "label": "7: other",
+              "label_de": "7: Sonstiges"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 26,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0900u": {
+      "question": "eca0900u",
+      "name": "eca0900u",
+      "label": "Did [name twin 2] (ptyp) receive a school-leaving degree since the last interview, i.e., since <mon_fq_preload yea_fq_preload>?",
+      "label_de": "Hat <Name[002]> (ptyp) seit dem letzten Interview, d.h. seit dem <mon_fq_preload yea_fq_preload>, einen Schulabschluss erworben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did [name twin 2] (ptyp) receive a school-leaving degree since the last interview, i.e., since <mon_fq_preload yea_fq_preload>?",
+          "text_de": "Hat <Name[002]> (ptyp) seit dem letzten Interview, d.h. seit dem <mon_fq_preload yea_fq_preload>, einen Schulabschluss erworben?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0900u",
+          "number": "30",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 27,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    },
+    "eca0901u": {
+      "question": "eca0901u",
+      "name": "eca0901u",
+      "label": "What type of school-leaving qualification did [name twin 2] (ptyp) obtain?",
+      "label_de": "Welchen Schulabschluss hat <Name[002]> (ptyp) erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of school-leaving qualification did [name twin 2] (ptyp) obtain?",
+          "text_de": "Welchen Schulabschluss hat <Name[002]> (ptyp) erreicht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0901u",
+          "number": "31",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower secondary school-leaving certificate",
+              "label_de": "1: Hauptschulabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: intermediate secondary school-leaving certificate",
+              "label_de": "2: Mittlere Reife/ Realschulabschluss"
+            },
+            {
+              "value": 3,
+              "label": "3: university of applied sciences entrance diploma (leaving certificate from a technical school)",
+              "label_de": "3. Fach-Abitur (Fachhochschulreife)"
+            },
+            {
+              "value": 4,
+              "label": "4: Abitur/university entrance diploma",
+              "label_de": "4: Abitur (Hochschulreife)"
+            },
+            {
+              "value": 5,
+              "label": "5: other school-leaving certificate:",
+              "label_de": "5: Sonstiger Abschluss"
+            },
+            {
+              "value": 6,
+              "label": "6: no",
+              "label_de": "6: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 28,
+      "instrument": "wid8_CATI4_module3",
+      "study": "twinlife"
+    }
+  }
+}

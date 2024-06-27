@@ -136,6 +136,11 @@
           "number": "4",
           "answers": [
             {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
+            {
               "value": 1,
               "label": "1: primary school",
               "label_de": "1: Grundschule"
@@ -235,13 +240,13 @@
     "edu0300": {
       "question": "edu0300",
       "name": "edu0300",
-      "label": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
-      "label_de": "[IF age < 16 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age > = 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
+      "label": "[IF age < 16 ] I would now like to ask you some questions about education and employment. Are you currently in education? That is, do you attend school, university (including doctoral studies), vocational training, or continuing education? [IF age >= 16] I would now like to ask you some questions about education and employment. Are you currently in education or training? That is, do you attend school, university (including doctoral studies), vocational training or continuing education? This includes on-the-job training or study.",
+      "label_de": "[IF age < 16 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age >= 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
       "items": [
         {
           "item": "1",
-          "text": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
-          "text_de": "[IF age < 16 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age > = 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
+          "text": "[IF age < 16 ] I would now like to ask you some questions about education and employment. Are you currently in education? That is, do you attend school, university (including doctoral studies), vocational training, or continuing education? [IF age >= 16] I would now like to ask you some questions about education and employment. Are you currently in education or training? That is, do you attend school, university (including doctoral studies), vocational training or continuing education? This includes on-the-job training or study.",
+          "text_de": "[IF age < 16 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age >= 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
           "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
           "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
           "concept": "edu0300",
@@ -662,12 +667,12 @@
     "eca0900": {
       "question": "eca0900",
       "name": "eca0900",
-      "label": "Have you received a degree since the last interview, since <mon_fq><yea_fq>?",
+      "label": "Have you received a school-leaving degree since the last interview, since <mon_fq><yea_fq>?",
       "label_de": "[If age < 16] Hast Du seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben? [If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben?",
       "items": [
         {
           "item": "1",
-          "text": "Have you received a degree since the last interview, since <mon_fq><yea_fq>?",
+          "text": "Have you received a school-leaving degree since the last interview, since <mon_fq><yea_fq>?",
           "text_de": "[If age < 16] Hast Du seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben? [If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -770,12 +775,12 @@
     "eca0903": {
       "question": "eca0903",
       "name": "eca0903",
-      "label": "When did you reach the new graduation? Please tell me the month and year.",
+      "label": "When did you graduate from school? Please tell me the month and year.",
       "label_de": "[If age >= 16] Wann haben Sie den Schulabschluss erreicht? Bitte nennen Sie mir Monat und Jahr. [If age < 16] Wann hast Du den Schulabschluss erreicht? Bitte nenne mir Monat und Jahr.",
       "items": [
         {
           "item": "0",
-          "text": "When did you reach the new graduation? Please tell me the month and year.",
+          "text": "When did you graduate from school? Please tell me the month and year.",
           "text_de": "[If age >= 16] Wann haben Sie den Schulabschluss erreicht? Bitte nennen Sie mir Monat und Jahr. [If age < 16] Wann hast Du den Schulabschluss erreicht? Bitte nenne mir Monat und Jahr.",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -946,6 +951,11 @@
           "number": "21",
           "answers": [
             {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
+            {
               "value": 1,
               "label": "1: primary school",
               "label_de": "1: Grundschule"
@@ -1079,12 +1089,12 @@
     "eca0200": {
       "question": "eca0200",
       "name": "eca0200",
-      "label": "What educational degree / diploma / qualification did you attain? If you have attained more than one, please state the highest.",
+      "label": "What is your highest vocational or academic degree?",
       "label_de": "[If age < 16] Was ist Dein hoechster Ausbildungs- oder Studienabschluss? [IF age > = 16 ] Was ist Ihr hoechster Ausbildungs- oder Studienabschluss?",
       "items": [
         {
           "item": "1",
-          "text": "What educational degree / diploma / qualification did you attain? If you have attained more than one, please state the highest.",
+          "text": "What is your highest vocational or academic degree?",
           "text_de": "[If age < 16] Was ist Dein hoechster Ausbildungs- oder Studienabschluss? [IF age > = 16 ] Was ist Ihr hoechster Ausbildungs- oder Studienabschluss?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -1158,12 +1168,12 @@
     "eca0201": {
       "question": "eca0201",
       "name": "eca0201",
-      "label": "What year did you earn your educational degree/diploma/qualification?",
+      "label": "What year did you graduate from vocational school or university?",
       "label_de": "[If age < 16] In welchem Jahr hast Du den Ausbildungs- oder Studienabschluss erreicht? [IF age > = 16] In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
       "items": [
         {
           "item": "1",
-          "text": "What year did you earn your educational degree/diploma/qualification?",
+          "text": "What year did you graduate from vocational school or university?",
           "text_de": "[If age < 16] In welchem Jahr hast Du den Ausbildungs- oder Studienabschluss erreicht? [IF age > = 16] In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2013). SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2012 (wave 29) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (157: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.econstor.eu/bitstream/10419/100687/1/795572875.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2013). SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2012 (wave 29) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (157: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.econstor.eu/bitstream/10419/100687/1/795572875.pdf)",
@@ -1321,12 +1331,12 @@
     "eca1000": {
       "question": "eca1000",
       "name": "eca1000",
-      "label": "Since the last interview: Did you achieve a new vocational training qualification or university degree?",
+      "label": "Since the last interview, i.e. <date_pq>, have you completed any vocational training or university studies?",
       "label_de": "[If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [If age < 16] Hast Du seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
       "items": [
         {
           "item": "1",
-          "text": "Since the last interview: Did you achieve a new vocational training qualification or university degree?",
+          "text": "Since the last interview, i.e. <date_pq>, have you completed any vocational training or university studies?",
           "text_de": "[If age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [If age < 16] Hast Du seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -1375,12 +1385,12 @@
     "eca1001": {
       "question": "eca1001",
       "name": "eca1001",
-      "label": "What is your new vocational training qualification or university degree?",
+      "label": "[MCQ] What kind of degree is it?",
       "label_de": "[MFN] Um was fuer einen Abschluss handelt es sich?",
       "items": [
         {
           "item": "0",
-          "text": "What is your new vocational training qualification or university degree?",
+          "text": "[MCQ] What kind of degree is it?",
           "text_de": "[MFN] Um was fuer einen Abschluss handelt es sich?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -1782,12 +1792,12 @@
     "emp0400": {
       "question": "emp0400",
       "name": "emp0400",
-      "label": "Are you currently employed? What applies to you? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+      "label": "[IF emp0300 != 1] Are you currently employed? What applies to you? [IF emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
       "label_de": "[IF age < 16 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age < 16 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age < 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age < 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age > = 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age > = 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age > = 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age > = 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
       "items": [
         {
           "item": "1",
-          "text": "Are you currently employed? What applies to you? [IF emp0200 = 1,2,3] If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+          "text": "[IF emp0300 != 1] Are you currently employed? What applies to you? [IF emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
           "text_de": "[IF age < 16 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age < 16 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age < 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age < 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age > = 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age > = 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age > = 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age > = 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -2438,12 +2448,12 @@
     "emp0705": {
       "question": "emp0705",
       "name": "emp0705",
-      "label": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (. . .emp0400)",
+      "label": "How many hours per week is your contractual working time excluding overtime?",
       "label_de": "[IF age < 16 ] Wie viele Wochenstunden betraegt Deine vereinbarte Arbeitszeit ohne Ueberstunden? [IF age >= 16 ] Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden?",
       "items": [
         {
           "item": "1",
-          "text": "How many hours per week is your agreed working time without overtime? IF emp0200 = 1, 2, 3] (. . .emp0400)",
+          "text": "How many hours per week is your contractual working time excluding overtime?",
           "text_de": "[IF age < 16 ] Wie viele Wochenstunden betraegt Deine vereinbarte Arbeitszeit ohne Ueberstunden? [IF age >= 16 ] Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden?",
           "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
           "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",

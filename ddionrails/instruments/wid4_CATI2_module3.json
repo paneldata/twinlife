@@ -170,12 +170,12 @@
     "edu0400": {
       "question": "edu0400",
       "name": "edu0400",
-      "label": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+      "label": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
       "label_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
       "items": [
         {
           "item": "0",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -187,7 +187,7 @@
         },
         {
           "item": "1",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -195,6 +195,11 @@
           "scale": "cat",
           "number": "6",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -255,7 +260,7 @@
         },
         {
           "item": "2",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -263,6 +268,11 @@
           "scale": "cat",
           "number": "7",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -323,7 +333,7 @@
         },
         {
           "item": "3",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -331,6 +341,11 @@
           "scale": "cat",
           "number": "8",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -391,7 +406,7 @@
         },
         {
           "item": "4",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -399,6 +414,11 @@
           "scale": "cat",
           "number": "9",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -459,7 +479,7 @@
         },
         {
           "item": "5",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -467,6 +487,11 @@
           "scale": "cat",
           "number": "10",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -527,7 +552,7 @@
         },
         {
           "item": "6",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -535,6 +560,11 @@
           "scale": "cat",
           "number": "11",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -595,7 +625,7 @@
         },
         {
           "item": "7",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -603,6 +633,11 @@
           "scale": "cat",
           "number": "12",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -663,7 +698,7 @@
         },
         {
           "item": "8",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -671,6 +706,11 @@
           "scale": "cat",
           "number": "13",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -731,7 +771,7 @@
         },
         {
           "item": "9",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -739,6 +779,11 @@
           "scale": "cat",
           "number": "14",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -799,7 +844,7 @@
         },
         {
           "item": "10",
-          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does <name> (ptyp) currently attend?",
+          "text": "[IF proxy=2] What school are you currently attending? [IF proxy=1] What school does [name] (ptyp) currently attend?",
           "text_de": "[IF proxy=2] Welche Schule besuchen Sie zurzeit? [IF proxy=1] Welche Schule besucht <Name> (ptyp) zurzeit?",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -807,6 +852,11 @@
           "scale": "cat",
           "number": "15",
           "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
             {
               "value": 1,
               "label": "1: primary school",
@@ -873,12 +923,12 @@
     "edu0402": {
       "question": "edu0402",
       "name": "edu0402",
-      "label": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+      "label": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
       "label_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
       "items": [
         {
           "item": "0",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -890,7 +940,7 @@
         },
         {
           "item": "1",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -913,7 +963,7 @@
         },
         {
           "item": "2",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -936,7 +986,7 @@
         },
         {
           "item": "3",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -959,7 +1009,7 @@
         },
         {
           "item": "4",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -982,7 +1032,7 @@
         },
         {
           "item": "5",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -1005,7 +1055,7 @@
         },
         {
           "item": "6",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -1028,7 +1078,7 @@
         },
         {
           "item": "7",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -1051,7 +1101,7 @@
         },
         {
           "item": "8",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -1074,7 +1124,7 @@
         },
         {
           "item": "9",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -1097,7 +1147,7 @@
         },
         {
           "item": "10",
-          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is <name> (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade <name> will start after summer vacation.",
+          "text": "[IF proxy=2] What grade are you in at this school? [PROG: green] If on summer vacation, please state the grade you will start after summer vacation. [IF proxy=1] What grade is [name] (ptyp) in at this school? [PROG: green] If it is summer vacation, please state the grade [name] will start after summer vacation.",
           "text_de": "[IF proxy=2] Welche Klasse besuchen Sie auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse Sie nach den Sommerferien kommen. [IF proxy=1] Welche Klasse besucht <Name> (ptyp) auf dieser Schule? [PROG: gruen] Wenn gerade Sommerferien sind, geben Sie bitte an, in welche Klasse <Name> nach den Sommerferien kommt.",
           "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
           "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
@@ -3641,12 +3691,12 @@
     "eca0901": {
       "question": "eca0901",
       "name": "eca0901",
-      "label": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+      "label": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
       "label_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
       "items": [
         {
           "item": "0",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -3658,7 +3708,7 @@
         },
         {
           "item": "1",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -3701,7 +3751,7 @@
         },
         {
           "item": "2",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -3744,7 +3794,7 @@
         },
         {
           "item": "3",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -3787,7 +3837,7 @@
         },
         {
           "item": "4",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -3830,7 +3880,7 @@
         },
         {
           "item": "5",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -3873,7 +3923,7 @@
         },
         {
           "item": "6",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -3916,7 +3966,7 @@
         },
         {
           "item": "7",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -3959,7 +4009,7 @@
         },
         {
           "item": "8",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -4002,7 +4052,7 @@
         },
         {
           "item": "9",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -4045,7 +4095,7 @@
         },
         {
           "item": "10",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -4088,7 +4138,7 @@
         },
         {
           "item": "11",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -4131,7 +4181,7 @@
         },
         {
           "item": "12",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -4174,7 +4224,7 @@
         },
         {
           "item": "13",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -4217,7 +4267,7 @@
         },
         {
           "item": "14",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -4260,7 +4310,7 @@
         },
         {
           "item": "15",
-          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did <name> (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
+          "text": "[IF proxy=2] What type of school-leaving qualification did you obtain? [IF proxy=1] What type of school-leaving qualification did [name] (ptyp) obtain? / What type of school-leaving qualification did your partner obtain?",
           "text_de": "[IF proxy=2] Welchen Schulabschluss haben Sie erreicht? [IF proxy=1] Welchen Schulabschluss hat [ptyp] erreicht? / Welchen Schulabschluss hat Ihr Partner erreicht?",
           "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
           "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
@@ -5794,12 +5844,12 @@
     "eca1100": {
       "question": "eca1100",
       "name": "eca1100",
-      "label": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+      "label": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
       "label_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
       "items": [
         {
           "item": "0",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "filter": "eca1000 == 1",
           "concept": "eca1100",
@@ -5809,7 +5859,7 @@
         },
         {
           "item": "1",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5830,7 +5880,7 @@
         },
         {
           "item": "2",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5851,7 +5901,7 @@
         },
         {
           "item": "3",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5872,7 +5922,7 @@
         },
         {
           "item": "4",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5893,7 +5943,7 @@
         },
         {
           "item": "5",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5914,7 +5964,7 @@
         },
         {
           "item": "6",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5935,7 +5985,7 @@
         },
         {
           "item": "7",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5956,7 +6006,7 @@
         },
         {
           "item": "8",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5977,7 +6027,7 @@
         },
         {
           "item": "9",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -5998,7 +6048,7 @@
         },
         {
           "item": "10",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -6019,7 +6069,7 @@
         },
         {
           "item": "11",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -6040,7 +6090,7 @@
         },
         {
           "item": "12",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -6061,7 +6111,7 @@
         },
         {
           "item": "13",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -6082,7 +6132,7 @@
         },
         {
           "item": "14",
-          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did <name> obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
+          "text": "[IF proxy=2] Have you obtained a degree or training qualification? [IF proxy=1] Did [name] obtain a degree or training qualification? / Did your partner obtain a degree or training qualification?",
           "text_de": "[IF proxy=2] Haben Sie einen Studien- oder einen Ausbildungsabschluss erworben? [IF proxy=1] Hat <Name> einen Studien- oder einen Ausbildungsabschluss erworben? / Hat ihr Partner einen Studien- oder einen Ausbildungsabschluss erworben?",
           "concept": "eca1100",
           "scale": "cat",
@@ -7524,12 +7574,12 @@
     "eca1201": {
       "question": "eca1201",
       "name": "eca1201",
-      "label": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+      "label": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
       "label_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
       "items": [
         {
           "item": "0",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "filter": "eca1200 == 1",
           "concept": "eca1201",
@@ -7539,7 +7589,7 @@
         },
         {
           "item": "1",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7565,7 +7615,7 @@
         },
         {
           "item": "2",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7591,7 +7641,7 @@
         },
         {
           "item": "3",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7617,7 +7667,7 @@
         },
         {
           "item": "4",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7643,7 +7693,7 @@
         },
         {
           "item": "5",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7669,7 +7719,7 @@
         },
         {
           "item": "6",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7695,7 +7745,7 @@
         },
         {
           "item": "7",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7721,7 +7771,7 @@
         },
         {
           "item": "8",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7747,7 +7797,7 @@
         },
         {
           "item": "9",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7773,7 +7823,7 @@
         },
         {
           "item": "10",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7799,7 +7849,7 @@
         },
         {
           "item": "11",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7825,7 +7875,7 @@
         },
         {
           "item": "12",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7851,7 +7901,7 @@
         },
         {
           "item": "13",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7877,7 +7927,7 @@
         },
         {
           "item": "14",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",
@@ -7903,7 +7953,7 @@
         },
         {
           "item": "15",
-          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did <name> (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
+          "text": "[IF proxy=2] Did you drop out of school, training, or college? [IF proxy=1] Did [name] (ptyp) drop out of school, training, or college? / Did your partner drop out of school, training, or college?",
           "text_de": "[IF proxy=2] Haben Sie die Schule, eine Ausbildung oder ein Studium abgebrochen? [IF proxy=1] Hat [ptyp] die Schule, eine Ausbildung oder ein Studium abgebrochen? / Hat ihr Partner die Schule, eine Ausbildung oder ein Studium abgebrochen?",
           "concept": "eca1201",
           "scale": "cat",

@@ -2,7 +2,7 @@
   "study": "twinlife",
   "name": "cov2_CoV_module6",
   "label": "CoV 2: Second COVID-19 Supplementary Questionnaire (CAPI-phone)",
-  "description": "This questionnaire module contains questions on: current employment; depressive symptoms, lack of focus; occupational status; quality of familial environment (existence of bedtime routine, general atmosphere at home); type of education / training; current status of education / qualification; worrying.",
+  "description": "This questionnaire module contains questions on: COVID-19-related behavioral changes, resilience, coping; current employment; depressive symptoms, lack of focus; evaluation of governmental restrictions; health during COVID-19 pandemic; occupational status; perceived threat, stress and burden, psychological impairment; quality of familial environment (existence of bedtime routine, general atmosphere at home); socioeconomic changes; type of education / training; current status of education / qualification; worrying.",
   "analysis_unit": "individual",
   "period": 11,
   "instrument": "cov2_CoV_module6",
@@ -101,12 +101,12 @@
     "edu0300": {
       "question": "edu0300",
       "name": "edu0300",
-      "label": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
+      "label": "[IF age = 15 ] I would now like to ask you some questions about education and employment. Are you currently in education? That is, do you attend school, university (including doctoral studies), vocational training, or continuing education? [IF age >= 16] I would now like to ask you some questions about education and employment. Are you currently in education or training? That is, do you attend school, university (including doctoral studies), vocational training or continuing education? This includes on-the-job training or study.",
       "label_de": "[IF age = 15 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age >= 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
       "items": [
         {
           "item": "1",
-          "text": "Are you currently in education or training? In other words, are you attending school or higher education (including doctorate / Ph.D.), completing an apprenticeship or vocational training, or in further education or training?",
+          "text": "[IF age = 15 ] I would now like to ask you some questions about education and employment. Are you currently in education? That is, do you attend school, university (including doctoral studies), vocational training, or continuing education? [IF age >= 16] I would now like to ask you some questions about education and employment. Are you currently in education or training? That is, do you attend school, university (including doctoral studies), vocational training or continuing education? This includes on-the-job training or study.",
           "text_de": "[IF age = 15 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age >= 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
           "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
           "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
@@ -263,12 +263,12 @@
     "emp0400": {
       "question": "emp0400",
       "name": "emp0400",
-      "label": "[IF age >= 16 & emp0300 != 1] Are you currently employed? What applies to you? [IF age >= 16 & emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+      "label": "[IF emp0300 != 1] Are you currently employed? What applies to you? [IF emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
       "label_de": "[IF age = 15 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age = 15 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age >= 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
       "items": [
         {
           "item": "1",
-          "text": "[IF age >= 16 & emp0300 != 1] Are you currently employed? What applies to you? [IF age >= 16 & emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+          "text": "[IF emp0300 != 1] Are you currently employed? What applies to you? [IF emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
           "text_de": "[IF age = 15 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age = 15 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age >= 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
           "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
           "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
@@ -425,12 +425,12 @@
     "cov0102": {
       "question": "cov0102",
       "name": "cov0102",
-      "label": "Has your household been quarantined since the outbreak of the Corona pandemic in Germany?",
+      "label": "Has your household been quarantined since the outbreak of the COVID-19 pandemic in Germany?",
       "label_de": "Wurde Ihr Haushalt seit Ausbruch der Corona-Pandemie in Deutschland schon einmal unter Quarantaene gestellt?",
       "items": [
         {
           "item": "1",
-          "text": "Has your household been quarantined since the outbreak of the Corona pandemic in Germany?",
+          "text": "Has your household been quarantined since the outbreak of the COVID-19 pandemic in Germany?",
           "text_de": "Wurde Ihr Haushalt seit Ausbruch der Corona-Pandemie in Deutschland schon einmal unter Quarantaene gestellt?",
           "description": "Source: Adapted from: SOEP Group. (2022). SOEP-Core-2020: Corona (SOEP Survey Papers No. 1112; Series A - Survey Instruments (Erhebungsinstrumente)). DIW Berlin/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.842615.de/diw_ssp1112.pdf)",
           "description_de": "Source: Adapted from: SOEP Group. (2022). SOEP-Core-2020: Corona (SOEP Survey Papers No. 1112; Series A - Survey Instruments (Erhebungsinstrumente)). DIW Berlin/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.842615.de/diw_ssp1112.pdf)",
@@ -479,12 +479,12 @@
     "cov0200": {
       "question": "cov0200",
       "name": "cov0200",
-      "label": "[ITEMBAT] Which of the following statements apply to your health status compared to before the Corona pandemic? You can grade your answers from 1 not at all true to 7 strongly true.",
+      "label": "[ITEMBAT] Which of the following statements apply to your health status compared to before the COVID-19 pandemic? You can grade your answers from 1 not at all true to 7 strongly true.",
       "label_de": "[ITEMBAT] Welche der folgenden Aussagen treffen auf Ihren Gesundheitszustand im Vergleich zu der Zeit vor der Corona-Pandemie zu? Sie koennen Ihre Antworten von 1 trifft ueberhaupt nicht zu bis 7 trifft voll und ganz zu abstufen.",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] Which of the following statements apply to your health status compared to before the Corona pandemic? You can grade your answers from 1 not at all true to 7 strongly true.",
+          "text": "[ITEMBAT] Which of the following statements apply to your health status compared to before the COVID-19 pandemic? You can grade your answers from 1 not at all true to 7 strongly true.",
           "text_de": "[ITEMBAT] Welche der folgenden Aussagen treffen auf Ihren Gesundheitszustand im Vergleich zu der Zeit vor der Corona-Pandemie zu? Sie koennen Ihre Antworten von 1 trifft ueberhaupt nicht zu bis 7 trifft voll und ganz zu abstufen.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -767,12 +767,12 @@
     "cov0300": {
       "question": "cov0300",
       "name": "cov0300",
-      "label": "[ITEMBAT] [If age >= 16] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you? [If age = 15] The Corona pandemic and its aftermath has affected people's education and work situation in many areas. What currently applies to you?",
+      "label": "[ITEMBAT] [If age >= 16] The COVID-19 pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you? [If age = 15] The COVID-19 pandemic and its aftermath has affected people's education and work situation in many areas. What currently applies to you?",
       "label_de": "[ITEMBAT] [If age >= 16] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu? [If age = 15] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Ausbildungs- und Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Dich zu?",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] [If age >= 16] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you? [If age = 15] The Corona pandemic and its aftermath has affected people's education and work situation in many areas. What currently applies to you?",
+          "text": "[ITEMBAT] [If age >= 16] The COVID-19 pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you? [If age = 15] The COVID-19 pandemic and its aftermath has affected people's education and work situation in many areas. What currently applies to you?",
           "text_de": "[ITEMBAT] [If age >= 16] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu? [If age = 15] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Ausbildungs- und Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Dich zu?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -794,8 +794,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply; I am/was not undergoing any vocational training",
+              "label_de": "-81: Trifft nicht zu; ich mache/machte keine Ausbildung"
             },
             {
               "value": 1,
@@ -822,8 +822,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply; I am/was not undergoing any vocational training",
+              "label_de": "-81: Trifft nicht zu; ich mache/machte keine Ausbildung"
             },
             {
               "value": 1,
@@ -861,8 +861,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply; I am/was not self-employed",
+              "label_de": "-81: Trifft nicht zu; ich bin/war nicht selbstaendig"
             },
             {
               "value": 1,
@@ -885,13 +885,13 @@
     "cov0304": {
       "question": "cov0304",
       "name": "cov0304",
-      "label": "[age >= 18] My business was threatened in its existence.",
-      "label_de": "[age >= 18] Mein Betrieb war in der Existenz bedroht.",
+      "label": "[age >= 18] My business is threatened in its existence.",
+      "label_de": "[age >= 18] Mein Betrieb ist in der Existenz bedroht.",
       "items": [
         {
           "item": "1",
-          "text": "[age >= 18] My business was threatened in its existence.",
-          "text_de": "[age >= 18] Mein Betrieb war in der Existenz bedroht.",
+          "text": "[age >= 18] My business is threatened in its existence.",
+          "text_de": "[age >= 18] Mein Betrieb ist in der Existenz bedroht.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "cov0304",
@@ -900,8 +900,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply; I am/was not self-employed",
+              "label_de": "-81: Trifft nicht zu; ich bin/war nicht selbstaendig"
             },
             {
               "value": 1,
@@ -924,12 +924,12 @@
     "cov0305": {
       "question": "cov0305",
       "name": "cov0305",
-      "label": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+      "label": "[ITEMBAT] The COVID-19 pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
       "label_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+          "text": "[ITEMBAT] The COVID-19 pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
           "text_de": "[ITEMBAT] Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -942,7 +942,7 @@
         {
           "item": "1",
           "text": "[age >= 16] I am on short-time work.",
-          "text_de": "Ich befinde mich in Kurzarbeit.",
+          "text_de": "[age >= 16] Ich befinde mich in Kurzarbeit.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "cov0305",
@@ -951,8 +951,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply; I am/was not employed",
+              "label_de": "-81: Trifft nicht zu; ich bin/war nicht erwerbstaetig"
             },
             {
               "value": 1,
@@ -970,7 +970,7 @@
         {
           "item": "2",
           "text": "[age >= 16] I have changed my occupation.",
-          "text_de": "Ich habe meine berufliche Taetigkeit gewechselt.",
+          "text_de": "[age >= 16] Ich habe meine berufliche Taetigkeit gewechselt.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "cov0305",
@@ -979,8 +979,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply; I am/was not employed",
+              "label_de": "-81: Trifft nicht zu; ich bin/war nicht erwerbstaetig"
             },
             {
               "value": 1,
@@ -998,7 +998,7 @@
         {
           "item": "3",
           "text": "[age >= 16] I have taken up another occupation.",
-          "text_de": "Ich habe eine weitere Beschaeftigung aufgenommen.",
+          "text_de": "[age >= 16] Ich habe eine weitere Beschaeftigung aufgenommen.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
           "concept": "cov0305",
@@ -1007,8 +1007,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply; I am/was not employed",
+              "label_de": "-81: Trifft nicht zu; ich bin/war nicht erwerbstaetig"
             },
             {
               "value": 1,
@@ -1031,12 +1031,12 @@
     "cov0310": {
       "question": "cov0310",
       "name": "cov0310",
-      "label": "The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+      "label": "The COVID-19 pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
       "label_de": "Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
       "items": [
         {
           "item": "1",
-          "text": "The Corona pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
+          "text": "The COVID-19 pandemic and its aftermath has affected people's work situations in many ways. What currently applies to you?",
           "text_de": "Die Corona-Pandemie und ihre Folgen hat sich in vielen Bereichen auf die Arbeitssituation der Menschen ausgewirkt. Was trifft aktuell auf Sie zu?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -1110,8 +1110,8 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+              "label": "-81: does not apply, I am not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich bin nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -1159,12 +1159,12 @@
     "cov0401": {
       "question": "cov0401",
       "name": "cov0401",
-      "label": "[ITEMBAT] To what extent has your current work situation changed compared to before the Corona pandemic outbreak? You can grade your answers from -3 Significantly less to 0 Same to +3 Significantly more.",
+      "label": "[ITEMBAT] To what extent has your current work situation changed compared to before the COVID-19 pandemic outbreak? You can grade your answers from -3 Significantly less to 0 Same to +3 Significantly more.",
       "label_de": "[ITEMBAT] Inwieweit hat sich Ihre aktuelle Arbeitssituation im Vergleich zu vor dem Ausbruch der Corona-Pandemie veraendert? Sie koennen Ihre Antworten von -3 Deutlich weniger ueber 0 Gleich bis +3 Deutlich mehr abstufen.",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] To what extent has your current work situation changed compared to before the Corona pandemic outbreak? You can grade your answers from -3 Significantly less to 0 Same to +3 Significantly more.",
+          "text": "[ITEMBAT] To what extent has your current work situation changed compared to before the COVID-19 pandemic outbreak? You can grade your answers from -3 Significantly less to 0 Same to +3 Significantly more.",
           "text_de": "[ITEMBAT] Inwieweit hat sich Ihre aktuelle Arbeitssituation im Vergleich zu vor dem Ausbruch der Corona-Pandemie veraendert? Sie koennen Ihre Antworten von -3 Deutlich weniger ueber 0 Gleich bis +3 Deutlich mehr abstufen.",
           "description": "Source: Adapted from: SOEP Group. (2022). SOEP-Core-2020: Corona (SOEP Survey Papers No. 1112; Series A - Survey Instruments (Erhebungsinstrumente)). DIW Berlin/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.842615.de/diw_ssp1112.pdf)",
           "description_de": "Source: Adapted from: SOEP Group. (2022). SOEP-Core-2020: Corona (SOEP Survey Papers No. 1112; Series A - Survey Instruments (Erhebungsinstrumente)). DIW Berlin/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.842615.de/diw_ssp1112.pdf)",
@@ -1185,19 +1185,9 @@
           "number": "28",
           "answers": [
             {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
               "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+              "label": "-81: does not apply, I am not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich bin nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -1248,19 +1238,9 @@
           "number": "29",
           "answers": [
             {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
               "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+              "label": "-81: does not apply, I am not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich bin nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -1311,19 +1291,9 @@
           "number": "30",
           "answers": [
             {
-              "value": -86,
-              "label": "-86: inconclusive specification",
-              "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
               "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+              "label": "-81: does not apply, I am not gainfully employed",
+              "label_de": "-81: Trifft nicht zu, ich bin nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -1371,12 +1341,12 @@
     "cov0500": {
       "question": "cov0500",
       "name": "cov0500",
-      "label": "Has your income from employment (including possible bonuses and co-payments) changed as a result of the Corona pandemic and its aftermath? Has your income ...",
+      "label": "Has your income from employment (including possible bonuses and co-payments) changed as a result of the COVID-19 pandemic and its aftermath? Has your income ...",
       "label_de": "Hat sich Ihr Einkommen aus Erwerbsarbeit (einschliesslich moeglicher Boni und Zuzahlungen) aufgrund der Corona-Pandemie und ihrer Folgen veraendert? Ist Ihr Einkommen ...",
       "items": [
         {
           "item": "1",
-          "text": "Has your income from employment (including possible bonuses and co-payments) changed as a result of the Corona pandemic and its aftermath? Has your income ...",
+          "text": "Has your income from employment (including possible bonuses and co-payments) changed as a result of the COVID-19 pandemic and its aftermath? Has your income ...",
           "text_de": "Hat sich Ihr Einkommen aus Erwerbsarbeit (einschliesslich moeglicher Boni und Zuzahlungen) aufgrund der Corona-Pandemie und ihrer Folgen veraendert? Ist Ihr Einkommen ...",
           "description": "Source: Adapted from: SOEP Group. (2022). SOEP-Core-2020: Corona (SOEP Survey Papers No. 1112; Series A - Survey Instruments (Erhebungsinstrumente)). DIW Berlin/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.842615.de/diw_ssp1112.pdf)",
           "description_de": "Source: Adapted from: SOEP Group. (2022). SOEP-Core-2020: Corona (SOEP Survey Papers No. 1112; Series A - Survey Instruments (Erhebungsinstrumente)). DIW Berlin/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.842615.de/diw_ssp1112.pdf)",
@@ -1386,8 +1356,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply, I was not employed.",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
+              "label": "-81: does not apply, I was not employed/self-employed before the COVID-19 pandemic.",
+              "label_de": "-81: Trifft nicht zu, ich war vor der Corona-Pandemie nicht erwerbstaetig/selbstaendig."
             },
             {
               "value": 1,
@@ -1726,12 +1696,12 @@
     "cov0698": {
       "question": "cov0698",
       "name": "cov0698",
-      "label": "During the Corona pandemic, schools were or are closed for extended periods of time. Are your children currently attending normal classes?",
+      "label": "During the COVID-19 pandemic, schools were or are closed for extended periods of time. Are your children currently attending normal classes?",
       "label_de": "Im Laufe der Corona-Pandemie waren oder sind die Schulen fuer laengere Zeit geschlossen. Findet bei Ihren Kindern aktuell normaler Unterricht statt?",
       "items": [
         {
           "item": "1",
-          "text": "During the Corona pandemic, schools were or are closed for extended periods of time. Are your children currently attending normal classes?",
+          "text": "During the COVID-19 pandemic, schools were or are closed for extended periods of time. Are your children currently attending normal classes?",
           "text_de": "Im Laufe der Corona-Pandemie waren oder sind die Schulen fuer laengere Zeit geschlossen. Findet bei Ihren Kindern aktuell normaler Unterricht statt?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -1770,12 +1740,12 @@
     "cov0699": {
       "question": "cov0699",
       "name": "cov0699",
-      "label": "During the Corona pandemic, schools were or are closed for extended periods of time. Are you attending classes normally right now?",
+      "label": "During the COVID-19 pandemic, schools were or are closed for extended periods of time. Are you attending classes normally right now?",
       "label_de": "Im Laufe der Corona-Pandemie waren oder sind die Schulen fuer laengere Zeit geschlossen. [if age <=15] Gehst Du gerade normal zum Unterricht? [if age >=16] Gehen Sie gerade normal zum Unterricht?",
       "items": [
         {
           "item": "1",
-          "text": "During the Corona pandemic, schools were or are closed for extended periods of time. Are you attending classes normally right now?",
+          "text": "During the COVID-19 pandemic, schools were or are closed for extended periods of time. Are you attending classes normally right now?",
           "text_de": "Im Laufe der Corona-Pandemie waren oder sind die Schulen fuer laengere Zeit geschlossen. [if age <=15] Gehst Du gerade normal zum Unterricht? [if age >=16] Gehen Sie gerade normal zum Unterricht?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -1829,8 +1799,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply (I do not have a school-age child/no chores had to be done at home)",
-              "label_de": "-81: Trifft nicht zu (ich habe kein schulpflichtiges Kind/es mussten keine Aufgaben zu Hause erledigt werden)"
+              "label": "-81: does not apply (no chores have to be done at home)",
+              "label_de": "-81: Trifft nicht zu (es muessen keine Aufgaben zu Hause erledigt werden)"
             },
             {
               "value": 1,
@@ -1888,8 +1858,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply (I had no schoolwork to do)",
-              "label_de": "-81: Trifft nicht zu (ich hatte keine Schulaufgaben auf)"
+              "label": "-81: does not apply (I have no schoolwork to do)",
+              "label_de": "-81: Trifft nicht zu (ich habe keine Schulaufgaben auf)"
             },
             {
               "value": 1,
@@ -1947,8 +1917,8 @@
           "answers": [
             {
               "value": -81,
-              "label": "-81: does not apply (I had no schoolwork to do)",
-              "label_de": "-81: Trifft nicht zu (ich hatte keine Schulaufgaben auf)"
+              "label": "-81: does not apply (I have no schoolwork to do)",
+              "label_de": "-81: Trifft nicht zu (ich habe keine Schulaufgaben auf)"
             },
             {
               "value": 1,
@@ -1991,12 +1961,12 @@
     "cov0800": {
       "question": "cov0800",
       "name": "cov0800",
-      "label": "In general, what is your assessment of government action to contain the Corona pandemic ?",
+      "label": "In general, what is your assessment of government action to contain the COVID-19 pandemic ?",
       "label_de": "Wie beurteilen Sie im Allgemeinen die behoerdlichen Massnahmen zur Eindaemmung der Corona-Pandemie? Sie koennen Ihre Antworten von 1 Voellig unangemessen bis 5 Voellig angemessen abstufen.",
       "items": [
         {
           "item": "1",
-          "text": "In general, what is your assessment of government action to contain the Corona pandemic ?",
+          "text": "In general, what is your assessment of government action to contain the COVID-19 pandemic ?",
           "text_de": "Wie beurteilen Sie im Allgemeinen die behoerdlichen Massnahmen zur Eindaemmung der Corona-Pandemie? Sie koennen Ihre Antworten von 1 Voellig unangemessen bis 5 Voellig angemessen abstufen.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -2195,12 +2165,12 @@
     "cov1704": {
       "question": "cov1704",
       "name": "cov1704",
-      "label": "Thinking about the future, how likely do you think it is that within the next 12 months public life will have to be significantly restricted (again) due to the Corona pandemic? You can grade your answers from 1 Not at all likely to 7 Very likely.",
+      "label": "Thinking about the future, how likely do you think it is that within the next 12 months public life will have to be significantly restricted (again) due to the COVID-19 pandemic? You can grade your answers from 1 Not at all likely to 7 Very likely.",
       "label_de": "Wenn Sie an die Zukunft denken, fuer wie wahrscheinlich halten Sie es, dass innerhalb der naechsten 12 Monate das oeffentliche Leben aufgrund der Corona-Pandemie (wieder) deutlich eingeschraenkt werden muss? Sie koennen Ihre Antworten von 1 Ueberhaupt nicht wahrscheinlich bis 7 Sehr wahrscheinlich abstufen.",
       "items": [
         {
           "item": "1",
-          "text": "Thinking about the future, how likely do you think it is that within the next 12 months public life will have to be significantly restricted (again) due to the Corona pandemic? You can grade your answers from 1 Not at all likely to 7 Very likely.",
+          "text": "Thinking about the future, how likely do you think it is that within the next 12 months public life will have to be significantly restricted (again) due to the COVID-19 pandemic? You can grade your answers from 1 Not at all likely to 7 Very likely.",
           "text_de": "Wenn Sie an die Zukunft denken, fuer wie wahrscheinlich halten Sie es, dass innerhalb der naechsten 12 Monate das oeffentliche Leben aufgrund der Corona-Pandemie (wieder) deutlich eingeschraenkt werden muss? Sie koennen Ihre Antworten von 1 Ueberhaupt nicht wahrscheinlich bis 7 Sehr wahrscheinlich abstufen.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -2254,12 +2224,12 @@
     "cov1705": {
       "question": "cov1705",
       "name": "cov1705",
-      "label": "Do you think that in the future there will be (again) major restrictions in your everyday life because of the Corona pandemic?",
+      "label": "Do you think that in the future there will be (again) major restrictions in your everyday life because of the COVID-19 pandemic?",
       "label_de": "Glaubst Du, dass es in Zukunft (wieder) groessere Einschraenkungen in Deinem Alltag wegen der Corona-Pandemie geben wird?",
       "items": [
         {
           "item": "1",
-          "text": "Do you think that in the future there will be (again) major restrictions in your everyday life because of the Corona pandemic?",
+          "text": "Do you think that in the future there will be (again) major restrictions in your everyday life because of the COVID-19 pandemic?",
           "text_de": "Glaubst Du, dass es in Zukunft (wieder) groessere Einschraenkungen in Deinem Alltag wegen der Corona-Pandemie geben wird?",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -2298,12 +2268,12 @@
     "cov0900": {
       "question": "cov0900",
       "name": "cov0900",
-      "label": "[ITEMBAT] Below you can grade your answers from 1 no threat to me at all to 10 extreme threat to me. How much do you perceive the Corona pandemic as a threat to...",
+      "label": "[ITEMBAT] Below you can grade your answers from 1 no threat to me at all to 10 extreme threat to me. How much do you perceive the COVID-19 pandemic as a threat to...",
       "label_de": "[ITEMBAT] Im Folgenden koennen Sie Ihre Antworten von 1 Ueberhaupt keine Bedrohung fuer mich bis 10 Extreme Bedrohung fuer mich abstufen. Wie sehr empfinden Sie die Corona-Pandemie als Bedrohung fuer...",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] Below you can grade your answers from 1 no threat to me at all to 10 extreme threat to me. How much do you perceive the Corona pandemic as a threat to...",
+          "text": "[ITEMBAT] Below you can grade your answers from 1 no threat to me at all to 10 extreme threat to me. How much do you perceive the COVID-19 pandemic as a threat to...",
           "text_de": "[ITEMBAT] Im Folgenden koennen Sie Ihre Antworten von 1 Ueberhaupt keine Bedrohung fuer mich bis 10 Extreme Bedrohung fuer mich abstufen. Wie sehr empfinden Sie die Corona-Pandemie als Bedrohung fuer...",
           "description": "Source: Adapted from: German Internet Panel (GIP). (2020). Mannheim Corona Study (MCS). [[URL link]](https://www.uni-mannheim.de/media/Einrichtungen/gip/Corona_Studie/Frageboegen/CW1.pdf)",
           "description_de": "Source: Adapted from: German Internet Panel (GIP). (2020). Mannheim Corona Study (MCS). [[URL link]](https://www.uni-mannheim.de/media/Einrichtungen/gip/Corona_Studie/Frageboegen/CW1.pdf)",
@@ -2608,12 +2578,12 @@
     "cov1000": {
       "question": "cov1000",
       "name": "cov1000",
-      "label": "[ITEMBAT] The Corona pandemic continues to affect the daily lives of many people. To the extent that you are currently experiencing the following limitations, how much of a burden do they have on you? You can grade your answers from 1 no burden to 10 extreme burden.",
+      "label": "[ITEMBAT] The COVID-19 pandemic continues to affect the daily lives of many people. To the extent that you are currently experiencing the following limitations, how much of a burden do they have on you? You can grade your answers from 1 no burden to 10 extreme burden.",
       "label_de": "[ITEMBAT] Die Corona-Pandemie betrifft auch weiterhin den Alltag vieler Menschen. Sofern Sie die folgenden Einschraenkungen derzeit erleben, wie sehr belasten Sie diese? Sie koennen Ihre Antworten von 1 Keine Belastung bis 10 Extreme Belastung abstufen.",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] The Corona pandemic continues to affect the daily lives of many people. To the extent that you are currently experiencing the following limitations, how much of a burden do they have on you? You can grade your answers from 1 no burden to 10 extreme burden.",
+          "text": "[ITEMBAT] The COVID-19 pandemic continues to affect the daily lives of many people. To the extent that you are currently experiencing the following limitations, how much of a burden do they have on you? You can grade your answers from 1 no burden to 10 extreme burden.",
           "text_de": "[ITEMBAT] Die Corona-Pandemie betrifft auch weiterhin den Alltag vieler Menschen. Sofern Sie die folgenden Einschraenkungen derzeit erleben, wie sehr belasten Sie diese? Sie koennen Ihre Antworten von 1 Keine Belastung bis 10 Extreme Belastung abstufen.",
           "description": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S., & Braescher, A.-K. (2022). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey. [[URL link]](https://doi.org/10.23668/PSYCHARCHIVES.5700)",
           "description_de": "Source: Adapted from: Witthoeft, M., Jungmann, S. M., Germer, S., & Braescher, A.-K. (2022). Early Adverse Effects of Behavioural Preventive Strategies During the COVID-19 Pandemic in Germany: An Online General Population Survey. [[URL link]](https://doi.org/10.23668/PSYCHARCHIVES.5700)",
@@ -2640,13 +2610,13 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply, does not occur in my case.",
+              "label_de": "-81: Trifft nicht zu, kommt bei mir nicht vor"
             },
             {
               "value": 1,
-              "label": "1: not at all / no burden",
-              "label_de": "1: gar nicht / keine Belastung"
+              "label": "1: no burden",
+              "label_de": "1: keine Belastung"
             },
             {
               "value": 10,
@@ -2673,13 +2643,13 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply, does not occur in my case.",
+              "label_de": "-81: Trifft nicht zu, kommt bei mir nicht vor"
             },
             {
               "value": 1,
-              "label": "1: not at all / no burden",
-              "label_de": "1: gar nicht / keine Belastung"
+              "label": "1: no burden",
+              "label_de": "1: keine Belastung"
             },
             {
               "value": 10,
@@ -2706,13 +2676,13 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply, does not occur in my case.",
+              "label_de": "-81: Trifft nicht zu, kommt bei mir nicht vor"
             },
             {
               "value": 1,
-              "label": "1: not at all / no burden",
-              "label_de": "1: gar nicht / keine Belastung"
+              "label": "1: no burden",
+              "label_de": "1: keine Belastung"
             },
             {
               "value": 10,
@@ -2739,13 +2709,13 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply, does not occur in my case.",
+              "label_de": "-81: Trifft nicht zu, kommt bei mir nicht vor"
             },
             {
               "value": 1,
-              "label": "1: not at all / no burden",
-              "label_de": "1: gar nicht / keine Belastung"
+              "label": "1: no burden",
+              "label_de": "1: keine Belastung"
             },
             {
               "value": 10,
@@ -2772,13 +2742,13 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply, does not occur in my case.",
+              "label_de": "-81: Trifft nicht zu, kommt bei mir nicht vor"
             },
             {
               "value": 1,
-              "label": "1: not at all / no burden",
-              "label_de": "1: gar nicht / keine Belastung"
+              "label": "1: no burden",
+              "label_de": "1: keine Belastung"
             },
             {
               "value": 10,
@@ -2805,13 +2775,13 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply, does not occur in my case.",
+              "label_de": "-81: Trifft nicht zu, kommt bei mir nicht vor"
             },
             {
               "value": 1,
-              "label": "1: not at all / no burden",
-              "label_de": "1: gar nicht / keine Belastung"
+              "label": "1: no burden",
+              "label_de": "1: keine Belastung"
             },
             {
               "value": 10,
@@ -2838,13 +2808,13 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply, does not occur in my case.",
+              "label_de": "-81: Trifft nicht zu, kommt bei mir nicht vor"
             },
             {
               "value": 1,
-              "label": "1: not at all / no burden",
-              "label_de": "1: gar nicht / keine Belastung"
+              "label": "1: no burden",
+              "label_de": "1: keine Belastung"
             },
             {
               "value": 10,
@@ -2871,13 +2841,13 @@
             },
             {
               "value": -81,
-              "label": "-81: does not apply",
-              "label_de": "-81: Trifft nicht zu"
+              "label": "-81: does not apply, does not occur in my case.",
+              "label_de": "-81: Trifft nicht zu, kommt bei mir nicht vor"
             },
             {
               "value": 1,
-              "label": "1: not at all / no burden",
-              "label_de": "1: gar nicht / keine Belastung"
+              "label": "1: no burden",
+              "label_de": "1: keine Belastung"
             },
             {
               "value": 10,
@@ -2895,12 +2865,12 @@
     "cov1008": {
       "question": "cov1008",
       "name": "cov1008",
-      "label": "[ITEMBAT] The Corona pandemic continues to affect the daily lives of many people. If you are currently experiencing the following limitations, how bad are they for you? You can grade your answers from 1 not bad at all to 10 very bad.",
+      "label": "[ITEMBAT] The COVID-19 pandemic continues to affect the daily lives of many people. If you are currently experiencing the following limitations, how bad are they for you? You can grade your answers from 1 not bad at all to 10 very bad.",
       "label_de": "[ITEMBAT] Die Corona-Pandemie betrifft auch weiterhin den Alltag vieler Menschen. Sofern Du die folgenden Einschraenkungen derzeit erlebst, wie schlimm sind diese fuer Dich? Du kannst Deine Antworten von 1 Gar nicht schlimm bis 10 Sehr schlimm abstufen.",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] The Corona pandemic continues to affect the daily lives of many people. If you are currently experiencing the following limitations, how bad are they for you? You can grade your answers from 1 not bad at all to 10 very bad.",
+          "text": "[ITEMBAT] The COVID-19 pandemic continues to affect the daily lives of many people. If you are currently experiencing the following limitations, how bad are they for you? You can grade your answers from 1 not bad at all to 10 very bad.",
           "text_de": "[ITEMBAT] Die Corona-Pandemie betrifft auch weiterhin den Alltag vieler Menschen. Sofern Du die folgenden Einschraenkungen derzeit erlebst, wie schlimm sind diese fuer Dich? Du kannst Deine Antworten von 1 Gar nicht schlimm bis 10 Sehr schlimm abstufen.",
           "description": "Item developed for TwinLife.",
           "description_de": "Item developed for TwinLife.",
@@ -3800,12 +3770,12 @@
     "cov1400": {
       "question": "cov1400",
       "name": "cov1400",
-      "label": "[ITEMBAT] What behaviors do you currently exhibit less of, the same of, or more of than before the Corona pandemic outbreak? You can grade your answers from -3 significantly less to 0 same to +3 significantly more.",
+      "label": "[ITEMBAT] What behaviors do you currently exhibit less of, the same of, or more of than before the COVID-19 pandemic outbreak? You can grade your answers from -3 significantly less to 0 same to +3 significantly more.",
       "label_de": "[ITEMBAT] Welche Verhaltensweisen zeigen Sie aktuell weniger, gleich oder mehr als vor dem Ausbruch der Corona-Pandemie? Sie koennen Ihre Antworten von -3 Deutlich weniger ueber 0 Gleich bis +3 Deutlich mehr abstufen.",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] What behaviors do you currently exhibit less of, the same of, or more of than before the Corona pandemic outbreak? You can grade your answers from -3 significantly less to 0 same to +3 significantly more.",
+          "text": "[ITEMBAT] What behaviors do you currently exhibit less of, the same of, or more of than before the COVID-19 pandemic outbreak? You can grade your answers from -3 significantly less to 0 same to +3 significantly more.",
           "text_de": "[ITEMBAT] Welche Verhaltensweisen zeigen Sie aktuell weniger, gleich oder mehr als vor dem Ausbruch der Corona-Pandemie? Sie koennen Ihre Antworten von -3 Deutlich weniger ueber 0 Gleich bis +3 Deutlich mehr abstufen.",
           "description": "Source: Adapted from: Survey EMOTIONS-C. (2020). Westfaelische Wilhelms-Universitaet Muenster. [[URL link]](https://formr.uni-muenster.de/EMOTIONS-CORONA2)",
           "description_de": "Source: Adapted from: Survey EMOTIONS-C. (2020). Westfaelische Wilhelms-Universitaet Muenster. [[URL link]](https://formr.uni-muenster.de/EMOTIONS-CORONA2)",
@@ -3829,16 +3799,6 @@
               "value": -86,
               "label": "-86: inconclusive specification",
               "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -3894,16 +3854,6 @@
               "label_de": "-86: uneindeutige Angabe"
             },
             {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
-            },
-            {
               "value": 1,
               "label": "1: -3 (significantly less)",
               "label_de": "1: -3 (Deutlich weniger)"
@@ -3955,16 +3905,6 @@
               "value": -86,
               "label": "-86: inconclusive specification",
               "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -4020,16 +3960,6 @@
               "label_de": "-86: uneindeutige Angabe"
             },
             {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
-            },
-            {
               "value": 1,
               "label": "1: -3 (significantly less)",
               "label_de": "1: -3 (Deutlich weniger)"
@@ -4081,16 +4011,6 @@
               "value": -86,
               "label": "-86: inconclusive specification",
               "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -4146,16 +4066,6 @@
               "label_de": "-86: uneindeutige Angabe"
             },
             {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
-            },
-            {
               "value": 1,
               "label": "1: -3 (significantly less)",
               "label_de": "1: -3 (Deutlich weniger)"
@@ -4207,16 +4117,6 @@
               "value": -86,
               "label": "-86: inconclusive specification",
               "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -4295,16 +4195,6 @@
               "label_de": "-86: uneindeutige Angabe"
             },
             {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
-            },
-            {
               "value": 1,
               "label": "1: -3 (significantly less)",
               "label_de": "1: -3 (Deutlich weniger)"
@@ -4356,16 +4246,6 @@
               "value": -86,
               "label": "-86: inconclusive specification",
               "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -4421,16 +4301,6 @@
               "label_de": "-86: uneindeutige Angabe"
             },
             {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
-            },
-            {
               "value": 1,
               "label": "1: -3 (significantly less)",
               "label_de": "1: -3 (Deutlich weniger)"
@@ -4482,16 +4352,6 @@
               "value": -86,
               "label": "-86: inconclusive specification",
               "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -4547,16 +4407,6 @@
               "label_de": "-86: uneindeutige Angabe"
             },
             {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
-            },
-            {
               "value": 1,
               "label": "1: -3 (significantly less)",
               "label_de": "1: -3 (Deutlich weniger)"
@@ -4610,16 +4460,6 @@
               "label_de": "-86: uneindeutige Angabe"
             },
             {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
-            },
-            {
               "value": 1,
               "label": "1: -3 (significantly less)",
               "label_de": "1: -3 (Deutlich weniger)"
@@ -4671,16 +4511,6 @@
               "value": -86,
               "label": "-86: inconclusive specification",
               "label_de": "-86: uneindeutige Angabe"
-            },
-            {
-              "value": -82,
-              "label": "-82: I do not work from home",
-              "label_de": "-82: Ich arbeite nicht im Homeoffice"
-            },
-            {
-              "value": -81,
-              "label": "-81: does not apply, I was not gainfully employed",
-              "label_de": "-81: Trifft nicht zu, ich war nicht erwerbstaetig."
             },
             {
               "value": 1,
@@ -5004,12 +4834,12 @@
     "cov1606": {
       "question": "cov1606",
       "name": "cov1606",
-      "label": "[ITEMBAT] What do you currently do to deal with the Corona situation? You can grade your answers from 1 Never to 7 Very often.",
+      "label": "[ITEMBAT] What do you currently do to deal with the COVID-19 situation? You can grade your answers from 1 Never to 7 Very often.",
       "label_de": "[ITEMBAT] Was machst Du aktuell, um mit der Corona-Situation umzugehen? Du kannst Deine Antworten von 1 Nie bis 7 Sehr haeufig abstufen.",
       "items": [
         {
           "item": "0",
-          "text": "[ITEMBAT] What do you currently do to deal with the Corona situation? You can grade your answers from 1 Never to 7 Very often.",
+          "text": "[ITEMBAT] What do you currently do to deal with the COVID-19 situation? You can grade your answers from 1 Never to 7 Very often.",
           "text_de": "[ITEMBAT] Was machst Du aktuell, um mit der Corona-Situation umzugehen? Du kannst Deine Antworten von 1 Nie bis 7 Sehr haeufig abstufen.",
           "description": "Source: Adapted from: Ferring, D., & Sigrun, H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. 10, 189-199.",
           "description_de": "Source: Adapted from: Ferring, D., & Sigrun, H. (1989). Bewaeltigung kritischer Lebensereignisse: Erste Erfahrungen mit einer Version der Ways of Coping Checklist. 10, 189-199.",

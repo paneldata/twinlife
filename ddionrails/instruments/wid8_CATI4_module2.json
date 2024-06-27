@@ -1,0 +1,310 @@
+{
+  "study": "twinlife",
+  "name": "wid8_CATI4_module2",
+  "label": "CATI 4: household questionnaire (CATI)",
+  "description": "This questionnaire module contains questions on: assets; housing characteristics; number of persons belonging to the household; partnership and marital status.",
+  "analysis_unit": "household",
+  "period": 8,
+  "instrument": "wid8_CATI4_module2",
+  "questions": {
+    "igf1180": {
+      "question": "igf1180",
+      "name": "igf1180",
+      "label": "How many people in total live in your household? In addition to the persons mentioned previously, please include yourself and other members of the household not mentioned previously.",
+      "label_de": "Wie viele Personen leben insgesamt in Ihrem Haushalt? Zaehlen Sie neben den eben genannten Personen bitte sich selbst und sonstige eben nicht genannte Haushaltsmitglieder mit dazu.",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many people in total live in your household? In addition to the persons mentioned previously, please include yourself and other members of the household not mentioned previously.",
+          "text_de": "Wie viele Personen leben insgesamt in Ihrem Haushalt? Zaehlen Sie neben den eben genannten Personen bitte sich selbst und sonstige eben nicht genannte Haushaltsmitglieder mit dazu.",
+          "concept": "igf1180",
+          "scale": "int",
+          "number": "1",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid8_CATI4_module2",
+      "study": "twinlife"
+    },
+    "hpc0101": {
+      "question": "hpc0101",
+      "name": "hpc0101",
+      "label": "How many of the people in this household are younger than 14? If there are no persons under the age of 14 in your household, please enter '0'.",
+      "label_de": "Wie viele der Personen in diesem Haushalt sind juenger als 14 Jahre? Sollten keine Personen unter 14 Jahren in Ihrem Haushalt sein, geben Sie bitte eine '0' an.",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many of the people in this household are younger than 14? If there are no persons under the age of 14 in your household, please enter '0'.",
+          "text_de": "Wie viele der Personen in diesem Haushalt sind juenger als 14 Jahre? Sollten keine Personen unter 14 Jahren in Ihrem Haushalt sein, geben Sie bitte eine '0' an.",
+          "concept": "hpc0101",
+          "scale": "int",
+          "number": "2",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid8_CATI4_module2",
+      "study": "twinlife"
+    },
+    "ass0100": {
+      "question": "ass0100",
+      "name": "ass0100",
+      "label": "Before we move on, one more question about your household's net worth: What do you estimate your household's net worth to be? Net worth is the value of everything that belongs to the household members minus all liabilities. Please assign your household's net worth to one of the following categories. Please think of the following asset components: real estate, vehicles, investments in businesses, financial assets, insurances, LESS debts and liabilities",
+      "label_de": "Bevor wir weitermachen, noch eine Frage zu dem Vermoegen Ihres Haushalts: Wie hoch, schaetzen Sie, ist das Reinvermoegen Ihres Haushalts? Das Reinvermoegen ist der Wert all dessen, was den Haushaltsmitgliedern gehoert abzueglich aller Verbindlichkeiten. Bitte ordnen Sie das Vermoegen Ihres Haushalts einer der folgenden Kategorien zu. Denken Sie dabei bitte an folgende Vermoegensbestandteile: Immobilien, Fahrzeuge, Beteiligungen an Unternehmen, Finanzanlagen, Versicherungen, ABZUEGLICH Schulden und Verbindlichkeiten",
+      "items": [
+        {
+          "item": "1",
+          "text": "Before we move on, one more question about your household's net worth: What do you estimate your household's net worth to be? Net worth is the value of everything that belongs to the household members minus all liabilities. Please assign your household's net worth to one of the following categories. Please think of the following asset components: real estate, vehicles, investments in businesses, financial assets, insurances, LESS debts and liabilities",
+          "text_de": "Bevor wir weitermachen, noch eine Frage zu dem Vermoegen Ihres Haushalts: Wie hoch, schaetzen Sie, ist das Reinvermoegen Ihres Haushalts? Das Reinvermoegen ist der Wert all dessen, was den Haushaltsmitgliedern gehoert abzueglich aller Verbindlichkeiten. Bitte ordnen Sie das Vermoegen Ihres Haushalts einer der folgenden Kategorien zu. Denken Sie dabei bitte an folgende Vermoegensbestandteile: Immobilien, Fahrzeuge, Beteiligungen an Unternehmen, Finanzanlagen, Versicherungen, ABZUEGLICH Schulden und Verbindlichkeiten",
+          "description": "Source: Adapted from: Deutsche Bundesbank. (2019). Codebook-3. Welle, Fragenprogramm Private Haushalte und ihre Finanzen [Question programme: Panel on Household Finances (PHF)]. [[URL link]](https://www.bundesbank.de/resource/blob/798118/1442a34fd0a8636b271478c1855d68a4/mL/phf-codebook-wave3-de-data.pdf)",
+          "description_de": "Source: Adapted from: Deutsche Bundesbank. (2019). Codebook-3. Welle, Fragenprogramm Private Haushalte und ihre Finanzen [Question programme: Panel on Household Finances (PHF)]. [[URL link]](https://www.bundesbank.de/resource/blob/798118/1442a34fd0a8636b271478c1855d68a4/mL/phf-codebook-wave3-de-data.pdf)",
+          "concept": "ass0100",
+          "number": "3",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: debts",
+              "label_de": "1: Schulden"
+            },
+            {
+              "value": 2,
+              "label": "2: no assets",
+              "label_de": "2: Kein Vermoegen"
+            },
+            {
+              "value": 3,
+              "label": "3: less than 1,000 euro",
+              "label_de": "3: weniger als 1.000 Euro"
+            },
+            {
+              "value": 4,
+              "label": "4: 1,000 up to below 5,000 euro",
+              "label_de": "4: 1.000 bis unter 5.000 Euro"
+            },
+            {
+              "value": 5,
+              "label": "5: 5,000 up to below 10,000 euro",
+              "label_de": "5: 5.000 bis unter 10.000 Euro"
+            },
+            {
+              "value": 6,
+              "label": "6: 10,000 up to below 25,000 euro",
+              "label_de": "6: 10.000 bis unter 25.000 Euro"
+            },
+            {
+              "value": 7,
+              "label": "7: 25,000 up to below 50,000 euro",
+              "label_de": "7: 25.000 bis unter 50.000 Euro"
+            },
+            {
+              "value": 8,
+              "label": "8: 50,000 up to below 75,000 euro",
+              "label_de": "8: 50.000 bis unter 75.000 Euro"
+            },
+            {
+              "value": 9,
+              "label": "9: 75,000 up to below 100,000 euro",
+              "label_de": "9: 75.000 bis unter 100.000 Euro"
+            },
+            {
+              "value": 10,
+              "label": "10: 100,000 up to below 150,000 euro",
+              "label_de": "10: 100.000 bis unter 150.000 Euro"
+            },
+            {
+              "value": 11,
+              "label": "11: 150,000 euro and more",
+              "label_de": "11: 150.000 Euro und mehr"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid8_CATI4_module2",
+      "study": "twinlife"
+    },
+    "liv0800": {
+      "question": "liv0800",
+      "name": "liv0800",
+      "label": "In what type of building do you live in?",
+      "label_de": "In welcher Art von Gebaeude wohnen Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "In what type of building do you live in?",
+          "text_de": "In welcher Art von Gebaeude wohnen Sie?",
+          "description": "Source: Adapted from: GESIS-Leibniz-Institut Fuer Sozialwissenschaften. (2013). ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012) Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Data Archive. [[URL link]](https://dbk.gesis.org/dbksearch/sdesc2.asp?no=4614&db=e&doi=10.4232/1.11753)",
+          "description_de": "Source: Adapted from: GESIS-Leibniz-Institut Fuer Sozialwissenschaften. (2013). ALLBUS/GGSS 2012 (Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften/German General Social Survey 2012) Allgemeine Bevoelkerungsumfrage der Sozialwissenschaften ALLBUS 2012. GESIS Data Archive. [[URL link]](https://dbk.gesis.org/dbksearch/sdesc2.asp?no=4614&db=e&doi=10.4232/1.11753)",
+          "concept": "liv0800",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: no interviewer at location since HH moved or not participating",
+              "label_de": "-89: Interviewer nicht vor Ort, da HH vezogen oder nicht teilnahmebereit"
+            },
+            {
+              "value": 1,
+              "label": "1: farmhouse / agricultural residence",
+              "label_de": "1: landwirtschaftliches Wohngebaeude"
+            },
+            {
+              "value": 2,
+              "label": "2: detached single-family or two-family house",
+              "label_de": "2: freistehendes Ein-/Zweifamilienhaus"
+            },
+            {
+              "value": 3,
+              "label": "3: single-family or two-family house, either row house or duplex",
+              "label_de": "3: Ein-/Zweifamilienhaus als Reihenhaus oder Doppelhaus"
+            },
+            {
+              "value": 4,
+              "label": "4: apartment house with 3 to 4 apartments",
+              "label_de": "4: Wohnhaus mit 3 bis 4 Wohnungen"
+            },
+            {
+              "value": 5,
+              "label": "5: apartment house with 5 to 8 apartments",
+              "label_de": "5: Wohnhaus mit 5 bis 8 Wohnungen"
+            },
+            {
+              "value": 6,
+              "label": "6: apartment house with 9 or more apartments (but less than 9 floors, thus no high-rise building)",
+              "label_de": "6: Wohnhaus mit 9 oder mehr Wohnungen (aber hoechstens 8 Stockwerke, also kein Hochhaus)"
+            },
+            {
+              "value": 7,
+              "label": "7: high-rise building (9 or more floors)",
+              "label_de": "7: Hochhaus (9 oder mehr Stockwerke)"
+            },
+            {
+              "value": 8,
+              "label": "8: other house / building",
+              "label_de": "8: sonstiges Haus / Gebaeude"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid8_CATI4_module2",
+      "study": "twinlife"
+    },
+    "liv0810": {
+      "question": "liv0810",
+      "name": "liv0810",
+      "label": "How large is the living space available to your household? Please enter the area in square meters without decimal places.",
+      "label_de": "Wie gross ist die Wohnflaeche, die Ihrem Haushalt zur Verfuegung steht? Bitte geben Sie die Flaeche in Quadratmetern ohne Nachkommastellen an.",
+      "items": [
+        {
+          "item": "1",
+          "text": "How large is the living space available to your household? Please enter the area in square meters without decimal places.",
+          "text_de": "Wie gross ist die Wohnflaeche, die Ihrem Haushalt zur Verfuegung steht? Bitte geben Sie die Flaeche in Quadratmetern ohne Nachkommastellen an.",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "liv0810",
+          "scale": "int",
+          "number": "5",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid8_CATI4_module2",
+      "study": "twinlife"
+    },
+    "fam0200": {
+      "question": "fam0200",
+      "name": "fam0200",
+      "label": "Are you in a serious / permanent relationship?",
+      "label_de": "Haben Sie derzeit eine feste Partnerschaft?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you in a serious / permanent relationship?",
+          "text_de": "Haben Sie derzeit eine feste Partnerschaft?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "fam0200",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid8_CATI4_module2",
+      "study": "twinlife"
+    }
+  }
+}

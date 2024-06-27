@@ -1,0 +1,2578 @@
+{
+  "study": "twinlife",
+  "name": "wid7_F2F4_module3",
+  "label": "F2F 4: employment/education (CAPI-phone)",
+  "description": "This questionnaire module contains questions on: current employment; history of education and graduation: educational degrees, vocational training, year abroad; occupational status; type of education / training; current status of education / qualification; wages, income; working time.",
+  "analysis_unit": "individual",
+  "period": 7,
+  "instrument": "wid7_F2F4_module3",
+  "questions": {
+    "edu0100": {
+      "question": "edu0100",
+      "name": "edu0100",
+      "label": "[IF age >=10 & age <=15]: Do you go to school? [IF age >= 16 & age <= 21]: Do you currently attend a general education school?",
+      "label_de": "[IF age >=10 & age <=15]: Gehst Du in die Schule? [IF age >= 16 & age <= 21]: Besuchen Sie derzeit eine allgemeinbildende Schule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age >=10 & age <=15]: Do you go to school? [IF age >= 16 & age <= 21]: Do you currently attend a general education school?",
+          "text_de": "[IF age >=10 & age <=15]: Gehst Du in die Schule? [IF age >= 16 & age <= 21]: Besuchen Sie derzeit eine allgemeinbildende Schule?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "edu0100",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no, I don't go to school yet",
+              "label_de": "1: nein, ich gehe noch nicht in die Schule"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, I go to school",
+              "label_de": "2: ja, ich gehe in die Schule"
+            },
+            {
+              "value": 3,
+              "label": "3: no, I don't go to school any more",
+              "label_de": "3: nein, ich gehe nicht mehr in die Schule"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0400": {
+      "question": "edu0400",
+      "name": "edu0400",
+      "label": "[IF age <=21] What school are you currently attending?",
+      "label_de": "[IF age >= 10 & age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age >= 16 & age <= 21]: Welche Schule besuchen Sie zurzeit?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age <=21] What school are you currently attending?",
+          "text_de": "[IF age >= 10 & age < = 15 ]: Welche Schule besuchst Du zurzeit? [IF age >= 16 & age <= 21]: Welche Schule besuchen Sie zurzeit?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "edu0400",
+          "scale": "cat",
+          "number": "2",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
+            {
+              "value": 1,
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
+            },
+            {
+              "value": 2,
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
+            },
+            {
+              "value": 3,
+              "label": "3: lower secondary school",
+              "label_de": "3: Hauptschule"
+            },
+            {
+              "value": 4,
+              "label": "4: intermediate-level secondary school",
+              "label_de": "4: Realschule"
+            },
+            {
+              "value": 5,
+              "label": "5: integrated lower and intermediate-level secondary school",
+              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: Waldorf school (Rudolf Steiner school)",
+              "label_de": "7: Waldorfschule"
+            },
+            {
+              "value": 8,
+              "label": "8: upper secondary school",
+              "label_de": "8: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 9,
+              "label": "9: school for children with special needs",
+              "label_de": "9: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 10,
+              "label": "10: other school, namely",
+              "label_de": "10: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0402": {
+      "question": "edu0402",
+      "name": "edu0402",
+      "label": "[IF age <=21] What class do you go to at this school?",
+      "label_de": "[IF age >= 10 & age < = 15]: Welche Klasse besuchst Du auf dieser Schule? [IF age >= 16 & age < = 21]: Welche Klasse besuchen Sie auf dieser Schule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age <=21] What class do you go to at this school?",
+          "text_de": "[IF age >= 10 & age < = 15]: Welche Klasse besuchst Du auf dieser Schule? [IF age >= 16 & age < = 21]: Welche Klasse besuchen Sie auf dieser Schule?",
+          "description": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
+          "description_de": "Source: Adapted from: pairfam Group. (2022). Child Codebook, Wave 4 (2011/2012), Release 13.0 (ZA5678 Data file version 13.0.0; GESIS Data Archive). [[URL link]](https://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/Codebooks/Release13.0/Child/Wave%204/Codebook%20Child_en%2C%20pairfam%20Wave%204%202011-12.pdf)",
+          "concept": "edu0402",
+          "scale": "int",
+          "number": "3",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0300": {
+      "question": "edu0300",
+      "name": "edu0300",
+      "label": "[IF age = 15 ] I would now like to ask you some questions about education and employment. Are you currently in education? That is, do you attend school, university (including doctoral studies), vocational training, or continuing education? [IF age >= 16] I would now like to ask you some questions about education and employment. Are you currently in education or training? That is, do you attend school, university (including doctoral studies), vocational training or continuing education? This includes on-the-job training or study.",
+      "label_de": "[IF age = 15 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age >= 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF age = 15 ] I would now like to ask you some questions about education and employment. Are you currently in education? That is, do you attend school, university (including doctoral studies), vocational training, or continuing education? [IF age >= 16] I would now like to ask you some questions about education and employment. Are you currently in education or training? That is, do you attend school, university (including doctoral studies), vocational training or continuing education? This includes on-the-job training or study.",
+          "text_de": "[IF age = 15 ] Ich wuerde Dir nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Bist Du derzeit in Ausbildung? Das heisst: Besuchst Du eine Schule oder Hochschule (einschliesslich Promotion), machst Du eine Berufsausbildung oder nimmst Du an einem Weiterbildungslehrgang teil? [IF age >= 16 ] Ich wuerde Ihnen nun gerne ein paar Fragen zu Ausbildung und Berufstaetigkeit stellen. Sind Sie derzeit in Ausbildung? Das heisst: Besuchen Sie eine Schule oder Hochschule (einschliesslich Promotion), machen Sie eine Berufsausbildung oder nehmen Sie an einem Weiterbildungslehrgang teil? Dies gilt auch fuer berufsbegleitende Lehr- oder Studiengaenge.",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "edu0300",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0301": {
+      "question": "edu0301",
+      "name": "edu0301",
+      "label": "What type of education or training are you pursuing?",
+      "label_de": "Was fuer eine Ausbildung oder Weiterbildung ist das genau?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of education or training are you pursuing?",
+          "text_de": "Was fuer eine Ausbildung oder Weiterbildung ist das genau?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "edu0301",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: general education",
+              "label_de": "1: Allgemeinbildende Schule"
+            },
+            {
+              "value": 2,
+              "label": "2: vocational education",
+              "label_de": "2: Berufliche Ausbildung"
+            },
+            {
+              "value": 3,
+              "label": "3: higher education",
+              "label_de": "3: Hochschule"
+            },
+            {
+              "value": 4,
+              "label": "4: further education",
+              "label_de": "4: Weiterbildung/Umschulung"
+            },
+            {
+              "value": 5,
+              "label": "5: other, please state [until CATI 1]",
+              "label_de": "5: sonstiges, bitte nennen [bis CATI 1]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0303": {
+      "question": "edu0303",
+      "name": "edu0303",
+      "label": "What type of higher education are you currently pursuing?",
+      "label_de": "Was fuer eine Hochschulausbildung ist das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of higher education are you currently pursuing?",
+          "text_de": "Was fuer eine Hochschulausbildung ist das?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "edu0303",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: university of applied sciences",
+              "label_de": "1: Fachhochschule"
+            },
+            {
+              "value": 2,
+              "label": "2: university, other higher educational institution (Bachelor or Master)",
+              "label_de": "2: Universitaet, sonstige Hochschule (Bachelor-, Master-Studiengang)"
+            },
+            {
+              "value": 3,
+              "label": "3: PhD",
+              "label_de": "3: Promotionsstudium"
+            },
+            {
+              "value": 4,
+              "label": "4: other, such as",
+              "label_de": "4: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0311": {
+      "question": "edu0311",
+      "name": "edu0311",
+      "label": "Do you and your twin study at the same university?",
+      "label_de": "[IF age >= 16 ] Studieren Sie und Ihr Zwilling an der gleichen Hochschule? [IF age <= 15 ] Studieren Du und Dein Zwilling an der gleichen Hochschule?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you and your twin study at the same university?",
+          "text_de": "[IF age >= 16 ] Studieren Sie und Ihr Zwilling an der gleichen Hochschule? [IF age <= 15 ] Studieren Du und Dein Zwilling an der gleichen Hochschule?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "edu0311",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0312": {
+      "question": "edu0312",
+      "name": "edu0312",
+      "label": "Are you and your twin studying the same subject?",
+      "label_de": "[IF age >= 16 ] Studieren Sie und Ihr Zwilling das gleiche Fach? [IF age <= 15 ] Studieren Du und Dein Zwilling das gleiche Fach?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you and your twin studying the same subject?",
+          "text_de": "[IF age >= 16 ] Studieren Sie und Ihr Zwilling das gleiche Fach? [IF age <= 15 ] Studieren Du und Dein Zwilling das gleiche Fach?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "edu0312",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0305": {
+      "question": "edu0305",
+      "name": "edu0305",
+      "label": "What type of further training/retraining are you pursuing?",
+      "label_de": "Was fuer eine Weiterbildung/Umschulung ist das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of further training/retraining are you pursuing?",
+          "text_de": "Was fuer eine Weiterbildung/Umschulung ist das?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "edu0305",
+          "scale": "cat",
+          "number": "9",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: vocational re-training",
+              "label_de": "1: Berufliche Umschulung"
+            },
+            {
+              "value": 2,
+              "label": "2: further vocational training",
+              "label_de": "2: Berufliche Fortbildung"
+            },
+            {
+              "value": 3,
+              "label": "3: vocational rehabilitation",
+              "label_de": "3: Berufliche Rehabilitation"
+            },
+            {
+              "value": 4,
+              "label": "4: general or political further education",
+              "label_de": "4: Allgemeine oder politische Weiterbildung"
+            },
+            {
+              "value": 5,
+              "label": "5: other, such as",
+              "label_de": "5: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0307": {
+      "question": "edu0307",
+      "name": "edu0307",
+      "label": "What type of vocational training are you pursuing?",
+      "label_de": "Was fuer eine berufliche Ausbildung ist das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What type of vocational training are you pursuing?",
+          "text_de": "Was fuer eine berufliche Ausbildung ist das?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "edu0307",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: year of vocational preparation which is accountable for vocational training",
+              "label_de": "1: Berufsgrundbildungsjahr"
+            },
+            {
+              "value": 2,
+              "label": "2: year of vocational preparation which is not accountable for vocational training",
+              "label_de": "2: Berufsvorbereitungsjahr"
+            },
+            {
+              "value": 3,
+              "label": "3: vocational schooling without vocational training",
+              "label_de": "3: Berufsschule ohne Lehre"
+            },
+            {
+              "value": 4,
+              "label": "4: vocational training",
+              "label_de": "4: Lehre"
+            },
+            {
+              "value": 5,
+              "label": "5: full-time vocational school, business school",
+              "label_de": "5: Berufsfachschule, Handelsschule"
+            },
+            {
+              "value": 6,
+              "label": "6: health care school",
+              "label_de": "6: Schule des Gesundheitswesens"
+            },
+            {
+              "value": 7,
+              "label": "7: professional school, technical college, e.g., master craftsman's or technician's certificate",
+              "label_de": "7: Fachschule (z. B. Meister-, Technikerschule)"
+            },
+            {
+              "value": 8,
+              "label": "8: training for civil servants",
+              "label_de": "8: Beamtenausbildung"
+            },
+            {
+              "value": 9,
+              "label": "9: other, such as",
+              "label_de": "9: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "edu0310": {
+      "question": "edu0310",
+      "name": "edu0310",
+      "label": "Do you and your twin complete the same vocational training?",
+      "label_de": "[IF age >= 16 ] Absolvieren Sie und Ihr Zwilling die gleiche berufliche Ausbildung? [IF age <= 15 ] Absolvieren Du und Dein Zwilling die gleiche berufliche Ausbildung?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you and your twin complete the same vocational training?",
+          "text_de": "[IF age >= 16 ] Absolvieren Sie und Ihr Zwilling die gleiche berufliche Ausbildung? [IF age <= 15 ] Absolvieren Du und Dein Zwilling die gleiche berufliche Ausbildung?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "edu0310",
+          "scale": "cat",
+          "number": "11",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0900": {
+      "question": "eca0900",
+      "name": "eca0900",
+      "label": "Have you received a school-leaving degree since the last interview, since <date_pq>?",
+      "label_de": "[IF age <= 15] Hast Du seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben? [IF age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Have you received a school-leaving degree since the last interview, since <date_pq>?",
+          "text_de": "[IF age <= 15] Hast Du seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben? [IF age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem << datum_pq>>, einen Schulabschluss erworben?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0900",
+          "scale": "cat",
+          "number": "12",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0901": {
+      "question": "eca0901",
+      "name": "eca0901",
+      "label": "Which school-leaving qualification have you achieved?",
+      "label_de": "[IF age <= 15] Welchen Schulabschluss hast Du erreicht? [IF age >= 16 ] Welchen Schulabschluss haben Sie erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Which school-leaving qualification have you achieved?",
+          "text_de": "[IF age <= 15] Welchen Schulabschluss hast Du erreicht? [IF age >= 16 ] Welchen Schulabschluss haben Sie erreicht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0901",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower secondary school-leaving certificate",
+              "label_de": "1: Hauptschulabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: intermediate secondary school-leaving certificate",
+              "label_de": "2: Mittlere Reife/ Realschulabschluss"
+            },
+            {
+              "value": 3,
+              "label": "3: university of applied sciences entrance diploma (leaving certificate from a technical school)",
+              "label_de": "3. Fach-Abitur (Fachhochschulreife)"
+            },
+            {
+              "value": 4,
+              "label": "4: Abitur/university entrance diploma",
+              "label_de": "4: Abitur (Hochschulreife)"
+            },
+            {
+              "value": 5,
+              "label": "5: other school-leaving certificate:",
+              "label_de": "5: Sonstiger Abschluss"
+            },
+            {
+              "value": 6,
+              "label": "6: no",
+              "label_de": "6: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0903": {
+      "question": "eca0903",
+      "name": "eca0903",
+      "label": "When did you graduate from school? Please tell me the month and year.",
+      "label_de": "[IF age >= 16] Wann haben Sie den Schulabschluss erreicht? Bitte nennen Sie mir Monat und Jahr. [IF age <= 15] Wann hast Du den Schulabschluss erreicht? Bitte nenne mir Monat und Jahr.",
+      "items": [
+        {
+          "item": "0",
+          "text": "When did you graduate from school? Please tell me the month and year.",
+          "text_de": "[IF age >= 16] Wann haben Sie den Schulabschluss erreicht? Bitte nennen Sie mir Monat und Jahr. [IF age <= 15] Wann hast Du den Schulabschluss erreicht? Bitte nenne mir Monat und Jahr.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "filter": "eca0900==1 & (inlist(ptyp,1,2,110,120,200))",
+          "concept": "eca0903",
+          "scale": "txt",
+          "number": "14",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "month",
+          "text_de": "Monat",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0903",
+          "scale": "int",
+          "number": "15",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "year",
+          "text_de": "Jahr",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0903",
+          "scale": "int",
+          "number": "16",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 2
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0906": {
+      "question": "eca0906",
+      "name": "eca0906",
+      "label": "What grade point average did you have in your diploma?",
+      "label_de": "[IF age >= 16] Welchen Notendurchschnitt hatten Sie in Ihrem Abschlusszeugnis? [IF age <= 15] Welchen Notendurchschnitt hattest Du in Deinem Abschlusszeugnis?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What grade point average did you have in your diploma?",
+          "text_de": "[IF age >= 16] Welchen Notendurchschnitt hatten Sie in Ihrem Abschlusszeugnis? [IF age <= 15] Welchen Notendurchschnitt hattest Du in Deinem Abschlusszeugnis?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0906",
+          "scale": "int",
+          "number": "17",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 14,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0100": {
+      "question": "eca0100",
+      "name": "eca0100",
+      "label": "What is your highest school-leaving qualification?",
+      "label_de": "[IF age < 16]  Welchen hoechsten Schulabschluss hast Du erreicht? [IF age > = 16 ] Welchen hoechsten Schulabschluss haben Sie erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your highest school-leaving qualification?",
+          "text_de": "[IF age < 16]  Welchen hoechsten Schulabschluss hast Du erreicht? [IF age > = 16 ] Welchen hoechsten Schulabschluss haben Sie erreicht?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "eca0100",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: I don't have a school degree yet",
+              "label_de": "-81: ich habe noch keinen Schulabschluss"
+            },
+            {
+              "value": 1,
+              "label": "1: left school without school-leaving certificate",
+              "label_de": "1: Schule ohne Abschluss verlassen"
+            },
+            {
+              "value": 2,
+              "label": "2: primary/lower secondary school-leaving certificate (GDR: grade 8)",
+              "label_de": "2: Volks-/Hauptschulabschluss (DDR: 8. Klasse)"
+            },
+            {
+              "value": 3,
+              "label": "3: intermediate secondary school-leaving certificate (GDR: grade 10)",
+              "label_de": "3: Realschulabschluss/Mittlere Reife (DDR: 10. Klasse)"
+            },
+            {
+              "value": 4,
+              "label": "4: university of applied sciences entrance diploma (leaving certificate from a technical school)",
+              "label_de": "4: Fachhochschulreife (Abschluss einer Fachoberschule)"
+            },
+            {
+              "value": 5,
+              "label": "5: Abitur/university entrance diploma",
+              "label_de": "5: Abitur/Hochschulreife"
+            },
+            {
+              "value": 6,
+              "label": "6: other school-leaving certificate",
+              "label_de": "6: sonstiger Schulabschluss"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 15,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0102": {
+      "question": "eca0102",
+      "name": "eca0102",
+      "label": "What was the last school you attended?",
+      "label_de": "[IF age <= 15] Welche Schule hast Du zuletzt besucht? [IF age >= 16] Welche Schule haben Sie zuletzt besucht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What was the last school you attended?",
+          "text_de": "[IF age <= 15] Welche Schule hast Du zuletzt besucht? [IF age >= 16] Welche Schule haben Sie zuletzt besucht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0102",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not go to school yet",
+              "label_de": "-81: geht noch nicht zur Schule"
+            },
+            {
+              "value": 1,
+              "label": "1: primary school",
+              "label_de": "1: Grundschule"
+            },
+            {
+              "value": 2,
+              "label": "2: orientation school [until F2F 2]",
+              "label_de": "2: Orientierungsschule [bis F2F 2]"
+            },
+            {
+              "value": 3,
+              "label": "3: lower secondary school",
+              "label_de": "3: Hauptschule"
+            },
+            {
+              "value": 4,
+              "label": "4: intermediate-level secondary school",
+              "label_de": "4: Realschule"
+            },
+            {
+              "value": 5,
+              "label": "5: integrated lower and intermediate-level secondary school",
+              "label_de": "5: Verb. Haupt- und Realschule (auch Sekundar-, Regel-, Mittel-, Ober-, Wirtsch.- und erw. Realschule, reg. Schule)"
+            },
+            {
+              "value": 6,
+              "label": "6: comprehensive school",
+              "label_de": "6: Gesamtschule (auch integrierte Schule)"
+            },
+            {
+              "value": 7,
+              "label": "7: Waldorf school (Rudolf Steiner school)",
+              "label_de": "7: Waldorfschule"
+            },
+            {
+              "value": 8,
+              "label": "8: upper secondary school",
+              "label_de": "8: Gymnasium (auch Kolleg)"
+            },
+            {
+              "value": 9,
+              "label": "9: school for children with special needs",
+              "label_de": "9: Sonderschule/Foerderschule"
+            },
+            {
+              "value": 10,
+              "label": "10: other school, namely",
+              "label_de": "10: andere Schule, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: Technical secondary school [from F2F 2]",
+              "label_de": "11: Fachoberschule [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 16,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0104": {
+      "question": "eca0104",
+      "name": "eca0104",
+      "label": "What year did you leave secondary school?",
+      "label_de": "[IF age <= 15] In welchem Jahr hast Du die allgemeinbildende Schule beendet? [IF age >= 16 ]In welchem Jahr haben Sie die allgemeinbildende Schule beendet?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What year did you leave secondary school?",
+          "text_de": "[IF age <= 15] In welchem Jahr hast Du die allgemeinbildende Schule beendet? [IF age >= 16 ]In welchem Jahr haben Sie die allgemeinbildende Schule beendet?",
+          "description": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0104",
+          "scale": "int",
+          "number": "20",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 17,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0105": {
+      "question": "eca0105",
+      "name": "eca0105",
+      "label": "Please specify your final grade of your highest school leaving certificate.",
+      "label_de": "[IF age <= 15] Bitte gib uns die Abschlussnote Deines hoechsten Schulabschlusses an. [IF age >= 16] Bitte geben Sie die Abschlussnote Ihres hoechsten Schulabschlusses an.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please specify your final grade of your highest school leaving certificate.",
+          "text_de": "[IF age <= 15] Bitte gib uns die Abschlussnote Deines hoechsten Schulabschlusses an. [IF age >= 16] Bitte geben Sie die Abschlussnote Ihres hoechsten Schulabschlusses an.",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0105",
+          "scale": "dec",
+          "number": "21",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 18,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0200": {
+      "question": "eca0200",
+      "name": "eca0200",
+      "label": "What is your highest vocational or academic degree?",
+      "label_de": "[IF age <= 15] Was ist Dein hoechster Ausbildungs- oder Studienabschluss? [IF age >= 16] Was ist Ihr hoechster Ausbildungs- oder Studienabschluss?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your highest vocational or academic degree?",
+          "text_de": "[IF age <= 15] Was ist Dein hoechster Ausbildungs- oder Studienabschluss? [IF age >= 16] Was ist Ihr hoechster Ausbildungs- oder Studienabschluss?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca0200",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no vocational training or higher educational certificate (yet)",
+              "label_de": "1: (noch) keinen Ausbildungs- oder Studienabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: vocational training, vocational school, commercial school",
+              "label_de": "2: Lehre, Facharbeiterabschluss, Berufsschule, Handelsschule"
+            },
+            {
+              "value": 3,
+              "label": "3: schools for healthcare",
+              "label_de": "3: Schule des Gesundheitswesens"
+            },
+            {
+              "value": 4,
+              "label": "4: professional school, technical college, e.g., master craftsman's or technician's certificate",
+              "label_de": "4: Fachschule, z.B. Meister-, Technikerabschluss"
+            },
+            {
+              "value": 5,
+              "label": "5: training for civil servants",
+              "label_de": "5: Beamtenausbildung"
+            },
+            {
+              "value": 6,
+              "label": "6: university of applied sciences [from F2F 2]",
+              "label_de": "6: Fachhochschule [ab F2F 2]"
+            },
+            {
+              "value": 7,
+              "label": "7: university of cooperative education [from F2F 2]",
+              "label_de": "7: Berufsakademie [ab F2F 2]"
+            },
+            {
+              "value": 8,
+              "label": "8: university of applied sciences, university of cooperative education [only F2F 1]",
+              "label_de": "8: Fachhochschule, Berufsakademie [nur in F2F 1]"
+            },
+            {
+              "value": 9,
+              "label": "9: university, higher educational institution",
+              "label_de": "9: Universitaet, Hochschule"
+            },
+            {
+              "value": 10,
+              "label": "10: PhD",
+              "label_de": "10: Promotion"
+            },
+            {
+              "value": 11,
+              "label": "11: other qualification",
+              "label_de": "11: sonstiger Abschluss"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 19,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0201": {
+      "question": "eca0201",
+      "name": "eca0201",
+      "label": "What year did you graduate from vocational school or university?",
+      "label_de": "[IF age <= 15] In welchem Jahr hast Du den Ausbildungs- oder Studienabschluss erreicht? [IF age >= 16] In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What year did you graduate from vocational school or university?",
+          "text_de": "[IF age <= 15] In welchem Jahr hast Du den Ausbildungs- oder Studienabschluss erreicht? [IF age >= 16] In welchem Jahr haben Sie den Ausbildungs- oder Studienabschluss erreicht?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2013). SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2012 (wave 29) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (157: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.econstor.eu/bitstream/10419/100687/1/795572875.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2013). SOEP 2012 - Erhebungsinstrumente 2012 (Welle 29) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2012 (wave 29) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (157: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.econstor.eu/bitstream/10419/100687/1/795572875.pdf)",
+          "concept": "eca0201",
+          "scale": "int",
+          "number": "23",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 20,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0220": {
+      "question": "eca0220",
+      "name": "eca0220",
+      "label": "Did you attain another educational degree in addition to this highest educational qualification?",
+      "label_de": "Liegt neben diesem hoechsten Ausbildungs- oder Studienabschluss ein weiterer Ausbildungsabschluss vor?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did you attain another educational degree in addition to this highest educational qualification?",
+          "text_de": "Liegt neben diesem hoechsten Ausbildungs- oder Studienabschluss ein weiterer Ausbildungsabschluss vor?",
+          "concept": "eca0220",
+          "scale": "cat",
+          "number": "24",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 21,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca0221": {
+      "question": "eca0221",
+      "name": "eca0221",
+      "label": "What educational qualification is that?",
+      "label_de": "Welcher Ausbildungs- oder Studienabschluss ist das?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What educational qualification is that?",
+          "text_de": "Welcher Ausbildungs- oder Studienabschluss ist das?",
+          "concept": "eca0221",
+          "scale": "cat",
+          "number": "25",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no vocational training or higher educational certificate (yet)",
+              "label_de": "1: (noch) keinen Ausbildungs- oder Studienabschluss"
+            },
+            {
+              "value": 2,
+              "label": "2: vocational training, vocational school, commercial school",
+              "label_de": "2: Lehre, Facharbeiterabschluss, Berufsschule, Handelsschule"
+            },
+            {
+              "value": 3,
+              "label": "3: schools for healthcare",
+              "label_de": "3: Schule des Gesundheitswesens"
+            },
+            {
+              "value": 4,
+              "label": "4: professional school, technical college, e.g., master craftsman's or technician's certificate",
+              "label_de": "4: Fachschule, z.B. Meister-, Technikerabschluss"
+            },
+            {
+              "value": 5,
+              "label": "5: training for civil servants",
+              "label_de": "5: Beamtenausbildung"
+            },
+            {
+              "value": 6,
+              "label": "6: university of applied sciences [from F2F 2]",
+              "label_de": "6: Fachhochschule [ab F2F 2]"
+            },
+            {
+              "value": 7,
+              "label": "7: university of cooperative education [from F2F 2]",
+              "label_de": "7: Berufsakademie [ab F2F 2]"
+            },
+            {
+              "value": 8,
+              "label": "8: university of applied sciences, university of cooperative education [only F2F 1]",
+              "label_de": "8: Fachhochschule, Berufsakademie [nur in F2F 1]"
+            },
+            {
+              "value": 9,
+              "label": "9: university, higher educational institution",
+              "label_de": "9: Universitaet, Hochschule"
+            },
+            {
+              "value": 10,
+              "label": "10: PhD",
+              "label_de": "10: Promotion"
+            },
+            {
+              "value": 11,
+              "label": "11: other qualification",
+              "label_de": "11: sonstiger Abschluss"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 22,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca1000": {
+      "question": "eca1000",
+      "name": "eca1000",
+      "label": "Since the last interview, i.e. <date_pq>, have you completed any vocational training or university studies?",
+      "label_de": "[IF age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [IF age = 15] Hast Du seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Since the last interview, i.e. <date_pq>, have you completed any vocational training or university studies?",
+          "text_de": "[IF age >= 16] Haben Sie seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen? [IF age = 15] Hast Du seit dem letzten Interview, d.h. seit dem <datum_pq>, eine Berufsausbildung oder ein Hochschulstudium abgeschlossen?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1000",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 23,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "eca1001": {
+      "question": "eca1001",
+      "name": "eca1001",
+      "label": "[MCQ] What kind of degree is it?",
+      "label_de": "[MFN] Um was fuer einen Abschluss handelt es sich?",
+      "items": [
+        {
+          "item": "0",
+          "text": "[MCQ] What kind of degree is it?",
+          "text_de": "[MFN] Um was fuer einen Abschluss handelt es sich?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "filter": "age0110>=15 & new!=1 & (inlist(ptyp,1,2,110,120,200)) & eca1000==1",
+          "concept": "eca1001",
+          "scale": "txt",
+          "number": "27",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "vocational training qualification: apprenticeship",
+          "text_de": "Beruflicher Ausbildungsabschluss: Lehre",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "vocational training qualification: vocational school, business school",
+          "text_de": "Beruflicher Ausbildungsabschluss: Berufsfachschule, Handelsschule",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "vocational training qualification: school for healthcare",
+          "text_de": "Beruflicher Ausbildungsabschluss: Schule des Gesundheitswesens",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "vocational training qualification: technical school (e.g. master craftsman, technical school)",
+          "text_de": "Beruflicher Ausbildungsabschluss: Fachschule (z.B. Meister, Technikerschule)",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "31",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "vocational training qualification: civil service training",
+          "text_de": "Beruflicher Ausbildungsabschluss: Beamtenausbildung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "32",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "vocational training qualification: occupational retraining",
+          "text_de": "Beruflicher Ausbildungsabschluss: Betriebliche Umschulung",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "33",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "higher education degree: university of applied sciences",
+          "text_de": "Hochschulabschluss: Fachhochschulabschluss",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "34",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "higher education degree: university / technical / other universities",
+          "text_de": "Hochschulabschluss: Universitaetsabschluss / Technische / sonstige Hochschule",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "higher education degree: doctoral degree / habilitation",
+          "text_de": "Hochschulabschluss: Promotion / Habilitation",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "36",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "text": "other degree",
+          "text_de": "Sonstiger Abschluss",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "37",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "12",
+          "text": "do not know",
+          "text_de": "Weiss nicht",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "38",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "13",
+          "text": "not specified",
+          "text_de": "Keine Angabe",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Jugendfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Youth Questionnaire, Age Samples] (238: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570864.de/diw_ssp0238.pdf)",
+          "concept": "eca1001",
+          "scale": "cat",
+          "number": "39",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0: not mentioned",
+              "label_de": "0: nicht genannt"
+            },
+            {
+              "value": 1,
+              "label": "1: mentioned",
+              "label_de": "1: genannt"
+            }
+          ],
+          "sn": 12
+        }
+      ],
+      "sn": 24,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0200": {
+      "question": "emp0200",
+      "name": "emp0200",
+      "label": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
+      "label_de": "[IF age <= 15 & sex=2] Bist Du zurzeit im Mutterschutz, in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age <= 15 & sex=1] Bist Du zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age <= 15 & sex=3] Bist Du zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age < 50 & age >= 16 & sex=2] Sind Sie zurzeit im Mutterschutz, in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age >= 50 & sex=2] Sind Sie zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age >= 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age >= 16 & sex=3] Sind Sie zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you currently on maternity leave (Mutterschutz) or on statutory parental leave (Elternzeit)?",
+          "text_de": "[IF age <= 15 & sex=2] Bist Du zurzeit im Mutterschutz, in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age <= 15 & sex=1] Bist Du zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age <= 15 & sex=3] Bist Du zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age < 50 & age >= 16 & sex=2] Sind Sie zurzeit im Mutterschutz, in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age >= 50 & sex=2] Sind Sie zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age >= 16 & sex=1] Sind Sie zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung? [IF age >= 16 & sex=3] Sind Sie zurzeit in der gesetzlich geregelten 'Elternzeit' oder beurlaubt wegen Kinderbetreuung?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0200",
+          "scale": "cat",
+          "number": "40",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: [for women only] yes, maternity leave",
+              "label_de": "1: [nur bei Frauen] Ja, Mutterschutz"
+            },
+            {
+              "value": 2,
+              "label": "2: parental leave (up to F2F 2)",
+              "label_de": "2: Elternzeit (bis F2F 2)"
+            },
+            {
+              "value": 3,
+              "label": "3: leave of absence/special leave for childcare",
+              "label_de": "3: Beurlaubung/Sonderurlaub wegen Kinderbetreuung"
+            },
+            {
+              "value": 4,
+              "label": "4: no",
+              "label_de": "4: nein"
+            },
+            {
+              "value": 5,
+              "label": "5: yes, parental leave with part-time employment (from F2F 3)",
+              "label_de": "5: Ja, Elternzeit mit Teilzeitbeschaeftigung (ab F2F 3)"
+            },
+            {
+              "value": 6,
+              "label": "6: yes, parental leave without part-time employment (from F2F 3)",
+              "label_de": "5: Ja, Elternzeit ohnw Teilzeitbeschaeftigung (ab F2F 3)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 25,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0300": {
+      "question": "emp0300",
+      "name": "emp0300",
+      "label": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
+      "label_de": "[IF age = 15] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age >= 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you officially registered unemployed at the Federal Employment Agency (Agentur fuer Arbeit)?",
+          "text_de": "[IF age = 15] Bist Du zurzeit beim Arbeitsamt arbeitslos gemeldet? [IF age >= 16] Sind Sie zurzeit beim Arbeitsamt arbeitslos gemeldet?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0300",
+          "scale": "cat",
+          "number": "41",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 26,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0400": {
+      "question": "emp0400",
+      "name": "emp0400",
+      "label": "[IF emp0300 != 1] Are you currently employed? What applies to you? [IF emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+      "label_de": "[IF age = 15 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age = 15 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age >= 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
+      "items": [
+        {
+          "item": "1",
+          "text": "[IF emp0300 != 1] Are you currently employed? What applies to you? [IF emp0300 = 1] Are you currently employed in addition to your unemployment claim? What applies to you? [IF emp0300 != 1 AND emp0200 = 1,3,5,6] Are you currently employed? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job. [IF emp0300 = 1 AND emp0200 = 1,3,5,6] Are you currently employed in addition to your unemployment claim? What applies to you? What applies to you? - If you are currently on maternity leave, childcare leave or parental leave (and not working), then answer the questions in reference to your last job. If you are currently on parental leave and are working at the same time, please answer the questions in reference to your current job.",
+          "text_de": "[IF age = 15 & emp0300 != 1] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 = 1] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? [IF age = 15 & emp0300 != 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age = 15 & emp0300 = 1 AND emp0200 = 1,3,5,6] Uebst Du derzeit neben Deiner Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Dich zu? - Wenn Du zur Zeit in Mutterschutz bist oder wegen Kinderbetreuung beurlaubt bist oder wegen Elternzeit nicht arbeitest, dann beantworte die Fragen zu dem Beruf, den Du zuvor ausgeuebt hast. Wenn Du zurzeit in Elternzeit bist und arbeitest, dann beantworte bitte die Fragen zu der Erwerbstaetigkeit, die Du momentan ausuebst. [IF age >= 16 & emp0300 != 1] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 = 1] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? [IF age >= 16 & emp0300 != 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben. [IF age >= 16 & emp0300 = 1 AND emp0200 = 1,3,5,6] Ueben Sie derzeit neben Ihrer Arbeitslosigkeitsmeldung eine Erwerbstaetigkeit aus? Was trifft fuer Sie zu? - Wenn Sie zur Zeit in Mutterschutz sind oder wegen Kinderbetreuung beurlaubt sind oder wegen Elternzeit nicht arbeiten, dann beantworten Sie die Fragen zu dem Beruf, den Sie zuvor ausgeuebt haben. Wenn Sie zurzeit in Elternzeit sind und arbeiten, dann beantworten Sie die Fragen zu der Erwerbstaetigkeit, die Sie momentan ausueben.",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2003 - Erhebungsinstrumente 2003 (Welle 20) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2003 (wave 20) of the Socio-Economic Panel. Individual Questionnaire] (101: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570510.de/diw_ssp0101.pdf)",
+          "concept": "emp0400",
+          "scale": "cat",
+          "number": "42",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: full-time employment",
+              "label_de": "1: voll erwerbstaetig"
+            },
+            {
+              "value": 2,
+              "label": "2: employed on a part-time basis (also with several part-time employments)",
+              "label_de": "2: in Teilzeitbeschaeftigung"
+            },
+            {
+              "value": 3,
+              "label": "3: in-company training/apprenticeship or vocational retraining",
+              "label_de": "3: in betrieblicher Ausbildung/Lehre oder betrieblicher Umschulung"
+            },
+            {
+              "value": 4,
+              "label": "4: marginally employed, Mini-jobs, One-Euro-jobs, e.g., when drawing unemployment benefit type 2",
+              "label_de": "4: geringfuegig erwerbstaetig, Mini Job, Ein-Euro-Job, z.B. bei Bezug von Arbeitslosengeld 2"
+            },
+            {
+              "value": 5,
+              "label": "5: occasionally or irregularly employed",
+              "label_de": "5: gelegentlich oder unregelmaessig beschaeftigt"
+            },
+            {
+              "value": 6,
+              "label": "6: voluntary military service",
+              "label_de": "6: freiwilliger Wehrdienst"
+            },
+            {
+              "value": 7,
+              "label": "7: voluntary social/ecological year, German federal volunteer service",
+              "label_de": "7: freiwilliges soziales/oekologisches Jahr, Bundesfreiwilligendienst"
+            },
+            {
+              "value": 8,
+              "label": "8: partial retirement with zero working hours",
+              "label_de": "8: in Altersteilzeit mit Arbeitszeit Null"
+            },
+            {
+              "value": 9,
+              "label": "9: early retirement, retirement, occupational disablity",
+              "label_de": "9: Vorruhestaendler, Rentner, erwerbsunfaehig"
+            },
+            {
+              "value": 10,
+              "label": "10: not gainfully employed",
+              "label_de": "10: nicht erwerbstaetig"
+            },
+            {
+              "value": 11,
+              "label": "11: other, such as",
+              "label_de": "11: sonstiges, und zwar"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 27,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0600": {
+      "question": "emp0600",
+      "name": "emp0600",
+      "label": "In which professional position are you currently employed? If you perform more than one occupation, please decide which one you consider to be your main occupation and answer the following questions in reference to this main occupation.",
+      "label_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit beschaeftigt? Wenn Du mehr als eine berufliche Taetigkeit ausuebst, entscheide Dich bitte, welche Taetigkeit Du als Haupttaetigkeit ansiehst und beantworte die folgenden Fragen in Bezug auf diese Haupttaetigkeit. [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
+      "items": [
+        {
+          "item": "1",
+          "text": "In which professional position are you currently employed? If you perform more than one occupation, please decide which one you consider to be your main occupation and answer the following questions in reference to this main occupation.",
+          "text_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit beschaeftigt? Wenn Du mehr als eine berufliche Taetigkeit ausuebst, entscheide Dich bitte, welche Taetigkeit Du als Haupttaetigkeit ansiehst und beantworte die folgenden Fragen in Bezug auf diese Haupttaetigkeit. [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit beschaeftigt? Wenn Sie mehr als eine berufliche Taetigkeit ausueben, entscheiden Sie bitte, welche Taetigkeit Sie als Haupttaetigkeit ansehen und beantworten Sie die folgenden Fragen in Bezug auf diese Haupttaetigkeit.",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0600",
+          "scale": "cat",
+          "number": "43",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: blue-collar worker (Arbeiter) (also in agriculture)",
+              "label_de": "1: Arbeiter/in (auch in der Landwirtschaft)"
+            },
+            {
+              "value": 2,
+              "label": "2: white-collar worker (Angestellte)",
+              "label_de": "2: Angestellte/r"
+            },
+            {
+              "value": 3,
+              "label": "3: civil servant (including judges and professional soldiers)",
+              "label_de": "3: Beamte/r (einschliesslich Richter und Berufssoldaten)"
+            },
+            {
+              "value": 4,
+              "label": "4: self-employed (including family members working for the self-employed)",
+              "label_de": "4: Selbstaendige/r (einschl. mithelfende Familienangehoerige)"
+            },
+            {
+              "value": 5,
+              "label": "5: apprentices / trainees / interns",
+              "label_de": "5: Auszubildende und Praktikanten"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 28,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0601": {
+      "question": "emp0601",
+      "name": "emp0601",
+      "label": "What is your current occupational status as a blue-collar worker?",
+      "label_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit als Arbeiter/Arbeiterin beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Arbeiter/Arbeiterin beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as a blue-collar worker?",
+          "text_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit als Arbeiter/Arbeiterin beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Arbeiter/Arbeiterin beschaeftigt?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0601",
+          "scale": "cat",
+          "number": "44",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: unskilled laborer",
+              "label_de": "1: ungelernte Arbeiter"
+            },
+            {
+              "value": 2,
+              "label": "2: semi-skilled laborer",
+              "label_de": "2: angelernte Arbeiter"
+            },
+            {
+              "value": 3,
+              "label": "3: skilled laborer",
+              "label_de": "3: gelernte und Facharbeiter"
+            },
+            {
+              "value": 4,
+              "label": "4: foreman / forewoman",
+              "label_de": "4: Vorarbeiter, Kolonnenfuehrer"
+            },
+            {
+              "value": 5,
+              "label": "5: master craftsman, technician",
+              "label_de": "5: Meister, Polier"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 29,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0602": {
+      "question": "emp0602",
+      "name": "emp0602",
+      "label": "What is your current occupational status as a self-employed person?",
+      "label_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit als Selbstaendiger/Selbstaendige beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Selbstaendiger/Selbstaendige beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as a self-employed person?",
+          "text_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit als Selbstaendiger/Selbstaendige beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Selbstaendiger/Selbstaendige beschaeftigt?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0602",
+          "scale": "cat",
+          "number": "45",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: self-employed farmer",
+              "label_de": "1: selbstaendige Landwirte"
+            },
+            {
+              "value": 2,
+              "label": "2: freelance professional, self-employed academic",
+              "label_de": "2: freie Berufe, selbstaendige Akademiker"
+            },
+            {
+              "value": 3,
+              "label": "3: other self-employed",
+              "label_de": "3: sonstige Selbstaendige"
+            },
+            {
+              "value": 4,
+              "label": "4: family workers",
+              "label_de": "4: mithelfende Familienangehoerige"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 30,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0603": {
+      "question": "emp0603",
+      "name": "emp0603",
+      "label": "Please tell me the number of your employees.",
+      "label_de": "[IF age = 15 ] Bitte benenne die Anzahl Deiner Mitarbeiter und Angestellten. [IF age >= 16 ] Bitte benennen Sie die Anzahl Ihrer Mitarbeiter und Angestellten.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Please tell me the number of your employees.",
+          "text_de": "[IF age = 15 ] Bitte benenne die Anzahl Deiner Mitarbeiter und Angestellten. [IF age >= 16 ] Bitte benennen Sie die Anzahl Ihrer Mitarbeiter und Angestellten.",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0603",
+          "scale": "cat",
+          "number": "46",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: none",
+              "label_de": "1: keine"
+            },
+            {
+              "value": 2,
+              "label": "2: 1 to 9",
+              "label_de": "2: 1 bis 9"
+            },
+            {
+              "value": 3,
+              "label": "3: 10 and more",
+              "label_de": "3: 10 und mehr"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 31,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0604": {
+      "question": "emp0604",
+      "name": "emp0604",
+      "label": "What is your current occupational status as an apprentice / trainee / intern.",
+      "label_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as an apprentice / trainee / intern.",
+          "text_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Auszubildender/Auszubildende oder Praktikant/Praktikantin beschaeftigt?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0604",
+          "scale": "cat",
+          "number": "47",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: apprentices, commercial-technical",
+              "label_de": "1: Auszubildende, gewerblich-technisch"
+            },
+            {
+              "value": 2,
+              "label": "2: apprentices, commercial",
+              "label_de": "2: Auszubildende, kaufmaennisch"
+            },
+            {
+              "value": 3,
+              "label": "3: interns",
+              "label_de": "3: Volontaere, Praktikanten und aehnliches"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 32,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0605": {
+      "question": "emp0605",
+      "name": "emp0605",
+      "label": "What is your current occupational status as a white-collar worker?",
+      "label_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du als Angestellter/Angestellte beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie als Angestellter/Angestellte beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as a white-collar worker?",
+          "text_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du als Angestellter/Angestellte beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie als Angestellter/Angestellte beschaeftigt?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0605",
+          "scale": "cat",
+          "number": "48",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: master craftsman or technician in white-collar position",
+              "label_de": "1: Industrie- und Werkmeister im Angestelltenverhaeltnis"
+            },
+            {
+              "value": 2,
+              "label": "2: unskilled employee",
+              "label_de": "2: Angestellte mit einfacher Taetigkeit ohne Ausbildungsabschluss"
+            },
+            {
+              "value": 3,
+              "label": "3: skilled employee",
+              "label_de": "3: Angestellte mit einfacher Taetigkeit mit Ausbildungsabschluss"
+            },
+            {
+              "value": 4,
+              "label": "4: employee in qualified position",
+              "label_de": "4: Angestellte mit qualifizierter Taetigkeit (z.B. Sachbearbeiter, Buchhalter oder tech. Zeichner)"
+            },
+            {
+              "value": 5,
+              "label": "5: employee in highly-qualified position",
+              "label_de": "5: Angestellte mit hochqualifizierter Taetigkeit (z.B. wiss. Mitarbeiter, Ingenieur, Abteilungsleiter)"
+            },
+            {
+              "value": 6,
+              "label": "6: employee in managerial position",
+              "label_de": "6: Angestellte mit Leitungsfunktionen (z.B. Abteilungsleiter)"
+            },
+            {
+              "value": 7,
+              "label": "7: employee with comprehensive managerial responsibilities",
+              "label_de": "7: Angestellte mit umf. Fuehrungsaufg. (z.B. Direktor, Geschaeftsfuehrer, Vorstand groesserer Betriebe/Verbaende)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 33,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0606": {
+      "question": "emp0606",
+      "name": "emp0606",
+      "label": "What kind of managerial position do you hold?",
+      "label_de": "[IF age = 15 ] In welcher Art von Fuehrungsposition bist Du? [IF age >= 16 ] In welcher Art von Fuehrungsposition sind Sie?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What kind of managerial position do you hold?",
+          "text_de": "[IF age = 15 ] In welcher Art von Fuehrungsposition bist Du? [IF age >= 16 ] In welcher Art von Fuehrungsposition sind Sie?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0606",
+          "scale": "cat",
+          "number": "49",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: top management",
+              "label_de": "1: im Topmanagement (z.B. Vorstand, Geschaeftsfuehrung, Ressortleitung)"
+            },
+            {
+              "value": 2,
+              "label": "2: middle management",
+              "label_de": "2: im Mittelmanagement (z.B. Abteilungsleitung, Regionalleitung)"
+            },
+            {
+              "value": 3,
+              "label": "3: lower management position",
+              "label_de": "3: im unteren Management (z.B. Gruppen- o. Referatsleitung, Leitung einer kleineren Filiale/eines kleinen Betriebs)"
+            },
+            {
+              "value": 4,
+              "label": "4: high-qualified specialist position (e.g., project management)",
+              "label_de": "4: in einer hochqualifizierten Fachposition (z.B. Projektleitung)"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 34,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0607": {
+      "question": "emp0607",
+      "name": "emp0607",
+      "label": "What is your current occupational status as a civil servant?",
+      "label_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit als Beamte/Beamtin beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Beamte/Beamtin beschaeftigt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "What is your current occupational status as a civil servant?",
+          "text_de": "[IF age = 15 ] In welcher beruflichen Stellung bist Du derzeit als Beamte/Beamtin beschaeftigt? [IF age >= 16 ] In welcher beruflichen Stellung sind Sie derzeit als Beamte/Beamtin beschaeftigt?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0607",
+          "scale": "cat",
+          "number": "50",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: lower civil service",
+              "label_de": "1: Einfacher Dienst"
+            },
+            {
+              "value": 2,
+              "label": "2: medium level civil service",
+              "label_de": "2: Mittlerer Dienst"
+            },
+            {
+              "value": 3,
+              "label": "3: senior civil service",
+              "label_de": "3: Gehobener Dienst"
+            },
+            {
+              "value": 4,
+              "label": "4: higher civil service",
+              "label_de": "4: Hoeherer Dienst"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 35,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0700": {
+      "question": "emp0700",
+      "name": "emp0700",
+      "label": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+      "label_de": "[IF age = 15 ] Seit wann bist Du bei Deinem jetzigen Arbeitgeber beschaeftigt? Falls Du selbstaendig bist, gebe bitte an, seit wann Du Deine jetzige Taetigkeit ausuebst. Bitte gib das Datum so genau wie moeglich an. [IF age >= 16 ] Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie selbststaendig sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
+      "items": [
+        {
+          "item": "0",
+          "text": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+          "text_de": "[IF age = 15 ] Seit wann bist Du bei Deinem jetzigen Arbeitgeber beschaeftigt? Falls Du selbstaendig bist, gebe bitte an, seit wann Du Deine jetzige Taetigkeit ausuebst. Bitte gib das Datum so genau wie moeglich an. [IF age >= 16 ] Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie selbststaendig sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (emp0400==1 | emp0400==2 | emp0400==3 | emp0400==4)",
+          "concept": "emp0700",
+          "scale": "txt",
+          "number": "51",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+          "text_de": "[IF age = 15 ] Seit wann bist Du bei Deinem jetzigen Arbeitgeber beschaeftigt? Falls Du selbstaendig bist, gebe bitte an, seit wann Du Deine jetzige Taetigkeit ausuebst. Bitte gib das Datum so genau wie moeglich an. [IF age >= 16 ] Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie selbststaendig sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0700",
+          "scale": "int",
+          "number": "52",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: only year specified",
+              "label_de": "-89: nur Jahresangabe vorhanden"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "When did you start working for your current employer? If you are self-employed, please tell when you started working in your current occupation.",
+          "text_de": "[IF age = 15 ] Seit wann bist Du bei Deinem jetzigen Arbeitgeber beschaeftigt? Falls Du selbstaendig bist, gebe bitte an, seit wann Du Deine jetzige Taetigkeit ausuebst. Bitte gib das Datum so genau wie moeglich an. [IF age >= 16 ] Seit wann sind Sie bei Ihrem jetzigen Arbeitgeber beschaeftigt? Falls Sie selbststaendig sind, geben Sie bitte an, seit wann Sie Ihre jetzige Taetigkeit ausueben. Bitte geben Sie das Datum so genau wie moeglich an.",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0700",
+          "scale": "int",
+          "number": "53",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 2
+        }
+      ],
+      "sn": 36,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0702": {
+      "question": "emp0702",
+      "name": "emp0702",
+      "label": "Do you work for a public sector employer?",
+      "label_de": "[IF age = 15 ] Gehoert der Betrieb, in dem Du arbeitest, zum oeffentlichen Dienst? [IF age >= 16 ] Gehoert der Betrieb, in dem Sie arbeiten, zum oeffentlichen Dienst?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you work for a public sector employer?",
+          "text_de": "[IF age = 15 ] Gehoert der Betrieb, in dem Du arbeitest, zum oeffentlichen Dienst? [IF age >= 16 ] Gehoert der Betrieb, in dem Sie arbeiten, zum oeffentlichen Dienst?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0702",
+          "scale": "cat",
+          "number": "54",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 37,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0703": {
+      "question": "emp0703",
+      "name": "emp0703",
+      "label": "Is this work temporary or on a contractual basis?",
+      "label_de": "Handelt es sich um ein Zeitarbeits- bzw. Leiharbeitsverhaeltnis?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Is this work temporary or on a contractual basis?",
+          "text_de": "Handelt es sich um ein Zeitarbeits- bzw. Leiharbeitsverhaeltnis?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0703",
+          "scale": "cat",
+          "number": "55",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 38,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0704": {
+      "question": "emp0704",
+      "name": "emp0704",
+      "label": "Do you have a fixed-term or permanent employment contract?",
+      "label_de": "[IF age = 15 ] Hast Du einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag? [IF age >= 16 ] Haben Sie einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you have a fixed-term or permanent employment contract?",
+          "text_de": "[IF age = 15 ] Hast Du einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag? [IF age >= 16 ] Haben Sie einen unbefristeten Arbeitsvertrag oder einen befristeten Arbeitsvertrag?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0704",
+          "scale": "cat",
+          "number": "56",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply to me",
+              "label_de": "-81: trifft auf mich nicht zu"
+            },
+            {
+              "value": 1,
+              "label": "1: permanent contract",
+              "label_de": "1: unbefristet"
+            },
+            {
+              "value": 2,
+              "label": "2: fixed-term contract",
+              "label_de": "2: befristet"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 39,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0705": {
+      "question": "emp0705",
+      "name": "emp0705",
+      "label": "How many hours per week is your contractual working time excluding overtime?",
+      "label_de": "[IF age = 15 ] Wie viele Wochenstunden betraegt Deine vereinbarte Arbeitszeit ohne Ueberstunden? [IF age >= 16 ] Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden?",
+      "items": [
+        {
+          "item": "1",
+          "text": "How many hours per week is your contractual working time excluding overtime?",
+          "text_de": "[IF age = 15 ] Wie viele Wochenstunden betraegt Deine vereinbarte Arbeitszeit ohne Ueberstunden? [IF age >= 16 ] Wie viele Wochenstunden betraegt Ihre vereinbarte Arbeitszeit ohne Ueberstunden?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0705",
+          "scale": "dec",
+          "number": "57",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: only year specified",
+              "label_de": "-89: nur Jahresangabe vorhanden"
+            },
+            {
+              "value": -81,
+              "label": "-81: no contractually defined working hours",
+              "label_de": "-81: keine festgelegte Arbeitszeit"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 40,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0706": {
+      "question": "emp0706",
+      "name": "emp0706",
+      "label": "And how many hours do you generally work per week, including any overtime?",
+      "label_de": "[IF age = 15 ] Und wie viel betraegt im Durchschnitt Deine tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden? [IF age >= 16 ] Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
+      "items": [
+        {
+          "item": "1",
+          "text": "And how many hours do you generally work per week, including any overtime?",
+          "text_de": "[IF age = 15 ] Und wie viel betraegt im Durchschnitt Deine tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden? [IF age >= 16 ] Und wie viel betraegt im Durchschnitt Ihre tatsaechliche Arbeitszeit pro Woche einschliesslich eventueller Ueberstunden?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0706",
+          "scale": "dec",
+          "number": "58",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 41,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "emp0708": {
+      "question": "emp0708",
+      "name": "emp0708",
+      "label": "Is it considered marginal employment in accordance with the 450/850 euro rule (mini-/midi-job)?",
+      "label_de": "Ist das eine geringfuegige Beschaeftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Is it considered marginal employment in accordance with the 450/850 euro rule (mini-/midi-job)?",
+          "text_de": "Ist das eine geringfuegige Beschaeftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?",
+          "description": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "description_de": "TNS Infratest SozialforschungTNS Infratest Sozialforschung. (2014). SOEP 2014 - Erhebungsinstrumente 2014 (Welle 31) des Sozio-oekonomischen Panels: Personenfragebogen, Altstichproben. [Survey instruments 2014 (wave 31) of the Socio-Economic Panel: Individual Questionnaire, Age Samples] (235: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](http://panel.gsoep.de/soep-docs/surveypapers/diw_ssp0235.pdf)",
+          "concept": "emp0708",
+          "scale": "cat",
+          "number": "59",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes, Mini-job (up to 450 Euro)",
+              "label_de": "1: ja, Mini-Job (bis 450 Euro)"
+            },
+            {
+              "value": 2,
+              "label": "2: yes, Midi-job (451 till 850 Euro)",
+              "label_de": "2: ja, Midi-Job (451 bis 850 Euro)"
+            },
+            {
+              "value": 3,
+              "label": "3: no",
+              "label_de": "3: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 42,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    },
+    "inc0103": {
+      "question": "inc0103",
+      "name": "inc0103",
+      "label": "If you can't or do not wish to give an amount, then please indicate in which income group your monthly gross income can be classified.",
+      "label_de": "[IF age >= 16] Wenn Sie einen exakten Betrag nicht nennen koennen oder wollen, dann geben Sie bitte an, in welche Einkommenskategorie Ihr durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann. [IF age = 15] Wenn Du einen exakten Betrag nicht nennen kannst oder willst, dann gib bitte an, in welche Einkommenskategorie Dein durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann.",
+      "items": [
+        {
+          "item": "1",
+          "text": "If you can't or do not wish to give an amount, then please indicate in which income group your monthly gross income can be classified.",
+          "text_de": "[IF age >= 16] Wenn Sie einen exakten Betrag nicht nennen koennen oder wollen, dann geben Sie bitte an, in welche Einkommenskategorie Ihr durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann. [IF age = 15] Wenn Du einen exakten Betrag nicht nennen kannst oder willst, dann gib bitte an, in welche Einkommenskategorie Dein durchschnittliches monatliches Bruttoeinkommen eingeordnet werden kann.",
+          "description": "TNS Infratest Sozialforschung. (2011). SOEP 2005 - Pretestbericht zum Befragungsjahr 2005 (Welle 22) des Sozio-oekonomischen Panels - Mutter und Kind 2 [SOEP 2005 (wave 22) Pretest Mother and child 2] (54: Series B; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570364.de/diw_ssp0054.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2011). SOEP 2005 - Pretestbericht zum Befragungsjahr 2005 (Welle 22) des Sozio-oekonomischen Panels - Mutter und Kind 2 [SOEP 2005 (wave 22) Pretest Mother and child 2] (54: Series B; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570364.de/diw_ssp0054.pdf)",
+          "concept": "inc0103",
+          "scale": "cat",
+          "number": "60",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: below 500 Euro",
+              "label_de": "1: unter 500 Euro"
+            },
+            {
+              "value": 2,
+              "label": "2: 500 up to below 1,000 Euro",
+              "label_de": "2: 500 bis unter 1.000 Euro"
+            },
+            {
+              "value": 3,
+              "label": "3: 1,000 up to below 1,500 Euro",
+              "label_de": "3: 1.000 bis unter 1.500 Euro"
+            },
+            {
+              "value": 4,
+              "label": "4: 1,500 up to below 2,000 Euro",
+              "label_de": "4: 1.500 bis unter 2.000 Euro"
+            },
+            {
+              "value": 5,
+              "label": "5: 2,000 up to below 2,500 Euro",
+              "label_de": "5: 2.000 bis unter 2.500 Euro"
+            },
+            {
+              "value": 6,
+              "label": "6: 2,500 up to below 3,000 Euro",
+              "label_de": "6: 2.500 bis unter 3.000 Euro"
+            },
+            {
+              "value": 7,
+              "label": "7: 3,000 up to below 4,000 Euro",
+              "label_de": "7: 3.000 bis unter 4.000 Euro"
+            },
+            {
+              "value": 8,
+              "label": "8: 4,000 up to below 5,000 Euro",
+              "label_de": "8: 4.000 bis unter 5.000 Euro"
+            },
+            {
+              "value": 9,
+              "label": "9: 5,000 up to below 6,000 Euro",
+              "label_de": "9: 5.000 bis unter 6.000 Euro"
+            },
+            {
+              "value": 10,
+              "label": "10: 6,000 up to below 7,000 Euro",
+              "label_de": "10: 6.000 bis unter 7.000 Euro"
+            },
+            {
+              "value": 11,
+              "label": "11: 7,000 up to below 8,000 Euro",
+              "label_de": "11: 7.000 bis unter 8.000 Euro"
+            },
+            {
+              "value": 12,
+              "label": "12: 8,000 up to below 10,000 Euro",
+              "label_de": "12: 8.000 bis unter 10.000 Euro"
+            },
+            {
+              "value": 13,
+              "label": "13: 10,000 up to below 20,000 Euro",
+              "label_de": "13: 10.000 bis unter 20.000 Euro"
+            },
+            {
+              "value": 14,
+              "label": "14: 20,000 Euro and above",
+              "label_de": "14: 20.000 Euro und mehr"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 43,
+      "instrument": "wid7_F2F4_module3",
+      "study": "twinlife"
+    }
+  }
+}

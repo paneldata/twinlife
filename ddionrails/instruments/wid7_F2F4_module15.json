@@ -1,0 +1,3112 @@
+{
+  "study": "twinlife",
+  "name": "wid7_F2F4_module15",
+  "label": "F2F 4: personality, political participation (CAWI)",
+  "description": "This questionnaire module contains questions on: global life satisfaction; patience; personality measures (BIG5); political activity, political interest, party identification; risk aversion; self-regulation: consistency of interest, self-control; smartphone-use; stress regulation and coping.",
+  "analysis_unit": "individual",
+  "period": 7,
+  "instrument": "wid7_F2F4_module15",
+  "questions": {
+    "pop0100": {
+      "question": "pop0100",
+      "name": "pop0100",
+      "label": "Generally speaking, how interested are you in politics?",
+      "label_de": "[IF age >= 10 AND age <= 15] Einmal ganz allgemein gesprochen, wie stark interessierst Du Dich fuer Politik? [IF age >= 16] Einmal ganz allgemein gesprochen, wie stark interessieren Sie sich fuer Politik?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Generally speaking, how interested are you in politics?",
+          "text_de": "[IF age >= 10 AND age <= 15] Einmal ganz allgemein gesprochen, wie stark interessierst Du Dich fuer Politik? [IF age >= 16] Einmal ganz allgemein gesprochen, wie stark interessieren Sie sich fuer Politik?",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "pop0100",
+          "scale": "cat",
+          "number": "1",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: ueberhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2: not strongly",
+              "label_de": "2: nicht so stark"
+            },
+            {
+              "value": 3,
+              "label": "3: strongly",
+              "label_de": "3: stark"
+            },
+            {
+              "value": 4,
+              "label": "4: very strongly",
+              "label_de": "4: sehr stark"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 0,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "pop0200": {
+      "question": "pop0200",
+      "name": "pop0200",
+      "label": "Which of the following activities did you take part in within the last 12 months?",
+      "label_de": "[IF age >= 10 AND age <= 15] Welche der folgenden Aktivitaeten hast Du in den letzten 12 Monaten ausgeuebt? [IF age >= 16] Welche der folgenden Aktivitaeten haben Sie in den letzten 12 Monaten ausgeuebt? [END NCS]",
+      "items": [
+        {
+          "item": "0",
+          "text": "Which of the following activities did you take part in within the last 12 months?",
+          "text_de": "[IF age >= 10 AND age <= 15] Welche der folgenden Aktivitaeten hast Du in den letzten 12 Monaten ausgeuebt? [IF age >= 16] Welche der folgenden Aktivitaeten haben Sie in den letzten 12 Monaten ausgeuebt? [END NCS]",
+          "description": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
+          "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=10",
+          "concept": "pop0200",
+          "scale": "txt",
+          "number": "2",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "taken part in a political meeting/a discussion event/a demonstration",
+          "text_de": "An einer politischen Versammlung/Diskussionsveranstaltung/Demonstration teilgenommen",
+          "description": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
+          "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
+          "concept": "pop0200",
+          "scale": "cat",
+          "number": "3",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "taken part in an online-petition/a signature collection",
+          "text_de": "An einer Unterschriftensammlung teilgenommen / eine Onlinepetition unterstuetzt",
+          "description": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
+          "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
+          "concept": "pop0200",
+          "scale": "cat",
+          "number": "4",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "boycotted a company or products for political or ethical reasons or on environmental grounds, e.g. did not buy products or avoided them",
+          "text_de": "Aus politischen, ethischen oder Umweltgruenden Unternehmen oder Waren boykottiert, d.h. zum Beispiel nicht gekauft oder gemieden",
+          "description": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
+          "description_de": "Bien, W., Rauschenbach, T., & Walper, S. (2012). Aufwachsen in Deutschland. AID: A - Der neue DJI-Survey (pp. 7-27). Beltz Juventa. [[URL link]](https://www.researchgate.net/profile/Thomas-Rauschenbach-2/publication/303498360_Aufwachsen_in_Deutschland_Eine_Einfuhrung/links/6034c06a299bf1cc26e4a567/Aufwachsen-in-Deutschland-Eine-Einfuehrung.pdf)",
+          "concept": "pop0200",
+          "scale": "cat",
+          "number": "5",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 3
+        }
+      ],
+      "sn": 1,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "pop0300": {
+      "question": "pop0300",
+      "name": "pop0300",
+      "label": "Did you vote in the last election of the federal parliament?",
+      "label_de": "Haben Sie bei der letzten Bundestagswahl gewaehlt?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Did you vote in the last election of the federal parliament?",
+          "text_de": "Haben Sie bei der letzten Bundestagswahl gewaehlt?",
+          "description": "Source: Adapted from: Harris, K. M., & National Longitudinal Study of Adolescent Health. (2009). Waves I & II, 1994-1996; Wave III, 2001-2002; Wave IV, 2007-2009 [machine-readable data file and documentation] (p. 10). Carolina Population Center, University of North Carolina at Chapel Hill. [[URL link]](DOI: 10.3886/ICPSR27021.v9)",
+          "description_de": "Source: Adapted from: Harris, K. M., & National Longitudinal Study of Adolescent Health. (2009). Waves I & II, 1994-1996; Wave III, 2001-2002; Wave IV, 2007-2009 [machine-readable data file and documentation] (p. 10). Carolina Population Center, University of North Carolina at Chapel Hill. [[URL link]](DOI: 10.3886/ICPSR27021.v9)",
+          "concept": "pop0300",
+          "scale": "cat",
+          "number": "6",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            },
+            {
+              "value": 3,
+              "label": "3: no, I wasn't entitled to vote (yet)",
+              "label_de": "3: nein, ich war (noch) nicht wahlberechtigt"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 2,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "pop0301": {
+      "question": "pop0301",
+      "name": "pop0301",
+      "label": "If there were an election for federal parliament next Sunday, would you vote? If you are not eligible to vote, please indicate what you would do if you were eligible to vote.",
+      "label_de": "[IF age >= 10 AND age <= 15] Mal angenommen, Du waerst wahlberechtigt: Wenn am naechsten Sonntag Bundestagswahl waere, wuerdest Du an der Wahl teilnehmen? [IF age >= 16] Wenn am naechsten Sonntag Bundestagswahl waere, wuerden Sie an der Wahl teilnehmen? Wenn Sie nicht wahlberechtigt sind, geben Sie bitte an, was Sie tun wuerden, wenn Sie wahlberechtigt waeren.",
+      "items": [
+        {
+          "item": "1",
+          "text": "If there were an election for federal parliament next Sunday, would you vote? If you are not eligible to vote, please indicate what you would do if you were eligible to vote.",
+          "text_de": "[IF age >= 10 AND age <= 15] Mal angenommen, Du waerst wahlberechtigt: Wenn am naechsten Sonntag Bundestagswahl waere, wuerdest Du an der Wahl teilnehmen? [IF age >= 16] Wenn am naechsten Sonntag Bundestagswahl waere, wuerden Sie an der Wahl teilnehmen? Wenn Sie nicht wahlberechtigt sind, geben Sie bitte an, was Sie tun wuerden, wenn Sie wahlberechtigt waeren.",
+          "description": "Sonntagsfrage-Opinion poll question asking who people would vote for if an election were to be held next Sunday. [[URL link]](http://www.wahlrecht.de/umfragen/)",
+          "description_de": "Sonntagsfrage-Opinion poll question asking who people would vote for if an election were to be held next Sunday. [[URL link]](http://www.wahlrecht.de/umfragen/)",
+          "concept": "pop0301",
+          "scale": "cat",
+          "number": "7",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 3,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "pop0302": {
+      "question": "pop0302",
+      "name": "pop0302",
+      "label": "Do you usually think of yourself as close to any particular party? Which party do you feel closest to?",
+      "label_de": "[IF age >= 10 AND age <= 15] Neigst Du einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigst Du am ehesten zu? [IF age >= 16] Neigen Sie einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigen Sie am ehesten zu?",
+      "items": [
+        {
+          "item": "1",
+          "text": "Do you usually think of yourself as close to any particular party? Which party do you feel closest to?",
+          "text_de": "[IF age >= 10 AND age <= 15] Neigst Du einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigst Du am ehesten zu? [IF age >= 16] Neigen Sie einer bestimmten politischen Partei zu? Wenn ja, welcher Partei neigen Sie am ehesten zu?",
+          "description": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "description_de": "Source: Adapted from: TNS Infratest Sozialforschung. (2012). SOEP 2011 - Erhebungsinstrumente 2011 (Welle 28) des Sozio-oekonomischen Panels [Survey instruments 2011 (wave 28) of the Socio-Economic Panel]. Individual Questionnaire (77: Series A; SOEP Survey Papers, pp. 47-83). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570376.de/diw_ssp0077.pdf)",
+          "concept": "pop0302",
+          "scale": "cat",
+          "number": "8",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: no, I don't lean towards a party",
+              "label_de": "1: nein, ich neige keiner Partei zu"
+            },
+            {
+              "value": 2,
+              "label": "2: SPD",
+              "label_de": "2: SPD"
+            },
+            {
+              "value": 3,
+              "label": "3: CDU/CSU [only F2F 1]",
+              "label_de": "3: CDU/CSU [nur in F2F 1]"
+            },
+            {
+              "value": 4,
+              "label": "4: FDP",
+              "label_de": "4: FDP"
+            },
+            {
+              "value": 5,
+              "label": "5: Buendnis 90/Die Gruenen",
+              "label_de": "5: Buendnis 90/Die Gruenen"
+            },
+            {
+              "value": 6,
+              "label": "6: Die Linke",
+              "label_de": "6: Die Linke"
+            },
+            {
+              "value": 7,
+              "label": "7: NPD/Republikaner",
+              "label_de": "7: NPD/Republikaner"
+            },
+            {
+              "value": 8,
+              "label": "8: Piratenpartei",
+              "label_de": "8: Piratenpartei"
+            },
+            {
+              "value": 9,
+              "label": "9: AfD (Alternative fuer Deutschland)",
+              "label_de": "9: AfD (Alternative fuer Deutschland)"
+            },
+            {
+              "value": 10,
+              "label": "10: another, namely",
+              "label_de": "10: andere, und zwar"
+            },
+            {
+              "value": 11,
+              "label": "11: CDU [from F2F 2]",
+              "label_de": "11: CDU [ab F2F 2]"
+            },
+            {
+              "value": 12,
+              "label": "12: CSU [from F2F 2]",
+              "label_de": "12: CSU [ab F2F 2]"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 4,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "med1100": {
+      "question": "med1100",
+      "name": "med1100",
+      "label": "Do you own a smartphone?",
+      "label_de": "[IF age <=15] Besitzt Du ein Smartphone? [If age >= 16] Besitzen Sie ein Smartphone?",
+      "items": [
+        {
+          "item": "0",
+          "text": "Do you own a smartphone?",
+          "text_de": "[IF age <=15] Besitzt Du ein Smartphone? [If age >= 16] Besitzen Sie ein Smartphone?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=10",
+          "concept": "med1100",
+          "scale": "txt",
+          "number": "9",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "Do you own a smartphone?",
+          "text_de": "[IF age <=15] Besitzt Du ein Smartphone? [If age >= 16] Besitzen Sie ein Smartphone?",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "med1100",
+          "scale": "cat",
+          "number": "10",
+          "answers": [
+            {
+              "value": -89,
+              "label": "-89: illegible",
+              "label_de": "-89: nicht erkennbar/lesbar"
+            },
+            {
+              "value": -86,
+              "label": "-86: inconclusive specification",
+              "label_de": "-86: uneindeutige Angabe"
+            },
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": -84,
+              "label": "-84: unassignable",
+              "label_de": "-84: nicht zuzuordnen"
+            },
+            {
+              "value": 1,
+              "label": "1: yes",
+              "label_de": "1: ja"
+            },
+            {
+              "value": 2,
+              "label": "2: no",
+              "label_de": "2: nein"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "yes, since the age of [...]",
+          "text_de": "Ja, und zwar seit meinem [...] Lebensjahr",
+          "description": "Item developed for TwinLife.",
+          "description_de": "Item developed for TwinLife.",
+          "concept": "med1100",
+          "scale": "int",
+          "number": "11",
+          "answers": [
+            {
+              "value": -86,
+              "label": "-86: not available/empty/not codable",
+              "label_de": "-86: nicht vorhanden/leer/nicht kodierbar"
+            },
+            {
+              "value": -85,
+              "label": "-85: unknown",
+              "label_de": "-85: unbekannt"
+            }
+          ],
+          "sn": 2
+        }
+      ],
+      "sn": 5,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "per0100": {
+      "question": "per0100",
+      "name": "per0100",
+      "label": "Here are various traits that a person can have. Some traits may fully apply to you personally, while others may not apply at all. You may be undecided about some. Please respond using the following scale. A value of 1 means: does not apply at all. A value of 7 means: applies fully. You can use values between 1 and 7 to indicate your opinion. I am someone who...",
+      "label_de": "[IF age >= 16] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persoenlich voll zutreffen und andere ueberhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden. Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft ueberhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 koennen Sie Ihre Meinung abstufen. Ich bin jemand, der... [IF age <= 15] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Dich persoenlich voll zutreffen und andere ueberhaupt nicht. Bei anderen Eigenschaften bist Du vielleicht unentschieden. Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft ueberhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 kannst Du Deine Meinung abstufen. Ich bin jemand, der... [END NCS]",
+      "items": [
+        {
+          "item": "0",
+          "text": "Here are various traits that a person can have. Some traits may fully apply to you personally, while others may not apply at all. You may be undecided about some. Please respond using the following scale. A value of 1 means: does not apply at all. A value of 7 means: applies fully. You can use values between 1 and 7 to indicate your opinion. I am someone who...",
+          "text_de": "[IF age >= 16] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persoenlich voll zutreffen und andere ueberhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden. Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft ueberhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 koennen Sie Ihre Meinung abstufen. Ich bin jemand, der... [IF age <= 15] Hier sind unterschiedliche Eigenschaften, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Dich persoenlich voll zutreffen und andere ueberhaupt nicht. Bei anderen Eigenschaften bist Du vielleicht unentschieden. Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft ueberhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 kannst Du Deine Meinung abstufen. Ich bin jemand, der... [END NCS]",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "filter": "age0110>=10",
+          "concept": "per0100",
+          "scale": "txt",
+          "number": "12",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": ". . . does a thorough job.",
+          "text_de": "gruendlich arbeitet.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "13",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": ". . . is communicative and talkative; that is, I enjoy talking to people and talk a lot.",
+          "text_de": "kommunikativ, gespraechig ist; das heisst, ich rede oft und gerne mit anderen Personen.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "14",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": ". . . is sometimes somewhat rude to others.",
+          "text_de": "manchmal etwas grob zu anderen ist.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "15",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": ". . . is original, comes up with new ideas.",
+          "text_de": "originell ist, neue Ideen einbringt.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "16",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": ". . . worries a lot.",
+          "text_de": "sich oft Sorgen macht.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "17",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": ". . . has a forgiving nature; that is, I quickly accept apologies.",
+          "text_de": "verzeihen kann; das heisst, ich nehme Entschuldigungen schnell an.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "18",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": ". . . tends to be lazy.",
+          "text_de": "eher faul ist.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "19",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": ". . . is outgoing, sociable.",
+          "text_de": "aus sich herausgehen kann, gesellig ist.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "20",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": ". . . values artistic, aesthetic experiences; that is, I like to paint or make music, I like going to the theatre or to a museum.",
+          "text_de": "kuenstlerische Erfahrungen schaetzt; das heisst, ich male gerne oder mache Musik, gehe gerne ins Theater oder ins Museum.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "21",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 9
+        },
+        {
+          "item": "10",
+          "text": ". . . gets nervous easily.",
+          "text_de": "leicht nervoes wird.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "22",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 10
+        },
+        {
+          "item": "11",
+          "text": ". . . does everything efficiently.",
+          "text_de": "Aufgaben wirksam und effizient erledigt.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "23",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 11
+        },
+        {
+          "item": "12",
+          "text": ". . . is reserved, quiet.",
+          "text_de": "zurueckhaltend ist.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "24",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 12
+        },
+        {
+          "item": "13",
+          "text": ". . . is considerate and kind to almost everyone.",
+          "text_de": "ruecksichtsvoll und freundlich mit anderen umgeht.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "25",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 13
+        },
+        {
+          "item": "14",
+          "text": ". . . has an active imagination; that is, I can easily visualize things and like to dream.",
+          "text_de": "eine lebhafte Phantasie/Vorstellung hat; das heisst, ich kann mir gut Dinge vorstellen und traeume gern.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "26",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 14
+        },
+        {
+          "item": "15",
+          "text": ". . . is relaxed, handles stress well.",
+          "text_de": "entspannt ist, mit Stress gut umgehen kann.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "27",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 15
+        },
+        {
+          "item": "16",
+          "text": ". . . is eager for knowledge, that is, I am curious and interested in experiencing and learning things.",
+          "text_de": "wissbegierig ist; das heisst, ich bin neugierig und interessiert daran, Dinge zu erfahren und zu lernen.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "28",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 16
+        },
+        {
+          "item": "17",
+          "text": ". . . likes to have fun and doesn't worry about tomorrow.",
+          "text_de": "lieber heute seinen Spass hat und nicht an morgen denkt.",
+          "description": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "description_de": "Gerlitz, J. Y., & Schupp, J. (2005). Zur Erhebung der Big-Five-basierten Persoenlichkeitsmerkmale im SOEP: Dokumentation der Instrumententwicklung BFI-S auf Basis des SOEP-Pretests 2005. Research Notes, 4. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.43490.de/rn4.pdf)",
+          "concept": "per0100",
+          "scale": "cat",
+          "number": "29",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply to me at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7: applies to me perfectly",
+              "label_de": "7: trifft voll zu"
+            }
+          ],
+          "sn": 17
+        }
+      ],
+      "sn": 6,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "per0200": {
+      "question": "per0200",
+      "name": "per0200",
+      "label": "How do you assess yourself? Are you generally a risk-taker or do you try to avoid risks? In other words, do you often do things that may go wrong, or do you tend to play it safe? Please choose a point on the scale. A value of 1 means 'Not at all willing to take risks,' and a value of 11 means 'Very willing to take risks.' You can use values in between to indicate your assessment.",
+      "label_de": "[IF age <= 15]  Wie schaetzt Du Dich ein? Bist Du im Allgemeinen ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? Das heisst, unternimmst Du haeufig Dinge, die moeglicherweise schiefgehen koennen oder versuchst Du, eher auf Nummer sicher zu gehen? Der Wert 1 bedeutet Gar nicht risikobereit, der Wert 11 bedeutet: Sehr risikobereit. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen. [IF age >= 16]  Wie schaetzen Sie sich ein? Sind Sie im Allgemeinen ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden? Das heisst, unternehmen Sie haeufig Dinge, die moeglicherweise schiefgehen koennen oder versuchen Sie, eher auf Nummer sicher zu gehen? Bitte  waehlen Sie einen Punkt auf der Skala an. Der Wert 1 bedeutet Gar nicht risikobereit, der Wert 11 bedeutet: Sehr risikobereit. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen.",
+      "items": [
+        {
+          "item": "1",
+          "text": "How do you assess yourself? Are you generally a risk-taker or do you try to avoid risks? In other words, do you often do things that may go wrong, or do you tend to play it safe? Please choose a point on the scale. A value of 1 means 'Not at all willing to take risks,' and a value of 11 means 'Very willing to take risks.' You can use values in between to indicate your assessment.",
+          "text_de": "[IF age <= 15]  Wie schaetzt Du Dich ein? Bist Du im Allgemeinen ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? Das heisst, unternimmst Du haeufig Dinge, die moeglicherweise schiefgehen koennen oder versuchst Du, eher auf Nummer sicher zu gehen? Der Wert 1 bedeutet Gar nicht risikobereit, der Wert 11 bedeutet: Sehr risikobereit. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen. [IF age >= 16]  Wie schaetzen Sie sich ein? Sind Sie im Allgemeinen ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden? Das heisst, unternehmen Sie haeufig Dinge, die moeglicherweise schiefgehen koennen oder versuchen Sie, eher auf Nummer sicher zu gehen? Bitte  waehlen Sie einen Punkt auf der Skala an. Der Wert 1 bedeutet Gar nicht risikobereit, der Wert 11 bedeutet: Sehr risikobereit. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen.",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2008 - Erhebungsinstrumente 2008 (Welle 25) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2008 (wave 25) of the Socio-Economic Panel. Individual Questionnaire] (109: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570630.de/diw_ssp0109.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2008 - Erhebungsinstrumente 2008 (Welle 25) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2008 (wave 25) of the Socio-Economic Panel. Individual Questionnaire] (109: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570630.de/diw_ssp0109.pdf)",
+          "concept": "per0200",
+          "scale": "cat",
+          "number": "30",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 0,
+              "label": "0: not at all prepared to take risks",
+              "label_de": "0: gar nicht risikobereit"
+            },
+            {
+              "value": 1,
+              "label": "1",
+              "label_de": "1"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7",
+              "label_de": "7"
+            },
+            {
+              "value": 8,
+              "label": "8",
+              "label_de": "8"
+            },
+            {
+              "value": 9,
+              "label": "9",
+              "label_de": "9"
+            },
+            {
+              "value": 10,
+              "label": "10: very prepared to take risks",
+              "label_de": "10: sehr risikobereit"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 7,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "per0300": {
+      "question": "per0300",
+      "name": "per0300",
+      "label": "Are you generally a person who is impatient or someone who always has a lot of patience? A value of 1 means 'Very impatient,' and a value of 11 means 'Very patient.' You can use values in between to indicate your assessment.",
+      "label_de": "[IF age <= 15] Bist Du im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt? Der Wert 1 bedeutet Sehr ungeduldig, der Wert 11 bedeutet Sehr geduldig. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen. [IF age >= 16] Sind Sie im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt? Der Wert 1 bedeutet Sehr ungeduldig, der Wert 11 bedeutet Sehr geduldig. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen.",
+      "items": [
+        {
+          "item": "1",
+          "text": "Are you generally a person who is impatient or someone who always has a lot of patience? A value of 1 means 'Very impatient,' and a value of 11 means 'Very patient.' You can use values in between to indicate your assessment.",
+          "text_de": "[IF age <= 15] Bist Du im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt? Der Wert 1 bedeutet Sehr ungeduldig, der Wert 11 bedeutet Sehr geduldig. Mit den Werten dazwischen kannst Du Deine Einschaetzung abstufen. [IF age >= 16] Sind Sie im Allgemeinen ein Mensch, der ungeduldig ist oder der immer sehr viel Geduld aufbringt? Der Wert 1 bedeutet Sehr ungeduldig, der Wert 11 bedeutet Sehr geduldig. Mit den Werten dazwischen koennen Sie Ihre Einschaetzung abstufen.",
+          "description": "TNS Infratest Sozialforschung. (2012). SOEP 2008 - Erhebungsinstrumente 2008 (Welle 25) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2008 (wave 25) of the Socio-Economic Panel. Individual Questionnaire] (109: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570630.de/diw_ssp0109.pdf)",
+          "description_de": "TNS Infratest Sozialforschung. (2012). SOEP 2008 - Erhebungsinstrumente 2008 (Welle 25) des Sozio-oekonomischen Panels. Personenfragebogen fuer alle [Survey instruments 2008 (wave 25) of the Socio-Economic Panel. Individual Questionnaire] (109: Series A; SOEP Survey Papers). DIW/SOEP. [[URL link]](https://www.diw.de/documents/publikationen/73/diw_01.c.570630.de/diw_ssp0109.pdf)",
+          "concept": "per0300",
+          "scale": "cat",
+          "number": "31",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 0,
+              "label": "0: very impatient",
+              "label_de": "0: sehr ungeduldig"
+            },
+            {
+              "value": 1,
+              "label": "1",
+              "label_de": "1"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5",
+              "label_de": "5"
+            },
+            {
+              "value": 6,
+              "label": "6",
+              "label_de": "6"
+            },
+            {
+              "value": 7,
+              "label": "7",
+              "label_de": "7"
+            },
+            {
+              "value": 8,
+              "label": "8",
+              "label_de": "8"
+            },
+            {
+              "value": 9,
+              "label": "9",
+              "label_de": "9"
+            },
+            {
+              "value": 10,
+              "label": "10: very patient",
+              "label_de": "10: sehr geduldig"
+            }
+          ],
+          "sn": 0
+        }
+      ],
+      "sn": 8,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "srg0100": {
+      "question": "srg0100",
+      "name": "srg0100",
+      "label": "[ITEMBAT] For each of the following statements, please indicate on how you personally assess in comparison with other people . There are no right or wrong answers , you simply respond spontaneously. [NCS]How much do the following statements apply to you? Please answer using the following scale. The value 1 means 'Not at all true'. The value 5 means 'Completely true'. With the values in between you can grade your opinion.",
+      "label_de": "[ITEMBAT] [IF age >=16 Jahre] Geben Sie bitte bei jeder der folgenden Aussagen an, wie Sie sich persoenlich im Vergleich zu anderen Menschen einschaetzen. Es gibt dabei keine richtigen und falschen Antworten, antworten Sie einfach spontan. [NCS]Wie sehr treffen die folgenden Aussagen auf Sie zu? [IF age >=10 und <=15 Jahre] Bitte gib fuer jede der folgenden Aussagen an, wie Du Dich im Vergleich zu anderen Menschen einschaetzt. Es gibt dabei keine richtigen und falschen Antworten, antworte einfach spontan. [NCS] Wie sehr treffen die folgenden Aussagen auf Dich zu?",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] For each of the following statements, please indicate on how you personally assess in comparison with other people . There are no right or wrong answers , you simply respond spontaneously. [NCS]How much do the following statements apply to you? Please answer using the following scale. The value 1 means 'Not at all true'. The value 5 means 'Completely true'. With the values in between you can grade your opinion.",
+          "text_de": "[ITEMBAT] [IF age >=16 Jahre] Geben Sie bitte bei jeder der folgenden Aussagen an, wie Sie sich persoenlich im Vergleich zu anderen Menschen einschaetzen. Es gibt dabei keine richtigen und falschen Antworten, antworten Sie einfach spontan. [NCS]Wie sehr treffen die folgenden Aussagen auf Sie zu? [IF age >=10 und <=15 Jahre] Bitte gib fuer jede der folgenden Aussagen an, wie Du Dich im Vergleich zu anderen Menschen einschaetzt. Es gibt dabei keine richtigen und falschen Antworten, antworte einfach spontan. [NCS] Wie sehr treffen die folgenden Aussagen auf Dich zu?",
+          "description": "Source: Adapted from: Fleckenstein, J., Schmidt, F. T. C., & Moeller, J. (2014). Wer hat Biss? Beharrlichkeit und bestaendiges Interesse von Lehramtsstudierenden. Eine deutsche Adaptation der 12-Item Grit Scale (No. 61; Psychologie in Erziehung Und Unterricht, pp. 281-286). [[URL link]](http://dx.doi.org/10.2378/peu2014.art22d)",
+          "description_de": "Source: Adapted from: Fleckenstein, J., Schmidt, F. T. C., & Moeller, J. (2014). Wer hat Biss? Beharrlichkeit und bestaendiges Interesse von Lehramtsstudierenden. Eine deutsche Adaptation der 12-Item Grit Scale (No. 61; Psychologie in Erziehung Und Unterricht, pp. 281-286). [[URL link]](http://dx.doi.org/10.2378/peu2014.art22d)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & (age0110>=10)",
+          "concept": "srg0100",
+          "scale": "txt",
+          "number": "32",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "New ideas and projects sometimes distract me from previous ones.",
+          "text_de": "Neue Ideen und Aufgaben halten mich manchmal von vorherigen Aufgaben ab.",
+          "description": "Source: Adapted from: Fleckenstein, J., Schmidt, F. T. C., & Moeller, J. (2014). Wer hat Biss? Beharrlichkeit und bestaendiges Interesse von Lehramtsstudierenden. Eine deutsche Adaptation der 12-Item Grit Scale (No. 61; Psychologie in Erziehung Und Unterricht, pp. 281-286). [[URL link]](http://dx.doi.org/10.2378/peu2014.art22d)",
+          "description_de": "Source: Adapted from: Fleckenstein, J., Schmidt, F. T. C., & Moeller, J. (2014). Wer hat Biss? Beharrlichkeit und bestaendiges Interesse von Lehramtsstudierenden. Eine deutsche Adaptation der 12-Item Grit Scale (No. 61; Psychologie in Erziehung Und Unterricht, pp. 281-286). [[URL link]](http://dx.doi.org/10.2378/peu2014.art22d)",
+          "concept": "srg0100",
+          "scale": "cat",
+          "number": "33",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: very much",
+              "label_de": "5: trifft voellig zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "I often set a goal but later choose to pursue a different one.",
+          "text_de": "Ich nehme mir oft etwas vor, entscheide mich dann aber spaeter doch, etwas anderes zu machen.",
+          "description": "Source: Adapted from: Fleckenstein, J., Schmidt, F. T. C., & Moeller, J. (2014). Wer hat Biss? Beharrlichkeit und bestaendiges Interesse von Lehramtsstudierenden. Eine deutsche Adaptation der 12-Item Grit Scale (No. 61; Psychologie in Erziehung Und Unterricht, pp. 281-286). [[URL link]](http://dx.doi.org/10.2378/peu2014.art22d)",
+          "description_de": "Source: Adapted from: Fleckenstein, J., Schmidt, F. T. C., & Moeller, J. (2014). Wer hat Biss? Beharrlichkeit und bestaendiges Interesse von Lehramtsstudierenden. Eine deutsche Adaptation der 12-Item Grit Scale (No. 61; Psychologie in Erziehung Und Unterricht, pp. 281-286). [[URL link]](http://dx.doi.org/10.2378/peu2014.art22d)",
+          "concept": "srg0100",
+          "scale": "cat",
+          "number": "34",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: very much",
+              "label_de": "5: trifft voellig zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I am constantly interested in something new.",
+          "text_de": "Ich interessiere mich staendig fuer etwas Neues.",
+          "description": "Source: Adapted from: Fleckenstein, J., Schmidt, F. T. C., & Moeller, J. (2014). Wer hat Biss? Beharrlichkeit und bestaendiges Interesse von Lehramtsstudierenden. Eine deutsche Adaptation der 12-Item Grit Scale (No. 61; Psychologie in Erziehung Und Unterricht, pp. 281-286). [[URL link]](http://dx.doi.org/10.2378/peu2014.art22d)",
+          "description_de": "Source: Adapted from: Fleckenstein, J., Schmidt, F. T. C., & Moeller, J. (2014). Wer hat Biss? Beharrlichkeit und bestaendiges Interesse von Lehramtsstudierenden. Eine deutsche Adaptation der 12-Item Grit Scale (No. 61; Psychologie in Erziehung Und Unterricht, pp. 281-286). [[URL link]](http://dx.doi.org/10.2378/peu2014.art22d)",
+          "concept": "srg0100",
+          "scale": "cat",
+          "number": "35",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: very much",
+              "label_de": "5: trifft voellig zu"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "I do certain things that are bad for me, if they are fun.",
+          "text_de": "Ich tue manchmal Dinge, die mir Spass machen, auch wenn sie schlecht fuer mich sind.",
+          "description": "Source: Adapted from: Bertrams, A., & Dickhaeuser, O. (2009). Messung dispositioneller Selbstkontroll-Kapazitaet: Eine deutsche Adaptation der Kurzform der Self-Control Scale (SCS-K-D). Diagnostica, 55(1), 2-10. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.2)",
+          "description_de": "Source: Adapted from: Bertrams, A., & Dickhaeuser, O. (2009). Messung dispositioneller Selbstkontroll-Kapazitaet: Eine deutsche Adaptation der Kurzform der Self-Control Scale (SCS-K-D). Diagnostica, 55(1), 2-10. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.2)",
+          "concept": "srg0100",
+          "scale": "cat",
+          "number": "36",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: very much",
+              "label_de": "5: trifft voellig zu"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "Pleasure and fun sometimes keep me from getting work done.",
+          "text_de": "Angenehme Dinge, Vergnuegen oder Spass hindern mich manchmal daran, meine Arbeit zu machen.",
+          "description": "Source: Adapted from: Bertrams, A., & Dickhaeuser, O. (2009). Messung dispositioneller Selbstkontroll-Kapazitaet: Eine deutsche Adaptation der Kurzform der Self-Control Scale (SCS-K-D). Diagnostica, 55(1), 2-10. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.2)",
+          "description_de": "Source: Adapted from: Bertrams, A., & Dickhaeuser, O. (2009). Messung dispositioneller Selbstkontroll-Kapazitaet: Eine deutsche Adaptation der Kurzform der Self-Control Scale (SCS-K-D). Diagnostica, 55(1), 2-10. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.2)",
+          "concept": "srg0100",
+          "scale": "cat",
+          "number": "37",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: very much",
+              "label_de": "5: trifft voellig zu"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "I wish I had more self-discipline.",
+          "text_de": "Ich wuenschte, ich haette mehr Selbstdisziplin.",
+          "description": "Source: Adapted from: Bertrams, A., & Dickhaeuser, O. (2009). Messung dispositioneller Selbstkontroll-Kapazitaet: Eine deutsche Adaptation der Kurzform der Self-Control Scale (SCS-K-D). Diagnostica, 55(1), 2-10. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.2)",
+          "description_de": "Source: Adapted from: Bertrams, A., & Dickhaeuser, O. (2009). Messung dispositioneller Selbstkontroll-Kapazitaet: Eine deutsche Adaptation der Kurzform der Self-Control Scale (SCS-K-D). Diagnostica, 55(1), 2-10. [[URL link]](https://doi.org/10.1026/0012-1924.55.1.2)",
+          "concept": "srg0100",
+          "scale": "cat",
+          "number": "38",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1: not at all",
+              "label_de": "1: trifft ueberhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2",
+              "label_de": "2"
+            },
+            {
+              "value": 3,
+              "label": "3",
+              "label_de": "3"
+            },
+            {
+              "value": 4,
+              "label": "4",
+              "label_de": "4"
+            },
+            {
+              "value": 5,
+              "label": "5: very much",
+              "label_de": "5: trifft voellig zu"
+            }
+          ],
+          "sn": 6
+        }
+      ],
+      "sn": 9,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "gls0100": {
+      "question": "gls0100",
+      "name": "gls0100",
+      "label": "[ITEMBAT] Finally, we would like to know how satisfied you are with your life in general. Below are some statements about this that you may agree or disagree with.",
+      "label_de": "[IF age >= 16 ] Nun wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Wie sehr stimmen Sie den folgenden Aussagen zu?",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] Finally, we would like to know how satisfied you are with your life in general. Below are some statements about this that you may agree or disagree with.",
+          "text_de": "[IF age >= 16 ] Nun wuerden wir gerne wissen, wie zufrieden Sie ganz allgemein mit Ihrem Leben sind. Wie sehr stimmen Sie den folgenden Aussagen zu?",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=16",
+          "concept": "gls0100",
+          "scale": "txt",
+          "number": "39",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "In most ways my life is close to my ideal.",
+          "text_de": "In den meisten Punkten ist mein Leben meinem Ideal nahe.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "40",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "The conditions of my life are excellent.",
+          "text_de": "Meine Lebensbedingungen sind hervorragend.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "41",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I am satisfied with my life.",
+          "text_de": "Ich bin zufrieden mit meinem Leben.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "42",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "So far I have gotten the important things I want in life.",
+          "text_de": "Ich habe bisher die wichtigen Dinge, die ich mir vom Leben wuensche, auch bekommen.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "43",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "If I could live my life over, I would change almost nothing.",
+          "text_de": "Wenn ich mein Leben noch einmal leben koennte, wuerde ich fast nichts aendern.",
+          "description": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "description_de": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75. [[URL link]](https://doi.org/10.1207/s15327752jpa4901_13)",
+          "concept": "gls0100",
+          "scale": "cat",
+          "number": "44",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 5
+        }
+      ],
+      "sn": 10,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "gls0600": {
+      "question": "gls0600",
+      "name": "gls0600",
+      "label": "[ITEMBAT] Finally, we would like to know how satisfied you are with your life in general. Here are a few statements. For each statement, please tell us how strongly you agree.",
+      "label_de": "[IF age <= 15 ] Nun wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Wie sehr stimmst Du den folgenden Aussagen zu?",
+      "items": [
+        {
+          "item": "0",
+          "text": "[ITEMBAT] Finally, we would like to know how satisfied you are with your life in general. Here are a few statements. For each statement, please tell us how strongly you agree.",
+          "text_de": "[IF age <= 15 ] Nun wuerden wir gerne wissen, wie zufrieden Du ganz allgemein mit Deinem Leben bist. Wie sehr stimmst Du den folgenden Aussagen zu?",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "filter": "(inlist(ptyp,1,2,200)) & age0110>=10 & age0110<=15",
+          "concept": "gls0600",
+          "scale": "txt",
+          "number": "45",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "In most ways, my life is close to the way I would want it to be.",
+          "text_de": "Im Grossen und Ganzen ist mein Leben so wie ich es mir wuensche.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "46",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "The things in my life are excellent.",
+          "text_de": "Mein Leben ist grossartig.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "47",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I am happy with my life.",
+          "text_de": "Ich bin mit meinem Leben gluecklich.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "48",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "So far, I have gotten the important things I want in life.",
+          "text_de": "Ich habe bisher die wichtigen Dinge, die ich mir vom Leben wuensche, auch bekommen.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "49",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "If I could live my life over, I would have it the same way.",
+          "text_de": "Wenn ich mein Leben noch einmal leben koennte, wuerde ich es mir genauso wuenschen.",
+          "description": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "description_de": "Source: Adapted from: Gadermann, A. M., Schonert-Reichl, K. A., & Zumbo, B. D. (2010). Investigating Validity Evidence of the Satisfaction with Life Scale Adapted for Children. Social Indicators Research, 96(2), 229-247. [[URL link]](https://doi.org/10.1007/s11205-009-9474-1)",
+          "concept": "gls0600",
+          "scale": "cat",
+          "number": "50",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: strong rejection",
+              "label_de": "1: starke Ablehnung"
+            },
+            {
+              "value": 2,
+              "label": "2: rather rejection",
+              "label_de": "2: leichte Ablehnung"
+            },
+            {
+              "value": 3,
+              "label": "3: neither rejection nor agreement",
+              "label_de": "3: weder Ablehnung noch Zustimmung"
+            },
+            {
+              "value": 4,
+              "label": "4: rather agreement",
+              "label_de": "4: leichte Zustimmung"
+            },
+            {
+              "value": 5,
+              "label": "5: strong agreement",
+              "label_de": "5: starke Zustimmung"
+            }
+          ],
+          "sn": 5
+        }
+      ],
+      "sn": 11,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "cis0100": {
+      "question": "cis0100",
+      "name": "cis0100",
+      "label": "Various types of behavior that people can use to respond to difficult, critical, or challenging events are listed below. Please indicate how well these statements describe how you deal with such events.",
+      "label_de": "Im Folgenden werden verschiedene Verhaltensweisen aufgelistet, mit denen Menschen auf schwierige, kritische oder herausfordernde Ereignisse reagieren koennen. Bitte geben Sie an, wie gut diese Aussagen beschreiben, wie Sie mit solchen Ereignissen umgehen.",
+      "items": [
+        {
+          "item": "0",
+          "text": "Various types of behavior that people can use to respond to difficult, critical, or challenging events are listed below. Please indicate how well these statements describe how you deal with such events.",
+          "text_de": "Im Folgenden werden verschiedene Verhaltensweisen aufgelistet, mit denen Menschen auf schwierige, kritische oder herausfordernde Ereignisse reagieren koennen. Bitte geben Sie an, wie gut diese Aussagen beschreiben, wie Sie mit solchen Ereignissen umgehen.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "filter": "(inlist(ptyp,1,2,110,120,200,300,400,500,600)) & age0110>=16",
+          "concept": "cis0100",
+          "scale": "txt",
+          "number": "51",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "I think about the event and learn from my mistakes.",
+          "text_de": "Ich denke ueber das Ereignis nach und lerne aus meinen Fehlern.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "52",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "I worry about what I should do.",
+          "text_de": "Ich sorge mich darum, was ich als Naechstes tun werde.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "53",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "I visit a friend.",
+          "text_de": "Ich besuche eine*n Freund*in.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "54",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "I take corrective action immediately.",
+          "text_de": "Ich leite sofort Massnahmen zur Korrektur ein.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "55",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "I blame myself for not knowing what to do.",
+          "text_de": "Ich gebe mir die Schuld dafuer, dass ich nicht weiss, was zu tun ist.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "56",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "I buy myself something.",
+          "text_de": "Ich kaufe mir etwas.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "57",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "I try to gain control of the situation.",
+          "text_de": "Ich versuche, die Kontrolle ueber die Situation zu erlangen.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "58",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "I'm afraid of not being able to cope with the situation.",
+          "text_de": "Ich habe Angst, nicht mit der Situation fertig zu werden.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "59",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "I go out for a snack or meal.",
+          "text_de": "Ich gehe essen.",
+          "description": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "description_de": "Source: Adapted from: Endler, N. S., & Parker, J. D. A. (1999). Coping Inventory Stressful Situations (CISS): Manual. Multi-Health Systems. [[URL link]](https://www.testzentrale.de/shop/coping-inventar-zum-umgang-mit-stress-situationen.html#1+1)",
+          "concept": "cis0100",
+          "scale": "cat",
+          "number": "60",
+          "answers": [
+            {
+              "value": -85,
+              "label": "-85: information not evaluable",
+              "label_de": "-85: nicht auswertbar"
+            },
+            {
+              "value": 1,
+              "label": "1: does not apply at all",
+              "label_de": "1: trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly does not apply",
+              "label_de": "2: trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "3: not sure",
+              "label_de": "3: nicht sicher"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly applies",
+              "label_de": "4: trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "5: totally applies",
+              "label_de": "5: trifft genau zu"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 12,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    },
+    "svk0100": {
+      "question": "svk0100",
+      "name": "svk0100",
+      "label": "This is about how you handle situations that put you under pressure. When other kids put pressure on me and I'm very excited, then...",
+      "label_de": "Hier geht es darum, wie  Du mit Situationen umgehst, die Dich unter Druck setzen. Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann...",
+      "items": [
+        {
+          "item": "0",
+          "text": "This is about how you handle situations that put you under pressure. When other kids put pressure on me and I'm very excited, then...",
+          "text_de": "Hier geht es darum, wie  Du mit Situationen umgehst, die Dich unter Druck setzen. Wenn mich andere Kinder unter Druck setzen und ich sehr aufgeregt bin, dann...",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "filter": "(inlist(ptyp,1,2,200)) & age0110>=10 & age0110<=15",
+          "concept": "svk0100",
+          "scale": "txt",
+          "number": "61",
+          "sn": 0
+        },
+        {
+          "item": "1",
+          "text": "... I make a plan on how to solve the problem.",
+          "text_de": "... mache ich mir einen Plan, wie ich das Problem loesen kann.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "62",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 1
+        },
+        {
+          "item": "2",
+          "text": "... I keep thinking about the situation over and over again.",
+          "text_de": "... geht mir die Situation immer wieder durch den Kopf.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "63",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 2
+        },
+        {
+          "item": "3",
+          "text": "... I read something that I enjoy.",
+          "text_de": "... lese ich etwas, was mir Spass macht.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "64",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 3
+        },
+        {
+          "item": "4",
+          "text": "... I try to figure out what the problem is.",
+          "text_de": "... versuche ich herauszufinden, was das Problem ist.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "65",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 4
+        },
+        {
+          "item": "5",
+          "text": "... everything I do seems meaningless to me.",
+          "text_de": "... kommt mir alles sinnlos vor, was ich tue.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "66",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 5
+        },
+        {
+          "item": "6",
+          "text": "... I play something.",
+          "text_de": "... spiele ich etwas.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "67",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 6
+        },
+        {
+          "item": "7",
+          "text": "... I think about what I can do.",
+          "text_de": "... ueberlege ich, was ich tun kann.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "68",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 7
+        },
+        {
+          "item": "8",
+          "text": "... I'd prefer to avoid it.",
+          "text_de": "... moechte ich mich am liebsten davor druecken.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "69",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 8
+        },
+        {
+          "item": "9",
+          "text": "... I make myself really comfortable first.",
+          "text_de": "... mache ich es mir erst mal so richtig gemuetlich.",
+          "description": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "description_de": "Source: Adapted from: Hampel, P., Petermann, F., & Dickow, B. (1997). Stressverarbeitungsbogen von Janke und Erdmann angepasst fuer Kinder und Jugendliche (SVF-KJ). Hogrefe. [[URL link]](https://www.testzentrale.de/shop/stressverarbeitungsfragebogen-von-janke-und-erdmann-angepasst-fuer-kinder-und-jugendliche.html#1+1)",
+          "concept": "svk0100",
+          "scale": "cat",
+          "number": "70",
+          "answers": [
+            {
+              "value": -81,
+              "label": "-81: does not apply: can't read yet",
+              "label_de": "-81: Trifft nicht zu: Kann noch nicht lesen"
+            },
+            {
+              "value": 1,
+              "label": "1: definitely not",
+              "label_de": "1: auf keinen Fall"
+            },
+            {
+              "value": 2,
+              "label": "2: mostly no",
+              "label_de": "2: eher nein"
+            },
+            {
+              "value": 3,
+              "label": "3: maybe",
+              "label_de": "3: vielleicht"
+            },
+            {
+              "value": 4,
+              "label": "4: mostly yes",
+              "label_de": "4: eher ja"
+            },
+            {
+              "value": 5,
+              "label": "5: definitely",
+              "label_de": "5: auf jeden Fall"
+            }
+          ],
+          "sn": 9
+        }
+      ],
+      "sn": 13,
+      "instrument": "wid7_F2F4_module15",
+      "study": "twinlife"
+    }
+  }
+}
