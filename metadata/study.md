@@ -17,7 +17,8 @@ config:
     Prof. Dr. Frank M. Spinath (<f.spinath@mx.uni-saarland.de>)
 * **URL:** [https://www.twin-life.de/documentation/](https://www.twin-life.de/documentation/)
 
-Please cite both the dataset (Diewald et al., 2023: TwinLife. GESIS, Cologne. ZA6701 Data file Version 7.1.0, [https://doi.org/10.4232/1.14186](https://doi.org/10.4232/1.14186)) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
+Please cite both the dataset (Diewald et al., 2024: TwinLife. GESIS, Cologne. ZA6701 Data file Version 8.0.0, [https://doi.org/10.4232/1.14331](https://doi.org/10.4232/1.14331)) and the reference paper (Hahn et al., 2016: [https://doi.org/10.1017/thg.2016.76](https://doi.org/10.1017/thg.2016.76)).
+
 
 ## Study info
 
@@ -346,6 +347,7 @@ people with the same date of birth lived in the same household. Then, it was che
 **Mode of Data Collection:** 
 *Face-to-Face data collection:* Household interviews with the family via three different interview modes (CAPI, CASI, Paper-and-Pencil) plus cognitive tests, scans/photos of certificates and children's health record books.
 *CATI data collection:* Telephone interview with one family member (from second CATI wave onwards; before: telephone interview with each family member above the age of 10 that participated in the preceding Face-to-Face wave)
+* CAPI-by-Phone data collection:* Due to the pandemic, a new survey mode was introduced in F2F4. In contrast to CATI data collection, the telephone contact was not made by the telephone studio, but by the interviewers from the previous face-to-face interviews.
  
 **Survey institute:** TNS Infratest / Kantar TNS (first Face-to-Face household survey, parts of the first telephone survey); infas Institut für angewandte Sozialwissenschaft 
 (parts of the first telephone survey, second Face-to-Face household survey and subsequent survey waves) 
@@ -372,9 +374,17 @@ data collection 5 (F2F 3a) 		Nov 26, 2018 to July 06, 2019
 
 data collection 5 (F2F 3b) 		Sep 16, 2019 to June 06, 2020
 
-data collection 6 (CATI 3a)		Oct 18, 2019 to April, 2020	
+data collection 6 (CATI 3a)		Oct 18, 2019 to April 26, 2020	
 	
 data collection 6 (CATI 3b)		Feb 18, 2021 to Aug 01, 2021
+
+data collection 7 (F2F 4a) 		Nov 30, 2020 to April 20, 2021
+
+data collection 7 (F2F 4b) 		Nov 29, 2021 to April 27, 2022
+
+data collection 8 (CATI 4a)		Dec 08, 2021 to April 11, 2022	
+	
+data collection 8 (CATI 4b)		Nov 21, 2022 to May 08, 2023
 
 COVID-19 Supplementary Survey (CoV 1)		Jul 24, 2020 to Nov 15, 2020
 
@@ -385,11 +395,11 @@ COVID-19 Supplementary Survey (CoV 2b) 		Feb 18, 2021 to Aug 01, 2021
 COVID-19 Supplementary Survey (CoV 3)		Sep 25, 2021 to Dec 01, 2021
 
 
-## Scientific use files (current version: v7-0-0)
+## Scientific use files (current version: v8-0-0)
 
 ### Data description
 
-For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method reports of the first four data collections see the TwinLife Technical Reports 05, 09, 10, and 12 at 
+For a description of the structure of the TwinLife sample see the TwinLife Technical Report 03, for the method reports of the data collections see the TwinLife Technical Reports at 
 [https://www.twin-life.de/twinlife-series](https://www.twin-life.de/twinlife-series).
 
 
@@ -411,6 +421,8 @@ For a description of the structure of the TwinLife sample see the TwinLife Techn
 
 - **Survey weights (ZA6701_weights_v$)**: A data file containing the survey weights (design, non-response, and panel weights).
 
+- **Children of twins (ZA6701_cot_v$)**: The dataset contains information on the children of the twins interviewed in TwinLife. The information was collected from the twins themselves during the fourth face-to-face interview (F2F4, wid=7) as part of the CAWI interview.
+
 
 All data is provided with English and German variable descriptions. In Stata, these languages are included in one data set while in SPSS, these are separate data files. Variables and instruments are documented at http://www.paneldata.org. Detailed information on the study and special features can be found at https://www.twin-life.de/documentation/. For questions regarding the content of the data, please contact <data@twin-life.de>. 
 
@@ -419,20 +431,23 @@ All data is provided with English and German variable descriptions. In Stata, th
 
 Number of Units:
 
-- 18,108 individuals with at least one personal interview
+- 18,311 individuals with at least one personal interview
 - 4096 families
  
 Number of Variables:
 
-- 2,527 (F2F 1 [wid1] person-format)
-- 619 (CATI 1 [wid2] person-format)
-- 2,362 (F2F 2 [wid3] person-format)
-- 132 (CATI 2 [wid4] person-format)
-- 1,351 (F2F 3 [wid5] person-format)
-- 238 (CATI 3 [wid6] person-format)
-- 127 (CoV 1 [cov1/wid10] person-format)
-- 137 (CoV 2 [cov2/wid11] person-format)
-- 134 (CoV 3 [cov3/wid12] person-format)
+- 2,638 (F2F 1 [wid1] person-format)
+- 620 (CATI 1 [wid2] person-format)
+- 2,470 (F2F 2 [wid3] person-format)
+- 135 (CATI 2 [wid4] person-format)
+- 1,364 (F2F 3 [wid5] person-format)
+- 240 (CATI 3 [wid6] person-format)
+- 985 (F2F 4 [wid7] person-format)
+- 254 (CATI 4 [wid8] person-format)
+- 128 (CoV 1 [cov1/wid10] person-format)
+- 144 (CoV 2 [cov2/wid11] person-format)
+- 135 (CoV 3 [cov3/wid12] person-format)
+- 103 (CoT person-child-format)
 
 
 ### Data access 
